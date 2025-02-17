@@ -56,6 +56,7 @@ KCE-SWBUG-4250,16.6 - SWL M - DOB is inoperative in SWL Evacuation floor if lock
 KCE-SWBUG-4260,16.6 - FID D XD4 Buzzer output (FRD4_Pin 12) function doesn't works when FID input is activated from OPT.,Vivek,"KCE 16.6.0.42 (LD: 16.6.0.8, GCD: 16.6.36)",2024-05-12
 KCE-SWBUG-4281,KCE PDX  _ Drive Software Version mismatch fault code #1155 was activated After NEW PDX SW(24.20) Updated,ARUN KUMAR,"LD: 16.6.0.8,  GCD:16.6.36, PDX: 24.20",2024-05-16
 KCE-SWBUG-4297,Site Manager - DOP's Software information displayed like misaligned view,Vivek,"16.6.0.52 (LD: 16.6.0.10 , GCD: 16.6.38)",2024-05-21
+KCE-SWBUG-4305,16.6 LD - Mode indication - Out of Service Indication is SHOWN in Display even when RDF Switch TURNED OFF after Running in Correction Drive,Jagadeesh,"16.6.0.52 (LD 16.6.0.10, GCD 16.6.38)",2024-05-15
 KCE-SWBUG-4326,"16.6 - ""Out of service"" indication is not working in AVDMAT3 display when RDF mode or 263 is enabled when 1188 set as 37 marine English.",Badaganti Sai Prasad,16.6.0.52,2024-05-28
 KCE-SWBUG-4328,16.6 - Gangway Mode- Gangway mode indication is not shown in car display,Shrividhya,"KCE 16.6.0.52 (LD: 16.6.0.10, GCD: 16.6.38)",2024-05-29
 KCE-SWBUG-4342,4.5 - Service Tool - Typo in Elevator Parameter 1588 ,Suryanarayanan,4.5.201.6686,2024-06-04
@@ -79,6 +80,7 @@ KCE-SWBUG-4522,16.6 CDM - Elevator is staying in first floor when WSC is activat
 KCE-SWBUG-4528,Site Manager picks only disconnected devices for particular DOP Configuration file update,Vivek,"KCE 16.6.2.5 (LD 16.6.1.4, GCD 16.6.50)",2024-07-28
 KCE-SWBUG-4536,16.6 - CDM - Lift 2 30 secs timer is not cancelling even after CDM call is registered to Lift 1.,Badaganti Sai Prasad,"16.6.2.7(16.6.1.5,16.6.50)",2024-07-30
 KCE-SWBUG-4540,"16.6 - "" Evacuate car"" message is not shown in display if SWL mode is activated during ""Gangway"".",Badaganti Sai Prasad,"16.6.2.7(LD-16.6.1.5, GCD-16.6.50)",2024-07-31
+KCE-SWBUG-4594,FPO mode Activation is not working with E-Link scheduler Tool,Jagadeesh,"KCE 16.6.2.5 (LD 16.6.1.4, GCD 16.6.50)",2024-08-18
 KCE-SWBUG-4595,16.6 LD - PIO - Mechanical Gong Output LED Not turning OFF after triggering,Suryanarayanan,"KCE 16.6.2.10 (LD: 16.6.1.6, GCD: 16.6.50)",2024-08-19
 KCE-SWBUG-4625,16.6 - AES(SHABBAT)mode indication still exists in DG when AES cycle is completed.,Vivek,"16.6.2.14(LD: 16.6.1.7, GCD: 16.6.52)",2024-08-25
 KCE-SWBUG-4654,KCESAFETY - NHR - Continuous noise from COP when Alternative reset failed due to C7(close) < 1 sec,Harini Sri,,2024-09-03
@@ -86,12 +88,14 @@ KCE-SWBUG-4658,NHR - CPU not trying to retract the SLD Based on Parameter ID1500
 KCE-SWBUG-4672,16.6 - COP Display operation stopped if a special mode is activated before display is booted up completely after roll call.,Badaganti Sai Prasad,"KCE 16.6.2.17(LD: 16.6.1.9, GCD: 16.6.53)",2024-09-05
 KCE-SWBUG-4679,16.6 Sitemanager - Space occurs between the file name and file format when uploading the configuration files in SFS.,Vivek,"KCE 16.6.2.17(LD: 16.6.1.9, GCD: 16.6.53)",2024-09-09
 KCE-SWBUG-4727,PESSRAL 4.2 - SSA Traffic Lights - Pit and Car safety indications are not working as expected during Inspection modes,Harini Sri,P4.2-TR30 - CPU 16.8.0.7,2024-09-16
+KCE-SWBUG-4729,FEB S -Call are Not Registered Through FOB G21 Board,Jagadeesh,"KCE 16.6.2.17(LD: 16.6.1.9, GCD: 16.6.57)",
 KCE-SWBUG-4736,PESSRAL 4.2 - NHR - Alternative Reset Failed - FC 2413 cleared when S1 is open/ C3 Open after Sequence 13,Harini Sri,NHR - PESSRAL4.2-TR30,2024-09-18
 KCE-SWBUG-4774,"16.6 - CPU & MUL - Shaft Side Index value shown wrongly as ""2B"" in CAR LON Network after Roll Call.",Suryanarayanan,KCE16.6.2.23 ITER#2 (LD 16.6.1.9 & GCD 16.6.57),2024-09-30
 KCE-SWBUG-4792,16.8 - KDM - Few values are not updated correctly in Drive parameters (160 to 163),Badaganti Sai Prasad,"16.8.0.35(LD: 16.8.0.8, GCD: 16.8.26)",2024-10-02
 KCE-SWBUG-4840,16.8 - Wrong info is shown in fault code data in Promanager and AMC,Badaganti Sai Prasad,"KCE16.8.0.56(LD: 16.8.0.11, GCD: 16.8.33)",2024-10-21
 KCE-SWBUG-4849,"Remote Software Update Failed, because of ""SFS Error""",Harini Sri,,2024-10-22
 KCE-SWBUG-4856,16.8 - Storm parked floor operation is not work after FPD activation ,Shrividhya,"KCE 16.8.0.56(LD: 16.8.0.11, GCD: 16.8.33)",2024-10-27
+KCE-SWBUG-4858,16.8 - SRE - After Enabling SRE the lift does not move to the nearest UNLOCKED Floor,Jagadeesh,"KCE 16.8.0.56(LD: 16.8.0.11, GCD: 16.8.33)",
 KCE-SWBUG-4862,16.8 - Drive Parameter Information (160 to 163) is not shown in both AMC and Pro manager.,Badaganti Sai Prasad,"16.8.0.56(LD: 16.8.0.11, GCD: 16.8.33)",2024-10-27
 KCE-SWBUG-4866,"16.8 - By deactivating Storm Operation or high wind operation, the elevator does not return to normal speed immediately during running condition",Shrividhya,"KCE 16.8.0.56(LD: 16.8.0.11, GCD: 16.8.33)",2024-10-28
 KCE-SWBUG-4872,16.8 - BSW - The source and destination calls are canceled when HWO is activated ,Vivek,"KCE 16.8.0.56(LD: 16.8.0.11, GCD: 16.8.33)",2024-10-28
@@ -107,6 +111,7 @@ KCE-SWBUG-4959,"DRIVES - DSM value 61(drive mode) not changing based on elevator
 KCE-SWBUG-4961,"KCEPDX - After power break ""Non service warning"" information fault activated in PDX drive ",ARUN KUMAR,"KCE 16.8.1.3(LD: 16.8.1.2, GCD: 16.8.38)",2024-11-21
 KCE-SWBUG-4962,16.8 - ELO - DOOR open output (KCEOPT 106 output 8) is not working properly,Badaganti Sai Prasad,"16.8.1.3(LD: 16.8.1.2, GCD: 16.8.38)",2024-11-21
 KCE-SWBUG-4963,"KCEPDX - In PDX drive, the landing calls are get cancelled ",ARUN KUMAR,"KCE 16.8.1.3(LD: 16.8.1.2, GCD: 16.8.38)  and PDX 24.45",2024-11-14
+KCE-SWBUG-4968,16.8 The Emergency call indication is not flashing as per parameter 855 during HEL (Phase 1 and Phase 2),Jagadeesh,"KCE 16.8.1.3(LD: 16.8.1.2, GCD: 16.8.38)",
 KCE-SWBUG-4978,Service Tool - Could not able to connect elevator via AMC With the subcontractor license ,ARUN KUMAR,4.5.219.6840,2024-11-25
 KCE-SWBUG-4992,4.5 - Service Tool - AES Mode Indication NOT Shown in E-Link,Suryanarayanan,"KCE 16.8.2.4(LD: 16.8.2.1, GCD: 16.8.50)",2024-12-01
 KCE-SWBUG-5001,16.8 - AES - KNSMUL Board Shuts OFF power to Buttons & Display when AES is Enabled in HIGH RISE SETUP,Suryanarayanan,"KCE 16.8.2.4(LD: 16.8.2.1, GCD: 16.8.50)",2024-12-02
@@ -114,5 +119,6 @@ KCE-SWBUG-5009,16.8 - Unwanted drive is happening after correction drive when WS
 KCE-SWBUG-5011,SC Redundancy: Network view (β) and core spec (β) is missing in the SM 10.32.1.1,Vivek,"16.8.2.4(LD: 16.8.2.1, GCD: 16.8.50)",2024-12-05
 KCE-SWBUG-5012,SC Redundancy: Unknown fault [1040] generated in the master SC and master GCH ,Vivek,"16.8.2.4(LD: 16.8.2.1, GCD: 16.8.50)",2024-12-05
 KCE-SWBUG-5015,16.8 LD - KCECOBG24 - FRD AU Indication from output XC12:4 is NOT Triggered,Suryanarayanan,"KCE 16.8.2.4(LD: 16.8.2.1, GCD: 16.8.50)",2024-12-08
+KCE-SWBUG-5035,E Link 4.5.9 - In E-Link Workstation manual doesn't open.,Jagadeesh,,2024-12-11
 KCE-SWBUG-5044,"16.8 LD - OPT - When 1461 = 1, Out of Service Indication ""OSI A"" in OPT board is NOT ACTIVATED when Triggered",Suryanarayanan,"KCE 16.8.2.9(LD: 16.8.2.1, GCD: 16.8.54)",2024-12-15
 KCE-SWBUG-5061,16.6 - KCE ACU F: The dual-language functionality does not work during the first announcement in FID/FRD and  HEL Ph/PRL H Mode,Shrividhya,"KCE16.6.3.X(LD: 16.6.2.2, GCD: 16.6.58)",2024-12-18
