@@ -407,6 +407,13 @@
     },
     {
         "TestRunStatus":"INPROGRESS",
+        "ExecutionDate":"2025-02-19",
+        "Document Key":"KCE-TSTRN-3850909",
+        "Name":"FRD AU1 - Phase 1 with KCECOB and KCECEB - Tests not included into TA",
+        "Assigned To":"Shrividhya"
+    },
+    {
+        "TestRunStatus":"INPROGRESS",
         "ExecutionDate":"2025-01-02",
         "Document Key":"KCE-TSTRN-3720417",
         "Name":"Faulty door contact monitoring - special cases",
