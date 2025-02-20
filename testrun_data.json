@@ -330,7 +330,7 @@
     },
     {
         "TestRunStatus":"INPROGRESS",
-        "ExecutionDate":"2025-02-19",
+        "ExecutionDate":"2025-02-20",
         "Document Key":"KCE-TSTRN-3850898",
         "Name":"EBS - Emergency Battery Supply - 4. Battery voltage",
         "Assigned To":"Badaganti Sai Prasad"
@@ -414,7 +414,7 @@
     },
     {
         "TestRunStatus":"INPROGRESS",
-        "ExecutionDate":"2025-02-19",
+        "ExecutionDate":"2025-02-20",
         "Document Key":"KCE-TSTRN-3850909",
         "Name":"FRD AU1 - Phase 1 with KCECOB and KCECEB - Tests not included into TA",
         "Assigned To":"Shrividhya"
@@ -595,8 +595,8 @@
         "Assigned To":"Suryanarayanan"
     },
     {
-        "TestRunStatus":"FAILED",
-        "ExecutionDate":"2025-02-11",
+        "TestRunStatus":"PASSED",
+        "ExecutionDate":"2025-02-20",
         "Document Key":"KCE-TSTRN-3824477",
         "Name":"AMD door operation - SERIAL interface - Door spesific tests - Service buttons",
         "Assigned To":"Suryanarayanan"
