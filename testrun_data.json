@@ -190,6 +190,13 @@
     },
     {
         "TestRunStatus":"PASSED",
+        "ExecutionDate":"2025-02-19",
+        "Document Key":"KCE-TSTRN-3580861",
+        "Name":"DOB - Door Open Button - Reopen Times - Covered by TA",
+        "Assigned To":"Dinesh"
+    },
+    {
+        "TestRunStatus":"PASSED",
         "ExecutionDate":"2025-02-18",
         "Document Key":"KCE-TSTRN-3580821",
         "Name":"DOB - Door Open Button - Reopen Times - Tests not included into TA",
