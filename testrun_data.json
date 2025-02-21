@@ -378,6 +378,13 @@
         "Assigned To":"Shrividhya"
     },
     {
+        "TestRunStatus":"INPROGRESS",
+        "ExecutionDate":"2025-02-20",
+        "Document Key":"KCE-TSTRN-3850904",
+        "Name":"2. Emergency announcement in ACU - Rescue situation",
+        "Assigned To":"Jagadeesh"
+    },
+    {
         "TestRunStatus":"FAILED",
         "ExecutionDate":"2025-01-02",
         "Document Key":"KCE-TSTRN-3720392",
@@ -439,6 +446,13 @@
         "Document Key":"KCE-TSTRN-3850909",
         "Name":"FRD AU1 - Phase 1 with KCECOB and KCECEB - Tests not included into TA",
         "Assigned To":"Shrividhya"
+    },
+    {
+        "TestRunStatus":"INPROGRESS",
+        "ExecutionDate":"2025-02-20",
+        "Document Key":"KCE-TSTRN-3800379",
+        "Name":"EBD A with ERD device - Emergency Battery Drive - Automatic - Special",
+        "Assigned To":"ARUN KUMAR"
     },
     {
         "TestRunStatus":"INPROGRESS",
@@ -546,6 +560,13 @@
         "Assigned To":"Harini Sri"
     },
     {
+        "TestRunStatus":"PASSED",
+        "ExecutionDate":"2025-02-20",
+        "Document Key":"KCE-TSTRN-3800395",
+        "Name":"14. COPD - Out of inner door zone CFL Active while doors closing",
+        "Assigned To":"Shrividhya"
+    },
+    {
         "TestRunStatus":"FAILED",
         "ExecutionDate":"2025-01-27",
         "Document Key":"KCE-TSTRN-3759935",
@@ -630,8 +651,8 @@
         "Assigned To":"Suryanarayanan"
     },
     {
-        "TestRunStatus":"FAILED",
-        "ExecutionDate":"2025-02-11",
+        "TestRunStatus":"PASSED",
+        "ExecutionDate":"2025-02-20",
         "Document Key":"KCE-TSTRN-3824479",
         "Name":"AMD door operation - SERIAL interface - Close End signal missing situation ",
         "Assigned To":"Suryanarayanan"
@@ -659,7 +680,7 @@
     },
     {
         "TestRunStatus":"PASSED",
-        "ExecutionDate":"2025-02-13",
+        "ExecutionDate":"2025-02-20",
         "Document Key":"KCE-TSTRN-3824483",
         "Name":"AMD door operation - SERIAL interface - Basic door opening",
         "Assigned To":"Suryanarayanan"
