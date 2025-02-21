@@ -64,7 +64,7 @@
     },
     {
         "TestRunStatus":"FAILED",
-        "ExecutionDate":"2025-01-30",
+        "ExecutionDate":"2025-02-21",
         "Document Key":"KCE-TSTRN-3786435",
         "Name":"HAC NA - Acceleration",
         "Assigned To":"Dinesh"
@@ -449,7 +449,7 @@
     },
     {
         "TestRunStatus":"INPROGRESS",
-        "ExecutionDate":"2025-02-20",
+        "ExecutionDate":"2025-02-21",
         "Document Key":"KCE-TSTRN-3800379",
         "Name":"EBD A with ERD device - Emergency Battery Drive - Automatic - Special",
         "Assigned To":"ARUN KUMAR"
