@@ -19,3 +19,4 @@ KCE-SWBUG-5332,"16.8-In EAQ Stuck Moment- ACU announces both ""EAQ Evocation Sta
 KCE-SWBUG-5334,16.8 - In 24/7 Cloud view the EPD (emergency power) mode message is not updated after the power cycle.,Vivek,"16.8.2.32(LD: 16.8.2.6, GCD: 16.8.64)",2025-02-13
 KCE-SWBUG-5345,"16.8 - Sitemanager- The background spelling misspelled like ""bacground"" in the xDOP timed header feature.",Vivek,"16.8.2.32(LD: 16.8.2.6, GCD: 16.8.64)",2025-02-16
 KCE-SWBUG-5350,AMD D10 EVO S - Close End Stuck Fault not Automatically Cleared after Close End Switch is Closed,Suryanarayanan,KCE16.4.92 (LD 16.4.1.11 and GCD 16.4.65) + D10S STMF103 and STML412_EVO_V3.3A,2025-02-17
+KCE-SWBUG-5372,"16.8 - SM- The ""DMADIAG"" visible in both managed & unmanaged devices when after new KCECPUc hardware changed.",Vivek,"16.8.2.32(LD: 16.8.2.6, GCD: 16.8.64)",2025-02-19
