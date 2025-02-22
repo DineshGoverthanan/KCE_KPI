@@ -35,8 +35,8 @@
         "Assigned To":"Priyavalli"
     },
     {
-        "TestRunStatus":"PASSED",
-        "ExecutionDate":"2025-02-17",
+        "TestRunStatus":"FAILED",
+        "ExecutionDate":"2025-02-21",
         "Document Key":"KCE-TSTRN-3852966",
         "Name":"07 KCEKDL16 Motor stator identification",
         "Assigned To":"Priyavalli"
@@ -46,6 +46,34 @@
         "ExecutionDate":"2025-02-12",
         "Document Key":"KCE-TSTRN-3852967",
         "Name":"00. KCEKDL16 Basic - Driving in random call generator",
+        "Assigned To":"Priyavalli"
+    },
+    {
+        "TestRunStatus":"PASSED",
+        "ExecutionDate":"2025-02-21",
+        "Document Key":"KCE-TSTRN-3852968",
+        "Name":"01. KCEKDL16 Basic - RDF Drive",
+        "Assigned To":"Priyavalli"
+    },
+    {
+        "TestRunStatus":"INPROGRESS",
+        "ExecutionDate":"2025-02-21",
+        "Document Key":"KCE-TSTRN-3852969",
+        "Name":"02. KCEKDL16 Basic - Inspection Drive",
+        "Assigned To":"Priyavalli"
+    },
+    {
+        "TestRunStatus":"INPROGRESS",
+        "ExecutionDate":"2025-02-21",
+        "Document Key":"KCE-TSTRN-3853006",
+        "Name":"01. KCEKDL16 UI-test - Drive Software and UI-version",
+        "Assigned To":"Priyavalli"
+    },
+    {
+        "TestRunStatus":"PASSED",
+        "ExecutionDate":"2025-02-21",
+        "Document Key":"KCE-TSTRN-3853007",
+        "Name":"02. KCEKDL16 UI-test - Nameplate",
         "Assigned To":"Priyavalli"
     },
     {
@@ -497,8 +525,8 @@
         "Assigned To":"Priyavalli"
     },
     {
-        "TestRunStatus":"FAILED",
-        "ExecutionDate":"2025-02-13",
+        "TestRunStatus":"PASSED",
+        "ExecutionDate":"2025-02-21",
         "Document Key":"KCE-TSTRN-3800387",
         "Name":"ERD Battery supervision - combination of Auto with Swing door",
         "Assigned To":"Priyavalli"
