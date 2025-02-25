@@ -63,17 +63,24 @@
         "Assigned To":"Priyavalli"
     },
     {
-        "TestRunStatus":"INPROGRESS",
-        "ExecutionDate":"2025-02-21",
+        "TestRunStatus":"FAILED",
+        "ExecutionDate":"2025-02-24",
         "Document Key":"KCE-TSTRN-3853006",
         "Name":"01. KCEKDL16 UI-test - Drive Software and UI-version",
         "Assigned To":"Priyavalli"
     },
     {
-        "TestRunStatus":"PASSED",
-        "ExecutionDate":"2025-02-21",
+        "TestRunStatus":"FAILED",
+        "ExecutionDate":"2025-02-24",
         "Document Key":"KCE-TSTRN-3853007",
         "Name":"02. KCEKDL16 UI-test - Nameplate",
+        "Assigned To":"Priyavalli"
+    },
+    {
+        "TestRunStatus":"INPROGRESS",
+        "ExecutionDate":"2025-02-24",
+        "Document Key":"KCE-TSTRN-3853008",
+        "Name":"03.1 KCEKDL16 UI-test - Drive Signal Monitoring - Part 1",
         "Assigned To":"Priyavalli"
     },
     {
