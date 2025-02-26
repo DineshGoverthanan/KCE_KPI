@@ -63,10 +63,24 @@
         "Assigned To":"Priyavalli"
     },
     {
-        "TestRunStatus":"INPROGRESS",
+        "TestRunStatus":"PASSED",
         "ExecutionDate":"2025-02-25",
         "Document Key":"KCE-TSTRN-3852971",
         "Name":"04. KCEKDL16 Basic - Correction Drive",
+        "Assigned To":"Jagadeesh"
+    },
+    {
+        "TestRunStatus":"PASSED",
+        "ExecutionDate":"2025-02-25",
+        "Document Key":"KCE-TSTRN-3852972",
+        "Name":"05. KCEKDL16 Basic - Relevelling Drive",
+        "Assigned To":"Jagadeesh"
+    },
+    {
+        "TestRunStatus":"INPROGRESS",
+        "ExecutionDate":"2025-02-25",
+        "Document Key":"KCE-TSTRN-3852974",
+        "Name":"07. KCEKDL16 Basic - Advance Door Opening",
         "Assigned To":"Jagadeesh"
     },
     {
@@ -84,8 +98,8 @@
         "Assigned To":"Priyavalli"
     },
     {
-        "TestRunStatus":"INPROGRESS",
-        "ExecutionDate":"2025-02-24",
+        "TestRunStatus":"PASSED",
+        "ExecutionDate":"2025-02-25",
         "Document Key":"KCE-TSTRN-3853008",
         "Name":"03.1 KCEKDL16 UI-test - Drive Signal Monitoring - Part 1",
         "Assigned To":"Priyavalli"
@@ -187,6 +201,20 @@
         "Document Key":"KCE-TSTRN-3720341",
         "Name":"COD operation towards upward direction shaft_3",
         "Assigned To":"Badaganti Sai Prasad"
+    },
+    {
+        "TestRunStatus":"PASSED",
+        "ExecutionDate":"2025-02-25",
+        "Document Key":"KCE-TSTRN-3857058",
+        "Name":"High Wind operation activation when lift standing in avoided floors ",
+        "Assigned To":"Shrividhya"
+    },
+    {
+        "TestRunStatus":"INPROGRESS",
+        "ExecutionDate":"2025-02-25",
+        "Document Key":"KCE-TSTRN-3857059",
+        "Name":"Storm input activation when lift serves the Existing landing calls",
+        "Assigned To":"Shrividhya"
     },
     {
         "TestRunStatus":"PASSED",
@@ -726,5 +754,89 @@
         "Document Key":"KCE-TSTRN-3824483",
         "Name":"AMD door operation - SERIAL interface - Basic door opening",
         "Assigned To":"Suryanarayanan"
+    },
+    {
+        "TestRunStatus":"INPROGRESS",
+        "ExecutionDate":"2025-02-25",
+        "Document Key":"KCE-TSTRN-3857097",
+        "Name":"SNF - Silent Night Feature",
+        "Assigned To":"Shrividhya"
+    },
+    {
+        "TestRunStatus":"INPROGRESS",
+        "ExecutionDate":"2025-02-25",
+        "Document Key":"KCE-TSTRN-3857109",
+        "Name":"CCL - Car Call Registered Light - A-side",
+        "Assigned To":"Shrividhya"
+    },
+    {
+        "TestRunStatus":"INPROGRESS",
+        "ExecutionDate":"2025-02-25",
+        "Document Key":"KCE-TSTRN-3857110",
+        "Name":"CCL - Car Call Registered Light - B-side",
+        "Assigned To":"Shrividhya"
+    },
+    {
+        "TestRunStatus":"PASSED",
+        "ExecutionDate":"2025-02-25",
+        "Document Key":"KCE-TSTRN-3857118",
+        "Name":"Display field selection with parameter - Car display",
+        "Assigned To":"Harini Sri"
+    },
+    {
+        "TestRunStatus":"PASSED",
+        "ExecutionDate":"2025-02-25",
+        "Document Key":"KCE-TSTRN-3857119",
+        "Name":"Display field selection with parameter - Landing display",
+        "Assigned To":"Harini Sri"
+    },
+    {
+        "TestRunStatus":"PASSED",
+        "ExecutionDate":"2025-02-25",
+        "Document Key":"KCE-TSTRN-3857132",
+        "Name":"BMO_Door operation in return floor",
+        "Assigned To":"Vivek"
+    },
+    {
+        "TestRunStatus":"PASSED",
+        "ExecutionDate":"2025-02-25",
+        "Document Key":"KCE-TSTRN-3857133",
+        "Name":"BMO_Door operation in TTC return floor ",
+        "Assigned To":"Vivek"
+    },
+    {
+        "TestRunStatus":"PASSED",
+        "ExecutionDate":"2025-02-25",
+        "Document Key":"KCE-TSTRN-3857134",
+        "Name":"BMO_Indication in special modes",
+        "Assigned To":"Vivek"
+    },
+    {
+        "TestRunStatus":"PASSED",
+        "ExecutionDate":"2025-02-25",
+        "Document Key":"KCE-TSTRN-3857136",
+        "Name":"BMO_Deactivation",
+        "Assigned To":"Vivek"
+    },
+    {
+        "TestRunStatus":"PASSED",
+        "ExecutionDate":"2025-02-25",
+        "Document Key":"KCE-TSTRN-3857137",
+        "Name":"BMO_during power break",
+        "Assigned To":"Vivek"
+    },
+    {
+        "TestRunStatus":"PASSED",
+        "ExecutionDate":"2025-02-25",
+        "Document Key":"KCE-TSTRN-3857138",
+        "Name":"BMO_Special case",
+        "Assigned To":"Vivek"
+    },
+    {
+        "TestRunStatus":"INPROGRESS",
+        "ExecutionDate":"2025-02-25",
+        "Document Key":"KCE-TSTRN-3857164",
+        "Name":"LOC - Locking of Car Calls - From COP - Tests not included into TA ",
+        "Assigned To":"ARUN KUMAR"
     }
 ]
