@@ -85,6 +85,13 @@
     },
     {
         "TestRunStatus":"FAILED",
+        "ExecutionDate":"2025-02-26",
+        "Document Key":"KCE-TSTRN-3852975",
+        "Name":"08.1 KCEKDL16 Basic - Buffer Tests",
+        "Assigned To":"Jagadeesh"
+    },
+    {
+        "TestRunStatus":"FAILED",
         "ExecutionDate":"2025-02-24",
         "Document Key":"KCE-TSTRN-3853006",
         "Name":"01. KCEKDL16 UI-test - Drive Software and UI-version",
@@ -92,7 +99,7 @@
     },
     {
         "TestRunStatus":"FAILED",
-        "ExecutionDate":"2025-02-24",
+        "ExecutionDate":"2025-02-26",
         "Document Key":"KCE-TSTRN-3853007",
         "Name":"02. KCEKDL16 UI-test - Nameplate",
         "Assigned To":"Priyavalli"
@@ -211,7 +218,7 @@
     },
     {
         "TestRunStatus":"INPROGRESS",
-        "ExecutionDate":"2025-02-25",
+        "ExecutionDate":"2025-02-26",
         "Document Key":"KCE-TSTRN-3857059",
         "Name":"Storm input activation when lift serves the Existing landing calls",
         "Assigned To":"Shrividhya"
@@ -849,6 +856,20 @@
     {
         "TestRunStatus":"PASSED",
         "ExecutionDate":"2025-02-26",
+        "Document Key":"KCE-TSTRN-3857175",
+        "Name":"3. Indications in Service Tools",
+        "Assigned To":"Vivek"
+    },
+    {
+        "TestRunStatus":"PASSED",
+        "ExecutionDate":"2025-02-26",
+        "Document Key":"KCE-TSTRN-3857176",
+        "Name":"4. Fireman buzzer in COP status when FRD phase 1",
+        "Assigned To":"Vivek"
+    },
+    {
+        "TestRunStatus":"PASSED",
+        "ExecutionDate":"2025-02-26",
         "Document Key":"KCE-TSTRN-3857179",
         "Name":"23. Remove KCEOPT board: dip 35 from LON network",
         "Assigned To":"Vivek"
@@ -866,5 +887,12 @@
         "Document Key":"KCE-TSTRN-3857181",
         "Name":"27. Check car light status when phase 1",
         "Assigned To":"Vivek"
+    },
+    {
+        "TestRunStatus":"PASSED",
+        "ExecutionDate":"2025-02-26",
+        "Document Key":"KCE-TSTRN-3857024",
+        "Name":"ELO intruder alarm timeout with authorized person",
+        "Assigned To":"Badaganti Sai Prasad"
     }
 ]
