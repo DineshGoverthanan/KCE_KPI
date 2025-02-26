@@ -77,8 +77,8 @@
         "Assigned To":"Jagadeesh"
     },
     {
-        "TestRunStatus":"INPROGRESS",
-        "ExecutionDate":"2025-02-25",
+        "TestRunStatus":"PASSED",
+        "ExecutionDate":"2025-02-26",
         "Document Key":"KCE-TSTRN-3852974",
         "Name":"07. KCEKDL16 Basic - Advance Door Opening",
         "Assigned To":"Jagadeesh"
@@ -791,6 +791,13 @@
         "Assigned To":"Harini Sri"
     },
     {
+        "TestRunStatus":"INPROGRESS",
+        "ExecutionDate":"2025-02-26",
+        "Document Key":"KCE-TSTRN-3857121",
+        "Name":"CRB C - Call Registered Buzzer - Car call + DOB + DCB + DOE",
+        "Assigned To":"Harini Sri"
+    },
+    {
         "TestRunStatus":"PASSED",
         "ExecutionDate":"2025-02-25",
         "Document Key":"KCE-TSTRN-3857132",
@@ -838,5 +845,26 @@
         "Document Key":"KCE-TSTRN-3857164",
         "Name":"LOC - Locking of Car Calls - From COP - Tests not included into TA ",
         "Assigned To":"ARUN KUMAR"
+    },
+    {
+        "TestRunStatus":"PASSED",
+        "ExecutionDate":"2025-02-26",
+        "Document Key":"KCE-TSTRN-3857179",
+        "Name":"23. Remove KCEOPT board: dip 35 from LON network",
+        "Assigned To":"Vivek"
+    },
+    {
+        "TestRunStatus":"PASSED",
+        "ExecutionDate":"2025-02-26",
+        "Document Key":"KCE-TSTRN-3857180",
+        "Name":"24. FRD phase 1 activation when elevator driving in inspection mode ",
+        "Assigned To":"Vivek"
+    },
+    {
+        "TestRunStatus":"PASSED",
+        "ExecutionDate":"2025-02-26",
+        "Document Key":"KCE-TSTRN-3857181",
+        "Name":"27. Check car light status when phase 1",
+        "Assigned To":"Vivek"
     }
 ]
