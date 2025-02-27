@@ -91,6 +91,13 @@
         "Assigned To":"Jagadeesh"
     },
     {
+        "TestRunStatus":"INPROGRESS",
+        "ExecutionDate":"2025-02-26",
+        "Document Key":"KCE-TSTRN-3852976",
+        "Name":"08.2 KCEKDL16 Basic - NTS test",
+        "Assigned To":"Jagadeesh"
+    },
+    {
         "TestRunStatus":"FAILED",
         "ExecutionDate":"2025-02-24",
         "Document Key":"KCE-TSTRN-3853006",
@@ -785,6 +792,13 @@
     },
     {
         "TestRunStatus":"PASSED",
+        "ExecutionDate":"2025-02-26",
+        "Document Key":"KCE-TSTRN-3857115",
+        "Name":"CPI LF - Car Position Indicator - Full graphic display",
+        "Assigned To":"Harini Sri"
+    },
+    {
+        "TestRunStatus":"PASSED",
         "ExecutionDate":"2025-02-25",
         "Document Key":"KCE-TSTRN-3857118",
         "Name":"Display field selection with parameter - Car display",
@@ -798,10 +812,17 @@
         "Assigned To":"Harini Sri"
     },
     {
-        "TestRunStatus":"INPROGRESS",
+        "TestRunStatus":"PASSED",
         "ExecutionDate":"2025-02-26",
         "Document Key":"KCE-TSTRN-3857121",
         "Name":"CRB C - Call Registered Buzzer - Car call + DOB + DCB + DOE",
+        "Assigned To":"Harini Sri"
+    },
+    {
+        "TestRunStatus":"PASSED",
+        "ExecutionDate":"2025-02-26",
+        "Document Key":"KCE-TSTRN-3857123",
+        "Name":"CRB L - Call Registered Buzzer - Landing call - Buttons without buzzer",
         "Assigned To":"Harini Sri"
     },
     {
@@ -848,7 +869,7 @@
     },
     {
         "TestRunStatus":"INPROGRESS",
-        "ExecutionDate":"2025-02-25",
+        "ExecutionDate":"2025-02-26",
         "Document Key":"KCE-TSTRN-3857164",
         "Name":"LOC - Locking of Car Calls - From COP - Tests not included into TA ",
         "Assigned To":"ARUN KUMAR"
@@ -865,6 +886,13 @@
         "ExecutionDate":"2025-02-26",
         "Document Key":"KCE-TSTRN-3857176",
         "Name":"4. Fireman buzzer in COP status when FRD phase 1",
+        "Assigned To":"Vivek"
+    },
+    {
+        "TestRunStatus":"PASSED",
+        "ExecutionDate":"2025-02-26",
+        "Document Key":"KCE-TSTRN-3857178",
+        "Name":"20. Activate FRD input at landing during power break",
         "Assigned To":"Vivek"
     },
     {
@@ -889,10 +917,31 @@
         "Assigned To":"Vivek"
     },
     {
+        "TestRunStatus":"INPROGRESS",
+        "ExecutionDate":"2025-02-26",
+        "Document Key":"KCE-TSTRN-3857182",
+        "Name":"39. Door operation in TTC floor with Non-selective door type.",
+        "Assigned To":"Vivek"
+    },
+    {
         "TestRunStatus":"PASSED",
         "ExecutionDate":"2025-02-26",
         "Document Key":"KCE-TSTRN-3857024",
         "Name":"ELO intruder alarm timeout with authorized person",
+        "Assigned To":"Badaganti Sai Prasad"
+    },
+    {
+        "TestRunStatus":"PASSED",
+        "ExecutionDate":"2025-02-26",
+        "Document Key":"KCE-TSTRN-3857025",
+        "Name":"6.Group lift with 1772 fault code",
+        "Assigned To":"Badaganti Sai Prasad"
+    },
+    {
+        "TestRunStatus":"PASSED",
+        "ExecutionDate":"2025-02-26",
+        "Document Key":"KCE-TSTRN-3857026",
+        "Name":"8.1772 Fault recovery with OPT (ELO function)",
         "Assigned To":"Badaganti Sai Prasad"
     }
 ]
