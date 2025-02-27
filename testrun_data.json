@@ -862,6 +862,13 @@
     },
     {
         "TestRunStatus":"PASSED",
+        "ExecutionDate":"2025-02-27",
+        "Document Key":"KCE-TSTRN-3857135",
+        "Name":"BMO_ OPT outputs",
+        "Assigned To":"Vivek"
+    },
+    {
+        "TestRunStatus":"PASSED",
         "ExecutionDate":"2025-02-25",
         "Document Key":"KCE-TSTRN-3857136",
         "Name":"BMO_Deactivation",
@@ -938,8 +945,15 @@
         "Assigned To":"Vivek"
     },
     {
-        "TestRunStatus":"PASSED",
-        "ExecutionDate":"2025-02-26",
+        "TestRunStatus":"INPROGRESS",
+        "ExecutionDate":"2025-02-27",
+        "Document Key":"KCE-TSTRN-3857183",
+        "Name":"6. FRD indication in PIO signalization",
+        "Assigned To":"Vivek"
+    },
+    {
+        "TestRunStatus":"FAILED",
+        "ExecutionDate":"2025-02-27",
         "Document Key":"KCE-TSTRN-3857024",
         "Name":"ELO intruder alarm timeout with authorized person",
         "Assigned To":"Badaganti Sai Prasad"
@@ -956,6 +970,20 @@
         "ExecutionDate":"2025-02-26",
         "Document Key":"KCE-TSTRN-3857026",
         "Name":"8.1772 Fault recovery with OPT (ELO function)",
+        "Assigned To":"Badaganti Sai Prasad"
+    },
+    {
+        "TestRunStatus":"FAILED",
+        "ExecutionDate":"2025-02-27",
+        "Document Key":"KCE-TSTRN-3857027",
+        "Name":"11.ELO deactivation with test (261\/263) \/inspection activation:",
+        "Assigned To":"Badaganti Sai Prasad"
+    },
+    {
+        "TestRunStatus":"PASSED",
+        "ExecutionDate":"2025-02-27",
+        "Document Key":"KCE-TSTRN-3857032",
+        "Name":"19.Battery Low Logic triggered as momentary",
         "Assigned To":"Badaganti Sai Prasad"
     }
 ]
