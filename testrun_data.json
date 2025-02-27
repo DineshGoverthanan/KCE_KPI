@@ -91,8 +91,8 @@
         "Assigned To":"Jagadeesh"
     },
     {
-        "TestRunStatus":"INPROGRESS",
-        "ExecutionDate":"2025-02-26",
+        "TestRunStatus":"PASSED",
+        "ExecutionDate":"2025-02-27",
         "Document Key":"KCE-TSTRN-3852976",
         "Name":"08.2 KCEKDL16 Basic - NTS test",
         "Assigned To":"Jagadeesh"
@@ -116,6 +116,13 @@
         "ExecutionDate":"2025-02-25",
         "Document Key":"KCE-TSTRN-3853008",
         "Name":"03.1 KCEKDL16 UI-test - Drive Signal Monitoring - Part 1",
+        "Assigned To":"Priyavalli"
+    },
+    {
+        "TestRunStatus":"INPROGRESS",
+        "ExecutionDate":"2025-02-27",
+        "Document Key":"KCE-TSTRN-3853010",
+        "Name":"06. KCEKDL16 UI-test - Acceleration",
         "Assigned To":"Priyavalli"
     },
     {
@@ -789,6 +796,13 @@
         "Document Key":"KCE-TSTRN-3857110",
         "Name":"CCL - Car Call Registered Light - B-side",
         "Assigned To":"Shrividhya"
+    },
+    {
+        "TestRunStatus":"PASSED",
+        "ExecutionDate":"2025-02-27",
+        "Document Key":"KCE-TSTRN-3857112",
+        "Name":"CPI CO - Car Position Indicator - Dot Matrix display",
+        "Assigned To":"Harini Sri"
     },
     {
         "TestRunStatus":"PASSED",
