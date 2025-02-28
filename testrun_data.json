@@ -966,8 +966,8 @@
         "Assigned To":"Vivek"
     },
     {
-        "TestRunStatus":"INPROGRESS",
-        "ExecutionDate":"2025-02-27",
+        "TestRunStatus":"PASSED",
+        "ExecutionDate":"2025-02-28",
         "Document Key":"KCE-TSTRN-3857183",
         "Name":"6. FRD indication in PIO signalization",
         "Assigned To":"Vivek"
