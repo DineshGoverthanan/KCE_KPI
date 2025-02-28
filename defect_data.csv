@@ -21,3 +21,4 @@ KCE-SWBUG-5345,"16.8 - Sitemanager- The background spelling misspelled like ""ba
 KCE-SWBUG-5350,AMD D10 EVO S - Close End Stuck Fault not Automatically Cleared after Close End Switch is Closed,Suryanarayanan,KCE16.4.92 (LD 16.4.1.11 and GCD 16.4.65) + D10S STMF103 and STML412_EVO_V3.3A,2025-02-17
 KCE-SWBUG-5372,"16.8 - SM- The ""DMADIAG"" visible in both managed & unmanaged devices when after new KCECPUc hardware changed.",Vivek,"16.8.2.32(LD: 16.8.2.6, GCD: 16.8.64)",2025-02-19
 KCE-SWBUG-5401,Master Bar code data not available in new DCBL KCEKDL16,Priyavalli,,
+KCE-SWBUG-5428,"""Typo Error"" - drive Fault code 1065",ARUN KUMAR,,2025-02-26

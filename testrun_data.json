@@ -252,10 +252,17 @@
         "Assigned To":"Shrividhya"
     },
     {
-        "TestRunStatus":"INPROGRESS",
-        "ExecutionDate":"2025-02-26",
+        "TestRunStatus":"PASSED",
+        "ExecutionDate":"2025-02-28",
         "Document Key":"KCE-TSTRN-3857059",
         "Name":"Storm input activation when lift serves the Existing landing calls",
+        "Assigned To":"Shrividhya"
+    },
+    {
+        "TestRunStatus":"INPROGRESS",
+        "ExecutionDate":"2025-02-28",
+        "Document Key":"KCE-TSTRN-3857061",
+        "Name":"High wind input activation during High priority special mode ",
         "Assigned To":"Shrividhya"
     },
     {
@@ -910,6 +917,13 @@
         "Assigned To":"Vivek"
     },
     {
+        "TestRunStatus":"PASSED",
+        "ExecutionDate":"2025-02-28",
+        "Document Key":"KCE-TSTRN-3857155",
+        "Name":"FRD FR - Phase 1 - Tests not included into TA ",
+        "Assigned To":"Vivek"
+    },
+    {
         "TestRunStatus":"INPROGRESS",
         "ExecutionDate":"2025-02-26",
         "Document Key":"KCE-TSTRN-3857164",
@@ -928,6 +942,13 @@
         "ExecutionDate":"2025-02-26",
         "Document Key":"KCE-TSTRN-3857176",
         "Name":"4. Fireman buzzer in COP status when FRD phase 1",
+        "Assigned To":"Vivek"
+    },
+    {
+        "TestRunStatus":"PASSED",
+        "ExecutionDate":"2025-02-28",
+        "Document Key":"KCE-TSTRN-3857177",
+        "Name":"5. FRD indication in KSS signalization",
         "Assigned To":"Vivek"
     },
     {
@@ -959,8 +980,8 @@
         "Assigned To":"Vivek"
     },
     {
-        "TestRunStatus":"INPROGRESS",
-        "ExecutionDate":"2025-02-26",
+        "TestRunStatus":"PASSED",
+        "ExecutionDate":"2025-02-28",
         "Document Key":"KCE-TSTRN-3857182",
         "Name":"39. Door operation in TTC floor with Non-selective door type.",
         "Assigned To":"Vivek"
