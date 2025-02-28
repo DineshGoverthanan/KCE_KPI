@@ -98,8 +98,22 @@
         "Assigned To":"Jagadeesh"
     },
     {
+        "TestRunStatus":"INPROGRESS",
+        "ExecutionDate":"2025-02-27",
+        "Document Key":"KCE-TSTRN-3852977",
+        "Name":"09.1 KCEKDL16 Basic - Brake control - BCX with dual break",
+        "Assigned To":"Jagadeesh"
+    },
+    {
+        "TestRunStatus":"INPROGRESS",
+        "ExecutionDate":"2025-02-27",
+        "Document Key":"KCE-TSTRN-3852979",
+        "Name":"09.4 KCEKDL16 Basic - Manual brake test - Normal",
+        "Assigned To":"Jagadeesh"
+    },
+    {
         "TestRunStatus":"FAILED",
-        "ExecutionDate":"2025-02-24",
+        "ExecutionDate":"2025-02-27",
         "Document Key":"KCE-TSTRN-3853006",
         "Name":"01. KCEKDL16 UI-test - Drive Software and UI-version",
         "Assigned To":"Priyavalli"
@@ -113,7 +127,7 @@
     },
     {
         "TestRunStatus":"PASSED",
-        "ExecutionDate":"2025-02-25",
+        "ExecutionDate":"2025-02-27",
         "Document Key":"KCE-TSTRN-3853008",
         "Name":"03.1 KCEKDL16 UI-test - Drive Signal Monitoring - Part 1",
         "Assigned To":"Priyavalli"
@@ -138,6 +152,13 @@
         "Document Key":"KCE-TSTRN-3498143",
         "Name":"DCB (NA) - Door Close Button - B-side",
         "Assigned To":"Dinesh"
+    },
+    {
+        "TestRunStatus":"INPROGRESS",
+        "ExecutionDate":"2025-02-27",
+        "Document Key":"KCE-TSTRN-3498340",
+        "Name":"NTS NA - KDM (110% Load, Up Direction)",
+        "Assigned To":"Harini Sri"
     },
     {
         "TestRunStatus":"FAILED",
@@ -984,6 +1005,48 @@
         "ExecutionDate":"2025-02-27",
         "Document Key":"KCE-TSTRN-3857032",
         "Name":"19.Battery Low Logic triggered as momentary",
+        "Assigned To":"Badaganti Sai Prasad"
+    },
+    {
+        "TestRunStatus":"PASSED",
+        "ExecutionDate":"2025-02-27",
+        "Document Key":"KCE-TSTRN-3857028",
+        "Name":"12.ELO deactivation with KCEOPT 105 pin1 in open state:",
+        "Assigned To":"Badaganti Sai Prasad"
+    },
+    {
+        "TestRunStatus":"PASSED",
+        "ExecutionDate":"2025-02-27",
+        "Document Key":"KCE-TSTRN-3857023",
+        "Name":"3.ELO Filter timeout:",
+        "Assigned To":"Badaganti Sai Prasad"
+    },
+    {
+        "TestRunStatus":"FAILED",
+        "ExecutionDate":"2025-02-27",
+        "Document Key":"KCE-TSTRN-3857037",
+        "Name":"25.Alarm Sounder",
+        "Assigned To":"Badaganti Sai Prasad"
+    },
+    {
+        "TestRunStatus":"PASSED",
+        "ExecutionDate":"2025-02-27",
+        "Document Key":"KCE-TSTRN-3857030",
+        "Name":"14.ELO Reactivation with KCEOPT Output status",
+        "Assigned To":"Badaganti Sai Prasad"
+    },
+    {
+        "TestRunStatus":"PASSED",
+        "ExecutionDate":"2025-02-27",
+        "Document Key":"KCE-TSTRN-3857029",
+        "Name":"13.ELO Reactivation and ELO inputs status",
+        "Assigned To":"Badaganti Sai Prasad"
+    },
+    {
+        "TestRunStatus":"PASSED",
+        "ExecutionDate":"2025-02-27",
+        "Document Key":"KCE-TSTRN-3857033",
+        "Name":"22.Battery Low Logic signal fault with Low Battery signal is OFF at KCEOPT",
         "Assigned To":"Badaganti Sai Prasad"
     }
 ]
