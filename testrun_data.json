@@ -245,6 +245,13 @@
         "Assigned To":"Badaganti Sai Prasad"
     },
     {
+        "TestRunStatus":"INPROGRESS",
+        "ExecutionDate":"2025-03-03",
+        "Document Key":"KCE-TSTRN-3857052",
+        "Name":"26.Door open output",
+        "Assigned To":"Badaganti Sai Prasad"
+    },
+    {
         "TestRunStatus":"PASSED",
         "ExecutionDate":"2025-01-06",
         "Document Key":"KCE-TSTRN-3720340",
@@ -476,8 +483,8 @@
         "Assigned To":"Priyavalli"
     },
     {
-        "TestRunStatus":"INPROGRESS",
-        "ExecutionDate":"2025-02-20",
+        "TestRunStatus":"PASSED",
+        "ExecutionDate":"2025-03-03",
         "Document Key":"KCE-TSTRN-3850898",
         "Name":"EBS - Emergency Battery Supply - 4. Battery voltage",
         "Assigned To":"Badaganti Sai Prasad"
@@ -855,6 +862,13 @@
     },
     {
         "TestRunStatus":"PASSED",
+        "ExecutionDate":"2025-03-03",
+        "Document Key":"KCE-TSTRN-3857117",
+        "Name":"CPI LS - Car Position Indicator - Seven segment display",
+        "Assigned To":"Harini Sri"
+    },
+    {
+        "TestRunStatus":"PASSED",
         "ExecutionDate":"2025-02-25",
         "Document Key":"KCE-TSTRN-3857118",
         "Name":"Display field selection with parameter - Car display",
@@ -1071,8 +1085,8 @@
         "Assigned To":"Badaganti Sai Prasad"
     },
     {
-        "TestRunStatus":"FAILED",
-        "ExecutionDate":"2025-02-27",
+        "TestRunStatus":"PASSED",
+        "ExecutionDate":"2025-03-03",
         "Document Key":"KCE-TSTRN-3857037",
         "Name":"25.Alarm Sounder",
         "Assigned To":"Badaganti Sai Prasad"
@@ -1118,5 +1132,19 @@
         "Document Key":"KCE-TSTRN-3857034",
         "Name":"27.Inspection mode output",
         "Assigned To":"Badaganti Sai Prasad"
+    },
+    {
+        "TestRunStatus":"PASSED",
+        "ExecutionDate":"2025-03-03",
+        "Document Key":"KCE-TSTRN-3859132",
+        "Name":"CAM - Cleaning Mode",
+        "Assigned To":"Vivek"
+    },
+    {
+        "TestRunStatus":"INPROGRESS",
+        "ExecutionDate":"2025-03-03",
+        "Document Key":"KCE-TSTRN-3859133",
+        "Name":"OSS DL - Out of Service Mode",
+        "Assigned To":"Vivek"
     }
 ]
