@@ -938,6 +938,13 @@
         "Assigned To":"Vivek"
     },
     {
+        "TestRunStatus":"PASSED",
+        "ExecutionDate":"2025-03-03",
+        "Document Key":"KCE-TSTRN-3857162",
+        "Name":"GOC - Disable of GOC",
+        "Assigned To":"Harini Sri"
+    },
+    {
         "TestRunStatus":"INPROGRESS",
         "ExecutionDate":"2025-02-26",
         "Document Key":"KCE-TSTRN-3857164",
