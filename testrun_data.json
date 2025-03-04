@@ -114,8 +114,29 @@
     {
         "TestRunStatus":"PASSED",
         "ExecutionDate":"2025-03-04",
+        "Document Key":"KCE-TSTRN-3852980",
+        "Name":"09.6 KCEKDL16 Basic - Brake control - Normal start with start delay",
+        "Assigned To":"Jagadeesh"
+    },
+    {
+        "TestRunStatus":"INPROGRESS",
+        "ExecutionDate":"2025-03-04",
+        "Document Key":"KCE-TSTRN-3852981",
+        "Name":"09.7 KCEKDL16 Basic - Brake control - Normal stop with stop delay",
+        "Assigned To":"Jagadeesh"
+    },
+    {
+        "TestRunStatus":"PASSED",
+        "ExecutionDate":"2025-03-04",
         "Document Key":"KCE-TSTRN-3852994",
         "Name":"02. KCEKDL16 Supervision - Motor thermistor test",
+        "Assigned To":"Priyavalli"
+    },
+    {
+        "TestRunStatus":"INPROGRESS",
+        "ExecutionDate":"2025-03-04",
+        "Document Key":"KCE-TSTRN-3852995",
+        "Name":"03. KCEKDL16 Supervision - Tacho fault counter",
         "Assigned To":"Priyavalli"
     },
     {
@@ -924,6 +945,13 @@
         "Assigned To":"Harini Sri"
     },
     {
+        "TestRunStatus":"INPROGRESS",
+        "ExecutionDate":"2025-03-04",
+        "Document Key":"KCE-TSTRN-3857124",
+        "Name":"CSM S - Compulsory Stopping at Main floor - Switch",
+        "Assigned To":"Suryanarayanan"
+    },
+    {
         "TestRunStatus":"PASSED",
         "ExecutionDate":"2025-02-25",
         "Document Key":"KCE-TSTRN-3857132",
@@ -987,7 +1015,7 @@
         "Assigned To":"Shrividhya"
     },
     {
-        "TestRunStatus":"INPROGRESS",
+        "TestRunStatus":"PASSED",
         "ExecutionDate":"2025-03-04",
         "Document Key":"KCE-TSTRN-3857157",
         "Name":"FRD IL - Phase 1 - Tests not included into TA",
@@ -995,7 +1023,7 @@
     },
     {
         "TestRunStatus":"INPROGRESS",
-        "ExecutionDate":"2025-03-03",
+        "ExecutionDate":"2025-03-04",
         "Document Key":"KCE-TSTRN-3857158",
         "Name":"FRD IL - Phase 2 - Tests not included into TA",
         "Assigned To":"Shrividhya"
@@ -1009,7 +1037,7 @@
     },
     {
         "TestRunStatus":"INPROGRESS",
-        "ExecutionDate":"2025-03-03",
+        "ExecutionDate":"2025-03-04",
         "Document Key":"KCE-TSTRN-3857160",
         "Name":"FRD SG - Phase 2 - Tests not included into TA",
         "Assigned To":"Shrividhya"
@@ -1208,6 +1236,34 @@
         "ExecutionDate":"2025-03-03",
         "Document Key":"KCE-TSTRN-3859133",
         "Name":"OSS DL - Out of Service Mode",
+        "Assigned To":"Vivek"
+    },
+    {
+        "TestRunStatus":"PASSED",
+        "ExecutionDate":"2025-03-04",
+        "Document Key":"KCE-TSTRN-3859134",
+        "Name":"PIN code - Special calls - Empty car call",
+        "Assigned To":"Vivek"
+    },
+    {
+        "TestRunStatus":"PASSED",
+        "ExecutionDate":"2025-03-04",
+        "Document Key":"KCE-TSTRN-3859135",
+        "Name":"PIN code - Special calls - Priority call",
+        "Assigned To":"Vivek"
+    },
+    {
+        "TestRunStatus":"PASSED",
+        "ExecutionDate":"2025-03-04",
+        "Document Key":"KCE-TSTRN-3859136",
+        "Name":"PIN code - Special calls - Space allocation",
+        "Assigned To":"Vivek"
+    },
+    {
+        "TestRunStatus":"PASSED",
+        "ExecutionDate":"2025-03-04",
+        "Document Key":"KCE-TSTRN-3859139",
+        "Name":"10\" DOP Customizable header with image",
         "Assigned To":"Vivek"
     },
     {
