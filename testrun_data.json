@@ -162,6 +162,13 @@
     },
     {
         "TestRunStatus":"FAILED",
+        "ExecutionDate":"2025-03-05",
+        "Document Key":"KCE-TSTRN-3852999",
+        "Name":"07. KCEKDL16 Supervision - SD card related",
+        "Assigned To":"Priyavalli"
+    },
+    {
+        "TestRunStatus":"FAILED",
         "ExecutionDate":"2025-02-27",
         "Document Key":"KCE-TSTRN-3853006",
         "Name":"01. KCEKDL16 UI-test - Drive Software and UI-version",
@@ -1285,6 +1292,13 @@
         "ExecutionDate":"2025-03-04",
         "Document Key":"KCE-TSTRN-3859139",
         "Name":"10\" DOP Customizable header with image",
+        "Assigned To":"Vivek"
+    },
+    {
+        "TestRunStatus":"PASSED",
+        "ExecutionDate":"2025-03-05",
+        "Document Key":"KCE-TSTRN-3859140",
+        "Name":"10\" DOP Customizable header with color",
         "Assigned To":"Vivek"
     },
     {
