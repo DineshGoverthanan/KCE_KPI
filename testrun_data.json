@@ -98,8 +98,8 @@
         "Assigned To":"Jagadeesh"
     },
     {
-        "TestRunStatus":"INPROGRESS",
-        "ExecutionDate":"2025-02-27",
+        "TestRunStatus":"PASSED",
+        "ExecutionDate":"2025-03-04",
         "Document Key":"KCE-TSTRN-3852977",
         "Name":"09.1 KCEKDL16 Basic - Brake control - BCX with dual break",
         "Assigned To":"Jagadeesh"
@@ -128,6 +128,20 @@
     {
         "TestRunStatus":"PASSED",
         "ExecutionDate":"2025-03-04",
+        "Document Key":"KCE-TSTRN-3852982",
+        "Name":"10. KCEKDL16 Basic - Functioning of speed LEDs",
+        "Assigned To":"Jagadeesh"
+    },
+    {
+        "TestRunStatus":"INPROGRESS",
+        "ExecutionDate":"2025-03-04",
+        "Document Key":"KCE-TSTRN-3852983",
+        "Name":"11. KCEKDL16 Basic - Drive fan control",
+        "Assigned To":"Jagadeesh"
+    },
+    {
+        "TestRunStatus":"PASSED",
+        "ExecutionDate":"2025-03-04",
         "Document Key":"KCE-TSTRN-3852994",
         "Name":"02. KCEKDL16 Supervision - Motor thermistor test",
         "Assigned To":"Priyavalli"
@@ -137,6 +151,13 @@
         "ExecutionDate":"2025-03-04",
         "Document Key":"KCE-TSTRN-3852995",
         "Name":"03. KCEKDL16 Supervision - Tacho fault counter",
+        "Assigned To":"Priyavalli"
+    },
+    {
+        "TestRunStatus":"PASSED",
+        "ExecutionDate":"2025-03-04",
+        "Document Key":"KCE-TSTRN-3852996",
+        "Name":"04. KCEKDL16 Supervision - Encoder related",
         "Assigned To":"Priyavalli"
     },
     {
@@ -945,7 +966,7 @@
         "Assigned To":"Harini Sri"
     },
     {
-        "TestRunStatus":"INPROGRESS",
+        "TestRunStatus":"FAILED",
         "ExecutionDate":"2025-03-04",
         "Document Key":"KCE-TSTRN-3857124",
         "Name":"CSM S - Compulsory Stopping at Main floor - Switch",
@@ -1267,8 +1288,8 @@
         "Assigned To":"Vivek"
     },
     {
-        "TestRunStatus":"INPROGRESS",
-        "ExecutionDate":"2025-03-03",
+        "TestRunStatus":"PASSED",
+        "ExecutionDate":"2025-03-04",
         "Document Key":"KCE-TSTRN-3859186",
         "Name":"xDOP Basic destination call with virtual keypad 10\"",
         "Assigned To":"ARUN KUMAR"
