@@ -301,8 +301,8 @@
         "Assigned To":"Badaganti Sai Prasad"
     },
     {
-        "TestRunStatus":"INPROGRESS",
-        "ExecutionDate":"2025-03-03",
+        "TestRunStatus":"FAILED",
+        "ExecutionDate":"2025-03-06",
         "Document Key":"KCE-TSTRN-3857051",
         "Name":"23.Mode priority1",
         "Assigned To":"Badaganti Sai Prasad"
