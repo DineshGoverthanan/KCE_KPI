@@ -25,3 +25,4 @@ KCE-SWBUG-5428,"""Typo Error"" - drive Fault code 1065",ARUN KUMAR,,2025-02-26
 KCE-SWBUG-5430,16.8 - Duplicated Comseq jobs occurred in SM when SW update.,Vivek,"KCE 16.8.3.2(LD: 16.8.3.4, GCD: 16.8.65)",2025-02-26
 KCE-SWBUG-5431,16.8 - MQTT connection Failed (1901) detected when the AMC Samsung galaxy A52 connect to the simulator.,ARUN KUMAR,"KCE 16.8.3.2(LD: 16.8.3.4, GCD: 16.8.65)",2025-02-27
 KCE-SWBUG-5437,P4.2 - NHR- CTD activated door starts closing after opening for 30secs (DOE Time),Harini Sri,,2025-03-03
+KCE-SWBUG-5460,16.8 - CSM - Elevator gets Stuck when CSM triggered from OPT after a Car Call,Suryanarayanan,"KCE 16.8.3.2(LD: 16.8.3.4, GCD: 16.8.65)",2025-03-04

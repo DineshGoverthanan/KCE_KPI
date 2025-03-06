@@ -106,7 +106,7 @@
     },
     {
         "TestRunStatus":"INPROGRESS",
-        "ExecutionDate":"2025-02-27",
+        "ExecutionDate":"2025-03-05",
         "Document Key":"KCE-TSTRN-3852979",
         "Name":"09.4 KCEKDL16 Basic - Manual brake test - Normal",
         "Assigned To":"Jagadeesh"
@@ -147,8 +147,8 @@
         "Assigned To":"Priyavalli"
     },
     {
-        "TestRunStatus":"INPROGRESS",
-        "ExecutionDate":"2025-03-04",
+        "TestRunStatus":"PASSED",
+        "ExecutionDate":"2025-03-05",
         "Document Key":"KCE-TSTRN-3852995",
         "Name":"03. KCEKDL16 Supervision - Tacho fault counter",
         "Assigned To":"Priyavalli"
@@ -161,10 +161,17 @@
         "Assigned To":"Priyavalli"
     },
     {
-        "TestRunStatus":"FAILED",
+        "TestRunStatus":"PASSED",
         "ExecutionDate":"2025-03-05",
         "Document Key":"KCE-TSTRN-3852999",
         "Name":"07. KCEKDL16 Supervision - SD card related",
+        "Assigned To":"Priyavalli"
+    },
+    {
+        "TestRunStatus":"FAILED",
+        "ExecutionDate":"2025-03-05",
+        "Document Key":"KCE-TSTRN-3853000",
+        "Name":"08. KCEKDL16 Supervision - TTS network",
         "Assigned To":"Priyavalli"
     },
     {
@@ -1299,6 +1306,48 @@
         "ExecutionDate":"2025-03-05",
         "Document Key":"KCE-TSTRN-3859140",
         "Name":"10\" DOP Customizable header with color",
+        "Assigned To":"Vivek"
+    },
+    {
+        "TestRunStatus":"PASSED",
+        "ExecutionDate":"2025-03-05",
+        "Document Key":"KCE-TSTRN-3859141",
+        "Name":"xDOP welcome screen customization",
+        "Assigned To":"Vivek"
+    },
+    {
+        "TestRunStatus":"PASSED",
+        "ExecutionDate":"2025-03-05",
+        "Document Key":"KCE-TSTRN-3859142",
+        "Name":"10\" DOP Public menu and public buttons",
+        "Assigned To":"Vivek"
+    },
+    {
+        "TestRunStatus":"PASSED",
+        "ExecutionDate":"2025-03-05",
+        "Document Key":"KCE-TSTRN-3859144",
+        "Name":"Customized image",
+        "Assigned To":"Vivek"
+    },
+    {
+        "TestRunStatus":"PASSED",
+        "ExecutionDate":"2025-03-05",
+        "Document Key":"KCE-TSTRN-3859145",
+        "Name":"Fireman code compatible",
+        "Assigned To":"Vivek"
+    },
+    {
+        "TestRunStatus":"PASSED",
+        "ExecutionDate":"2025-03-05",
+        "Document Key":"KCE-TSTRN-3859146",
+        "Name":"DOP screenshot via Site Manager",
+        "Assigned To":"Vivek"
+    },
+    {
+        "TestRunStatus":"PASSED",
+        "ExecutionDate":"2025-03-05",
+        "Document Key":"KCE-TSTRN-3859148",
+        "Name":"10\" DOP Floor icons",
         "Assigned To":"Vivek"
     },
     {
