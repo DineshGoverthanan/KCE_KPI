@@ -169,10 +169,17 @@
     },
     {
         "TestRunStatus":"FAILED",
-        "ExecutionDate":"2025-03-05",
+        "ExecutionDate":"2025-03-06",
         "Document Key":"KCE-TSTRN-3853000",
         "Name":"08. KCEKDL16 Supervision - TTS network",
         "Assigned To":"Priyavalli"
+    },
+    {
+        "TestRunStatus":"PASSED",
+        "ExecutionDate":"2025-03-06",
+        "Document Key":"KCE-TSTRN-3853003",
+        "Name":"05.1 KCEKDL16 Supervision - BCX brake disconnection - Modes",
+        "Assigned To":"Jagadeesh"
     },
     {
         "TestRunStatus":"FAILED",
@@ -1296,6 +1303,20 @@
     },
     {
         "TestRunStatus":"PASSED",
+        "ExecutionDate":"2025-03-06",
+        "Document Key":"KCE-TSTRN-3859137",
+        "Name":"7\" DOP Customizable header with image",
+        "Assigned To":"Vivek"
+    },
+    {
+        "TestRunStatus":"PASSED",
+        "ExecutionDate":"2025-03-06",
+        "Document Key":"KCE-TSTRN-3859138",
+        "Name":"7\" DOP Customizable header with color",
+        "Assigned To":"Vivek"
+    },
+    {
+        "TestRunStatus":"PASSED",
         "ExecutionDate":"2025-03-04",
         "Document Key":"KCE-TSTRN-3859139",
         "Name":"10\" DOP Customizable header with image",
@@ -1320,6 +1341,13 @@
         "ExecutionDate":"2025-03-05",
         "Document Key":"KCE-TSTRN-3859142",
         "Name":"10\" DOP Public menu and public buttons",
+        "Assigned To":"Vivek"
+    },
+    {
+        "TestRunStatus":"PASSED",
+        "ExecutionDate":"2025-03-06",
+        "Document Key":"KCE-TSTRN-3859143",
+        "Name":"7\" DOP Public menu and public buttons",
         "Assigned To":"Vivek"
     },
     {
