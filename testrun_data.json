@@ -169,7 +169,7 @@
     },
     {
         "TestRunStatus":"FAILED",
-        "ExecutionDate":"2025-03-06",
+        "ExecutionDate":"2025-03-10",
         "Document Key":"KCE-TSTRN-3853000",
         "Name":"08. KCEKDL16 Supervision - TTS network",
         "Assigned To":"Priyavalli"
@@ -952,8 +952,8 @@
         "Assigned To":"Harini Sri"
     },
     {
-        "TestRunStatus":"PASSED",
-        "ExecutionDate":"2025-03-03",
+        "TestRunStatus":"INPROGRESS",
+        "ExecutionDate":"2025-03-10",
         "Document Key":"KCE-TSTRN-3857117",
         "Name":"CPI LS - Car Position Indicator - Seven segment display",
         "Assigned To":"Harini Sri"
@@ -1267,6 +1267,13 @@
         "Assigned To":"Badaganti Sai Prasad"
     },
     {
+        "TestRunStatus":"INPROGRESS",
+        "ExecutionDate":"2025-03-10",
+        "Document Key":"KCE-TSTRN-3860948",
+        "Name":"1. OCV IA - Parameter setting",
+        "Assigned To":"Shrividhya"
+    },
+    {
         "TestRunStatus":"PASSED",
         "ExecutionDate":"2025-03-03",
         "Document Key":"KCE-TSTRN-3859132",
@@ -1380,9 +1387,23 @@
     },
     {
         "TestRunStatus":"PASSED",
+        "ExecutionDate":"2025-03-10",
+        "Document Key":"KCE-TSTRN-3860735",
+        "Name":"7\" DOP Floor icons",
+        "Assigned To":"Vivek"
+    },
+    {
+        "TestRunStatus":"PASSED",
         "ExecutionDate":"2025-03-04",
         "Document Key":"KCE-TSTRN-3859186",
         "Name":"xDOP Basic destination call with virtual keypad 10\"",
         "Assigned To":"ARUN KUMAR"
+    },
+    {
+        "TestRunStatus":"INPROGRESS",
+        "ExecutionDate":"2025-03-10",
+        "Document Key":"KCE-TSTRN-3860772",
+        "Name":"xDOP Basic destination call with virtual keypad 7\"",
+        "Assigned To":"Vivek"
     }
 ]
