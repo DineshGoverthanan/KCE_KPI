@@ -190,7 +190,7 @@
     },
     {
         "TestRunStatus":"FAILED",
-        "ExecutionDate":"2025-03-10",
+        "ExecutionDate":"2025-03-11",
         "Document Key":"KCE-TSTRN-3853000",
         "Name":"08. KCEKDL16 Supervision - TTS network",
         "Assigned To":"Priyavalli"
@@ -1022,10 +1022,17 @@
         "Assigned To":"Suryanarayanan"
     },
     {
-        "TestRunStatus":"INPROGRESS",
-        "ExecutionDate":"2025-03-10",
+        "TestRunStatus":"PASSED",
+        "ExecutionDate":"2025-03-11",
         "Document Key":"KCE-TSTRN-3860828",
         "Name":"CSM S - Compulsory Stopping at Main floor - Switch operation - A-side",
+        "Assigned To":"Suryanarayanan"
+    },
+    {
+        "TestRunStatus":"INPROGRESS",
+        "ExecutionDate":"2025-03-11",
+        "Document Key":"KCE-TSTRN-3860829",
+        "Name":"CSM S - Compulsory Stopping at Main floor - Switch operation - B-side",
         "Assigned To":"Suryanarayanan"
     },
     {
@@ -1317,6 +1324,27 @@
     },
     {
         "TestRunStatus":"PASSED",
+        "ExecutionDate":"2025-03-11",
+        "Document Key":"KCE-TSTRN-3860950",
+        "Name":"3. OCV IA - Normal operation _ Automatic OFF",
+        "Assigned To":"Shrividhya"
+    },
+    {
+        "TestRunStatus":"PASSED",
+        "ExecutionDate":"2025-03-11",
+        "Document Key":"KCE-TSTRN-3860951",
+        "Name":"4. OCV IA- Normal operation _Manual OFF",
+        "Assigned To":"Shrividhya"
+    },
+    {
+        "TestRunStatus":"PASSED",
+        "ExecutionDate":"2025-03-11",
+        "Document Key":"KCE-TSTRN-3860953",
+        "Name":"6. OCV IA - Operation in FID",
+        "Assigned To":"Shrividhya"
+    },
+    {
+        "TestRunStatus":"PASSED",
         "ExecutionDate":"2025-03-10",
         "Document Key":"KCE-TSTRN-3860993",
         "Name":"1. DMI _ Parameter setting",
@@ -1446,6 +1474,13 @@
         "ExecutionDate":"2025-03-10",
         "Document Key":"KCE-TSTRN-3860735",
         "Name":"7\" DOP Floor icons",
+        "Assigned To":"Vivek"
+    },
+    {
+        "TestRunStatus":"PASSED",
+        "ExecutionDate":"2025-03-11",
+        "Document Key":"KCE-TSTRN-3860754",
+        "Name":"Technical call from xDOP",
         "Assigned To":"Vivek"
     },
     {
