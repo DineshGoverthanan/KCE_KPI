@@ -140,6 +140,20 @@
         "Assigned To":"Jagadeesh"
     },
     {
+        "TestRunStatus":"INPROGRESS",
+        "ExecutionDate":"2025-03-10",
+        "Document Key":"KCE-TSTRN-3852986",
+        "Name":"15. KCEKDL16 Basic - DTS test",
+        "Assigned To":"Jagadeesh"
+    },
+    {
+        "TestRunStatus":"PASSED",
+        "ExecutionDate":"2025-03-10",
+        "Document Key":"KCE-TSTRN-3852987",
+        "Name":"16. KCEKDL16 Basic - UCM test",
+        "Assigned To":"Jagadeesh"
+    },
+    {
         "TestRunStatus":"PASSED",
         "ExecutionDate":"2025-03-04",
         "Document Key":"KCE-TSTRN-3852994",
@@ -159,6 +173,13 @@
         "Document Key":"KCE-TSTRN-3852996",
         "Name":"04. KCEKDL16 Supervision - Encoder related",
         "Assigned To":"Priyavalli"
+    },
+    {
+        "TestRunStatus":"FAILED",
+        "ExecutionDate":"2025-03-10",
+        "Document Key":"KCE-TSTRN-3852997",
+        "Name":"05.1 KCEKDL16 Supervision - BCX brake disconnection - Dual",
+        "Assigned To":"Jagadeesh"
     },
     {
         "TestRunStatus":"PASSED",
@@ -994,6 +1015,20 @@
         "Assigned To":"Suryanarayanan"
     },
     {
+        "TestRunStatus":"FAILED",
+        "ExecutionDate":"2025-03-10",
+        "Document Key":"KCE-TSTRN-3860827",
+        "Name":"CSM S - Compulsory Stopping at Main floor - Switch",
+        "Assigned To":"Suryanarayanan"
+    },
+    {
+        "TestRunStatus":"INPROGRESS",
+        "ExecutionDate":"2025-03-10",
+        "Document Key":"KCE-TSTRN-3860828",
+        "Name":"CSM S - Compulsory Stopping at Main floor - Switch operation - A-side",
+        "Assigned To":"Suryanarayanan"
+    },
+    {
         "TestRunStatus":"PASSED",
         "ExecutionDate":"2025-02-25",
         "Document Key":"KCE-TSTRN-3857132",
@@ -1267,11 +1302,32 @@
         "Assigned To":"Badaganti Sai Prasad"
     },
     {
-        "TestRunStatus":"INPROGRESS",
+        "TestRunStatus":"PASSED",
         "ExecutionDate":"2025-03-10",
         "Document Key":"KCE-TSTRN-3860948",
         "Name":"1. OCV IA - Parameter setting",
         "Assigned To":"Shrividhya"
+    },
+    {
+        "TestRunStatus":"PASSED",
+        "ExecutionDate":"2025-03-10",
+        "Document Key":"KCE-TSTRN-3860949",
+        "Name":"2. IO Configuration",
+        "Assigned To":"Shrividhya"
+    },
+    {
+        "TestRunStatus":"PASSED",
+        "ExecutionDate":"2025-03-10",
+        "Document Key":"KCE-TSTRN-3860993",
+        "Name":"1. DMI _ Parameter setting",
+        "Assigned To":"Badaganti Sai Prasad"
+    },
+    {
+        "TestRunStatus":"INPROGRESS",
+        "ExecutionDate":"2025-03-10",
+        "Document Key":"KCE-TSTRN-3861030",
+        "Name":"Rush test : RollCall activation from BUI and Service Tool- New update for 15.7 ",
+        "Assigned To":"Badaganti Sai Prasad"
     },
     {
         "TestRunStatus":"PASSED",
@@ -1394,16 +1450,37 @@
     },
     {
         "TestRunStatus":"PASSED",
+        "ExecutionDate":"2025-03-10",
+        "Document Key":"KCE-TSTRN-3860758",
+        "Name":"xDOP call side selection",
+        "Assigned To":"Vivek"
+    },
+    {
+        "TestRunStatus":"PASSED",
+        "ExecutionDate":"2025-03-10",
+        "Document Key":"KCE-TSTRN-3860759",
+        "Name":"xDOP Call giving",
+        "Assigned To":"Vivek"
+    },
+    {
+        "TestRunStatus":"PASSED",
         "ExecutionDate":"2025-03-04",
         "Document Key":"KCE-TSTRN-3859186",
         "Name":"xDOP Basic destination call with virtual keypad 10\"",
         "Assigned To":"ARUN KUMAR"
     },
     {
-        "TestRunStatus":"INPROGRESS",
+        "TestRunStatus":"PASSED",
         "ExecutionDate":"2025-03-10",
         "Document Key":"KCE-TSTRN-3860772",
         "Name":"xDOP Basic destination call with virtual keypad 7\"",
+        "Assigned To":"Vivek"
+    },
+    {
+        "TestRunStatus":"INPROGRESS",
+        "ExecutionDate":"2025-03-10",
+        "Document Key":"KCE-TSTRN-3860773",
+        "Name":"xDOP call type selection with virtual keypad 10\"",
         "Assigned To":"Vivek"
     }
 ]
