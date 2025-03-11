@@ -155,6 +155,13 @@
     },
     {
         "TestRunStatus":"PASSED",
+        "ExecutionDate":"2025-03-11",
+        "Document Key":"KCE-TSTRN-3852989",
+        "Name":"18.2 KCEKDL16 Basic - Single brake full speed stopping test",
+        "Assigned To":"Jagadeesh"
+    },
+    {
+        "TestRunStatus":"PASSED",
         "ExecutionDate":"2025-03-04",
         "Document Key":"KCE-TSTRN-3852994",
         "Name":"02. KCEKDL16 Supervision - Motor thermistor test",
@@ -179,6 +186,13 @@
         "ExecutionDate":"2025-03-10",
         "Document Key":"KCE-TSTRN-3852997",
         "Name":"05.1 KCEKDL16 Supervision - BCX brake disconnection - Dual",
+        "Assigned To":"Jagadeesh"
+    },
+    {
+        "TestRunStatus":"PASSED",
+        "ExecutionDate":"2025-03-11",
+        "Document Key":"KCE-TSTRN-3852998",
+        "Name":"05.2 KCEKDL16 Supervision - BCK brake disconnection",
         "Assigned To":"Jagadeesh"
     },
     {
@@ -238,8 +252,15 @@
         "Assigned To":"Priyavalli"
     },
     {
-        "TestRunStatus":"PASSED",
-        "ExecutionDate":"2025-03-04",
+        "TestRunStatus":"INPROGRESS",
+        "ExecutionDate":"2025-03-11",
+        "Document Key":"KCE-TSTRN-3853012",
+        "Name":"02. KCEKDL16 - Stopping accuracy",
+        "Assigned To":"Priyavalli"
+    },
+    {
+        "TestRunStatus":"INPROGRESS",
+        "ExecutionDate":"2025-03-11",
         "Document Key":"KCE-TSTRN-3853013",
         "Name":"13.7 KCECPU SW along with New DCBL HW & New KDL16 SW",
         "Assigned To":"Priyavalli"
@@ -1029,7 +1050,7 @@
         "Assigned To":"Suryanarayanan"
     },
     {
-        "TestRunStatus":"INPROGRESS",
+        "TestRunStatus":"PASSED",
         "ExecutionDate":"2025-03-11",
         "Document Key":"KCE-TSTRN-3860829",
         "Name":"CSM S - Compulsory Stopping at Main floor - Switch operation - B-side",
@@ -1139,6 +1160,13 @@
         "Document Key":"KCE-TSTRN-3857164",
         "Name":"LOC - Locking of Car Calls - From COP - Tests not included into TA ",
         "Assigned To":"ARUN KUMAR"
+    },
+    {
+        "TestRunStatus":"INPROGRESS",
+        "ExecutionDate":"2025-03-11",
+        "Document Key":"KCE-TSTRN-3860857",
+        "Name":"LOC ..G - General lock - KCECEB",
+        "Assigned To":"Suryanarayanan"
     },
     {
         "TestRunStatus":"PASSED",
@@ -1310,6 +1338,20 @@
     },
     {
         "TestRunStatus":"PASSED",
+        "ExecutionDate":"2025-03-11",
+        "Document Key":"KCE-TSTRN-3860922",
+        "Name":"1. IDO - Parameter Setting",
+        "Assigned To":"Badaganti Sai Prasad"
+    },
+    {
+        "TestRunStatus":"INPROGRESS",
+        "ExecutionDate":"2025-03-11",
+        "Document Key":"KCE-TSTRN-3860924",
+        "Name":"3. IDO - Service modes to Normal",
+        "Assigned To":"Badaganti Sai Prasad"
+    },
+    {
+        "TestRunStatus":"PASSED",
         "ExecutionDate":"2025-03-10",
         "Document Key":"KCE-TSTRN-3860948",
         "Name":"1. OCV IA - Parameter setting",
@@ -1337,10 +1379,52 @@
         "Assigned To":"Shrividhya"
     },
     {
+        "TestRunStatus":"INPROGRESS",
+        "ExecutionDate":"2025-03-11",
+        "Document Key":"KCE-TSTRN-3860952",
+        "Name":"5. OCV IA - Special modes",
+        "Assigned To":"Shrividhya"
+    },
+    {
         "TestRunStatus":"PASSED",
         "ExecutionDate":"2025-03-11",
         "Document Key":"KCE-TSTRN-3860953",
         "Name":"6. OCV IA - Operation in FID",
+        "Assigned To":"Shrividhya"
+    },
+    {
+        "TestRunStatus":"PASSED",
+        "ExecutionDate":"2025-03-11",
+        "Document Key":"KCE-TSTRN-3860955",
+        "Name":"8. OCV IA - Operation in OSS Modes",
+        "Assigned To":"Shrividhya"
+    },
+    {
+        "TestRunStatus":"PASSED",
+        "ExecutionDate":"2025-03-11",
+        "Document Key":"KCE-TSTRN-3860956",
+        "Name":"9. OCV - Operation in Service Modes RDF \/ ToC",
+        "Assigned To":"Shrividhya"
+    },
+    {
+        "TestRunStatus":"PASSED",
+        "ExecutionDate":"2025-03-11",
+        "Document Key":"KCE-TSTRN-3860957",
+        "Name":"10. OCV IA - Doors Side specific operation",
+        "Assigned To":"Shrividhya"
+    },
+    {
+        "TestRunStatus":"PASSED",
+        "ExecutionDate":"2025-03-11",
+        "Document Key":"KCE-TSTRN-3860958",
+        "Name":"11. OCV IA - Operation during safety input missing",
+        "Assigned To":"Shrividhya"
+    },
+    {
+        "TestRunStatus":"PASSED",
+        "ExecutionDate":"2025-03-11",
+        "Document Key":"KCE-TSTRN-3860959",
+        "Name":"3.0 OCV IA - Basic Operation",
         "Assigned To":"Shrividhya"
     },
     {
@@ -1351,8 +1435,8 @@
         "Assigned To":"Badaganti Sai Prasad"
     },
     {
-        "TestRunStatus":"INPROGRESS",
-        "ExecutionDate":"2025-03-10",
+        "TestRunStatus":"PASSED",
+        "ExecutionDate":"2025-03-11",
         "Document Key":"KCE-TSTRN-3861030",
         "Name":"Rush test : RollCall activation from BUI and Service Tool- New update for 15.7 ",
         "Assigned To":"Badaganti Sai Prasad"
