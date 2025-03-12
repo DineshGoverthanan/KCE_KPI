@@ -15,6 +15,13 @@
     },
     {
         "TestRunStatus":"FAILED",
+        "ExecutionDate":"2025-03-11",
+        "Document Key":"KCE-TSTRN-3852961",
+        "Name":"03 KCEKDL16 Motor direction and encoder polarity",
+        "Assigned To":"Jagadeesh"
+    },
+    {
+        "TestRunStatus":"FAILED",
         "ExecutionDate":"2025-02-18",
         "Document Key":"KCE-TSTRN-3852963",
         "Name":"04.2 KCEKDL16 LWD zero load compensation",
@@ -158,6 +165,20 @@
         "ExecutionDate":"2025-03-11",
         "Document Key":"KCE-TSTRN-3852989",
         "Name":"18.2 KCEKDL16 Basic - Single brake full speed stopping test",
+        "Assigned To":"Jagadeesh"
+    },
+    {
+        "TestRunStatus":"PASSED",
+        "ExecutionDate":"2025-03-11",
+        "Document Key":"KCE-TSTRN-3852991",
+        "Name":"21. KCEKDL16 Basic - Driving in SWA mode",
+        "Assigned To":"Jagadeesh"
+    },
+    {
+        "TestRunStatus":"PASSED",
+        "ExecutionDate":"2025-03-11",
+        "Document Key":"KCE-TSTRN-3852992",
+        "Name":"23. KCEKDL16 Basic - Torque supervision test",
         "Assigned To":"Jagadeesh"
     },
     {
@@ -1162,7 +1183,21 @@
         "Assigned To":"ARUN KUMAR"
     },
     {
-        "TestRunStatus":"INPROGRESS",
+        "TestRunStatus":"PASSED",
+        "ExecutionDate":"2025-03-11",
+        "Document Key":"KCE-TSTRN-3860855",
+        "Name":"LOC - Locking of Car Calls - From COP - Tests not included into TA ",
+        "Assigned To":"Suryanarayanan"
+    },
+    {
+        "TestRunStatus":"PASSED",
+        "ExecutionDate":"2025-03-11",
+        "Document Key":"KCE-TSTRN-3860856",
+        "Name":"LOC - Locking of Car Calls - From SW lock parameter - Tests not included into TA",
+        "Assigned To":"Suryanarayanan"
+    },
+    {
+        "TestRunStatus":"PASSED",
         "ExecutionDate":"2025-03-11",
         "Document Key":"KCE-TSTRN-3860857",
         "Name":"LOC ..G - General lock - KCECEB",
@@ -1352,6 +1387,34 @@
     },
     {
         "TestRunStatus":"PASSED",
+        "ExecutionDate":"2025-03-11",
+        "Document Key":"KCE-TSTRN-3860925",
+        "Name":"4.IDO - Safety input's missing",
+        "Assigned To":"Badaganti Sai Prasad"
+    },
+    {
+        "TestRunStatus":"PASSED",
+        "ExecutionDate":"2025-03-11",
+        "Document Key":"KCE-TSTRN-3860926",
+        "Name":"5. IDO - Correction Drive",
+        "Assigned To":"Badaganti Sai Prasad"
+    },
+    {
+        "TestRunStatus":"PASSED",
+        "ExecutionDate":"2025-03-11",
+        "Document Key":"KCE-TSTRN-3860927",
+        "Name":"6. IDO - Inhibit Switch",
+        "Assigned To":"Badaganti Sai Prasad"
+    },
+    {
+        "TestRunStatus":"PASSED",
+        "ExecutionDate":"2025-03-11",
+        "Document Key":"KCE-TSTRN-3860931",
+        "Name":"10. IDO - Special modes",
+        "Assigned To":"Badaganti Sai Prasad"
+    },
+    {
+        "TestRunStatus":"PASSED",
         "ExecutionDate":"2025-03-10",
         "Document Key":"KCE-TSTRN-3860948",
         "Name":"1. OCV IA - Parameter setting",
@@ -1379,7 +1442,7 @@
         "Assigned To":"Shrividhya"
     },
     {
-        "TestRunStatus":"INPROGRESS",
+        "TestRunStatus":"PASSED",
         "ExecutionDate":"2025-03-11",
         "Document Key":"KCE-TSTRN-3860952",
         "Name":"5. OCV IA - Special modes",
