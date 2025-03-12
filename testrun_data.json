@@ -182,6 +182,13 @@
         "Assigned To":"Jagadeesh"
     },
     {
+        "TestRunStatus":"FAILED",
+        "ExecutionDate":"2025-03-12",
+        "Document Key":"KCE-TSTRN-3852993",
+        "Name":"01. KCEKDL16 Supervision - Load Weighting",
+        "Assigned To":"Priyavalli"
+    },
+    {
         "TestRunStatus":"PASSED",
         "ExecutionDate":"2025-03-04",
         "Document Key":"KCE-TSTRN-3852994",
@@ -1204,6 +1211,20 @@
         "Assigned To":"Suryanarayanan"
     },
     {
+        "TestRunStatus":"INPROGRESS",
+        "ExecutionDate":"2025-03-12",
+        "Document Key":"KCE-TSTRN-3860858",
+        "Name":"LOC ..G - General lock - KCEPIO",
+        "Assigned To":"Suryanarayanan"
+    },
+    {
+        "TestRunStatus":"INPROGRESS",
+        "ExecutionDate":"2025-03-12",
+        "Document Key":"KCE-TSTRN-3860859",
+        "Name":"LOC ..G - General lock - MULs",
+        "Assigned To":"Suryanarayanan"
+    },
+    {
         "TestRunStatus":"PASSED",
         "ExecutionDate":"2025-02-26",
         "Document Key":"KCE-TSTRN-3857175",
@@ -1408,6 +1429,13 @@
     },
     {
         "TestRunStatus":"PASSED",
+        "ExecutionDate":"2025-03-12",
+        "Document Key":"KCE-TSTRN-3860929",
+        "Name":"8. IDO - Side specific operation (TTC Floor)",
+        "Assigned To":"Badaganti Sai Prasad"
+    },
+    {
+        "TestRunStatus":"PASSED",
         "ExecutionDate":"2025-03-11",
         "Document Key":"KCE-TSTRN-3860931",
         "Name":"10. IDO - Special modes",
@@ -1502,6 +1530,13 @@
         "ExecutionDate":"2025-03-12",
         "Document Key":"KCE-TSTRN-3860977",
         "Name":"1. RMI - Visual Indication",
+        "Assigned To":"Shrividhya"
+    },
+    {
+        "TestRunStatus":"INPROGRESS",
+        "ExecutionDate":"2025-03-12",
+        "Document Key":"KCE-TSTRN-3860979",
+        "Name":"3. RMI - Announcer with Visual indication",
         "Assigned To":"Shrividhya"
     },
     {
