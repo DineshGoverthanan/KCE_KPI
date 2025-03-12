@@ -1457,6 +1457,13 @@
     },
     {
         "TestRunStatus":"PASSED",
+        "ExecutionDate":"2025-03-12",
+        "Document Key":"KCE-TSTRN-3860954",
+        "Name":"7. OCV IA - Operation in EBD Mode",
+        "Assigned To":"Shrividhya"
+    },
+    {
+        "TestRunStatus":"PASSED",
         "ExecutionDate":"2025-03-11",
         "Document Key":"KCE-TSTRN-3860955",
         "Name":"8. OCV IA - Operation in OSS Modes",
@@ -1488,6 +1495,13 @@
         "ExecutionDate":"2025-03-11",
         "Document Key":"KCE-TSTRN-3860959",
         "Name":"3.0 OCV IA - Basic Operation",
+        "Assigned To":"Shrividhya"
+    },
+    {
+        "TestRunStatus":"INPROGRESS",
+        "ExecutionDate":"2025-03-12",
+        "Document Key":"KCE-TSTRN-3860977",
+        "Name":"1. RMI - Visual Indication",
         "Assigned To":"Shrividhya"
     },
     {
