@@ -27,3 +27,4 @@ KCE-SWBUG-5431,16.8 - MQTT connection Failed (1901) detected when the AMC Samsun
 KCE-SWBUG-5437,P4.2 - NHR- CTD activated door starts closing after opening for 30secs (DOE Time),Harini Sri,,2025-03-03
 KCE-SWBUG-5460,16.8 - CSM - Elevator gets Stuck when CSM triggered from OPT after a Car Call,Suryanarayanan,"KCE 16.8.3.2(LD: 16.8.3.4, GCD: 16.8.65)",2025-03-04
 KCE-SWBUG-5484,16.8 - The beta feature is missing in the Site Manager while software update.,Vivek,"KCE 16.8.3.5(LD: 16.8.3.5, GCD: 16.8.76)",2025-03-09
+KCE-SWBUG-5500,16.8 - KDM - Unable to set virtual floors from floors 100 and above.,Badaganti Sai Prasad,"16.8.3.5(LD: 16.8.3.5, GCD: 16.8.76)",2025-03-12

@@ -113,6 +113,13 @@
     },
     {
         "TestRunStatus":"INPROGRESS",
+        "ExecutionDate":"2025-03-13",
+        "Document Key":"KCE-TSTRN-3852978",
+        "Name":"09.3 KCEKDL16 Basic - Automatic brake test",
+        "Assigned To":"Jagadeesh"
+    },
+    {
+        "TestRunStatus":"INPROGRESS",
         "ExecutionDate":"2025-03-05",
         "Document Key":"KCE-TSTRN-3852979",
         "Name":"09.4 KCEKDL16 Basic - Manual brake test - Normal",
@@ -1211,8 +1218,8 @@
         "Assigned To":"Suryanarayanan"
     },
     {
-        "TestRunStatus":"FAILED",
-        "ExecutionDate":"2025-03-12",
+        "TestRunStatus":"INPROGRESS",
+        "ExecutionDate":"2025-03-13",
         "Document Key":"KCE-TSTRN-3860858",
         "Name":"LOC ..G - General lock - KCEPIO",
         "Assigned To":"Suryanarayanan"
@@ -1736,8 +1743,8 @@
         "Assigned To":"Vivek"
     },
     {
-        "TestRunStatus":"INPROGRESS",
-        "ExecutionDate":"2025-03-10",
+        "TestRunStatus":"PASSED",
+        "ExecutionDate":"2025-03-13",
         "Document Key":"KCE-TSTRN-3860773",
         "Name":"xDOP call type selection with virtual keypad 10\"",
         "Assigned To":"Vivek"
