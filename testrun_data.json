@@ -1211,7 +1211,7 @@
         "Assigned To":"Suryanarayanan"
     },
     {
-        "TestRunStatus":"INPROGRESS",
+        "TestRunStatus":"FAILED",
         "ExecutionDate":"2025-03-12",
         "Document Key":"KCE-TSTRN-3860858",
         "Name":"LOC ..G - General lock - KCEPIO",
@@ -1436,9 +1436,30 @@
     },
     {
         "TestRunStatus":"PASSED",
+        "ExecutionDate":"2025-03-12",
+        "Document Key":"KCE-TSTRN-3860930",
+        "Name":"9. IDO - DOB, DCB Operation",
+        "Assigned To":"Badaganti Sai Prasad"
+    },
+    {
+        "TestRunStatus":"PASSED",
         "ExecutionDate":"2025-03-11",
         "Document Key":"KCE-TSTRN-3860931",
         "Name":"10. IDO - Special modes",
+        "Assigned To":"Badaganti Sai Prasad"
+    },
+    {
+        "TestRunStatus":"INPROGRESS",
+        "ExecutionDate":"2025-03-12",
+        "Document Key":"KCE-TSTRN-3860932",
+        "Name":"11. IDO - Operation at FPD Activated floor",
+        "Assigned To":"Badaganti Sai Prasad"
+    },
+    {
+        "TestRunStatus":"FAILED",
+        "ExecutionDate":"2025-03-12",
+        "Document Key":"KCE-TSTRN-3860941",
+        "Name":"RES E - Reduced Speed - Tests not included into TA",
         "Assigned To":"Badaganti Sai Prasad"
     },
     {
@@ -1537,6 +1558,13 @@
         "ExecutionDate":"2025-03-12",
         "Document Key":"KCE-TSTRN-3860979",
         "Name":"3. RMI - Announcer with Visual indication",
+        "Assigned To":"Shrividhya"
+    },
+    {
+        "TestRunStatus":"INPROGRESS",
+        "ExecutionDate":"2025-03-12",
+        "Document Key":"KCE-TSTRN-3860984",
+        "Name":"8. RMI - Indications at returned floor",
         "Assigned To":"Shrividhya"
     },
     {
