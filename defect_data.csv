@@ -15,7 +15,7 @@ KCE-SWBUG-5232,"PDX - In the group-controller side, the drive-related fault code
 KCE-SWBUG-5235,16.8 - ELO - Intruder Alarm in MR and Main Floor is not resetting when inspection modes are activated.,Badaganti Sai Prasad,"16.8.2.27(LD: 16.8.2.5, GCD: 16.8.61)",2025-02-02
 KCE-SWBUG-5277,4.6 Service Tool - AMC - Some domain faults are not showing in the fault logs of group controller.,ARUN KUMAR,AMC 4.6.228.6900,2025-02-05
 KCE-SWBUG-5278,16.8 - Out of service indication not shown in DG after power cycle when OSS reserved via pin in xDOP,Vivek,KCE 16.8.2.30(LD:16.8.2.6 GCD:16.8.62),2025-02-05
-KCE-SWBUG-5332,"16.8-In EAQ Stuck Moment- ACU announces both ""EAQ Evocation Statement"" and the ""Emergency Stuck Announcement"" ",Jagadeesh,"KCE 16.8.2.32(LD: 16.8.2.6, GCD: 16.8.64)",2025-02-13
+KCE-SWBUG-5332,"16.8-In EAQ Stuck Moment- ACU announces both ""EAQ Evacuations Statement"" and the ""Emergency Stuck Announcement"" ",Jagadeesh,"KCE 16.8.2.32(LD: 16.8.2.6, GCD: 16.8.64)",2025-02-13
 KCE-SWBUG-5334,16.8 - In 24/7 Cloud view the EPD (emergency power) mode message is not updated after the power cycle.,Vivek,"16.8.2.32(LD: 16.8.2.6, GCD: 16.8.64)",2025-02-13
 KCE-SWBUG-5345,"16.8 - Sitemanager- The background spelling misspelled like ""bacground"" in the xDOP timed header feature.",Vivek,"16.8.2.32(LD: 16.8.2.6, GCD: 16.8.64)",2025-02-16
 KCE-SWBUG-5350,AMD D10 EVO S - Close End Stuck Fault not Automatically Cleared after Close End Switch is Closed,Suryanarayanan,KCE16.4.92 (LD 16.4.1.11 and GCD 16.4.65) + D10S STMF103 and STML412_EVO_V3.3A,2025-02-17
