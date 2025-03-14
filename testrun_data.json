@@ -112,7 +112,7 @@
         "Assigned To":"Jagadeesh"
     },
     {
-        "TestRunStatus":"INPROGRESS",
+        "TestRunStatus":"FAILED",
         "ExecutionDate":"2025-03-13",
         "Document Key":"KCE-TSTRN-3852978",
         "Name":"09.3 KCEKDL16 Basic - Automatic brake test",
@@ -148,17 +148,17 @@
     },
     {
         "TestRunStatus":"INPROGRESS",
-        "ExecutionDate":"2025-03-04",
+        "ExecutionDate":"2025-03-13",
         "Document Key":"KCE-TSTRN-3852983",
         "Name":"11. KCEKDL16 Basic - Drive fan control",
         "Assigned To":"Jagadeesh"
     },
     {
-        "TestRunStatus":"INPROGRESS",
-        "ExecutionDate":"2025-03-10",
+        "TestRunStatus":"PASSED",
+        "ExecutionDate":"2025-03-13",
         "Document Key":"KCE-TSTRN-3852986",
         "Name":"15. KCEKDL16 Basic - DTS test",
-        "Assigned To":"Jagadeesh"
+        "Assigned To":"Priyavalli"
     },
     {
         "TestRunStatus":"PASSED",
@@ -173,6 +173,13 @@
         "Document Key":"KCE-TSTRN-3852989",
         "Name":"18.2 KCEKDL16 Basic - Single brake full speed stopping test",
         "Assigned To":"Jagadeesh"
+    },
+    {
+        "TestRunStatus":"INPROGRESS",
+        "ExecutionDate":"2025-03-13",
+        "Document Key":"KCE-TSTRN-3852990",
+        "Name":"20. KCEKDL16 basic - Driving in EPD mode",
+        "Assigned To":"Priyavalli"
     },
     {
         "TestRunStatus":"PASSED",
@@ -280,8 +287,8 @@
         "Assigned To":"Priyavalli"
     },
     {
-        "TestRunStatus":"INPROGRESS",
-        "ExecutionDate":"2025-03-03",
+        "TestRunStatus":"PASSED",
+        "ExecutionDate":"2025-03-13",
         "Document Key":"KCE-TSTRN-3853010",
         "Name":"06. KCEKDL16 UI-test - Acceleration",
         "Assigned To":"Priyavalli"
@@ -1218,15 +1225,15 @@
         "Assigned To":"Suryanarayanan"
     },
     {
-        "TestRunStatus":"INPROGRESS",
+        "TestRunStatus":"PASSED",
         "ExecutionDate":"2025-03-13",
         "Document Key":"KCE-TSTRN-3860858",
         "Name":"LOC ..G - General lock - KCEPIO",
         "Assigned To":"Suryanarayanan"
     },
     {
-        "TestRunStatus":"INPROGRESS",
-        "ExecutionDate":"2025-03-12",
+        "TestRunStatus":"PASSED",
+        "ExecutionDate":"2025-03-13",
         "Document Key":"KCE-TSTRN-3860859",
         "Name":"LOC ..G - General lock - MULs",
         "Assigned To":"Suryanarayanan"
@@ -1705,6 +1712,20 @@
         "ExecutionDate":"2025-03-10",
         "Document Key":"KCE-TSTRN-3860735",
         "Name":"7\" DOP Floor icons",
+        "Assigned To":"Vivek"
+    },
+    {
+        "TestRunStatus":"PASSED",
+        "ExecutionDate":"2025-03-13",
+        "Document Key":"KCE-TSTRN-3860737",
+        "Name":"xDOP indicates status Call is being processed when lifts are busy ",
+        "Assigned To":"Vivek"
+    },
+    {
+        "TestRunStatus":"PASSED",
+        "ExecutionDate":"2025-03-13",
+        "Document Key":"KCE-TSTRN-3860749",
+        "Name":"xDOP accent color customization",
         "Assigned To":"Vivek"
     },
     {
