@@ -70,7 +70,7 @@
         "Assigned To":"Priyavalli"
     },
     {
-        "TestRunStatus":"INPROGRESS",
+        "TestRunStatus":"PASSED",
         "ExecutionDate":"2025-03-14",
         "Document Key":"KCE-TSTRN-3852970",
         "Name":"03. KCEKDL16 Basic - Normal Run",
@@ -88,6 +88,13 @@
         "ExecutionDate":"2025-02-25",
         "Document Key":"KCE-TSTRN-3852972",
         "Name":"05. KCEKDL16 Basic - Relevelling Drive",
+        "Assigned To":"Jagadeesh"
+    },
+    {
+        "TestRunStatus":"PASSED",
+        "ExecutionDate":"2025-03-14",
+        "Document Key":"KCE-TSTRN-3852973",
+        "Name":"06. KCEKDL16 Basic - Position syncronization",
         "Assigned To":"Jagadeesh"
     },
     {
@@ -158,6 +165,13 @@
         "ExecutionDate":"2025-03-13",
         "Document Key":"KCE-TSTRN-3852983",
         "Name":"11. KCEKDL16 Basic - Drive fan control",
+        "Assigned To":"Jagadeesh"
+    },
+    {
+        "TestRunStatus":"INPROGRESS",
+        "ExecutionDate":"2025-03-14",
+        "Document Key":"KCE-TSTRN-3852984",
+        "Name":"12. KCEKDL16 Basic - Standby mode",
         "Assigned To":"Jagadeesh"
     },
     {
@@ -1197,6 +1211,13 @@
         "Assigned To":"Shrividhya"
     },
     {
+        "TestRunStatus":"INPROGRESS",
+        "ExecutionDate":"2025-03-14",
+        "Document Key":"KCE-TSTRN-3860853",
+        "Name":"FRD SG - Phase 1 Additional test",
+        "Assigned To":"Suryanarayanan"
+    },
+    {
         "TestRunStatus":"PASSED",
         "ExecutionDate":"2025-03-03",
         "Document Key":"KCE-TSTRN-3857162",
@@ -1421,8 +1442,8 @@
         "Assigned To":"Badaganti Sai Prasad"
     },
     {
-        "TestRunStatus":"INPROGRESS",
-        "ExecutionDate":"2025-03-11",
+        "TestRunStatus":"FAILED",
+        "ExecutionDate":"2025-03-14",
         "Document Key":"KCE-TSTRN-3860924",
         "Name":"3. IDO - Service modes to Normal",
         "Assigned To":"Badaganti Sai Prasad"
@@ -1478,9 +1499,23 @@
     },
     {
         "TestRunStatus":"FAILED",
-        "ExecutionDate":"2025-03-12",
+        "ExecutionDate":"2025-03-14",
+        "Document Key":"KCE-TSTRN-3860933",
+        "Name":"13. IDO - Disable",
+        "Assigned To":"Badaganti Sai Prasad"
+    },
+    {
+        "TestRunStatus":"FAILED",
+        "ExecutionDate":"2025-03-14",
         "Document Key":"KCE-TSTRN-3860941",
         "Name":"RES E - Reduced Speed - Tests not included into TA",
+        "Assigned To":"Badaganti Sai Prasad"
+    },
+    {
+        "TestRunStatus":"FAILED",
+        "ExecutionDate":"2025-03-14",
+        "Document Key":"KCE-TSTRN-3860942",
+        "Name":"RES I - Reduced Speed - Tests not included into TA",
         "Assigned To":"Badaganti Sai Prasad"
     },
     {
