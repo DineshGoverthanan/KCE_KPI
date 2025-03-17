@@ -1604,21 +1604,42 @@
     },
     {
         "TestRunStatus":"INPROGRESS",
-        "ExecutionDate":"2025-03-12",
+        "ExecutionDate":"2025-03-17",
         "Document Key":"KCE-TSTRN-3860977",
         "Name":"1. RMI - Visual Indication",
         "Assigned To":"Shrividhya"
     },
     {
-        "TestRunStatus":"INPROGRESS",
-        "ExecutionDate":"2025-03-12",
+        "TestRunStatus":"PASSED",
+        "ExecutionDate":"2025-03-17",
+        "Document Key":"KCE-TSTRN-3860978",
+        "Name":"2.0 RMI - Audio Buzzer with Visual Indication (KSS Signalization)",
+        "Assigned To":"Shrividhya"
+    },
+    {
+        "TestRunStatus":"PASSED",
+        "ExecutionDate":"2025-03-17",
         "Document Key":"KCE-TSTRN-3860979",
         "Name":"3. RMI - Announcer with Visual indication",
         "Assigned To":"Shrividhya"
     },
     {
+        "TestRunStatus":"PASSED",
+        "ExecutionDate":"2025-03-17",
+        "Document Key":"KCE-TSTRN-3860982",
+        "Name":"6. RMI - Operation with inspection modes",
+        "Assigned To":"Shrividhya"
+    },
+    {
         "TestRunStatus":"INPROGRESS",
-        "ExecutionDate":"2025-03-12",
+        "ExecutionDate":"2025-03-17",
+        "Document Key":"KCE-TSTRN-3860983",
+        "Name":"7. RMI - Indications Deactivation at stuck situation",
+        "Assigned To":"Shrividhya"
+    },
+    {
+        "TestRunStatus":"PASSED",
+        "ExecutionDate":"2025-03-17",
         "Document Key":"KCE-TSTRN-3860984",
         "Name":"8. RMI - Indications at returned floor",
         "Assigned To":"Shrividhya"
