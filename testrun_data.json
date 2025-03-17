@@ -196,8 +196,8 @@
         "Assigned To":"Jagadeesh"
     },
     {
-        "TestRunStatus":"INPROGRESS",
-        "ExecutionDate":"2025-03-13",
+        "TestRunStatus":"FAILED",
+        "ExecutionDate":"2025-03-17",
         "Document Key":"KCE-TSTRN-3852990",
         "Name":"20. KCEKDL16 basic - Driving in EPD mode",
         "Assigned To":"Priyavalli"
@@ -1626,12 +1626,19 @@
     {
         "TestRunStatus":"PASSED",
         "ExecutionDate":"2025-03-17",
+        "Document Key":"KCE-TSTRN-3860981",
+        "Name":"5. RMI - RMI operation during ERD Supervision",
+        "Assigned To":"Shrividhya"
+    },
+    {
+        "TestRunStatus":"PASSED",
+        "ExecutionDate":"2025-03-17",
         "Document Key":"KCE-TSTRN-3860982",
         "Name":"6. RMI - Operation with inspection modes",
         "Assigned To":"Shrividhya"
     },
     {
-        "TestRunStatus":"INPROGRESS",
+        "TestRunStatus":"PASSED",
         "ExecutionDate":"2025-03-17",
         "Document Key":"KCE-TSTRN-3860983",
         "Name":"7. RMI - Indications Deactivation at stuck situation",
@@ -1642,6 +1649,41 @@
         "ExecutionDate":"2025-03-17",
         "Document Key":"KCE-TSTRN-3860984",
         "Name":"8. RMI - Indications at returned floor",
+        "Assigned To":"Shrividhya"
+    },
+    {
+        "TestRunStatus":"PASSED",
+        "ExecutionDate":"2025-03-17",
+        "Document Key":"KCE-TSTRN-3860985",
+        "Name":"9. RMI - Indications during FRD modes",
+        "Assigned To":"Shrividhya"
+    },
+    {
+        "TestRunStatus":"PASSED",
+        "ExecutionDate":"2025-03-17",
+        "Document Key":"KCE-TSTRN-3860986",
+        "Name":"10. RMI - Indications during 263 inhibit active",
+        "Assigned To":"Shrividhya"
+    },
+    {
+        "TestRunStatus":"PASSED",
+        "ExecutionDate":"2025-03-17",
+        "Document Key":"KCE-TSTRN-3860987",
+        "Name":"11. RMI - COP Buzzer volume control",
+        "Assigned To":"Shrividhya"
+    },
+    {
+        "TestRunStatus":"PASSED",
+        "ExecutionDate":"2025-03-17",
+        "Document Key":"KCE-TSTRN-3860988",
+        "Name":"12. RMI - Audio indication buzzer in use",
+        "Assigned To":"Shrividhya"
+    },
+    {
+        "TestRunStatus":"PASSED",
+        "ExecutionDate":"2025-03-17",
+        "Document Key":"KCE-TSTRN-3860990",
+        "Name":"13. RMI Audio indication Announcer in use",
         "Assigned To":"Shrividhya"
     },
     {
@@ -1810,6 +1852,20 @@
         "ExecutionDate":"2025-03-10",
         "Document Key":"KCE-TSTRN-3860759",
         "Name":"xDOP Call giving",
+        "Assigned To":"Vivek"
+    },
+    {
+        "TestRunStatus":"PASSED",
+        "ExecutionDate":"2025-03-17",
+        "Document Key":"KCE-TSTRN-3860765",
+        "Name":"xDOP Fireman-mode ",
+        "Assigned To":"Vivek"
+    },
+    {
+        "TestRunStatus":"PASSED",
+        "ExecutionDate":"2025-03-17",
+        "Document Key":"KCE-TSTRN-3860766",
+        "Name":"xDOP Fireman-mode customization",
         "Assigned To":"Vivek"
     },
     {
