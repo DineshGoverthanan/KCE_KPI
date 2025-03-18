@@ -21,6 +21,13 @@
         "Assigned To":"Jagadeesh"
     },
     {
+        "TestRunStatus":"PASSED",
+        "ExecutionDate":"2025-03-17",
+        "Document Key":"KCE-TSTRN-3852962",
+        "Name":"04.1 KCEKDL16 Load weighing device set up - Current loop connected to CCG",
+        "Assigned To":"Priyavalli"
+    },
+    {
         "TestRunStatus":"FAILED",
         "ExecutionDate":"2025-02-18",
         "Document Key":"KCE-TSTRN-3852963",
@@ -64,7 +71,7 @@
     },
     {
         "TestRunStatus":"INPROGRESS",
-        "ExecutionDate":"2025-03-03",
+        "ExecutionDate":"2025-03-17",
         "Document Key":"KCE-TSTRN-3852969",
         "Name":"02. KCEKDL16 Basic - Inspection Drive",
         "Assigned To":"Priyavalli"
@@ -161,15 +168,15 @@
         "Assigned To":"Jagadeesh"
     },
     {
-        "TestRunStatus":"INPROGRESS",
-        "ExecutionDate":"2025-03-13",
+        "TestRunStatus":"PASSED",
+        "ExecutionDate":"2025-03-17",
         "Document Key":"KCE-TSTRN-3852983",
         "Name":"11. KCEKDL16 Basic - Drive fan control",
         "Assigned To":"Jagadeesh"
     },
     {
-        "TestRunStatus":"INPROGRESS",
-        "ExecutionDate":"2025-03-14",
+        "TestRunStatus":"PASSED",
+        "ExecutionDate":"2025-03-17",
         "Document Key":"KCE-TSTRN-3852984",
         "Name":"12. KCEKDL16 Basic - Standby mode",
         "Assigned To":"Jagadeesh"
@@ -315,8 +322,8 @@
         "Assigned To":"Priyavalli"
     },
     {
-        "TestRunStatus":"INPROGRESS",
-        "ExecutionDate":"2025-03-11",
+        "TestRunStatus":"FAILED",
+        "ExecutionDate":"2025-03-17",
         "Document Key":"KCE-TSTRN-3853012",
         "Name":"02. KCEKDL16 - Stopping accuracy",
         "Assigned To":"Priyavalli"
@@ -1435,6 +1442,34 @@
         "Assigned To":"Badaganti Sai Prasad"
     },
     {
+        "TestRunStatus":"INPROGRESS",
+        "ExecutionDate":"2025-03-17",
+        "Document Key":"KCE-TSTRN-3860887",
+        "Name":"Basic Functions - Elevator vacant - Tests not included into TA",
+        "Assigned To":"Shrividhya"
+    },
+    {
+        "TestRunStatus":"PASSED",
+        "ExecutionDate":"2025-03-17",
+        "Document Key":"KCE-TSTRN-3860902",
+        "Name":"FRD CN - Phase 1 - Tests not included into TA",
+        "Assigned To":"Badaganti Sai Prasad"
+    },
+    {
+        "TestRunStatus":"PASSED",
+        "ExecutionDate":"2025-03-17",
+        "Document Key":"KCE-TSTRN-3860903",
+        "Name":"FRD NL - Phase 1 - Tests not included into TA ",
+        "Assigned To":"Badaganti Sai Prasad"
+    },
+    {
+        "TestRunStatus":"INPROGRESS",
+        "ExecutionDate":"2025-03-17",
+        "Document Key":"KCE-TSTRN-3860904",
+        "Name":"FRD MY - Phase 1 - Tests not included into TA",
+        "Assigned To":"Badaganti Sai Prasad"
+    },
+    {
         "TestRunStatus":"PASSED",
         "ExecutionDate":"2025-03-11",
         "Document Key":"KCE-TSTRN-3860922",
@@ -1626,6 +1661,13 @@
     {
         "TestRunStatus":"PASSED",
         "ExecutionDate":"2025-03-17",
+        "Document Key":"KCE-TSTRN-3860980",
+        "Name":"4. RMI - ACU with Visual indications",
+        "Assigned To":"Shrividhya"
+    },
+    {
+        "TestRunStatus":"PASSED",
+        "ExecutionDate":"2025-03-17",
         "Document Key":"KCE-TSTRN-3860981",
         "Name":"5. RMI - RMI operation during ERD Supervision",
         "Assigned To":"Shrividhya"
@@ -1682,8 +1724,29 @@
     {
         "TestRunStatus":"PASSED",
         "ExecutionDate":"2025-03-17",
+        "Document Key":"KCE-TSTRN-3860989",
+        "Name":"14. RMI Disable",
+        "Assigned To":"Shrividhya"
+    },
+    {
+        "TestRunStatus":"PASSED",
+        "ExecutionDate":"2025-03-17",
         "Document Key":"KCE-TSTRN-3860990",
         "Name":"13. RMI Audio indication Announcer in use",
+        "Assigned To":"Shrividhya"
+    },
+    {
+        "TestRunStatus":"PASSED",
+        "ExecutionDate":"2025-03-17",
+        "Document Key":"KCE-TSTRN-3860991",
+        "Name":"2.1 RMI - Audio Buzzer with Visual Indication (KCECOB)",
+        "Assigned To":"Shrividhya"
+    },
+    {
+        "TestRunStatus":"PASSED",
+        "ExecutionDate":"2025-03-17",
+        "Document Key":"KCE-TSTRN-3860992",
+        "Name":"2.2 RMI - Audio Buzzer with Visual Indication (KCE PIO)",
         "Assigned To":"Shrividhya"
     },
     {
@@ -1866,6 +1929,13 @@
         "ExecutionDate":"2025-03-17",
         "Document Key":"KCE-TSTRN-3860766",
         "Name":"xDOP Fireman-mode customization",
+        "Assigned To":"Vivek"
+    },
+    {
+        "TestRunStatus":"PASSED",
+        "ExecutionDate":"2025-03-17",
+        "Document Key":"KCE-TSTRN-3860767",
+        "Name":"Fireman able to open doors by button from xDOP",
         "Assigned To":"Vivek"
     },
     {
