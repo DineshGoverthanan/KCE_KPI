@@ -7,11 +7,11 @@
         "Assigned To":"Priyavalli"
     },
     {
-        "TestRunStatus":"INPROGRESS",
-        "ExecutionDate":"2025-02-17",
+        "TestRunStatus":"PASSED",
+        "ExecutionDate":"2025-03-18",
         "Document Key":"KCE-TSTRN-3852960",
         "Name":"02.1 KCEKDL16 Setting drive and KCECPU parameters - BCX dual brake",
-        "Assigned To":"Priyavalli"
+        "Assigned To":"Jagadeesh"
     },
     {
         "TestRunStatus":"FAILED",
@@ -203,8 +203,8 @@
         "Assigned To":"Jagadeesh"
     },
     {
-        "TestRunStatus":"FAILED",
-        "ExecutionDate":"2025-03-17",
+        "TestRunStatus":"PASSED",
+        "ExecutionDate":"2025-03-18",
         "Document Key":"KCE-TSTRN-3852990",
         "Name":"20. KCEKDL16 basic - Driving in EPD mode",
         "Assigned To":"Priyavalli"
@@ -295,7 +295,7 @@
     },
     {
         "TestRunStatus":"FAILED",
-        "ExecutionDate":"2025-02-26",
+        "ExecutionDate":"2025-03-18",
         "Document Key":"KCE-TSTRN-3853007",
         "Name":"02. KCEKDL16 UI-test - Nameplate",
         "Assigned To":"Priyavalli"
@@ -1174,6 +1174,20 @@
         "Document Key":"KCE-TSTRN-3857138",
         "Name":"BMO_Special case",
         "Assigned To":"Vivek"
+    },
+    {
+        "TestRunStatus":"PASSED",
+        "ExecutionDate":"2025-03-18",
+        "Document Key":"KCE-TSTRN-3904864",
+        "Name":"1.Elevator Occupancy Sensor - Parameter Settings ",
+        "Assigned To":"Shrividhya"
+    },
+    {
+        "TestRunStatus":"PASSED",
+        "ExecutionDate":"2025-03-18",
+        "Document Key":"KCE-TSTRN-3904865",
+        "Name":"2.Elevator Occupancy Sensor \u2013 BLF triggered when Occupancy sensor is ON - Elevator in floor level",
+        "Assigned To":"Shrividhya"
     },
     {
         "TestRunStatus":"PASSED",
