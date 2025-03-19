@@ -154,8 +154,8 @@
         "Assigned To":"Jagadeesh"
     },
     {
-        "TestRunStatus":"INPROGRESS",
-        "ExecutionDate":"2025-03-04",
+        "TestRunStatus":"PASSED",
+        "ExecutionDate":"2025-03-18",
         "Document Key":"KCE-TSTRN-3852981",
         "Name":"09.7 KCEKDL16 Basic - Brake control - Normal stop with stop delay",
         "Assigned To":"Jagadeesh"
@@ -1191,6 +1191,48 @@
     },
     {
         "TestRunStatus":"PASSED",
+        "ExecutionDate":"2025-03-18",
+        "Document Key":"KCE-TSTRN-3904866",
+        "Name":"3.Elevator Occupancy Sensor \u2013 BLF triggered when Occupancy sensor is ON - Elevator in moving condition",
+        "Assigned To":"Shrividhya"
+    },
+    {
+        "TestRunStatus":"PASSED",
+        "ExecutionDate":"2025-03-18",
+        "Document Key":"KCE-TSTRN-3904867",
+        "Name":"4.Elevator Occupancy Sensor \u2013 BLF Function after served all the car calls when Occupancy sensor is ON",
+        "Assigned To":"Shrividhya"
+    },
+    {
+        "TestRunStatus":"PASSED",
+        "ExecutionDate":"2025-03-18",
+        "Document Key":"KCE-TSTRN-3904868",
+        "Name":"5.Elevator Occupancy Sensor \u2013 BLF operation in-between car call registered when lift serving landing calls",
+        "Assigned To":"Shrividhya"
+    },
+    {
+        "TestRunStatus":"PASSED",
+        "ExecutionDate":"2025-03-18",
+        "Document Key":"KCE-TSTRN-3904869",
+        "Name":"6.Elevator Occupancy Sensor \u2013 BLF Function with door open when Occupancy sensor is ON",
+        "Assigned To":"Shrividhya"
+    },
+    {
+        "TestRunStatus":"PASSED",
+        "ExecutionDate":"2025-03-18",
+        "Document Key":"KCE-TSTRN-3904870",
+        "Name":"7.Elevator Occupancy Sensor \u2013 BLF Function when Occupancy sensor is OFF",
+        "Assigned To":"Shrividhya"
+    },
+    {
+        "TestRunStatus":"PASSED",
+        "ExecutionDate":"2025-03-19",
+        "Document Key":"KCE-TSTRN-3904871",
+        "Name":"8.Elevator Occupancy Sensor - Occupancy sensor is ON state and LWD BLF in ON state ",
+        "Assigned To":"Shrividhya"
+    },
+    {
+        "TestRunStatus":"PASSED",
         "ExecutionDate":"2025-02-28",
         "Document Key":"KCE-TSTRN-3857155",
         "Name":"FRD FR - Phase 1 - Tests not included into TA ",
@@ -1218,6 +1260,13 @@
         "Assigned To":"Shrividhya"
     },
     {
+        "TestRunStatus":"INPROGRESS",
+        "ExecutionDate":"2025-03-18",
+        "Document Key":"KCE-TSTRN-3904880",
+        "Name":"FRD IL - Phase 2 - Tests not included into TA",
+        "Assigned To":"Suryanarayanan"
+    },
+    {
         "TestRunStatus":"PASSED",
         "ExecutionDate":"2025-03-03",
         "Document Key":"KCE-TSTRN-3857159",
@@ -1233,8 +1282,29 @@
     },
     {
         "TestRunStatus":"INPROGRESS",
+        "ExecutionDate":"2025-03-18",
+        "Document Key":"KCE-TSTRN-3860852",
+        "Name":"FRD SG - Phase 2 - Tests not included into TA",
+        "Assigned To":"Suryanarayanan"
+    },
+    {
+        "TestRunStatus":"INPROGRESS",
+        "ExecutionDate":"2025-03-18",
+        "Document Key":"KCE-TSTRN-3904881",
+        "Name":"FRD SG - Phase 2 - Tests not included into TA",
+        "Assigned To":"Suryanarayanan"
+    },
+    {
+        "TestRunStatus":"INPROGRESS",
         "ExecutionDate":"2025-03-14",
         "Document Key":"KCE-TSTRN-3860853",
+        "Name":"FRD SG - Phase 1 Additional test",
+        "Assigned To":"Suryanarayanan"
+    },
+    {
+        "TestRunStatus":"INPROGRESS",
+        "ExecutionDate":"2025-03-18",
+        "Document Key":"KCE-TSTRN-3904882",
         "Name":"FRD SG - Phase 1 Additional test",
         "Assigned To":"Suryanarayanan"
     },
@@ -1484,7 +1554,7 @@
         "Assigned To":"Badaganti Sai Prasad"
     },
     {
-        "TestRunStatus":"INPROGRESS",
+        "TestRunStatus":"PASSED",
         "ExecutionDate":"2025-03-18",
         "Document Key":"KCE-TSTRN-3904926",
         "Name":"FRD MY - Phase 1 - Tests not included into TA",
@@ -1501,6 +1571,13 @@
         "TestRunStatus":"FAILED",
         "ExecutionDate":"2025-03-14",
         "Document Key":"KCE-TSTRN-3860924",
+        "Name":"3. IDO - Service modes to Normal",
+        "Assigned To":"Badaganti Sai Prasad"
+    },
+    {
+        "TestRunStatus":"FAILED",
+        "ExecutionDate":"2025-03-18",
+        "Document Key":"KCE-TSTRN-3904945",
         "Name":"3. IDO - Service modes to Normal",
         "Assigned To":"Badaganti Sai Prasad"
     },
@@ -1572,6 +1649,13 @@
         "ExecutionDate":"2025-03-14",
         "Document Key":"KCE-TSTRN-3860942",
         "Name":"RES I - Reduced Speed - Tests not included into TA",
+        "Assigned To":"Badaganti Sai Prasad"
+    },
+    {
+        "TestRunStatus":"PASSED",
+        "ExecutionDate":"2025-03-18",
+        "Document Key":"KCE-TSTRN-3904959",
+        "Name":"FRD DE - Phase 1 - Tests not included into TA ",
         "Assigned To":"Badaganti Sai Prasad"
     },
     {
@@ -1967,10 +2051,24 @@
         "Assigned To":"Vivek"
     },
     {
-        "TestRunStatus":"INPROGRESS",
+        "TestRunStatus":"PASSED",
         "ExecutionDate":"2025-03-18",
         "Document Key":"KCE-TSTRN-3904813",
         "Name":"xDOP Guidance map with header guidance",
+        "Assigned To":"Vivek"
+    },
+    {
+        "TestRunStatus":"PASSED",
+        "ExecutionDate":"2025-03-18",
+        "Document Key":"KCE-TSTRN-3904814",
+        "Name":"xDOP floor icons ",
+        "Assigned To":"Vivek"
+    },
+    {
+        "TestRunStatus":"PASSED",
+        "ExecutionDate":"2025-03-18",
+        "Document Key":"KCE-TSTRN-3904815",
+        "Name":"xDOP Button layouts",
         "Assigned To":"Vivek"
     },
     {
