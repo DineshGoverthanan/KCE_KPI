@@ -196,6 +196,13 @@
         "Assigned To":"Jagadeesh"
     },
     {
+        "TestRunStatus":"INPROGRESS",
+        "ExecutionDate":"2025-03-19",
+        "Document Key":"KCE-TSTRN-3852988",
+        "Name":"17. KCEKDL16 Basic - Driving in EBD-mode",
+        "Assigned To":"Jagadeesh"
+    },
+    {
         "TestRunStatus":"PASSED",
         "ExecutionDate":"2025-03-11",
         "Document Key":"KCE-TSTRN-3852989",
@@ -1233,6 +1240,55 @@
     },
     {
         "TestRunStatus":"PASSED",
+        "ExecutionDate":"2025-03-19",
+        "Document Key":"KCE-TSTRN-3904872",
+        "Name":"9.Elevator Occupancy Sensor - Occupancy sensor in OFF state and LWD BLF in ON state ",
+        "Assigned To":"Shrividhya"
+    },
+    {
+        "TestRunStatus":"PASSED",
+        "ExecutionDate":"2025-03-19",
+        "Document Key":"KCE-TSTRN-3904873",
+        "Name":"10.Elevator Occupancy Sensor - Occupancy sensor in ON state and LWD BLF in OFF state ",
+        "Assigned To":"Shrividhya"
+    },
+    {
+        "TestRunStatus":"PASSED",
+        "ExecutionDate":"2025-03-19",
+        "Document Key":"KCE-TSTRN-3904874",
+        "Name":"11.Elevator Occupancy Sensor - Occupancy sensor is ON and LWD Overload function is ON  ",
+        "Assigned To":"Shrividhya"
+    },
+    {
+        "TestRunStatus":"PASSED",
+        "ExecutionDate":"2025-03-19",
+        "Document Key":"KCE-TSTRN-3904875",
+        "Name":"12.Elevator Occupancy Sensor - Occupancy sensor is ON and LWD Overload function is OFF  ",
+        "Assigned To":"Shrividhya"
+    },
+    {
+        "TestRunStatus":"PASSED",
+        "ExecutionDate":"2025-03-19",
+        "Document Key":"KCE-TSTRN-3904876",
+        "Name":"13.Elevator Occupancy Sensor - Occupancy sensor is OFF and LWD Overload function is ON state",
+        "Assigned To":"Shrividhya"
+    },
+    {
+        "TestRunStatus":"PASSED",
+        "ExecutionDate":"2025-03-19",
+        "Document Key":"KCE-TSTRN-3904877",
+        "Name":"14.Elevator Occupancy Sensor - Occupancy sensor is OFF and LWD Overload function is OFF  ",
+        "Assigned To":"Shrividhya"
+    },
+    {
+        "TestRunStatus":"PASSED",
+        "ExecutionDate":"2025-03-19",
+        "Document Key":"KCE-TSTRN-3904878",
+        "Name":"15.Elevator Occupancy Sensor \u2013 Display Indication when Occupancy sensor in ON state.",
+        "Assigned To":"Shrividhya"
+    },
+    {
+        "TestRunStatus":"PASSED",
         "ExecutionDate":"2025-02-28",
         "Document Key":"KCE-TSTRN-3857155",
         "Name":"FRD FR - Phase 1 - Tests not included into TA ",
@@ -2073,6 +2129,13 @@
     },
     {
         "TestRunStatus":"PASSED",
+        "ExecutionDate":"2025-03-19",
+        "Document Key":"KCE-TSTRN-3904816",
+        "Name":"xDOP range proximity sensor",
+        "Assigned To":"Vivek"
+    },
+    {
+        "TestRunStatus":"PASSED",
         "ExecutionDate":"2025-03-04",
         "Document Key":"KCE-TSTRN-3859186",
         "Name":"xDOP Basic destination call with virtual keypad 10\"",
@@ -2090,6 +2153,27 @@
         "ExecutionDate":"2025-03-13",
         "Document Key":"KCE-TSTRN-3860773",
         "Name":"xDOP call type selection with virtual keypad 10\"",
+        "Assigned To":"Vivek"
+    },
+    {
+        "TestRunStatus":"PASSED",
+        "ExecutionDate":"2025-03-19",
+        "Document Key":"KCE-TSTRN-3904817",
+        "Name":"xDOP call type selection with virtual keypad 7\"",
+        "Assigned To":"Vivek"
+    },
+    {
+        "TestRunStatus":"PASSED",
+        "ExecutionDate":"2025-03-19",
+        "Document Key":"KCE-TSTRN-3904818",
+        "Name":"xDOP Dynamic selection disabled 10\"",
+        "Assigned To":"Vivek"
+    },
+    {
+        "TestRunStatus":"PASSED",
+        "ExecutionDate":"2025-03-19",
+        "Document Key":"KCE-TSTRN-3904819",
+        "Name":"xDOP Dynamic selection disabled 7\"",
         "Assigned To":"Vivek"
     }
 ]

@@ -31,3 +31,4 @@ KCE-SWBUG-5500,16.8 - KDM - Unable to set virtual floors from floors 100 and abo
 KCE-SWBUG-5511,16.8 - RES E -Lift is not running in reduced speed continuously even Input is active.,Badaganti Sai Prasad,"16.8.3.5(LD: 16.8.3.5, GCD: 16.8.76)",2025-03-13
 KCE-SWBUG-5523,MCDK VALUE UNKNOW IN  NEW DCBL BOARD,Priyavalli,,2025-03-17
 KCE-SWBUG-5532,PDX - DSM value 61(drive mode) not changing based on elevator modes in PDX drives,ARUN KUMAR,"KCE 16.8.3.9(LD: 16.8.3.6, GCD: 16.8.79)",2025-03-17
+KCE-SWBUG-5533,Motor stator identification test fails in new dcbl board testing,Priyavalli,,2025-03-18
