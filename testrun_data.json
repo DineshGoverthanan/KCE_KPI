@@ -337,6 +337,13 @@
     },
     {
         "TestRunStatus":"FAILED",
+        "ExecutionDate":"2025-03-20",
+        "Document Key":"KCE-TSTRN-3853011",
+        "Name":"01. KCEKDL16 - Short floor distance",
+        "Assigned To":"Jagadeesh"
+    },
+    {
+        "TestRunStatus":"FAILED",
         "ExecutionDate":"2025-03-17",
         "Document Key":"KCE-TSTRN-3853012",
         "Name":"02. KCEKDL16 - Stopping accuracy",
@@ -2212,10 +2219,24 @@
         "Assigned To":"Vivek"
     },
     {
-        "TestRunStatus":"INPROGRESS",
+        "TestRunStatus":"PASSED",
         "ExecutionDate":"2025-03-20",
         "Document Key":"KCE-TSTRN-3904820",
         "Name":"XDOP Guidance mode for static view",
+        "Assigned To":"Vivek"
+    },
+    {
+        "TestRunStatus":"INPROGRESS",
+        "ExecutionDate":"2025-03-20",
+        "Document Key":"KCE-TSTRN-3904821",
+        "Name":"XDOP Guidance mode for keypad",
+        "Assigned To":"Vivek"
+    },
+    {
+        "TestRunStatus":"PASSED",
+        "ExecutionDate":"2025-03-20",
+        "Document Key":"KCE-TSTRN-3904822",
+        "Name":"XDOP Guidance mode for dynamic",
         "Assigned To":"Vivek"
     }
 ]
