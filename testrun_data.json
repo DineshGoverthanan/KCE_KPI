@@ -50,7 +50,7 @@
     },
     {
         "TestRunStatus":"FAILED",
-        "ExecutionDate":"2025-02-21",
+        "ExecutionDate":"2025-03-19",
         "Document Key":"KCE-TSTRN-3852966",
         "Name":"07 KCEKDL16 Motor stator identification",
         "Assigned To":"Priyavalli"
@@ -284,6 +284,13 @@
         "ExecutionDate":"2025-03-11",
         "Document Key":"KCE-TSTRN-3853000",
         "Name":"08. KCEKDL16 Supervision - TTS network",
+        "Assigned To":"Priyavalli"
+    },
+    {
+        "TestRunStatus":"INPROGRESS",
+        "ExecutionDate":"2025-03-19",
+        "Document Key":"KCE-TSTRN-3853001",
+        "Name":"12. KCEKDL16 Supervision - Missing floor magnets",
         "Assigned To":"Priyavalli"
     },
     {
@@ -1288,6 +1295,13 @@
         "Assigned To":"Shrividhya"
     },
     {
+        "TestRunStatus":"INPROGRESS",
+        "ExecutionDate":"2025-03-19",
+        "Document Key":"KCE-TSTRN-3904879",
+        "Name":"16.Elevator Occupancy Sensor \u2013 Special modes override the Occupancy sensor BLF operation",
+        "Assigned To":"Shrividhya"
+    },
+    {
         "TestRunStatus":"PASSED",
         "ExecutionDate":"2025-02-28",
         "Document Key":"KCE-TSTRN-3857155",
@@ -1358,8 +1372,8 @@
         "Assigned To":"Suryanarayanan"
     },
     {
-        "TestRunStatus":"INPROGRESS",
-        "ExecutionDate":"2025-03-18",
+        "TestRunStatus":"PASSED",
+        "ExecutionDate":"2025-03-19",
         "Document Key":"KCE-TSTRN-3904882",
         "Name":"FRD SG - Phase 1 Additional test",
         "Assigned To":"Suryanarayanan"
