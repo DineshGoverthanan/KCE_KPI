@@ -287,8 +287,8 @@
         "Assigned To":"Priyavalli"
     },
     {
-        "TestRunStatus":"INPROGRESS",
-        "ExecutionDate":"2025-03-19",
+        "TestRunStatus":"PASSED",
+        "ExecutionDate":"2025-03-20",
         "Document Key":"KCE-TSTRN-3853001",
         "Name":"12. KCEKDL16 Supervision - Missing floor magnets",
         "Assigned To":"Priyavalli"
@@ -1295,8 +1295,8 @@
         "Assigned To":"Shrividhya"
     },
     {
-        "TestRunStatus":"INPROGRESS",
-        "ExecutionDate":"2025-03-19",
+        "TestRunStatus":"PASSED",
+        "ExecutionDate":"2025-03-20",
         "Document Key":"KCE-TSTRN-3904879",
         "Name":"16.Elevator Occupancy Sensor \u2013 Special modes override the Occupancy sensor BLF operation",
         "Assigned To":"Shrividhya"
@@ -1331,7 +1331,7 @@
     },
     {
         "TestRunStatus":"INPROGRESS",
-        "ExecutionDate":"2025-03-18",
+        "ExecutionDate":"2025-03-20",
         "Document Key":"KCE-TSTRN-3904880",
         "Name":"FRD IL - Phase 2 - Tests not included into TA",
         "Assigned To":"Suryanarayanan"
@@ -1358,8 +1358,8 @@
         "Assigned To":"Suryanarayanan"
     },
     {
-        "TestRunStatus":"INPROGRESS",
-        "ExecutionDate":"2025-03-18",
+        "TestRunStatus":"PASSED",
+        "ExecutionDate":"2025-03-20",
         "Document Key":"KCE-TSTRN-3904881",
         "Name":"FRD SG - Phase 2 - Tests not included into TA",
         "Assigned To":"Suryanarayanan"
@@ -1384,6 +1384,13 @@
         "Document Key":"KCE-TSTRN-3857162",
         "Name":"GOC - Disable of GOC",
         "Assigned To":"Harini Sri"
+    },
+    {
+        "TestRunStatus":"INPROGRESS",
+        "ExecutionDate":"2025-03-20",
+        "Document Key":"KCE-TSTRN-3904883",
+        "Name":"KSS landing and car gong volume",
+        "Assigned To":"Shrividhya"
     },
     {
         "TestRunStatus":"INPROGRESS",
@@ -1425,6 +1432,13 @@
         "ExecutionDate":"2025-03-13",
         "Document Key":"KCE-TSTRN-3860859",
         "Name":"LOC ..G - General lock - MULs",
+        "Assigned To":"Suryanarayanan"
+    },
+    {
+        "TestRunStatus":"INPROGRESS",
+        "ExecutionDate":"2025-03-20",
+        "Document Key":"KCE-TSTRN-3904889",
+        "Name":"30.FRD MX Phase2 \u2013 Door operation in TTC floor with Non-selective door type.",
         "Assigned To":"Suryanarayanan"
     },
     {
@@ -2101,6 +2115,13 @@
     },
     {
         "TestRunStatus":"PASSED",
+        "ExecutionDate":"2025-03-20",
+        "Document Key":"KCE-TSTRN-3904812",
+        "Name":"xDOP Group call",
+        "Assigned To":"Vivek"
+    },
+    {
+        "TestRunStatus":"PASSED",
         "ExecutionDate":"2025-03-17",
         "Document Key":"KCE-TSTRN-3860765",
         "Name":"xDOP Fireman-mode ",
@@ -2188,6 +2209,13 @@
         "ExecutionDate":"2025-03-19",
         "Document Key":"KCE-TSTRN-3904819",
         "Name":"xDOP Dynamic selection disabled 7\"",
+        "Assigned To":"Vivek"
+    },
+    {
+        "TestRunStatus":"INPROGRESS",
+        "ExecutionDate":"2025-03-20",
+        "Document Key":"KCE-TSTRN-3904820",
+        "Name":"XDOP Guidance mode for static view",
         "Assigned To":"Vivek"
     }
 ]
