@@ -14,8 +14,8 @@
         "Assigned To":"Jagadeesh"
     },
     {
-        "TestRunStatus":"FAILED",
-        "ExecutionDate":"2025-03-11",
+        "TestRunStatus":"PASSED",
+        "ExecutionDate":"2025-03-20",
         "Document Key":"KCE-TSTRN-3852961",
         "Name":"03 KCEKDL16 Motor direction and encoder polarity",
         "Assigned To":"Jagadeesh"
@@ -287,7 +287,7 @@
         "Assigned To":"Priyavalli"
     },
     {
-        "TestRunStatus":"PASSED",
+        "TestRunStatus":"FAILED",
         "ExecutionDate":"2025-03-20",
         "Document Key":"KCE-TSTRN-3853001",
         "Name":"12. KCEKDL16 Supervision - Missing floor magnets",
@@ -1051,6 +1051,20 @@
     },
     {
         "TestRunStatus":"INPROGRESS",
+        "ExecutionDate":"2025-03-20",
+        "Document Key":"KCE-TSTRN-3904836",
+        "Name":"IUL - In Use Light - With DC - Tests not included into TA",
+        "Assigned To":"Suryanarayanan"
+    },
+    {
+        "TestRunStatus":"INPROGRESS",
+        "ExecutionDate":"2025-03-20",
+        "Document Key":"KCE-TSTRN-3904837",
+        "Name":"HSL - Here Signal Light",
+        "Assigned To":"Suryanarayanan"
+    },
+    {
+        "TestRunStatus":"INPROGRESS",
         "ExecutionDate":"2025-02-25",
         "Document Key":"KCE-TSTRN-3857097",
         "Name":"SNF - Silent Night Feature",
@@ -1442,7 +1456,7 @@
         "Assigned To":"Suryanarayanan"
     },
     {
-        "TestRunStatus":"INPROGRESS",
+        "TestRunStatus":"PASSED",
         "ExecutionDate":"2025-03-20",
         "Document Key":"KCE-TSTRN-3904889",
         "Name":"30.FRD MX Phase2 \u2013 Door operation in TTC floor with Non-selective door type.",
@@ -2226,7 +2240,7 @@
         "Assigned To":"Vivek"
     },
     {
-        "TestRunStatus":"INPROGRESS",
+        "TestRunStatus":"PASSED",
         "ExecutionDate":"2025-03-20",
         "Document Key":"KCE-TSTRN-3904821",
         "Name":"XDOP Guidance mode for keypad",

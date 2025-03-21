@@ -34,3 +34,4 @@ KCE-SWBUG-5532,PDX - DSM value 61(drive mode) not changing based on elevator mod
 KCE-SWBUG-5533,Motor stator identification test fails in new dcbl board testing,Priyavalli,,2025-03-18
 KCE-SWBUG-5534,Unexpected car movement during -motor stator identification test,Priyavalli,,2025-03-18
 KCE-SWBUG-5535,"16.8-KCEDCS-The ""EDIT"" option missing for dop.customization.v1.zip in the SM",Vivek,16.8.3.9(LD 16.8.3.6 GCD 16.8.79.7),2025-03-18
+KCE-SWBUG-5542,16.8-KCEDCS-Display (DG) Fails to Switch to 'Out of Service' in RDF Mode with Locking Enabled via Site Manager ACS Control,Vivek,16.8.3.9(LD 16.8.3.6 GCD 16.8.79.7),2025-03-17
