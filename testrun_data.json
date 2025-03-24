@@ -1051,7 +1051,7 @@
     },
     {
         "TestRunStatus":"INPROGRESS",
-        "ExecutionDate":"2025-03-21",
+        "ExecutionDate":"2025-03-24",
         "Document Key":"KCE-TSTRN-3904836",
         "Name":"IUL - In Use Light - With DC - Tests not included into TA",
         "Assigned To":"Suryanarayanan"
@@ -2108,9 +2108,58 @@
     },
     {
         "TestRunStatus":"PASSED",
+        "ExecutionDate":"2025-03-24",
+        "Document Key":"KCE-TSTRN-3904795",
+        "Name":"xDOP restore software to the new device",
+        "Assigned To":"Vivek"
+    },
+    {
+        "TestRunStatus":"PASSED",
+        "ExecutionDate":"2025-03-24",
+        "Document Key":"KCE-TSTRN-3904797",
+        "Name":"xDOP restore configuration and software to the new device",
+        "Assigned To":"Vivek"
+    },
+    {
+        "TestRunStatus":"PASSED",
+        "ExecutionDate":"2025-03-24",
+        "Document Key":"KCE-TSTRN-3904798",
+        "Name":"xDOP Convention mode calls",
+        "Assigned To":"Vivek"
+    },
+    {
+        "TestRunStatus":"NOT_APPLICABLE",
+        "ExecutionDate":"2025-03-24",
+        "Document Key":"KCE-TSTRN-3904799",
+        "Name":"xDOP Dormakaba mobile credentials usage",
+        "Assigned To":"Vivek"
+    },
+    {
+        "TestRunStatus":"PASSED",
+        "ExecutionDate":"2025-03-24",
+        "Document Key":"KCE-TSTRN-3904800",
+        "Name":"xDOP Multiple languages support",
+        "Assigned To":"Vivek"
+    },
+    {
+        "TestRunStatus":"PASSED",
         "ExecutionDate":"2025-03-13",
         "Document Key":"KCE-TSTRN-3860749",
         "Name":"xDOP accent color customization",
+        "Assigned To":"Vivek"
+    },
+    {
+        "TestRunStatus":"NOT_APPLICABLE",
+        "ExecutionDate":"2025-03-24",
+        "Document Key":"KCE-TSTRN-3904801",
+        "Name":"Turnstile pedestal 10\u201d xDOP with QR",
+        "Assigned To":"Vivek"
+    },
+    {
+        "TestRunStatus":"PASSED",
+        "ExecutionDate":"2025-03-24",
+        "Document Key":"KCE-TSTRN-3904802",
+        "Name":"xDOP with Legic access card reader ",
         "Assigned To":"Vivek"
     },
     {
