@@ -36,3 +36,4 @@ KCE-SWBUG-5534,Unexpected car movement during -motor stator identification test,
 KCE-SWBUG-5535,"16.8-KCEDCS-The ""EDIT"" option missing for dop.customization.v1.zip in the SM",Vivek,16.8.3.9(LD 16.8.3.6 GCD 16.8.79.7),2025-03-18
 KCE-SWBUG-5542,16.8-KCEDCS-Display (DG) Fails to Switch to 'Out of Service' in RDF Mode with Locking Enabled via Site Manager ACS Control,Vivek,16.8.3.9(LD 16.8.3.6 GCD 16.8.79.7),2025-03-17
 KCE-SWBUG-5555,P4.2 - NHR- CTD Reset - Step 4 - DOB is not blinking in KCE COB ,Harini Sri,KCECPU 16.10.0.15,2025-03-23
+KCE-SWBUG-5558,Service Tool 4.6 - Rear side floor markings are changed to different values in Pro manager after SW Downgrading.,Badaganti Sai Prasad,,2025-03-23
