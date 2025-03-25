@@ -20,7 +20,7 @@ KCE-SWBUG-5334,16.8 - In 24/7 Cloud view the EPD (emergency power) mode message 
 KCE-SWBUG-5345,"16.8 - Sitemanager- The background spelling misspelled like ""bacground"" in the xDOP timed header feature.",Vivek,"16.8.2.32(LD: 16.8.2.6, GCD: 16.8.64)",2025-02-16
 KCE-SWBUG-5350,AMD D10 EVO S - Close End Stuck Fault not Automatically Cleared after Close End Switch is Closed,Suryanarayanan,KCE16.4.92 (LD 16.4.1.11 and GCD 16.4.65) + D10S STMF103 and STML412_EVO_V3.3A,2025-02-17
 KCE-SWBUG-5372,"16.8 - SM- The ""DMADIAG"" visible in both managed & unmanaged devices when after new KCECPUc hardware changed.",Vivek,"16.8.2.32(LD: 16.8.2.6, GCD: 16.8.64)",2025-02-19
-KCE-SWBUG-5401,Master Bar code data not available in new DCBL KCEKDL16,Priyavalli,,
+KCE-SWBUG-5401,Master Bar code data not available in new DCBL KCEKDL16,Priyavalli,,2025-03-16
 KCE-SWBUG-5428,"""Typo Error"" - drive Fault code 1065",ARUN KUMAR,,2025-02-26
 KCE-SWBUG-5430,16.8 - Duplicated Comseq jobs occurred in SM when SW update.,Vivek,"KCE 16.8.3.2(LD: 16.8.3.4, GCD: 16.8.65)",2025-02-26
 KCE-SWBUG-5431,16.8 - MQTT connection Failed (1901) detected when the AMC Samsung galaxy A52 connect to the simulator.,ARUN KUMAR,"KCE 16.8.3.2(LD: 16.8.3.4, GCD: 16.8.65)",2025-02-27
@@ -35,3 +35,4 @@ KCE-SWBUG-5533,Motor stator identification test fails in new dcbl board testing,
 KCE-SWBUG-5534,Unexpected car movement during -motor stator identification test,Priyavalli,,2025-03-18
 KCE-SWBUG-5535,"16.8-KCEDCS-The ""EDIT"" option missing for dop.customization.v1.zip in the SM",Vivek,16.8.3.9(LD 16.8.3.6 GCD 16.8.79.7),2025-03-18
 KCE-SWBUG-5542,16.8-KCEDCS-Display (DG) Fails to Switch to 'Out of Service' in RDF Mode with Locking Enabled via Site Manager ACS Control,Vivek,16.8.3.9(LD 16.8.3.6 GCD 16.8.79.7),2025-03-17
+KCE-SWBUG-5555,P4.2 - NHR- CTD Reset - Step 4 - DOB is not blinking in KCE COB ,Harini Sri,KCECPU 16.10.0.15,2025-03-23
