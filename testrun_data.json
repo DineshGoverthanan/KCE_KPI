@@ -420,6 +420,13 @@
         "Assigned To":"Shrividhya"
     },
     {
+        "TestRunStatus":"INPROGRESS",
+        "ExecutionDate":"2025-03-25",
+        "Document Key":"KCE-TSTRN-3904768",
+        "Name":"4.ELO intruder alarm timeout with unauthorized person_Test switch\/inspection",
+        "Assigned To":"Badaganti Sai Prasad"
+    },
+    {
         "TestRunStatus":"FAILED",
         "ExecutionDate":"2025-02-28",
         "Document Key":"KCE-TSTRN-3857049",
@@ -1069,6 +1076,13 @@
         "Document Key":"KCE-TSTRN-3857097",
         "Name":"SNF - Silent Night Feature",
         "Assigned To":"Shrividhya"
+    },
+    {
+        "TestRunStatus":"INPROGRESS",
+        "ExecutionDate":"2025-03-25",
+        "Document Key":"KCE-TSTRN-3904845",
+        "Name":"SNF - Silent Night Feature",
+        "Assigned To":"Suryanarayanan"
     },
     {
         "TestRunStatus":"PASSED",
@@ -1771,6 +1785,13 @@
         "Assigned To":"Badaganti Sai Prasad"
     },
     {
+        "TestRunStatus":"INPROGRESS",
+        "ExecutionDate":"2025-03-25",
+        "Document Key":"KCE-TSTRN-3904962",
+        "Name":"FRD L NZ",
+        "Assigned To":"Shrividhya"
+    },
+    {
         "TestRunStatus":"PASSED",
         "ExecutionDate":"2025-03-10",
         "Document Key":"KCE-TSTRN-3860948",
@@ -1855,8 +1876,8 @@
         "Assigned To":"Shrividhya"
     },
     {
-        "TestRunStatus":"INPROGRESS",
-        "ExecutionDate":"2025-03-24",
+        "TestRunStatus":"PASSED",
+        "ExecutionDate":"2025-03-25",
         "Document Key":"KCE-TSTRN-3904964",
         "Name":"PRC NZ - Priority Call in Car",
         "Assigned To":"ARUN KUMAR"
@@ -2097,6 +2118,13 @@
         "ExecutionDate":"2025-03-05",
         "Document Key":"KCE-TSTRN-3859146",
         "Name":"DOP screenshot via Site Manager",
+        "Assigned To":"Vivek"
+    },
+    {
+        "TestRunStatus":"INPROGRESS",
+        "ExecutionDate":"2025-03-25",
+        "Document Key":"KCE-TSTRN-3904788",
+        "Name":"xDOP Personal floor list and features page",
         "Assigned To":"Vivek"
     },
     {
