@@ -477,6 +477,13 @@
     },
     {
         "TestRunStatus":"INPROGRESS",
+        "ExecutionDate":"2025-03-26",
+        "Document Key":"KCE-TSTRN-3934723",
+        "Name":"23.Mode priority1",
+        "Assigned To":"Badaganti Sai Prasad"
+    },
+    {
+        "TestRunStatus":"INPROGRESS",
         "ExecutionDate":"2025-02-03",
         "Document Key":"KCE-TSTRN-3800312",
         "Name":"24.Mode priority2",
@@ -536,6 +543,20 @@
         "ExecutionDate":"2025-02-28",
         "Document Key":"KCE-TSTRN-3857061",
         "Name":"High wind input activation during High priority special mode ",
+        "Assigned To":"Shrividhya"
+    },
+    {
+        "TestRunStatus":"FAILED",
+        "ExecutionDate":"2025-03-26",
+        "Document Key":"KCE-TSTRN-3904778",
+        "Name":"High wind input activation during High priority special mode ",
+        "Assigned To":"Shrividhya"
+    },
+    {
+        "TestRunStatus":"FAILED",
+        "ExecutionDate":"2025-03-26",
+        "Document Key":"KCE-TSTRN-3904779",
+        "Name":"High wind input triggered after High priority special mode ",
         "Assigned To":"Shrividhya"
     },
     {
@@ -1106,6 +1127,13 @@
         "Assigned To":"Suryanarayanan"
     },
     {
+        "TestRunStatus":"INPROGRESS",
+        "ExecutionDate":"2025-03-26",
+        "Document Key":"KCE-TSTRN-3904846",
+        "Name":"SNF I - Silent Night Feature",
+        "Assigned To":"Suryanarayanan"
+    },
+    {
         "TestRunStatus":"PASSED",
         "ExecutionDate":"2025-03-03",
         "Document Key":"KCE-TSTRN-3857109",
@@ -1576,6 +1604,13 @@
     },
     {
         "TestRunStatus":"PASSED",
+        "ExecutionDate":"2025-03-26",
+        "Document Key":"KCE-TSTRN-3934966",
+        "Name":"ELO intruder alarm timeout with authorized person",
+        "Assigned To":"Badaganti Sai Prasad"
+    },
+    {
+        "TestRunStatus":"PASSED",
         "ExecutionDate":"2025-02-26",
         "Document Key":"KCE-TSTRN-3857025",
         "Name":"6.Group lift with 1772 fault code",
@@ -1592,6 +1627,13 @@
         "TestRunStatus":"FAILED",
         "ExecutionDate":"2025-02-27",
         "Document Key":"KCE-TSTRN-3857027",
+        "Name":"11.ELO deactivation with test (261\/263) \/inspection activation:",
+        "Assigned To":"Badaganti Sai Prasad"
+    },
+    {
+        "TestRunStatus":"PASSED",
+        "ExecutionDate":"2025-03-26",
+        "Document Key":"KCE-TSTRN-3934967",
         "Name":"11.ELO deactivation with test (261\/263) \/inspection activation:",
         "Assigned To":"Badaganti Sai Prasad"
     },
@@ -1673,6 +1715,13 @@
         "Assigned To":"Badaganti Sai Prasad"
     },
     {
+        "TestRunStatus":"PASSED",
+        "ExecutionDate":"2025-03-26",
+        "Document Key":"KCE-TSTRN-3934968",
+        "Name":"27.Inspection mode output",
+        "Assigned To":"Badaganti Sai Prasad"
+    },
+    {
         "TestRunStatus":"INPROGRESS",
         "ExecutionDate":"2025-03-17",
         "Document Key":"KCE-TSTRN-3860887",
@@ -1706,6 +1755,13 @@
         "Document Key":"KCE-TSTRN-3904926",
         "Name":"FRD MY - Phase 1 - Tests not included into TA",
         "Assigned To":"Badaganti Sai Prasad"
+    },
+    {
+        "TestRunStatus":"INPROGRESS",
+        "ExecutionDate":"2025-03-26",
+        "Document Key":"KCE-TSTRN-3904941",
+        "Name":"HAN C - Audiple Handicap Feature - Continuous operation",
+        "Assigned To":"Harini Sri"
     },
     {
         "TestRunStatus":"PASSED",
@@ -2045,6 +2101,13 @@
     },
     {
         "TestRunStatus":"PASSED",
+        "ExecutionDate":"2025-03-26",
+        "Document Key":"KCE-TSTRN-3905020",
+        "Name":"09.3 KCEKDL16 Basic - Automatic brake test",
+        "Assigned To":"Jagadeesh"
+    },
+    {
+        "TestRunStatus":"PASSED",
         "ExecutionDate":"2025-03-03",
         "Document Key":"KCE-TSTRN-3859132",
         "Name":"CAM - Cleaning Mode",
@@ -2293,6 +2356,13 @@
         "ExecutionDate":"2025-03-24",
         "Document Key":"KCE-TSTRN-3904809",
         "Name":"xDOP Dynamic header",
+        "Assigned To":"Vivek"
+    },
+    {
+        "TestRunStatus":"NOT_APPLICABLE",
+        "ExecutionDate":"2025-03-26",
+        "Document Key":"KCE-TSTRN-3904810",
+        "Name":"xDOP HID RP10 reader monitoring ",
         "Assigned To":"Vivek"
     },
     {
