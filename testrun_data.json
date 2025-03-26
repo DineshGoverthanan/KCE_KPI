@@ -413,6 +413,13 @@
         "Assigned To":"ARUN KUMAR"
     },
     {
+        "TestRunStatus":"INPROGRESS",
+        "ExecutionDate":"2025-03-25",
+        "Document Key":"KCE-TSTRN-3904760",
+        "Name":"KNSMUL COP functions with 126 Floors_Conventional ",
+        "Assigned To":"ARUN KUMAR"
+    },
+    {
         "TestRunStatus":"FAILED",
         "ExecutionDate":"2025-02-19",
         "Document Key":"KCE-TSTRN-3850861",
@@ -1078,7 +1085,7 @@
         "Assigned To":"Shrividhya"
     },
     {
-        "TestRunStatus":"INPROGRESS",
+        "TestRunStatus":"PASSED",
         "ExecutionDate":"2025-03-25",
         "Document Key":"KCE-TSTRN-3904845",
         "Name":"SNF - Silent Night Feature",
@@ -2209,6 +2216,13 @@
         "ExecutionDate":"2025-03-25",
         "Document Key":"KCE-TSTRN-3904803",
         "Name":"Access time measurement xDOP and SIMA card",
+        "Assigned To":"Vivek"
+    },
+    {
+        "TestRunStatus":"PASSED",
+        "ExecutionDate":"2025-03-25",
+        "Document Key":"KCE-TSTRN-3904804",
+        "Name":"Monitoring RF ID Legic reader from xDOP",
         "Assigned To":"Vivek"
     },
     {
