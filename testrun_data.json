@@ -427,8 +427,8 @@
         "Assigned To":"Shrividhya"
     },
     {
-        "TestRunStatus":"INPROGRESS",
-        "ExecutionDate":"2025-03-25",
+        "TestRunStatus":"PASSED",
+        "ExecutionDate":"2025-03-26",
         "Document Key":"KCE-TSTRN-3904768",
         "Name":"4.ELO intruder alarm timeout with unauthorized person_Test switch\/inspection",
         "Assigned To":"Badaganti Sai Prasad"
@@ -441,9 +441,23 @@
         "Assigned To":"Badaganti Sai Prasad"
     },
     {
+        "TestRunStatus":"PASSED",
+        "ExecutionDate":"2025-03-26",
+        "Document Key":"KCE-TSTRN-3904769",
+        "Name":"ELO intruder alarm timeout with unauthorized person_ELO input ",
+        "Assigned To":"Badaganti Sai Prasad"
+    },
+    {
         "TestRunStatus":"FAILED",
         "ExecutionDate":"2025-02-28",
         "Document Key":"KCE-TSTRN-3857050",
+        "Name":"5.Intruder alarm with 1772 fault code",
+        "Assigned To":"Badaganti Sai Prasad"
+    },
+    {
+        "TestRunStatus":"PASSED",
+        "ExecutionDate":"2025-03-26",
+        "Document Key":"KCE-TSTRN-3934722",
         "Name":"5.Intruder alarm with 1772 fault code",
         "Assigned To":"Badaganti Sai Prasad"
     },
@@ -1146,6 +1160,13 @@
         "Document Key":"KCE-TSTRN-3857121",
         "Name":"CRB C - Call Registered Buzzer - Car call + DOB + DCB + DOE",
         "Assigned To":"Harini Sri"
+    },
+    {
+        "TestRunStatus":"INPROGRESS",
+        "ExecutionDate":"2025-03-26",
+        "Document Key":"KCE-TSTRN-3904857",
+        "Name":"CRB L - Call Registered Buzzer - Landing call - Buttons with buzzer",
+        "Assigned To":"Suryanarayanan"
     },
     {
         "TestRunStatus":"PASSED",
@@ -2128,8 +2149,8 @@
         "Assigned To":"Vivek"
     },
     {
-        "TestRunStatus":"INPROGRESS",
-        "ExecutionDate":"2025-03-25",
+        "TestRunStatus":"PASSED",
+        "ExecutionDate":"2025-03-26",
         "Document Key":"KCE-TSTRN-3904788",
         "Name":"xDOP Personal floor list and features page",
         "Assigned To":"Vivek"
@@ -2258,6 +2279,13 @@
         "ExecutionDate":"2025-03-10",
         "Document Key":"KCE-TSTRN-3860759",
         "Name":"xDOP Call giving",
+        "Assigned To":"Vivek"
+    },
+    {
+        "TestRunStatus":"PASSED",
+        "ExecutionDate":"2025-03-26",
+        "Document Key":"KCE-TSTRN-3904808",
+        "Name":"xDOP Alternative guidances",
         "Assigned To":"Vivek"
     },
     {
