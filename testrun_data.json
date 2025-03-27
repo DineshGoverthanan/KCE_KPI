@@ -420,6 +420,13 @@
         "Assigned To":"ARUN KUMAR"
     },
     {
+        "TestRunStatus":"INPROGRESS",
+        "ExecutionDate":"2025-03-26",
+        "Document Key":"KCE-TSTRN-3934713",
+        "Name":"KNSMUL COP functions with 126 Floors_Conventional ",
+        "Assigned To":"ARUN KUMAR"
+    },
+    {
         "TestRunStatus":"FAILED",
         "ExecutionDate":"2025-02-19",
         "Document Key":"KCE-TSTRN-3850861",
@@ -1100,6 +1107,13 @@
     },
     {
         "TestRunStatus":"INPROGRESS",
+        "ExecutionDate":"2025-03-26",
+        "Document Key":"KCE-TSTRN-3904835",
+        "Name":"CIC - Corridor Illumination Control - Tests not included into TA",
+        "Assigned To":"Suryanarayanan"
+    },
+    {
+        "TestRunStatus":"INPROGRESS",
         "ExecutionDate":"2025-03-24",
         "Document Key":"KCE-TSTRN-3904836",
         "Name":"IUL - In Use Light - With DC - Tests not included into TA",
@@ -1130,6 +1144,13 @@
         "TestRunStatus":"INPROGRESS",
         "ExecutionDate":"2025-03-26",
         "Document Key":"KCE-TSTRN-3904846",
+        "Name":"SNF I - Silent Night Feature",
+        "Assigned To":"Suryanarayanan"
+    },
+    {
+        "TestRunStatus":"PASSED",
+        "ExecutionDate":"2025-03-26",
+        "Document Key":"KCE-TSTRN-3934818",
         "Name":"SNF I - Silent Night Feature",
         "Assigned To":"Suryanarayanan"
     },
@@ -1653,6 +1674,13 @@
     },
     {
         "TestRunStatus":"PASSED",
+        "ExecutionDate":"2025-03-26",
+        "Document Key":"KCE-TSTRN-3934969",
+        "Name":"29.ELO operation with different Door types:",
+        "Assigned To":"Badaganti Sai Prasad"
+    },
+    {
+        "TestRunStatus":"PASSED",
         "ExecutionDate":"2025-02-27",
         "Document Key":"KCE-TSTRN-3857028",
         "Name":"12.ELO deactivation with KCEOPT 105 pin1 in open state:",
@@ -1757,9 +1785,30 @@
         "Assigned To":"Badaganti Sai Prasad"
     },
     {
+        "TestRunStatus":"PASSED",
+        "ExecutionDate":"2025-03-26",
+        "Document Key":"KCE-TSTRN-3934870",
+        "Name":"2 x COP with KSSLMUL - A-side",
+        "Assigned To":"Harini Sri"
+    },
+    {
+        "TestRunStatus":"INPROGRESS",
+        "ExecutionDate":"2025-03-26",
+        "Document Key":"KCE-TSTRN-3934883",
+        "Name":"HAN B - Audiple Handicap Feature - Button",
+        "Assigned To":"Harini Sri"
+    },
+    {
         "TestRunStatus":"INPROGRESS",
         "ExecutionDate":"2025-03-26",
         "Document Key":"KCE-TSTRN-3904941",
+        "Name":"HAN C - Audiple Handicap Feature - Continuous operation",
+        "Assigned To":"Harini Sri"
+    },
+    {
+        "TestRunStatus":"PASSED",
+        "ExecutionDate":"2025-03-26",
+        "Document Key":"KCE-TSTRN-3934884",
         "Name":"HAN C - Audiple Handicap Feature - Continuous operation",
         "Assigned To":"Harini Sri"
     },
@@ -1855,6 +1904,13 @@
         "Assigned To":"Badaganti Sai Prasad"
     },
     {
+        "TestRunStatus":"PASSED",
+        "ExecutionDate":"2025-03-26",
+        "Document Key":"KCE-TSTRN-3934899",
+        "Name":"RES E - Reduced Speed - Tests not included into TA",
+        "Assigned To":"Shrividhya"
+    },
+    {
         "TestRunStatus":"FAILED",
         "ExecutionDate":"2025-03-14",
         "Document Key":"KCE-TSTRN-3860942",
@@ -1869,9 +1925,23 @@
         "Assigned To":"Badaganti Sai Prasad"
     },
     {
+        "TestRunStatus":"PASSED",
+        "ExecutionDate":"2025-03-26",
+        "Document Key":"KCE-TSTRN-3934902",
+        "Name":"FRD NZ - Phase - Tests not included into TA",
+        "Assigned To":"Shrividhya"
+    },
+    {
         "TestRunStatus":"INPROGRESS",
         "ExecutionDate":"2025-03-25",
         "Document Key":"KCE-TSTRN-3904962",
+        "Name":"FRD L NZ",
+        "Assigned To":"Shrividhya"
+    },
+    {
+        "TestRunStatus":"INPROGRESS",
+        "ExecutionDate":"2025-03-26",
+        "Document Key":"KCE-TSTRN-3934903",
         "Name":"FRD L NZ",
         "Assigned To":"Shrividhya"
     },
@@ -2093,6 +2163,13 @@
         "Assigned To":"Badaganti Sai Prasad"
     },
     {
+        "TestRunStatus":"INPROGRESS",
+        "ExecutionDate":"2025-03-26",
+        "Document Key":"KCE-TSTRN-3904981",
+        "Name":"2. DMI - Car and Landing display function in EBD Mode",
+        "Assigned To":"Jagadeesh"
+    },
+    {
         "TestRunStatus":"PASSED",
         "ExecutionDate":"2025-03-11",
         "Document Key":"KCE-TSTRN-3861030",
@@ -2100,9 +2177,23 @@
         "Assigned To":"Badaganti Sai Prasad"
     },
     {
+        "TestRunStatus":"INPROGRESS",
+        "ExecutionDate":"2025-03-26",
+        "Document Key":"KCE-TSTRN-3934956",
+        "Name":"KCEKDX Basic - Automatic Brake Test ",
+        "Assigned To":"Jagadeesh"
+    },
+    {
         "TestRunStatus":"PASSED",
         "ExecutionDate":"2025-03-26",
         "Document Key":"KCE-TSTRN-3905020",
+        "Name":"09.3 KCEKDL16 Basic - Automatic brake test",
+        "Assigned To":"Jagadeesh"
+    },
+    {
+        "TestRunStatus":"PASSED",
+        "ExecutionDate":"2025-03-26",
+        "Document Key":"KCE-TSTRN-3934957",
         "Name":"09.3 KCEKDL16 Basic - Automatic brake test",
         "Assigned To":"Jagadeesh"
     },
@@ -2234,6 +2325,13 @@
     },
     {
         "TestRunStatus":"PASSED",
+        "ExecutionDate":"2025-03-26",
+        "Document Key":"KCE-TSTRN-3904789",
+        "Name":"Code compliant for NA\/Hong Kong\/Singapore in 10 inch xDOP  ",
+        "Assigned To":"Vivek"
+    },
+    {
+        "TestRunStatus":"PASSED",
         "ExecutionDate":"2025-03-13",
         "Document Key":"KCE-TSTRN-3860737",
         "Name":"xDOP indicates status Call is being processed when lifts are busy ",
@@ -2241,9 +2339,44 @@
     },
     {
         "TestRunStatus":"PASSED",
+        "ExecutionDate":"2025-03-26",
+        "Document Key":"KCE-TSTRN-3904790",
+        "Name":"Code compliant for NA\/Hong Kong\/Singapore in 7 inch xDOP",
+        "Assigned To":"Vivek"
+    },
+    {
+        "TestRunStatus":"PASSED",
+        "ExecutionDate":"2025-03-26",
+        "Document Key":"KCE-TSTRN-3904791",
+        "Name":"xDOP language change by card swipe\u200b",
+        "Assigned To":"Vivek"
+    },
+    {
+        "TestRunStatus":"PASSED",
+        "ExecutionDate":"2025-03-26",
+        "Document Key":"KCE-TSTRN-3904792",
+        "Name":"Code compliant for California in 10 inch xDOP",
+        "Assigned To":"Vivek"
+    },
+    {
+        "TestRunStatus":"PASSED",
+        "ExecutionDate":"2025-03-26",
+        "Document Key":"KCE-TSTRN-3904794",
+        "Name":"Code compliant for California in 7 inch xDOP",
+        "Assigned To":"Vivek"
+    },
+    {
+        "TestRunStatus":"PASSED",
         "ExecutionDate":"2025-03-24",
         "Document Key":"KCE-TSTRN-3904795",
         "Name":"xDOP restore software to the new device",
+        "Assigned To":"Vivek"
+    },
+    {
+        "TestRunStatus":"PASSED",
+        "ExecutionDate":"2025-03-26",
+        "Document Key":"KCE-TSTRN-3904796",
+        "Name":"Static layout is not possible, keypad is used",
         "Assigned To":"Vivek"
     },
     {
