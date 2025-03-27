@@ -28,8 +28,8 @@
         "Assigned To":"Priyavalli"
     },
     {
-        "TestRunStatus":"FAILED",
-        "ExecutionDate":"2025-02-18",
+        "TestRunStatus":"PASSED",
+        "ExecutionDate":"2025-03-27",
         "Document Key":"KCE-TSTRN-3852963",
         "Name":"04.2 KCEKDL16 LWD zero load compensation",
         "Assigned To":"Priyavalli"
@@ -561,8 +561,22 @@
     },
     {
         "TestRunStatus":"FAILED",
+        "ExecutionDate":"2025-03-27",
+        "Document Key":"KCE-TSTRN-3934729",
+        "Name":"High wind input activation during High priority special mode ",
+        "Assigned To":"Shrividhya"
+    },
+    {
+        "TestRunStatus":"FAILED",
         "ExecutionDate":"2025-03-26",
         "Document Key":"KCE-TSTRN-3904779",
+        "Name":"High wind input triggered after High priority special mode ",
+        "Assigned To":"Shrividhya"
+    },
+    {
+        "TestRunStatus":"FAILED",
+        "ExecutionDate":"2025-03-27",
+        "Document Key":"KCE-TSTRN-3934730",
         "Name":"High wind input triggered after High priority special mode ",
         "Assigned To":"Shrividhya"
     },
@@ -1113,6 +1127,13 @@
         "Assigned To":"Suryanarayanan"
     },
     {
+        "TestRunStatus":"PASSED",
+        "ExecutionDate":"2025-03-27",
+        "Document Key":"KCE-TSTRN-3934810",
+        "Name":"CIC - Corridor Illumination Control - Tests not included into TA",
+        "Assigned To":"Suryanarayanan"
+    },
+    {
         "TestRunStatus":"INPROGRESS",
         "ExecutionDate":"2025-03-24",
         "Document Key":"KCE-TSTRN-3904836",
@@ -1152,6 +1173,13 @@
         "ExecutionDate":"2025-03-26",
         "Document Key":"KCE-TSTRN-3934818",
         "Name":"SNF I - Silent Night Feature",
+        "Assigned To":"Suryanarayanan"
+    },
+    {
+        "TestRunStatus":"INPROGRESS",
+        "ExecutionDate":"2025-03-27",
+        "Document Key":"KCE-TSTRN-3934819",
+        "Name":"AMD D15 - Basic - Closing",
         "Assigned To":"Suryanarayanan"
     },
     {
@@ -2178,7 +2206,7 @@
     },
     {
         "TestRunStatus":"INPROGRESS",
-        "ExecutionDate":"2025-03-26",
+        "ExecutionDate":"2025-03-27",
         "Document Key":"KCE-TSTRN-3934956",
         "Name":"KCEKDX Basic - Automatic Brake Test ",
         "Assigned To":"Jagadeesh"
