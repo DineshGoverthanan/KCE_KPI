@@ -420,8 +420,8 @@
         "Assigned To":"ARUN KUMAR"
     },
     {
-        "TestRunStatus":"INPROGRESS",
-        "ExecutionDate":"2025-03-26",
+        "TestRunStatus":"FAILED",
+        "ExecutionDate":"2025-03-27",
         "Document Key":"KCE-TSTRN-3934713",
         "Name":"KNSMUL COP functions with 126 Floors_Conventional ",
         "Assigned To":"ARUN KUMAR"
@@ -483,8 +483,8 @@
         "Assigned To":"Badaganti Sai Prasad"
     },
     {
-        "TestRunStatus":"INPROGRESS",
-        "ExecutionDate":"2025-03-26",
+        "TestRunStatus":"FAILED",
+        "ExecutionDate":"2025-03-27",
         "Document Key":"KCE-TSTRN-3934723",
         "Name":"23.Mode priority1",
         "Assigned To":"Badaganti Sai Prasad"
@@ -546,6 +546,13 @@
         "Assigned To":"Shrividhya"
     },
     {
+        "TestRunStatus":"PASSED",
+        "ExecutionDate":"2025-03-27",
+        "Document Key":"KCE-TSTRN-3934728",
+        "Name":"Deactivate the Strom Operation input",
+        "Assigned To":"Shrividhya"
+    },
+    {
         "TestRunStatus":"INPROGRESS",
         "ExecutionDate":"2025-02-28",
         "Document Key":"KCE-TSTRN-3857061",
@@ -578,6 +585,13 @@
         "ExecutionDate":"2025-03-27",
         "Document Key":"KCE-TSTRN-3934730",
         "Name":"High wind input triggered after High priority special mode ",
+        "Assigned To":"Shrividhya"
+    },
+    {
+        "TestRunStatus":"INPROGRESS",
+        "ExecutionDate":"2025-03-27",
+        "Document Key":"KCE-TSTRN-3934731",
+        "Name":"BSW and EZO+COD  with reduce speed drive ",
         "Assigned To":"Shrividhya"
     },
     {
@@ -1176,10 +1190,17 @@
         "Assigned To":"Suryanarayanan"
     },
     {
-        "TestRunStatus":"INPROGRESS",
+        "TestRunStatus":"PASSED",
         "ExecutionDate":"2025-03-27",
         "Document Key":"KCE-TSTRN-3934819",
         "Name":"AMD D15 - Basic - Closing",
+        "Assigned To":"Suryanarayanan"
+    },
+    {
+        "TestRunStatus":"PASSED",
+        "ExecutionDate":"2025-03-27",
+        "Document Key":"KCE-TSTRN-3934822",
+        "Name":"AMD D15 - Basic - Reopening",
         "Assigned To":"Suryanarayanan"
     },
     {
@@ -1820,8 +1841,8 @@
         "Assigned To":"Harini Sri"
     },
     {
-        "TestRunStatus":"INPROGRESS",
-        "ExecutionDate":"2025-03-26",
+        "TestRunStatus":"PASSED",
+        "ExecutionDate":"2025-03-27",
         "Document Key":"KCE-TSTRN-3934883",
         "Name":"HAN B - Audiple Handicap Feature - Button",
         "Assigned To":"Harini Sri"
@@ -1838,6 +1859,13 @@
         "ExecutionDate":"2025-03-26",
         "Document Key":"KCE-TSTRN-3934884",
         "Name":"HAN C - Audiple Handicap Feature - Continuous operation",
+        "Assigned To":"Harini Sri"
+    },
+    {
+        "TestRunStatus":"PASSED",
+        "ExecutionDate":"2025-03-27",
+        "Document Key":"KCE-TSTRN-3934885",
+        "Name":"HAN N IT - Handicap Feature - Italy",
         "Assigned To":"Harini Sri"
     },
     {
@@ -2196,6 +2224,13 @@
         "Document Key":"KCE-TSTRN-3904981",
         "Name":"2. DMI - Car and Landing display function in EBD Mode",
         "Assigned To":"Jagadeesh"
+    },
+    {
+        "TestRunStatus":"INPROGRESS",
+        "ExecutionDate":"2025-03-27",
+        "Document Key":"KCE-TSTRN-3905016",
+        "Name":"SCN N - Start Counter",
+        "Assigned To":"Priyavalli"
     },
     {
         "TestRunStatus":"PASSED",
