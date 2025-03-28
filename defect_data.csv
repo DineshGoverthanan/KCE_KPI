@@ -38,3 +38,4 @@ KCE-SWBUG-5542,16.8-KCEDCS-Display (DG) Fails to Switch to 'Out of Service' in R
 KCE-SWBUG-5555,P4.2 - NHR- CTD Reset - Step 4 - DOB is not blinking in KCE COB ,Harini Sri,KCECPU 16.10.0.15,2025-03-23
 KCE-SWBUG-5558,Service Tool 4.6 - Rear side floor markings are changed to different values in Pro manager after SW Downgrading.,Badaganti Sai Prasad,,2025-03-23
 KCE-SWBUG-5582,16.8 - KCEDCS - Couldn't be able to set the pin code in the SM,Vivek,16.8.3.13(LD 16.8.3.8 GCD 16.8.81),2025-03-25
+KCE-SWBUG-5585,16.8 Fault Code #1046 Data1 and Data2 Description does not mention in KCE Database Tools,Jagadeesh,"KCE 16.8.3.13(LD: 16.8.3.8, GCD: 16.8.81)",

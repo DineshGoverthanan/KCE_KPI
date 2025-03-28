@@ -484,7 +484,7 @@
     },
     {
         "TestRunStatus":"FAILED",
-        "ExecutionDate":"2025-03-27",
+        "ExecutionDate":"2025-03-28",
         "Document Key":"KCE-TSTRN-3934723",
         "Name":"23.Mode priority1",
         "Assigned To":"Badaganti Sai Prasad"
@@ -519,6 +519,20 @@
     },
     {
         "TestRunStatus":"PASSED",
+        "ExecutionDate":"2025-03-28",
+        "Document Key":"KCE-TSTRN-3934724",
+        "Name":"EZO Shaft setup with Single Virtual floor section ",
+        "Assigned To":"Shrividhya"
+    },
+    {
+        "TestRunStatus":"FAILED",
+        "ExecutionDate":"2025-03-28",
+        "Document Key":"KCE-TSTRN-3934726",
+        "Name":"Rush test case for EZO zone ",
+        "Assigned To":"Shrividhya"
+    },
+    {
+        "TestRunStatus":"PASSED",
         "ExecutionDate":"2025-01-06",
         "Document Key":"KCE-TSTRN-3720340",
         "Name":"COD operation toward upwards direction shaft_2: ",
@@ -530,6 +544,13 @@
         "Document Key":"KCE-TSTRN-3720341",
         "Name":"COD operation towards upward direction shaft_3",
         "Assigned To":"Badaganti Sai Prasad"
+    },
+    {
+        "TestRunStatus":"FAILED",
+        "ExecutionDate":"2025-03-28",
+        "Document Key":"KCE-TSTRN-3934727",
+        "Name":"Rush test case against EZO & COD functions",
+        "Assigned To":"Shrividhya"
     },
     {
         "TestRunStatus":"PASSED",
@@ -2240,8 +2261,8 @@
         "Assigned To":"Badaganti Sai Prasad"
     },
     {
-        "TestRunStatus":"INPROGRESS",
-        "ExecutionDate":"2025-03-27",
+        "TestRunStatus":"FAILED",
+        "ExecutionDate":"2025-03-28",
         "Document Key":"KCE-TSTRN-3934956",
         "Name":"KCEKDX Basic - Automatic Brake Test ",
         "Assigned To":"Jagadeesh"
