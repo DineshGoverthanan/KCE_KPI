@@ -2395,6 +2395,13 @@
     },
     {
         "TestRunStatus":"PASSED",
+        "ExecutionDate":"2025-03-28",
+        "Document Key":"KCE-TSTRN-3934739",
+        "Name":"Code compliant for NA\/Hong Kong\/Singapore in 10 inch xDOP  ",
+        "Assigned To":"Vivek"
+    },
+    {
+        "TestRunStatus":"PASSED",
         "ExecutionDate":"2025-03-13",
         "Document Key":"KCE-TSTRN-3860737",
         "Name":"xDOP indicates status Call is being processed when lifts are busy ",
@@ -2409,8 +2416,22 @@
     },
     {
         "TestRunStatus":"PASSED",
+        "ExecutionDate":"2025-03-28",
+        "Document Key":"KCE-TSTRN-3934740",
+        "Name":"Code compliant for NA\/Hong Kong\/Singapore in 7 inch xDOP",
+        "Assigned To":"Vivek"
+    },
+    {
+        "TestRunStatus":"PASSED",
         "ExecutionDate":"2025-03-26",
         "Document Key":"KCE-TSTRN-3904791",
+        "Name":"xDOP language change by card swipe\u200b",
+        "Assigned To":"Vivek"
+    },
+    {
+        "TestRunStatus":"INPROGRESS",
+        "ExecutionDate":"2025-03-28",
+        "Document Key":"KCE-TSTRN-3934741",
         "Name":"xDOP language change by card swipe\u200b",
         "Assigned To":"Vivek"
     },
@@ -2423,8 +2444,22 @@
     },
     {
         "TestRunStatus":"PASSED",
+        "ExecutionDate":"2025-03-28",
+        "Document Key":"KCE-TSTRN-3934742",
+        "Name":"Code compliant for California in 10 inch xDOP",
+        "Assigned To":"Vivek"
+    },
+    {
+        "TestRunStatus":"PASSED",
         "ExecutionDate":"2025-03-26",
         "Document Key":"KCE-TSTRN-3904794",
+        "Name":"Code compliant for California in 7 inch xDOP",
+        "Assigned To":"Vivek"
+    },
+    {
+        "TestRunStatus":"PASSED",
+        "ExecutionDate":"2025-03-28",
+        "Document Key":"KCE-TSTRN-3934743",
         "Name":"Code compliant for California in 7 inch xDOP",
         "Assigned To":"Vivek"
     },
@@ -2439,6 +2474,13 @@
         "TestRunStatus":"PASSED",
         "ExecutionDate":"2025-03-26",
         "Document Key":"KCE-TSTRN-3904796",
+        "Name":"Static layout is not possible, keypad is used",
+        "Assigned To":"Vivek"
+    },
+    {
+        "TestRunStatus":"PASSED",
+        "ExecutionDate":"2025-03-28",
+        "Document Key":"KCE-TSTRN-3934744",
         "Name":"Static layout is not possible, keypad is used",
         "Assigned To":"Vivek"
     },
@@ -2464,6 +2506,13 @@
         "Assigned To":"Vivek"
     },
     {
+        "TestRunStatus":"NOT_APPLICABLE",
+        "ExecutionDate":"2025-03-28",
+        "Document Key":"KCE-TSTRN-3934745",
+        "Name":"xDOP Dormakaba mobile credentials usage",
+        "Assigned To":"Vivek"
+    },
+    {
         "TestRunStatus":"PASSED",
         "ExecutionDate":"2025-03-24",
         "Document Key":"KCE-TSTRN-3904800",
@@ -2481,6 +2530,13 @@
         "TestRunStatus":"NOT_APPLICABLE",
         "ExecutionDate":"2025-03-24",
         "Document Key":"KCE-TSTRN-3904801",
+        "Name":"Turnstile pedestal 10\u201d xDOP with QR",
+        "Assigned To":"Vivek"
+    },
+    {
+        "TestRunStatus":"NOT_APPLICABLE",
+        "ExecutionDate":"2025-03-28",
+        "Document Key":"KCE-TSTRN-3934746",
         "Name":"Turnstile pedestal 10\u201d xDOP with QR",
         "Assigned To":"Vivek"
     },
@@ -2544,6 +2600,13 @@
         "TestRunStatus":"PASSED",
         "ExecutionDate":"2025-03-26",
         "Document Key":"KCE-TSTRN-3904808",
+        "Name":"xDOP Alternative guidances",
+        "Assigned To":"Vivek"
+    },
+    {
+        "TestRunStatus":"PASSED",
+        "ExecutionDate":"2025-03-28",
+        "Document Key":"KCE-TSTRN-3934748",
         "Name":"xDOP Alternative guidances",
         "Assigned To":"Vivek"
     },
