@@ -42,3 +42,4 @@ KCE-SWBUG-5585,16.8 Fault Code #1046 Data1 and Data2 Description does not mentio
 KCE-SWBUG-5588,16.8 - KCEDCS - Some options were hidden for particular language in xDOP diagnostic view,Vivek,16.8.3.13(LD 16.8.3.8 GCD 16.8.81 GCH 16.8.81),2025-03-27
 KCE-SWBUG-5592,16.8 - ELO - Deactivation output is not turning ON when lift is in no setup or car light failed fault posted.,Badaganti Sai Prasad,"16.8.3.13(LD: 16.8.3.8, GCD: 16.8.81)",2025-03-26
 KCE-SWBUG-5593,16.8 - ELO - 1772 fault code is posted when lift is in no setup or with car light failed fault posted.,Badaganti Sai Prasad,,2025-03-26
+KCE-SWBUG-5598,16.8 - EAQ - Lift is running at enhanced correction drive (more than 0.3m/s) when EAQ is triggered.,Badaganti Sai Prasad,"16.8.3.13(LD: 16.8.3.8, GCD: 16.8.81)",2025-03-30
