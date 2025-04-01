@@ -434,8 +434,8 @@
         "Assigned To":"Shrividhya"
     },
     {
-        "TestRunStatus":"INPROGRESS",
-        "ExecutionDate":"2025-03-28",
+        "TestRunStatus":"FAILED",
+        "ExecutionDate":"2025-03-31",
         "Document Key":"KCE-TSTRN-3934714",
         "Name":"KNSMUL COP functions with 126 Floors_Keypad COP",
         "Assigned To":"ARUN KUMAR"
@@ -616,8 +616,8 @@
         "Assigned To":"Shrividhya"
     },
     {
-        "TestRunStatus":"INPROGRESS",
-        "ExecutionDate":"2025-03-27",
+        "TestRunStatus":"PASSED",
+        "ExecutionDate":"2025-03-31",
         "Document Key":"KCE-TSTRN-3934731",
         "Name":"BSW and EZO+COD  with reduce speed drive ",
         "Assigned To":"Shrividhya"
@@ -1163,6 +1163,13 @@
     },
     {
         "TestRunStatus":"INPROGRESS",
+        "ExecutionDate":"2025-03-31",
+        "Document Key":"KCE-TSTRN-3934809",
+        "Name":"BPI O  \u2013 Bypass indication at landings \u2013 Bypassed floor only",
+        "Assigned To":"Priyavalli"
+    },
+    {
+        "TestRunStatus":"INPROGRESS",
         "ExecutionDate":"2025-03-26",
         "Document Key":"KCE-TSTRN-3904835",
         "Name":"CIC - Corridor Illumination Control - Tests not included into TA",
@@ -1188,6 +1195,13 @@
         "Document Key":"KCE-TSTRN-3904837",
         "Name":"HSL - Here Signal Light",
         "Assigned To":"Suryanarayanan"
+    },
+    {
+        "TestRunStatus":"FAILED",
+        "ExecutionDate":"2025-03-31",
+        "Document Key":"KCE-TSTRN-3934817",
+        "Name":"LWD S - Load Weighing device - Digital LWD interface with Yaskawa",
+        "Assigned To":"Priyavalli"
     },
     {
         "TestRunStatus":"INPROGRESS",
