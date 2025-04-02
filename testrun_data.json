@@ -1960,6 +1960,13 @@
         "Assigned To":"Badaganti Sai Prasad"
     },
     {
+        "TestRunStatus":"FAILED",
+        "ExecutionDate":"2025-03-26",
+        "Document Key":"KCE-TSTRN-3934888",
+        "Name":"3. IDO - Service modes to Normal",
+        "Assigned To":"Badaganti Sai Prasad"
+    },
+    {
         "TestRunStatus":"PASSED",
         "ExecutionDate":"2025-03-11",
         "Document Key":"KCE-TSTRN-3860925",
@@ -2019,6 +2026,13 @@
         "TestRunStatus":"FAILED",
         "ExecutionDate":"2025-03-14",
         "Document Key":"KCE-TSTRN-3860933",
+        "Name":"13. IDO - Disable",
+        "Assigned To":"Badaganti Sai Prasad"
+    },
+    {
+        "TestRunStatus":"FAILED",
+        "ExecutionDate":"2025-03-26",
+        "Document Key":"KCE-TSTRN-3934891",
         "Name":"13. IDO - Disable",
         "Assigned To":"Badaganti Sai Prasad"
     },
@@ -2675,6 +2689,13 @@
     },
     {
         "TestRunStatus":"PASSED",
+        "ExecutionDate":"2025-04-02",
+        "Document Key":"KCE-TSTRN-3934747",
+        "Name":"xDOP Demo options",
+        "Assigned To":"Vivek"
+    },
+    {
+        "TestRunStatus":"PASSED",
         "ExecutionDate":"2025-03-21",
         "Document Key":"KCE-TSTRN-3904806",
         "Name":"xDOP Building information",
@@ -2726,6 +2747,13 @@
         "TestRunStatus":"NOT_APPLICABLE",
         "ExecutionDate":"2025-03-26",
         "Document Key":"KCE-TSTRN-3904810",
+        "Name":"xDOP HID RP10 reader monitoring ",
+        "Assigned To":"Vivek"
+    },
+    {
+        "TestRunStatus":"NOT_APPLICABLE",
+        "ExecutionDate":"2025-04-02",
+        "Document Key":"KCE-TSTRN-3934749",
         "Name":"xDOP HID RP10 reader monitoring ",
         "Assigned To":"Vivek"
     },
