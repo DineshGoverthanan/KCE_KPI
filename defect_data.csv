@@ -43,3 +43,4 @@ KCE-SWBUG-5588,16.8 - KCEDCS - Some options were hidden for particular language 
 KCE-SWBUG-5592,16.8 - ELO - Deactivation output is not turning ON when lift is in no setup or car light failed fault posted.,Badaganti Sai Prasad,"16.8.3.13(LD: 16.8.3.8, GCD: 16.8.81)",2025-03-26
 KCE-SWBUG-5593,16.8 - ELO - 1772 fault code is posted when lift is in no setup or with car light failed fault posted.,Badaganti Sai Prasad,,2025-03-26
 KCE-SWBUG-5598,16.8 - EAQ - Lift is running at enhanced correction drive (more than 0.3m/s) when EAQ is triggered.,Badaganti Sai Prasad,"16.8.3.13(LD: 16.8.3.8, GCD: 16.8.81)",2025-03-30
+KCE-SWBUG-5602,"16.8 - FRD AU - Elevator doesn't go back to normal mode from Phase 2, When 1432 is set as '0'",Suryanarayanan,"KCE 16.8.3.13(LD: 16.8.3.8, GCD: 16.8.81)",2025-03-31

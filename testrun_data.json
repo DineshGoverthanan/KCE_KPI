@@ -1239,7 +1239,7 @@
         "Assigned To":"Suryanarayanan"
     },
     {
-        "TestRunStatus":"INPROGRESS",
+        "TestRunStatus":"FAILED",
         "ExecutionDate":"2025-04-01",
         "Document Key":"KCE-TSTRN-3934820",
         "Name":"AMD D15 - Basic - Elevator moving and standing",
@@ -1982,6 +1982,13 @@
     },
     {
         "TestRunStatus":"PASSED",
+        "ExecutionDate":"2025-04-01",
+        "Document Key":"KCE-TSTRN-3934889",
+        "Name":"7. IDO - Locked floors",
+        "Assigned To":"Badaganti Sai Prasad"
+    },
+    {
+        "TestRunStatus":"PASSED",
         "ExecutionDate":"2025-03-12",
         "Document Key":"KCE-TSTRN-3860929",
         "Name":"8. IDO - Side specific operation (TTC Floor)",
@@ -2020,6 +2027,13 @@
         "ExecutionDate":"2025-04-01",
         "Document Key":"KCE-TSTRN-3934892",
         "Name":"8.1. IDO - Side specific operation (A Side)",
+        "Assigned To":"Badaganti Sai Prasad"
+    },
+    {
+        "TestRunStatus":"PASSED",
+        "ExecutionDate":"2025-04-01",
+        "Document Key":"KCE-TSTRN-3934893",
+        "Name":"8.2. IDO - Side specific operation (B Side)",
         "Assigned To":"Badaganti Sai Prasad"
     },
     {
