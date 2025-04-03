@@ -47,3 +47,4 @@ KCE-SWBUG-5602,"16.8 - FRD AU - Elevator doesn't go back to normal mode from Pha
 KCE-SWBUG-5605,KCEKDL16 -Fault code 1820 cleared after power break when XD3 Connector disconnected during elevator drive,Priyavalli,,
 KCE-SWBUG-5607,16.8 Fault Code #6023 Data1 and Data2 Description does not mention in KCE Database Tools ,Jagadeesh,"KCE 16.8.3.13(LD: 16.8.3.8, GCD: 16.8.81)",
 KCE-SWBUG-5609,16.8 - FRD AU - Parameter 1432 & 1428 does not follows Requirement's default value,Suryanarayanan,,
+KCE-SWBUG-5612,"KCEKDL 16 NEW BOARD-Load weighting - Fault code 3020 ""Load weighting warning"" is activated only when RDF is active ",Priyavalli,,2025-03-23

@@ -533,7 +533,7 @@
     },
     {
         "TestRunStatus":"FAILED",
-        "ExecutionDate":"2025-03-31",
+        "ExecutionDate":"2025-04-03",
         "Document Key":"KCE-TSTRN-3934726",
         "Name":"Rush test case for EZO zone ",
         "Assigned To":"Shrividhya"
@@ -1163,6 +1163,13 @@
     },
     {
         "TestRunStatus":"INPROGRESS",
+        "ExecutionDate":"2025-04-03",
+        "Document Key":"KCE-TSTRN-3934807",
+        "Name":"ADF - Automatic Dispatching from a spesified floor - Tests not included into TA",
+        "Assigned To":"Suryanarayanan"
+    },
+    {
+        "TestRunStatus":"INPROGRESS",
         "ExecutionDate":"2025-03-31",
         "Document Key":"KCE-TSTRN-3934809",
         "Name":"BPI O  \u2013 Bypass indication at landings \u2013 Bypassed floor only",
@@ -1243,6 +1250,13 @@
         "ExecutionDate":"2025-04-01",
         "Document Key":"KCE-TSTRN-3934820",
         "Name":"AMD D15 - Basic - Elevator moving and standing",
+        "Assigned To":"Suryanarayanan"
+    },
+    {
+        "TestRunStatus":"PASSED",
+        "ExecutionDate":"2025-04-03",
+        "Document Key":"KCE-TSTRN-3934821",
+        "Name":"AMD D15 - Basic - Opening",
         "Assigned To":"Suryanarayanan"
     },
     {
@@ -2073,7 +2087,7 @@
     },
     {
         "TestRunStatus":"PASSED",
-        "ExecutionDate":"2025-04-02",
+        "ExecutionDate":"2025-04-03",
         "Document Key":"KCE-TSTRN-3934898",
         "Name":"LCM - Landing calls from PCUI and RUI",
         "Assigned To":"Harini Sri"
@@ -2401,10 +2415,45 @@
         "Assigned To":"Jagadeesh"
     },
     {
-        "TestRunStatus":"INPROGRESS",
-        "ExecutionDate":"2025-04-02",
+        "TestRunStatus":"PASSED",
+        "ExecutionDate":"2025-04-03",
         "Document Key":"KCE-TSTRN-3934732",
         "Name":"3.EPS G Emergency sequencing by Group controller using its inbuilt sequencer - Single lift sequence Scenario",
+        "Assigned To":"Vivek"
+    },
+    {
+        "TestRunStatus":"PASSED",
+        "ExecutionDate":"2025-04-03",
+        "Document Key":"KCE-TSTRN-3934733",
+        "Name":"4.EPS G Emergency sequencing - Single lift full sequence Scenario on triggering one by one EPD input with OPT Output Operation",
+        "Assigned To":"Vivek"
+    },
+    {
+        "TestRunStatus":"PASSED",
+        "ExecutionDate":"2025-04-03",
+        "Document Key":"KCE-TSTRN-3934734",
+        "Name":"5.EPS G - Non serving of registered car and Landing calls",
+        "Assigned To":"Vivek"
+    },
+    {
+        "TestRunStatus":"FAILED",
+        "ExecutionDate":"2025-04-03",
+        "Document Key":"KCE-TSTRN-3934735",
+        "Name":"7.EPS G - Remove Normal service permission from KCEOPT",
+        "Assigned To":"Vivek"
+    },
+    {
+        "TestRunStatus":"PASSED",
+        "ExecutionDate":"2025-04-03",
+        "Document Key":"KCE-TSTRN-3934736",
+        "Name":"11.EPS G Two lifts in group and other lift online while Normal service",
+        "Assigned To":"Vivek"
+    },
+    {
+        "TestRunStatus":"PASSED",
+        "ExecutionDate":"2025-04-03",
+        "Document Key":"KCE-TSTRN-3934737",
+        "Name":"10.EPS G Duplex lifts with one lift fails while returning",
         "Assigned To":"Vivek"
     },
     {
