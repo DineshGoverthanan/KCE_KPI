@@ -1,4 +1,5 @@
 Document Key,Name,Created By,Found in Build,Found On Date
+KCE-SWBUG-5615,16.4-DCBL GD- Speed is not reduced when the elevator reaches the lower limit during the NTS Buffer Test.,Jagadeesh,KCE16.4.92 (LD 16.4.1.11 and GCD 16.4.65) + DCBL 24.47sw,
 KCE-SWBUG-5081,16.8 - The emergency announcement in the ACU does not stop when the elevator starts moving.,Shrividhya,"KCE 16.8.2.19(LD: 16.8.2.4, GCD: 16.8.56)",2025-01-01
 KCE-SWBUG-5082,"16.8 - CPU - Parameter 1456 can't be set as ""2""",Suryanarayanan,"KCE 16.8.2.19(LD: 16.8.2.4, GCD: 16.8.56)",2025-01-01
 KCE-SWBUG-5107,PESSRAL4.2 - SSA-BiDi Feature - Landing call acceptance light is not blinking when person in car roof Detection reset,Veeramanikandan,16.10.0.5,2025-01-09
@@ -47,4 +48,6 @@ KCE-SWBUG-5602,"16.8 - FRD AU - Elevator doesn't go back to normal mode from Pha
 KCE-SWBUG-5605,KCEKDL16 -Fault code 1820 cleared after power break when XD3 Connector disconnected during elevator drive,Priyavalli,,
 KCE-SWBUG-5607,16.8 Fault Code #6023 Data1 and Data2 Description does not mention in KCE Database Tools ,Jagadeesh,"KCE 16.8.3.13(LD: 16.8.3.8, GCD: 16.8.81)",
 KCE-SWBUG-5609,16.8 - FRD AU - Parameter 1432 & 1428 does not follows Requirement's default value,Suryanarayanan,,
-KCE-SWBUG-5612,"KCEKDL 16 NEW BOARD-Load weighting - Fault code 3020 ""Load weighting warning"" is activated only when RDF is active ",Priyavalli,,2025-03-23
+KCE-SWBUG-5612,"KCEKDL 16 NEW BOARD-Load weighting - Fault code 3020 ""Load weighting warning"" is activated only when RDF is active ",Priyavalli,,2025-04-02
+KCE-SWBUG-5613,16.8 - KCEDCS - Conflicts in OSS and CAM reservation at the same time in xDOP via Pincode.,Vivek,"KCE 16.8.3.13(LD: 16.8.3.8, GCD: 16.8.81)",2025-04-02
+KCE-SWBUG-5614,KCEKDL16 NEW GD board: additional fault code #1819 activated during 24v disconnection,Priyavalli,,2025-04-02

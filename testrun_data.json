@@ -281,7 +281,7 @@
     },
     {
         "TestRunStatus":"FAILED",
-        "ExecutionDate":"2025-04-02",
+        "ExecutionDate":"2025-04-03",
         "Document Key":"KCE-TSTRN-3853000",
         "Name":"08. KCEKDL16 Supervision - TTS network",
         "Assigned To":"Priyavalli"
@@ -2454,6 +2454,13 @@
         "ExecutionDate":"2025-04-03",
         "Document Key":"KCE-TSTRN-3934737",
         "Name":"10.EPS G Duplex lifts with one lift fails while returning",
+        "Assigned To":"Vivek"
+    },
+    {
+        "TestRunStatus":"INPROGRESS",
+        "ExecutionDate":"2025-04-03",
+        "Document Key":"KCE-TSTRN-3934738",
+        "Name":"12.EPS G Single lift failure to start normal service",
         "Assigned To":"Vivek"
     },
     {
