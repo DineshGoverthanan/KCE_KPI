@@ -1898,14 +1898,14 @@
     },
     {
         "TestRunStatus":"PASSED",
-        "ExecutionDate":"2025-03-26",
+        "ExecutionDate":"2025-04-02",
         "Document Key":"KCE-TSTRN-3934870",
         "Name":"2 x COP with KSSLMUL - A-side",
         "Assigned To":"Harini Sri"
     },
     {
         "TestRunStatus":"PASSED",
-        "ExecutionDate":"2025-03-27",
+        "ExecutionDate":"2025-04-02",
         "Document Key":"KCE-TSTRN-3934883",
         "Name":"HAN B - Audiple Handicap Feature - Button",
         "Assigned To":"Harini Sri"
@@ -2023,6 +2023,13 @@
         "Assigned To":"Badaganti Sai Prasad"
     },
     {
+        "TestRunStatus":"PASSED",
+        "ExecutionDate":"2025-04-02",
+        "Document Key":"KCE-TSTRN-3934890",
+        "Name":"11. IDO - Operation at FPD Activated floor",
+        "Assigned To":"Badaganti Sai Prasad"
+    },
+    {
         "TestRunStatus":"FAILED",
         "ExecutionDate":"2025-03-14",
         "Document Key":"KCE-TSTRN-3860933",
@@ -2051,11 +2058,25 @@
         "Assigned To":"Badaganti Sai Prasad"
     },
     {
+        "TestRunStatus":"PASSED",
+        "ExecutionDate":"2025-04-02",
+        "Document Key":"KCE-TSTRN-3934894",
+        "Name":"12. IDO - FRD modes",
+        "Assigned To":"Badaganti Sai Prasad"
+    },
+    {
         "TestRunStatus":"INPROGRESS",
         "ExecutionDate":"2025-03-24",
         "Document Key":"KCE-TSTRN-3904955",
         "Name":"LCM - Landing calls from PCUI and RUI",
         "Assigned To":"ARUN KUMAR"
+    },
+    {
+        "TestRunStatus":"PASSED",
+        "ExecutionDate":"2025-04-02",
+        "Document Key":"KCE-TSTRN-3934898",
+        "Name":"LCM - Landing calls from PCUI and RUI",
+        "Assigned To":"Harini Sri"
     },
     {
         "TestRunStatus":"FAILED",
@@ -2378,6 +2399,13 @@
         "Document Key":"KCE-TSTRN-3934957",
         "Name":"09.3 KCEKDL16 Basic - Automatic brake test",
         "Assigned To":"Jagadeesh"
+    },
+    {
+        "TestRunStatus":"INPROGRESS",
+        "ExecutionDate":"2025-04-02",
+        "Document Key":"KCE-TSTRN-3934732",
+        "Name":"3.EPS G Emergency sequencing by Group controller using its inbuilt sequencer - Single lift sequence Scenario",
+        "Assigned To":"Vivek"
     },
     {
         "TestRunStatus":"PASSED",
