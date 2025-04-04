@@ -1358,6 +1358,13 @@
         "Assigned To":"Suryanarayanan"
     },
     {
+        "TestRunStatus":"FAILED",
+        "ExecutionDate":"2025-04-04",
+        "Document Key":"KCE-TSTRN-3934830",
+        "Name":"CSM S - Compulsory Stopping at Main floor - Switch",
+        "Assigned To":"Suryanarayanan"
+    },
+    {
         "TestRunStatus":"PASSED",
         "ExecutionDate":"2025-03-11",
         "Document Key":"KCE-TSTRN-3860828",
@@ -2443,8 +2450,8 @@
         "Assigned To":"Jagadeesh"
     },
     {
-        "TestRunStatus":"INPROGRESS",
-        "ExecutionDate":"2025-04-03",
+        "TestRunStatus":"FAILED",
+        "ExecutionDate":"2025-04-04",
         "Document Key":"KCE-TSTRN-3934958",
         "Name":"07.1 KCEKDM Tests - Automatic brake test - Dual breaks",
         "Assigned To":"Jagadeesh"
