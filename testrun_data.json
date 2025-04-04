@@ -1162,7 +1162,7 @@
         "Assigned To":"Suryanarayanan"
     },
     {
-        "TestRunStatus":"INPROGRESS",
+        "TestRunStatus":"PASSED",
         "ExecutionDate":"2025-04-03",
         "Document Key":"KCE-TSTRN-3934807",
         "Name":"ADF - Automatic Dispatching from a spesified floor - Tests not included into TA",
@@ -1300,6 +1300,13 @@
         "Document Key":"KCE-TSTRN-3857117",
         "Name":"CPI LS - Car Position Indicator - Seven segment display",
         "Assigned To":"Harini Sri"
+    },
+    {
+        "TestRunStatus":"FAILED",
+        "ExecutionDate":"2025-04-03",
+        "Document Key":"KCE-TSTRN-3934827",
+        "Name":"CPI LS - Car Position Indicator - Seven segment display",
+        "Assigned To":"Suryanarayanan"
     },
     {
         "TestRunStatus":"PASSED",
@@ -1664,6 +1671,13 @@
         "Document Key":"KCE-TSTRN-3860859",
         "Name":"LOC ..G - General lock - MULs",
         "Assigned To":"Suryanarayanan"
+    },
+    {
+        "TestRunStatus":"INPROGRESS",
+        "ExecutionDate":"2025-04-03",
+        "Document Key":"KCE-TSTRN-3934842",
+        "Name":"LOL - Locking of Landing Calls - From machine room KCEPIO",
+        "Assigned To":"Harini Sri"
     },
     {
         "TestRunStatus":"PASSED",
@@ -2233,6 +2247,20 @@
         "Assigned To":"ARUN KUMAR"
     },
     {
+        "TestRunStatus":"PASSED",
+        "ExecutionDate":"2025-04-03",
+        "Document Key":"KCE-TSTRN-3934911",
+        "Name":"PUD I - Power Up Delay - Individual elevators",
+        "Assigned To":"ARUN KUMAR"
+    },
+    {
+        "TestRunStatus":"INPROGRESS",
+        "ExecutionDate":"2025-04-03",
+        "Document Key":"KCE-TSTRN-3934912",
+        "Name":"PVS - Penthouse Visitor Feature - Tests not included into TA",
+        "Assigned To":"ARUN KUMAR"
+    },
+    {
         "TestRunStatus":"INPROGRESS",
         "ExecutionDate":"2025-03-17",
         "Document Key":"KCE-TSTRN-3860977",
@@ -2415,6 +2443,13 @@
         "Assigned To":"Jagadeesh"
     },
     {
+        "TestRunStatus":"INPROGRESS",
+        "ExecutionDate":"2025-04-03",
+        "Document Key":"KCE-TSTRN-3934958",
+        "Name":"07.1 KCEKDM Tests - Automatic brake test - Dual breaks",
+        "Assigned To":"Jagadeesh"
+    },
+    {
         "TestRunStatus":"PASSED",
         "ExecutionDate":"2025-04-03",
         "Document Key":"KCE-TSTRN-3934732",
@@ -2457,7 +2492,7 @@
         "Assigned To":"Vivek"
     },
     {
-        "TestRunStatus":"INPROGRESS",
+        "TestRunStatus":"PASSED",
         "ExecutionDate":"2025-04-03",
         "Document Key":"KCE-TSTRN-3934738",
         "Name":"12.EPS G Single lift failure to start normal service",
