@@ -1303,7 +1303,7 @@
     },
     {
         "TestRunStatus":"FAILED",
-        "ExecutionDate":"2025-04-03",
+        "ExecutionDate":"2025-04-04",
         "Document Key":"KCE-TSTRN-3934827",
         "Name":"CPI LS - Car Position Indicator - Seven segment display",
         "Assigned To":"Suryanarayanan"
@@ -1681,7 +1681,7 @@
     },
     {
         "TestRunStatus":"INPROGRESS",
-        "ExecutionDate":"2025-04-03",
+        "ExecutionDate":"2025-04-04",
         "Document Key":"KCE-TSTRN-3934842",
         "Name":"LOL - Locking of Landing Calls - From machine room KCEPIO",
         "Assigned To":"Harini Sri"
