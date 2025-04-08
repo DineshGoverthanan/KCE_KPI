@@ -1688,6 +1688,20 @@
     },
     {
         "TestRunStatus":"PASSED",
+        "ExecutionDate":"2025-04-08",
+        "Document Key":"KCE-TSTRN-3934838",
+        "Name":"LOC G - Group locking - 1. Setup of locked floors",
+        "Assigned To":"Shrividhya"
+    },
+    {
+        "TestRunStatus":"INPROGRESS",
+        "ExecutionDate":"2025-04-08",
+        "Document Key":"KCE-TSTRN-3934839",
+        "Name":"LOC G - Group locking - 2. Setup of PIN codes",
+        "Assigned To":"Shrividhya"
+    },
+    {
+        "TestRunStatus":"PASSED",
         "ExecutionDate":"2025-04-07",
         "Document Key":"KCE-TSTRN-3934842",
         "Name":"LOL - Locking of Landing Calls - From machine room KCEPIO",
