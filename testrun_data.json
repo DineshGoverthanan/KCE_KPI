@@ -1169,8 +1169,8 @@
         "Assigned To":"Suryanarayanan"
     },
     {
-        "TestRunStatus":"INPROGRESS",
-        "ExecutionDate":"2025-03-31",
+        "TestRunStatus":"FAILED",
+        "ExecutionDate":"2025-04-07",
         "Document Key":"KCE-TSTRN-3934809",
         "Name":"BPI O  \u2013 Bypass indication at landings \u2013 Bypassed floor only",
         "Assigned To":"Priyavalli"
@@ -1320,6 +1320,13 @@
         "ExecutionDate":"2025-02-25",
         "Document Key":"KCE-TSTRN-3857119",
         "Name":"Display field selection with parameter - Landing display",
+        "Assigned To":"Harini Sri"
+    },
+    {
+        "TestRunStatus":"INPROGRESS",
+        "ExecutionDate":"2025-04-07",
+        "Document Key":"KCE-TSTRN-3934828",
+        "Name":"CR-042043 KCE option to deactivate all announcements and car fan for Ride Comfort tests",
         "Assigned To":"Harini Sri"
     },
     {
@@ -1631,11 +1638,11 @@
         "Assigned To":"Shrividhya"
     },
     {
-        "TestRunStatus":"INPROGRESS",
-        "ExecutionDate":"2025-04-01",
+        "TestRunStatus":"PASSED",
+        "ExecutionDate":"2025-04-07",
         "Document Key":"KCE-TSTRN-3934837",
         "Name":"KSS landing and car gong volume",
-        "Assigned To":"Suryanarayanan"
+        "Assigned To":"Priyavalli"
     },
     {
         "TestRunStatus":"INPROGRESS",
@@ -1680,7 +1687,7 @@
         "Assigned To":"Suryanarayanan"
     },
     {
-        "TestRunStatus":"INPROGRESS",
+        "TestRunStatus":"PASSED",
         "ExecutionDate":"2025-04-07",
         "Document Key":"KCE-TSTRN-3934842",
         "Name":"LOL - Locking of Landing Calls - From machine room KCEPIO",
@@ -3001,5 +3008,12 @@
         "Document Key":"KCE-TSTRN-3904822",
         "Name":"XDOP Guidance mode for dynamic",
         "Assigned To":"Vivek"
+    },
+    {
+        "TestRunStatus":"INPROGRESS",
+        "ExecutionDate":"2025-04-07",
+        "Document Key":"KCE-TSTRN-3936003",
+        "Name":"Rush test case for Interact 20 LCS\/XLA button ",
+        "Assigned To":"Suryanarayanan"
     }
 ]
