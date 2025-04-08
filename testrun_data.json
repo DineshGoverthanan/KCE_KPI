@@ -1694,10 +1694,17 @@
         "Assigned To":"Shrividhya"
     },
     {
-        "TestRunStatus":"INPROGRESS",
+        "TestRunStatus":"PASSED",
         "ExecutionDate":"2025-04-08",
         "Document Key":"KCE-TSTRN-3934839",
         "Name":"LOC G - Group locking - 2. Setup of PIN codes",
+        "Assigned To":"Shrividhya"
+    },
+    {
+        "TestRunStatus":"INPROGRESS",
+        "ExecutionDate":"2025-04-08",
+        "Document Key":"KCE-TSTRN-3934840",
+        "Name":"LOC G - Group locking - 3. Normal function",
         "Assigned To":"Shrividhya"
     },
     {
@@ -3025,7 +3032,7 @@
     },
     {
         "TestRunStatus":"INPROGRESS",
-        "ExecutionDate":"2025-04-07",
+        "ExecutionDate":"2025-04-08",
         "Document Key":"KCE-TSTRN-3936003",
         "Name":"Rush test case for Interact 20 LCS\/XLA button ",
         "Assigned To":"Suryanarayanan"
