@@ -1330,6 +1330,13 @@
         "Assigned To":"Harini Sri"
     },
     {
+        "TestRunStatus":"INPROGRESS",
+        "ExecutionDate":"2025-04-08",
+        "Document Key":"KCE-TSTRN-3936061",
+        "Name":"CR-042043 KCE option to deactivate all announcements and car fan for Ride Comfort tests",
+        "Assigned To":"Harini Sri"
+    },
+    {
         "TestRunStatus":"PASSED",
         "ExecutionDate":"2025-02-26",
         "Document Key":"KCE-TSTRN-3857121",
@@ -1580,6 +1587,20 @@
         "Document Key":"KCE-TSTRN-3904880",
         "Name":"FRD IL - Phase 2 - Tests not included into TA",
         "Assigned To":"Suryanarayanan"
+    },
+    {
+        "TestRunStatus":"FAILED",
+        "ExecutionDate":"2025-04-08",
+        "Document Key":"KCE-TSTRN-3934836",
+        "Name":"FRD IL - Phase 2 - Tests not included into TA",
+        "Assigned To":"Priyavalli"
+    },
+    {
+        "TestRunStatus":"FAILED",
+        "ExecutionDate":"2025-04-08",
+        "Document Key":"KCE-TSTRN-3936068",
+        "Name":"FRD IL - Phase 2 - Tests not included into TA",
+        "Assigned To":"Priyavalli"
     },
     {
         "TestRunStatus":"PASSED",
@@ -1965,6 +1986,20 @@
         "Document Key":"KCE-TSTRN-3934870",
         "Name":"2 x COP with KSSLMUL - A-side",
         "Assigned To":"Harini Sri"
+    },
+    {
+        "TestRunStatus":"PASSED",
+        "ExecutionDate":"2025-04-08",
+        "Document Key":"KCE-TSTRN-3936094",
+        "Name":"E-link5 for KCE - Configuration - Tests not included into TA",
+        "Assigned To":"Jagadeesh"
+    },
+    {
+        "TestRunStatus":"INPROGRESS",
+        "ExecutionDate":"2025-04-08",
+        "Document Key":"KCE-TSTRN-3936095",
+        "Name":"E-link5 for KCE - Traffic view - Tests not included into TA",
+        "Assigned To":"Jagadeesh"
     },
     {
         "TestRunStatus":"PASSED",
@@ -2514,6 +2549,13 @@
     },
     {
         "TestRunStatus":"PASSED",
+        "ExecutionDate":"2025-04-08",
+        "Document Key":"KCE-TSTRN-3936004",
+        "Name":"7.EPS G - Remove Normal service permission from KCEOPT",
+        "Assigned To":"Vivek"
+    },
+    {
+        "TestRunStatus":"PASSED",
         "ExecutionDate":"2025-04-03",
         "Document Key":"KCE-TSTRN-3934736",
         "Name":"11.EPS G Two lifts in group and other lift online while Normal service",
@@ -3028,6 +3070,13 @@
         "ExecutionDate":"2025-03-20",
         "Document Key":"KCE-TSTRN-3904822",
         "Name":"XDOP Guidance mode for dynamic",
+        "Assigned To":"Vivek"
+    },
+    {
+        "TestRunStatus":"PASSED",
+        "ExecutionDate":"2025-04-08",
+        "Document Key":"KCE-TSTRN-3936012",
+        "Name":"New KCEGCH swap in KCEDCS group ",
         "Assigned To":"Vivek"
     },
     {
