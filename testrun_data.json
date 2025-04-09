@@ -1597,7 +1597,7 @@
     },
     {
         "TestRunStatus":"FAILED",
-        "ExecutionDate":"2025-04-08",
+        "ExecutionDate":"2025-04-09",
         "Document Key":"KCE-TSTRN-3936068",
         "Name":"FRD IL - Phase 2 - Tests not included into TA",
         "Assigned To":"Priyavalli"
@@ -1720,6 +1720,13 @@
         "Document Key":"KCE-TSTRN-3934839",
         "Name":"LOC G - Group locking - 2. Setup of PIN codes",
         "Assigned To":"Shrividhya"
+    },
+    {
+        "TestRunStatus":"PASSED",
+        "ExecutionDate":"2025-04-09",
+        "Document Key":"KCE-TSTRN-3936069",
+        "Name":"LOC G - Group locking - 2. Setup of PIN codes",
+        "Assigned To":"Priyavalli"
     },
     {
         "TestRunStatus":"INPROGRESS",
