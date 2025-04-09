@@ -51,3 +51,4 @@ KCE-SWBUG-5609,16.8 - FRD AU - Parameter 1432 & 1428 does not follows Requiremen
 KCE-SWBUG-5612,"KCEKDL 16 NEW BOARD-Load weighting - Fault code 3020 ""Load weighting warning"" is activated only when RDF is active ",Priyavalli,,2025-04-02
 KCE-SWBUG-5613,16.8 - KCEDCS - Conflicts in OSS and CAM reservation at the same time in xDOP via Pincode.,Vivek,"KCE 16.8.3.13(LD: 16.8.3.8, GCD: 16.8.81)",2025-04-02
 KCE-SWBUG-5614,KCEKDL16 NEW GD board: additional fault code #1819 activated during 24v disconnection,Priyavalli,,2025-04-02
+KCE-SWBUG-5642,"16.8 - KCEDCS - xDOP puts ""No response"" for bulk update",Vivek,"KCE 16.8.3.15(LD: 16.8.3.9, GCD: 16.8.82)",2025-04-08

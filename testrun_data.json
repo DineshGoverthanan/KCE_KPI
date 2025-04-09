@@ -3080,6 +3080,13 @@
         "Assigned To":"Vivek"
     },
     {
+        "TestRunStatus":"INPROGRESS",
+        "ExecutionDate":"2025-04-09",
+        "Document Key":"KCE-TSTRN-3936008",
+        "Name":"OPA - Two way allocation(immediate)",
+        "Assigned To":"Vivek"
+    },
+    {
         "TestRunStatus":"PASSED",
         "ExecutionDate":"2025-04-08",
         "Document Key":"KCE-TSTRN-3936012",
@@ -3088,7 +3095,7 @@
     },
     {
         "TestRunStatus":"INPROGRESS",
-        "ExecutionDate":"2025-04-08",
+        "ExecutionDate":"2025-04-09",
         "Document Key":"KCE-TSTRN-3936003",
         "Name":"Rush test case for Interact 20 LCS\/XLA button ",
         "Assigned To":"Suryanarayanan"
