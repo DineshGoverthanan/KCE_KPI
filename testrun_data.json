@@ -1736,6 +1736,13 @@
         "Assigned To":"Shrividhya"
     },
     {
+        "TestRunStatus":"INPROGRESS",
+        "ExecutionDate":"2025-04-09",
+        "Document Key":"KCE-TSTRN-3936070",
+        "Name":"LOC G - Group locking - 3. Normal function",
+        "Assigned To":"Priyavalli"
+    },
+    {
         "TestRunStatus":"PASSED",
         "ExecutionDate":"2025-04-07",
         "Document Key":"KCE-TSTRN-3934842",
@@ -2006,6 +2013,20 @@
         "ExecutionDate":"2025-04-08",
         "Document Key":"KCE-TSTRN-3936095",
         "Name":"E-link5 for KCE - Traffic view - Tests not included into TA",
+        "Assigned To":"Jagadeesh"
+    },
+    {
+        "TestRunStatus":"INPROGRESS",
+        "ExecutionDate":"2025-04-09",
+        "Document Key":"KCE-TSTRN-3936102",
+        "Name":"Basic E-link5 functions  - Single elevator with KCEGCL",
+        "Assigned To":"Jagadeesh"
+    },
+    {
+        "TestRunStatus":"INPROGRESS",
+        "ExecutionDate":"2025-04-09",
+        "Document Key":"KCE-TSTRN-3936103",
+        "Name":"Basic E-link5 functions  -  Group elevator with KCEGCH",
         "Assigned To":"Jagadeesh"
     },
     {
@@ -3080,7 +3101,7 @@
         "Assigned To":"Vivek"
     },
     {
-        "TestRunStatus":"INPROGRESS",
+        "TestRunStatus":"PASSED",
         "ExecutionDate":"2025-04-09",
         "Document Key":"KCE-TSTRN-3936008",
         "Name":"OPA - Two way allocation(immediate)",
@@ -3094,7 +3115,7 @@
         "Assigned To":"Vivek"
     },
     {
-        "TestRunStatus":"INPROGRESS",
+        "TestRunStatus":"FAILED",
         "ExecutionDate":"2025-04-09",
         "Document Key":"KCE-TSTRN-3936003",
         "Name":"Rush test case for Interact 20 LCS\/XLA button ",
