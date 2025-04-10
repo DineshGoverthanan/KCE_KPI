@@ -47,9 +47,9 @@ KCE-SWBUG-5598,16.8 - EAQ - Lift is running at enhanced correction drive (more t
 KCE-SWBUG-5602,"16.8 - FRD AU - Elevator doesn't go back to normal mode from Phase 2, When 1432 is set as '0'",Suryanarayanan,"KCE 16.8.3.13(LD: 16.8.3.8, GCD: 16.8.81)",2025-03-31
 KCE-SWBUG-5605,KCEKDL16 -Fault code 1820 cleared after power break when XD3 Connector disconnected during elevator drive,Priyavalli,,
 KCE-SWBUG-5607,16.8 Fault Code #6023 Data1 and Data2 Description does not mention in KCE Database Tools ,Jagadeesh,"KCE 16.8.3.13(LD: 16.8.3.8, GCD: 16.8.81)",
-KCE-SWBUG-5609,16.8 - FRD AU - Parameter 1432 & 1428 does not follows Requirement's default value,Suryanarayanan,,
+KCE-SWBUG-5609,16.8 - FRD AU - Parameter 1432 does not follows Requirement's default value,Suryanarayanan,,
 KCE-SWBUG-5612,"KCEKDL 16 NEW BOARD-Load weighting - Fault code 3020 ""Load weighting warning"" is activated only when RDF is active ",Priyavalli,,2025-04-02
 KCE-SWBUG-5613,16.8 - KCEDCS - Conflicts in OSS and CAM reservation at the same time in xDOP via Pincode.,Vivek,"KCE 16.8.3.13(LD: 16.8.3.8, GCD: 16.8.81)",2025-04-02
 KCE-SWBUG-5614,KCEKDL16 NEW GD board: additional fault code #1819 activated during 24v disconnection,Priyavalli,,2025-04-02
 KCE-SWBUG-5642,"16.8 - KCEDCS - xDOP puts ""No response"" for bulk update",Vivek,"KCE 16.8.3.15(LD: 16.8.3.9, GCD: 16.8.82)",2025-04-08
-KCE-SWBUG-5646,4.6 - Service Tool - Typo in Parameter 1360's Description,Suryanarayanan,4.6.224.6952,2025-04-08
+KCE-SWBUG-5646,4.6 - Service Tool - Typo in Parameter 1360's Description,Suryanarayanan,,2025-04-08
