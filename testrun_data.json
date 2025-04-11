@@ -1736,10 +1736,17 @@
         "Assigned To":"Shrividhya"
     },
     {
-        "TestRunStatus":"INPROGRESS",
-        "ExecutionDate":"2025-04-09",
+        "TestRunStatus":"PASSED",
+        "ExecutionDate":"2025-04-10",
         "Document Key":"KCE-TSTRN-3936070",
         "Name":"LOC G - Group locking - 3. Normal function",
+        "Assigned To":"Priyavalli"
+    },
+    {
+        "TestRunStatus":"PASSED",
+        "ExecutionDate":"2025-04-10",
+        "Document Key":"KCE-TSTRN-3936071",
+        "Name":"LOC G - Group locking - 4. Resetting of groups",
         "Assigned To":"Priyavalli"
     },
     {
@@ -2013,6 +2020,13 @@
         "ExecutionDate":"2025-04-08",
         "Document Key":"KCE-TSTRN-3936095",
         "Name":"E-link5 for KCE - Traffic view - Tests not included into TA",
+        "Assigned To":"Jagadeesh"
+    },
+    {
+        "TestRunStatus":"INPROGRESS",
+        "ExecutionDate":"2025-04-10",
+        "Document Key":"KCE-TSTRN-3936099",
+        "Name":"E-link5 for KCE - Provocative tests",
         "Assigned To":"Jagadeesh"
     },
     {
@@ -2982,6 +2996,13 @@
         "Assigned To":"Vivek"
     },
     {
+        "TestRunStatus":"NOT_APPLICABLE",
+        "ExecutionDate":"2025-04-10",
+        "Document Key":"KCE-TSTRN-3936006",
+        "Name":"xDOP QR reader",
+        "Assigned To":"Vivek"
+    },
+    {
         "TestRunStatus":"PASSED",
         "ExecutionDate":"2025-03-20",
         "Document Key":"KCE-TSTRN-3904812",
@@ -3102,9 +3123,30 @@
     },
     {
         "TestRunStatus":"PASSED",
+        "ExecutionDate":"2025-04-10",
+        "Document Key":"KCE-TSTRN-3936007",
+        "Name":"OPA - Maximum stopping time",
+        "Assigned To":"Vivek"
+    },
+    {
+        "TestRunStatus":"PASSED",
         "ExecutionDate":"2025-04-09",
         "Document Key":"KCE-TSTRN-3936008",
         "Name":"OPA - Two way allocation(immediate)",
+        "Assigned To":"Vivek"
+    },
+    {
+        "TestRunStatus":"PASSED",
+        "ExecutionDate":"2025-04-10",
+        "Document Key":"KCE-TSTRN-3936009",
+        "Name":"OPA - Two way allocation(continuous)",
+        "Assigned To":"Vivek"
+    },
+    {
+        "TestRunStatus":"PASSED",
+        "ExecutionDate":"2025-04-10",
+        "Document Key":"KCE-TSTRN-3936011",
+        "Name":"OPA - Enable multiple round trip allocation",
         "Assigned To":"Vivek"
     },
     {
@@ -3113,6 +3155,13 @@
         "Document Key":"KCE-TSTRN-3936012",
         "Name":"New KCEGCH swap in KCEDCS group ",
         "Assigned To":"Vivek"
+    },
+    {
+        "TestRunStatus":"PASSED",
+        "ExecutionDate":"2025-04-10",
+        "Document Key":"KCE-TSTRN-3936002",
+        "Name":"Vandal test at landing side",
+        "Assigned To":"Suryanarayanan"
     },
     {
         "TestRunStatus":"FAILED",
