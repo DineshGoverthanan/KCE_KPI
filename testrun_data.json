@@ -2009,6 +2009,13 @@
         "Assigned To":"Harini Sri"
     },
     {
+        "TestRunStatus":"INPROGRESS",
+        "ExecutionDate":"2025-04-11",
+        "Document Key":"KCE-TSTRN-3936093",
+        "Name":"DOI IN - Door Open Indication - India",
+        "Assigned To":"Priyavalli"
+    },
+    {
         "TestRunStatus":"PASSED",
         "ExecutionDate":"2025-04-08",
         "Document Key":"KCE-TSTRN-3936094",
