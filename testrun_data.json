@@ -441,6 +441,20 @@
         "Assigned To":"ARUN KUMAR"
     },
     {
+        "TestRunStatus":"FAILED",
+        "ExecutionDate":"2025-04-11",
+        "Document Key":"KCE-TSTRN-3936036",
+        "Name":"Inspection drive with 1801 Fault code",
+        "Assigned To":"Suryanarayanan"
+    },
+    {
+        "TestRunStatus":"PASSED",
+        "ExecutionDate":"2025-04-11",
+        "Document Key":"KCE-TSTRN-3936037",
+        "Name":"EBD and LON network scenario with power loss",
+        "Assigned To":"Suryanarayanan"
+    },
+    {
         "TestRunStatus":"PASSED",
         "ExecutionDate":"2025-03-26",
         "Document Key":"KCE-TSTRN-3904768",
@@ -2367,6 +2381,20 @@
     },
     {
         "TestRunStatus":"PASSED",
+        "ExecutionDate":"2025-04-11",
+        "Document Key":"KCE-TSTRN-3936115",
+        "Name":"Vandal test at landing side",
+        "Assigned To":"ARUN KUMAR"
+    },
+    {
+        "TestRunStatus":"PASSED",
+        "ExecutionDate":"2025-04-11",
+        "Document Key":"KCE-TSTRN-3936116",
+        "Name":"Vandal test for COP",
+        "Assigned To":"ARUN KUMAR"
+    },
+    {
+        "TestRunStatus":"PASSED",
         "ExecutionDate":"2025-04-03",
         "Document Key":"KCE-TSTRN-3934911",
         "Name":"PUD I - Power Up Delay - Individual elevators",
@@ -2885,6 +2913,13 @@
     },
     {
         "TestRunStatus":"PASSED",
+        "ExecutionDate":"2025-04-11",
+        "Document Key":"KCE-TSTRN-3936005",
+        "Name":"xDOP Multiple languages support",
+        "Assigned To":"Vivek"
+    },
+    {
+        "TestRunStatus":"PASSED",
         "ExecutionDate":"2025-03-13",
         "Document Key":"KCE-TSTRN-3860749",
         "Name":"xDOP accent color customization",
@@ -3147,6 +3182,13 @@
         "ExecutionDate":"2025-04-10",
         "Document Key":"KCE-TSTRN-3936009",
         "Name":"OPA - Two way allocation(continuous)",
+        "Assigned To":"Vivek"
+    },
+    {
+        "TestRunStatus":"PASSED",
+        "ExecutionDate":"2025-04-11",
+        "Document Key":"KCE-TSTRN-3936010",
+        "Name":"OPA - Single Lift Relaxation",
         "Assigned To":"Vivek"
     },
     {
