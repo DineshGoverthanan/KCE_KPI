@@ -2261,6 +2261,13 @@
         "Assigned To":"Badaganti Sai Prasad"
     },
     {
+        "TestRunStatus":"NOT_RUN",
+        "ExecutionDate":"2025-04-15",
+        "Document Key":"KCE-TSTRN-3936109",
+        "Name":"RES I - Reduced Speed - Tests not included into TA",
+        "Assigned To":"ARUN KUMAR"
+    },
+    {
         "TestRunStatus":"PASSED",
         "ExecutionDate":"2025-03-18",
         "Document Key":"KCE-TSTRN-3904959",
