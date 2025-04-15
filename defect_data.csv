@@ -53,3 +53,4 @@ KCE-SWBUG-5613,16.8 - KCEDCS - Conflicts in OSS and CAM reservation at the same 
 KCE-SWBUG-5614,KCEKDL16 NEW GD board: additional fault code #1819 activated during 24v disconnection,Priyavalli,,2025-04-02
 KCE-SWBUG-5642,"16.8 - KCEDCS - xDOP puts ""No response"" for bulk update",Vivek,"KCE 16.8.3.15(LD: 16.8.3.9, GCD: 16.8.82)",2025-04-08
 KCE-SWBUG-5646,4.6 - Service Tool - Typo in Parameter 1360's Description,Suryanarayanan,,2025-04-08
+KCE-SWBUG-5667,PDX - Drive Fault code description missing 6750#3333,ARUN KUMAR,ProManager - 4.6.224.6952 and  AMC -             4.6.232.6950,2025-04-10

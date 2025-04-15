@@ -875,6 +875,13 @@
         "Assigned To":"Jagadeesh"
     },
     {
+        "TestRunStatus":"INPROGRESS",
+        "ExecutionDate":"2025-04-15",
+        "Document Key":"KCE-TSTRN-3936043",
+        "Name":"2. Emergency announcement in ACU - Rescue situation",
+        "Assigned To":"Shrividhya"
+    },
+    {
         "TestRunStatus":"FAILED",
         "ExecutionDate":"2025-01-02",
         "Document Key":"KCE-TSTRN-3720392",
@@ -2261,7 +2268,7 @@
         "Assigned To":"Badaganti Sai Prasad"
     },
     {
-        "TestRunStatus":"NOT_RUN",
+        "TestRunStatus":"PASSED",
         "ExecutionDate":"2025-04-15",
         "Document Key":"KCE-TSTRN-3936109",
         "Name":"RES I - Reduced Speed - Tests not included into TA",
@@ -2574,6 +2581,13 @@
         "Document Key":"KCE-TSTRN-3861030",
         "Name":"Rush test : RollCall activation from BUI and Service Tool- New update for 15.7 ",
         "Assigned To":"Badaganti Sai Prasad"
+    },
+    {
+        "TestRunStatus":"PASSED",
+        "ExecutionDate":"2025-04-15",
+        "Document Key":"KCE-TSTRN-3936161",
+        "Name":"KNS software with roll call operation in 15.7.0.7 release ",
+        "Assigned To":"Priyavalli"
     },
     {
         "TestRunStatus":"FAILED",
