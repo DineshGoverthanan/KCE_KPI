@@ -792,6 +792,13 @@
     },
     {
         "TestRunStatus":"PASSED",
+        "ExecutionDate":"2025-04-15",
+        "Document Key":"KCE-TSTRN-3936039",
+        "Name":"3. CBS - After Warning fault activation",
+        "Assigned To":"Shrividhya"
+    },
+    {
+        "TestRunStatus":"PASSED",
         "ExecutionDate":"2025-01-31",
         "Document Key":"KCE-TSTRN-3800344",
         "Name":"9. EBD success failure counter value during EBD supervision",
@@ -2233,6 +2240,20 @@
         "Assigned To":"Badaganti Sai Prasad"
     },
     {
+        "TestRunStatus":"PASSED",
+        "ExecutionDate":"2025-04-15",
+        "Document Key":"KCE-TSTRN-3936106",
+        "Name":"LCC - Landing Call Cross Coupling THIS CASE IS UNDER GROUP TESTING",
+        "Assigned To":"Priyavalli"
+    },
+    {
+        "TestRunStatus":"INPROGRESS",
+        "ExecutionDate":"2025-04-15",
+        "Document Key":"KCE-TSTRN-3936107",
+        "Name":"LCL B - Landing Call Registered light - Blinking - DC collection",
+        "Assigned To":"Priyavalli"
+    },
+    {
         "TestRunStatus":"INPROGRESS",
         "ExecutionDate":"2025-03-24",
         "Document Key":"KCE-TSTRN-3904955",
@@ -2391,6 +2412,13 @@
         "ExecutionDate":"2025-03-25",
         "Document Key":"KCE-TSTRN-3904964",
         "Name":"PRC NZ - Priority Call in Car",
+        "Assigned To":"ARUN KUMAR"
+    },
+    {
+        "TestRunStatus":"INPROGRESS",
+        "ExecutionDate":"2025-04-15",
+        "Document Key":"KCE-TSTRN-3936114",
+        "Name":"Start preventions and failed starts",
         "Assigned To":"ARUN KUMAR"
     },
     {

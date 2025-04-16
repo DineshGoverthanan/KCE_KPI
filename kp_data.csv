@@ -1,10 +1,10 @@
 User,Testrun_count,Defect_count,Days,Test case Productivity,Defect Observation Rate
-Priyavalli,54,7,28,1.93,0.13
+Priyavalli,56,7,28,2.0,0.12
 Jagadeesh,51,4,27,1.89,0.08
 Dinesh,13,0,5,2.6,0.0
-Harini Sri,20,4,12,1.67,0.2
-ARUN KUMAR,23,11,17,1.35,0.48
-Shrividhya,82,1,24,3.42,0.01
+Harini Sri,20,5,12,1.67,0.25
+ARUN KUMAR,24,11,17,1.41,0.46
+Shrividhya,83,1,24,3.46,0.01
 Suryanarayanan,47,6,24,1.96,0.13
 Badaganti Sai Prasad,64,7,21,3.05,0.11
 Vivek,109,13,29,3.76,0.12
