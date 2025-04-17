@@ -427,6 +427,13 @@
         "Assigned To":"ARUN KUMAR"
     },
     {
+        "TestRunStatus":"PASSED",
+        "ExecutionDate":"2025-04-17",
+        "Document Key":"KCE-TSTRN-3937595",
+        "Name":"KNSMUL COP functions with 126 Floors_Conventional ",
+        "Assigned To":"ARUN KUMAR"
+    },
+    {
         "TestRunStatus":"FAILED",
         "ExecutionDate":"2025-02-19",
         "Document Key":"KCE-TSTRN-3850861",
@@ -437,6 +444,13 @@
         "TestRunStatus":"FAILED",
         "ExecutionDate":"2025-03-31",
         "Document Key":"KCE-TSTRN-3934714",
+        "Name":"KNSMUL COP functions with 126 Floors_Keypad COP",
+        "Assigned To":"ARUN KUMAR"
+    },
+    {
+        "TestRunStatus":"PASSED",
+        "ExecutionDate":"2025-04-17",
+        "Document Key":"KCE-TSTRN-3937596",
         "Name":"KNSMUL COP functions with 126 Floors_Keypad COP",
         "Assigned To":"ARUN KUMAR"
     },
