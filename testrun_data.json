@@ -2010,7 +2010,7 @@
     },
     {
         "TestRunStatus":"FAILED",
-        "ExecutionDate":"2025-04-16",
+        "ExecutionDate":"2025-04-17",
         "Document Key":"KCE-TSTRN-3937637",
         "Name":"CGF A. - Car Gate Function - Automatic - 559=0, 560=1 - B-side",
         "Assigned To":"Harini Sri"
@@ -2030,8 +2030,8 @@
         "Assigned To":"Priyavalli"
     },
     {
-        "TestRunStatus":"INPROGRESS",
-        "ExecutionDate":"2025-04-16",
+        "TestRunStatus":"PASSED",
+        "ExecutionDate":"2025-04-17",
         "Document Key":"KCE-TSTRN-3937648",
         "Name":"Voltage Monitoring on KCECPUc board",
         "Assigned To":"Priyavalli"
@@ -2297,14 +2297,14 @@
     },
     {
         "TestRunStatus":"FAILED",
-        "ExecutionDate":"2025-04-16",
+        "ExecutionDate":"2025-04-17",
         "Document Key":"KCE-TSTRN-3937668",
         "Name":"LCL B - Landing Call Registered light - Blinking - DC collection",
         "Assigned To":"Priyavalli"
     },
     {
-        "TestRunStatus":"FAILED",
-        "ExecutionDate":"2025-04-16",
+        "TestRunStatus":"INPROGRESS",
+        "ExecutionDate":"2025-04-17",
         "Document Key":"KCE-TSTRN-3937669",
         "Name":"LCL B - Landing Call Registered light - Blinking - PB collection",
         "Assigned To":"Priyavalli"
