@@ -1387,6 +1387,13 @@
     },
     {
         "TestRunStatus":"PASSED",
+        "ExecutionDate":"2025-04-18",
+        "Document Key":"KCE-TSTRN-3937630",
+        "Name":"CR-042043 KCE option to deactivate all announcements and car fan for Ride Comfort tests",
+        "Assigned To":"Shrividhya"
+    },
+    {
+        "TestRunStatus":"PASSED",
         "ExecutionDate":"2025-02-26",
         "Document Key":"KCE-TSTRN-3857121",
         "Name":"CRB C - Call Registered Buzzer - Car call + DOB + DCB + DOE",
@@ -2020,6 +2027,13 @@
         "ExecutionDate":"2025-04-18",
         "Document Key":"KCE-TSTRN-3937637",
         "Name":"CGF A. - Car Gate Function - Automatic - 559=0, 560=1 - B-side",
+        "Assigned To":"Harini Sri"
+    },
+    {
+        "TestRunStatus":"FAILED",
+        "ExecutionDate":"2025-04-18",
+        "Document Key":"KCE-TSTRN-3937638",
+        "Name":"CGF A. - Car Gate Function - Automatic - 559=1, 560=1 - B-side",
         "Assigned To":"Harini Sri"
     },
     {
