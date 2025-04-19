@@ -2039,8 +2039,22 @@
     {
         "TestRunStatus":"FAILED",
         "ExecutionDate":"2025-04-18",
+        "Document Key":"KCE-TSTRN-3937639",
+        "Name":"CGF A. - Car Gate Function - Automatic - 559=1, 560=0 - A-side",
+        "Assigned To":"Harini Sri"
+    },
+    {
+        "TestRunStatus":"FAILED",
+        "ExecutionDate":"2025-04-18",
         "Document Key":"KCE-TSTRN-3937640",
         "Name":"CGF A. - Car Gate Function - Automatic - 559=0, 560=0 - A-side",
+        "Assigned To":"Harini Sri"
+    },
+    {
+        "TestRunStatus":"INPROGRESS",
+        "ExecutionDate":"2025-04-18",
+        "Document Key":"KCE-TSTRN-3937643",
+        "Name":"CGF A. - Car Gate Function - Automatic - With open and close limits - A-side",
         "Assigned To":"Harini Sri"
     },
     {
