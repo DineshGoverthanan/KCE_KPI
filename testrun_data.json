@@ -2135,6 +2135,13 @@
         "Assigned To":"Priyavalli"
     },
     {
+        "TestRunStatus":"FAILED",
+        "ExecutionDate":"2025-04-22",
+        "Document Key":"KCE-TSTRN-3937656",
+        "Name":"DOI IN - Door Open Indication - India",
+        "Assigned To":"Priyavalli"
+    },
+    {
         "TestRunStatus":"PASSED",
         "ExecutionDate":"2025-04-08",
         "Document Key":"KCE-TSTRN-3936094",
