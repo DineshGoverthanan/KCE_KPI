@@ -2051,8 +2051,15 @@
         "Assigned To":"Harini Sri"
     },
     {
-        "TestRunStatus":"INPROGRESS",
-        "ExecutionDate":"2025-04-18",
+        "TestRunStatus":"FAILED",
+        "ExecutionDate":"2025-04-21",
+        "Document Key":"KCE-TSTRN-3937641",
+        "Name":"CGF A. - Car Gate Function - Automatic - Without open and close limits - B-side",
+        "Assigned To":"Harini Sri"
+    },
+    {
+        "TestRunStatus":"FAILED",
+        "ExecutionDate":"2025-04-21",
         "Document Key":"KCE-TSTRN-3937643",
         "Name":"CGF A. - Car Gate Function - Automatic - With open and close limits - A-side",
         "Assigned To":"Harini Sri"
