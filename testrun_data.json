@@ -2059,6 +2059,13 @@
     },
     {
         "TestRunStatus":"FAILED",
+        "ExecutionDate":"2025-04-22",
+        "Document Key":"KCE-TSTRN-3937642",
+        "Name":"CGF MI - Car Gate Function - Manual, Buzzer",
+        "Assigned To":"Harini Sri"
+    },
+    {
+        "TestRunStatus":"FAILED",
         "ExecutionDate":"2025-04-21",
         "Document Key":"KCE-TSTRN-3937643",
         "Name":"CGF A. - Car Gate Function - Automatic - With open and close limits - A-side",
@@ -2135,7 +2142,7 @@
         "Assigned To":"Priyavalli"
     },
     {
-        "TestRunStatus":"FAILED",
+        "TestRunStatus":"PASSED",
         "ExecutionDate":"2025-04-22",
         "Document Key":"KCE-TSTRN-3937656",
         "Name":"DOI IN - Door Open Indication - India",
