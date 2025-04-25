@@ -1247,6 +1247,13 @@
     },
     {
         "TestRunStatus":"PASSED",
+        "ExecutionDate":"2025-04-24",
+        "Document Key":"KCE-TSTRN-3939190",
+        "Name":"IUL - In Use Light - With DC - Tests not included into TA",
+        "Assigned To":"Suryanarayanan"
+    },
+    {
+        "TestRunStatus":"PASSED",
         "ExecutionDate":"2025-03-21",
         "Document Key":"KCE-TSTRN-3904837",
         "Name":"HSL - Here Signal Light",
@@ -2423,6 +2430,13 @@
     },
     {
         "TestRunStatus":"PASSED",
+        "ExecutionDate":"2025-04-24",
+        "Document Key":"KCE-TSTRN-3937670",
+        "Name":"FRD EN 81-72 - Phase 1 - 2003 code - Tests not included into TA",
+        "Assigned To":"ARUN KUMAR"
+    },
+    {
+        "TestRunStatus":"PASSED",
         "ExecutionDate":"2025-03-26",
         "Document Key":"KCE-TSTRN-3934902",
         "Name":"FRD NZ - Phase - Tests not included into TA",
@@ -2441,6 +2455,13 @@
         "Document Key":"KCE-TSTRN-3934903",
         "Name":"FRD L NZ",
         "Assigned To":"Shrividhya"
+    },
+    {
+        "TestRunStatus":"INPROGRESS",
+        "ExecutionDate":"2025-04-24",
+        "Document Key":"KCE-TSTRN-3939479",
+        "Name":"FRD L NZ",
+        "Assigned To":"ARUN KUMAR"
     },
     {
         "TestRunStatus":"PASSED",
