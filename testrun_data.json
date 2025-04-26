@@ -2562,6 +2562,13 @@
         "Assigned To":"ARUN KUMAR"
     },
     {
+        "TestRunStatus":"PASSED",
+        "ExecutionDate":"2025-04-25",
+        "Document Key":"KCE-TSTRN-3939481",
+        "Name":"Removal of KCECPU boards battery",
+        "Assigned To":"ARUN KUMAR"
+    },
+    {
         "TestRunStatus":"INPROGRESS",
         "ExecutionDate":"2025-04-15",
         "Document Key":"KCE-TSTRN-3936114",
