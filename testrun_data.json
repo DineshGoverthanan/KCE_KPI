@@ -2739,6 +2739,13 @@
     {
         "TestRunStatus":"PASSED",
         "ExecutionDate":"2025-04-29",
+        "Document Key":"KCE-TSTRN-3939487",
+        "Name":"2. DMI - Car and Landing display function in EBD Mode",
+        "Assigned To":"ARUN KUMAR"
+    },
+    {
+        "TestRunStatus":"PASSED",
+        "ExecutionDate":"2025-04-29",
         "Document Key":"KCE-TSTRN-3939488",
         "Name":"3. DMI - Car and Landing Display function during EPD mode",
         "Assigned To":"ARUN KUMAR"
