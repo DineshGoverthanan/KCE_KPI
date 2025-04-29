@@ -2738,6 +2738,34 @@
     },
     {
         "TestRunStatus":"PASSED",
+        "ExecutionDate":"2025-04-29",
+        "Document Key":"KCE-TSTRN-3939488",
+        "Name":"3. DMI - Car and Landing Display function during EPD mode",
+        "Assigned To":"ARUN KUMAR"
+    },
+    {
+        "TestRunStatus":"PASSED",
+        "ExecutionDate":"2025-04-29",
+        "Document Key":"KCE-TSTRN-3939489",
+        "Name":"4. DMI - Car and Landing Display function during inspection modes",
+        "Assigned To":"ARUN KUMAR"
+    },
+    {
+        "TestRunStatus":"PASSED",
+        "ExecutionDate":"2025-04-29",
+        "Document Key":"KCE-TSTRN-3939490",
+        "Name":"5. DMI - Car and Landing display operation when test switch active",
+        "Assigned To":"ARUN KUMAR"
+    },
+    {
+        "TestRunStatus":"PASSED",
+        "ExecutionDate":"2025-04-29",
+        "Document Key":"KCE-TSTRN-3939491",
+        "Name":"6. DMI - Car and Landing display operation when elevator in stuck",
+        "Assigned To":"ARUN KUMAR"
+    },
+    {
+        "TestRunStatus":"PASSED",
         "ExecutionDate":"2025-03-28",
         "Document Key":"KCE-TSTRN-3934952",
         "Name":"Additional statistic counters",
