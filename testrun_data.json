@@ -2108,6 +2108,13 @@
     },
     {
         "TestRunStatus":"PASSED",
+        "ExecutionDate":"2025-04-29",
+        "Document Key":"KCE-TSTRN-3939465",
+        "Name":"EMC BQ - Emergency Stop Device in Car - Tests not included into TA ",
+        "Assigned To":"ARUN KUMAR"
+    },
+    {
+        "TestRunStatus":"PASSED",
         "ExecutionDate":"2025-03-17",
         "Document Key":"KCE-TSTRN-3860902",
         "Name":"FRD CN - Phase 1 - Tests not included into TA",
