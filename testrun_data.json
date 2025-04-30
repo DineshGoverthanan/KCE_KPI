@@ -715,6 +715,13 @@
     },
     {
         "TestRunStatus":"PASSED",
+        "ExecutionDate":"2025-04-30",
+        "Document Key":"KCE-TSTRN-3580846",
+        "Name":"Basic Functions - Landing call - Same floor - A-side - Covered by TA",
+        "Assigned To":"Dinesh"
+    },
+    {
+        "TestRunStatus":"PASSED",
         "ExecutionDate":"2025-02-19",
         "Document Key":"KCE-TSTRN-3580848",
         "Name":"Basic Functions - Landing call - Same floor - B-side - Covered by TA",
