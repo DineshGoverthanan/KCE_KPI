@@ -2031,6 +2031,13 @@
     },
     {
         "TestRunStatus":"INPROGRESS",
+        "ExecutionDate":"2025-05-08",
+        "Document Key":"KCE-TSTRN-3940284",
+        "Name":"Rush test case for different EBD devices, basic functionality",
+        "Assigned To":"Priyavalli"
+    },
+    {
+        "TestRunStatus":"INPROGRESS",
         "ExecutionDate":"2025-04-16",
         "Document Key":"KCE-TSTRN-3936073",
         "Name":"CGF A. - Car Gate Function - Automatic - 559=0, 560=1 - B-side",
