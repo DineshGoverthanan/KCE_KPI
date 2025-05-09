@@ -3477,5 +3477,33 @@
         "Document Key":"KCE-TSTRN-3936003",
         "Name":"Rush test case for Interact 20 LCS\/XLA button ",
         "Assigned To":"Suryanarayanan"
+    },
+    {
+        "TestRunStatus":"INPROGRESS",
+        "ExecutionDate":"2025-05-09",
+        "Document Key":"KCE-TSTRN-3940298",
+        "Name":"FRD AU - Phase 1",
+        "Assigned To":"Suryanarayanan"
+    },
+    {
+        "TestRunStatus":"PASSED",
+        "ExecutionDate":"2025-05-09",
+        "Document Key":"KCE-TSTRN-3940306",
+        "Name":"Lift name configuration - Activation of the feature",
+        "Assigned To":"ARUN KUMAR"
+    },
+    {
+        "TestRunStatus":"INPROGRESS",
+        "ExecutionDate":"2025-05-09",
+        "Document Key":"KCE-TSTRN-3940340",
+        "Name":"Node supervision - Car interface - KCECOB",
+        "Assigned To":"ARUN KUMAR"
+    },
+    {
+        "TestRunStatus":"PASSED",
+        "ExecutionDate":"2025-05-09",
+        "Document Key":"KCE-TSTRN-3940352",
+        "Name":"BUI - Roll call info - Rollcall activated manually",
+        "Assigned To":"ARUN KUMAR"
     }
 ]
