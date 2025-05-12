@@ -3494,6 +3494,13 @@
     },
     {
         "TestRunStatus":"INPROGRESS",
+        "ExecutionDate":"2025-05-12",
+        "Document Key":"KCE-TSTRN-3940307",
+        "Name":"Lift name configuration - Deactivation of the feature",
+        "Assigned To":"ARUN KUMAR"
+    },
+    {
+        "TestRunStatus":"INPROGRESS",
         "ExecutionDate":"2025-05-09",
         "Document Key":"KCE-TSTRN-3940340",
         "Name":"Node supervision - Car interface - KCECOB",
@@ -3553,6 +3560,34 @@
         "ExecutionDate":"2025-05-09",
         "Document Key":"KCE-TSTRN-3940367",
         "Name":"Alarm_2(Door opened)",
+        "Assigned To":"Shrividhya"
+    },
+    {
+        "TestRunStatus":"PASSED",
+        "ExecutionDate":"2025-05-12",
+        "Document Key":"KCE-TSTRN-3940368",
+        "Name":"Alarm_3(Door closed)",
+        "Assigned To":"Shrividhya"
+    },
+    {
+        "TestRunStatus":"PASSED",
+        "ExecutionDate":"2025-05-12",
+        "Document Key":"KCE-TSTRN-3940369",
+        "Name":"Alarm_4(Alarm button press when already timer active)",
+        "Assigned To":"Shrividhya"
+    },
+    {
+        "TestRunStatus":"PASSED",
+        "ExecutionDate":"2025-05-12",
+        "Document Key":"KCE-TSTRN-3940370",
+        "Name":"Alarm_5(Door opens before timer elapsed)",
+        "Assigned To":"Shrividhya"
+    },
+    {
+        "TestRunStatus":"INPROGRESS",
+        "ExecutionDate":"2025-05-12",
+        "Document Key":"KCE-TSTRN-3940371",
+        "Name":"Alarm_6(Timer elapsed)",
         "Assigned To":"Shrividhya"
     }
 ]
