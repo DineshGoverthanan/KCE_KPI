@@ -3507,6 +3507,27 @@
         "Assigned To":"ARUN KUMAR"
     },
     {
+        "TestRunStatus":"PASSED",
+        "ExecutionDate":"2025-05-12",
+        "Document Key":"KCE-TSTRN-3940353",
+        "Name":"BUI - Roll call info - After setup completion",
+        "Assigned To":"ARUN KUMAR"
+    },
+    {
+        "TestRunStatus":"PASSED",
+        "ExecutionDate":"2025-05-12",
+        "Document Key":"KCE-TSTRN-3940354",
+        "Name":"BUI - Rollcall info - Menu access prevented during rollcall",
+        "Assigned To":"ARUN KUMAR"
+    },
+    {
+        "TestRunStatus":"PASSED",
+        "ExecutionDate":"2025-05-12",
+        "Document Key":"KCE-TSTRN-3940355",
+        "Name":"BUI - Rollcall info - Back to normal",
+        "Assigned To":"ARUN KUMAR"
+    },
+    {
         "TestRunStatus":"INPROGRESS",
         "ExecutionDate":"2025-05-09",
         "Document Key":"KCE-TSTRN-3940360",
