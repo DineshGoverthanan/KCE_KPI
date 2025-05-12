@@ -3535,8 +3535,8 @@
         "Assigned To":"ARUN KUMAR"
     },
     {
-        "TestRunStatus":"INPROGRESS",
-        "ExecutionDate":"2025-05-09",
+        "TestRunStatus":"PASSED",
+        "ExecutionDate":"2025-05-12",
         "Document Key":"KCE-TSTRN-3940360",
         "Name":"DAL GP - Disturbance Alarm- Tests not included into TA ",
         "Assigned To":"Jagadeesh"
@@ -3588,6 +3588,13 @@
         "ExecutionDate":"2025-05-12",
         "Document Key":"KCE-TSTRN-3940371",
         "Name":"Alarm_6(Timer elapsed)",
+        "Assigned To":"Shrividhya"
+    },
+    {
+        "TestRunStatus":"INPROGRESS",
+        "ExecutionDate":"2025-05-12",
+        "Document Key":"KCE-TSTRN-3940372",
+        "Name":"Alarm_7(Re-trigger)",
         "Assigned To":"Shrividhya"
     }
 ]
