@@ -2030,11 +2030,11 @@
         "Assigned To":"Badaganti Sai Prasad"
     },
     {
-        "TestRunStatus":"INPROGRESS",
-        "ExecutionDate":"2025-05-08",
+        "TestRunStatus":"PASSED",
+        "ExecutionDate":"2025-05-12",
         "Document Key":"KCE-TSTRN-3940284",
         "Name":"Rush test case for different EBD devices, basic functionality",
-        "Assigned To":"Priyavalli"
+        "Assigned To":"ARUN KUMAR"
     },
     {
         "TestRunStatus":"INPROGRESS",
@@ -3480,7 +3480,42 @@
     },
     {
         "TestRunStatus":"INPROGRESS",
-        "ExecutionDate":"2025-05-09",
+        "ExecutionDate":"2025-05-12",
+        "Document Key":"KCE-TSTRN-3940291",
+        "Name":"FCC C - False Car call Cancel - By counting Stops - Tests not included into TA",
+        "Assigned To":"Priyavalli"
+    },
+    {
+        "TestRunStatus":"INPROGRESS",
+        "ExecutionDate":"2025-05-12",
+        "Document Key":"KCE-TSTRN-3940292",
+        "Name":"FCC L - False Car call Cancel - By measuring load - Tests not included into TA",
+        "Assigned To":"Priyavalli"
+    },
+    {
+        "TestRunStatus":"INPROGRESS",
+        "ExecutionDate":"2025-05-12",
+        "Document Key":"KCE-TSTRN-3940293",
+        "Name":"FCC R - False Car call Cancel - By user - China option with Double pushing",
+        "Assigned To":"Priyavalli"
+    },
+    {
+        "TestRunStatus":"PASSED",
+        "ExecutionDate":"2025-05-12",
+        "Document Key":"KCE-TSTRN-3940296",
+        "Name":"FRD AE - Phase 1 - Tests not included into TA",
+        "Assigned To":"Priyavalli"
+    },
+    {
+        "TestRunStatus":"INPROGRESS",
+        "ExecutionDate":"2025-05-12",
+        "Document Key":"KCE-TSTRN-3940297",
+        "Name":"FRD AE - Phase 2 - Tests not included into TA",
+        "Assigned To":"Priyavalli"
+    },
+    {
+        "TestRunStatus":"FAILED",
+        "ExecutionDate":"2025-05-12",
         "Document Key":"KCE-TSTRN-3940298",
         "Name":"FRD AU - Phase 1",
         "Assigned To":"Suryanarayanan"
@@ -3543,6 +3578,34 @@
     },
     {
         "TestRunStatus":"PASSED",
+        "ExecutionDate":"2025-05-12",
+        "Document Key":"KCE-TSTRN-3940361",
+        "Name":"DIA P - Direction Arrows in control panel - RUI",
+        "Assigned To":"Jagadeesh"
+    },
+    {
+        "TestRunStatus":"INPROGRESS",
+        "ExecutionDate":"2025-05-12",
+        "Document Key":"KCE-TSTRN-3940362",
+        "Name":"DIA- Direction Arrow Indication Missing during door open close update",
+        "Assigned To":"Jagadeesh"
+    },
+    {
+        "TestRunStatus":"PASSED",
+        "ExecutionDate":"2025-05-12",
+        "Document Key":"KCE-TSTRN-3940363",
+        "Name":"DOE S - Tests not included into TA",
+        "Assigned To":"Priyavalli"
+    },
+    {
+        "TestRunStatus":"INPROGRESS",
+        "ExecutionDate":"2025-05-12",
+        "Document Key":"KCE-TSTRN-3940364",
+        "Name":"DOI IN - Door Open Indication - India",
+        "Assigned To":"Priyavalli"
+    },
+    {
+        "TestRunStatus":"PASSED",
         "ExecutionDate":"2025-05-09",
         "Document Key":"KCE-TSTRN-3940365",
         "Name":"Alarm_parameter",
@@ -3596,5 +3659,12 @@
         "Document Key":"KCE-TSTRN-3940372",
         "Name":"Alarm_7(Re-trigger)",
         "Assigned To":"Shrividhya"
+    },
+    {
+        "TestRunStatus":"PASSED",
+        "ExecutionDate":"2025-05-12",
+        "Document Key":"KCE-TSTRN-3940404",
+        "Name":"Rush test - drive type default value change ",
+        "Assigned To":"Priyavalli"
     }
 ]
