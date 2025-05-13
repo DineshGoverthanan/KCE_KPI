@@ -3522,7 +3522,7 @@
     },
     {
         "TestRunStatus":"PASSED",
-        "ExecutionDate":"2025-05-09",
+        "ExecutionDate":"2025-05-13",
         "Document Key":"KCE-TSTRN-3940306",
         "Name":"Lift name configuration - Activation of the feature",
         "Assigned To":"ARUN KUMAR"
@@ -3532,6 +3532,13 @@
         "ExecutionDate":"2025-05-12",
         "Document Key":"KCE-TSTRN-3940307",
         "Name":"Lift name configuration - Deactivation of the feature",
+        "Assigned To":"ARUN KUMAR"
+    },
+    {
+        "TestRunStatus":"INPROGRESS",
+        "ExecutionDate":"2025-05-13",
+        "Document Key":"KCE-TSTRN-3940309",
+        "Name":"Lift name configuration - KCEDCS supports configured lift name",
         "Assigned To":"ARUN KUMAR"
     },
     {
@@ -3587,6 +3594,13 @@
         "TestRunStatus":"INPROGRESS",
         "ExecutionDate":"2025-05-12",
         "Document Key":"KCE-TSTRN-3940362",
+        "Name":"DIA- Direction Arrow Indication Missing during door open close update",
+        "Assigned To":"Jagadeesh"
+    },
+    {
+        "TestRunStatus":"INPROGRESS",
+        "ExecutionDate":"2025-05-13",
+        "Document Key":"KCE-TSTRN-3941218",
         "Name":"DIA- Direction Arrow Indication Missing during door open close update",
         "Assigned To":"Jagadeesh"
     },
@@ -3654,10 +3668,31 @@
         "Assigned To":"Shrividhya"
     },
     {
-        "TestRunStatus":"INPROGRESS",
-        "ExecutionDate":"2025-05-12",
+        "TestRunStatus":"PASSED",
+        "ExecutionDate":"2025-05-13",
         "Document Key":"KCE-TSTRN-3940372",
         "Name":"Alarm_7(Re-trigger)",
+        "Assigned To":"Shrividhya"
+    },
+    {
+        "TestRunStatus":"PASSED",
+        "ExecutionDate":"2025-05-13",
+        "Document Key":"KCE-TSTRN-3940373",
+        "Name":"Alarm_8(Alarm Button stuck)",
+        "Assigned To":"Shrividhya"
+    },
+    {
+        "TestRunStatus":"PASSED",
+        "ExecutionDate":"2025-05-13",
+        "Document Key":"KCE-TSTRN-3940374",
+        "Name":"Alarm_9(Alarm button stuck clear)",
+        "Assigned To":"Shrividhya"
+    },
+    {
+        "TestRunStatus":"INPROGRESS",
+        "ExecutionDate":"2025-05-13",
+        "Document Key":"KCE-TSTRN-3940376",
+        "Name":"Alarm_11(Alarm buzzer operation after stuck fault)",
         "Assigned To":"Shrividhya"
     },
     {
