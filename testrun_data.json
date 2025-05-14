@@ -379,10 +379,10 @@
     },
     {
         "TestRunStatus":"FAILED",
-        "ExecutionDate":"2025-02-21",
-        "Document Key":"KCE-TSTRN-3786435",
+        "ExecutionDate":"2025-05-14",
+        "Document Key":"KCE-TSTRN-3940841",
         "Name":"HAC NA - Acceleration",
-        "Assigned To":"Dinesh"
+        "Assigned To":"Veeramanikandan"
     },
     {
         "TestRunStatus":"INPROGRESS",

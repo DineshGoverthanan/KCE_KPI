@@ -56,3 +56,4 @@ KCE-SWBUG-5646,4.6 - Service Tool - Typo in Parameter 1360's Description,Suryana
 KCE-SWBUG-5667,PDX - Drive Fault code description missing 6750#3333,ARUN KUMAR,ProManager - 4.6.224.6952 and  AMC -             4.6.232.6950,2025-04-10
 KCE-SWBUG-5677,P4.2 - SSA Reset - Indication for system readiness for reset is not working - After Safety parameter set,Harini Sri,,2025-04-14
 KCE-SWBUG-5745,16.8 - KCEDCS - xDOP's getting restarted continuously while power cycle scenarios.,Vivek,"16.8.3.18(LD: 16.8.3.10, GCD: 16.8.84)",2025-04-29
+KCE-SWBUG-5794,16.8 - FRD - Buzzer keeps Shouting even after reaching Evacuation Floor when ACL is enabled,Suryanarayanan,"KCE 16.8.3.26(LD: 16.8.3.14, GCD: 16.8.86)",2025-05-13
