@@ -3535,6 +3535,13 @@
         "Assigned To":"Suryanarayanan"
     },
     {
+        "TestRunStatus":"FAILED",
+        "ExecutionDate":"2025-05-14",
+        "Document Key":"KCE-TSTRN-3941179",
+        "Name":"FRD AU - Phase 2",
+        "Assigned To":"Suryanarayanan"
+    },
+    {
         "TestRunStatus":"PASSED",
         "ExecutionDate":"2025-05-13",
         "Document Key":"KCE-TSTRN-3940306",
@@ -3683,7 +3690,7 @@
     },
     {
         "TestRunStatus":"INPROGRESS",
-        "ExecutionDate":"2025-05-13",
+        "ExecutionDate":"2025-05-14",
         "Document Key":"KCE-TSTRN-3941218",
         "Name":"DIA- Direction Arrow Indication Missing during door open close update",
         "Assigned To":"Jagadeesh"
