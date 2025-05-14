@@ -3521,6 +3521,13 @@
         "Assigned To":"Suryanarayanan"
     },
     {
+        "TestRunStatus":"FAILED",
+        "ExecutionDate":"2025-05-13",
+        "Document Key":"KCE-TSTRN-3940299",
+        "Name":"FRD AU - Phase 2",
+        "Assigned To":"Suryanarayanan"
+    },
+    {
         "TestRunStatus":"PASSED",
         "ExecutionDate":"2025-05-13",
         "Document Key":"KCE-TSTRN-3940306",
@@ -3528,23 +3535,93 @@
         "Assigned To":"ARUN KUMAR"
     },
     {
-        "TestRunStatus":"INPROGRESS",
-        "ExecutionDate":"2025-05-12",
+        "TestRunStatus":"PASSED",
+        "ExecutionDate":"2025-05-13",
         "Document Key":"KCE-TSTRN-3940307",
         "Name":"Lift name configuration - Deactivation of the feature",
         "Assigned To":"ARUN KUMAR"
     },
     {
-        "TestRunStatus":"INPROGRESS",
+        "TestRunStatus":"PASSED",
+        "ExecutionDate":"2025-05-13",
+        "Document Key":"KCE-TSTRN-3941186",
+        "Name":"Lift name configuration - Deactivation of the feature",
+        "Assigned To":"ARUN KUMAR"
+    },
+    {
+        "TestRunStatus":"PASSED",
         "ExecutionDate":"2025-05-13",
         "Document Key":"KCE-TSTRN-3940309",
         "Name":"Lift name configuration - KCEDCS supports configured lift name",
         "Assigned To":"ARUN KUMAR"
     },
     {
+        "TestRunStatus":"PASSED",
+        "ExecutionDate":"2025-05-13",
+        "Document Key":"KCE-TSTRN-3941188",
+        "Name":"Lift name configuration - KCEDCS supports configured lift name",
+        "Assigned To":"ARUN KUMAR"
+    },
+    {
+        "TestRunStatus":"PASSED",
+        "ExecutionDate":"2025-05-13",
+        "Document Key":"KCE-TSTRN-3940311",
+        "Name":"Lift name configuration - Friendly name used in AMC \/ Promanager",
+        "Assigned To":"ARUN KUMAR"
+    },
+    {
+        "TestRunStatus":"PASSED",
+        "ExecutionDate":"2025-05-13",
+        "Document Key":"KCE-TSTRN-3941190",
+        "Name":"Lift name configuration - Friendly name used in AMC \/ Promanager",
+        "Assigned To":"ARUN KUMAR"
+    },
+    {
+        "TestRunStatus":"PASSED",
+        "ExecutionDate":"2025-05-13",
+        "Document Key":"KCE-TSTRN-3940312",
+        "Name":"Lift name configuration - duplicate lift name configured for several elevators",
+        "Assigned To":"ARUN KUMAR"
+    },
+    {
+        "TestRunStatus":"PASSED",
+        "ExecutionDate":"2025-05-13",
+        "Document Key":"KCE-TSTRN-3941191",
+        "Name":"Lift name configuration - duplicate lift name configured for several elevators",
+        "Assigned To":"ARUN KUMAR"
+    },
+    {
+        "TestRunStatus":"PASSED",
+        "ExecutionDate":"2025-05-13",
+        "Document Key":"KCE-TSTRN-3940313",
+        "Name":"Lift name configuration - rush test scenarios",
+        "Assigned To":"ARUN KUMAR"
+    },
+    {
+        "TestRunStatus":"PASSED",
+        "ExecutionDate":"2025-05-13",
+        "Document Key":"KCE-TSTRN-3941192",
+        "Name":"Lift name configuration - rush test scenarios",
+        "Assigned To":"ARUN KUMAR"
+    },
+    {
+        "TestRunStatus":"INPROGRESS",
+        "ExecutionDate":"2025-05-13",
+        "Document Key":"KCE-TSTRN-3940314",
+        "Name":"Lift name configuration - lift name configured for several elevators",
+        "Assigned To":"ARUN KUMAR"
+    },
+    {
         "TestRunStatus":"INPROGRESS",
         "ExecutionDate":"2025-05-09",
         "Document Key":"KCE-TSTRN-3940340",
+        "Name":"Node supervision - Car interface - KCECOB",
+        "Assigned To":"ARUN KUMAR"
+    },
+    {
+        "TestRunStatus":"INPROGRESS",
+        "ExecutionDate":"2025-05-13",
+        "Document Key":"KCE-TSTRN-3941202",
         "Name":"Node supervision - Car interface - KCECOB",
         "Assigned To":"ARUN KUMAR"
     },
