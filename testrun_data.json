@@ -3515,7 +3515,7 @@
     },
     {
         "TestRunStatus":"FAILED",
-        "ExecutionDate":"2025-05-12",
+        "ExecutionDate":"2025-05-14",
         "Document Key":"KCE-TSTRN-3940298",
         "Name":"FRD AU - Phase 1",
         "Assigned To":"Suryanarayanan"
@@ -3529,16 +3529,30 @@
     },
     {
         "TestRunStatus":"FAILED",
-        "ExecutionDate":"2025-05-13",
+        "ExecutionDate":"2025-05-14",
         "Document Key":"KCE-TSTRN-3940299",
         "Name":"FRD AU - Phase 2",
         "Assigned To":"Suryanarayanan"
     },
     {
-        "TestRunStatus":"FAILED",
+        "TestRunStatus":"PASSED",
         "ExecutionDate":"2025-05-14",
         "Document Key":"KCE-TSTRN-3941179",
         "Name":"FRD AU - Phase 2",
+        "Assigned To":"Suryanarayanan"
+    },
+    {
+        "TestRunStatus":"INPROGRESS",
+        "ExecutionDate":"2025-05-14",
+        "Document Key":"KCE-TSTRN-3941182",
+        "Name":"FRD AU1 - Phase 1 with KSSMUL\/KNSMUL - Tests not included into TA ",
+        "Assigned To":"Suryanarayanan"
+    },
+    {
+        "TestRunStatus":"INPROGRESS",
+        "ExecutionDate":"2025-05-14",
+        "Document Key":"KCE-TSTRN-3941183",
+        "Name":"FRD AU1 - Phase 2 with KSSMUL\/KNSMUL - Tests not included into TA",
         "Assigned To":"Suryanarayanan"
     },
     {
@@ -3760,6 +3774,13 @@
     },
     {
         "TestRunStatus":"PASSED",
+        "ExecutionDate":"2025-05-15",
+        "Document Key":"KCE-TSTRN-3941220",
+        "Name":"Alarm_6(Timer elapsed)",
+        "Assigned To":"Shrividhya"
+    },
+    {
+        "TestRunStatus":"PASSED",
         "ExecutionDate":"2025-05-13",
         "Document Key":"KCE-TSTRN-3940372",
         "Name":"Alarm_7(Re-trigger)",
@@ -3783,6 +3804,13 @@
         "TestRunStatus":"INPROGRESS",
         "ExecutionDate":"2025-05-13",
         "Document Key":"KCE-TSTRN-3940376",
+        "Name":"Alarm_11(Alarm buzzer operation after stuck fault)",
+        "Assigned To":"Shrividhya"
+    },
+    {
+        "TestRunStatus":"INPROGRESS",
+        "ExecutionDate":"2025-05-15",
+        "Document Key":"KCE-TSTRN-3941222",
         "Name":"Alarm_11(Alarm buzzer operation after stuck fault)",
         "Assigned To":"Shrividhya"
     },
