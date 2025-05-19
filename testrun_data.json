@@ -3836,6 +3836,27 @@
         "Assigned To":"Shrividhya"
     },
     {
+        "TestRunStatus":"INPROGRESS",
+        "ExecutionDate":"2025-05-19",
+        "Document Key":"KCE-TSTRN-3941227",
+        "Name":"TTC CON & DON - Through type car - shaft doors on same and different levels - one set of car buttons - non selective door control",
+        "Assigned To":"Suryanarayanan"
+    },
+    {
+        "TestRunStatus":"INPROGRESS",
+        "ExecutionDate":"2025-05-19",
+        "Document Key":"KCE-TSTRN-3941228",
+        "Name":"TTC CTN & DTN - Through type car - shaft doors on same and different levels - 2-4 set of car buttons - non selective door control",
+        "Assigned To":"Suryanarayanan"
+    },
+    {
+        "TestRunStatus":"INPROGRESS",
+        "ExecutionDate":"2025-05-19",
+        "Document Key":"KCE-TSTRN-3941229",
+        "Name":"TTC CTS - Through type car - shaft doors on same and different levels - 2-4 set of car buttons - Selective door control",
+        "Assigned To":"Suryanarayanan"
+    },
+    {
         "TestRunStatus":"PASSED",
         "ExecutionDate":"2025-05-12",
         "Document Key":"KCE-TSTRN-3940404",
