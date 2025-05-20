@@ -3836,7 +3836,7 @@
         "Assigned To":"Shrividhya"
     },
     {
-        "TestRunStatus":"INPROGRESS",
+        "TestRunStatus":"PASSED",
         "ExecutionDate":"2025-05-19",
         "Document Key":"KCE-TSTRN-3941227",
         "Name":"TTC CON & DON - Through type car - shaft doors on same and different levels - one set of car buttons - non selective door control",
