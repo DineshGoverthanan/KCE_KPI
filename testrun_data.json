@@ -3648,6 +3648,13 @@
     },
     {
         "TestRunStatus":"INPROGRESS",
+        "ExecutionDate":"2025-05-20",
+        "Document Key":"KCE-TSTRN-3941197",
+        "Name":"Swing Door + manual car gate operation - A-side",
+        "Assigned To":"Jagadeesh"
+    },
+    {
+        "TestRunStatus":"INPROGRESS",
         "ExecutionDate":"2025-05-09",
         "Document Key":"KCE-TSTRN-3940340",
         "Name":"Node supervision - Car interface - KCECOB",
@@ -3662,7 +3669,7 @@
     },
     {
         "TestRunStatus":"INPROGRESS",
-        "ExecutionDate":"2025-05-16",
+        "ExecutionDate":"2025-05-20",
         "Document Key":"KCE-TSTRN-3941203",
         "Name":"Node supervision - Car interface - KCEOPT",
         "Assigned To":"ARUN KUMAR"
@@ -3844,7 +3851,7 @@
     },
     {
         "TestRunStatus":"INPROGRESS",
-        "ExecutionDate":"2025-05-19",
+        "ExecutionDate":"2025-05-20",
         "Document Key":"KCE-TSTRN-3941228",
         "Name":"TTC CTN & DTN - Through type car - shaft doors on same and different levels - 2-4 set of car buttons - non selective door control",
         "Assigned To":"Suryanarayanan"
@@ -3862,5 +3869,40 @@
         "Document Key":"KCE-TSTRN-3940404",
         "Name":"Rush test - drive type default value change ",
         "Assigned To":"Priyavalli"
+    },
+    {
+        "TestRunStatus":"PASSED",
+        "ExecutionDate":"2025-05-20",
+        "Document Key":"KCE-TSTRN-3941231",
+        "Name":"1. UCMP Parameter configuration",
+        "Assigned To":"Shrividhya"
+    },
+    {
+        "TestRunStatus":"INPROGRESS",
+        "ExecutionDate":"2025-05-20",
+        "Document Key":"KCE-TSTRN-3941232",
+        "Name":"2. UCMP 24hrs - Brake test during flexi hours",
+        "Assigned To":"Shrividhya"
+    },
+    {
+        "TestRunStatus":"INPROGRESS",
+        "ExecutionDate":"2025-05-20",
+        "Document Key":"KCE-TSTRN-3941233",
+        "Name":"3. UCMP 24hrs - Brake test operation after reaches parameter 1509 value",
+        "Assigned To":"Shrividhya"
+    },
+    {
+        "TestRunStatus":"INPROGRESS",
+        "ExecutionDate":"2025-05-20",
+        "Document Key":"KCE-TSTRN-3941234",
+        "Name":"4. UCMP 24hrs - Brake test counter reset",
+        "Assigned To":"Shrividhya"
+    },
+    {
+        "TestRunStatus":"INPROGRESS",
+        "ExecutionDate":"2025-05-20",
+        "Document Key":"KCE-TSTRN-3941235",
+        "Name":"5. UCMP 24hrs - Force brake test in last one hour",
+        "Assigned To":"Shrividhya"
     }
 ]
