@@ -3648,13 +3648,6 @@
     },
     {
         "TestRunStatus":"INPROGRESS",
-        "ExecutionDate":"2025-05-20",
-        "Document Key":"KCE-TSTRN-3941197",
-        "Name":"Swing Door + manual car gate operation - A-side",
-        "Assigned To":"Jagadeesh"
-    },
-    {
-        "TestRunStatus":"INPROGRESS",
         "ExecutionDate":"2025-05-09",
         "Document Key":"KCE-TSTRN-3940340",
         "Name":"Node supervision - Car interface - KCECOB",
@@ -3829,6 +3822,13 @@
         "Assigned To":"Shrividhya"
     },
     {
+        "TestRunStatus":"PASSED",
+        "ExecutionDate":"2025-05-20",
+        "Document Key":"KCE-TSTRN-3941221",
+        "Name":"Alarm_10(Alarm buzzer operation at EBD)",
+        "Assigned To":"Shrividhya"
+    },
+    {
         "TestRunStatus":"INPROGRESS",
         "ExecutionDate":"2025-05-13",
         "Document Key":"KCE-TSTRN-3940376",
@@ -3840,6 +3840,13 @@
         "ExecutionDate":"2025-05-15",
         "Document Key":"KCE-TSTRN-3941222",
         "Name":"Alarm_11(Alarm buzzer operation after stuck fault)",
+        "Assigned To":"Shrividhya"
+    },
+    {
+        "TestRunStatus":"PASSED",
+        "ExecutionDate":"2025-05-20",
+        "Document Key":"KCE-TSTRN-3941223",
+        "Name":"Alarm_12(Alarm sounder disabled)",
         "Assigned To":"Shrividhya"
     },
     {
@@ -3903,6 +3910,13 @@
         "ExecutionDate":"2025-05-20",
         "Document Key":"KCE-TSTRN-3941235",
         "Name":"5. UCMP 24hrs - Force brake test in last one hour",
+        "Assigned To":"Shrividhya"
+    },
+    {
+        "TestRunStatus":"INPROGRESS",
+        "ExecutionDate":"2025-05-20",
+        "Document Key":"KCE-TSTRN-3941240",
+        "Name":"10. UCMP 24 hrs - Elevator fails to perform enough number break test within 23 hours",
         "Assigned To":"Shrividhya"
     }
 ]
