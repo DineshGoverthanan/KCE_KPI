@@ -3990,8 +3990,8 @@
         "Assigned To":"Shrividhya"
     },
     {
-        "TestRunStatus":"INPROGRESS",
-        "ExecutionDate":"2025-05-20",
+        "TestRunStatus":"PASSED",
+        "ExecutionDate":"2025-05-21",
         "Document Key":"KCE-TSTRN-3941246",
         "Name":"16. UCMP 24hrs self monitoring in RDF & Inspection mode",
         "Assigned To":"Shrividhya"
