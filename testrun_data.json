@@ -3661,10 +3661,24 @@
         "Assigned To":"ARUN KUMAR"
     },
     {
-        "TestRunStatus":"INPROGRESS",
+        "TestRunStatus":"PASSED",
         "ExecutionDate":"2025-05-20",
         "Document Key":"KCE-TSTRN-3941203",
         "Name":"Node supervision - Car interface - KCEOPT",
+        "Assigned To":"ARUN KUMAR"
+    },
+    {
+        "TestRunStatus":"PASSED",
+        "ExecutionDate":"2025-05-20",
+        "Document Key":"KCE-TSTRN-3941204",
+        "Name":"Node supervision - Car interface - KCEPIO",
+        "Assigned To":"ARUN KUMAR"
+    },
+    {
+        "TestRunStatus":"INPROGRESS",
+        "ExecutionDate":"2025-05-20",
+        "Document Key":"KCE-TSTRN-3941211",
+        "Name":"Node Supervision - Fault code 1812",
         "Assigned To":"ARUN KUMAR"
     },
     {
@@ -3694,6 +3708,13 @@
         "Document Key":"KCE-TSTRN-3940355",
         "Name":"BUI - Rollcall info - Back to normal",
         "Assigned To":"ARUN KUMAR"
+    },
+    {
+        "TestRunStatus":"PASSED",
+        "ExecutionDate":"2025-05-20",
+        "Document Key":"KCE-TSTRN-3941216",
+        "Name":"CDL - Car Door Limit Switches - Supervision - Tests not included into TA",
+        "Assigned To":"Suryanarayanan"
     },
     {
         "TestRunStatus":"INPROGRESS",
@@ -3864,8 +3885,8 @@
         "Assigned To":"Suryanarayanan"
     },
     {
-        "TestRunStatus":"INPROGRESS",
-        "ExecutionDate":"2025-05-19",
+        "TestRunStatus":"PASSED",
+        "ExecutionDate":"2025-05-20",
         "Document Key":"KCE-TSTRN-3941229",
         "Name":"TTC CTS - Through type car - shaft doors on same and different levels - 2-4 set of car buttons - Selective door control",
         "Assigned To":"Suryanarayanan"
@@ -3917,6 +3938,13 @@
         "ExecutionDate":"2025-05-20",
         "Document Key":"KCE-TSTRN-3941240",
         "Name":"10. UCMP 24 hrs - Elevator fails to perform enough number break test within 23 hours",
+        "Assigned To":"Shrividhya"
+    },
+    {
+        "TestRunStatus":"INPROGRESS",
+        "ExecutionDate":"2025-05-20",
+        "Document Key":"KCE-TSTRN-3941246",
+        "Name":"16. UCMP 24hrs self monitoring in RDF & Inspection mode",
         "Assigned To":"Shrividhya"
     }
 ]
