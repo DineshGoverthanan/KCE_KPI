@@ -3584,6 +3584,13 @@
         "Assigned To":"ARUN KUMAR"
     },
     {
+        "TestRunStatus":"INPROGRESS",
+        "ExecutionDate":"2025-05-21",
+        "Document Key":"KCE-TSTRN-3941187",
+        "Name":"Lift name configuration - API supports configured lift name",
+        "Assigned To":"ARUN KUMAR"
+    },
+    {
         "TestRunStatus":"PASSED",
         "ExecutionDate":"2025-05-13",
         "Document Key":"KCE-TSTRN-3940309",
@@ -3595,6 +3602,13 @@
         "ExecutionDate":"2025-05-13",
         "Document Key":"KCE-TSTRN-3941188",
         "Name":"Lift name configuration - KCEDCS supports configured lift name",
+        "Assigned To":"ARUN KUMAR"
+    },
+    {
+        "TestRunStatus":"INPROGRESS",
+        "ExecutionDate":"2025-05-21",
+        "Document Key":"KCE-TSTRN-3941189",
+        "Name":"Lift name configuration - E-Link supports configured lift name",
         "Assigned To":"ARUN KUMAR"
     },
     {
@@ -3648,6 +3662,13 @@
     },
     {
         "TestRunStatus":"INPROGRESS",
+        "ExecutionDate":"2025-05-21",
+        "Document Key":"KCE-TSTRN-3941193",
+        "Name":"Lift name configuration - lift name configured for several elevators",
+        "Assigned To":"ARUN KUMAR"
+    },
+    {
+        "TestRunStatus":"INPROGRESS",
         "ExecutionDate":"2025-05-09",
         "Document Key":"KCE-TSTRN-3940340",
         "Name":"Node supervision - Car interface - KCECOB",
@@ -3679,6 +3700,20 @@
         "ExecutionDate":"2025-05-20",
         "Document Key":"KCE-TSTRN-3941211",
         "Name":"Node Supervision - Fault code 1812",
+        "Assigned To":"ARUN KUMAR"
+    },
+    {
+        "TestRunStatus":"INPROGRESS",
+        "ExecutionDate":"2025-05-21",
+        "Document Key":"KCE-TSTRN-3941212",
+        "Name":"Node supervision - Car interface - KNSMUL",
+        "Assigned To":"ARUN KUMAR"
+    },
+    {
+        "TestRunStatus":"PASSED",
+        "ExecutionDate":"2025-05-21",
+        "Document Key":"KCE-TSTRN-3941213",
+        "Name":"BUI - Checksum implementation for Service man verification",
         "Assigned To":"ARUN KUMAR"
     },
     {
@@ -3906,38 +3941,52 @@
         "Assigned To":"Shrividhya"
     },
     {
-        "TestRunStatus":"INPROGRESS",
-        "ExecutionDate":"2025-05-20",
+        "TestRunStatus":"PASSED",
+        "ExecutionDate":"2025-05-21",
         "Document Key":"KCE-TSTRN-3941232",
         "Name":"2. UCMP 24hrs - Brake test during flexi hours",
         "Assigned To":"Shrividhya"
     },
     {
-        "TestRunStatus":"INPROGRESS",
-        "ExecutionDate":"2025-05-20",
+        "TestRunStatus":"PASSED",
+        "ExecutionDate":"2025-05-21",
         "Document Key":"KCE-TSTRN-3941233",
         "Name":"3. UCMP 24hrs - Brake test operation after reaches parameter 1509 value",
         "Assigned To":"Shrividhya"
     },
     {
-        "TestRunStatus":"INPROGRESS",
-        "ExecutionDate":"2025-05-20",
+        "TestRunStatus":"PASSED",
+        "ExecutionDate":"2025-05-21",
         "Document Key":"KCE-TSTRN-3941234",
         "Name":"4. UCMP 24hrs - Brake test counter reset",
         "Assigned To":"Shrividhya"
     },
     {
         "TestRunStatus":"INPROGRESS",
-        "ExecutionDate":"2025-05-20",
+        "ExecutionDate":"2025-05-21",
         "Document Key":"KCE-TSTRN-3941235",
         "Name":"5. UCMP 24hrs - Force brake test in last one hour",
         "Assigned To":"Shrividhya"
     },
     {
-        "TestRunStatus":"INPROGRESS",
-        "ExecutionDate":"2025-05-20",
+        "TestRunStatus":"PASSED",
+        "ExecutionDate":"2025-05-21",
+        "Document Key":"KCE-TSTRN-3941236",
+        "Name":"6. UCMP 24hrs - Brake test counter value reset while starting of the day",
+        "Assigned To":"Shrividhya"
+    },
+    {
+        "TestRunStatus":"PASSED",
+        "ExecutionDate":"2025-05-21",
         "Document Key":"KCE-TSTRN-3941240",
         "Name":"10. UCMP 24 hrs - Elevator fails to perform enough number break test within 23 hours",
+        "Assigned To":"Shrividhya"
+    },
+    {
+        "TestRunStatus":"INPROGRESS",
+        "ExecutionDate":"2025-05-21",
+        "Document Key":"KCE-TSTRN-3941244",
+        "Name":"14. UCMP 24hrs - lift force stop - All the break test are pending ",
         "Assigned To":"Shrividhya"
     },
     {
@@ -3946,5 +3995,12 @@
         "Document Key":"KCE-TSTRN-3941246",
         "Name":"16. UCMP 24hrs self monitoring in RDF & Inspection mode",
         "Assigned To":"Shrividhya"
+    },
+    {
+        "TestRunStatus":"INPROGRESS",
+        "ExecutionDate":"2025-05-21",
+        "Document Key":"KCE-TSTRN-3941250",
+        "Name":"UCMP 15.9 Improvements",
+        "Assigned To":"Suryanarayanan"
     }
 ]
