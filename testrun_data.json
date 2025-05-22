@@ -4011,10 +4011,45 @@
         "Assigned To":"Shrividhya"
     },
     {
+        "TestRunStatus":"INPROGRESS",
+        "ExecutionDate":"2025-05-22",
+        "Document Key":"KCE-TSTRN-3941238",
+        "Name":"8. UCMP 24hrs - lift force stop operation - landing call operation",
+        "Assigned To":"Shrividhya"
+    },
+    {
+        "TestRunStatus":"INPROGRESS",
+        "ExecutionDate":"2025-05-22",
+        "Document Key":"KCE-TSTRN-3941239",
+        "Name":"9. UCMP 24hrs - lift force stop operation - Display operation",
+        "Assigned To":"Shrividhya"
+    },
+    {
         "TestRunStatus":"PASSED",
         "ExecutionDate":"2025-05-21",
         "Document Key":"KCE-TSTRN-3941240",
         "Name":"10. UCMP 24 hrs - Elevator fails to perform enough number break test within 23 hours",
+        "Assigned To":"Shrividhya"
+    },
+    {
+        "TestRunStatus":"INPROGRESS",
+        "ExecutionDate":"2025-05-22",
+        "Document Key":"KCE-TSTRN-3941241",
+        "Name":"11. UCMP 24hrs - lift force stop - DOB operation ",
+        "Assigned To":"Shrividhya"
+    },
+    {
+        "TestRunStatus":"INPROGRESS",
+        "ExecutionDate":"2025-05-22",
+        "Document Key":"KCE-TSTRN-3941242",
+        "Name":"12. UCMP 24hrs - lift force stop - Photocell operation",
+        "Assigned To":"Shrividhya"
+    },
+    {
+        "TestRunStatus":"INPROGRESS",
+        "ExecutionDate":"2025-05-22",
+        "Document Key":"KCE-TSTRN-3941243",
+        "Name":"13. UCMP 24hrs - lift force stop - close force limiter",
         "Assigned To":"Shrividhya"
     },
     {
@@ -4025,8 +4060,8 @@
         "Assigned To":"Shrividhya"
     },
     {
-        "TestRunStatus":"INPROGRESS",
-        "ExecutionDate":"2025-05-21",
+        "TestRunStatus":"PASSED",
+        "ExecutionDate":"2025-05-22",
         "Document Key":"KCE-TSTRN-3941245",
         "Name":"15. UCMP 24hrs self monitoring in special modes",
         "Assigned To":"Shrividhya"
@@ -4036,6 +4071,13 @@
         "ExecutionDate":"2025-05-21",
         "Document Key":"KCE-TSTRN-3941246",
         "Name":"16. UCMP 24hrs self monitoring in RDF & Inspection mode",
+        "Assigned To":"Shrividhya"
+    },
+    {
+        "TestRunStatus":"INPROGRESS",
+        "ExecutionDate":"2025-05-22",
+        "Document Key":"KCE-TSTRN-3941247",
+        "Name":"17. UCMP 24hrs brake test counter \u2013 brake test type disabled",
         "Assigned To":"Shrividhya"
     },
     {
