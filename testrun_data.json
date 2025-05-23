@@ -3479,6 +3479,13 @@
         "Assigned To":"Suryanarayanan"
     },
     {
+        "TestRunStatus":"PASSED",
+        "ExecutionDate":"2025-05-23",
+        "Document Key":"KCE-TSTRN-3954673",
+        "Name":"Lift and Group parameters settings:",
+        "Assigned To":"Vivek"
+    },
+    {
         "TestRunStatus":"INPROGRESS",
         "ExecutionDate":"2025-05-12",
         "Document Key":"KCE-TSTRN-3940291",
