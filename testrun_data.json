@@ -3704,6 +3704,13 @@
     },
     {
         "TestRunStatus":"PASSED",
+        "ExecutionDate":"2025-05-22",
+        "Document Key":"KCE-TSTRN-3941206",
+        "Name":"Node supervision - Car interface - KSSMUL",
+        "Assigned To":"ARUN KUMAR"
+    },
+    {
+        "TestRunStatus":"PASSED",
         "ExecutionDate":"2025-05-21",
         "Document Key":"KCE-TSTRN-3941207",
         "Name":"Node supervision - Machine room interface - KCEOPT",
@@ -3717,10 +3724,17 @@
         "Assigned To":"ARUN KUMAR"
     },
     {
-        "TestRunStatus":"INPROGRESS",
-        "ExecutionDate":"2025-05-21",
+        "TestRunStatus":"PASSED",
+        "ExecutionDate":"2025-05-22",
         "Document Key":"KCE-TSTRN-3941209",
         "Name":"Node supervision - Shaft interface - 1",
+        "Assigned To":"ARUN KUMAR"
+    },
+    {
+        "TestRunStatus":"PASSED",
+        "ExecutionDate":"2025-05-22",
+        "Document Key":"KCE-TSTRN-3941210",
+        "Name":"Node supervision - Shaft interface - 2",
         "Assigned To":"ARUN KUMAR"
     },
     {
@@ -3990,8 +4004,8 @@
         "Assigned To":"Shrividhya"
     },
     {
-        "TestRunStatus":"INPROGRESS",
-        "ExecutionDate":"2025-05-21",
+        "TestRunStatus":"PASSED",
+        "ExecutionDate":"2025-05-22",
         "Document Key":"KCE-TSTRN-3941235",
         "Name":"5. UCMP 24hrs - Force brake test in last one hour",
         "Assigned To":"Shrividhya"
@@ -4004,21 +4018,21 @@
         "Assigned To":"Shrividhya"
     },
     {
-        "TestRunStatus":"INPROGRESS",
-        "ExecutionDate":"2025-05-21",
+        "TestRunStatus":"PASSED",
+        "ExecutionDate":"2025-05-22",
         "Document Key":"KCE-TSTRN-3941237",
         "Name":"7. UCMP 24hrs - lift force stop operation - car call operation",
         "Assigned To":"Shrividhya"
     },
     {
-        "TestRunStatus":"INPROGRESS",
+        "TestRunStatus":"PASSED",
         "ExecutionDate":"2025-05-22",
         "Document Key":"KCE-TSTRN-3941238",
         "Name":"8. UCMP 24hrs - lift force stop operation - landing call operation",
         "Assigned To":"Shrividhya"
     },
     {
-        "TestRunStatus":"INPROGRESS",
+        "TestRunStatus":"PASSED",
         "ExecutionDate":"2025-05-22",
         "Document Key":"KCE-TSTRN-3941239",
         "Name":"9. UCMP 24hrs - lift force stop operation - Display operation",
@@ -4032,29 +4046,29 @@
         "Assigned To":"Shrividhya"
     },
     {
-        "TestRunStatus":"INPROGRESS",
+        "TestRunStatus":"PASSED",
         "ExecutionDate":"2025-05-22",
         "Document Key":"KCE-TSTRN-3941241",
         "Name":"11. UCMP 24hrs - lift force stop - DOB operation ",
         "Assigned To":"Shrividhya"
     },
     {
-        "TestRunStatus":"INPROGRESS",
+        "TestRunStatus":"PASSED",
         "ExecutionDate":"2025-05-22",
         "Document Key":"KCE-TSTRN-3941242",
         "Name":"12. UCMP 24hrs - lift force stop - Photocell operation",
         "Assigned To":"Shrividhya"
     },
     {
-        "TestRunStatus":"INPROGRESS",
+        "TestRunStatus":"PASSED",
         "ExecutionDate":"2025-05-22",
         "Document Key":"KCE-TSTRN-3941243",
         "Name":"13. UCMP 24hrs - lift force stop - close force limiter",
         "Assigned To":"Shrividhya"
     },
     {
-        "TestRunStatus":"INPROGRESS",
-        "ExecutionDate":"2025-05-21",
+        "TestRunStatus":"PASSED",
+        "ExecutionDate":"2025-05-22",
         "Document Key":"KCE-TSTRN-3941244",
         "Name":"14. UCMP 24hrs - lift force stop - All the break test are pending ",
         "Assigned To":"Shrividhya"
