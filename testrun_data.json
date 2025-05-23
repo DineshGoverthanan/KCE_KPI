@@ -4088,8 +4088,8 @@
         "Assigned To":"Shrividhya"
     },
     {
-        "TestRunStatus":"INPROGRESS",
-        "ExecutionDate":"2025-05-22",
+        "TestRunStatus":"PASSED",
+        "ExecutionDate":"2025-05-23",
         "Document Key":"KCE-TSTRN-3941247",
         "Name":"17. UCMP 24hrs brake test counter \u2013 brake test type disabled",
         "Assigned To":"Shrividhya"
