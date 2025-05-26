@@ -3487,30 +3487,44 @@
     },
     {
         "TestRunStatus":"PASSED",
-        "ExecutionDate":"2025-05-23",
+        "ExecutionDate":"2025-05-26",
         "Document Key":"KCE-TSTRN-3954673",
         "Name":"Lift and Group parameters settings:",
         "Assigned To":"Vivek"
     },
     {
         "TestRunStatus":"PASSED",
-        "ExecutionDate":"2025-05-23",
+        "ExecutionDate":"2025-05-26",
         "Document Key":"KCE-TSTRN-3954665",
         "Name":"Normal mode with OEO test Group",
         "Assigned To":"Vivek"
     },
     {
         "TestRunStatus":"PASSED",
-        "ExecutionDate":"2025-05-23",
+        "ExecutionDate":"2025-05-26",
         "Document Key":"KCE-TSTRN-3954666",
         "Name":"FID activation with OEO test Group:",
         "Assigned To":"Vivek"
     },
     {
-        "TestRunStatus":"INPROGRESS",
-        "ExecutionDate":"2025-05-23",
+        "TestRunStatus":"PASSED",
+        "ExecutionDate":"2025-05-26",
         "Document Key":"KCE-TSTRN-3954667",
         "Name":"GEA activation when standing in MEEF floor.",
+        "Assigned To":"Vivek"
+    },
+    {
+        "TestRunStatus":"PASSED",
+        "ExecutionDate":"2025-05-26",
+        "Document Key":"KCE-TSTRN-3954668",
+        "Name":"More than one GEA activation",
+        "Assigned To":"Vivek"
+    },
+    {
+        "TestRunStatus":"PASSED",
+        "ExecutionDate":"2025-05-26",
+        "Document Key":"KCE-TSTRN-3954662",
+        "Name":"More than one GEA activation",
         "Assigned To":"Vivek"
     },
     {
