@@ -1,6 +1,13 @@
 [
     {
         "TestRunStatus":"PASSED",
+        "ExecutionDate":"2025-05-26",
+        "Document Key":"KCE-TSTRN-3952426",
+        "Name":"EBD A with Selcom device - Emergency Battery Drive - Automatic - Basic - Yaskawa",
+        "Assigned To":"Badaganti Sai Prasad"
+    },
+    {
+        "TestRunStatus":"PASSED",
         "ExecutionDate":"2025-05-23",
         "Document Key":"KCE-TSTRN-3952425",
         "Name":"Yaskawa - 7 speed - Close Loop",
@@ -3525,6 +3532,20 @@
         "ExecutionDate":"2025-05-26",
         "Document Key":"KCE-TSTRN-3954662",
         "Name":"More than one GEA activation",
+        "Assigned To":"Vivek"
+    },
+    {
+        "TestRunStatus":"PASSED",
+        "ExecutionDate":"2025-05-26",
+        "Document Key":"KCE-TSTRN-3954669",
+        "Name":"GEA activation when lift is in idle ",
+        "Assigned To":"Vivek"
+    },
+    {
+        "TestRunStatus":"INPROGRESS",
+        "ExecutionDate":"2025-05-26",
+        "Document Key":"KCE-TSTRN-3954661",
+        "Name":"GEA activation when lift is in idle ",
         "Assigned To":"Vivek"
     },
     {
