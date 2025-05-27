@@ -3549,6 +3549,13 @@
         "Assigned To":"Vivek"
     },
     {
+        "TestRunStatus":"PASSED",
+        "ExecutionDate":"2025-05-26",
+        "Document Key":"KCE-TSTRN-3954670",
+        "Name":"GEA activation when lift is in idle (Evacaution lift and non-evecaution lifts)",
+        "Assigned To":"Vivek"
+    },
+    {
         "TestRunStatus":"INPROGRESS",
         "ExecutionDate":"2025-05-12",
         "Document Key":"KCE-TSTRN-3940291",
