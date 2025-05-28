@@ -3556,6 +3556,27 @@
         "Assigned To":"Vivek"
     },
     {
+        "TestRunStatus":"FAILED",
+        "ExecutionDate":"2025-05-27",
+        "Document Key":"KCE-TSTRN-3954674",
+        "Name":"OEO - Alarm activation with Group functions",
+        "Assigned To":"Vivek"
+    },
+    {
+        "TestRunStatus":"INPROGRESS",
+        "ExecutionDate":"2025-05-27",
+        "Document Key":"KCE-TSTRN-3954679",
+        "Name":"OEO - Landing Signalization with DG display",
+        "Assigned To":"Vivek"
+    },
+    {
+        "TestRunStatus":"INPROGRESS",
+        "ExecutionDate":"2025-05-27",
+        "Document Key":"KCE-TSTRN-3954678",
+        "Name":"OEO - Car Signalization & ACU",
+        "Assigned To":"Vivek"
+    },
+    {
         "TestRunStatus":"INPROGRESS",
         "ExecutionDate":"2025-05-12",
         "Document Key":"KCE-TSTRN-3940291",
@@ -4176,6 +4197,13 @@
         "ExecutionDate":"2025-05-21",
         "Document Key":"KCE-TSTRN-3941250",
         "Name":"UCMP 15.9 Improvements",
+        "Assigned To":"Suryanarayanan"
+    },
+    {
+        "TestRunStatus":"FAILED",
+        "ExecutionDate":"2025-05-27",
+        "Document Key":"KCE-TSTRN-3958141",
+        "Name":"FRD L NZ",
         "Assigned To":"Suryanarayanan"
     }
 ]
