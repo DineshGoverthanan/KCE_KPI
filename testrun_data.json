@@ -3563,8 +3563,8 @@
         "Assigned To":"Vivek"
     },
     {
-        "TestRunStatus":"INPROGRESS",
-        "ExecutionDate":"2025-05-28",
+        "TestRunStatus":"PASSED",
+        "ExecutionDate":"2025-05-29",
         "Document Key":"KCE-TSTRN-3954679",
         "Name":"OEO - Landing Signalization with DG display",
         "Assigned To":"Vivek"
@@ -4201,7 +4201,7 @@
     },
     {
         "TestRunStatus":"INPROGRESS",
-        "ExecutionDate":"2025-05-29",
+        "ExecutionDate":"2025-05-30",
         "Document Key":"KCE-TSTRN-3958136",
         "Name":"Alarm_11(Alarm buzzer operation after stuck fault)",
         "Assigned To":"Priyavalli"
@@ -4228,7 +4228,7 @@
         "Assigned To":"Suryanarayanan"
     },
     {
-        "TestRunStatus":"INPROGRESS",
+        "TestRunStatus":"PASSED",
         "ExecutionDate":"2025-05-29",
         "Document Key":"KCE-TSTRN-3958144",
         "Name":"Faulty door contact monitoring - special cases",

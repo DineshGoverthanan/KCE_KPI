@@ -59,3 +59,4 @@ KCE-SWBUG-5745,16.8 - KCEDCS - xDOP's getting restarted continuously while power
 KCE-SWBUG-5794,16.8 - FRD - Buzzer keeps Shouting even after reaching Evacuation Floor when ACL is enabled,Suryanarayanan,"KCE 16.8.3.26(LD: 16.8.3.14, GCD: 16.8.86)",2025-05-13
 KCE-SWBUG-5895,"16.10 - FID M - Buzzer not Shouting while returning to FID Evacuation Floor after disabling FRD Phase 2, NZ",Suryanarayanan,"KCE16.10.0.92(LD: 16.10.0.22, GCD: 16.10.10.11)",2025-05-27
 KCE-SWBUG-5896,16.10 - KCEDCS - OEO A - Elevator does not serve the highest GEA activated floor,Vivek,"KCE16.10.0.92(LD: 16.10.0.22, GCD: 16.10.10.11)",2025-05-28
+KCE-SWBUG-5898,16.10 - KCEDCS - OEO B - Mode indication stuck in Elevator Guide (EG) after OEO mode is disabled,Vivek,"KCE16.10.0.92(LD: 16.10.0.22, GCD: 16.10.10.11)",2025-05-28
