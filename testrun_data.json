@@ -4200,7 +4200,28 @@
         "Assigned To":"Suryanarayanan"
     },
     {
+        "TestRunStatus":"PASSED",
+        "ExecutionDate":"2025-05-30",
+        "Document Key":"KCE-TSTRN-3958132",
+        "Name":"Lift name configuration - E-Link supports configured lift name",
+        "Assigned To":"ARUN KUMAR"
+    },
+    {
+        "TestRunStatus":"PASSED",
+        "ExecutionDate":"2025-05-30",
+        "Document Key":"KCE-TSTRN-3958133",
+        "Name":"Lift name configuration - lift name configured for several elevators",
+        "Assigned To":"ARUN KUMAR"
+    },
+    {
         "TestRunStatus":"INPROGRESS",
+        "ExecutionDate":"2025-05-30",
+        "Document Key":"KCE-TSTRN-3958135",
+        "Name":"DOI IN - Door Open Indication - India",
+        "Assigned To":"Priyavalli"
+    },
+    {
+        "TestRunStatus":"PASSED",
         "ExecutionDate":"2025-05-30",
         "Document Key":"KCE-TSTRN-3958136",
         "Name":"Alarm_11(Alarm buzzer operation after stuck fault)",
@@ -4226,6 +4247,13 @@
         "Document Key":"KCE-TSTRN-3958141",
         "Name":"FRD L NZ",
         "Assigned To":"Suryanarayanan"
+    },
+    {
+        "TestRunStatus":"INPROGRESS",
+        "ExecutionDate":"2025-05-30",
+        "Document Key":"KCE-TSTRN-3958143",
+        "Name":"EBD A with ERD device - Emergency Battery Drive - Automatic - Special",
+        "Assigned To":"Priyavalli"
     },
     {
         "TestRunStatus":"PASSED",
