@@ -4236,6 +4236,13 @@
     },
     {
         "TestRunStatus":"INPROGRESS",
+        "ExecutionDate":"2025-06-02",
+        "Document Key":"KCE-TSTRN-3962388",
+        "Name":"TTC CTN & DTN - Through type car - shaft doors on same and different levels - 2-4 set of car buttons - non selective door control",
+        "Assigned To":"Suryanarayanan"
+    },
+    {
+        "TestRunStatus":"INPROGRESS",
         "ExecutionDate":"2025-05-30",
         "Document Key":"KCE-TSTRN-3958140",
         "Name":"UCMP 15.9 Improvements",
@@ -4247,6 +4254,13 @@
         "Document Key":"KCE-TSTRN-3958141",
         "Name":"FRD L NZ",
         "Assigned To":"Suryanarayanan"
+    },
+    {
+        "TestRunStatus":"INPROGRESS",
+        "ExecutionDate":"2025-06-02",
+        "Document Key":"KCE-TSTRN-3962392",
+        "Name":"FRD L NZ",
+        "Assigned To":"ARUN KUMAR"
     },
     {
         "TestRunStatus":"INPROGRESS",
