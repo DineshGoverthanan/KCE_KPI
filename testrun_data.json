@@ -4215,6 +4215,13 @@
     },
     {
         "TestRunStatus":"INPROGRESS",
+        "ExecutionDate":"2025-06-02",
+        "Document Key":"KCE-TSTRN-3962386",
+        "Name":"Car Door Closed Limits Monitoring",
+        "Assigned To":"Shrividhya"
+    },
+    {
+        "TestRunStatus":"INPROGRESS",
         "ExecutionDate":"2025-05-30",
         "Document Key":"KCE-TSTRN-3958135",
         "Name":"DOI IN - Door Open Indication - India",
