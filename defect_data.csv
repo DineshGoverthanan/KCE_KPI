@@ -62,3 +62,4 @@ KCE-SWBUG-5896,16.10 - KCEDCS - OEO A - Elevator does not serve the highest GEA 
 KCE-SWBUG-5898,16.10 - KCEDCS - OEO B - Mode indication stuck in Elevator Guide (EG) after OEO mode is disabled,Vivek,"KCE16.10.0.92(LD: 16.10.0.22, GCD: 16.10.10.11)",2025-05-28
 KCE-SWBUG-5911,16.10 - KCEDCS - OEO A - JM Din next stop display not working for OEO evacuation calls.,Vivek,"KCE16.10.0.92(LD: 16.10.0.22, GCD: 16.10.10.11)",2025-05-29
 KCE-SWBUG-5912,16.10 - FID - FID M Mode indication doesn't override FRD when FRD Phase 1 is active,Suryanarayanan,"KCE 16.10.0.92(LD: 16.10.0.22, GCD: 16.10.10.11)",2025-05-29
+KCE-SWBUG-5928,16.10 - KCEDCS - OEO B Only Fire mode is shown in EG when evacuation happens.,Vivek,"KCE 16.10.0.100(LD: 16.10.0.23, GCD: 16.10.10.13)",2025-06-02
