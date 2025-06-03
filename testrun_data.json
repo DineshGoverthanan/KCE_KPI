@@ -4221,8 +4221,8 @@
         "Assigned To":"Shrividhya"
     },
     {
-        "TestRunStatus":"INPROGRESS",
-        "ExecutionDate":"2025-05-30",
+        "TestRunStatus":"PASSED",
+        "ExecutionDate":"2025-06-02",
         "Document Key":"KCE-TSTRN-3958135",
         "Name":"DOI IN - Door Open Indication - India",
         "Assigned To":"Priyavalli"
