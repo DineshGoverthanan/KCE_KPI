@@ -4242,8 +4242,8 @@
         "Assigned To":"Suryanarayanan"
     },
     {
-        "TestRunStatus":"INPROGRESS",
-        "ExecutionDate":"2025-06-02",
+        "TestRunStatus":"PASSED",
+        "ExecutionDate":"2025-06-03",
         "Document Key":"KCE-TSTRN-3962388",
         "Name":"TTC CTN & DTN - Through type car - shaft doors on same and different levels - 2-4 set of car buttons - non selective door control",
         "Assigned To":"Suryanarayanan"
@@ -4252,6 +4252,13 @@
         "TestRunStatus":"INPROGRESS",
         "ExecutionDate":"2025-05-30",
         "Document Key":"KCE-TSTRN-3958140",
+        "Name":"UCMP 15.9 Improvements",
+        "Assigned To":"Shrividhya"
+    },
+    {
+        "TestRunStatus":"INPROGRESS",
+        "ExecutionDate":"2025-06-03",
+        "Document Key":"KCE-TSTRN-3962391",
         "Name":"UCMP 15.9 Improvements",
         "Assigned To":"Shrividhya"
     },
