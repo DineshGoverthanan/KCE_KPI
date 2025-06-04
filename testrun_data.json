@@ -3522,6 +3522,13 @@
     },
     {
         "TestRunStatus":"PASSED",
+        "ExecutionDate":"2025-06-03",
+        "Document Key":"KCE-TSTRN-3962363",
+        "Name":"OEO - Landing Signalization with EG",
+        "Assigned To":"Vivek"
+    },
+    {
+        "TestRunStatus":"PASSED",
         "ExecutionDate":"2025-05-26",
         "Document Key":"KCE-TSTRN-3954668",
         "Name":"More than one GEA activation",
@@ -3560,6 +3567,13 @@
         "ExecutionDate":"2025-05-27",
         "Document Key":"KCE-TSTRN-3954674",
         "Name":"OEO - Alarm activation with Group functions",
+        "Assigned To":"Vivek"
+    },
+    {
+        "TestRunStatus":"PASSED",
+        "ExecutionDate":"2025-06-03",
+        "Document Key":"KCE-TSTRN-3962356",
+        "Name":"OEO - Landing Signalization with xDOP",
         "Assigned To":"Vivek"
     },
     {
@@ -4289,5 +4303,12 @@
         "Document Key":"KCE-TSTRN-3958144",
         "Name":"Faulty door contact monitoring - special cases",
         "Assigned To":"Priyavalli"
+    },
+    {
+        "TestRunStatus":"INPROGRESS",
+        "ExecutionDate":"2025-06-03",
+        "Document Key":"KCE-TSTRN-3963016",
+        "Name":"PIO - Car - 12 floors - Car call buttons",
+        "Assigned To":"Suryanarayanan"
     }
 ]
