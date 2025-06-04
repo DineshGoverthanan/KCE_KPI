@@ -3563,6 +3563,13 @@
         "Assigned To":"Vivek"
     },
     {
+        "TestRunStatus":"INPROGRESS",
+        "ExecutionDate":"2025-06-04",
+        "Document Key":"KCE-TSTRN-3962346",
+        "Name":"GEA activation when lift is in idle ",
+        "Assigned To":"Vivek"
+    },
+    {
         "TestRunStatus":"FAILED",
         "ExecutionDate":"2025-05-27",
         "Document Key":"KCE-TSTRN-3954674",
@@ -4271,7 +4278,7 @@
     },
     {
         "TestRunStatus":"INPROGRESS",
-        "ExecutionDate":"2025-06-03",
+        "ExecutionDate":"2025-06-04",
         "Document Key":"KCE-TSTRN-3962391",
         "Name":"UCMP 15.9 Improvements",
         "Assigned To":"Shrividhya"
@@ -4306,9 +4313,79 @@
     },
     {
         "TestRunStatus":"INPROGRESS",
-        "ExecutionDate":"2025-06-03",
+        "ExecutionDate":"2025-06-04",
         "Document Key":"KCE-TSTRN-3963016",
         "Name":"PIO - Car - 12 floors - Car call buttons",
         "Assigned To":"Suryanarayanan"
+    },
+    {
+        "TestRunStatus":"INPROGRESS",
+        "ExecutionDate":"2025-06-04",
+        "Document Key":"KCE-TSTRN-3963046",
+        "Name":"4.1. Landing Door contact Bypass switch active - Door open operation via service tools",
+        "Assigned To":"Shrividhya"
+    },
+    {
+        "TestRunStatus":"INPROGRESS",
+        "ExecutionDate":"2025-06-04",
+        "Document Key":"KCE-TSTRN-3963047",
+        "Name":"4.2. Landing Door contact Bypass switch active - Door close operation via service tools",
+        "Assigned To":"Shrividhya"
+    },
+    {
+        "TestRunStatus":"INPROGRESS",
+        "ExecutionDate":"2025-06-04",
+        "Document Key":"KCE-TSTRN-3963048",
+        "Name":"6. Landing Door contact Bypass switch active - Indications",
+        "Assigned To":"Shrividhya"
+    },
+    {
+        "TestRunStatus":"INPROGRESS",
+        "ExecutionDate":"2025-06-04",
+        "Document Key":"KCE-TSTRN-3963049",
+        "Name":"12. Landing Door contact Bypass switch active - Door operation with inspection mode ",
+        "Assigned To":"Shrividhya"
+    },
+    {
+        "TestRunStatus":"INPROGRESS",
+        "ExecutionDate":"2025-06-04",
+        "Document Key":"KCE-TSTRN-3963050",
+        "Name":"14. Landing Door contact Bypass switch active - Fault codes verification UI",
+        "Assigned To":"Shrividhya"
+    },
+    {
+        "TestRunStatus":"INPROGRESS",
+        "ExecutionDate":"2025-06-04",
+        "Document Key":"KCE-TSTRN-3963060",
+        "Name":"4. Both Door contact Bypass switch active - DOB operation\u00a0\u00a0",
+        "Assigned To":"Shrividhya"
+    },
+    {
+        "TestRunStatus":"INPROGRESS",
+        "ExecutionDate":"2025-06-04",
+        "Document Key":"KCE-TSTRN-3963061",
+        "Name":"4.1. Both Door contact Bypass switch active - Door open operation via service tools",
+        "Assigned To":"Shrividhya"
+    },
+    {
+        "TestRunStatus":"INPROGRESS",
+        "ExecutionDate":"2025-06-04",
+        "Document Key":"KCE-TSTRN-3963062",
+        "Name":"4.2. Both Door contact Bypass switch active - Door close operation via service tools",
+        "Assigned To":"Shrividhya"
+    },
+    {
+        "TestRunStatus":"INPROGRESS",
+        "ExecutionDate":"2025-06-04",
+        "Document Key":"KCE-TSTRN-3963063",
+        "Name":"5. Both door contact bypass switch active - Reopen device operation\u00a0",
+        "Assigned To":"Shrividhya"
+    },
+    {
+        "TestRunStatus":"INPROGRESS",
+        "ExecutionDate":"2025-06-04",
+        "Document Key":"KCE-TSTRN-3963064",
+        "Name":"12. Both door contact Bypass switch active - Fault codes verification UI\u00a0\u00a0",
+        "Assigned To":"Shrividhya"
     }
 ]
