@@ -3563,7 +3563,7 @@
         "Assigned To":"Vivek"
     },
     {
-        "TestRunStatus":"INPROGRESS",
+        "TestRunStatus":"PASSED",
         "ExecutionDate":"2025-06-04",
         "Document Key":"KCE-TSTRN-3962346",
         "Name":"GEA activation when lift is in idle ",
@@ -3578,9 +3578,30 @@
     },
     {
         "TestRunStatus":"PASSED",
+        "ExecutionDate":"2025-06-04",
+        "Document Key":"KCE-TSTRN-3962351",
+        "Name":"OEO - Alarm activation with Group functions",
+        "Assigned To":"Vivek"
+    },
+    {
+        "TestRunStatus":"PASSED",
         "ExecutionDate":"2025-06-03",
         "Document Key":"KCE-TSTRN-3962356",
         "Name":"OEO - Landing Signalization with xDOP",
+        "Assigned To":"Vivek"
+    },
+    {
+        "TestRunStatus":"PASSED",
+        "ExecutionDate":"2025-06-04",
+        "Document Key":"KCE-TSTRN-3962349",
+        "Name":"OEO B zone floor with Elink and BUI view",
+        "Assigned To":"Vivek"
+    },
+    {
+        "TestRunStatus":"PASSED",
+        "ExecutionDate":"2025-06-04",
+        "Document Key":"KCE-TSTRN-3962350",
+        "Name":"OEO B strategy and Group total building evacuation",
         "Assigned To":"Vivek"
     },
     {
@@ -4312,7 +4333,21 @@
         "Assigned To":"Priyavalli"
     },
     {
+        "TestRunStatus":"PASSED",
+        "ExecutionDate":"2025-06-04",
+        "Document Key":"KCE-TSTRN-3962984",
+        "Name":"Backup and restore - Basic changes - PCUI",
+        "Assigned To":"ARUN KUMAR"
+    },
+    {
         "TestRunStatus":"INPROGRESS",
+        "ExecutionDate":"2025-06-04",
+        "Document Key":"KCE-TSTRN-3962985",
+        "Name":"Backup and restore - Basic changes - AMC",
+        "Assigned To":"ARUN KUMAR"
+    },
+    {
+        "TestRunStatus":"FAILED",
         "ExecutionDate":"2025-06-04",
         "Document Key":"KCE-TSTRN-3963016",
         "Name":"PIO - Car - 12 floors - Car call buttons",
@@ -4386,6 +4421,48 @@
         "ExecutionDate":"2025-06-04",
         "Document Key":"KCE-TSTRN-3963064",
         "Name":"12. Both door contact Bypass switch active - Fault codes verification UI\u00a0\u00a0",
+        "Assigned To":"Shrividhya"
+    },
+    {
+        "TestRunStatus":"PASSED",
+        "ExecutionDate":"2025-06-04",
+        "Document Key":"KCE-TSTRN-3963094",
+        "Name":"Parameter setting",
+        "Assigned To":"Shrividhya"
+    },
+    {
+        "TestRunStatus":"INPROGRESS",
+        "ExecutionDate":"2025-06-04",
+        "Document Key":"KCE-TSTRN-3963095",
+        "Name":"Give normal call from keypad COP- Not supported in 15.7 release software\u00a0",
+        "Assigned To":"Shrividhya"
+    },
+    {
+        "TestRunStatus":"PASSED",
+        "ExecutionDate":"2025-06-04",
+        "Document Key":"KCE-TSTRN-3963096",
+        "Name":"Check keypad COP buttons backlight\u00a0\u00a0",
+        "Assigned To":"Shrividhya"
+    },
+    {
+        "TestRunStatus":"PASSED",
+        "ExecutionDate":"2025-06-04",
+        "Document Key":"KCE-TSTRN-3963097",
+        "Name":"Give call from keypad COP by pressing OK button for A side",
+        "Assigned To":"Shrividhya"
+    },
+    {
+        "TestRunStatus":"PASSED",
+        "ExecutionDate":"2025-06-04",
+        "Document Key":"KCE-TSTRN-3963098",
+        "Name":"'-' minus button ",
+        "Assigned To":"Shrividhya"
+    },
+    {
+        "TestRunStatus":"INPROGRESS",
+        "ExecutionDate":"2025-06-04",
+        "Document Key":"KCE-TSTRN-3963099",
+        "Name":"Give call from keypad COP by pressing OK button for B side",
         "Assigned To":"Shrividhya"
     }
 ]
