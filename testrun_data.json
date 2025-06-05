@@ -4340,10 +4340,17 @@
         "Assigned To":"ARUN KUMAR"
     },
     {
-        "TestRunStatus":"INPROGRESS",
-        "ExecutionDate":"2025-06-04",
+        "TestRunStatus":"PASSED",
+        "ExecutionDate":"2025-06-05",
         "Document Key":"KCE-TSTRN-3962985",
         "Name":"Backup and restore - Basic changes - AMC",
+        "Assigned To":"ARUN KUMAR"
+    },
+    {
+        "TestRunStatus":"INPROGRESS",
+        "ExecutionDate":"2025-06-05",
+        "Document Key":"KCE-TSTRN-3962986",
+        "Name":"Backup and restore - Test1- KCECPU board change",
         "Assigned To":"ARUN KUMAR"
     },
     {
@@ -4438,8 +4445,8 @@
         "Assigned To":"Shrividhya"
     },
     {
-        "TestRunStatus":"PASSED",
-        "ExecutionDate":"2025-06-04",
+        "TestRunStatus":"FAILED",
+        "ExecutionDate":"2025-06-05",
         "Document Key":"KCE-TSTRN-3963096",
         "Name":"Check keypad COP buttons backlight\u00a0\u00a0",
         "Assigned To":"Shrividhya"

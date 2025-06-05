@@ -67,3 +67,4 @@ KCE-SWBUG-5934,16.10 - OSI - Out of Service Output indication shown inversely in
 KCE-SWBUG-5936,16.10 - KCEDCS - OEO B - DG shows ETA message twice when the lift has been arrived at evacuation floor.,Vivek,"KCE 16.10.0.100(LD: 16.10.0.23, GCD: 16.10.10.13)",2025-06-03
 KCE-SWBUG-5939,16.10 - KCEDCS - OEO B - Evacuation and Out of service message conflict in xDOP,Vivek,"KCE 16.10.0.100(LD: 16.10.0.23, GCD: 16.10.10.13)",2025-06-03
 KCE-SWBUG-5946,"KDHN - ""Invalid value"" note is seen in drive parameter 97 (Drive SW version).",Badaganti Sai Prasad,2523,2025-06-03
+KCE-SWBUG-5949,"KCEPDX - ""Invalid value"" note is seen in drive parameter 97 (Drive SW version).",Badaganti Sai Prasad,Drive SW - 2521,
