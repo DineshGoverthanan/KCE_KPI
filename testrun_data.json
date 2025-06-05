@@ -4299,7 +4299,7 @@
     },
     {
         "TestRunStatus":"INPROGRESS",
-        "ExecutionDate":"2025-06-04",
+        "ExecutionDate":"2025-06-05",
         "Document Key":"KCE-TSTRN-3962391",
         "Name":"UCMP 15.9 Improvements",
         "Assigned To":"Shrividhya"
@@ -4347,8 +4347,8 @@
         "Assigned To":"ARUN KUMAR"
     },
     {
-        "TestRunStatus":"FAILED",
-        "ExecutionDate":"2025-06-04",
+        "TestRunStatus":"PASSED",
+        "ExecutionDate":"2025-06-05",
         "Document Key":"KCE-TSTRN-3963016",
         "Name":"PIO - Car - 12 floors - Car call buttons",
         "Assigned To":"Suryanarayanan"
@@ -4460,9 +4460,16 @@
     },
     {
         "TestRunStatus":"INPROGRESS",
-        "ExecutionDate":"2025-06-04",
+        "ExecutionDate":"2025-06-05",
         "Document Key":"KCE-TSTRN-3963099",
         "Name":"Give call from keypad COP by pressing OK button for B side",
+        "Assigned To":"Shrividhya"
+    },
+    {
+        "TestRunStatus":"INPROGRESS",
+        "ExecutionDate":"2025-06-05",
+        "Document Key":"KCE-TSTRN-3963101",
+        "Name":"Use '-' minus button as floor button  ",
         "Assigned To":"Shrividhya"
     }
 ]
