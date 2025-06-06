@@ -4354,6 +4354,13 @@
         "Assigned To":"ARUN KUMAR"
     },
     {
+        "TestRunStatus":"INPROGRESS",
+        "ExecutionDate":"2025-06-05",
+        "Document Key":"KCE-TSTRN-3963015",
+        "Name":"PIO - Car - 12 floors - Analog Display",
+        "Assigned To":"Suryanarayanan"
+    },
+    {
         "TestRunStatus":"PASSED",
         "ExecutionDate":"2025-06-05",
         "Document Key":"KCE-TSTRN-3963016",
@@ -4473,10 +4480,59 @@
         "Assigned To":"Shrividhya"
     },
     {
-        "TestRunStatus":"INPROGRESS",
+        "TestRunStatus":"PASSED",
         "ExecutionDate":"2025-06-05",
         "Document Key":"KCE-TSTRN-3963101",
         "Name":"Use '-' minus button as floor button  ",
+        "Assigned To":"Shrividhya"
+    },
+    {
+        "TestRunStatus":"PASSED",
+        "ExecutionDate":"2025-06-05",
+        "Document Key":"KCE-TSTRN-3963102",
+        "Name":"Press '*' star button for register call to main floor",
+        "Assigned To":"Shrividhya"
+    },
+    {
+        "TestRunStatus":"PASSED",
+        "ExecutionDate":"2025-06-05",
+        "Document Key":"KCE-TSTRN-3963103",
+        "Name":"Keypad COP button sound",
+        "Assigned To":"Shrividhya"
+    },
+    {
+        "TestRunStatus":"PASSED",
+        "ExecutionDate":"2025-06-05",
+        "Document Key":"KCE-TSTRN-3963104",
+        "Name":"Car display in keypad COP",
+        "Assigned To":"Shrividhya"
+    },
+    {
+        "TestRunStatus":"PASSED",
+        "ExecutionDate":"2025-06-05",
+        "Document Key":"KCE-TSTRN-3963105",
+        "Name":"Pressed number visible in DIN display ",
+        "Assigned To":"Shrividhya"
+    },
+    {
+        "TestRunStatus":"PASSED",
+        "ExecutionDate":"2025-06-05",
+        "Document Key":"KCE-TSTRN-3963106",
+        "Name":"Floor is registered ",
+        "Assigned To":"Shrividhya"
+    },
+    {
+        "TestRunStatus":"PASSED",
+        "ExecutionDate":"2025-06-05",
+        "Document Key":"KCE-TSTRN-3963108",
+        "Name":"Keypad COP - Entering wrong floor number with CON ",
+        "Assigned To":"Shrividhya"
+    },
+    {
+        "TestRunStatus":"PASSED",
+        "ExecutionDate":"2025-06-05",
+        "Document Key":"KCE-TSTRN-3963109",
+        "Name":"Keypad COP - Entering wrong floor number  with CTS",
         "Assigned To":"Shrividhya"
     }
 ]
