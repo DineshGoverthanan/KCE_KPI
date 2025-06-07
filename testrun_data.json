@@ -3606,6 +3606,20 @@
     },
     {
         "TestRunStatus":"PASSED",
+        "ExecutionDate":"2025-06-06",
+        "Document Key":"KCE-TSTRN-3962347",
+        "Name":"OEO A zone floor with Elink and BUI view",
+        "Assigned To":"Vivek"
+    },
+    {
+        "TestRunStatus":"PASSED",
+        "ExecutionDate":"2025-06-06",
+        "Document Key":"KCE-TSTRN-3962357",
+        "Name":"GEA activation when lift drives car calls & way from the Alarm floor.",
+        "Assigned To":"Vivek"
+    },
+    {
+        "TestRunStatus":"PASSED",
         "ExecutionDate":"2025-05-29",
         "Document Key":"KCE-TSTRN-3954679",
         "Name":"OEO - Landing Signalization with DG display",
@@ -4351,6 +4365,27 @@
         "ExecutionDate":"2025-06-05",
         "Document Key":"KCE-TSTRN-3962986",
         "Name":"Backup and restore - Test1- KCECPU board change",
+        "Assigned To":"ARUN KUMAR"
+    },
+    {
+        "TestRunStatus":"INPROGRESS",
+        "ExecutionDate":"2025-06-06",
+        "Document Key":"KCE-TSTRN-3962987",
+        "Name":"Backup and restore - Test2 - IO configuration change",
+        "Assigned To":"ARUN KUMAR"
+    },
+    {
+        "TestRunStatus":"PASSED",
+        "ExecutionDate":"2025-06-06",
+        "Document Key":"KCE-TSTRN-3962988",
+        "Name":"Backup and restore - Test3 - Interruption of restore or backup",
+        "Assigned To":"ARUN KUMAR"
+    },
+    {
+        "TestRunStatus":"PASSED",
+        "ExecutionDate":"2025-06-06",
+        "Document Key":"KCE-TSTRN-3962989",
+        "Name":"Backup and restore - Test4 - AMC and PCUI operation",
         "Assigned To":"ARUN KUMAR"
     },
     {
