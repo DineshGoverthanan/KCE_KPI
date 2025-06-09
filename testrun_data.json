@@ -3620,6 +3620,13 @@
     },
     {
         "TestRunStatus":"PASSED",
+        "ExecutionDate":"2025-06-09",
+        "Document Key":"KCE-TSTRN-3962358",
+        "Name":"GEA activation when lift drives car calls towards from the Alarm floor.",
+        "Assigned To":"Vivek"
+    },
+    {
+        "TestRunStatus":"PASSED",
         "ExecutionDate":"2025-05-29",
         "Document Key":"KCE-TSTRN-3954679",
         "Name":"OEO - Landing Signalization with DG display",
@@ -4390,7 +4397,7 @@
     },
     {
         "TestRunStatus":"INPROGRESS",
-        "ExecutionDate":"2025-06-05",
+        "ExecutionDate":"2025-06-09",
         "Document Key":"KCE-TSTRN-3963015",
         "Name":"PIO - Car - 12 floors - Analog Display",
         "Assigned To":"Suryanarayanan"
@@ -4400,6 +4407,13 @@
         "ExecutionDate":"2025-06-05",
         "Document Key":"KCE-TSTRN-3963016",
         "Name":"PIO - Car - 12 floors - Car call buttons",
+        "Assigned To":"Suryanarayanan"
+    },
+    {
+        "TestRunStatus":"INPROGRESS",
+        "ExecutionDate":"2025-06-09",
+        "Document Key":"KCE-TSTRN-3963017",
+        "Name":"PIO - Car - 12 floors - Dot matrix Display",
         "Assigned To":"Suryanarayanan"
     },
     {
@@ -4568,6 +4582,20 @@
         "ExecutionDate":"2025-06-05",
         "Document Key":"KCE-TSTRN-3963109",
         "Name":"Keypad COP - Entering wrong floor number  with CTS",
+        "Assigned To":"Shrividhya"
+    },
+    {
+        "TestRunStatus":"PASSED",
+        "ExecutionDate":"2025-06-09",
+        "Document Key":"KCE-TSTRN-3963122",
+        "Name":"Confirm button message ",
+        "Assigned To":"Shrividhya"
+    },
+    {
+        "TestRunStatus":"INPROGRESS",
+        "ExecutionDate":"2025-06-09",
+        "Document Key":"KCE-TSTRN-3963123",
+        "Name":"Give call to locked floor",
         "Assigned To":"Shrividhya"
     }
 ]
