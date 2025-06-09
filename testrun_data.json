@@ -3627,6 +3627,27 @@
     },
     {
         "TestRunStatus":"PASSED",
+        "ExecutionDate":"2025-06-09",
+        "Document Key":"KCE-TSTRN-3962359",
+        "Name":"GEA activation when lift drives to car calls towards the Exit floor.",
+        "Assigned To":"Vivek"
+    },
+    {
+        "TestRunStatus":"PASSED",
+        "ExecutionDate":"2025-06-09",
+        "Document Key":"KCE-TSTRN-3962360",
+        "Name":"GEA activation when lift drives to car calls away from the Exit floor.",
+        "Assigned To":"Vivek"
+    },
+    {
+        "TestRunStatus":"PASSED",
+        "ExecutionDate":"2025-06-09",
+        "Document Key":"KCE-TSTRN-3962361",
+        "Name":"GEA activation when lift serves the car call and door open",
+        "Assigned To":"Vivek"
+    },
+    {
+        "TestRunStatus":"PASSED",
         "ExecutionDate":"2025-05-29",
         "Document Key":"KCE-TSTRN-3954679",
         "Name":"OEO - Landing Signalization with DG display",
@@ -4393,6 +4414,27 @@
         "ExecutionDate":"2025-06-06",
         "Document Key":"KCE-TSTRN-3962989",
         "Name":"Backup and restore - Test4 - AMC and PCUI operation",
+        "Assigned To":"ARUN KUMAR"
+    },
+    {
+        "TestRunStatus":"PASSED",
+        "ExecutionDate":"2025-06-09",
+        "Document Key":"KCE-TSTRN-3962990",
+        "Name":"Backup and restore - Test5 - Backup of old -- update to new",
+        "Assigned To":"ARUN KUMAR"
+    },
+    {
+        "TestRunStatus":"INPROGRESS",
+        "ExecutionDate":"2025-06-09",
+        "Document Key":"KCE-TSTRN-3962991",
+        "Name":"Single file Backup with Kone drives",
+        "Assigned To":"ARUN KUMAR"
+    },
+    {
+        "TestRunStatus":"PASSED",
+        "ExecutionDate":"2025-06-09",
+        "Document Key":"KCE-TSTRN-3962992",
+        "Name":"Diagnostic File",
         "Assigned To":"ARUN KUMAR"
     },
     {
