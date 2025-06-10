@@ -70,3 +70,5 @@ KCE-SWBUG-5946,"KDHN - ""Invalid value"" note is seen in drive parameter 97 (Dri
 KCE-SWBUG-5949,"KCEPDX - ""Invalid value"" note is seen in drive parameter 97 (Drive SW version).",Badaganti Sai Prasad,Drive SW - 2521,
 KCE-SWBUG-5952,16.10 - KCEDCS - OEO B - Evacuation mode shown in xDOP for a normal lift which can able to serve.,Vivek,"KCE 16.10.0.100(LD: 16.10.0.23, GCD: 16.10.10.13)",2025-06-04
 KCE-SWBUG-5971,16.10 - PIO - Output Indication not shown completely in Service Tool UI,Suryanarayanan,"16.10.0.100(LD: 16.10.0.23, GCD: 16.10.10.13)",2025-06-08
+KCE-SWBUG-5973,AMD D200 - Connection broken happened after the SW update via AMC 4.6.237.6968 even the door power is ON ,Shrividhya,"KCE 16.6.3.24(LD: 16.6.1.16, GCD: 16.6.62) + D200_25.22.4.0 + AMC 4.6.237.6968",2025-06-08
+KCE-SWBUG-5977,AMD D200 - The door icon is not functioning during door opening and closing,Shrividhya,"KCE 16.6.3.24(LD: 16.6.1.16, GCD: 16.6.62) + D200_25.22.4.0 + AMC 4.6.237.6968",2025-06-08

@@ -666,6 +666,13 @@
     },
     {
         "TestRunStatus":"PASSED",
+        "ExecutionDate":"2025-06-09",
+        "Document Key":"KCE-TSTRN-3580825",
+        "Name":"DOE B - Door Opening with Extended door time - Button - A-side - Covered by TA",
+        "Assigned To":"Dinesh"
+    },
+    {
+        "TestRunStatus":"PASSED",
         "ExecutionDate":"2025-02-17",
         "Document Key":"KCE-TSTRN-3580836",
         "Name":"Basic Functions - Car call - A-side",
@@ -704,6 +711,20 @@
         "ExecutionDate":"2025-02-19",
         "Document Key":"KCE-TSTRN-3580859",
         "Name":"DOB - Door Open Button - Basic - B-side - Covered by TA",
+        "Assigned To":"Dinesh"
+    },
+    {
+        "TestRunStatus":"PASSED",
+        "ExecutionDate":"2025-06-09",
+        "Document Key":"KCE-TSTRN-3580829",
+        "Name":"DOE S - Door Opening with Extended door time - Switch - A-side - Covered by TA ",
+        "Assigned To":"Dinesh"
+    },
+    {
+        "TestRunStatus":"PASSED",
+        "ExecutionDate":"2025-06-09",
+        "Document Key":"KCE-TSTRN-3580839",
+        "Name":"Basic Functions - Landing call - A-side - Covered by TA",
         "Assigned To":"Dinesh"
     },
     {
@@ -3648,6 +3669,27 @@
     },
     {
         "TestRunStatus":"PASSED",
+        "ExecutionDate":"2025-06-09",
+        "Document Key":"KCE-TSTRN-3962353",
+        "Name":"OEO - Operation - Single Alarm with OEO sequence - Landing\/Source calls",
+        "Assigned To":"Vivek"
+    },
+    {
+        "TestRunStatus":"PASSED",
+        "ExecutionDate":"2025-06-09",
+        "Document Key":"KCE-TSTRN-3962362",
+        "Name":"GEA activation when decelerate the car call serving floor",
+        "Assigned To":"Vivek"
+    },
+    {
+        "TestRunStatus":"INPROGRESS",
+        "ExecutionDate":"2025-06-09",
+        "Document Key":"KCE-TSTRN-3962354",
+        "Name":"OEO - Group Evacuation test mode",
+        "Assigned To":"Vivek"
+    },
+    {
+        "TestRunStatus":"PASSED",
         "ExecutionDate":"2025-05-29",
         "Document Key":"KCE-TSTRN-3954679",
         "Name":"OEO - Landing Signalization with DG display",
@@ -4438,7 +4480,7 @@
         "Assigned To":"ARUN KUMAR"
     },
     {
-        "TestRunStatus":"INPROGRESS",
+        "TestRunStatus":"PASSED",
         "ExecutionDate":"2025-06-09",
         "Document Key":"KCE-TSTRN-3963015",
         "Name":"PIO - Car - 12 floors - Analog Display",
@@ -4459,39 +4501,39 @@
         "Assigned To":"Suryanarayanan"
     },
     {
-        "TestRunStatus":"INPROGRESS",
-        "ExecutionDate":"2025-06-04",
+        "TestRunStatus":"PASSED",
+        "ExecutionDate":"2025-06-09",
         "Document Key":"KCE-TSTRN-3963046",
         "Name":"4.1. Landing Door contact Bypass switch active - Door open operation via service tools",
-        "Assigned To":"Shrividhya"
+        "Assigned To":"ARUN KUMAR"
     },
     {
-        "TestRunStatus":"INPROGRESS",
-        "ExecutionDate":"2025-06-04",
+        "TestRunStatus":"PASSED",
+        "ExecutionDate":"2025-06-09",
         "Document Key":"KCE-TSTRN-3963047",
         "Name":"4.2. Landing Door contact Bypass switch active - Door close operation via service tools",
-        "Assigned To":"Shrividhya"
+        "Assigned To":"ARUN KUMAR"
     },
     {
-        "TestRunStatus":"INPROGRESS",
-        "ExecutionDate":"2025-06-04",
+        "TestRunStatus":"PASSED",
+        "ExecutionDate":"2025-06-09",
         "Document Key":"KCE-TSTRN-3963048",
         "Name":"6. Landing Door contact Bypass switch active - Indications",
-        "Assigned To":"Shrividhya"
+        "Assigned To":"ARUN KUMAR"
     },
     {
         "TestRunStatus":"INPROGRESS",
-        "ExecutionDate":"2025-06-04",
+        "ExecutionDate":"2025-06-09",
         "Document Key":"KCE-TSTRN-3963049",
         "Name":"12. Landing Door contact Bypass switch active - Door operation with inspection mode ",
-        "Assigned To":"Shrividhya"
+        "Assigned To":"ARUN KUMAR"
     },
     {
-        "TestRunStatus":"INPROGRESS",
-        "ExecutionDate":"2025-06-04",
+        "TestRunStatus":"PASSED",
+        "ExecutionDate":"2025-06-09",
         "Document Key":"KCE-TSTRN-3963050",
         "Name":"14. Landing Door contact Bypass switch active - Fault codes verification UI",
-        "Assigned To":"Shrividhya"
+        "Assigned To":"ARUN KUMAR"
     },
     {
         "TestRunStatus":"INPROGRESS",
