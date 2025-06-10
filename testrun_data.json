@@ -1,5 +1,12 @@
 [
     {
+        "TestRunStatus":"INPROGRESS",
+        "ExecutionDate":"2025-06-10",
+        "Document Key":"KCE-TSTRN-3965357",
+        "Name":"AMD D200 - Basic - Closing",
+        "Assigned To":"Shrividhya"
+    },
+    {
         "TestRunStatus":"PASSED",
         "ExecutionDate":"2025-05-26",
         "Document Key":"KCE-TSTRN-3952426",
@@ -690,6 +697,13 @@
         "ExecutionDate":"2025-02-17",
         "Document Key":"KCE-TSTRN-3580855",
         "Name":"DOB - Door Open Button - Basic - A-side - Covered by TA",
+        "Assigned To":"Dinesh"
+    },
+    {
+        "TestRunStatus":"PASSED",
+        "ExecutionDate":"2025-06-10",
+        "Document Key":"KCE-TSTRN-3580827",
+        "Name":"DOE B - Door Opening with Extended door time - Button - B-side - Covered by TA",
         "Assigned To":"Dinesh"
     },
     {
@@ -3682,8 +3696,8 @@
         "Assigned To":"Vivek"
     },
     {
-        "TestRunStatus":"INPROGRESS",
-        "ExecutionDate":"2025-06-09",
+        "TestRunStatus":"PASSED",
+        "ExecutionDate":"2025-06-10",
         "Document Key":"KCE-TSTRN-3962354",
         "Name":"OEO - Group Evacuation test mode",
         "Assigned To":"Vivek"
@@ -3693,6 +3707,13 @@
         "ExecutionDate":"2025-05-29",
         "Document Key":"KCE-TSTRN-3954679",
         "Name":"OEO - Landing Signalization with DG display",
+        "Assigned To":"Vivek"
+    },
+    {
+        "TestRunStatus":"INPROGRESS",
+        "ExecutionDate":"2025-06-10",
+        "Document Key":"KCE-TSTRN-3962352",
+        "Name":"OEO - Strategy - OEO A & B",
         "Assigned To":"Vivek"
     },
     {
@@ -4495,7 +4516,7 @@
     },
     {
         "TestRunStatus":"INPROGRESS",
-        "ExecutionDate":"2025-06-09",
+        "ExecutionDate":"2025-06-10",
         "Document Key":"KCE-TSTRN-3963017",
         "Name":"PIO - Car - 12 floors - Dot matrix Display",
         "Assigned To":"Suryanarayanan"
