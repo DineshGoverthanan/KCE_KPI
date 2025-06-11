@@ -77,3 +77,5 @@ KCE-SWBUG-5982,AMD D200 - Learning function is not working with AMC ,Shrividhya,
 KCE-SWBUG-5984,AMD D200 - Doors are operative with AMC when the elevator mode is in RDF Mode ,Shrividhya,"KCE 16.6.3.24(LD: 16.6.1.16, GCD: 16.6.62) + D200_25.22.4.0 + AMC 4.6.237.6968",2025-06-09
 KCE-SWBUG-5985,AMD D200 - Open command input is not active when the AMC is disconnected from Door while door is in open state ,Shrividhya,"KCE 16.6.3.24(LD: 16.6.1.16, GCD: 16.6.62) + D200_25.22.4.0 + AMC 4.6.237.6968",2025-06-09
 KCE-SWBUG-5988,"E-Link NXT 0.0.31- In RDF mode, the Lift status displays SRV in green, but it should be different colour",Jagadeesh,0.0.31,
+KCE-SWBUG-5990,AMD D200 - Random Disconnection During SW Update via AMC,Shrividhya,"KCE 16.6.3.24(LD: 16.6.1.16, GCD: 16.6.62) + D200_25.22.4.0 + AMC 4.6.237.6968",2025-06-10
+KCE-SWBUG-5991,16.10 - KCEDCS - The lifts automatically exited OSS mode after a power cycle (without battery disconnection) which was reserved via xDOP.,Vivek,"KCE 16.10.0.100(LD: 16.10.0.23, GCD: 16.10.10.13)",2025-06-09

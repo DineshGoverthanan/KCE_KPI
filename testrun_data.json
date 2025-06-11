@@ -1,7 +1,7 @@
 [
     {
         "TestRunStatus":"INPROGRESS",
-        "ExecutionDate":"2025-06-10",
+        "ExecutionDate":"2025-06-11",
         "Document Key":"KCE-TSTRN-3965357",
         "Name":"AMD D200 - Basic - Closing",
         "Assigned To":"Shrividhya"
@@ -4593,6 +4593,13 @@
     },
     {
         "TestRunStatus":"PASSED",
+        "ExecutionDate":"2025-06-11",
+        "Document Key":"KCE-TSTRN-3963053",
+        "Name":"6. Car door contact bypass switch active - Indications\u00a0",
+        "Assigned To":"ARUN KUMAR"
+    },
+    {
+        "TestRunStatus":"PASSED",
         "ExecutionDate":"2025-06-10",
         "Document Key":"KCE-TSTRN-3963054",
         "Name":"12. Car door contact Bypass switch active - Door operation with inspection mode\u00a0\u00a0",
@@ -4606,39 +4613,53 @@
         "Assigned To":"ARUN KUMAR"
     },
     {
-        "TestRunStatus":"INPROGRESS",
-        "ExecutionDate":"2025-06-04",
+        "TestRunStatus":"PASSED",
+        "ExecutionDate":"2025-06-11",
+        "Document Key":"KCE-TSTRN-3963058",
+        "Name":"2. Both Door contact Bypass switch active - normal with door opening\u00a0",
+        "Assigned To":"ARUN KUMAR"
+    },
+    {
+        "TestRunStatus":"PASSED",
+        "ExecutionDate":"2025-06-11",
+        "Document Key":"KCE-TSTRN-3963059",
+        "Name":"3. Both Door contact Bypass switch active - normal with door Closing\u00a0",
+        "Assigned To":"ARUN KUMAR"
+    },
+    {
+        "TestRunStatus":"PASSED",
+        "ExecutionDate":"2025-06-11",
         "Document Key":"KCE-TSTRN-3963060",
         "Name":"4. Both Door contact Bypass switch active - DOB operation\u00a0\u00a0",
-        "Assigned To":"Shrividhya"
+        "Assigned To":"ARUN KUMAR"
     },
     {
-        "TestRunStatus":"INPROGRESS",
-        "ExecutionDate":"2025-06-04",
+        "TestRunStatus":"PASSED",
+        "ExecutionDate":"2025-06-11",
         "Document Key":"KCE-TSTRN-3963061",
         "Name":"4.1. Both Door contact Bypass switch active - Door open operation via service tools",
-        "Assigned To":"Shrividhya"
+        "Assigned To":"ARUN KUMAR"
     },
     {
-        "TestRunStatus":"INPROGRESS",
-        "ExecutionDate":"2025-06-04",
+        "TestRunStatus":"PASSED",
+        "ExecutionDate":"2025-06-11",
         "Document Key":"KCE-TSTRN-3963062",
         "Name":"4.2. Both Door contact Bypass switch active - Door close operation via service tools",
-        "Assigned To":"Shrividhya"
+        "Assigned To":"ARUN KUMAR"
     },
     {
-        "TestRunStatus":"INPROGRESS",
-        "ExecutionDate":"2025-06-04",
+        "TestRunStatus":"PASSED",
+        "ExecutionDate":"2025-06-11",
         "Document Key":"KCE-TSTRN-3963063",
         "Name":"5. Both door contact bypass switch active - Reopen device operation\u00a0",
-        "Assigned To":"Shrividhya"
+        "Assigned To":"ARUN KUMAR"
     },
     {
-        "TestRunStatus":"INPROGRESS",
-        "ExecutionDate":"2025-06-04",
+        "TestRunStatus":"PASSED",
+        "ExecutionDate":"2025-06-11",
         "Document Key":"KCE-TSTRN-3963064",
         "Name":"12. Both door contact Bypass switch active - Fault codes verification UI\u00a0\u00a0",
-        "Assigned To":"Shrividhya"
+        "Assigned To":"ARUN KUMAR"
     },
     {
         "TestRunStatus":"PASSED",
