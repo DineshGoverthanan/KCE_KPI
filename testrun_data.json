@@ -406,6 +406,20 @@
         "Assigned To":"Veeramanikandan"
     },
     {
+        "TestRunStatus":"FAILED",
+        "ExecutionDate":"2025-06-10",
+        "Document Key":"KCE-TSTRN-3965334",
+        "Name":"1. Accessing Shaft View from Dashboard via traffic view",
+        "Assigned To":"Jagadeesh"
+    },
+    {
+        "TestRunStatus":"FAILED",
+        "ExecutionDate":"2025-06-10",
+        "Document Key":"KCE-TSTRN-3965335",
+        "Name":"2. Display of Elevator Status on shaft view",
+        "Assigned To":"Jagadeesh"
+    },
+    {
         "TestRunStatus":"INPROGRESS",
         "ExecutionDate":"2025-02-03",
         "Document Key":"KCE-TSTRN-3800286",
@@ -4515,10 +4529,17 @@
         "Assigned To":"Suryanarayanan"
     },
     {
-        "TestRunStatus":"INPROGRESS",
+        "TestRunStatus":"PASSED",
         "ExecutionDate":"2025-06-10",
         "Document Key":"KCE-TSTRN-3963017",
         "Name":"PIO - Car - 12 floors - Dot matrix Display",
+        "Assigned To":"Suryanarayanan"
+    },
+    {
+        "TestRunStatus":"PASSED",
+        "ExecutionDate":"2025-06-10",
+        "Document Key":"KCE-TSTRN-3963018",
+        "Name":"PIO - Car - 12 floors - Seven segment Display",
         "Assigned To":"Suryanarayanan"
     },
     {
@@ -4543,8 +4564,8 @@
         "Assigned To":"ARUN KUMAR"
     },
     {
-        "TestRunStatus":"INPROGRESS",
-        "ExecutionDate":"2025-06-09",
+        "TestRunStatus":"PASSED",
+        "ExecutionDate":"2025-06-10",
         "Document Key":"KCE-TSTRN-3963049",
         "Name":"12. Landing Door contact Bypass switch active - Door operation with inspection mode ",
         "Assigned To":"ARUN KUMAR"
@@ -4554,6 +4575,34 @@
         "ExecutionDate":"2025-06-09",
         "Document Key":"KCE-TSTRN-3963050",
         "Name":"14. Landing Door contact Bypass switch active - Fault codes verification UI",
+        "Assigned To":"ARUN KUMAR"
+    },
+    {
+        "TestRunStatus":"PASSED",
+        "ExecutionDate":"2025-06-10",
+        "Document Key":"KCE-TSTRN-3963051",
+        "Name":"4.1. Car Door contact Bypass switch active - Door open operation via service tools",
+        "Assigned To":"ARUN KUMAR"
+    },
+    {
+        "TestRunStatus":"PASSED",
+        "ExecutionDate":"2025-06-10",
+        "Document Key":"KCE-TSTRN-3963052",
+        "Name":"4.2. Car Door contact Bypass switch active - Door close operation via service tools",
+        "Assigned To":"ARUN KUMAR"
+    },
+    {
+        "TestRunStatus":"PASSED",
+        "ExecutionDate":"2025-06-10",
+        "Document Key":"KCE-TSTRN-3963054",
+        "Name":"12. Car door contact Bypass switch active - Door operation with inspection mode\u00a0\u00a0",
+        "Assigned To":"ARUN KUMAR"
+    },
+    {
+        "TestRunStatus":"PASSED",
+        "ExecutionDate":"2025-06-10",
+        "Document Key":"KCE-TSTRN-3963055",
+        "Name":"14. Car door contact Bypass switch active - Fault codes verification UI\u00a0",
         "Assigned To":"ARUN KUMAR"
     },
     {
