@@ -85,3 +85,4 @@ KCE-SWBUG-6000,E-link NXT_0.0.31- The Traffic View does not show the elevator lo
 KCE-SWBUG-6001,16.10 - KCEDCS - The Network view β button not working in the SM UI,Vivek,"KCE 16.10.0.100(LD: 16.10.0.23, GCD: 16.10.10.13)",2025-06-10
 KCE-SWBUG-6005,E-link NXT-0.0.31-The Landing call indication is not visible.,Jagadeesh,0.0.31,
 KCE-SWBUG-6006,E-link_NXT-0.0.31 - The Elevator Next stop indication not even working during Landing calls.,Jagadeesh,,
+KCE-SWBUG-6012,16.10 - KCEDCS - OEO B - The xDOP displays the evacuation message instead of the fire message,Vivek,"KCE 16.10.0.100(LD: 16.10.0.23, GCD: 16.10.10.13)",2025-06-10

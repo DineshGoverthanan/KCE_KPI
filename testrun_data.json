@@ -1,7 +1,7 @@
 [
     {
         "TestRunStatus":"INPROGRESS",
-        "ExecutionDate":"2025-06-11",
+        "ExecutionDate":"2025-06-12",
         "Document Key":"KCE-TSTRN-3965357",
         "Name":"AMD D200 - Basic - Closing",
         "Assigned To":"Shrividhya"
@@ -452,6 +452,13 @@
         "ExecutionDate":"2025-06-12",
         "Document Key":"KCE-TSTRN-3965340",
         "Name":"7.Test Case: Display of Next Elevator Stop",
+        "Assigned To":"Jagadeesh"
+    },
+    {
+        "TestRunStatus":"PASSED",
+        "ExecutionDate":"2025-06-12",
+        "Document Key":"KCE-TSTRN-3965341",
+        "Name":"8.Test Case: Display of Door Open\/Close Indication in TTC floor after Serving Car Call",
         "Assigned To":"Jagadeesh"
     },
     {
