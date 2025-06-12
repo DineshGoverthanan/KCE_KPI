@@ -79,3 +79,6 @@ KCE-SWBUG-5985,AMD D200 - Open command input is not active when the AMC is disco
 KCE-SWBUG-5988,"E-Link NXT 0.0.31- In RDF mode, the Lift status displays SRV in green, but it should be different colour",Jagadeesh,0.0.31,
 KCE-SWBUG-5990,AMD D200 - Random Disconnection During SW Update via AMC,Shrividhya,"KCE 16.6.3.24(LD: 16.6.1.16, GCD: 16.6.62) + D200_25.22.4.0 + AMC 4.6.237.6968",2025-06-10
 KCE-SWBUG-5991,16.10 - KCEDCS - The lifts automatically exited OSS mode after a power cycle (without battery disconnection) which was reserved via xDOP.,Vivek,"KCE 16.10.0.100(LD: 16.10.0.23, GCD: 16.10.10.13)",2025-06-09
+KCE-SWBUG-5998,"16.10 - DOE - CAR Buzzer keeps shouting even when RDF is enabled, Randomly",Suryanarayanan,"KCE 16.10.0.100(LD: 16.10.0.23, GCD: 16.10.10.13)",2025-06-10
+KCE-SWBUG-5999,E-link NXT_0.0.31- The Elevator name overflows outside the specified box.,Jagadeesh,0.0.31,
+KCE-SWBUG-6000,E-link NXT_0.0.31- The Traffic View does not show the elevator load value.,Jagadeesh,0.0.31,

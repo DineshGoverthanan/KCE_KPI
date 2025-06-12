@@ -420,6 +420,20 @@
         "Assigned To":"Jagadeesh"
     },
     {
+        "TestRunStatus":"FAILED",
+        "ExecutionDate":"2025-06-11",
+        "Document Key":"KCE-TSTRN-3965336",
+        "Name":"3.Display of Elevator Name in Shaft View",
+        "Assigned To":"Jagadeesh"
+    },
+    {
+        "TestRunStatus":"FAILED",
+        "ExecutionDate":"2025-06-11",
+        "Document Key":"KCE-TSTRN-3965337",
+        "Name":"4.Display of Elevator Load Percentage in Shaft View",
+        "Assigned To":"Jagadeesh"
+    },
+    {
         "TestRunStatus":"INPROGRESS",
         "ExecutionDate":"2025-02-03",
         "Document Key":"KCE-TSTRN-3800286",
@@ -3739,6 +3753,20 @@
     },
     {
         "TestRunStatus":"INPROGRESS",
+        "ExecutionDate":"2025-06-11",
+        "Document Key":"KCE-TSTRN-3962355",
+        "Name":"OEO - Car Signalization & ACU",
+        "Assigned To":"Vivek"
+    },
+    {
+        "TestRunStatus":"PASSED",
+        "ExecutionDate":"2025-06-11",
+        "Document Key":"KCE-TSTRN-3962348",
+        "Name":"OEO A strategy and Group total building evacuation",
+        "Assigned To":"Vivek"
+    },
+    {
+        "TestRunStatus":"INPROGRESS",
         "ExecutionDate":"2025-05-12",
         "Document Key":"KCE-TSTRN-3940291",
         "Name":"FCC C - False Car call Cancel - By counting Stops - Tests not included into TA",
@@ -4543,6 +4571,20 @@
         "Assigned To":"Suryanarayanan"
     },
     {
+        "TestRunStatus":"INPROGRESS",
+        "ExecutionDate":"2025-06-11",
+        "Document Key":"KCE-TSTRN-3963036",
+        "Name":"Voltage Monitoring on KCECPUc board",
+        "Assigned To":"Priyavalli"
+    },
+    {
+        "TestRunStatus":"INPROGRESS",
+        "ExecutionDate":"2025-06-11",
+        "Document Key":"KCE-TSTRN-3963037",
+        "Name":"Basic Functions - Elevator vacant - Tests not included into TA",
+        "Assigned To":"Priyavalli"
+    },
+    {
         "TestRunStatus":"PASSED",
         "ExecutionDate":"2025-06-09",
         "Document Key":"KCE-TSTRN-3963046",
@@ -4575,7 +4617,7 @@
         "ExecutionDate":"2025-06-09",
         "Document Key":"KCE-TSTRN-3963050",
         "Name":"14. Landing Door contact Bypass switch active - Fault codes verification UI",
-        "Assigned To":"ARUN KUMAR"
+        "Assigned To":"Priyavalli"
     },
     {
         "TestRunStatus":"PASSED",
