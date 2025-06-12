@@ -414,23 +414,44 @@
     },
     {
         "TestRunStatus":"FAILED",
-        "ExecutionDate":"2025-06-10",
+        "ExecutionDate":"2025-06-12",
         "Document Key":"KCE-TSTRN-3965335",
         "Name":"2. Display of Elevator Status on shaft view",
         "Assigned To":"Jagadeesh"
     },
     {
         "TestRunStatus":"FAILED",
-        "ExecutionDate":"2025-06-11",
+        "ExecutionDate":"2025-06-12",
         "Document Key":"KCE-TSTRN-3965336",
         "Name":"3.Display of Elevator Name in Shaft View",
         "Assigned To":"Jagadeesh"
     },
     {
         "TestRunStatus":"FAILED",
-        "ExecutionDate":"2025-06-11",
+        "ExecutionDate":"2025-06-12",
         "Document Key":"KCE-TSTRN-3965337",
         "Name":"4.Display of Elevator Load Percentage in Shaft View",
+        "Assigned To":"Jagadeesh"
+    },
+    {
+        "TestRunStatus":"PASSED",
+        "ExecutionDate":"2025-06-12",
+        "Document Key":"KCE-TSTRN-3965338",
+        "Name":"5.Display of Elevator Position on Current Floor.",
+        "Assigned To":"Jagadeesh"
+    },
+    {
+        "TestRunStatus":"PASSED",
+        "ExecutionDate":"2025-06-12",
+        "Document Key":"KCE-TSTRN-3965339",
+        "Name":"6.Test Case: Display of Elevator Car Direction",
+        "Assigned To":"Jagadeesh"
+    },
+    {
+        "TestRunStatus":"FAILED",
+        "ExecutionDate":"2025-06-12",
+        "Document Key":"KCE-TSTRN-3965340",
+        "Name":"7.Test Case: Display of Next Elevator Stop",
         "Assigned To":"Jagadeesh"
     },
     {
@@ -3766,6 +3787,34 @@
         "Assigned To":"Vivek"
     },
     {
+        "TestRunStatus":"PASSED",
+        "ExecutionDate":"2025-06-12",
+        "Document Key":"KCE-TSTRN-3962332",
+        "Name":"GEA activation when both lifts is in idle mode:",
+        "Assigned To":"Vivek"
+    },
+    {
+        "TestRunStatus":"PASSED",
+        "ExecutionDate":"2025-06-12",
+        "Document Key":"KCE-TSTRN-3962333",
+        "Name":"Multiple landing calls and GEA activation while moving (Cancel all existing calls: False)",
+        "Assigned To":"Vivek"
+    },
+    {
+        "TestRunStatus":"PASSED",
+        "ExecutionDate":"2025-06-12",
+        "Document Key":"KCE-TSTRN-3962334",
+        "Name":"Multiple landing calls and GEA activation while moving (Cancel all existing calls: True)",
+        "Assigned To":"Vivek"
+    },
+    {
+        "TestRunStatus":"PASSED",
+        "ExecutionDate":"2025-06-12",
+        "Document Key":"KCE-TSTRN-3962335",
+        "Name":"Landing call serves while decelerating when activate the GEA",
+        "Assigned To":"Vivek"
+    },
+    {
         "TestRunStatus":"INPROGRESS",
         "ExecutionDate":"2025-05-12",
         "Document Key":"KCE-TSTRN-3940291",
@@ -4571,6 +4620,27 @@
         "Assigned To":"Suryanarayanan"
     },
     {
+        "TestRunStatus":"PASSED",
+        "ExecutionDate":"2025-06-12",
+        "Document Key":"KCE-TSTRN-3963019",
+        "Name":"PIO - Car - 6 floors - Analog Display",
+        "Assigned To":"Suryanarayanan"
+    },
+    {
+        "TestRunStatus":"PASSED",
+        "ExecutionDate":"2025-06-12",
+        "Document Key":"KCE-TSTRN-3963020",
+        "Name":"PIO - Car - 6 floors - Dot matrix Display",
+        "Assigned To":"Suryanarayanan"
+    },
+    {
+        "TestRunStatus":"PASSED",
+        "ExecutionDate":"2025-06-12",
+        "Document Key":"KCE-TSTRN-3963021",
+        "Name":"PIO - Car - 6 floors - Seven segment Display",
+        "Assigned To":"Suryanarayanan"
+    },
+    {
         "TestRunStatus":"INPROGRESS",
         "ExecutionDate":"2025-06-11",
         "Document Key":"KCE-TSTRN-3963036",
@@ -4578,8 +4648,8 @@
         "Assigned To":"Priyavalli"
     },
     {
-        "TestRunStatus":"INPROGRESS",
-        "ExecutionDate":"2025-06-11",
+        "TestRunStatus":"PASSED",
+        "ExecutionDate":"2025-06-12",
         "Document Key":"KCE-TSTRN-3963037",
         "Name":"Basic Functions - Elevator vacant - Tests not included into TA",
         "Assigned To":"Priyavalli"
@@ -4652,6 +4722,13 @@
         "ExecutionDate":"2025-06-10",
         "Document Key":"KCE-TSTRN-3963055",
         "Name":"14. Car door contact Bypass switch active - Fault codes verification UI\u00a0",
+        "Assigned To":"ARUN KUMAR"
+    },
+    {
+        "TestRunStatus":"INPROGRESS",
+        "ExecutionDate":"2025-06-12",
+        "Document Key":"KCE-TSTRN-3963056",
+        "Name":"16. Car Door contact Bypass switch active - Close end signal monitoring\u00a0",
         "Assigned To":"ARUN KUMAR"
     },
     {

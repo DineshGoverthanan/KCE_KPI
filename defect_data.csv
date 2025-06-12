@@ -82,3 +82,6 @@ KCE-SWBUG-5991,16.10 - KCEDCS - The lifts automatically exited OSS mode after a 
 KCE-SWBUG-5998,"16.10 - DOE - CAR Buzzer keeps shouting even when RDF is enabled, Randomly",Suryanarayanan,"KCE 16.10.0.100(LD: 16.10.0.23, GCD: 16.10.10.13)",2025-06-10
 KCE-SWBUG-5999,E-link NXT_0.0.31- The Elevator name overflows outside the specified box.,Jagadeesh,0.0.31,
 KCE-SWBUG-6000,E-link NXT_0.0.31- The Traffic View does not show the elevator load value.,Jagadeesh,0.0.31,
+KCE-SWBUG-6001,16.10 - KCEDCS - The Network view β button not working in the SM UI,Vivek,"KCE 16.10.0.100(LD: 16.10.0.23, GCD: 16.10.10.13)",2025-06-10
+KCE-SWBUG-6005,E-link NXT-0.0.31-The Landing call indication is not visible.,Jagadeesh,0.0.31,
+KCE-SWBUG-6006,E-link_NXT-0.0.31 - The Elevator Next stop indication not even working during Landing calls.,Jagadeesh,,
