@@ -4831,6 +4831,20 @@
     },
     {
         "TestRunStatus":"PASSED",
+        "ExecutionDate":"2025-06-13",
+        "Document Key":"KCE-TSTRN-3963067",
+        "Name":"3. DMI - Car and Landing Display function during EPD mode",
+        "Assigned To":"ARUN KUMAR"
+    },
+    {
+        "TestRunStatus":"PASSED",
+        "ExecutionDate":"2025-06-13",
+        "Document Key":"KCE-TSTRN-3963069",
+        "Name":"5. DMI - Car and Landing display operation when test switch active",
+        "Assigned To":"ARUN KUMAR"
+    },
+    {
+        "TestRunStatus":"PASSED",
         "ExecutionDate":"2025-06-04",
         "Document Key":"KCE-TSTRN-3963094",
         "Name":"Parameter setting",
