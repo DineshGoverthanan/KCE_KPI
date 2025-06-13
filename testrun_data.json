@@ -4649,6 +4649,20 @@
     },
     {
         "TestRunStatus":"INPROGRESS",
+        "ExecutionDate":"2025-06-12",
+        "Document Key":"KCE-TSTRN-3963029",
+        "Name":"PIO - Landing - 7 floors - Analog Display - DC or PB",
+        "Assigned To":"Suryanarayanan"
+    },
+    {
+        "TestRunStatus":"INPROGRESS",
+        "ExecutionDate":"2025-06-12",
+        "Document Key":"KCE-TSTRN-3963030",
+        "Name":"PIO - Landing - 7 floors - Dot Matrix Display - DC or PB",
+        "Assigned To":"Suryanarayanan"
+    },
+    {
+        "TestRunStatus":"INPROGRESS",
         "ExecutionDate":"2025-06-11",
         "Document Key":"KCE-TSTRN-3963036",
         "Name":"Voltage Monitoring on KCECPUc board",
