@@ -1,9 +1,23 @@
 [
     {
-        "TestRunStatus":"INPROGRESS",
-        "ExecutionDate":"2025-06-12",
+        "TestRunStatus":"PASSED",
+        "ExecutionDate":"2025-06-13",
         "Document Key":"KCE-TSTRN-3965357",
         "Name":"AMD D200 - Basic - Closing",
+        "Assigned To":"Shrividhya"
+    },
+    {
+        "TestRunStatus":"INPROGRESS",
+        "ExecutionDate":"2025-06-13",
+        "Document Key":"KCE-TSTRN-3965358",
+        "Name":"AMD D200 - Basic - Elevator moving and standing",
+        "Assigned To":"Shrividhya"
+    },
+    {
+        "TestRunStatus":"INPROGRESS",
+        "ExecutionDate":"2025-06-13",
+        "Document Key":"KCE-TSTRN-3965359",
+        "Name":"AMD D200 - Basic - Opening",
         "Assigned To":"Shrividhya"
     },
     {
@@ -4648,15 +4662,15 @@
         "Assigned To":"Suryanarayanan"
     },
     {
-        "TestRunStatus":"INPROGRESS",
-        "ExecutionDate":"2025-06-12",
+        "TestRunStatus":"PASSED",
+        "ExecutionDate":"2025-06-13",
         "Document Key":"KCE-TSTRN-3963029",
         "Name":"PIO - Landing - 7 floors - Analog Display - DC or PB",
         "Assigned To":"Suryanarayanan"
     },
     {
         "TestRunStatus":"INPROGRESS",
-        "ExecutionDate":"2025-06-12",
+        "ExecutionDate":"2025-06-13",
         "Document Key":"KCE-TSTRN-3963030",
         "Name":"PIO - Landing - 7 floors - Dot Matrix Display - DC or PB",
         "Assigned To":"Suryanarayanan"
@@ -4670,9 +4684,16 @@
     },
     {
         "TestRunStatus":"PASSED",
-        "ExecutionDate":"2025-06-12",
+        "ExecutionDate":"2025-06-13",
         "Document Key":"KCE-TSTRN-3963037",
         "Name":"Basic Functions - Elevator vacant - Tests not included into TA",
+        "Assigned To":"Priyavalli"
+    },
+    {
+        "TestRunStatus":"FAILED",
+        "ExecutionDate":"2025-06-13",
+        "Document Key":"KCE-TSTRN-3963045",
+        "Name":"Safety Bypass using all the four SB1-SB4 Jumper",
         "Assigned To":"Priyavalli"
     },
     {
@@ -4799,6 +4820,13 @@
         "ExecutionDate":"2025-06-11",
         "Document Key":"KCE-TSTRN-3963064",
         "Name":"12. Both door contact Bypass switch active - Fault codes verification UI\u00a0\u00a0",
+        "Assigned To":"ARUN KUMAR"
+    },
+    {
+        "TestRunStatus":"PASSED",
+        "ExecutionDate":"2025-06-13",
+        "Document Key":"KCE-TSTRN-3963065",
+        "Name":"1. DMI _ Parameter setting",
         "Assigned To":"ARUN KUMAR"
     },
     {
