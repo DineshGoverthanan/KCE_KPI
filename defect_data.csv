@@ -86,3 +86,8 @@ KCE-SWBUG-6001,16.10 - KCEDCS - The Network view β button not working in the SM
 KCE-SWBUG-6005,E-link NXT-0.0.31-The Landing call indication is not visible.,Jagadeesh,0.0.31,
 KCE-SWBUG-6006,E-link_NXT-0.0.31 - The Elevator Next stop indication not even working during Landing calls.,Jagadeesh,,
 KCE-SWBUG-6012,16.10 - KCEDCS - OEO B - The xDOP displays the evacuation message instead of the fire message,Vivek,"KCE 16.10.0.100(LD: 16.10.0.23, GCD: 16.10.10.13)",2025-06-10
+KCE-SWBUG-6021,E-Link_NXT: The 'Next Stop' indication doesn't seem to be working properly during a car call.,Jagadeesh,0.0.31,
+KCE-SWBUG-6024,E-Link_NXT: Display of Door open & close indication not working properly in 'B' in side door.,Jagadeesh,0.0.31,
+KCE-SWBUG-6028,"E-Link_NXT: The Car call registered, but the notification did not pop up.",Jagadeesh,0.0.31,
+KCE-SWBUG-6031,"AMD D200 - The door is reopening , if the CFL apply when the door is open more than 75 % ",Shrividhya,"KCE 16.6.3.24(LD: 16.6.1.16, GCD: 16.6.62) + D200_25.22.4.0 + AMC 4.6.237.6968",2025-06-12
+KCE-SWBUG-6032,"E-Link_NXT: When the elevator is in correction drive, the lift status always shows as normal 'NOR.",Jagadeesh,0.0.31,2025-06-12
