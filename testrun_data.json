@@ -4746,6 +4746,13 @@
         "Assigned To":"Priyavalli"
     },
     {
+        "TestRunStatus":"INPROGRESS",
+        "ExecutionDate":"2025-06-16",
+        "Document Key":"KCE-TSTRN-3963041",
+        "Name":"Safety Bypass using SB1 Jumper - DOB \/DCB via service tools",
+        "Assigned To":"Priyavalli"
+    },
+    {
         "TestRunStatus":"FAILED",
         "ExecutionDate":"2025-06-13",
         "Document Key":"KCE-TSTRN-3963045",
@@ -4781,8 +4788,8 @@
         "Assigned To":"ARUN KUMAR"
     },
     {
-        "TestRunStatus":"PASSED",
-        "ExecutionDate":"2025-06-09",
+        "TestRunStatus":"INPROGRESS",
+        "ExecutionDate":"2025-06-16",
         "Document Key":"KCE-TSTRN-3963050",
         "Name":"14. Landing Door contact Bypass switch active - Fault codes verification UI",
         "Assigned To":"Priyavalli"
