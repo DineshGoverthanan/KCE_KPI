@@ -22,14 +22,14 @@
     },
     {
         "TestRunStatus":"FAILED",
-        "ExecutionDate":"2025-06-13",
+        "ExecutionDate":"2025-06-16",
         "Document Key":"KCE-TSTRN-3965360",
         "Name":"AMD D200 - Basic - Reopening",
         "Assigned To":"Shrividhya"
     },
     {
-        "TestRunStatus":"INPROGRESS",
-        "ExecutionDate":"2025-06-13",
+        "TestRunStatus":"FAILED",
+        "ExecutionDate":"2025-06-16",
         "Document Key":"KCE-TSTRN-3965361",
         "Name":"AMD D200 - Close force limiter",
         "Assigned To":"Shrividhya"
@@ -515,6 +515,13 @@
         "ExecutionDate":"2025-06-13",
         "Document Key":"KCE-TSTRN-3965344",
         "Name":"11. Display of Priority Call Dialog on Right-Click in Shaft View",
+        "Assigned To":"Jagadeesh"
+    },
+    {
+        "TestRunStatus":"FAILED",
+        "ExecutionDate":"2025-06-16",
+        "Document Key":"KCE-TSTRN-3965349",
+        "Name":"16.Display of Shaft View Structure and Floor Representation",
         "Assigned To":"Jagadeesh"
     },
     {
@@ -4725,8 +4732,8 @@
         "Assigned To":"Suryanarayanan"
     },
     {
-        "TestRunStatus":"INPROGRESS",
-        "ExecutionDate":"2025-06-13",
+        "TestRunStatus":"PASSED",
+        "ExecutionDate":"2025-06-16",
         "Document Key":"KCE-TSTRN-3963030",
         "Name":"PIO - Landing - 7 floors - Dot Matrix Display - DC or PB",
         "Assigned To":"Suryanarayanan"
@@ -4743,6 +4750,27 @@
         "ExecutionDate":"2025-06-13",
         "Document Key":"KCE-TSTRN-3963037",
         "Name":"Basic Functions - Elevator vacant - Tests not included into TA",
+        "Assigned To":"Priyavalli"
+    },
+    {
+        "TestRunStatus":"PASSED",
+        "ExecutionDate":"2025-06-16",
+        "Document Key":"KCE-TSTRN-3963038",
+        "Name":"Safety Bypass Indication- Buzzer is Continuous and Light ON & OFF on 1S frequency in Maintenance mode",
+        "Assigned To":"Priyavalli"
+    },
+    {
+        "TestRunStatus":"FAILED",
+        "ExecutionDate":"2025-06-16",
+        "Document Key":"KCE-TSTRN-3963039",
+        "Name":"Safety Bypass Indication- Buzzer and Light is Continuous when elevator moving or not moving in Maintenance mode.",
+        "Assigned To":"Priyavalli"
+    },
+    {
+        "TestRunStatus":"FAILED",
+        "ExecutionDate":"2025-06-16",
+        "Document Key":"KCE-TSTRN-3963040",
+        "Name":"Safety Bypass Indication- Buzzer is Continuous and Light ON & OFF on 1S frequency when elevator moving or not moving in maintenance mode.",
         "Assigned To":"Priyavalli"
     },
     {
