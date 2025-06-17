@@ -14,8 +14,8 @@
         "Assigned To":"Shrividhya"
     },
     {
-        "TestRunStatus":"INPROGRESS",
-        "ExecutionDate":"2025-06-13",
+        "TestRunStatus":"PASSED",
+        "ExecutionDate":"2025-06-16",
         "Document Key":"KCE-TSTRN-3965359",
         "Name":"AMD D200 - Basic - Opening",
         "Assigned To":"Shrividhya"
@@ -515,6 +515,20 @@
         "ExecutionDate":"2025-06-13",
         "Document Key":"KCE-TSTRN-3965344",
         "Name":"11. Display of Priority Call Dialog on Right-Click in Shaft View",
+        "Assigned To":"Jagadeesh"
+    },
+    {
+        "TestRunStatus":"FAILED",
+        "ExecutionDate":"2025-06-16",
+        "Document Key":"KCE-TSTRN-3965346",
+        "Name":"13. Display of Destination Call Dialog on Right-Click in Shaft View",
+        "Assigned To":"Jagadeesh"
+    },
+    {
+        "TestRunStatus":"NOT_APPLICABLE",
+        "ExecutionDate":"2025-06-16",
+        "Document Key":"KCE-TSTRN-3965347",
+        "Name":"14. Display of Elevator Parking Dialog on Right-Click in Shaft View",
         "Assigned To":"Jagadeesh"
     },
     {
@@ -4739,8 +4753,8 @@
         "Assigned To":"Suryanarayanan"
     },
     {
-        "TestRunStatus":"INPROGRESS",
-        "ExecutionDate":"2025-06-11",
+        "TestRunStatus":"PASSED",
+        "ExecutionDate":"2025-06-16",
         "Document Key":"KCE-TSTRN-3963036",
         "Name":"Voltage Monitoring on KCECPUc board",
         "Assigned To":"Priyavalli"
@@ -4774,10 +4788,31 @@
         "Assigned To":"Priyavalli"
     },
     {
-        "TestRunStatus":"INPROGRESS",
+        "TestRunStatus":"PASSED",
         "ExecutionDate":"2025-06-16",
         "Document Key":"KCE-TSTRN-3963041",
         "Name":"Safety Bypass using SB1 Jumper - DOB \/DCB via service tools",
+        "Assigned To":"Priyavalli"
+    },
+    {
+        "TestRunStatus":"PASSED",
+        "ExecutionDate":"2025-06-16",
+        "Document Key":"KCE-TSTRN-3963042",
+        "Name":"Safety Bypass using SB2 Jumper - DOB\/DCB via service tools",
+        "Assigned To":"Priyavalli"
+    },
+    {
+        "TestRunStatus":"PASSED",
+        "ExecutionDate":"2025-06-16",
+        "Document Key":"KCE-TSTRN-3963043",
+        "Name":"Safety Bypass using SB3 Jumper - DOB \/ DCB via service tools",
+        "Assigned To":"Priyavalli"
+    },
+    {
+        "TestRunStatus":"PASSED",
+        "ExecutionDate":"2025-06-16",
+        "Document Key":"KCE-TSTRN-3963044",
+        "Name":"Safety Bypass using SB4 Jumper -DOB \/ DCB operation via service tools",
         "Assigned To":"Priyavalli"
     },
     {
