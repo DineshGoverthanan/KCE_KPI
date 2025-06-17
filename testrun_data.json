@@ -42,7 +42,7 @@
         "Assigned To":"Shrividhya"
     },
     {
-        "TestRunStatus":"INPROGRESS",
+        "TestRunStatus":"FAILED",
         "ExecutionDate":"2025-06-17",
         "Document Key":"KCE-TSTRN-3965366",
         "Name":"AMD D200 - Power breaks",
