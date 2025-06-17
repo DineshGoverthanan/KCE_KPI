@@ -96,3 +96,4 @@ KCE-SWBUG-6036,E-link_NXT: The floor marking is not reflected in the traffic vie
 KCE-SWBUG-6040,"E-Link_NXT: We were able to register a destination call on the dummy floor, and it was reflected in the command log.",Jagadeesh,,2025-06-15
 KCE-SWBUG-6044,16.10 - OPT/PIO - Fault 2032 Not Thrown when Two or More Identical DIP Boards are Connected,Suryanarayanan,"KCE 16.10.0.100(LD: 16.10.0.23, GCD: 16.10.10.13)",2025-06-15
 KCE-SWBUG-6045,E-Link_NXT: The Destination call doesn't work when we used with TTC and staggered floors,Jagadeesh,,2025-06-15
+KCE-SWBUG-6046,16.10 - PIO - Fault 2002 Data's Board Deck Value is not reflected correctly,Suryanarayanan,"KCE 16.10.0.100(LD: 16.10.0.23, GCD: 16.10.10.13)",2025-06-16

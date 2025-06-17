@@ -36,7 +36,14 @@
     },
     {
         "TestRunStatus":"INPROGRESS",
-        "ExecutionDate":"2025-06-16",
+        "ExecutionDate":"2025-06-17",
+        "Document Key":"KCE-TSTRN-3965363",
+        "Name":"AMD D200 - Door speed ",
+        "Assigned To":"Shrividhya"
+    },
+    {
+        "TestRunStatus":"INPROGRESS",
+        "ExecutionDate":"2025-06-17",
         "Document Key":"KCE-TSTRN-3965366",
         "Name":"AMD D200 - Power breaks",
         "Assigned To":"Shrividhya"
@@ -3899,6 +3906,13 @@
         "Assigned To":"Vivek"
     },
     {
+        "TestRunStatus":"PASSED",
+        "ExecutionDate":"2025-06-17",
+        "Document Key":"KCE-TSTRN-3962336",
+        "Name":"Door opens with Middle of the shaft when activate the GEA floor",
+        "Assigned To":"Vivek"
+    },
+    {
         "TestRunStatus":"INPROGRESS",
         "ExecutionDate":"2025-05-12",
         "Document Key":"KCE-TSTRN-3940291",
@@ -4996,6 +5010,13 @@
         "Document Key":"KCE-TSTRN-3963070",
         "Name":"6. DMI - Car and Landing display operation when elevator in stuck",
         "Assigned To":"ARUN KUMAR"
+    },
+    {
+        "TestRunStatus":"INPROGRESS",
+        "ExecutionDate":"2025-06-17",
+        "Document Key":"KCE-TSTRN-3963078",
+        "Name":"System use notification - ProManager",
+        "Assigned To":"Suryanarayanan"
     },
     {
         "TestRunStatus":"PASSED",
