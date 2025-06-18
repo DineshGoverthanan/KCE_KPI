@@ -98,3 +98,4 @@ KCE-SWBUG-6044,16.10 - OPT/PIO - Fault 2032 Not Thrown when Two or More Identica
 KCE-SWBUG-6045,E-Link_NXT: The Destination call doesn't work when we used with TTC and staggered floors,Jagadeesh,,2025-06-15
 KCE-SWBUG-6046,16.10 - PIO - Fault 2002 Data's Board Deck Value is not reflected correctly,Suryanarayanan,"KCE 16.10.0.100(LD: 16.10.0.23, GCD: 16.10.10.13)",2025-06-16
 KCE-SWBUG-6047,AMD D200 - After power up normal open & close speed is not happened ,Shrividhya,"KCE 16.6.3.24(LD: 16.6.1.16, GCD: 16.6.62) + D200_25.22.4.0 + AMC 4.6.237.6968",2025-06-16
+KCE-SWBUG-6053,E-Link_NXT:The PRC and ATS features are not functioning in the 'Change Mode' module within Shaft View.,Jagadeesh,,2025-06-16

@@ -36,9 +36,16 @@
     },
     {
         "TestRunStatus":"INPROGRESS",
-        "ExecutionDate":"2025-06-17",
+        "ExecutionDate":"2025-06-18",
         "Document Key":"KCE-TSTRN-3965363",
         "Name":"AMD D200 - Door speed ",
+        "Assigned To":"Shrividhya"
+    },
+    {
+        "TestRunStatus":"INPROGRESS",
+        "ExecutionDate":"2025-06-18",
+        "Document Key":"KCE-TSTRN-3965365",
+        "Name":"AMD D200 - Power save mode",
         "Assigned To":"Shrividhya"
     },
     {
@@ -518,8 +525,8 @@
         "Assigned To":"Jagadeesh"
     },
     {
-        "TestRunStatus":"INPROGRESS",
-        "ExecutionDate":"2025-06-13",
+        "TestRunStatus":"NOT_APPLICABLE",
+        "ExecutionDate":"2025-06-18",
         "Document Key":"KCE-TSTRN-3965344",
         "Name":"11. Display of Priority Call Dialog on Right-Click in Shaft View",
         "Assigned To":"Jagadeesh"
@@ -543,6 +550,13 @@
         "ExecutionDate":"2025-06-16",
         "Document Key":"KCE-TSTRN-3965347",
         "Name":"14. Display of Elevator Parking Dialog on Right-Click in Shaft View",
+        "Assigned To":"Jagadeesh"
+    },
+    {
+        "TestRunStatus":"PASSED",
+        "ExecutionDate":"2025-06-18",
+        "Document Key":"KCE-TSTRN-3965348",
+        "Name":"15. Display of Lock\/Unlock Page on Selecting Lock\/Unlock from Context Menu",
         "Assigned To":"Jagadeesh"
     },
     {
@@ -3917,6 +3931,20 @@
         "ExecutionDate":"2025-06-17",
         "Document Key":"KCE-TSTRN-3962336",
         "Name":"Door opens with Middle of the shaft when activate the GEA floor",
+        "Assigned To":"Vivek"
+    },
+    {
+        "TestRunStatus":"PASSED",
+        "ExecutionDate":"2025-06-18",
+        "Document Key":"KCE-TSTRN-3962337",
+        "Name":"Door opens with GEA floor when activate the GEA floor",
+        "Assigned To":"Vivek"
+    },
+    {
+        "TestRunStatus":"PASSED",
+        "ExecutionDate":"2025-06-18",
+        "Document Key":"KCE-TSTRN-3962338",
+        "Name":"Both GEA activation and MEEF Exit floor at same.",
         "Assigned To":"Vivek"
     },
     {
