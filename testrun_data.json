@@ -3948,6 +3948,13 @@
         "Assigned To":"Vivek"
     },
     {
+        "TestRunStatus":"PASSED",
+        "ExecutionDate":"2025-06-18",
+        "Document Key":"KCE-TSTRN-3962339",
+        "Name":"GEA activation when both lifts is in idle mode",
+        "Assigned To":"Vivek"
+    },
+    {
         "TestRunStatus":"INPROGRESS",
         "ExecutionDate":"2025-05-12",
         "Document Key":"KCE-TSTRN-3940291",
