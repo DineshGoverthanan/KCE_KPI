@@ -23,13 +23,6 @@
     {
         "TestRunStatus":"FAILED",
         "ExecutionDate":"2025-06-16",
-        "Document Key":"KCE-TSTRN-3965360",
-        "Name":"AMD D200 - Basic - Reopening",
-        "Assigned To":"Shrividhya"
-    },
-    {
-        "TestRunStatus":"FAILED",
-        "ExecutionDate":"2025-06-16",
         "Document Key":"KCE-TSTRN-3965361",
         "Name":"AMD D200 - Close force limiter",
         "Assigned To":"Shrividhya"
@@ -53,6 +46,13 @@
         "ExecutionDate":"2025-06-17",
         "Document Key":"KCE-TSTRN-3965366",
         "Name":"AMD D200 - Power breaks",
+        "Assigned To":"Shrividhya"
+    },
+    {
+        "TestRunStatus":"INPROGRESS",
+        "ExecutionDate":"2025-06-18",
+        "Document Key":"KCE-TSTRN-3965367",
+        "Name":"AMD D200 - Service buttons",
         "Assigned To":"Shrividhya"
     },
     {
@@ -511,8 +511,8 @@
         "Assigned To":"Jagadeesh"
     },
     {
-        "TestRunStatus":"PASSED",
-        "ExecutionDate":"2025-06-13",
+        "TestRunStatus":"FAILED",
+        "ExecutionDate":"2025-06-18",
         "Document Key":"KCE-TSTRN-3965342",
         "Name":"9. Visual Indication of Car Movement in Shaft View",
         "Assigned To":"Jagadeesh"
@@ -4806,6 +4806,20 @@
         "ExecutionDate":"2025-06-16",
         "Document Key":"KCE-TSTRN-3963030",
         "Name":"PIO - Landing - 7 floors - Dot Matrix Display - DC or PB",
+        "Assigned To":"Suryanarayanan"
+    },
+    {
+        "TestRunStatus":"PASSED",
+        "ExecutionDate":"2025-06-18",
+        "Document Key":"KCE-TSTRN-3963032",
+        "Name":"PIO - Landing - 7 floors - Seven segment Display - DC or PB",
+        "Assigned To":"Suryanarayanan"
+    },
+    {
+        "TestRunStatus":"PASSED",
+        "ExecutionDate":"2025-06-18",
+        "Document Key":"KCE-TSTRN-3963033",
+        "Name":"PIO - Landing - Non selective control for landing call buttons and displays - With DC",
         "Assigned To":"Suryanarayanan"
     },
     {
