@@ -29,7 +29,7 @@
     },
     {
         "TestRunStatus":"INPROGRESS",
-        "ExecutionDate":"2025-06-18",
+        "ExecutionDate":"2025-06-19",
         "Document Key":"KCE-TSTRN-3965363",
         "Name":"AMD D200 - Door speed ",
         "Assigned To":"Shrividhya"
@@ -49,8 +49,8 @@
         "Assigned To":"Shrividhya"
     },
     {
-        "TestRunStatus":"INPROGRESS",
-        "ExecutionDate":"2025-06-18",
+        "TestRunStatus":"PASSED",
+        "ExecutionDate":"2025-06-19",
         "Document Key":"KCE-TSTRN-3965367",
         "Name":"AMD D200 - Service buttons",
         "Assigned To":"Shrividhya"
@@ -4844,15 +4844,15 @@
         "Assigned To":"Priyavalli"
     },
     {
-        "TestRunStatus":"FAILED",
-        "ExecutionDate":"2025-06-16",
+        "TestRunStatus":"PASSED",
+        "ExecutionDate":"2025-06-19",
         "Document Key":"KCE-TSTRN-3963039",
         "Name":"Safety Bypass Indication- Buzzer and Light is Continuous when elevator moving or not moving in Maintenance mode.",
         "Assigned To":"Priyavalli"
     },
     {
-        "TestRunStatus":"FAILED",
-        "ExecutionDate":"2025-06-16",
+        "TestRunStatus":"PASSED",
+        "ExecutionDate":"2025-06-19",
         "Document Key":"KCE-TSTRN-3963040",
         "Name":"Safety Bypass Indication- Buzzer is Continuous and Light ON & OFF on 1S frequency when elevator moving or not moving in maintenance mode.",
         "Assigned To":"Priyavalli"
