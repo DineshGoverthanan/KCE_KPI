@@ -56,6 +56,20 @@
         "Assigned To":"Shrividhya"
     },
     {
+        "TestRunStatus":"INPROGRESS",
+        "ExecutionDate":"2025-06-19",
+        "Document Key":"KCE-TSTRN-3965368",
+        "Name":"AMD D200 - Close End signal stuck situation",
+        "Assigned To":"Shrividhya"
+    },
+    {
+        "TestRunStatus":"INPROGRESS",
+        "ExecutionDate":"2025-06-19",
+        "Document Key":"KCE-TSTRN-3965372",
+        "Name":"AMD D200 - Special",
+        "Assigned To":"Shrividhya"
+    },
+    {
         "TestRunStatus":"PASSED",
         "ExecutionDate":"2025-05-26",
         "Document Key":"KCE-TSTRN-3952426",
