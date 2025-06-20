@@ -3969,6 +3969,27 @@
         "Assigned To":"Vivek"
     },
     {
+        "TestRunStatus":"PASSED",
+        "ExecutionDate":"2025-06-19",
+        "Document Key":"KCE-TSTRN-3962340",
+        "Name":"Multiple landing calls and GEA activation while moving (Cancel all existing calls: False)",
+        "Assigned To":"Vivek"
+    },
+    {
+        "TestRunStatus":"PASSED",
+        "ExecutionDate":"2025-06-19",
+        "Document Key":"KCE-TSTRN-3962341",
+        "Name":"Multiple landing calls and GEA activation while moving (Cancel all existing calls: True)",
+        "Assigned To":"Vivek"
+    },
+    {
+        "TestRunStatus":"PASSED",
+        "ExecutionDate":"2025-06-19",
+        "Document Key":"KCE-TSTRN-3962324",
+        "Name":"Keypad COP button light and DIN operation when automatically generate car call.",
+        "Assigned To":"Vivek"
+    },
+    {
         "TestRunStatus":"INPROGRESS",
         "ExecutionDate":"2025-05-12",
         "Document Key":"KCE-TSTRN-3940291",
