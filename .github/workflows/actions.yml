@@ -5,10 +5,10 @@ on:
     branches:
       - main  # Change this to the branch you want to trigger the action on
   workflow_dispatch:  # Allows manual triggering
-  schedule:
-    - cron: '30 1 * * *'# Triggers the workflow daily at 07:00 am UTC
-    - cron: '30 7 * * *'# Triggers the workflow daily at 12:00 am UTC
-    - cron: '30 8 * * *'# Triggers the workflow daily at 02:00 am UTC
+#  schedule:
+#    - cron: '30 1 * * *'# Triggers the workflow daily at 07:00 am UTC
+#    - cron: '30 7 * * *'# Triggers the workflow daily at 12:00 am UTC
+#    - cron: '30 8 * * *'# Triggers the workflow daily at 02:00 am UTC
 
 permissions:
   contents: write  # Allow the workflow to push changes to the repository
