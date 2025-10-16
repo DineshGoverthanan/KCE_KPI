@@ -1,5 +1,6 @@
 Document Key,Name,Created By,Found in Build,Found On Date
 KCE-SWBUG-5615,16.4-DCBL GD- Speed is not reduced when the elevator reaches the lower limit during the NTS Buffer Test.,Jagadeesh,KCE16.4.92 (LD 16.4.1.11 and GCD 16.4.65) + DCBL 24.47sw,
+KCE-SWBUG-6553,"KCE NA - When MES activated during car call service, lift is unable to stop at the nearest floor.",Veeramanikandan,KCE 17.0.0.10,2025-09-02
 KCE-SWBUG-5081,16.8 - The emergency announcement in the ACU does not stop when the elevator starts moving.,Shrividhya,"KCE 16.8.2.19(LD: 16.8.2.4, GCD: 16.8.56)",2025-01-01
 KCE-SWBUG-5082,"16.8 - CPU - Parameter 1456 can't be set as ""2""",Suryanarayanan,"KCE 16.8.2.19(LD: 16.8.2.4, GCD: 16.8.56)",2025-01-01
 KCE-SWBUG-5107,PESSRAL4.2 - SSA-BiDi Feature - Landing call acceptance light is not blinking when person in car roof Detection reset,Veeramanikandan,16.10.0.5,2025-01-09
@@ -101,3 +102,142 @@ KCE-SWBUG-6047,AMD D200 - After power up normal open & close speed is not happen
 KCE-SWBUG-6053,E-Link_NXT:The PRC and ATS features are not functioning in the 'Change Mode' module within Shaft View.,Jagadeesh,,2025-06-16
 KCE-SWBUG-6063,E-Link_NXT :The visual indication of car movement (vertical line) does not work during a landing call,Jagadeesh,0.0.31,2025-06-17
 KCE-SWBUG-6072,16.10 - KCEDCS - OEO A - Next stops not working for GEA activated floors and evacuation zones,Vivek,"KCE 16.10.0.100(LD: 16.10.0.23, GCD: 16.10.10.13)",2025-06-18
+KCE-SWBUG-6078,"In EAQ mode, the status shows as 'Out of Service' on the Dashboard, but if we apply the filter as 'Normal', the elevator still appears",Jagadeesh,0.0.31,2025-06-19
+KCE-SWBUG-6082,E-Link_NXT: 'The 'Faults Report' doesn't seem to work properly,Jagadeesh,0.0.31,2025-06-22
+KCE-SWBUG-6084,16.10 - KCEDCS - OEO B - Elevator goes to evacuation mode when lift is in OSS mode,Vivek,"16.10.0.100(LD: 16.10.0.23, GCD: 16.10.10.13)",2025-06-19
+KCE-SWBUG-6085,E-link_NXT: The respective icon is not shown in the card view,Jagadeesh,0.0.31,2025-06-22
+KCE-SWBUG-6087,E-Link_NXT: The vertical line indication in the shaft view doesn't work during PAD return to the floor.,Jagadeesh,0.0.31,2025-06-22
+KCE-SWBUG-6088,E-Link_NXT: The Counting Error in Fault Reports,Jagadeesh,0.0.31,2025-06-22
+KCE-SWBUG-6092,"16.10 - KCEDCS - GCD software update successful, but Site manager puts fail message.",Vivek,"16.10.0.111(LD: 16.10.0.26, GCD: 16.10.20.3)",2025-06-23
+KCE-SWBUG-6100,E-Link_NXT: Switching to OSS mode via 'Change mode' results in inaccurate data being recorded in the command log,Jagadeesh,0.0.31,2025-06-23
+KCE-SWBUG-6105,16.10 - KCEDCS - Sitemanager puts continuous popups for a Router device.,Vivek,"16.10.0.111(LD: 16.10.0.26, GCD: 16.10.20.3)",2025-06-24
+KCE-SWBUG-6106,16.10 - KCOP - B side CAR Call Confirmation button allocates call to A Side,Suryanarayanan,"KCE 16.10.0.111(LD: 16.10.0.26, GCD: 16.10.20.3)",2025-06-24
+KCE-SWBUG-6109,E-Link_NXT: The 'Custom Display Name' automatically reverts to the default when we restart all containers.,Jagadeesh,0.0.31,2025-06-24
+KCE-SWBUG-6120,16.10 - ACU - Board Name is Missing in LON Network,Suryanarayanan,4.6.227.6966,2025-06-25
+KCE-SWBUG-6124,"E-Link_NXT: Disabling 'Settings, Traffic, and Reporting' is reflected in the master login.",Jagadeesh,0.0.31,2025-06-26
+KCE-SWBUG-6126,16.10 - ACU - Missing Fault #2009 is thrown when Upgrading to 16.10 from 16.2 ,Suryanarayanan,"KCE 16.10.0.111(LD: 16.10.0.26, GCD: 16.10.20.3)",2025-06-26
+KCE-SWBUG-6130,E-Link_NXT: 'Active Mode' doesn't show the correct elevator mode in 'Change Mode'.,Jagadeesh,0.0.31,2025-06-26
+KCE-SWBUG-6138,Typo in Parameter 1378's Description( decimal value is missing),Priyavalli,,2025-06-29
+KCE-SWBUG-6151,E-Link_NXT: Floor Index' and 'Floor Marking' are shuffled every time we log in to the portal,Jagadeesh,0.0.31,2025-06-30
+KCE-SWBUG-6152,E-Link_NXT: The severity listed in the 'Faults' section does not correspond to the appropriate faults.,Jagadeesh,0.0.31,2025-06-30
+KCE-SWBUG-6157,E-Link_NXT: The 'Fault' pop-up is not functioning as expected,Jagadeesh,0.0.31,2025-07-01
+KCE-SWBUG-6180,4.6 - Service Tool - Fault #1867 lacks Data Description,Suryanarayanan,4.6.231.7002,2025-07-06
+KCE-SWBUG-6188,"4.6 - Service Tool - ProManager shuts down automatically, Randomly",Suryanarayanan,4.6.231.7002,2025-07-08
+KCE-SWBUG-6190,"AMD D200 - After power break , the door encoder signal fault 3017 thrown ",Shrividhya,16.6 release + D200_25.26.4.0,2025-07-08
+KCE-SWBUG-6192,16.10 - IC Card Reader 2.0 - Immediate Opposite Floor Side Locking after Swiping Manual Cards on One Side,Suryanarayanan,"KCE 16.10.20.1(LD: 16.10.1.1, GCD: 16.10.20.4)",2025-07-08
+KCE-SWBUG-6205,Test switch activated in RIM mode elevator not changed to NORMAL mode,Priyavalli,,
+KCE-SWBUG-6213,16.10 - KCEDCS - OEO A - The evacuation message is shown on the DG when the lift is in a special mode,Vivek,"16.10.20.1(LD: 16.10.1.1, GCD: 16.10.20.4)",2025-07-10
+KCE-SWBUG-6214,16.10 - KCOP - Direct Call Configuration Info not shown when DIP is changed,Suryanarayanan,"KCE 16.10.20.1(LD: 16.10.1.1, GCD: 16.10.20.4)",2025-07-10
+KCE-SWBUG-6215,"Service Tool - Privacy Statement Page popups while using ProManager, Randomly",Priyavalli,,2025-07-13
+KCE-SWBUG-6216,16.10 - KCOP - Direct Call Button Configuration is Inconsistent,Suryanarayanan,"KCE 16.10.20.1(LD: 16.10.1.1, GCD: 16.10.20.4)",2025-07-13
+KCE-SWBUG-6218,Improvement Bug - Shaft Status always opens up with the Highest Floor in Service Tool,Priyavalli,4.6.232.7022,2025-07-14
+KCE-SWBUG-6219,16.10 - KCEDCS - OEO A - The EG displays an incorrect message on the evacuation floor,Vivek,"16.10.20.1(LD: 16.10.1.1, GCD: 16.10.20.4)",2025-07-14
+KCE-SWBUG-6226,"""No Software releases found for this HW variant"" displayed for device with HW variant in IOT PORTAL-random occurrence",Priyavalli,,2025-07-15
+KCE-SWBUG-6227,16.10 - KCEDCS - LAN Riser details are missing from the network view in the SM UI,Vivek,"16.10.20.1(LD: 16.10.1.1, GCD: 16.10.20.4)",2025-07-15
+KCE-SWBUG-6228,16.10 - KCOP - Alphabetic Call Buttons are not Functioning Correctly,Suryanarayanan,"KCE 16.10.20.1(LD: 16.10.1.1, GCD: 16.10.20.4)",2025-07-15
+KCE-SWBUG-6231,16.10 - KCEDCS - OEO - The landing display (LCD and DG) does not show the 'Out of Service' message when FPD is activated on the MEEF floor,Vivek,"16.10.20.1(LD: 16.10.1.1, GCD: 16.10.20.4)",2025-07-16
+KCE-SWBUG-6236,4.6 - Service Tool - Active calls are not shown when Quitted & Reconnected to the Same Elevator IP again,Priyavalli,4.6.232.7022,2025-07-17
+KCE-SWBUG-6243,UNKOWN  CPU FAULT  #1 SEEN IN PROMANGER,Priyavalli,,2025-07-20
+KCE-SWBUG-6288,16.10 - KCEDCS - OEO B - The E-Link & Promanager refused to restore the ACS floor locking (symbol) properly after OEO was turned off,Vivek,"16.10.20.8(LD: 16.10.1.5, GCD: 16.10.20.7)",2025-07-28
+KCE-SWBUG-6297,Ultra Rope Cumulative Start Counter values are not shown properly after SW update.,Badaganti Sai Prasad,"16.10.20.8(LD: 16.10.1.5, GCD: 16.10.20.7)",2025-07-29
+KCE-SWBUG-6298, 16.10 - KNSMUL - Board Deck Value is not reflected correctly in Missing COP Fault #2000,Suryanarayanan,"KCE 16.10.20.8(LD: 16.10.1.5, GCD: 16.10.20.7)",2025-07-30
+KCE-SWBUG-6303,16.10 - Missing ACU Fault shows wrong Data 3 Value ,Priyavalli,,2025-07-31
+KCE-SWBUG-6305,E-Link_NXT:  Locking the door through the 'Lock/Unlock' module leads to incorrect data entries in the command log.,Jagadeesh,0.0.35,2025-07-30
+KCE-SWBUG-6307,16.10 - KCEDCS - OEO - The French version of the evacuation message was hidden on the xDOP,Vivek,"16.10.20.8(LD: 16.10.1.5, GCD: 16.10.20.7)",2025-07-30
+KCE-SWBUG-6313,16.10 - KCEDCS - OEO - DG shows English language instead of French for an evacuation message [L4],Vivek,"16.10.20.8(LD: 16.10.1.5, GCD: 16.10.20.7)",2025-07-31
+KCE-SWBUG-6314,"KCE KDM - ""Virtual floor setting"" parameters are mapped under wrong category.",Badaganti Sai Prasad,25.11,2025-07-30
+KCE-SWBUG-6321,16.10 - ProManager - Landing Call Indications are not shown RANDOMLY under Active Calls,Suryanarayanan,4.6.233.7036,
+KCE-SWBUG-6323,16.10 - IC CARD - Fault #1867 shows wrong Missing Data,Suryanarayanan,"KCE 16.10.20.8(LD: 16.10.1.5, GCD: 16.10.20.7)",2025-07-31
+KCE-SWBUG-6325,4.6 - Service Tool - Fault Page Refreshes When New Fault Pops Up,Suryanarayanan,4.6.233.7036,2025-08-03
+KCE-SWBUG-6327,E-Link_NXT: Indications for multiple landing calls are not visible in the shaft view.,Jagadeesh,0.0.35,2025-08-03
+KCE-SWBUG-6328,"E-Link_NXT: In the shaft view, the landing call indication always points in the wrong direction.",Jagadeesh,0.0.35,2025-08-03
+KCE-SWBUG-6332,"E-Link_NXT: When the 263 switch is turned ON for the last call, the landing call indication remains active even after the elevator arrives at the floor.",Jagadeesh,0.0.35,2025-08-04
+KCE-SWBUG-6333,E-link_NXT: User can't select the particular feature to be 'RESET' in 'Change Mode' Module.,Jagadeesh,0.0.35,2025-08-04
+KCE-SWBUG-6334,E-Link_NXT: Incorrect time displayed in the ‘Faults Report-D2’.,Jagadeesh,0.0.35,2025-08-04
+KCE-SWBUG-6337,E-Link_NXT: Floor markings are not visible for the Dummy Floor on the elevator car indicator in the shaft view..,Jagadeesh,0.0.35,2025-08-04
+KCE-SWBUG-6338,"E-Link_NXT: When the elevator is in Service Mode (RDF or TOC), but the dashboard displays 'In Service'.",Jagadeesh,0.0.35,2025-08-04
+KCE-SWBUG-6339,E-Link_NXT: Floor marking changes are not reflected in the 'Settings → Sites' section.,Jagadeesh,0.0.35,2025-08-04
+KCE-SWBUG-6340,"16.10 - KCEDCS - SM - Schema error occurs in the ""Dop config"" edit option",Vivek,"16.10.20.11(LD: 16.10.1.6, GCD: 16.10.20.8)",2025-08-04
+KCE-SWBUG-6343,"E-Link_NXT: During the 'SET-UP' drive, the shaft view displays as 'Nor'",Jagadeesh,0.0.35,2025-08-04
+KCE-SWBUG-6346,"E-Link_NXT: The ""Event Log 'D5' Report"" is not functioning properly.",Jagadeesh,0.0.35,2025-08-05
+KCE-SWBUG-6350,E-Link_NXT: The fault code is not visible in the fault report.,Jagadeesh,0.0.35,2025-08-05
+KCE-SWBUG-6353,E-Link_NXT: Invalid Data Shown in the Shaft View-->Fault Log,Jagadeesh,0.0.35,2025-08-06
+KCE-SWBUG-6354,E-Link_NXT: The Fault Deviation-D3 function is not operating as expected.,Jagadeesh,0.0.35,2025-08-06
+KCE-SWBUG-6355,"E-Link_NXT: During the 'Set-up Drive,' the elevator position and visual indication do not work properly.",Jagadeesh,0.0.35,2025-08-06
+KCE-SWBUG-6356,"E-Link_NXT: If we perform a reset in 'Change Mode' while the elevator is in Service Mode, the reset does not take effect. ",Jagadeesh,0.0.35,2025-08-06
+KCE-SWBUG-6361,"KCE NA - When the Elevator in HAC mode and power break occurs, the CPUc takes approximately 2 minutes to power on.",Veeramanikandan,17.0.0.10 and LD-17.0.0.8,2025-07-31
+KCE-SWBUG-6364, IOT page shows “Disconnected” despite 4G modem showing full signal strength; connection not restored for more than  4hours ,Priyavalli,,2025-08-07
+KCE-SWBUG-6370,E-Link_NXT: Some Group Faults Do Not Appear in Reports – Fault Deviation (D3),Jagadeesh,0.0.35,2025-08-10
+KCE-SWBUG-6371,"E-LInk_NXT: A user can register a car call on the Dummy Floor, and it will be recorded in the command log.",Jagadeesh,0.0.35,2025-08-10
+KCE-SWBUG-6374,"E-Link_NXT: During floor Lock/Unlock operations, detailed information about the floor side is missing from the command log.",Jagadeesh,0.0.35,2025-08-10
+KCE-SWBUG-6375,E-Link_NXT: The Info button in the Lock/Unlock module is not functioning properly.,Jagadeesh,0.0.35,2025-08-10
+KCE-SWBUG-6385,E-Link_NXT: The floor marking is not displayed in the Lock/Unlock module.,Jagadeesh,0.0.35,2025-08-12
+KCE-SWBUG-6386,E-Link_NXT: Component Spelling correction needed in the Fault Log (D2) under the 'Faults Included' section.,Jagadeesh,0.0.35,2025-08-12
+KCE-SWBUG-6390,"E-Link NXT: By pressing same floor landing call, it duplicates in Traffic View ",Harini Sri,0.0.35,2025-08-13
+KCE-SWBUG-6391,"4.6 - ProManager - ""Not Responding"" thrown when opening app, RANDOMLY",Suryanarayanan,4.6.234.7060 & 4.6.232.7022,2025-08-13
+KCE-SWBUG-6392,E-Link_Nxt - Door Close & Open Animation doesn't match up the actual Door Open Close Signal,Suryanarayanan,,2025-08-12
+KCE-SWBUG-6394,"E-Link_NXT: When downloading the Fault Deviation-D3 report, the generated report contains a spelling error where it shows ""Report Perimeter"" instead of ""Report Parameter.""",VIGNESHWARAR,0.0.35,2025-08-13
+KCE-SWBUG-6395,"E-Link_Nxt - CAR Call Indication ""DOT"" matches with the Floor Cell Selection Color",Suryanarayanan,,2025-08-13
+KCE-SWBUG-6398,"E-Link_NXT: When we refresh the page, the registered car entries disappear from the UI..",Jagadeesh,0.0.35,2025-08-13
+KCE-SWBUG-6399,E-Link_NXT: The user is able to register a destination call on a locked floor.,Jagadeesh,0.0.35,2025-08-13
+KCE-SWBUG-6421,16.10 - KCEDCS - SM - The DG device is not visible during the installation of the newly edited customization file (DG),Vivek,"16.10.20.16(LD: 16.10.1.7, GCD: 16.10.20.10)",2025-08-18
+KCE-SWBUG-6425,16.10 - KNSMUL KCOP - Index Value 2A not changed to 1A after RollCall,Suryanarayanan,"KCE 16.10.20.16(LD: 16.10.1.7, GCD: 16.10.20.10)",
+KCE-SWBUG-6432,"16.10 - TSCOP - FRD/ ATS indications not shown when ""AUX TSCOP closed During FRD/ ATS"" is set as ""Closed"" in AUX TSCOP",Suryanarayanan,"KCE 16.10.20.16(LD: 16.10.1.7, GCD: 16.10.20.10)",2025-08-19
+KCE-SWBUG-6434,16.10 - KCEDCS - The Site Manager shows a schema error for the Elevator Guide (EG),Vivek,"16.10.20.16(LD: 16.10.1.7, GCD: 16.10.20.10)",2025-08-20
+KCE-SWBUG-6439,16.10 - TSCOP - EAQ Mode Indication not shown when elevator is Driving in TSCOP's Display,Suryanarayanan,"KCE 16.10.20.16(LD: 16.10.1.7, GCD: 16.10.20.10)",
+KCE-SWBUG-6442,16.10 - TSCOP - Floor Count value not reflected after TSCOP restart,Suryanarayanan,,
+KCE-SWBUG-6445,16.10 - TSCOP - Floor options couldn't be accessed in AUX TSCOP's Display when Mode changed back to Normal,Suryanarayanan,,
+KCE-SWBUG-6446,"E-Link_NXT: When we select the lower floor to be locked, the page automatically scrolls up",Kowsalya,0.0.36,2025-08-21
+KCE-SWBUG-6448,"16.10 - TSCOP - ""Default Language"" always shows Chinese, when changed from ""ENG""",Suryanarayanan,,
+KCE-SWBUG-6450,16.10 - TSCOP - Swipe Card for Locked Floor Message missing in TSCOP Display,Suryanarayanan,,2025-08-22
+KCE-SWBUG-6453,E-Link_NXT: Delay in 'Next Stop' floor indication after refreshing the page when multiple cars are registered.,Jagadeesh,0.0.36,2025-08-24
+KCE-SWBUG-6460,16.10 - TSCOP - Selected CAR Call floors flashes and reappears when many CAR calls are given simultaneously,Suryanarayanan,16.10.1.8,2025-08-24
+KCE-SWBUG-6462,"E-Link_NXT: When using Complete Unlock in the 'Lock/Unlock' module, an unwanted message shows up in the Command Log.",Jagadeesh,0.0.36,2025-08-25
+KCE-SWBUG-6468,UCMP - Fault code 1769 information is not shown correctly for unsuccessful brake test,Shrividhya,"KCE 16.10.20.16(LD: 16.10.1.7, GCD: 16.10.20.10)",2025-08-25
+KCE-SWBUG-6470,E-Link_NXT: The Application Version is not displayed in the Reports.,Jagadeesh,0.0.36,2025-08-25
+KCE-SWBUG-6472,16.10 - TSCOP - HAN Button UI Overlays & doesn't fill the whole bottom area,Suryanarayanan,,
+KCE-SWBUG-6479,E-Link_NXT: After a long PowerBreak users are unable to log in to the application.,Jagadeesh,0.0.36,2025-08-27
+KCE-SWBUG-6482,E-Link_NXT:The fault pop-up remains visible in the 'Command Log' and 'Dashboard' even after being acknowledged in the Fault Log.,Jagadeesh,0.0.36,2025-08-27
+KCE-SWBUG-6483,"16.10 - TSCOP - 1st Floor CAR Call Continuously Booking , When trying to open Menu, Happenning RANDOMLY",Suryanarayanan,WELM 0.0.0.61,2025-08-27
+KCE-SWBUG-6487,E-Link_NXT: Car call indication on the TTC floor is not properly aligned.,Jagadeesh,0.0.36,2025-08-27
+KCE-SWBUG-6488,"16.10 - TSCOP - 2nd Floor is automatically set as ""UG"" after installing WELM 0.0.0.62",Suryanarayanan,WELM 0.0.0.62,2025-08-27
+KCE-SWBUG-6493,"E-Link_NXT: If we disable visibility in the Fault Settings, 'N/A' appears in the Fault Log.",Jagadeesh,0.0.36,2025-08-27
+KCE-SWBUG-6502,E-Link_NXT: Users are required to click twice to disable the 'Visibility' option in the 'Faults' in Setting.,Jagadeesh,0.0.36,2025-08-28
+KCE-SWBUG-6503,E-Link_NXT: The load value resets to 0% when the page is refreshed.,Jagadeesh,0.0.36,2025-08-28
+KCE-SWBUG-6506,"4.6 - ProManager - Parameter ""Values"" gets Overlayed on other Parameters",Suryanarayanan,4.6.235.7086,2025-08-28
+KCE-SWBUG-6509,16.10 - KCEDCS - SM - Wrong symbol appears and disappears in short time in the ACS management PIN code page,Vivek,"16.10.20.20(LD: 16.10.1.8, GCD: 16.10.20.13)",2025-08-31
+KCE-SWBUG-6511,"RSU – Cloud notification does not show step by step test sequence about the ""Remote Software Update status"" (random occurrence)",Kowsalya,,2025-08-27
+KCE-SWBUG-6525,"RSU - Cloud notification does not shows ""LD SW programmed"" randomly",Kowsalya,,2025-08-28
+KCE-SWBUG-6571,16.10 - KCEDCS - The keypad UI does not display properly in full-screen view on the 7-inch xDOP,Vivek,"KCE 16.10.3.2(LD: 16.10.1.9, GCD: 16.10.20.15)",2025-09-09
+KCE-SWBUG-6580,"16.10 - FRD - Buzzer Shouts for a moment before starting FRD Phase drive, FRD Country Code - 15",Suryanarayanan,"KCE 16.10.3.2(LD: 16.10.1.9, GCD: 16.10.20.15)",2025-09-10
+KCE-SWBUG-6594,16.10 - FRD - FIREMAN COP Fault data 2 info is not listed,Suryanarayanan,4.6.233.7036,2025-09-11
+KCE-SWBUG-6599,4.6 Service Tool - Smart connector - Elevator main menu is visible Even though Bluetooth connection was broken.,ARUN KUMAR,5.82.104,2025-09-11
+KCE-SWBUG-6600,4.6 Service Tool - DSM value 67showing incorrect value in promanager.,ARUN KUMAR,4.6.235.7086,2025-09-11
+KCE-SWBUG-6601,4.6. Service Tool - smart connector - Sometimes DSM value DESCRIPTION are not showing connected via bluetooth,ARUN KUMAR,Smart connector 5.82.104,2025-09-11
+KCE-SWBUG-6609,PESSRAL4.4 - Elevator Inspection Overspeed Fault #1403 Triggered Only in REEO Mode,Veeramanikandan,17.0.0.11,2025-09-14
+KCE-SWBUG-6637,AMD D200 - Door is not operate normally using defined speed settings S1(5 &6)  when the mode changed from inspection to normal mode,Shrividhya,16.8 Release + D200 door_ 25.37.1.0 release software,2025-09-18
+KCE-SWBUG-6649,4.6 - Promanager - Parameter's Values gets resetted back to its initial state after SETTING data,Suryanarayanan,4.6.237.7110,2025-09-22
+KCE-SWBUG-6650,5.1 - E-Link - Full Load indication is not shown,Suryanarayanan,"E-Link 5.1, Version 4.5.9",2025-09-22
+KCE-SWBUG-6658,5.1 - E-Link - Elevator Status Bar is not Froze in the Main Page when Scrolling down to lower Floors,Suryanarayanan,"E-Link 5.1, Version 4.5.9",2025-09-23
+KCE-SWBUG-6664,4.6 - ProManager - Language Selection Cells Size gets stuck when the app is Minimzed & Maximum again,Suryanarayanan,4.6.237.7110,2025-09-24
+KCE-SWBUG-6668,16.10 - KCEDCS - KCECPUc _LGA device went to disconnected state in SM,Vivek,"16.10.3.10(LD: 16.10.1.10, GCD: 16.10.20.19)",2025-09-24
+KCE-SWBUG-6669,"16.10 - KCEDCS - ""No Response"" message displayed when initial configuration in xDOP via SM",Vivek,"16.10.3.10(LD: 16.10.1.10, GCD: 16.10.20.19)",2025-09-24
+KCE-SWBUG-6675,4.6 - ProManager - Typo in Fault #1202's Additional Data ,Suryanarayanan,4.6.237.7110,2025-09-25
+KCE-SWBUG-6686,E-link_NXT: Drive-related faults are not displayed in the application.,Jagadeesh,0.0.36_V2,2025-09-29
+KCE-SWBUG-6691,E-Link_NXT: Some faults don’t appear in D2 reports but are visible in D3 reports.,Jagadeesh,,2025-09-29
+KCE-SWBUG-6701,E-Link_NXT: The Landing Call Indication disappears if a Landing Call is registered in both directions on the same floor.,Jagadeesh,,2025-10-02
+KCE-SWBUG-6702,"E-Link_NXT: In D1 Reports, if I select a date range for two days, it shows results for three days.",Jagadeesh,,2025-10-02
+KCE-SWBUG-6704,"E-Link_NXT: In Settings → Sites, the model is listed as 'LCE' instead of 'KCE'",Jagadeesh,,2025-10-02
+KCE-SWBUG-6707,"E-Link_NXT: In the Lock/Unlock module, when we move the cursor, everything is highlighted except for 'Complete Unlock.'",Jagadeesh,,2025-10-02
+KCE-SWBUG-6712,E-Link_NXT: The application automatically logs out the user from one window if they log out from another window using the same credentials.,Jagadeesh,,2025-10-06
+KCE-SWBUG-6715,"E-Link_NXT: In the Command Log, when both Lock and Unlock actions are performed on a floor, the Lock message appears before the Unlock message ",Jagadeesh,0.0.36_V2,2025-10-06
+KCE-SWBUG-6717,"E-Link_NXT: In the Lock/Unlock Module, when 'Complete Lock' is clicked, the entire lock should be Locked.",Jagadeesh,0.0.36_V2,2025-10-06
+KCE-SWBUG-6725,E-Link_NXT: The fault setting keeps returning to the first page whenever the application is refreshed.,Jagadeesh,0.0.36_V2,2025-10-07
+KCE-SWBUG-6728,E-Link_NXT: Dates for the current month and earlier are blurred in the reports.,Jagadeesh,0.0.36_V2,2025-10-07
+KCE-SWBUG-6736,"E-Link_NXT:In the Fault Log, the severity of faults does not match with the Faults section under Settings.",Jagadeesh,0.0.36_V2,2025-10-08
+KCE-SWBUG-6737,"E-Link_NXT: In D1 and D2 reports, device names for active devices are listed last.",Jagadeesh,0.0.36_V2,2025-10-08
+KCE-SWBUG-6738,E-Link_NXT: D3 reports do not include the device name.,Jagadeesh,0.0.36_V2,2025-10-08
+KCE-SWBUG-6745,E-Link_NXT:Floor marking is not functioning properly in the car decks under the Settings section.,Jagadeesh,0.0.36_V2,2025-10-09
+KCE-SWBUG-6747,"E-Link_NXT: If a lengthy name is entered, it may cause overflow within the specific box in the settings.",Jagadeesh,,2025-10-09
+KCE-SWBUG-6750,"16.10- In TTC Floor, CLS C ( Car light Supervision) is enabled -Only A- side door is open",Shrividhya,"16.10.3.13(LD: 16.10.1.12, GCD: 16.10.20.21",2025-10-08
+KCE-SWBUG-6751,E-Link_NXT: Alignment in D2 Reports is not proper compared to D1 and D3.,Jagadeesh,,2025-10-09
