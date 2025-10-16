@@ -1,0 +1,2 @@
+pandas
+py-jama-rest-client
