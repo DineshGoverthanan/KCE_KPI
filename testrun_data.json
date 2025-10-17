@@ -434,13 +434,6 @@
         "Assigned To":"VIGNESHWARAR"
     },
     {
-        "TestRunStatus":"FAILED",
-        "ExecutionDate":"2025-10-16",
-        "Document Key":"KIE601-TSTRN-66615",
-        "Name":"Unintentional Movement - MSD upper",
-        "Assigned To":"VIGNESHWARAR"
-    },
-    {
         "TestRunStatus":"PASSED",
         "ExecutionDate":"2025-08-29",
         "Document Key":"KIE601-TSTRN-60014",
@@ -459,13 +452,6 @@
         "ExecutionDate":"2025-10-09",
         "Document Key":"KIE601-TSTRN-63428",
         "Name":"EGD display",
-        "Assigned To":"VIGNESHWARAR"
-    },
-    {
-        "TestRunStatus":"INPROGRESS",
-        "ExecutionDate":"2025-10-16",
-        "Document Key":"KIE601-TSTRN-66616",
-        "Name":"Unintentional movement - Handrail Left",
         "Assigned To":"VIGNESHWARAR"
     },
     {
@@ -952,7 +938,7 @@
         "Assigned To":"VIGNESHWARAR"
     },
     {
-        "TestRunStatus":"INPROGRESS",
+        "TestRunStatus":"PASSED",
         "ExecutionDate":"2025-10-17",
         "Document Key":"KIE601-TSTRN-66592",
         "Name":"310-1 Unintentional Movement for KCM",
@@ -7070,6 +7056,48 @@
         "Assigned To":"Nithya Priya"
     },
     {
+        "TestRunStatus":"PASSED",
+        "ExecutionDate":"2025-02-10",
+        "Document Key":"KCE-TSTRN-3846604",
+        "Name":"Power cycle scenario with Strom operation input ",
+        "Assigned To":"Vivek"
+    },
+    {
+        "TestRunStatus":"PASSED",
+        "ExecutionDate":"2025-02-10",
+        "Document Key":"KCE-TSTRN-3846605",
+        "Name":"OPA - Maximum stopping time",
+        "Assigned To":"Vivek"
+    },
+    {
+        "TestRunStatus":"PASSED",
+        "ExecutionDate":"2025-02-10",
+        "Document Key":"KCE-TSTRN-3846606",
+        "Name":"OPA - Two way allocation(immediate)",
+        "Assigned To":"Vivek"
+    },
+    {
+        "TestRunStatus":"PASSED",
+        "ExecutionDate":"2025-02-12",
+        "Document Key":"KCE-TSTRN-3846607",
+        "Name":"OPA - Two way allocation(continuous)",
+        "Assigned To":"Vivek"
+    },
+    {
+        "TestRunStatus":"PASSED",
+        "ExecutionDate":"2025-02-12",
+        "Document Key":"KCE-TSTRN-3846608",
+        "Name":"OPA - Single Lift Relaxation",
+        "Assigned To":"Vivek"
+    },
+    {
+        "TestRunStatus":"PASSED",
+        "ExecutionDate":"2025-02-12",
+        "Document Key":"KCE-TSTRN-3846609",
+        "Name":"OPA - Enable multiple round trip allocation",
+        "Assigned To":"Vivek"
+    },
+    {
         "TestRunStatus":"INPROGRESS",
         "ExecutionDate":"2025-01-13",
         "Document Key":"KCE-TSTRN-3720408",
@@ -8492,6 +8520,55 @@
     },
     {
         "TestRunStatus":"PASSED",
+        "ExecutionDate":"2025-02-25",
+        "Document Key":"KCE-TSTRN-3857132",
+        "Name":"BMO_Door operation in return floor",
+        "Assigned To":"Vivek"
+    },
+    {
+        "TestRunStatus":"PASSED",
+        "ExecutionDate":"2025-02-25",
+        "Document Key":"KCE-TSTRN-3857133",
+        "Name":"BMO_Door operation in TTC return floor ",
+        "Assigned To":"Vivek"
+    },
+    {
+        "TestRunStatus":"PASSED",
+        "ExecutionDate":"2025-02-25",
+        "Document Key":"KCE-TSTRN-3857134",
+        "Name":"BMO_Indication in special modes",
+        "Assigned To":"Vivek"
+    },
+    {
+        "TestRunStatus":"PASSED",
+        "ExecutionDate":"2025-02-27",
+        "Document Key":"KCE-TSTRN-3857135",
+        "Name":"BMO_ OPT outputs",
+        "Assigned To":"Vivek"
+    },
+    {
+        "TestRunStatus":"PASSED",
+        "ExecutionDate":"2025-02-25",
+        "Document Key":"KCE-TSTRN-3857136",
+        "Name":"BMO_Deactivation",
+        "Assigned To":"Vivek"
+    },
+    {
+        "TestRunStatus":"PASSED",
+        "ExecutionDate":"2025-02-25",
+        "Document Key":"KCE-TSTRN-3857137",
+        "Name":"BMO_during power break",
+        "Assigned To":"Vivek"
+    },
+    {
+        "TestRunStatus":"PASSED",
+        "ExecutionDate":"2025-02-25",
+        "Document Key":"KCE-TSTRN-3857138",
+        "Name":"BMO_Special case",
+        "Assigned To":"Vivek"
+    },
+    {
+        "TestRunStatus":"PASSED",
         "ExecutionDate":"2025-03-18",
         "Document Key":"KCE-TSTRN-3904864",
         "Name":"1.Elevator Occupancy Sensor - Parameter Settings ",
@@ -8601,6 +8678,13 @@
         "Document Key":"KCE-TSTRN-3904879",
         "Name":"16.Elevator Occupancy Sensor \u2013 Special modes override the Occupancy sensor BLF operation",
         "Assigned To":"Shrividhya"
+    },
+    {
+        "TestRunStatus":"PASSED",
+        "ExecutionDate":"2025-02-28",
+        "Document Key":"KCE-TSTRN-3857155",
+        "Name":"FRD FR - Phase 1 - Tests not included into TA ",
+        "Assigned To":"Vivek"
     },
     {
         "TestRunStatus":"PASSED",
@@ -8804,6 +8888,69 @@
         "Document Key":"KCE-TSTRN-3904889",
         "Name":"30.FRD MX Phase2 \u2013 Door operation in TTC floor with Non-selective door type.",
         "Assigned To":"Suryanarayanan"
+    },
+    {
+        "TestRunStatus":"PASSED",
+        "ExecutionDate":"2025-02-26",
+        "Document Key":"KCE-TSTRN-3857175",
+        "Name":"3. Indications in Service Tools",
+        "Assigned To":"Vivek"
+    },
+    {
+        "TestRunStatus":"PASSED",
+        "ExecutionDate":"2025-02-26",
+        "Document Key":"KCE-TSTRN-3857176",
+        "Name":"4. Fireman buzzer in COP status when FRD phase 1",
+        "Assigned To":"Vivek"
+    },
+    {
+        "TestRunStatus":"PASSED",
+        "ExecutionDate":"2025-02-28",
+        "Document Key":"KCE-TSTRN-3857177",
+        "Name":"5. FRD indication in KSS signalization",
+        "Assigned To":"Vivek"
+    },
+    {
+        "TestRunStatus":"PASSED",
+        "ExecutionDate":"2025-02-26",
+        "Document Key":"KCE-TSTRN-3857178",
+        "Name":"20. Activate FRD input at landing during power break",
+        "Assigned To":"Vivek"
+    },
+    {
+        "TestRunStatus":"PASSED",
+        "ExecutionDate":"2025-02-26",
+        "Document Key":"KCE-TSTRN-3857179",
+        "Name":"23. Remove KCEOPT board: dip 35 from LON network",
+        "Assigned To":"Vivek"
+    },
+    {
+        "TestRunStatus":"PASSED",
+        "ExecutionDate":"2025-02-26",
+        "Document Key":"KCE-TSTRN-3857180",
+        "Name":"24. FRD phase 1 activation when elevator driving in inspection mode ",
+        "Assigned To":"Vivek"
+    },
+    {
+        "TestRunStatus":"PASSED",
+        "ExecutionDate":"2025-02-26",
+        "Document Key":"KCE-TSTRN-3857181",
+        "Name":"27. Check car light status when phase 1",
+        "Assigned To":"Vivek"
+    },
+    {
+        "TestRunStatus":"PASSED",
+        "ExecutionDate":"2025-02-28",
+        "Document Key":"KCE-TSTRN-3857182",
+        "Name":"39. Door operation in TTC floor with Non-selective door type.",
+        "Assigned To":"Vivek"
+    },
+    {
+        "TestRunStatus":"PASSED",
+        "ExecutionDate":"2025-02-28",
+        "Document Key":"KCE-TSTRN-3857183",
+        "Name":"6. FRD indication in PIO signalization",
+        "Assigned To":"Vivek"
     },
     {
         "TestRunStatus":"FAILED",
@@ -9878,10 +10025,612 @@
     },
     {
         "TestRunStatus":"PASSED",
+        "ExecutionDate":"2025-04-03",
+        "Document Key":"KCE-TSTRN-3934732",
+        "Name":"3.EPS G Emergency sequencing by Group controller using its inbuilt sequencer - Single lift sequence Scenario",
+        "Assigned To":"Vivek"
+    },
+    {
+        "TestRunStatus":"PASSED",
+        "ExecutionDate":"2025-04-03",
+        "Document Key":"KCE-TSTRN-3934733",
+        "Name":"4.EPS G Emergency sequencing - Single lift full sequence Scenario on triggering one by one EPD input with OPT Output Operation",
+        "Assigned To":"Vivek"
+    },
+    {
+        "TestRunStatus":"PASSED",
+        "ExecutionDate":"2025-04-03",
+        "Document Key":"KCE-TSTRN-3934734",
+        "Name":"5.EPS G - Non serving of registered car and Landing calls",
+        "Assigned To":"Vivek"
+    },
+    {
+        "TestRunStatus":"FAILED",
+        "ExecutionDate":"2025-04-03",
+        "Document Key":"KCE-TSTRN-3934735",
+        "Name":"7.EPS G - Remove Normal service permission from KCEOPT",
+        "Assigned To":"Vivek"
+    },
+    {
+        "TestRunStatus":"PASSED",
+        "ExecutionDate":"2025-04-08",
+        "Document Key":"KCE-TSTRN-3936004",
+        "Name":"7.EPS G - Remove Normal service permission from KCEOPT",
+        "Assigned To":"Vivek"
+    },
+    {
+        "TestRunStatus":"PASSED",
+        "ExecutionDate":"2025-04-03",
+        "Document Key":"KCE-TSTRN-3934736",
+        "Name":"11.EPS G Two lifts in group and other lift online while Normal service",
+        "Assigned To":"Vivek"
+    },
+    {
+        "TestRunStatus":"PASSED",
+        "ExecutionDate":"2025-04-03",
+        "Document Key":"KCE-TSTRN-3934737",
+        "Name":"10.EPS G Duplex lifts with one lift fails while returning",
+        "Assigned To":"Vivek"
+    },
+    {
+        "TestRunStatus":"PASSED",
+        "ExecutionDate":"2025-04-03",
+        "Document Key":"KCE-TSTRN-3934738",
+        "Name":"12.EPS G Single lift failure to start normal service",
+        "Assigned To":"Vivek"
+    },
+    {
+        "TestRunStatus":"PASSED",
+        "ExecutionDate":"2025-03-03",
+        "Document Key":"KCE-TSTRN-3859132",
+        "Name":"CAM - Cleaning Mode",
+        "Assigned To":"Vivek"
+    },
+    {
+        "TestRunStatus":"PASSED",
+        "ExecutionDate":"2025-03-03",
+        "Document Key":"KCE-TSTRN-3859133",
+        "Name":"OSS DL - Out of Service Mode",
+        "Assigned To":"Vivek"
+    },
+    {
+        "TestRunStatus":"PASSED",
+        "ExecutionDate":"2025-03-04",
+        "Document Key":"KCE-TSTRN-3859134",
+        "Name":"PIN code - Special calls - Empty car call",
+        "Assigned To":"Vivek"
+    },
+    {
+        "TestRunStatus":"PASSED",
+        "ExecutionDate":"2025-03-04",
+        "Document Key":"KCE-TSTRN-3859135",
+        "Name":"PIN code - Special calls - Priority call",
+        "Assigned To":"Vivek"
+    },
+    {
+        "TestRunStatus":"PASSED",
+        "ExecutionDate":"2025-03-04",
+        "Document Key":"KCE-TSTRN-3859136",
+        "Name":"PIN code - Special calls - Space allocation",
+        "Assigned To":"Vivek"
+    },
+    {
+        "TestRunStatus":"PASSED",
+        "ExecutionDate":"2025-03-06",
+        "Document Key":"KCE-TSTRN-3859137",
+        "Name":"7\" DOP Customizable header with image",
+        "Assigned To":"Vivek"
+    },
+    {
+        "TestRunStatus":"PASSED",
+        "ExecutionDate":"2025-03-06",
+        "Document Key":"KCE-TSTRN-3859138",
+        "Name":"7\" DOP Customizable header with color",
+        "Assigned To":"Vivek"
+    },
+    {
+        "TestRunStatus":"PASSED",
+        "ExecutionDate":"2025-03-04",
+        "Document Key":"KCE-TSTRN-3859139",
+        "Name":"10\" DOP Customizable header with image",
+        "Assigned To":"Vivek"
+    },
+    {
+        "TestRunStatus":"PASSED",
+        "ExecutionDate":"2025-03-05",
+        "Document Key":"KCE-TSTRN-3859140",
+        "Name":"10\" DOP Customizable header with color",
+        "Assigned To":"Vivek"
+    },
+    {
+        "TestRunStatus":"PASSED",
+        "ExecutionDate":"2025-03-05",
+        "Document Key":"KCE-TSTRN-3859141",
+        "Name":"xDOP welcome screen customization",
+        "Assigned To":"Vivek"
+    },
+    {
+        "TestRunStatus":"PASSED",
+        "ExecutionDate":"2025-03-05",
+        "Document Key":"KCE-TSTRN-3859142",
+        "Name":"10\" DOP Public menu and public buttons",
+        "Assigned To":"Vivek"
+    },
+    {
+        "TestRunStatus":"PASSED",
+        "ExecutionDate":"2025-03-06",
+        "Document Key":"KCE-TSTRN-3859143",
+        "Name":"7\" DOP Public menu and public buttons",
+        "Assigned To":"Vivek"
+    },
+    {
+        "TestRunStatus":"PASSED",
+        "ExecutionDate":"2025-03-05",
+        "Document Key":"KCE-TSTRN-3859144",
+        "Name":"Customized image",
+        "Assigned To":"Vivek"
+    },
+    {
+        "TestRunStatus":"PASSED",
+        "ExecutionDate":"2025-03-05",
+        "Document Key":"KCE-TSTRN-3859145",
+        "Name":"Fireman code compatible",
+        "Assigned To":"Vivek"
+    },
+    {
+        "TestRunStatus":"PASSED",
+        "ExecutionDate":"2025-03-05",
+        "Document Key":"KCE-TSTRN-3859146",
+        "Name":"DOP screenshot via Site Manager",
+        "Assigned To":"Vivek"
+    },
+    {
+        "TestRunStatus":"PASSED",
+        "ExecutionDate":"2025-03-26",
+        "Document Key":"KCE-TSTRN-3904788",
+        "Name":"xDOP Personal floor list and features page",
+        "Assigned To":"Vivek"
+    },
+    {
+        "TestRunStatus":"PASSED",
+        "ExecutionDate":"2025-03-05",
+        "Document Key":"KCE-TSTRN-3859148",
+        "Name":"10\" DOP Floor icons",
+        "Assigned To":"Vivek"
+    },
+    {
+        "TestRunStatus":"PASSED",
+        "ExecutionDate":"2025-03-10",
+        "Document Key":"KCE-TSTRN-3860735",
+        "Name":"7\" DOP Floor icons",
+        "Assigned To":"Vivek"
+    },
+    {
+        "TestRunStatus":"PASSED",
+        "ExecutionDate":"2025-03-26",
+        "Document Key":"KCE-TSTRN-3904789",
+        "Name":"Code compliant for NA\/Hong Kong\/Singapore in 10 inch xDOP  ",
+        "Assigned To":"Vivek"
+    },
+    {
+        "TestRunStatus":"PASSED",
+        "ExecutionDate":"2025-03-28",
+        "Document Key":"KCE-TSTRN-3934739",
+        "Name":"Code compliant for NA\/Hong Kong\/Singapore in 10 inch xDOP  ",
+        "Assigned To":"Vivek"
+    },
+    {
+        "TestRunStatus":"PASSED",
+        "ExecutionDate":"2025-03-13",
+        "Document Key":"KCE-TSTRN-3860737",
+        "Name":"xDOP indicates status Call is being processed when lifts are busy ",
+        "Assigned To":"Vivek"
+    },
+    {
+        "TestRunStatus":"PASSED",
+        "ExecutionDate":"2025-03-26",
+        "Document Key":"KCE-TSTRN-3904790",
+        "Name":"Code compliant for NA\/Hong Kong\/Singapore in 7 inch xDOP",
+        "Assigned To":"Vivek"
+    },
+    {
+        "TestRunStatus":"PASSED",
+        "ExecutionDate":"2025-03-28",
+        "Document Key":"KCE-TSTRN-3934740",
+        "Name":"Code compliant for NA\/Hong Kong\/Singapore in 7 inch xDOP",
+        "Assigned To":"Vivek"
+    },
+    {
+        "TestRunStatus":"PASSED",
+        "ExecutionDate":"2025-03-26",
+        "Document Key":"KCE-TSTRN-3904791",
+        "Name":"xDOP language change by card swipe\u200b",
+        "Assigned To":"Vivek"
+    },
+    {
+        "TestRunStatus":"PASSED",
+        "ExecutionDate":"2025-04-01",
+        "Document Key":"KCE-TSTRN-3934741",
+        "Name":"xDOP language change by card swipe\u200b",
+        "Assigned To":"Vivek"
+    },
+    {
+        "TestRunStatus":"PASSED",
+        "ExecutionDate":"2025-03-26",
+        "Document Key":"KCE-TSTRN-3904792",
+        "Name":"Code compliant for California in 10 inch xDOP",
+        "Assigned To":"Vivek"
+    },
+    {
+        "TestRunStatus":"PASSED",
+        "ExecutionDate":"2025-03-28",
+        "Document Key":"KCE-TSTRN-3934742",
+        "Name":"Code compliant for California in 10 inch xDOP",
+        "Assigned To":"Vivek"
+    },
+    {
+        "TestRunStatus":"PASSED",
+        "ExecutionDate":"2025-03-26",
+        "Document Key":"KCE-TSTRN-3904794",
+        "Name":"Code compliant for California in 7 inch xDOP",
+        "Assigned To":"Vivek"
+    },
+    {
+        "TestRunStatus":"PASSED",
+        "ExecutionDate":"2025-03-28",
+        "Document Key":"KCE-TSTRN-3934743",
+        "Name":"Code compliant for California in 7 inch xDOP",
+        "Assigned To":"Vivek"
+    },
+    {
+        "TestRunStatus":"PASSED",
+        "ExecutionDate":"2025-03-24",
+        "Document Key":"KCE-TSTRN-3904795",
+        "Name":"xDOP restore software to the new device",
+        "Assigned To":"Vivek"
+    },
+    {
+        "TestRunStatus":"PASSED",
+        "ExecutionDate":"2025-03-26",
+        "Document Key":"KCE-TSTRN-3904796",
+        "Name":"Static layout is not possible, keypad is used",
+        "Assigned To":"Vivek"
+    },
+    {
+        "TestRunStatus":"PASSED",
+        "ExecutionDate":"2025-03-28",
+        "Document Key":"KCE-TSTRN-3934744",
+        "Name":"Static layout is not possible, keypad is used",
+        "Assigned To":"Vivek"
+    },
+    {
+        "TestRunStatus":"PASSED",
+        "ExecutionDate":"2025-03-24",
+        "Document Key":"KCE-TSTRN-3904797",
+        "Name":"xDOP restore configuration and software to the new device",
+        "Assigned To":"Vivek"
+    },
+    {
+        "TestRunStatus":"PASSED",
+        "ExecutionDate":"2025-03-24",
+        "Document Key":"KCE-TSTRN-3904798",
+        "Name":"xDOP Convention mode calls",
+        "Assigned To":"Vivek"
+    },
+    {
+        "TestRunStatus":"NOT_APPLICABLE",
+        "ExecutionDate":"2025-03-24",
+        "Document Key":"KCE-TSTRN-3904799",
+        "Name":"xDOP Dormakaba mobile credentials usage",
+        "Assigned To":"Vivek"
+    },
+    {
+        "TestRunStatus":"NOT_APPLICABLE",
+        "ExecutionDate":"2025-03-28",
+        "Document Key":"KCE-TSTRN-3934745",
+        "Name":"xDOP Dormakaba mobile credentials usage",
+        "Assigned To":"Vivek"
+    },
+    {
+        "TestRunStatus":"FAILED",
+        "ExecutionDate":"2025-03-28",
+        "Document Key":"KCE-TSTRN-3904800",
+        "Name":"xDOP Multiple languages support",
+        "Assigned To":"Vivek"
+    },
+    {
+        "TestRunStatus":"PASSED",
+        "ExecutionDate":"2025-04-11",
+        "Document Key":"KCE-TSTRN-3936005",
+        "Name":"xDOP Multiple languages support",
+        "Assigned To":"Vivek"
+    },
+    {
+        "TestRunStatus":"PASSED",
+        "ExecutionDate":"2025-03-13",
+        "Document Key":"KCE-TSTRN-3860749",
+        "Name":"xDOP accent color customization",
+        "Assigned To":"Vivek"
+    },
+    {
+        "TestRunStatus":"NOT_APPLICABLE",
+        "ExecutionDate":"2025-03-24",
+        "Document Key":"KCE-TSTRN-3904801",
+        "Name":"Turnstile pedestal 10\u201d xDOP with QR",
+        "Assigned To":"Vivek"
+    },
+    {
+        "TestRunStatus":"NOT_APPLICABLE",
+        "ExecutionDate":"2025-03-28",
+        "Document Key":"KCE-TSTRN-3934746",
+        "Name":"Turnstile pedestal 10\u201d xDOP with QR",
+        "Assigned To":"Vivek"
+    },
+    {
+        "TestRunStatus":"PASSED",
+        "ExecutionDate":"2025-03-24",
+        "Document Key":"KCE-TSTRN-3904802",
+        "Name":"xDOP with Legic access card reader ",
+        "Assigned To":"Vivek"
+    },
+    {
+        "TestRunStatus":"PASSED",
+        "ExecutionDate":"2025-03-25",
+        "Document Key":"KCE-TSTRN-3904803",
+        "Name":"Access time measurement xDOP and SIMA card",
+        "Assigned To":"Vivek"
+    },
+    {
+        "TestRunStatus":"PASSED",
+        "ExecutionDate":"2025-03-25",
+        "Document Key":"KCE-TSTRN-3904804",
+        "Name":"Monitoring RF ID Legic reader from xDOP",
+        "Assigned To":"Vivek"
+    },
+    {
+        "TestRunStatus":"PASSED",
+        "ExecutionDate":"2025-03-11",
+        "Document Key":"KCE-TSTRN-3860754",
+        "Name":"Technical call from xDOP",
+        "Assigned To":"Vivek"
+    },
+    {
+        "TestRunStatus":"PASSED",
+        "ExecutionDate":"2025-04-02",
+        "Document Key":"KCE-TSTRN-3934747",
+        "Name":"xDOP Demo options",
+        "Assigned To":"Vivek"
+    },
+    {
+        "TestRunStatus":"PASSED",
+        "ExecutionDate":"2025-03-21",
+        "Document Key":"KCE-TSTRN-3904806",
+        "Name":"xDOP Building information",
+        "Assigned To":"Vivek"
+    },
+    {
+        "TestRunStatus":"PASSED",
+        "ExecutionDate":"2025-03-21",
+        "Document Key":"KCE-TSTRN-3904807",
+        "Name":"xDOP Public menu and Public buttons",
+        "Assigned To":"Vivek"
+    },
+    {
+        "TestRunStatus":"PASSED",
+        "ExecutionDate":"2025-03-10",
+        "Document Key":"KCE-TSTRN-3860758",
+        "Name":"xDOP call side selection",
+        "Assigned To":"Vivek"
+    },
+    {
+        "TestRunStatus":"PASSED",
+        "ExecutionDate":"2025-03-10",
+        "Document Key":"KCE-TSTRN-3860759",
+        "Name":"xDOP Call giving",
+        "Assigned To":"Vivek"
+    },
+    {
+        "TestRunStatus":"PASSED",
+        "ExecutionDate":"2025-03-26",
+        "Document Key":"KCE-TSTRN-3904808",
+        "Name":"xDOP Alternative guidances",
+        "Assigned To":"Vivek"
+    },
+    {
+        "TestRunStatus":"PASSED",
+        "ExecutionDate":"2025-03-28",
+        "Document Key":"KCE-TSTRN-3934748",
+        "Name":"xDOP Alternative guidances",
+        "Assigned To":"Vivek"
+    },
+    {
+        "TestRunStatus":"PASSED",
+        "ExecutionDate":"2025-03-24",
+        "Document Key":"KCE-TSTRN-3904809",
+        "Name":"xDOP Dynamic header",
+        "Assigned To":"Vivek"
+    },
+    {
+        "TestRunStatus":"NOT_APPLICABLE",
+        "ExecutionDate":"2025-03-26",
+        "Document Key":"KCE-TSTRN-3904810",
+        "Name":"xDOP HID RP10 reader monitoring ",
+        "Assigned To":"Vivek"
+    },
+    {
+        "TestRunStatus":"NOT_APPLICABLE",
+        "ExecutionDate":"2025-04-02",
+        "Document Key":"KCE-TSTRN-3934749",
+        "Name":"xDOP HID RP10 reader monitoring ",
+        "Assigned To":"Vivek"
+    },
+    {
+        "TestRunStatus":"NOT_APPLICABLE",
+        "ExecutionDate":"2025-04-10",
+        "Document Key":"KCE-TSTRN-3936006",
+        "Name":"xDOP QR reader",
+        "Assigned To":"Vivek"
+    },
+    {
+        "TestRunStatus":"PASSED",
+        "ExecutionDate":"2025-03-20",
+        "Document Key":"KCE-TSTRN-3904812",
+        "Name":"xDOP Group call",
+        "Assigned To":"Vivek"
+    },
+    {
+        "TestRunStatus":"PASSED",
+        "ExecutionDate":"2025-03-17",
+        "Document Key":"KCE-TSTRN-3860765",
+        "Name":"xDOP Fireman-mode ",
+        "Assigned To":"Vivek"
+    },
+    {
+        "TestRunStatus":"PASSED",
+        "ExecutionDate":"2025-03-17",
+        "Document Key":"KCE-TSTRN-3860766",
+        "Name":"xDOP Fireman-mode customization",
+        "Assigned To":"Vivek"
+    },
+    {
+        "TestRunStatus":"PASSED",
+        "ExecutionDate":"2025-03-17",
+        "Document Key":"KCE-TSTRN-3860767",
+        "Name":"Fireman able to open doors by button from xDOP",
+        "Assigned To":"Vivek"
+    },
+    {
+        "TestRunStatus":"PASSED",
+        "ExecutionDate":"2025-03-18",
+        "Document Key":"KCE-TSTRN-3904813",
+        "Name":"xDOP Guidance map with header guidance",
+        "Assigned To":"Vivek"
+    },
+    {
+        "TestRunStatus":"PASSED",
+        "ExecutionDate":"2025-03-18",
+        "Document Key":"KCE-TSTRN-3904814",
+        "Name":"xDOP floor icons ",
+        "Assigned To":"Vivek"
+    },
+    {
+        "TestRunStatus":"PASSED",
+        "ExecutionDate":"2025-03-18",
+        "Document Key":"KCE-TSTRN-3904815",
+        "Name":"xDOP Button layouts",
+        "Assigned To":"Vivek"
+    },
+    {
+        "TestRunStatus":"PASSED",
+        "ExecutionDate":"2025-03-19",
+        "Document Key":"KCE-TSTRN-3904816",
+        "Name":"xDOP range proximity sensor",
+        "Assigned To":"Vivek"
+    },
+    {
+        "TestRunStatus":"PASSED",
         "ExecutionDate":"2025-03-04",
         "Document Key":"KCE-TSTRN-3859186",
         "Name":"xDOP Basic destination call with virtual keypad 10\"",
         "Assigned To":"ARUN KUMAR"
+    },
+    {
+        "TestRunStatus":"PASSED",
+        "ExecutionDate":"2025-03-10",
+        "Document Key":"KCE-TSTRN-3860772",
+        "Name":"xDOP Basic destination call with virtual keypad 7\"",
+        "Assigned To":"Vivek"
+    },
+    {
+        "TestRunStatus":"PASSED",
+        "ExecutionDate":"2025-03-13",
+        "Document Key":"KCE-TSTRN-3860773",
+        "Name":"xDOP call type selection with virtual keypad 10\"",
+        "Assigned To":"Vivek"
+    },
+    {
+        "TestRunStatus":"PASSED",
+        "ExecutionDate":"2025-03-19",
+        "Document Key":"KCE-TSTRN-3904817",
+        "Name":"xDOP call type selection with virtual keypad 7\"",
+        "Assigned To":"Vivek"
+    },
+    {
+        "TestRunStatus":"PASSED",
+        "ExecutionDate":"2025-03-19",
+        "Document Key":"KCE-TSTRN-3904818",
+        "Name":"xDOP Dynamic selection disabled 10\"",
+        "Assigned To":"Vivek"
+    },
+    {
+        "TestRunStatus":"PASSED",
+        "ExecutionDate":"2025-03-19",
+        "Document Key":"KCE-TSTRN-3904819",
+        "Name":"xDOP Dynamic selection disabled 7\"",
+        "Assigned To":"Vivek"
+    },
+    {
+        "TestRunStatus":"PASSED",
+        "ExecutionDate":"2025-03-20",
+        "Document Key":"KCE-TSTRN-3904820",
+        "Name":"XDOP Guidance mode for static view",
+        "Assigned To":"Vivek"
+    },
+    {
+        "TestRunStatus":"PASSED",
+        "ExecutionDate":"2025-03-20",
+        "Document Key":"KCE-TSTRN-3904821",
+        "Name":"XDOP Guidance mode for keypad",
+        "Assigned To":"Vivek"
+    },
+    {
+        "TestRunStatus":"PASSED",
+        "ExecutionDate":"2025-03-20",
+        "Document Key":"KCE-TSTRN-3904822",
+        "Name":"XDOP Guidance mode for dynamic",
+        "Assigned To":"Vivek"
+    },
+    {
+        "TestRunStatus":"PASSED",
+        "ExecutionDate":"2025-04-10",
+        "Document Key":"KCE-TSTRN-3936007",
+        "Name":"OPA - Maximum stopping time",
+        "Assigned To":"Vivek"
+    },
+    {
+        "TestRunStatus":"PASSED",
+        "ExecutionDate":"2025-04-09",
+        "Document Key":"KCE-TSTRN-3936008",
+        "Name":"OPA - Two way allocation(immediate)",
+        "Assigned To":"Vivek"
+    },
+    {
+        "TestRunStatus":"PASSED",
+        "ExecutionDate":"2025-04-10",
+        "Document Key":"KCE-TSTRN-3936009",
+        "Name":"OPA - Two way allocation(continuous)",
+        "Assigned To":"Vivek"
+    },
+    {
+        "TestRunStatus":"PASSED",
+        "ExecutionDate":"2025-04-11",
+        "Document Key":"KCE-TSTRN-3936010",
+        "Name":"OPA - Single Lift Relaxation",
+        "Assigned To":"Vivek"
+    },
+    {
+        "TestRunStatus":"PASSED",
+        "ExecutionDate":"2025-04-10",
+        "Document Key":"KCE-TSTRN-3936011",
+        "Name":"OPA - Enable multiple round trip allocation",
+        "Assigned To":"Vivek"
+    },
+    {
+        "TestRunStatus":"PASSED",
+        "ExecutionDate":"2025-04-08",
+        "Document Key":"KCE-TSTRN-3936012",
+        "Name":"New KCEGCH swap in KCEDCS group ",
+        "Assigned To":"Vivek"
     },
     {
         "TestRunStatus":"PASSED",
@@ -10064,6 +10813,727 @@
         "Document Key":"KCE-TSTRN-3936003",
         "Name":"Rush test case for Interact 20 LCS\/XLA button ",
         "Assigned To":"Suryanarayanan"
+    },
+    {
+        "TestRunStatus":"PASSED",
+        "ExecutionDate":"2025-05-26",
+        "Document Key":"KCE-TSTRN-3954673",
+        "Name":"Lift and Group parameters settings:",
+        "Assigned To":"Vivek"
+    },
+    {
+        "TestRunStatus":"PASSED",
+        "ExecutionDate":"2025-05-26",
+        "Document Key":"KCE-TSTRN-3954665",
+        "Name":"Normal mode with OEO test Group",
+        "Assigned To":"Vivek"
+    },
+    {
+        "TestRunStatus":"PASSED",
+        "ExecutionDate":"2025-05-26",
+        "Document Key":"KCE-TSTRN-3954666",
+        "Name":"FID activation with OEO test Group:",
+        "Assigned To":"Vivek"
+    },
+    {
+        "TestRunStatus":"PASSED",
+        "ExecutionDate":"2025-05-26",
+        "Document Key":"KCE-TSTRN-3954667",
+        "Name":"GEA activation when standing in MEEF floor.",
+        "Assigned To":"Vivek"
+    },
+    {
+        "TestRunStatus":"PASSED",
+        "ExecutionDate":"2025-06-03",
+        "Document Key":"KCE-TSTRN-3962363",
+        "Name":"OEO - Landing Signalization with EG",
+        "Assigned To":"Vivek"
+    },
+    {
+        "TestRunStatus":"PASSED",
+        "ExecutionDate":"2025-05-26",
+        "Document Key":"KCE-TSTRN-3954668",
+        "Name":"More than one GEA activation",
+        "Assigned To":"Vivek"
+    },
+    {
+        "TestRunStatus":"PASSED",
+        "ExecutionDate":"2025-05-26",
+        "Document Key":"KCE-TSTRN-3954662",
+        "Name":"More than one GEA activation",
+        "Assigned To":"Vivek"
+    },
+    {
+        "TestRunStatus":"PASSED",
+        "ExecutionDate":"2025-05-26",
+        "Document Key":"KCE-TSTRN-3954669",
+        "Name":"GEA activation when lift is in idle ",
+        "Assigned To":"Vivek"
+    },
+    {
+        "TestRunStatus":"INPROGRESS",
+        "ExecutionDate":"2025-05-26",
+        "Document Key":"KCE-TSTRN-3954661",
+        "Name":"GEA activation when lift is in idle ",
+        "Assigned To":"Vivek"
+    },
+    {
+        "TestRunStatus":"PASSED",
+        "ExecutionDate":"2025-05-26",
+        "Document Key":"KCE-TSTRN-3954670",
+        "Name":"GEA activation when lift is in idle (Evacaution lift and non-evecaution lifts)",
+        "Assigned To":"Vivek"
+    },
+    {
+        "TestRunStatus":"PASSED",
+        "ExecutionDate":"2025-06-04",
+        "Document Key":"KCE-TSTRN-3962346",
+        "Name":"GEA activation when lift is in idle ",
+        "Assigned To":"Vivek"
+    },
+    {
+        "TestRunStatus":"FAILED",
+        "ExecutionDate":"2025-05-27",
+        "Document Key":"KCE-TSTRN-3954674",
+        "Name":"OEO - Alarm activation with Group functions",
+        "Assigned To":"Vivek"
+    },
+    {
+        "TestRunStatus":"PASSED",
+        "ExecutionDate":"2025-06-04",
+        "Document Key":"KCE-TSTRN-3962351",
+        "Name":"OEO - Alarm activation with Group functions",
+        "Assigned To":"Vivek"
+    },
+    {
+        "TestRunStatus":"PASSED",
+        "ExecutionDate":"2025-06-03",
+        "Document Key":"KCE-TSTRN-3962356",
+        "Name":"OEO - Landing Signalization with xDOP",
+        "Assigned To":"Vivek"
+    },
+    {
+        "TestRunStatus":"PASSED",
+        "ExecutionDate":"2025-06-04",
+        "Document Key":"KCE-TSTRN-3962349",
+        "Name":"OEO B zone floor with Elink and BUI view",
+        "Assigned To":"Vivek"
+    },
+    {
+        "TestRunStatus":"PASSED",
+        "ExecutionDate":"2025-06-04",
+        "Document Key":"KCE-TSTRN-3962350",
+        "Name":"OEO B strategy and Group total building evacuation",
+        "Assigned To":"Vivek"
+    },
+    {
+        "TestRunStatus":"PASSED",
+        "ExecutionDate":"2025-06-06",
+        "Document Key":"KCE-TSTRN-3962347",
+        "Name":"OEO A zone floor with Elink and BUI view",
+        "Assigned To":"Vivek"
+    },
+    {
+        "TestRunStatus":"PASSED",
+        "ExecutionDate":"2025-06-06",
+        "Document Key":"KCE-TSTRN-3962357",
+        "Name":"GEA activation when lift drives car calls & way from the Alarm floor.",
+        "Assigned To":"Vivek"
+    },
+    {
+        "TestRunStatus":"PASSED",
+        "ExecutionDate":"2025-06-09",
+        "Document Key":"KCE-TSTRN-3962358",
+        "Name":"GEA activation when lift drives car calls towards from the Alarm floor.",
+        "Assigned To":"Vivek"
+    },
+    {
+        "TestRunStatus":"PASSED",
+        "ExecutionDate":"2025-06-09",
+        "Document Key":"KCE-TSTRN-3962359",
+        "Name":"GEA activation when lift drives to car calls towards the Exit floor.",
+        "Assigned To":"Vivek"
+    },
+    {
+        "TestRunStatus":"PASSED",
+        "ExecutionDate":"2025-06-09",
+        "Document Key":"KCE-TSTRN-3962360",
+        "Name":"GEA activation when lift drives to car calls away from the Exit floor.",
+        "Assigned To":"Vivek"
+    },
+    {
+        "TestRunStatus":"PASSED",
+        "ExecutionDate":"2025-06-09",
+        "Document Key":"KCE-TSTRN-3962361",
+        "Name":"GEA activation when lift serves the car call and door open",
+        "Assigned To":"Vivek"
+    },
+    {
+        "TestRunStatus":"PASSED",
+        "ExecutionDate":"2025-06-09",
+        "Document Key":"KCE-TSTRN-3962353",
+        "Name":"OEO - Operation - Single Alarm with OEO sequence - Landing\/Source calls",
+        "Assigned To":"Vivek"
+    },
+    {
+        "TestRunStatus":"PASSED",
+        "ExecutionDate":"2025-06-09",
+        "Document Key":"KCE-TSTRN-3962362",
+        "Name":"GEA activation when decelerate the car call serving floor",
+        "Assigned To":"Vivek"
+    },
+    {
+        "TestRunStatus":"PASSED",
+        "ExecutionDate":"2025-06-10",
+        "Document Key":"KCE-TSTRN-3962354",
+        "Name":"OEO - Group Evacuation test mode",
+        "Assigned To":"Vivek"
+    },
+    {
+        "TestRunStatus":"PASSED",
+        "ExecutionDate":"2025-05-29",
+        "Document Key":"KCE-TSTRN-3954679",
+        "Name":"OEO - Landing Signalization with DG display",
+        "Assigned To":"Vivek"
+    },
+    {
+        "TestRunStatus":"PASSED",
+        "ExecutionDate":"2025-06-11",
+        "Document Key":"KCE-TSTRN-3962352",
+        "Name":"OEO - Strategy - OEO A & B",
+        "Assigned To":"Vivek"
+    },
+    {
+        "TestRunStatus":"INPROGRESS",
+        "ExecutionDate":"2025-05-27",
+        "Document Key":"KCE-TSTRN-3954678",
+        "Name":"OEO - Car Signalization & ACU",
+        "Assigned To":"Vivek"
+    },
+    {
+        "TestRunStatus":"INPROGRESS",
+        "ExecutionDate":"2025-06-11",
+        "Document Key":"KCE-TSTRN-3962355",
+        "Name":"OEO - Car Signalization & ACU",
+        "Assigned To":"Vivek"
+    },
+    {
+        "TestRunStatus":"FAILED",
+        "ExecutionDate":"2025-06-24",
+        "Document Key":"KCE-TSTRN-3970580",
+        "Name":"OEO - Car Signalization & ACU",
+        "Assigned To":"Vivek"
+    },
+    {
+        "TestRunStatus":"FAILED",
+        "ExecutionDate":"2025-07-10",
+        "Document Key":"KCE-TSTRN-3975131",
+        "Name":"OEO - Car Signalization & ACU",
+        "Assigned To":"Vivek"
+    },
+    {
+        "TestRunStatus":"FAILED",
+        "ExecutionDate":"2025-07-29",
+        "Document Key":"KCE-TSTRN-3977513",
+        "Name":"OEO - Car Signalization & ACU",
+        "Assigned To":"Vivek"
+    },
+    {
+        "TestRunStatus":"FAILED",
+        "ExecutionDate":"2025-08-07",
+        "Document Key":"KCE-TSTRN-3979212",
+        "Name":"OEO - Car Signalization & ACU",
+        "Assigned To":"Vivek"
+    },
+    {
+        "TestRunStatus":"PASSED",
+        "ExecutionDate":"2025-06-11",
+        "Document Key":"KCE-TSTRN-3962348",
+        "Name":"OEO A strategy and Group total building evacuation",
+        "Assigned To":"Vivek"
+    },
+    {
+        "TestRunStatus":"PASSED",
+        "ExecutionDate":"2025-06-12",
+        "Document Key":"KCE-TSTRN-3962332",
+        "Name":"GEA activation when both lifts is in idle mode:",
+        "Assigned To":"Vivek"
+    },
+    {
+        "TestRunStatus":"PASSED",
+        "ExecutionDate":"2025-06-12",
+        "Document Key":"KCE-TSTRN-3962333",
+        "Name":"Multiple landing calls and GEA activation while moving (Cancel all existing calls: False)",
+        "Assigned To":"Vivek"
+    },
+    {
+        "TestRunStatus":"PASSED",
+        "ExecutionDate":"2025-06-12",
+        "Document Key":"KCE-TSTRN-3962334",
+        "Name":"Multiple landing calls and GEA activation while moving (Cancel all existing calls: True)",
+        "Assigned To":"Vivek"
+    },
+    {
+        "TestRunStatus":"PASSED",
+        "ExecutionDate":"2025-06-12",
+        "Document Key":"KCE-TSTRN-3962335",
+        "Name":"Landing call serves while decelerating when activate the GEA",
+        "Assigned To":"Vivek"
+    },
+    {
+        "TestRunStatus":"PASSED",
+        "ExecutionDate":"2025-06-17",
+        "Document Key":"KCE-TSTRN-3962336",
+        "Name":"Door opens with Middle of the shaft when activate the GEA floor",
+        "Assigned To":"Vivek"
+    },
+    {
+        "TestRunStatus":"PASSED",
+        "ExecutionDate":"2025-06-18",
+        "Document Key":"KCE-TSTRN-3962337",
+        "Name":"Door opens with GEA floor when activate the GEA floor",
+        "Assigned To":"Vivek"
+    },
+    {
+        "TestRunStatus":"PASSED",
+        "ExecutionDate":"2025-06-18",
+        "Document Key":"KCE-TSTRN-3962338",
+        "Name":"Both GEA activation and MEEF Exit floor at same.",
+        "Assigned To":"Vivek"
+    },
+    {
+        "TestRunStatus":"PASSED",
+        "ExecutionDate":"2025-06-18",
+        "Document Key":"KCE-TSTRN-3962339",
+        "Name":"GEA activation when both lifts is in idle mode",
+        "Assigned To":"Vivek"
+    },
+    {
+        "TestRunStatus":"PASSED",
+        "ExecutionDate":"2025-06-19",
+        "Document Key":"KCE-TSTRN-3962340",
+        "Name":"Multiple landing calls and GEA activation while moving (Cancel all existing calls: False)",
+        "Assigned To":"Vivek"
+    },
+    {
+        "TestRunStatus":"PASSED",
+        "ExecutionDate":"2025-06-19",
+        "Document Key":"KCE-TSTRN-3962341",
+        "Name":"Multiple landing calls and GEA activation while moving (Cancel all existing calls: True)",
+        "Assigned To":"Vivek"
+    },
+    {
+        "TestRunStatus":"PASSED",
+        "ExecutionDate":"2025-06-19",
+        "Document Key":"KCE-TSTRN-3962324",
+        "Name":"Keypad COP button light and DIN operation when automatically generate car call.",
+        "Assigned To":"Vivek"
+    },
+    {
+        "TestRunStatus":"PASSED",
+        "ExecutionDate":"2025-06-20",
+        "Document Key":"KCE-TSTRN-3962326",
+        "Name":"Multiple landing calls fro both GEA activated and non-activated floors",
+        "Assigned To":"Vivek"
+    },
+    {
+        "TestRunStatus":"PASSED",
+        "ExecutionDate":"2025-06-20",
+        "Document Key":"KCE-TSTRN-3962342",
+        "Name":"Door opens with GEA floor when activate the GEA floor",
+        "Assigned To":"Vivek"
+    },
+    {
+        "TestRunStatus":"PASSED",
+        "ExecutionDate":"2025-06-20",
+        "Document Key":"KCE-TSTRN-3962325",
+        "Name":"Call evacuation during multiple landing calls when lift parked at GEA floor",
+        "Assigned To":"Vivek"
+    },
+    {
+        "TestRunStatus":"PASSED",
+        "ExecutionDate":"2025-06-23",
+        "Document Key":"KCE-TSTRN-3962328",
+        "Name":"Non- Evacuation zone Alarm activation with Non- Evacuation landing calls ",
+        "Assigned To":"Vivek"
+    },
+    {
+        "TestRunStatus":"PASSED",
+        "ExecutionDate":"2025-06-23",
+        "Document Key":"KCE-TSTRN-3962327",
+        "Name":"MEEF exit floor GEA activition and landing call to same floor",
+        "Assigned To":"Vivek"
+    },
+    {
+        "TestRunStatus":"PASSED",
+        "ExecutionDate":"2025-06-23",
+        "Document Key":"KCE-TSTRN-3962343",
+        "Name":"Serving Intermediate floor and same floor landing calls ",
+        "Assigned To":"Vivek"
+    },
+    {
+        "TestRunStatus":"PASSED",
+        "ExecutionDate":"2025-06-24",
+        "Document Key":"KCE-TSTRN-3970562",
+        "Name":"75% load capacity & serving intermediate landing calls",
+        "Assigned To":"Vivek"
+    },
+    {
+        "TestRunStatus":"PASSED",
+        "ExecutionDate":"2025-06-24",
+        "Document Key":"KCE-TSTRN-3970563",
+        "Name":"Nudging Door operation when car load exits at 80%",
+        "Assigned To":"Vivek"
+    },
+    {
+        "TestRunStatus":"PASSED",
+        "ExecutionDate":"2025-06-24",
+        "Document Key":"KCE-TSTRN-3970559",
+        "Name":"Door operation during loading car for evacution ",
+        "Assigned To":"Vivek"
+    },
+    {
+        "TestRunStatus":"PASSED",
+        "ExecutionDate":"2025-06-24",
+        "Document Key":"KCE-TSTRN-3970560",
+        "Name":"Maximum stoping time=15s during evacuation ",
+        "Assigned To":"Vivek"
+    },
+    {
+        "TestRunStatus":"PASSED",
+        "ExecutionDate":"2025-06-25",
+        "Document Key":"KCE-TSTRN-3970561",
+        "Name":"Maximum stoping time=0s during evacuation ",
+        "Assigned To":"Vivek"
+    },
+    {
+        "TestRunStatus":"PASSED",
+        "ExecutionDate":"2025-06-25",
+        "Document Key":"KCE-TSTRN-3970556",
+        "Name":"AEEF input enabled before Evacuation drive",
+        "Assigned To":"Vivek"
+    },
+    {
+        "TestRunStatus":"PASSED",
+        "ExecutionDate":"2025-06-25",
+        "Document Key":"KCE-TSTRN-3970557",
+        "Name":"AEEF input enabled during MEEF exit drive ",
+        "Assigned To":"Vivek"
+    },
+    {
+        "TestRunStatus":"PASSED",
+        "ExecutionDate":"2025-06-25",
+        "Document Key":"KCE-TSTRN-3970558",
+        "Name":"Deactivation Automatic evacuation",
+        "Assigned To":"Vivek"
+    },
+    {
+        "TestRunStatus":"PASSED",
+        "ExecutionDate":"2025-06-26",
+        "Document Key":"KCE-TSTRN-3970566",
+        "Name":"Evacuation call serving and new landing calls while GEA active",
+        "Assigned To":"Vivek"
+    },
+    {
+        "TestRunStatus":"INPROGRESS",
+        "ExecutionDate":"2025-06-26",
+        "Document Key":"KCE-TSTRN-3970569",
+        "Name":"Non- Evacuation zone Alarm activation with Evacuation landing calls ",
+        "Assigned To":"Vivek"
+    },
+    {
+        "TestRunStatus":"PASSED",
+        "ExecutionDate":"2025-08-01",
+        "Document Key":"KCE-TSTRN-3977508",
+        "Name":"Non- Evacuation zone Alarm activation with Evacuation landing calls ",
+        "Assigned To":"Vivek"
+    },
+    {
+        "TestRunStatus":"PASSED",
+        "ExecutionDate":"2025-06-26",
+        "Document Key":"KCE-TSTRN-3970568",
+        "Name":"Evacuation zone Alarm activation with Non- Evacuation landing calls ",
+        "Assigned To":"Vivek"
+    },
+    {
+        "TestRunStatus":"PASSED",
+        "ExecutionDate":"2025-06-30",
+        "Document Key":"KCE-TSTRN-3970567",
+        "Name":"Call evacuation when Lift standing in GEA floor or while return the GEA floor",
+        "Assigned To":"Vivek"
+    },
+    {
+        "TestRunStatus":"PASSED",
+        "ExecutionDate":"2025-07-01",
+        "Document Key":"KCE-TSTRN-3970576",
+        "Name":"Nudging Door operation when press DOB\/ Photocell cut  ",
+        "Assigned To":"Vivek"
+    },
+    {
+        "TestRunStatus":"PASSED",
+        "ExecutionDate":"2025-07-01",
+        "Document Key":"KCE-TSTRN-3970577",
+        "Name":"Nudging Door operation when door force limiter is active",
+        "Assigned To":"Vivek"
+    },
+    {
+        "TestRunStatus":"PASSED",
+        "ExecutionDate":"2025-07-01",
+        "Document Key":"KCE-TSTRN-3970578",
+        "Name":"ACU Announcement when evacuation landing call floor",
+        "Assigned To":"Vivek"
+    },
+    {
+        "TestRunStatus":"PASSED",
+        "ExecutionDate":"2025-07-01",
+        "Document Key":"KCE-TSTRN-3970579",
+        "Name":"COP button light operation when multiple evacuation landing calls",
+        "Assigned To":"Vivek"
+    },
+    {
+        "TestRunStatus":"PASSED",
+        "ExecutionDate":"2025-07-01",
+        "Document Key":"KCE-TSTRN-3970571",
+        "Name":"Exit floor door operation_OEO A",
+        "Assigned To":"Vivek"
+    },
+    {
+        "TestRunStatus":"PASSED",
+        "ExecutionDate":"2025-07-02",
+        "Document Key":"KCE-TSTRN-3970570",
+        "Name":"Exit floor door operation_OEO B",
+        "Assigned To":"Vivek"
+    },
+    {
+        "TestRunStatus":"PASSED",
+        "ExecutionDate":"2025-07-02",
+        "Document Key":"KCE-TSTRN-3970572",
+        "Name":"Door operation in EEF floor",
+        "Assigned To":"Vivek"
+    },
+    {
+        "TestRunStatus":"PASSED",
+        "ExecutionDate":"2025-07-17",
+        "Document Key":"KCE-TSTRN-3975107",
+        "Name":"FPD activation when lift drives to MEEF exit floor",
+        "Assigned To":"Vivek"
+    },
+    {
+        "TestRunStatus":"PASSED",
+        "ExecutionDate":"2025-07-02",
+        "Document Key":"KCE-TSTRN-3970573",
+        "Name":"Exit floor auto-car call and same floor landing call",
+        "Assigned To":"Vivek"
+    },
+    {
+        "TestRunStatus":"INPROGRESS",
+        "ExecutionDate":"2025-07-02",
+        "Document Key":"KCE-TSTRN-3970575",
+        "Name":"MEEF and AEEF locked floors operation during evacuation drive ",
+        "Assigned To":"Vivek"
+    },
+    {
+        "TestRunStatus":"PASSED",
+        "ExecutionDate":"2025-07-17",
+        "Document Key":"KCE-TSTRN-3975108",
+        "Name":"MEEF and AEEF locked floors operation during evacuation drive ",
+        "Assigned To":"Vivek"
+    },
+    {
+        "TestRunStatus":"PASSED",
+        "ExecutionDate":"2025-07-02",
+        "Document Key":"KCE-TSTRN-3970564",
+        "Name":"OEO - Alarm Deactivation - without calls",
+        "Assigned To":"Vivek"
+    },
+    {
+        "TestRunStatus":"PASSED",
+        "ExecutionDate":"2025-07-02",
+        "Document Key":"KCE-TSTRN-3970565",
+        "Name":"OEO - Alarm Deactivation - with calls",
+        "Assigned To":"Vivek"
+    },
+    {
+        "TestRunStatus":"NOT_APPLICABLE",
+        "ExecutionDate":"2025-07-10",
+        "Document Key":"KCE-TSTRN-3975110",
+        "Name":"OEO with ELO mode \u00a0",
+        "Assigned To":"Vivek"
+    },
+    {
+        "TestRunStatus":"PASSED",
+        "ExecutionDate":"2025-07-11",
+        "Document Key":"KCE-TSTRN-3975111",
+        "Name":"OEO with FID mode \u00a0",
+        "Assigned To":"Vivek"
+    },
+    {
+        "TestRunStatus":"PASSED",
+        "ExecutionDate":"2025-07-09",
+        "Document Key":"KCE-TSTRN-3974033",
+        "Name":"OEO with RDF\/TOC mode  ",
+        "Assigned To":"Vivek"
+    },
+    {
+        "TestRunStatus":"PASSED",
+        "ExecutionDate":"2025-07-09",
+        "Document Key":"KCE-TSTRN-3975112",
+        "Name":"OEO with RDF\/TOC mode  ",
+        "Assigned To":"Vivek"
+    },
+    {
+        "TestRunStatus":"PASSED",
+        "ExecutionDate":"2025-07-09",
+        "Document Key":"KCE-TSTRN-3974034",
+        "Name":"GEA activation with PRC   ",
+        "Assigned To":"Vivek"
+    },
+    {
+        "TestRunStatus":"PASSED",
+        "ExecutionDate":"2025-07-09",
+        "Document Key":"KCE-TSTRN-3975113",
+        "Name":"GEA activation with PRC   ",
+        "Assigned To":"Vivek"
+    },
+    {
+        "TestRunStatus":"PASSED",
+        "ExecutionDate":"2025-07-09",
+        "Document Key":"KCE-TSTRN-3974035",
+        "Name":"GEA activation with PRL   ",
+        "Assigned To":"Vivek"
+    },
+    {
+        "TestRunStatus":"PASSED",
+        "ExecutionDate":"2025-07-09",
+        "Document Key":"KCE-TSTRN-3975114",
+        "Name":"GEA activation with PRL   ",
+        "Assigned To":"Vivek"
+    },
+    {
+        "TestRunStatus":"PASSED",
+        "ExecutionDate":"2025-08-08",
+        "Document Key":"KCE-TSTRN-3979210",
+        "Name":"OEO with PVS\u00a0 \u00a0",
+        "Assigned To":"Vivek"
+    },
+    {
+        "TestRunStatus":"PASSED",
+        "ExecutionDate":"2025-07-14",
+        "Document Key":"KCE-TSTRN-3975116",
+        "Name":"GEA activation with OSS OPT",
+        "Assigned To":"Vivek"
+    },
+    {
+        "TestRunStatus":"PASSED",
+        "ExecutionDate":"2025-07-14",
+        "Document Key":"KCE-TSTRN-3975117",
+        "Name":"GEA activation with ATS",
+        "Assigned To":"Vivek"
+    },
+    {
+        "TestRunStatus":"PASSED",
+        "ExecutionDate":"2025-07-14",
+        "Document Key":"KCE-TSTRN-3975118",
+        "Name":"GEA activation with PAD",
+        "Assigned To":"Vivek"
+    },
+    {
+        "TestRunStatus":"PASSED",
+        "ExecutionDate":"2025-07-18",
+        "Document Key":"KCE-TSTRN-3975119",
+        "Name":"FPD activation During GEA return floor",
+        "Assigned To":"Vivek"
+    },
+    {
+        "TestRunStatus":"INPROGRESS",
+        "ExecutionDate":"2025-07-25",
+        "Document Key":"KCE-TSTRN-3975120",
+        "Name":"Locking and FPD locks operation in Evacuation when GEA is active. ",
+        "Assigned To":"Vivek"
+    },
+    {
+        "TestRunStatus":"PASSED",
+        "ExecutionDate":"2025-07-29",
+        "Document Key":"KCE-TSTRN-3977510",
+        "Name":"Locking and FPD locks operation in Evacuation when GEA is active. ",
+        "Assigned To":"Vivek"
+    },
+    {
+        "TestRunStatus":"PASSED",
+        "ExecutionDate":"2025-08-07",
+        "Document Key":"KCE-TSTRN-3979211",
+        "Name":"EBD drive operation When lift drives to GEA floor.",
+        "Assigned To":"Vivek"
+    },
+    {
+        "TestRunStatus":"PASSED",
+        "ExecutionDate":"2025-07-17",
+        "Document Key":"KCE-TSTRN-3975122",
+        "Name":"EPD drive operation When lift drives to GEA floor.",
+        "Assigned To":"Vivek"
+    },
+    {
+        "TestRunStatus":"PASSED",
+        "ExecutionDate":"2025-07-25",
+        "Document Key":"KCE-TSTRN-3975123",
+        "Name":"FRD activation When lift drives to GEA floor.",
+        "Assigned To":"Vivek"
+    },
+    {
+        "TestRunStatus":"PASSED",
+        "ExecutionDate":"2025-08-01",
+        "Document Key":"KCE-TSTRN-3977512",
+        "Name":"RIM mode active When lift drives to GEA floor.",
+        "Assigned To":"Vivek"
+    },
+    {
+        "TestRunStatus":"PASSED",
+        "ExecutionDate":"2025-07-25",
+        "Document Key":"KCE-TSTRN-3975125",
+        "Name":"Safety circuit break or severe fault ",
+        "Assigned To":"Vivek"
+    },
+    {
+        "TestRunStatus":"PASSED",
+        "ExecutionDate":"2025-07-25",
+        "Document Key":"KCE-TSTRN-3975126",
+        "Name":"Test switch activated when lift serves the evacuation landing calls",
+        "Assigned To":"Vivek"
+    },
+    {
+        "TestRunStatus":"PASSED",
+        "ExecutionDate":"2025-07-16",
+        "Document Key":"KCE-TSTRN-3975109",
+        "Name":"OEO with EAQ mode \u00a0",
+        "Assigned To":"Vivek"
+    },
+    {
+        "TestRunStatus":"PASSED",
+        "ExecutionDate":"2025-07-14",
+        "Document Key":"KCE-TSTRN-3975129",
+        "Name":"OEO - KCE OPT output",
+        "Assigned To":"Vivek"
+    },
+    {
+        "TestRunStatus":"PASSED",
+        "ExecutionDate":"2025-07-25",
+        "Document Key":"KCE-TSTRN-3975128",
+        "Name":"OEO- Conventional lift - Landing Signalization ",
+        "Assigned To":"Vivek"
+    },
+    {
+        "TestRunStatus":"PASSED",
+        "ExecutionDate":"2025-07-21",
+        "Document Key":"KCE-TSTRN-3975130",
+        "Name":"OEO - Failure Conditions",
+        "Assigned To":"Vivek"
+    },
+    {
+        "TestRunStatus":"PASSED",
+        "ExecutionDate":"2025-07-16",
+        "Document Key":"KCE-TSTRN-3975127",
+        "Name":"OEO - E Link Update",
+        "Assigned To":"Vivek"
     },
     {
         "TestRunStatus":"PASSED",
@@ -15162,6 +16632,20 @@
         "Assigned To":"Veeramanikandan"
     },
     {
+        "TestRunStatus":"INPROGRESS",
+        "ExecutionDate":"2025-08-18",
+        "Document Key":"KCE-TSTRN-3980779",
+        "Name":"DG application update for Single display (KST1068)",
+        "Assigned To":"Vivek"
+    },
+    {
+        "TestRunStatus":"FAILED",
+        "ExecutionDate":"2025-08-18",
+        "Document Key":"KCE-TSTRN-3980784",
+        "Name":"DG configuration with Site manager",
+        "Assigned To":"Vivek"
+    },
+    {
         "TestRunStatus":"FAILED",
         "ExecutionDate":"2025-08-21",
         "Document Key":"KCE-TSTRN-3982402",
@@ -15342,6 +16826,559 @@
         "Document Key":"KCE-TSTRN-3983281",
         "Name":"Door Operation During Ongoing Disability Service",
         "Assigned To":"Suryanarayanan"
+    },
+    {
+        "TestRunStatus":"PASSED",
+        "ExecutionDate":"2025-10-16",
+        "Document Key":"KCE-TSTRN-3998248",
+        "Name":"3.EPS G Emergency sequencing by Group controller using its inbuilt sequencer - Single lift sequence Scenario - Covered by TA",
+        "Assigned To":"Vivek"
+    },
+    {
+        "TestRunStatus":"PASSED",
+        "ExecutionDate":"2025-10-16",
+        "Document Key":"KCE-TSTRN-3998249",
+        "Name":"4.EPS G Emergency sequencing - Single lift full sequence Scenario on triggering one by one EPD input with OPT Output Operation",
+        "Assigned To":"Vivek"
+    },
+    {
+        "TestRunStatus":"PASSED",
+        "ExecutionDate":"2025-10-16",
+        "Document Key":"KCE-TSTRN-3998250",
+        "Name":"5.EPS G - Non serving of registered car and Landing calls - Covered by TA",
+        "Assigned To":"Vivek"
+    },
+    {
+        "TestRunStatus":"PASSED",
+        "ExecutionDate":"2025-10-17",
+        "Document Key":"KCE-TSTRN-3998251",
+        "Name":"7.EPS G - Remove Normal service permission from KCEOPT - Covered by TA",
+        "Assigned To":"Vivek"
+    },
+    {
+        "TestRunStatus":"INPROGRESS",
+        "ExecutionDate":"2025-10-17",
+        "Document Key":"KCE-TSTRN-3998252",
+        "Name":"11.EPS G Two lifts in group and other lift online while Normal service - Covered by TA",
+        "Assigned To":"Vivek"
+    },
+    {
+        "TestRunStatus":"PASSED",
+        "ExecutionDate":"2025-08-20",
+        "Document Key":"KCE-TSTRN-3982765",
+        "Name":"CAM - Cleaning Mode",
+        "Assigned To":"Vivek"
+    },
+    {
+        "TestRunStatus":"PASSED",
+        "ExecutionDate":"2025-08-20",
+        "Document Key":"KCE-TSTRN-3982766",
+        "Name":"OSS DL - Out of Service Mode",
+        "Assigned To":"Vivek"
+    },
+    {
+        "TestRunStatus":"PASSED",
+        "ExecutionDate":"2025-08-21",
+        "Document Key":"KCE-TSTRN-3982767",
+        "Name":"PIN code - Special calls - Empty car call",
+        "Assigned To":"Vivek"
+    },
+    {
+        "TestRunStatus":"PASSED",
+        "ExecutionDate":"2025-08-21",
+        "Document Key":"KCE-TSTRN-3982768",
+        "Name":"PIN code - Special calls - Priority call",
+        "Assigned To":"Vivek"
+    },
+    {
+        "TestRunStatus":"PASSED",
+        "ExecutionDate":"2025-08-21",
+        "Document Key":"KCE-TSTRN-3982769",
+        "Name":"PIN code - Special calls - Space allocation",
+        "Assigned To":"Vivek"
+    },
+    {
+        "TestRunStatus":"PASSED",
+        "ExecutionDate":"2025-09-04",
+        "Document Key":"KCE-TSTRN-3985964",
+        "Name":"7\" DOP Customizable header with image",
+        "Assigned To":"Vivek"
+    },
+    {
+        "TestRunStatus":"PASSED",
+        "ExecutionDate":"2025-09-09",
+        "Document Key":"KCE-TSTRN-3987493",
+        "Name":"7\" DOP Customizable header with image",
+        "Assigned To":"Vivek"
+    },
+    {
+        "TestRunStatus":"PASSED",
+        "ExecutionDate":"2025-09-04",
+        "Document Key":"KCE-TSTRN-3985965",
+        "Name":"7\" DOP Customizable header with color",
+        "Assigned To":"Vivek"
+    },
+    {
+        "TestRunStatus":"PASSED",
+        "ExecutionDate":"2025-09-09",
+        "Document Key":"KCE-TSTRN-3987494",
+        "Name":"7\" DOP Customizable header with color",
+        "Assigned To":"Vivek"
+    },
+    {
+        "TestRunStatus":"PASSED",
+        "ExecutionDate":"2025-09-04",
+        "Document Key":"KCE-TSTRN-3985966",
+        "Name":"10\" DOP Customizable header with image",
+        "Assigned To":"Vivek"
+    },
+    {
+        "TestRunStatus":"PASSED",
+        "ExecutionDate":"2025-09-09",
+        "Document Key":"KCE-TSTRN-3987495",
+        "Name":"10\" DOP Customizable header with image",
+        "Assigned To":"Vivek"
+    },
+    {
+        "TestRunStatus":"PASSED",
+        "ExecutionDate":"2025-09-10",
+        "Document Key":"KCE-TSTRN-3987496",
+        "Name":"10\" DOP Customizable header with color",
+        "Assigned To":"Vivek"
+    },
+    {
+        "TestRunStatus":"PASSED",
+        "ExecutionDate":"2025-09-01",
+        "Document Key":"KCE-TSTRN-3985968",
+        "Name":"xDOP welcome screen customization",
+        "Assigned To":"Vivek"
+    },
+    {
+        "TestRunStatus":"PASSED",
+        "ExecutionDate":"2025-09-01",
+        "Document Key":"KCE-TSTRN-3985969",
+        "Name":"10\" DOP Public menu and public buttons",
+        "Assigned To":"Vivek"
+    },
+    {
+        "TestRunStatus":"PASSED",
+        "ExecutionDate":"2025-09-01",
+        "Document Key":"KCE-TSTRN-3985970",
+        "Name":"7\" DOP Public menu and public buttons",
+        "Assigned To":"Vivek"
+    },
+    {
+        "TestRunStatus":"PASSED",
+        "ExecutionDate":"2025-08-26",
+        "Document Key":"KCE-TSTRN-3982777",
+        "Name":"Customized image",
+        "Assigned To":"Vivek"
+    },
+    {
+        "TestRunStatus":"PASSED",
+        "ExecutionDate":"2025-09-01",
+        "Document Key":"KCE-TSTRN-3985971",
+        "Name":"Fireman code compatible",
+        "Assigned To":"Vivek"
+    },
+    {
+        "TestRunStatus":"PASSED",
+        "ExecutionDate":"2025-08-21",
+        "Document Key":"KCE-TSTRN-3982779",
+        "Name":"DOP screenshot via Site Manager",
+        "Assigned To":"Vivek"
+    },
+    {
+        "TestRunStatus":"INPROGRESS",
+        "ExecutionDate":"2025-09-01",
+        "Document Key":"KCE-TSTRN-3985972",
+        "Name":"xDOP Personal floor list and features page",
+        "Assigned To":"Vivek"
+    },
+    {
+        "TestRunStatus":"PASSED",
+        "ExecutionDate":"2025-09-11",
+        "Document Key":"KCE-TSTRN-3987497",
+        "Name":"xDOP Personal floor list and features page",
+        "Assigned To":"Vivek"
+    },
+    {
+        "TestRunStatus":"PASSED",
+        "ExecutionDate":"2025-09-10",
+        "Document Key":"KCE-TSTRN-3987498",
+        "Name":"10\" DOP Floor icons",
+        "Assigned To":"Vivek"
+    },
+    {
+        "TestRunStatus":"PASSED",
+        "ExecutionDate":"2025-10-14",
+        "Document Key":"KCE-TSTRN-3998255",
+        "Name":"7\" DOP Floor icons",
+        "Assigned To":"Vivek"
+    },
+    {
+        "TestRunStatus":"PASSED",
+        "ExecutionDate":"2025-09-15",
+        "Document Key":"KCE-TSTRN-3987500",
+        "Name":"Code compliant for NA\/Hong Kong\/Singapore in 10 inch xDOP  ",
+        "Assigned To":"Vivek"
+    },
+    {
+        "TestRunStatus":"PASSED",
+        "ExecutionDate":"2025-09-18",
+        "Document Key":"KCE-TSTRN-3987501",
+        "Name":"xDOP indicates status Call is being processed when lifts are busy ",
+        "Assigned To":"Vivek"
+    },
+    {
+        "TestRunStatus":"PASSED",
+        "ExecutionDate":"2025-09-18",
+        "Document Key":"KCE-TSTRN-3987502",
+        "Name":"Code compliant for NA\/Hong Kong\/Singapore in 7 inch xDOP",
+        "Assigned To":"Vivek"
+    },
+    {
+        "TestRunStatus":"PASSED",
+        "ExecutionDate":"2025-09-22",
+        "Document Key":"KCE-TSTRN-3987503",
+        "Name":"xDOP language change by card swipe\u200b",
+        "Assigned To":"Vivek"
+    },
+    {
+        "TestRunStatus":"PASSED",
+        "ExecutionDate":"2025-09-18",
+        "Document Key":"KCE-TSTRN-3987504",
+        "Name":"Code compliant for California in 10 inch xDOP",
+        "Assigned To":"Vivek"
+    },
+    {
+        "TestRunStatus":"PASSED",
+        "ExecutionDate":"2025-08-26",
+        "Document Key":"KCE-TSTRN-3982788",
+        "Name":"xDOP restore configuration to the new device",
+        "Assigned To":"Vivek"
+    },
+    {
+        "TestRunStatus":"PASSED",
+        "ExecutionDate":"2025-09-18",
+        "Document Key":"KCE-TSTRN-3987505",
+        "Name":"Code compliant for California in 7 inch xDOP",
+        "Assigned To":"Vivek"
+    },
+    {
+        "TestRunStatus":"PASSED",
+        "ExecutionDate":"2025-08-28",
+        "Document Key":"KCE-TSTRN-3982790",
+        "Name":"xDOP restore software to the new device",
+        "Assigned To":"Vivek"
+    },
+    {
+        "TestRunStatus":"PASSED",
+        "ExecutionDate":"2025-09-01",
+        "Document Key":"KCE-TSTRN-3985981",
+        "Name":"xDOP restore software to the new device",
+        "Assigned To":"Vivek"
+    },
+    {
+        "TestRunStatus":"PASSED",
+        "ExecutionDate":"2025-09-04",
+        "Document Key":"KCE-TSTRN-3985982",
+        "Name":"Static layout is not possible, keypad is used",
+        "Assigned To":"Vivek"
+    },
+    {
+        "TestRunStatus":"PASSED",
+        "ExecutionDate":"2025-08-26",
+        "Document Key":"KCE-TSTRN-3982792",
+        "Name":"xDOP restore configuration and software to the new device",
+        "Assigned To":"Vivek"
+    },
+    {
+        "TestRunStatus":"PASSED",
+        "ExecutionDate":"2025-08-25",
+        "Document Key":"KCE-TSTRN-3982793",
+        "Name":"xDOP Convention mode calls",
+        "Assigned To":"Vivek"
+    },
+    {
+        "TestRunStatus":"NOT_APPLICABLE",
+        "ExecutionDate":"2025-09-15",
+        "Document Key":"KCE-TSTRN-3987506",
+        "Name":"xDOP Dormakaba mobile credentials usage",
+        "Assigned To":"Vivek"
+    },
+    {
+        "TestRunStatus":"PASSED",
+        "ExecutionDate":"2025-09-15",
+        "Document Key":"KCE-TSTRN-3987507",
+        "Name":"xDOP Multiple languages support",
+        "Assigned To":"Vivek"
+    },
+    {
+        "TestRunStatus":"PASSED",
+        "ExecutionDate":"2025-09-16",
+        "Document Key":"KCE-TSTRN-3987508",
+        "Name":"xDOP accent color customization",
+        "Assigned To":"Vivek"
+    },
+    {
+        "TestRunStatus":"NOT_APPLICABLE",
+        "ExecutionDate":"2025-09-16",
+        "Document Key":"KCE-TSTRN-3987509",
+        "Name":"Turnstile pedestal 10\u201d xDOP with QR",
+        "Assigned To":"Vivek"
+    },
+    {
+        "TestRunStatus":"PASSED",
+        "ExecutionDate":"2025-09-16",
+        "Document Key":"KCE-TSTRN-3987510",
+        "Name":"xDOP with Legic access card reader ",
+        "Assigned To":"Vivek"
+    },
+    {
+        "TestRunStatus":"PASSED",
+        "ExecutionDate":"2025-09-18",
+        "Document Key":"KCE-TSTRN-3987511",
+        "Name":"Access time measurement xDOP and SIMA card",
+        "Assigned To":"Vivek"
+    },
+    {
+        "TestRunStatus":"PASSED",
+        "ExecutionDate":"2025-09-18",
+        "Document Key":"KCE-TSTRN-3987512",
+        "Name":"Monitoring RF ID Legic reader from xDOP",
+        "Assigned To":"Vivek"
+    },
+    {
+        "TestRunStatus":"PASSED",
+        "ExecutionDate":"2025-08-22",
+        "Document Key":"KCE-TSTRN-3982801",
+        "Name":"Technical call from xDOP",
+        "Assigned To":"Vivek"
+    },
+    {
+        "TestRunStatus":"PASSED",
+        "ExecutionDate":"2025-09-18",
+        "Document Key":"KCE-TSTRN-3987513",
+        "Name":"xDOP Demo options",
+        "Assigned To":"Vivek"
+    },
+    {
+        "TestRunStatus":"PASSED",
+        "ExecutionDate":"2025-09-18",
+        "Document Key":"KCE-TSTRN-3987514",
+        "Name":"xDOP Building information",
+        "Assigned To":"Vivek"
+    },
+    {
+        "TestRunStatus":"PASSED",
+        "ExecutionDate":"2025-09-16",
+        "Document Key":"KCE-TSTRN-3987515",
+        "Name":"xDOP Public menu and Public buttons",
+        "Assigned To":"Vivek"
+    },
+    {
+        "TestRunStatus":"PASSED",
+        "ExecutionDate":"2025-08-25",
+        "Document Key":"KCE-TSTRN-3982805",
+        "Name":"xDOP call side selection",
+        "Assigned To":"Vivek"
+    },
+    {
+        "TestRunStatus":"PASSED",
+        "ExecutionDate":"2025-08-20",
+        "Document Key":"KCE-TSTRN-3982806",
+        "Name":"xDOP Call giving",
+        "Assigned To":"Vivek"
+    },
+    {
+        "TestRunStatus":"PASSED",
+        "ExecutionDate":"2025-09-23",
+        "Document Key":"KCE-TSTRN-3987516",
+        "Name":"xDOP Alternative guidances",
+        "Assigned To":"Vivek"
+    },
+    {
+        "TestRunStatus":"PASSED",
+        "ExecutionDate":"2025-09-15",
+        "Document Key":"KCE-TSTRN-3987517",
+        "Name":"xDOP Dynamic header",
+        "Assigned To":"Vivek"
+    },
+    {
+        "TestRunStatus":"NOT_APPLICABLE",
+        "ExecutionDate":"2025-09-16",
+        "Document Key":"KCE-TSTRN-3987518",
+        "Name":"xDOP HID RP10 reader monitoring ",
+        "Assigned To":"Vivek"
+    },
+    {
+        "TestRunStatus":"PASSED",
+        "ExecutionDate":"2025-09-12",
+        "Document Key":"KCE-TSTRN-3987519",
+        "Name":"xDOP QR reader",
+        "Assigned To":"Vivek"
+    },
+    {
+        "TestRunStatus":"PASSED",
+        "ExecutionDate":"2025-09-12",
+        "Document Key":"KCE-TSTRN-3987520",
+        "Name":"xDOP Group call",
+        "Assigned To":"Vivek"
+    },
+    {
+        "TestRunStatus":"NOT_APPLICABLE",
+        "ExecutionDate":"2025-09-01",
+        "Document Key":"KCE-TSTRN-3985998",
+        "Name":"xDOP Fireman-mode ",
+        "Assigned To":"Vivek"
+    },
+    {
+        "TestRunStatus":"PASSED",
+        "ExecutionDate":"2025-08-28",
+        "Document Key":"KCE-TSTRN-3985999",
+        "Name":"xDOP Fireman-mode customization",
+        "Assigned To":"Vivek"
+    },
+    {
+        "TestRunStatus":"PASSED",
+        "ExecutionDate":"2025-10-14",
+        "Document Key":"KCE-TSTRN-3998256",
+        "Name":"Fireman able to open doors by button from xDOP",
+        "Assigned To":"Vivek"
+    },
+    {
+        "TestRunStatus":"PASSED",
+        "ExecutionDate":"2025-09-12",
+        "Document Key":"KCE-TSTRN-3987522",
+        "Name":"xDOP Guidance map with header guidance",
+        "Assigned To":"Vivek"
+    },
+    {
+        "TestRunStatus":"PASSED",
+        "ExecutionDate":"2025-08-29",
+        "Document Key":"KCE-TSTRN-3986002",
+        "Name":"xDOP floor icons ",
+        "Assigned To":"Vivek"
+    },
+    {
+        "TestRunStatus":"PASSED",
+        "ExecutionDate":"2025-09-16",
+        "Document Key":"KCE-TSTRN-3987523",
+        "Name":"xDOP Button layouts",
+        "Assigned To":"Vivek"
+    },
+    {
+        "TestRunStatus":"PASSED",
+        "ExecutionDate":"2025-08-29",
+        "Document Key":"KCE-TSTRN-3986004",
+        "Name":"xDOP range proximity sensor",
+        "Assigned To":"Vivek"
+    },
+    {
+        "TestRunStatus":"PASSED",
+        "ExecutionDate":"2025-08-28",
+        "Document Key":"KCE-TSTRN-3986005",
+        "Name":"xDOP Basic destination call with virtual keypad 10\"",
+        "Assigned To":"Vivek"
+    },
+    {
+        "TestRunStatus":"PASSED",
+        "ExecutionDate":"2025-08-28",
+        "Document Key":"KCE-TSTRN-3986006",
+        "Name":"xDOP Basic destination call with virtual keypad 7\"",
+        "Assigned To":"Vivek"
+    },
+    {
+        "TestRunStatus":"PASSED",
+        "ExecutionDate":"2025-09-11",
+        "Document Key":"KCE-TSTRN-3987524",
+        "Name":"xDOP call type selection with virtual keypad 10\"",
+        "Assigned To":"Vivek"
+    },
+    {
+        "TestRunStatus":"PASSED",
+        "ExecutionDate":"2025-09-11",
+        "Document Key":"KCE-TSTRN-3987525",
+        "Name":"xDOP call type selection with virtual keypad 7\"",
+        "Assigned To":"Vivek"
+    },
+    {
+        "TestRunStatus":"PASSED",
+        "ExecutionDate":"2025-09-11",
+        "Document Key":"KCE-TSTRN-3987526",
+        "Name":"xDOP Dynamic selection disabled 10\"",
+        "Assigned To":"Vivek"
+    },
+    {
+        "TestRunStatus":"PASSED",
+        "ExecutionDate":"2025-09-11",
+        "Document Key":"KCE-TSTRN-3987527",
+        "Name":"xDOP Dynamic selection disabled 7\"",
+        "Assigned To":"Vivek"
+    },
+    {
+        "TestRunStatus":"PASSED",
+        "ExecutionDate":"2025-09-11",
+        "Document Key":"KCE-TSTRN-3987528",
+        "Name":"XDOP Guidance mode for static view",
+        "Assigned To":"Vivek"
+    },
+    {
+        "TestRunStatus":"PASSED",
+        "ExecutionDate":"2025-09-11",
+        "Document Key":"KCE-TSTRN-3987529",
+        "Name":"XDOP Guidance mode for keypad",
+        "Assigned To":"Vivek"
+    },
+    {
+        "TestRunStatus":"PASSED",
+        "ExecutionDate":"2025-09-11",
+        "Document Key":"KCE-TSTRN-3987530",
+        "Name":"XDOP Guidance mode for dynamic",
+        "Assigned To":"Vivek"
+    },
+    {
+        "TestRunStatus":"PASSED",
+        "ExecutionDate":"2025-09-22",
+        "Document Key":"KCE-TSTRN-3987531",
+        "Name":"OPA - Maximum stopping time",
+        "Assigned To":"Vivek"
+    },
+    {
+        "TestRunStatus":"PASSED",
+        "ExecutionDate":"2025-09-23",
+        "Document Key":"KCE-TSTRN-3987532",
+        "Name":"OPA - Two way allocation(immediate)",
+        "Assigned To":"Vivek"
+    },
+    {
+        "TestRunStatus":"PASSED",
+        "ExecutionDate":"2025-09-23",
+        "Document Key":"KCE-TSTRN-3987533",
+        "Name":"OPA - Two way allocation(continuous)",
+        "Assigned To":"Vivek"
+    },
+    {
+        "TestRunStatus":"PASSED",
+        "ExecutionDate":"2025-09-29",
+        "Document Key":"KCE-TSTRN-3992136",
+        "Name":"OPA - Single Lift Relaxation",
+        "Assigned To":"Vivek"
+    },
+    {
+        "TestRunStatus":"PASSED",
+        "ExecutionDate":"2025-09-29",
+        "Document Key":"KCE-TSTRN-3992137",
+        "Name":"OPA - Enable multiple round trip allocation",
+        "Assigned To":"Vivek"
+    },
+    {
+        "TestRunStatus":"PASSED",
+        "ExecutionDate":"2025-09-01",
+        "Document Key":"KCE-TSTRN-3986019",
+        "Name":"New KCEGCH swap in KCEDCS group ",
+        "Assigned To":"Vivek"
     },
     {
         "TestRunStatus":"PASSED",
