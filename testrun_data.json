@@ -497,6 +497,13 @@
         "Assigned To":"Mohammed Ibrahim Sultan"
     },
     {
+        "TestRunStatus":"PASSED",
+        "ExecutionDate":"2025-10-17",
+        "Document Key":"KIE601-TSTRN-66614",
+        "Name":"Reverse Direction (Step Reversal) for KCM",
+        "Assigned To":"VIGNESHWARAR"
+    },
+    {
         "TestRunStatus":"FAILED",
         "ExecutionDate":"2025-04-24",
         "Document Key":"KIE601-TSTRN-49587",
@@ -553,6 +560,13 @@
         "Assigned To":"Mohammed Ibrahim Sultan"
     },
     {
+        "TestRunStatus":"FAILED",
+        "ExecutionDate":"2025-10-17",
+        "Document Key":"KIE601-TSTRN-66594",
+        "Name":"Enhanced safety ",
+        "Assigned To":"Mohammed Ibrahim Sultan"
+    },
+    {
         "TestRunStatus":"PASSED",
         "ExecutionDate":"2025-09-02",
         "Document Key":"KIE601-TSTRN-60005",
@@ -567,8 +581,8 @@
         "Assigned To":"VIGNESHWARAR"
     },
     {
-        "TestRunStatus":"INPROGRESS",
-        "ExecutionDate":"2025-10-16",
+        "TestRunStatus":"FAILED",
+        "ExecutionDate":"2025-10-17",
         "Document Key":"KIE601-TSTRN-66595",
         "Name":"Enhanced safety Operational mode",
         "Assigned To":"Mohammed Ibrahim Sultan"
@@ -589,10 +603,24 @@
     },
     {
         "TestRunStatus":"PASSED",
+        "ExecutionDate":"2025-10-18",
+        "Document Key":"KIE601-TSTRN-66609",
+        "Name":"updating latest KIECPU software (TSC and CPU) into Escalator running with TR1.0-t12.7 release configuration",
+        "Assigned To":"VIGNESHWARAR"
+    },
+    {
+        "TestRunStatus":"PASSED",
         "ExecutionDate":"2025-09-02",
         "Document Key":"KIE601-TSTRN-60007",
         "Name":"Digital lighting in KST",
         "Assigned To":"Mohammed Ibrahim Sultan"
+    },
+    {
+        "TestRunStatus":"PASSED",
+        "ExecutionDate":"2025-10-17",
+        "Document Key":"KIE601-TSTRN-66610",
+        "Name":"updating latest KIECPU software (TSC and CPU) into Escalator running with TR1.0-t12.12 release configuration",
+        "Assigned To":"VIGNESHWARAR"
     },
     {
         "TestRunStatus":"PASSED",
@@ -616,11 +644,11 @@
         "Assigned To":"VIGNESHWARAR"
     },
     {
-        "TestRunStatus":"INPROGRESS",
-        "ExecutionDate":"2025-10-15",
+        "TestRunStatus":"PASSED",
+        "ExecutionDate":"2025-10-17",
         "Document Key":"KIE601-TSTRN-66611",
         "Name":"Auxiliary break ",
-        "Assigned To":"VIGNESHWARAR"
+        "Assigned To":"Mohammed Ibrahim Sultan"
     },
     {
         "TestRunStatus":"PASSED",
@@ -645,6 +673,13 @@
     },
     {
         "TestRunStatus":"PASSED",
+        "ExecutionDate":"2025-10-17",
+        "Document Key":"KIE601-TSTRN-66590",
+        "Name":"Brake Lift & Close Monitoring. ( Motor Selection 1)",
+        "Assigned To":"Mohammed Ibrahim Sultan"
+    },
+    {
+        "TestRunStatus":"PASSED",
         "ExecutionDate":"2025-09-02",
         "Document Key":"KIE601-TSTRN-60017",
         "Name":"Continous Mode - KCM - Operation by Inverter - Upper Key Switch",
@@ -663,6 +698,13 @@
         "Document Key":"KIE601-TSTRN-63413",
         "Name":"Fire switch monitoring (PC1_1300_2)",
         "Assigned To":"VIGNESHWARAR"
+    },
+    {
+        "TestRunStatus":"PASSED",
+        "ExecutionDate":"2025-10-17",
+        "Document Key":"KIE601-TSTRN-66589",
+        "Name":"Brake Lift & Close Monitoring. ( Motor Selection 2)",
+        "Assigned To":"Mohammed Ibrahim Sultan"
     },
     {
         "TestRunStatus":"BLOCKED",
@@ -950,6 +992,13 @@
         "Document Key":"KIE601-TSTRN-63409",
         "Name":"Stop After Stanby - KST - Faults",
         "Assigned To":"VIGNESHWARAR"
+    },
+    {
+        "TestRunStatus":"FAILED",
+        "ExecutionDate":"2025-10-17",
+        "Document Key":"KIE601-TSTRN-66591",
+        "Name":"Braking Sequence timeout",
+        "Assigned To":"Mohammed Ibrahim Sultan"
     },
     {
         "TestRunStatus":"FAILED",
@@ -2093,6 +2142,13 @@
         "Assigned To":"Mohammed Ibrahim Sultan"
     },
     {
+        "TestRunStatus":"FAILED",
+        "ExecutionDate":"2025-10-22",
+        "Document Key":"KIE601-TSTRN-66627",
+        "Name":"AMC Escalator Controller Menu - Escalator Status View",
+        "Assigned To":"VIGNESHWARAR"
+    },
+    {
         "TestRunStatus":"PASSED",
         "ExecutionDate":"2025-02-17",
         "Document Key":"KCE-TSTRN-3852959",
@@ -2482,6 +2538,13 @@
         "ExecutionDate":"2025-10-15",
         "Document Key":"KCE-TSTRN-3998522",
         "Name":"EMH (NA) - Emergency stop switch in shaft pit",
+        "Assigned To":"Dinesh"
+    },
+    {
+        "TestRunStatus":"FAILED",
+        "ExecutionDate":"2025-10-17",
+        "Document Key":"KCE-TSTRN-3998507",
+        "Name":"Phase 1 - Correction Drive during Phase 1",
         "Assigned To":"Dinesh"
     },
     {
@@ -16856,10 +16919,24 @@
         "Assigned To":"Vivek"
     },
     {
-        "TestRunStatus":"INPROGRESS",
+        "TestRunStatus":"PASSED",
         "ExecutionDate":"2025-10-17",
         "Document Key":"KCE-TSTRN-3998252",
         "Name":"11.EPS G Two lifts in group and other lift online while Normal service - Covered by TA",
+        "Assigned To":"Vivek"
+    },
+    {
+        "TestRunStatus":"PASSED",
+        "ExecutionDate":"2025-10-17",
+        "Document Key":"KCE-TSTRN-3998253",
+        "Name":"10.EPS G Duplex lifts with one lift fails while returning",
+        "Assigned To":"Vivek"
+    },
+    {
+        "TestRunStatus":"PASSED",
+        "ExecutionDate":"2025-10-17",
+        "Document Key":"KCE-TSTRN-3998254",
+        "Name":"12.EPS G Single lift failure to start normal service - Covered by TA",
         "Assigned To":"Vivek"
     },
     {

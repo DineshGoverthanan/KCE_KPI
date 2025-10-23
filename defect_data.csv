@@ -59,6 +59,7 @@ KIE601-SWBUG-2694,"IEX - FC 302 is cleared when Factory mode is enabled, Require
 KIE601-SWBUG-2696,IEX-Incorrect Sys status on EGD display when fire alarm is triggered.,VIGNESHWARAR,,2025-10-13
 KIE601-SWBUG-2697,IEX - Supervision parameters PC1-1236 to PC1-1247 is not added in UI sheet for release R 3.0.1,Mohammed Ibrahim Sultan,,2025-10-15
 KIE601-SWBUG-2698,"IEX- During Running Node SW downloading parameter (PC5_5300_1) is displaying noDG during the LCB update, but it should show noACC.",VIGNESHWARAR,,2025-10-12
+KIE601-SWBUG-2707,IEX-KCL Keys 5.70.0 (Separate keys for China & Europe)” not working in AMC 4.0.0.16 SW with IEX SW TR 1.0-t12.15 PES 1.2 ,VIGNESHWARAR,,2025-10-20
 DRIVE_HW_SW-SWBUG-1587,GG DCBL 5.51 SW - Fault 124 3064 Not Triggered when Software file is missed from SD Card.,VIGNESHWARAR,,2025-06-01
 KCE-SWBUG-5615,16.4-DCBL GD- Speed is not reduced when the elevator reaches the lower limit during the NTS Buffer Test.,Jagadeesh,KCE16.4.92 (LD 16.4.1.11 and GCD 16.4.65) + DCBL 24.47sw,
 LCE-SWBUG-4900,LCE 10.3.8 - Elevator Injects Calls and Floor Buttons Illuminate During Auto-Run with PRC/ATS/FRD Enabled,Nithya Priya,,2025-01-06
