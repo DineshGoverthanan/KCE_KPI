@@ -2549,6 +2549,41 @@
     },
     {
         "TestRunStatus":"FAILED",
+        "ExecutionDate":"2025-10-23",
+        "Document Key":"KCE-TSTRN-3998508",
+        "Name":"Phase 1 - Buzzer during RDF",
+        "Assigned To":"Dinesh"
+    },
+    {
+        "TestRunStatus":"INPROGRESS",
+        "ExecutionDate":"2025-10-23",
+        "Document Key":"KCE-TSTRN-3998510",
+        "Name":"Phase 1 - Alternate Floor Recall",
+        "Assigned To":"Dinesh"
+    },
+    {
+        "TestRunStatus":"FAILED",
+        "ExecutionDate":"2025-10-23",
+        "Document Key":"KCE-TSTRN-3998511",
+        "Name":"Phase 1 - In-Car Stop Switch",
+        "Assigned To":"Dinesh"
+    },
+    {
+        "TestRunStatus":"FAILED",
+        "ExecutionDate":"2025-10-23",
+        "Document Key":"KCE-TSTRN-3998494",
+        "Name":"Phase 1 - Buzzer during RDF",
+        "Assigned To":"Dinesh"
+    },
+    {
+        "TestRunStatus":"FAILED",
+        "ExecutionDate":"2025-10-23",
+        "Document Key":"KCE-TSTRN-3998497",
+        "Name":"Phase 1 - In-Car Stop Switch",
+        "Assigned To":"Dinesh"
+    },
+    {
+        "TestRunStatus":"FAILED",
         "ExecutionDate":"2025-09-18",
         "Document Key":"KCE-TSTRN-3988036",
         "Name":"MES Phase 1 (w\/PRL High)",
@@ -17550,10 +17585,24 @@
     },
     {
         "TestRunStatus":"PASSED",
+        "ExecutionDate":"2025-10-23",
+        "Document Key":"KCE-TSTRN-3998956",
+        "Name":"ProManager - Elevator - Parameters",
+        "Assigned To":"Suryanarayanan"
+    },
+    {
+        "TestRunStatus":"PASSED",
         "ExecutionDate":"2025-09-25",
         "Document Key":"KCE-TSTRN-3990286",
         "Name":"ProManager - Elevator - Drive parameters",
         "Assigned To":"Badaganti Sai Prasad"
+    },
+    {
+        "TestRunStatus":"PASSED",
+        "ExecutionDate":"2025-10-23",
+        "Document Key":"KCE-TSTRN-3998957",
+        "Name":"ProManager - Elevator - Drive parameters",
+        "Assigned To":"Suryanarayanan"
     },
     {
         "TestRunStatus":"PASSED",
@@ -18618,5 +18667,26 @@
         "Document Key":"GGalaxy-TSTRN-7699",
         "Name":"ERD Battery supervision Failure test",
         "Assigned To":"VIGNESHWARAR"
+    },
+    {
+        "TestRunStatus":"FAILED",
+        "ExecutionDate":"2025-10-23",
+        "Document Key":"KCE-TSTRN-3999120",
+        "Name":"Button sw - Configuration of buttons and switches - F2K configuration Tool",
+        "Assigned To":"Nithya Priya"
+    },
+    {
+        "TestRunStatus":"FAILED",
+        "ExecutionDate":"2025-10-23",
+        "Document Key":"KCE-TSTRN-3999122",
+        "Name":"Button sw - Door Open Button - Non-selective",
+        "Assigned To":"Nithya Priya"
+    },
+    {
+        "TestRunStatus":"INPROGRESS",
+        "ExecutionDate":"2025-10-23",
+        "Document Key":"KCE-TSTRN-3999124",
+        "Name":"Button sw - Floor & control button",
+        "Assigned To":"Kowsalya"
     }
 ]
