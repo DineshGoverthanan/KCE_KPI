@@ -18327,6 +18327,13 @@
     },
     {
         "TestRunStatus":"PASSED",
+        "ExecutionDate":"2025-10-27",
+        "Document Key":"KIE601-TSTRN-63367",
+        "Name":"EN115 Disable HR Underspeed",
+        "Assigned To":"Mohammed Ibrahim Sultan"
+    },
+    {
+        "TestRunStatus":"PASSED",
         "ExecutionDate":"2025-09-26",
         "Document Key":"KIE601-TSTRN-62489",
         "Name":"Stop After Stanby - KST - Faults",
@@ -18355,6 +18362,13 @@
     },
     {
         "TestRunStatus":"PASSED",
+        "ExecutionDate":"2025-10-27",
+        "Document Key":"KIE601-TSTRN-62471",
+        "Name":"Braking Sequence timeout",
+        "Assigned To":"Mohammed Ibrahim Sultan"
+    },
+    {
+        "TestRunStatus":"PASSED",
         "ExecutionDate":"2025-10-03",
         "Document Key":"KIE601-TSTRN-63370",
         "Name":"EN115 Disable Motor 2 Brake",
@@ -18372,6 +18386,13 @@
         "ExecutionDate":"2025-10-08",
         "Document Key":"KIE601-TSTRN-63374",
         "Name":"EN115 All Supervision",
+        "Assigned To":"Mohammed Ibrahim Sultan"
+    },
+    {
+        "TestRunStatus":"PASSED",
+        "ExecutionDate":"2025-10-27",
+        "Document Key":"KIE601-TSTRN-62476",
+        "Name":"Operation modes ",
         "Assigned To":"Mohammed Ibrahim Sultan"
     },
     {
@@ -18400,6 +18421,27 @@
         "ExecutionDate":"2025-10-15",
         "Document Key":"KIE601-TSTRN-66566",
         "Name":"Step Band Cover Displacement Monitoring Upper",
+        "Assigned To":"Mohammed Ibrahim Sultan"
+    },
+    {
+        "TestRunStatus":"FAILED",
+        "ExecutionDate":"2025-10-24",
+        "Document Key":"KIE601-TSTRN-66567",
+        "Name":"Fault 68-1,68-2 SSM1 and SSM2 Software Mismatch",
+        "Assigned To":"Mohammed Ibrahim Sultan"
+    },
+    {
+        "TestRunStatus":"FAILED",
+        "ExecutionDate":"2025-10-24",
+        "Document Key":"KIE601-TSTRN-66568",
+        "Name":"315-1, 315-2  No state change in MSS signal",
+        "Assigned To":"Mohammed Ibrahim Sultan"
+    },
+    {
+        "TestRunStatus":"PASSED",
+        "ExecutionDate":"2025-10-24",
+        "Document Key":"KIE601-TSTRN-66569",
+        "Name":"Brake wear monitoring",
         "Assigned To":"Mohammed Ibrahim Sultan"
     },
     {
@@ -18445,6 +18487,48 @@
         "Assigned To":"Mohammed Ibrahim Sultan"
     },
     {
+        "TestRunStatus":"PASSED",
+        "ExecutionDate":"2025-10-24",
+        "Document Key":"KIE601-TSTRN-66576",
+        "Name":"Gear box oil level monitor Motor 2",
+        "Assigned To":"Mohammed Ibrahim Sultan"
+    },
+    {
+        "TestRunStatus":"PASSED",
+        "ExecutionDate":"2025-10-24",
+        "Document Key":"KIE601-TSTRN-66577",
+        "Name":"Gear box oil level monitor with all modes",
+        "Assigned To":"Mohammed Ibrahim Sultan"
+    },
+    {
+        "TestRunStatus":"PASSED",
+        "ExecutionDate":"2025-10-23",
+        "Document Key":"KIE601-TSTRN-66578",
+        "Name":"Smoke Detector",
+        "Assigned To":"Mohammed Ibrahim Sultan"
+    },
+    {
+        "TestRunStatus":"PASSED",
+        "ExecutionDate":"2025-10-23",
+        "Document Key":"KIE601-TSTRN-66579",
+        "Name":"Motor Temperature Monitoring",
+        "Assigned To":"Mohammed Ibrahim Sultan"
+    },
+    {
+        "TestRunStatus":"PASSED",
+        "ExecutionDate":"2025-10-24",
+        "Document Key":"KIE601-TSTRN-66580",
+        "Name":"Drive chain Monitoring",
+        "Assigned To":"Mohammed Ibrahim Sultan"
+    },
+    {
+        "TestRunStatus":"PASSED",
+        "ExecutionDate":"2025-10-24",
+        "Document Key":"KIE601-TSTRN-66581",
+        "Name":"Drive chain Monitoring",
+        "Assigned To":"Mohammed Ibrahim Sultan"
+    },
+    {
         "TestRunStatus":"FAILED",
         "ExecutionDate":"2025-10-15",
         "Document Key":"KIE601-TSTRN-66582",
@@ -18456,6 +18540,20 @@
         "ExecutionDate":"2025-10-16",
         "Document Key":"KIE601-TSTRN-66583",
         "Name":"Lubrication oil pressure",
+        "Assigned To":"Mohammed Ibrahim Sultan"
+    },
+    {
+        "TestRunStatus":"PASSED",
+        "ExecutionDate":"2025-10-23",
+        "Document Key":"KIE601-TSTRN-66584",
+        "Name":"Motor Protection \u2013 Function",
+        "Assigned To":"Mohammed Ibrahim Sultan"
+    },
+    {
+        "TestRunStatus":"PASSED",
+        "ExecutionDate":"2025-10-23",
+        "Document Key":"KIE601-TSTRN-66585",
+        "Name":"Motor Protection \u2013 Supervision Handling",
         "Assigned To":"Mohammed Ibrahim Sultan"
     },
     {
@@ -18684,9 +18782,37 @@
     },
     {
         "TestRunStatus":"INPROGRESS",
-        "ExecutionDate":"2025-10-23",
+        "ExecutionDate":"2025-10-24",
         "Document Key":"KCE-TSTRN-3999124",
         "Name":"Button sw - Floor & control button",
+        "Assigned To":"Kowsalya"
+    },
+    {
+        "TestRunStatus":"INPROGRESS",
+        "ExecutionDate":"2025-10-27",
+        "Document Key":"KCE-TSTRN-3999126",
+        "Name":"KNSKIB - FEX- Floor extension",
+        "Assigned To":"Nithya Priya"
+    },
+    {
+        "TestRunStatus":"INPROGRESS",
+        "ExecutionDate":"2025-10-27",
+        "Document Key":"KCE-TSTRN-3999128",
+        "Name":"Rust test case aganist the KNSMUL G23 + KNSKIL Buttons ",
+        "Assigned To":"Kowsalya"
+    },
+    {
+        "TestRunStatus":"INPROGRESS",
+        "ExecutionDate":"2025-10-27",
+        "Document Key":"KCE-TSTRN-3999129",
+        "Name":"Rust test case aganist the KNSMUL G24 + KNSKIL Buttons (Conventional COP)",
+        "Assigned To":"Nithya Priya"
+    },
+    {
+        "TestRunStatus":"INPROGRESS",
+        "ExecutionDate":"2025-10-27",
+        "Document Key":"KCE-TSTRN-3999131",
+        "Name":"Rust test case aganist the KSSMUL G24 + KNSKIL Buttons",
         "Assigned To":"Kowsalya"
     }
 ]
