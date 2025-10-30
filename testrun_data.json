@@ -29,6 +29,13 @@
     },
     {
         "TestRunStatus":"PASSED",
+        "ExecutionDate":"2025-10-29",
+        "Document Key":"KCE-TSTRN-3999903",
+        "Name":"AMD D200 - Basic - Closing",
+        "Assigned To":"Shrividhya"
+    },
+    {
+        "TestRunStatus":"PASSED",
         "ExecutionDate":"2025-06-27",
         "Document Key":"KCE-TSTRN-3965358",
         "Name":"AMD D200 - Basic - Elevator moving and standing",
@@ -84,6 +91,13 @@
         "Assigned To":"Shrividhya"
     },
     {
+        "TestRunStatus":"PASSED",
+        "ExecutionDate":"2025-10-29",
+        "Document Key":"KCE-TSTRN-3999904",
+        "Name":"AMD D200 - Basic - Opening",
+        "Assigned To":"Shrividhya"
+    },
+    {
         "TestRunStatus":"FAILED",
         "ExecutionDate":"2025-06-25",
         "Document Key":"KCE-TSTRN-3965360",
@@ -119,6 +133,13 @@
         "Assigned To":"Shrividhya"
     },
     {
+        "TestRunStatus":"PASSED",
+        "ExecutionDate":"2025-10-29",
+        "Document Key":"KCE-TSTRN-3999905",
+        "Name":"AMD D200 - Basic - Reopening",
+        "Assigned To":"Shrividhya"
+    },
+    {
         "TestRunStatus":"FAILED",
         "ExecutionDate":"2025-06-26",
         "Document Key":"KCE-TSTRN-3965361",
@@ -143,6 +164,13 @@
         "TestRunStatus":"PASSED",
         "ExecutionDate":"2025-10-08",
         "Document Key":"KCE-TSTRN-3995140",
+        "Name":"AMD D200 - Close force limiter",
+        "Assigned To":"Shrividhya"
+    },
+    {
+        "TestRunStatus":"PASSED",
+        "ExecutionDate":"2025-10-29",
+        "Document Key":"KCE-TSTRN-3999906",
         "Name":"AMD D200 - Close force limiter",
         "Assigned To":"Shrividhya"
     },
@@ -197,6 +225,13 @@
     },
     {
         "TestRunStatus":"PASSED",
+        "ExecutionDate":"2025-10-29",
+        "Document Key":"KCE-TSTRN-3999907",
+        "Name":"AMD D200 - Door speed ",
+        "Assigned To":"Shrividhya"
+    },
+    {
+        "TestRunStatus":"PASSED",
         "ExecutionDate":"2025-06-25",
         "Document Key":"KCE-TSTRN-3965364",
         "Name":"AMD D200 - Learning",
@@ -227,6 +262,13 @@
         "TestRunStatus":"FAILED",
         "ExecutionDate":"2025-10-09",
         "Document Key":"KCE-TSTRN-3995142",
+        "Name":"AMD D200 - Learning",
+        "Assigned To":"Shrividhya"
+    },
+    {
+        "TestRunStatus":"PASSED",
+        "ExecutionDate":"2025-10-29",
+        "Document Key":"KCE-TSTRN-3999908",
         "Name":"AMD D200 - Learning",
         "Assigned To":"Shrividhya"
     },
@@ -269,6 +311,13 @@
         "TestRunStatus":"PASSED",
         "ExecutionDate":"2025-10-09",
         "Document Key":"KCE-TSTRN-3995143",
+        "Name":"AMD D200 - Power breaks",
+        "Assigned To":"Shrividhya"
+    },
+    {
+        "TestRunStatus":"PASSED",
+        "ExecutionDate":"2025-10-29",
+        "Document Key":"KCE-TSTRN-3999909",
         "Name":"AMD D200 - Power breaks",
         "Assigned To":"Shrividhya"
     },
@@ -13041,8 +13090,8 @@
         "Assigned To":"Suryanarayanan"
     },
     {
-        "TestRunStatus":"FAILED",
-        "ExecutionDate":"2025-10-10",
+        "TestRunStatus":"PASSED",
+        "ExecutionDate":"2025-10-28",
         "Document Key":"KCE-TSTRN-3995107",
         "Name":"SNF I - Silent Night Feature",
         "Assigned To":"Harini Sri"
@@ -17550,6 +17599,13 @@
     },
     {
         "TestRunStatus":"PASSED",
+        "ExecutionDate":"2025-10-28",
+        "Document Key":"KCE-TSTRN-3998954",
+        "Name":"ProManager - Elevator - Tools - Safety parameters",
+        "Assigned To":"Suryanarayanan"
+    },
+    {
+        "TestRunStatus":"PASSED",
         "ExecutionDate":"2025-09-23",
         "Document Key":"KCE-TSTRN-3990281",
         "Name":"ProManager - Elevator - Tools - Pairing",
@@ -17559,6 +17615,13 @@
         "TestRunStatus":"INPROGRESS",
         "ExecutionDate":"2025-09-26",
         "Document Key":"KCE-TSTRN-3990282",
+        "Name":"ProManager - Elevator - Tools - Elevator restore",
+        "Assigned To":"Suryanarayanan"
+    },
+    {
+        "TestRunStatus":"PASSED",
+        "ExecutionDate":"2025-10-28",
+        "Document Key":"KCE-TSTRN-3998955",
         "Name":"ProManager - Elevator - Tools - Elevator restore",
         "Assigned To":"Suryanarayanan"
     },
@@ -17963,9 +18026,51 @@
     },
     {
         "TestRunStatus":"PASSED",
+        "ExecutionDate":"2025-10-27",
+        "Document Key":"KIE601-TSTRN-62419",
+        "Name":" Safety fault codes SEC",
+        "Assigned To":"Mohammed Ibrahim Sultan"
+    },
+    {
+        "TestRunStatus":"PASSED",
         "ExecutionDate":"2025-10-14",
         "Document Key":"KIE601-TSTRN-62420",
         "Name":"Operation modes ",
+        "Assigned To":"Mohammed Ibrahim Sultan"
+    },
+    {
+        "TestRunStatus":"PASSED",
+        "ExecutionDate":"2025-10-27",
+        "Document Key":"KIE601-TSTRN-62421",
+        "Name":"Handrail underspeed",
+        "Assigned To":"Mohammed Ibrahim Sultan"
+    },
+    {
+        "TestRunStatus":"PASSED",
+        "ExecutionDate":"2025-10-28",
+        "Document Key":"KIE601-TSTRN-62422",
+        "Name":"Handrail Overspeed",
+        "Assigned To":"Mohammed Ibrahim Sultan"
+    },
+    {
+        "TestRunStatus":"FAILED",
+        "ExecutionDate":"2025-10-27",
+        "Document Key":"KIE601-TSTRN-62423",
+        "Name":"Handrail Monitor Pre warning\u00a0",
+        "Assigned To":"Mohammed Ibrahim Sultan"
+    },
+    {
+        "TestRunStatus":"PASSED",
+        "ExecutionDate":"2025-10-27",
+        "Document Key":"KIE601-TSTRN-62424",
+        "Name":"Overspeed 1 fault 31 ",
+        "Assigned To":"Mohammed Ibrahim Sultan"
+    },
+    {
+        "TestRunStatus":"PASSED",
+        "ExecutionDate":"2025-10-27",
+        "Document Key":"KIE601-TSTRN-62425",
+        "Name":"Overspeed 1 fault 32",
         "Assigned To":"Mohammed Ibrahim Sultan"
     },
     {
@@ -18106,6 +18211,13 @@
         "ExecutionDate":"2025-09-23",
         "Document Key":"KIE601-TSTRN-63249",
         "Name":"On-site mode updated",
+        "Assigned To":"Mohammed Ibrahim Sultan"
+    },
+    {
+        "TestRunStatus":"PASSED",
+        "ExecutionDate":"2025-10-27",
+        "Document Key":"KIE601-TSTRN-63382",
+        "Name":"Roll call - Upper",
         "Assigned To":"Mohammed Ibrahim Sultan"
     },
     {
@@ -18320,6 +18432,13 @@
     },
     {
         "TestRunStatus":"PASSED",
+        "ExecutionDate":"2025-10-28",
+        "Document Key":"KIE601-TSTRN-63366",
+        "Name":"EN115 Disable HR Overspeed",
+        "Assigned To":"Mohammed Ibrahim Sultan"
+    },
+    {
+        "TestRunStatus":"PASSED",
         "ExecutionDate":"2025-09-26",
         "Document Key":"KIE601-TSTRN-62488",
         "Name":"Change of Modes -  KST to Different Modes",
@@ -18393,6 +18512,13 @@
         "ExecutionDate":"2025-10-27",
         "Document Key":"KIE601-TSTRN-62476",
         "Name":"Operation modes ",
+        "Assigned To":"Mohammed Ibrahim Sultan"
+    },
+    {
+        "TestRunStatus":"PASSED",
+        "ExecutionDate":"2025-10-27",
+        "Document Key":"KIE601-TSTRN-66536",
+        "Name":"Node Pairing - Safety Network",
         "Assigned To":"Mohammed Ibrahim Sultan"
     },
     {
@@ -18767,8 +18893,8 @@
         "Assigned To":"VIGNESHWARAR"
     },
     {
-        "TestRunStatus":"FAILED",
-        "ExecutionDate":"2025-10-23",
+        "TestRunStatus":"PASSED",
+        "ExecutionDate":"2025-10-30",
         "Document Key":"KCE-TSTRN-3999120",
         "Name":"Button sw - Configuration of buttons and switches - F2K configuration Tool",
         "Assigned To":"Nithya Priya"
@@ -18781,15 +18907,29 @@
         "Assigned To":"Nithya Priya"
     },
     {
-        "TestRunStatus":"INPROGRESS",
-        "ExecutionDate":"2025-10-24",
+        "TestRunStatus":"NOT_APPLICABLE",
+        "ExecutionDate":"2025-10-28",
+        "Document Key":"KCE-TSTRN-3999123",
+        "Name":"Button sw - Door Open Button AU - Non-selective",
+        "Assigned To":"Nithya Priya"
+    },
+    {
+        "TestRunStatus":"PASSED",
+        "ExecutionDate":"2025-10-29",
         "Document Key":"KCE-TSTRN-3999124",
         "Name":"Button sw - Floor & control button",
         "Assigned To":"Kowsalya"
     },
     {
-        "TestRunStatus":"INPROGRESS",
-        "ExecutionDate":"2025-10-27",
+        "TestRunStatus":"NOT_APPLICABLE",
+        "ExecutionDate":"2025-10-29",
+        "Document Key":"KCE-TSTRN-3999125",
+        "Name":"Button sw - Floor & control button AU",
+        "Assigned To":"Kowsalya"
+    },
+    {
+        "TestRunStatus":"FAILED",
+        "ExecutionDate":"2025-10-29",
         "Document Key":"KCE-TSTRN-3999126",
         "Name":"KNSKIB - FEX- Floor extension",
         "Assigned To":"Nithya Priya"
@@ -18802,17 +18942,17 @@
         "Assigned To":"Kowsalya"
     },
     {
-        "TestRunStatus":"INPROGRESS",
-        "ExecutionDate":"2025-10-27",
+        "TestRunStatus":"FAILED",
+        "ExecutionDate":"2025-10-28",
         "Document Key":"KCE-TSTRN-3999129",
         "Name":"Rust test case aganist the KNSMUL G24 + KNSKIL Buttons (Conventional COP)",
         "Assigned To":"Nithya Priya"
     },
     {
-        "TestRunStatus":"INPROGRESS",
-        "ExecutionDate":"2025-10-27",
+        "TestRunStatus":"FAILED",
+        "ExecutionDate":"2025-10-30",
         "Document Key":"KCE-TSTRN-3999131",
-        "Name":"Rust test case aganist the KSSMUL G24 + KNSKIL Buttons",
+        "Name":"Rust test case aganist the KSSMUL + KNSKIL Buttons",
         "Assigned To":"Kowsalya"
     }
 ]
