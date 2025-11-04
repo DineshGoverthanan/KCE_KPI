@@ -2198,6 +2198,13 @@
         "Assigned To":"VIGNESHWARAR"
     },
     {
+        "TestRunStatus":"FAILED",
+        "ExecutionDate":"2025-11-04",
+        "Document Key":"KIE601-TSTRN-68204",
+        "Name":"AMC Escalator Controller Menu - Escalator Status View",
+        "Assigned To":"VIGNESHWARAR"
+    },
+    {
         "TestRunStatus":"PASSED",
         "ExecutionDate":"2025-02-17",
         "Document Key":"KCE-TSTRN-3852959",
@@ -18054,7 +18061,7 @@
     },
     {
         "TestRunStatus":"FAILED",
-        "ExecutionDate":"2025-10-27",
+        "ExecutionDate":"2025-10-31",
         "Document Key":"KIE601-TSTRN-62423",
         "Name":"Handrail Monitor Pre warning\u00a0",
         "Assigned To":"Mohammed Ibrahim Sultan"
@@ -18253,6 +18260,13 @@
         "ExecutionDate":"2025-10-09",
         "Document Key":"KIE601-TSTRN-63383",
         "Name":"Roll call lower",
+        "Assigned To":"Mohammed Ibrahim Sultan"
+    },
+    {
+        "TestRunStatus":"FAILED",
+        "ExecutionDate":"2025-10-31",
+        "Document Key":"KIE601-TSTRN-63434",
+        "Name":"Interlock Feature 2",
         "Assigned To":"Mohammed Ibrahim Sultan"
     },
     {
@@ -18900,8 +18914,15 @@
         "Assigned To":"Nithya Priya"
     },
     {
-        "TestRunStatus":"FAILED",
-        "ExecutionDate":"2025-10-23",
+        "TestRunStatus":"INPROGRESS",
+        "ExecutionDate":"2025-11-04",
+        "Document Key":"KCE-TSTRN-3999121",
+        "Name":"Button sw - Configuration of buttons and switches - Service Switch",
+        "Assigned To":"Nithya Priya"
+    },
+    {
+        "TestRunStatus":"PASSED",
+        "ExecutionDate":"2025-10-31",
         "Document Key":"KCE-TSTRN-3999122",
         "Name":"Button sw - Door Open Button - Non-selective",
         "Assigned To":"Nithya Priya"
@@ -18928,22 +18949,22 @@
         "Assigned To":"Kowsalya"
     },
     {
-        "TestRunStatus":"FAILED",
-        "ExecutionDate":"2025-10-29",
+        "TestRunStatus":"PASSED",
+        "ExecutionDate":"2025-10-31",
         "Document Key":"KCE-TSTRN-3999126",
         "Name":"KNSKIB - FEX- Floor extension",
         "Assigned To":"Nithya Priya"
     },
     {
-        "TestRunStatus":"INPROGRESS",
-        "ExecutionDate":"2025-10-27",
+        "TestRunStatus":"PASSED",
+        "ExecutionDate":"2025-11-04",
         "Document Key":"KCE-TSTRN-3999128",
         "Name":"Rust test case aganist the KNSMUL G23 + KNSKIL Buttons ",
         "Assigned To":"Kowsalya"
     },
     {
         "TestRunStatus":"FAILED",
-        "ExecutionDate":"2025-10-28",
+        "ExecutionDate":"2025-11-04",
         "Document Key":"KCE-TSTRN-3999129",
         "Name":"Rust test case aganist the KNSMUL G24 + KNSKIL Buttons (Conventional COP)",
         "Assigned To":"Nithya Priya"
