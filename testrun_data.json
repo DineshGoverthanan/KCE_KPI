@@ -2191,6 +2191,13 @@
         "Assigned To":"Mohammed Ibrahim Sultan"
     },
     {
+        "TestRunStatus":"PASSED",
+        "ExecutionDate":"2025-11-04",
+        "Document Key":"KIE601-TSTRN-68205",
+        "Name":"AMC - Common - License activation",
+        "Assigned To":"VIGNESHWARAR"
+    },
+    {
         "TestRunStatus":"FAILED",
         "ExecutionDate":"2025-10-22",
         "Document Key":"KIE601-TSTRN-66627",
@@ -18975,5 +18982,12 @@
         "Document Key":"KCE-TSTRN-3999131",
         "Name":"Rust test case aganist the KSSMUL + KNSKIL Buttons",
         "Assigned To":"Kowsalya"
+    },
+    {
+        "TestRunStatus":"INPROGRESS",
+        "ExecutionDate":"2025-11-04",
+        "Document Key":"KCE-TSTRN-4001251",
+        "Name":"SPP - Parallel run prevention - Normal_Conventional ",
+        "Assigned To":"Badaganti Sai Prasad"
     }
 ]
