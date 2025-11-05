@@ -320,3 +320,5 @@ KCE-SWBUG-6860,4.6 - ProManagager - Parameter 806's Description Data doesn't syn
 KCE-SWBUG-6861,EAQ speed follows RES speed (0.5m/s) instead of Correction speed (0.25m/s) when elevator in SNF & RES with same Start and End time. ,Harini Sri,,2025-10-27
 KCE-SWBUG-6862,4.6 - ProManager - Typo in Parameter 806's ,Suryanarayanan,4.6.239.7126,2025-10-28
 KCE-SWBUG-6874,PROMANAGER 4.6- PDX drive Fault code #2502 description not showing  ,Priyavalli,,2025-10-29
+KCE-SWBUG-6900,"17.0 - PAD O - Doors (Opens/ Not Opens), when same floor CAR Call is pressed, Randomly",Suryanarayanan,17.0.0.16,2025-11-03
+KCE-SWBUG-6901,"17.0 - ADO - Both Doors are not parked open in PAD Floor, When ADO is enabled",Suryanarayanan,17.0.0.16,2025-11-03
