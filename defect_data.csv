@@ -322,3 +322,4 @@ KCE-SWBUG-6862,4.6 - ProManager - Typo in Parameter 806's ,Suryanarayanan,4.6.23
 KCE-SWBUG-6874,PROMANAGER 4.6- PDX drive Fault code #2502 description not showing  ,Priyavalli,,2025-10-29
 KCE-SWBUG-6900,"17.0 - PAD O - Doors (Opens/ Not Opens), when same floor CAR Call is pressed, Randomly",Suryanarayanan,17.0.0.16,2025-11-03
 KCE-SWBUG-6901,"17.0 - ADO - Both Doors are not parked open in PAD Floor, When ADO is enabled",Suryanarayanan,17.0.0.16,2025-11-03
+KCE-SWBUG-6906,4.6 - ProManager - Fault #2111's Data 1 Description data is missing,Suryanarayanan,4.6.239.7126,2025-11-04
