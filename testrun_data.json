@@ -18921,8 +18921,8 @@
         "Assigned To":"Nithya Priya"
     },
     {
-        "TestRunStatus":"INPROGRESS",
-        "ExecutionDate":"2025-11-04",
+        "TestRunStatus":"PASSED",
+        "ExecutionDate":"2025-11-05",
         "Document Key":"KCE-TSTRN-3999121",
         "Name":"Button sw - Configuration of buttons and switches - Service Switch",
         "Assigned To":"Nithya Priya"
