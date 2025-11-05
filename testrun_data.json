@@ -2184,6 +2184,13 @@
         "Assigned To":"Mohammed Ibrahim Sultan"
     },
     {
+        "TestRunStatus":"PASSED",
+        "ExecutionDate":"2025-11-05",
+        "Document Key":"KIE601-TSTRN-68206",
+        "Name":"AMC - Common - New License Fetching",
+        "Assigned To":"VIGNESHWARAR"
+    },
+    {
         "TestRunStatus":"FAILED",
         "ExecutionDate":"2025-09-05",
         "Document Key":"KIE601-TSTRN-61643",
@@ -2192,7 +2199,7 @@
     },
     {
         "TestRunStatus":"PASSED",
-        "ExecutionDate":"2025-11-04",
+        "ExecutionDate":"2025-11-05",
         "Document Key":"KIE601-TSTRN-68205",
         "Name":"AMC - Common - License activation",
         "Assigned To":"VIGNESHWARAR"
