@@ -18977,6 +18977,13 @@
         "Assigned To":"Nithya Priya"
     },
     {
+        "TestRunStatus":"INPROGRESS",
+        "ExecutionDate":"2025-11-05",
+        "Document Key":"KCE-TSTRN-3999130",
+        "Name":"Rust test case aganist the KNSMUL G24 + KNSKIL Buttons (Keypad COP)",
+        "Assigned To":"Nithya Priya"
+    },
+    {
         "TestRunStatus":"FAILED",
         "ExecutionDate":"2025-10-30",
         "Document Key":"KCE-TSTRN-3999131",
