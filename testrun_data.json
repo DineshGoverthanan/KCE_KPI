@@ -18985,7 +18985,7 @@
     },
     {
         "TestRunStatus":"FAILED",
-        "ExecutionDate":"2025-11-04",
+        "ExecutionDate":"2025-11-06",
         "Document Key":"KCE-TSTRN-3999129",
         "Name":"Rust test case aganist the KNSMUL G24 + KNSKIL Buttons (Conventional COP)",
         "Assigned To":"Nithya Priya"
@@ -18999,7 +18999,7 @@
     },
     {
         "TestRunStatus":"FAILED",
-        "ExecutionDate":"2025-10-30",
+        "ExecutionDate":"2025-11-06",
         "Document Key":"KCE-TSTRN-3999131",
         "Name":"Rust test case aganist the KSSMUL + KNSKIL Buttons",
         "Assigned To":"Kowsalya"
