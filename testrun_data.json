@@ -18992,7 +18992,7 @@
     },
     {
         "TestRunStatus":"INPROGRESS",
-        "ExecutionDate":"2025-11-05",
+        "ExecutionDate":"2025-11-06",
         "Document Key":"KCE-TSTRN-3999130",
         "Name":"Rust test case aganist the KNSMUL G24 + KNSKIL Buttons (Keypad COP)",
         "Assigned To":"Nithya Priya"
@@ -19005,10 +19005,31 @@
         "Assigned To":"Kowsalya"
     },
     {
-        "TestRunStatus":"INPROGRESS",
-        "ExecutionDate":"2025-11-05",
+        "TestRunStatus":"FAILED",
+        "ExecutionDate":"2025-11-06",
         "Document Key":"KCE-TSTRN-4001251",
         "Name":"SPP - Parallel run prevention - Normal_Conventional ",
         "Assigned To":"Badaganti Sai Prasad"
+    },
+    {
+        "TestRunStatus":"INPROGRESS",
+        "ExecutionDate":"2025-11-06",
+        "Document Key":"KCE-TSTRN-4002061",
+        "Name":"ACL C - Accurate relevelling - Doors closed - Special modes",
+        "Assigned To":"Suryanarayanan"
+    },
+    {
+        "TestRunStatus":"INPROGRESS",
+        "ExecutionDate":"2025-11-06",
+        "Document Key":"KCE-TSTRN-4002057",
+        "Name":"ACL B - Accurate relevelling - Doors open - Faults",
+        "Assigned To":"Suryanarayanan"
+    },
+    {
+        "TestRunStatus":"INPROGRESS",
+        "ExecutionDate":"2025-11-06",
+        "Document Key":"KCE-TSTRN-4002063",
+        "Name":"OCV K - Operation of Car Ventilation - Button",
+        "Assigned To":"Dinesh"
     }
 ]
