@@ -1968,6 +1968,13 @@
     },
     {
         "TestRunStatus":"PASSED",
+        "ExecutionDate":"2025-11-06",
+        "Document Key":"KIE601-TSTRN-68212",
+        "Name":"Inspection Mode - Operation - Upper Pit",
+        "Assigned To":"VIGNESHWARAR"
+    },
+    {
+        "TestRunStatus":"PASSED",
         "ExecutionDate":"2025-04-03",
         "Document Key":"KIE601-TSTRN-46931",
         "Name":"Software Version",
@@ -13015,6 +13022,13 @@
     {
         "TestRunStatus":"PASSED",
         "ExecutionDate":"2025-05-16",
+        "Document Key":"KCE_SSWT_4_2-TSTRN-31407",
+        "Name":"Movable stops - Car top - Person in car top - Balustrate up - H7 ON - H6 OFF - H5 ON - TOC OFF",
+        "Assigned To":"Veeramanikandan"
+    },
+    {
+        "TestRunStatus":"PASSED",
+        "ExecutionDate":"2025-05-16",
         "Document Key":"KCE_SSWT_4_2-TSTRN-31408",
         "Name":"Movable stops - Car top - Person in car top - Balustrate up - H7 ON - H6 OFF - H5 ON - TOC ON - H3 OFF",
         "Assigned To":"Veeramanikandan"
@@ -18998,7 +19012,7 @@
         "Assigned To":"Nithya Priya"
     },
     {
-        "TestRunStatus":"FAILED",
+        "TestRunStatus":"PASSED",
         "ExecutionDate":"2025-11-06",
         "Document Key":"KCE-TSTRN-3999131",
         "Name":"Rust test case aganist the KSSMUL + KNSKIL Buttons",
