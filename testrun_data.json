@@ -1463,10 +1463,17 @@
         "Assigned To":"Mohammed Ibrahim Sultan"
     },
     {
-        "TestRunStatus":"INPROGRESS",
-        "ExecutionDate":"2025-11-06",
+        "TestRunStatus":"FAILED",
+        "ExecutionDate":"2025-11-07",
         "Document Key":"KIE601-TSTRN-68217",
         "Name":"Lubrication Output - Step chain",
+        "Assigned To":"VIGNESHWARAR"
+    },
+    {
+        "TestRunStatus":"INPROGRESS",
+        "ExecutionDate":"2025-11-07",
+        "Document Key":"KIE601-TSTRN-68218",
+        "Name":"Lubrication output - Step chain & HR\/Drive chain",
         "Assigned To":"VIGNESHWARAR"
     },
     {
@@ -18936,21 +18943,21 @@
     },
     {
         "TestRunStatus":"PASSED",
-        "ExecutionDate":"2025-10-30",
+        "ExecutionDate":"2025-11-07",
         "Document Key":"KCE-TSTRN-3999120",
         "Name":"Button sw - Configuration of buttons and switches - F2K configuration Tool",
         "Assigned To":"Nithya Priya"
     },
     {
         "TestRunStatus":"PASSED",
-        "ExecutionDate":"2025-11-05",
+        "ExecutionDate":"2025-11-07",
         "Document Key":"KCE-TSTRN-3999121",
         "Name":"Button sw - Configuration of buttons and switches - Service Switch",
         "Assigned To":"Nithya Priya"
     },
     {
         "TestRunStatus":"PASSED",
-        "ExecutionDate":"2025-10-31",
+        "ExecutionDate":"2025-11-07",
         "Document Key":"KCE-TSTRN-3999122",
         "Name":"Button sw - Door Open Button - Non-selective",
         "Assigned To":"Nithya Priya"
@@ -18978,7 +18985,7 @@
     },
     {
         "TestRunStatus":"PASSED",
-        "ExecutionDate":"2025-10-31",
+        "ExecutionDate":"2025-11-07",
         "Document Key":"KCE-TSTRN-3999126",
         "Name":"KNSKIB - FEX- Floor extension",
         "Assigned To":"Nithya Priya"
@@ -18999,14 +19006,14 @@
     },
     {
         "TestRunStatus":"FAILED",
-        "ExecutionDate":"2025-11-06",
+        "ExecutionDate":"2025-11-07",
         "Document Key":"KCE-TSTRN-3999129",
         "Name":"Rust test case aganist the KNSMUL G24 + KNSKIL Buttons (Conventional COP)",
         "Assigned To":"Nithya Priya"
     },
     {
-        "TestRunStatus":"INPROGRESS",
-        "ExecutionDate":"2025-11-06",
+        "TestRunStatus":"PASSED",
+        "ExecutionDate":"2025-11-07",
         "Document Key":"KCE-TSTRN-3999130",
         "Name":"Rust test case aganist the KNSMUL G24 + KNSKIL Buttons (Keypad COP)",
         "Assigned To":"Nithya Priya"
@@ -19040,8 +19047,8 @@
         "Assigned To":"Suryanarayanan"
     },
     {
-        "TestRunStatus":"INPROGRESS",
-        "ExecutionDate":"2025-11-06",
+        "TestRunStatus":"FAILED",
+        "ExecutionDate":"2025-11-07",
         "Document Key":"KCE-TSTRN-4002063",
         "Name":"OCV K - Operation of Car Ventilation - Button",
         "Assigned To":"Dinesh"
