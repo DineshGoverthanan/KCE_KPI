@@ -1211,6 +1211,13 @@
         "Assigned To":"Mohammed Ibrahim Sultan"
     },
     {
+        "TestRunStatus":"INPROGRESS",
+        "ExecutionDate":"2025-11-07",
+        "Document Key":"KIE601-TSTRN-68221",
+        "Name":"EGD display",
+        "Assigned To":"VIGNESHWARAR"
+    },
+    {
         "TestRunStatus":"PASSED",
         "ExecutionDate":"2025-04-09",
         "Document Key":"KIE601-TSTRN-48275",
@@ -1342,6 +1349,13 @@
         "Document Key":"KIE601-TSTRN-51764",
         "Name":"Handrail underspeed",
         "Assigned To":"Mohammed Ibrahim Sultan"
+    },
+    {
+        "TestRunStatus":"FAILED",
+        "ExecutionDate":"2025-11-07",
+        "Document Key":"KIE601-TSTRN-68220",
+        "Name":"7. Change of Modes -  Different Modes to K2D",
+        "Assigned To":"VIGNESHWARAR"
     },
     {
         "TestRunStatus":"PASSED",
