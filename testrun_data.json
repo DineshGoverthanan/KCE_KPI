@@ -945,7 +945,7 @@
         "Assigned To":"VIGNESHWARAR"
     },
     {
-        "TestRunStatus":"INPROGRESS",
+        "TestRunStatus":"PASSED",
         "ExecutionDate":"2025-11-07",
         "Document Key":"KIE601-TSTRN-68225",
         "Name":"Stop After Standby - KST - Inverter - Up direction",
