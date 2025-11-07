@@ -324,3 +324,4 @@ KCE-SWBUG-6900,"17.0 - PAD O - Doors (Opens/ Not Opens), when same floor CAR Cal
 KCE-SWBUG-6901,"17.0 - ADO - Both Doors are not parked open in PAD Floor, When ADO is enabled",Suryanarayanan,17.0.0.16,2025-11-03
 KCE-SWBUG-6906,4.6 - ProManager - Fault #2111's Data 1 Description data is missing,Suryanarayanan,4.6.239.7126,2025-11-04
 KCE-SWBUG-6922,PDX - Fault #1064's Data is missing,Priyavalli,,2025-11-05
+KCE-SWBUG-6928,OCV Output light is not turned OFF after Car Ventilation time,Dinesh,"KCE 17.0.0.108(LD: 17.0.0.16, GCD: 17.0.0.29)",2025-11-06

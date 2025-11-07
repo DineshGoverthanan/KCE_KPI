@@ -945,6 +945,13 @@
         "Assigned To":"VIGNESHWARAR"
     },
     {
+        "TestRunStatus":"INPROGRESS",
+        "ExecutionDate":"2025-11-07",
+        "Document Key":"KIE601-TSTRN-68225",
+        "Name":"Stop After Standby - KST - Inverter - Up direction",
+        "Assigned To":"VIGNESHWARAR"
+    },
+    {
         "TestRunStatus":"PASSED",
         "ExecutionDate":"2025-09-02",
         "Document Key":"KIE601-TSTRN-60027",
@@ -1470,7 +1477,7 @@
         "Assigned To":"VIGNESHWARAR"
     },
     {
-        "TestRunStatus":"INPROGRESS",
+        "TestRunStatus":"FAILED",
         "ExecutionDate":"2025-11-07",
         "Document Key":"KIE601-TSTRN-68218",
         "Name":"Lubrication output - Step chain & HR\/Drive chain",
@@ -7481,6 +7488,13 @@
         "Document Key":"KCE-TSTRN-3850909",
         "Name":"FRD AU1 - Phase 1 with KCECOB and KCECEB - Tests not included into TA",
         "Assigned To":"Shrividhya"
+    },
+    {
+        "TestRunStatus":"PASSED",
+        "ExecutionDate":"2025-11-07",
+        "Document Key":"KCE-TSTRN-4001912",
+        "Name":"25Q4 (Release 3) Rush Tests - Global",
+        "Assigned To":"Veeramanikandan"
     },
     {
         "TestRunStatus":"INPROGRESS",
