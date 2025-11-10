@@ -1212,7 +1212,7 @@
     },
     {
         "TestRunStatus":"INPROGRESS",
-        "ExecutionDate":"2025-11-07",
+        "ExecutionDate":"2025-11-10",
         "Document Key":"KIE601-TSTRN-68221",
         "Name":"EGD display",
         "Assigned To":"VIGNESHWARAR"
@@ -15936,6 +15936,13 @@
         "ExecutionDate":"2025-11-06",
         "Document Key":"KCE-TSTRN-4001251",
         "Name":"SPP - Parallel run prevention - Normal_Conventional ",
+        "Assigned To":"Badaganti Sai Prasad"
+    },
+    {
+        "TestRunStatus":"INPROGRESS",
+        "ExecutionDate":"2025-11-10",
+        "Document Key":"KCE-TSTRN-4001255",
+        "Name":"ATS mode with SPP configuration ",
         "Assigned To":"Badaganti Sai Prasad"
     },
     {
