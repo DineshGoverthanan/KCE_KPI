@@ -63,6 +63,7 @@ KIE601-SWBUG-2707,IEX-KCL Keys 5.70.0 (Separate keys for China & Europe)” not 
 KIE601-SWBUG-2708,IEX-Incorrect Mode Display on EGD During On-site mode. ,VIGNESHWARAR,,2025-10-21
 KIE601-SWBUG-2709,IEX- The Jama requirement page need to be updated - EGD Display (Shutdown)-( Service person attention required ),VIGNESHWARAR,,2025-10-21
 KIE601-SWBUG-2711,IEX-While running escalator Fault code F 303-2 is thrown unneccesarily.,VIGNESHWARAR,,2025-10-23
+KIE601-SWBUG-2734,IEX - Escalator not running in interlock mode after learning is initiated in 3rd simulator,Mohammed Ibrahim Sultan,,2025-11-05
 DRIVE_HW_SW-SWBUG-1587,GG DCBL 5.51 SW - Fault 124 3064 Not Triggered when Software file is missed from SD Card.,VIGNESHWARAR,,2025-06-01
 KCE-SWBUG-5615,16.4-DCBL GD- Speed is not reduced when the elevator reaches the lower limit during the NTS Buffer Test.,Jagadeesh,KCE16.4.92 (LD 16.4.1.11 and GCD 16.4.65) + DCBL 24.47sw,
 KCE-SWBUG-6553,"KCE NA - When MES activated during car call service, lift is unable to stop at the nearest floor.",Veeramanikandan,KCE 17.0.0.10,2025-09-02
@@ -320,3 +321,4 @@ KCE-SWBUG-6922,PDX - Fault #1064's Data is missing,Priyavalli,,2025-11-05
 KCE-SWBUG-6928,OCV Output light is not turned OFF after Car Ventilation time,Dinesh,"KCE 17.0.0.108(LD: 17.0.0.16, GCD: 17.0.0.29)",2025-11-06
 KCE-SWBUG-6931,17.0 - PAD O - Both Side Doors are not Parked Open in PAD Floor when Down Landing Call Button Direction is Locked,Suryanarayanan,"KCE 17.0.0.108(LD: 17.0.0.16, GCD: 17.0.0.29)",2025-11-06
 KCE-SWBUG-6936,KCE 17.0.0.108 - Car call button stuck — Fault 1700 not triggered when FEX button (floors 64–123) is stuck,Nithya Priya,"KCE 17.0.0.108(LD: 17.0.0.16, GCD: 17.0.0.29)",2025-11-09
+KCE-SWBUG-6940,4.6_Service Tool-The description for Elevator Parameter (1359) has not been provided for value 2.,Jagadeesh,"KCE 17.0.0.108(LD: 17.0.0.16, GCD: 17.0.0.29)",2025-11-09

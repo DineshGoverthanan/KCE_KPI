@@ -736,6 +736,13 @@
     },
     {
         "TestRunStatus":"PASSED",
+        "ExecutionDate":"2025-11-10",
+        "Document Key":"KIE601-TSTRN-68222",
+        "Name":"Brake Lift & Close Monitoring. ( Motor Selection 1)",
+        "Assigned To":"VIGNESHWARAR"
+    },
+    {
+        "TestRunStatus":"PASSED",
         "ExecutionDate":"2025-09-02",
         "Document Key":"KIE601-TSTRN-60017",
         "Name":"Continous Mode - KCM - Operation by Inverter - Upper Key Switch",
@@ -1274,7 +1281,7 @@
         "Assigned To":"Mohammed Ibrahim Sultan"
     },
     {
-        "TestRunStatus":"FAILED",
+        "TestRunStatus":"INPROGRESS",
         "ExecutionDate":"2025-11-10",
         "Document Key":"KIE601-TSTRN-68219",
         "Name":"1. Passenger Control Mode - K2D - Inverter - UP direction",
@@ -15981,6 +15988,13 @@
         "Assigned To":"Suryanarayanan"
     },
     {
+        "TestRunStatus":"INPROGRESS",
+        "ExecutionDate":"2025-11-10",
+        "Document Key":"KCE-TSTRN-4002058",
+        "Name":"ACL B - Accurate relevelling - Doors open - Special FRD cases",
+        "Assigned To":"Suryanarayanan"
+    },
+    {
         "TestRunStatus":"PASSED",
         "ExecutionDate":"2025-11-10",
         "Document Key":"KCE-TSTRN-4002057",
@@ -16013,6 +16027,13 @@
         "ExecutionDate":"2025-11-10",
         "Document Key":"KCE-TSTRN-4002066",
         "Name":"BPI O  \u2013 Bypass indication at landings \u2013 Bypassed floor only",
+        "Assigned To":"Jagadeesh"
+    },
+    {
+        "TestRunStatus":"INPROGRESS",
+        "ExecutionDate":"2025-11-10",
+        "Document Key":"KCE-TSTRN-4002067",
+        "Name":"BPI C- Bypass indication at landings \u2013 All floors",
         "Assigned To":"Jagadeesh"
     }
 ]
