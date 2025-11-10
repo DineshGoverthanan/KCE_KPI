@@ -2030,6 +2030,13 @@
         "Assigned To":"VIGNESHWARAR"
     },
     {
+        "TestRunStatus":"FAILED",
+        "ExecutionDate":"2025-11-10",
+        "Document Key":"KIE601-TSTRN-68211",
+        "Name":"On-site mode updated",
+        "Assigned To":"VIGNESHWARAR"
+    },
+    {
         "TestRunStatus":"PASSED",
         "ExecutionDate":"2025-10-10",
         "Document Key":"KIE601-TSTRN-66538",
@@ -15953,8 +15960,8 @@
         "Assigned To":"Suryanarayanan"
     },
     {
-        "TestRunStatus":"INPROGRESS",
-        "ExecutionDate":"2025-11-07",
+        "TestRunStatus":"PASSED",
+        "ExecutionDate":"2025-11-10",
         "Document Key":"KCE-TSTRN-4002057",
         "Name":"ACL B - Accurate relevelling - Doors open - Faults",
         "Assigned To":"Suryanarayanan"
