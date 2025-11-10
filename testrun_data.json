@@ -701,6 +701,13 @@
     },
     {
         "TestRunStatus":"PASSED",
+        "ExecutionDate":"2025-11-10",
+        "Document Key":"KIE601-TSTRN-68226",
+        "Name":"Auxiliary break ",
+        "Assigned To":"VIGNESHWARAR"
+    },
+    {
+        "TestRunStatus":"PASSED",
         "ExecutionDate":"2025-05-30",
         "Document Key":"KIE601-TSTRN-51775",
         "Name":"Contactor feedback inspection",
@@ -1268,6 +1275,13 @@
     },
     {
         "TestRunStatus":"FAILED",
+        "ExecutionDate":"2025-11-10",
+        "Document Key":"KIE601-TSTRN-68219",
+        "Name":"1. Passenger Control Mode - K2D - Inverter - UP direction",
+        "Assigned To":"VIGNESHWARAR"
+    },
+    {
+        "TestRunStatus":"FAILED",
         "ExecutionDate":"2025-04-10",
         "Document Key":"KIE601-TSTRN-48276",
         "Name":"Motor Protection \u2013 Supervision Handling",
@@ -1629,6 +1643,13 @@
         "Document Key":"KIE601-TSTRN-39260",
         "Name":"Flywheel Cover Monitoring KAM mode",
         "Assigned To":"Mohammed Ibrahim Sultan"
+    },
+    {
+        "TestRunStatus":"PASSED",
+        "ExecutionDate":"2025-11-10",
+        "Document Key":"KIE601-TSTRN-68214",
+        "Name":"Smart Inverter starts with Inverter ",
+        "Assigned To":"VIGNESHWARAR"
     },
     {
         "TestRunStatus":"PASSED",
@@ -15919,7 +15940,7 @@
     },
     {
         "TestRunStatus":"FAILED",
-        "ExecutionDate":"2025-11-07",
+        "ExecutionDate":"2025-11-10",
         "Document Key":"KCE-TSTRN-3999129",
         "Name":"Rust test case aganist the KNSMUL G24 + KNSKIL Buttons (Conventional COP)",
         "Assigned To":"Nithya Priya"

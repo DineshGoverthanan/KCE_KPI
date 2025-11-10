@@ -319,3 +319,4 @@ KCE-SWBUG-6906,4.6 - ProManager - Fault #2111's Data 1 Description data is missi
 KCE-SWBUG-6922,PDX - Fault #1064's Data is missing,Priyavalli,,2025-11-05
 KCE-SWBUG-6928,OCV Output light is not turned OFF after Car Ventilation time,Dinesh,"KCE 17.0.0.108(LD: 17.0.0.16, GCD: 17.0.0.29)",2025-11-06
 KCE-SWBUG-6931,17.0 - PAD O - Both Side Doors are not Parked Open in PAD Floor when Down Landing Call Button Direction is Locked,Suryanarayanan,"KCE 17.0.0.108(LD: 17.0.0.16, GCD: 17.0.0.29)",2025-11-06
+KCE-SWBUG-6936,KCE 17.0.0.108 - Car call button stuck — Fault 1700 not triggered when FEX button (floors 64–123) is stuck,Nithya Priya,"KCE 17.0.0.108(LD: 17.0.0.16, GCD: 17.0.0.29)",2025-11-09
