@@ -1211,7 +1211,7 @@
         "Assigned To":"Mohammed Ibrahim Sultan"
     },
     {
-        "TestRunStatus":"INPROGRESS",
+        "TestRunStatus":"FAILED",
         "ExecutionDate":"2025-11-10",
         "Document Key":"KIE601-TSTRN-68221",
         "Name":"EGD display",
