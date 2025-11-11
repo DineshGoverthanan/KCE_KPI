@@ -638,7 +638,7 @@
     },
     {
         "TestRunStatus":"INPROGRESS",
-        "ExecutionDate":"2025-11-10",
+        "ExecutionDate":"2025-11-11",
         "Document Key":"KIE601-TSTRN-68224",
         "Name":"Enhanced safety Operational mode",
         "Assigned To":"VIGNESHWARAR"
@@ -15989,6 +15989,13 @@
     },
     {
         "TestRunStatus":"INPROGRESS",
+        "ExecutionDate":"2025-11-11",
+        "Document Key":"KCE-TSTRN-4002629",
+        "Name":"Commissioning - 3.1 Roll Call",
+        "Assigned To":"Dinesh"
+    },
+    {
+        "TestRunStatus":"INPROGRESS",
         "ExecutionDate":"2025-11-06",
         "Document Key":"KCE-TSTRN-4002061",
         "Name":"ACL C - Accurate relevelling - Doors closed - Special modes",
@@ -16038,7 +16045,7 @@
     },
     {
         "TestRunStatus":"INPROGRESS",
-        "ExecutionDate":"2025-11-10",
+        "ExecutionDate":"2025-11-11",
         "Document Key":"KCE-TSTRN-4002067",
         "Name":"BPI C- Bypass indication at landings \u2013 All floors",
         "Assigned To":"Jagadeesh"
