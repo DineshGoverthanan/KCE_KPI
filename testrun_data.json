@@ -575,10 +575,24 @@
     },
     {
         "TestRunStatus":"PASSED",
+        "ExecutionDate":"2025-11-11",
+        "Document Key":"KIE601-TSTRN-68227",
+        "Name":"Overspeed 1 fault 31 ",
+        "Assigned To":"VIGNESHWARAR"
+    },
+    {
+        "TestRunStatus":"PASSED",
         "ExecutionDate":"2025-10-16",
         "Document Key":"KIE601-TSTRN-66613",
         "Name":"Overspeed 1 fault 32",
         "Assigned To":"Mohammed Ibrahim Sultan"
+    },
+    {
+        "TestRunStatus":"INPROGRESS",
+        "ExecutionDate":"2025-11-11",
+        "Document Key":"KIE601-TSTRN-68335",
+        "Name":"Overspeed 1 fault 32",
+        "Assigned To":"VIGNESHWARAR"
     },
     {
         "TestRunStatus":"FAILED",
@@ -1939,6 +1953,13 @@
         "Assigned To":"VIGNESHWARAR"
     },
     {
+        "TestRunStatus":"FAILED",
+        "ExecutionDate":"2025-11-11",
+        "Document Key":"KIE601-TSTRN-68210",
+        "Name":"operational modes",
+        "Assigned To":"VIGNESHWARAR"
+    },
+    {
         "TestRunStatus":"PASSED",
         "ExecutionDate":"2025-04-04",
         "Document Key":"KIE601-TSTRN-46958",
@@ -2042,6 +2063,13 @@
         "Document Key":"KIE601-TSTRN-49588",
         "Name":"Parameters Access Locking in FUI",
         "Assigned To":"Mohammed Ibrahim Sultan"
+    },
+    {
+        "TestRunStatus":"INPROGRESS",
+        "ExecutionDate":"2025-11-11",
+        "Document Key":"KIE601-TSTRN-68334",
+        "Name":"Missing Step Detection - Lower",
+        "Assigned To":"VIGNESHWARAR"
     },
     {
         "TestRunStatus":"PASSED",
@@ -4471,6 +4499,27 @@
         "Document Key":"KCE-TSTRN-3850909",
         "Name":"FRD AU1 - Phase 1 with KCECOB and KCECEB - Tests not included into TA",
         "Assigned To":"Shrividhya"
+    },
+    {
+        "TestRunStatus":"PASSED",
+        "ExecutionDate":"2025-11-11",
+        "Document Key":"KCE-TSTRN-4002176",
+        "Name":"EMM (NA) - Emergency stop switch in machine room",
+        "Assigned To":"Veeramanikandan"
+    },
+    {
+        "TestRunStatus":"PASSED",
+        "ExecutionDate":"2025-11-11",
+        "Document Key":"KCE-TSTRN-4002177",
+        "Name":"EMR (NA) - Emergency stop switch on car roof",
+        "Assigned To":"Veeramanikandan"
+    },
+    {
+        "TestRunStatus":"PASSED",
+        "ExecutionDate":"2025-11-11",
+        "Document Key":"KCE-TSTRN-4002178",
+        "Name":"EMH (NA) - Emergency stop switch in shaft pit",
+        "Assigned To":"Veeramanikandan"
     },
     {
         "TestRunStatus":"PASSED",
@@ -15995,7 +16044,7 @@
         "Assigned To":"Badaganti Sai Prasad"
     },
     {
-        "TestRunStatus":"INPROGRESS",
+        "TestRunStatus":"PASSED",
         "ExecutionDate":"2025-11-11",
         "Document Key":"KCE-TSTRN-4001256",
         "Name":"RES mode with SPP configuration ",
@@ -16006,6 +16055,13 @@
         "ExecutionDate":"2025-11-11",
         "Document Key":"KCE-TSTRN-4001261",
         "Name":"PRC mode with SPP configuration",
+        "Assigned To":"Badaganti Sai Prasad"
+    },
+    {
+        "TestRunStatus":"INPROGRESS",
+        "ExecutionDate":"2025-11-11",
+        "Document Key":"KCE-TSTRN-4001268",
+        "Name":"EPD with SPP Configuration ",
         "Assigned To":"Badaganti Sai Prasad"
     },
     {
