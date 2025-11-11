@@ -1079,6 +1079,13 @@
     },
     {
         "TestRunStatus":"FAILED",
+        "ExecutionDate":"2025-11-11",
+        "Document Key":"KIE601-TSTRN-68223",
+        "Name":"Braking Sequence timeout",
+        "Assigned To":"VIGNESHWARAR"
+    },
+    {
+        "TestRunStatus":"FAILED",
         "ExecutionDate":"2025-10-14",
         "Document Key":"KIE601-TSTRN-63410",
         "Name":"LCB software update",
@@ -1289,7 +1296,7 @@
     },
     {
         "TestRunStatus":"PASSED",
-        "ExecutionDate":"2025-11-10",
+        "ExecutionDate":"2025-11-11",
         "Document Key":"KIE601-TSTRN-68219",
         "Name":"1. Passenger Control Mode - K2D - Inverter - UP direction",
         "Assigned To":"VIGNESHWARAR"
@@ -15990,15 +15997,50 @@
     {
         "TestRunStatus":"INPROGRESS",
         "ExecutionDate":"2025-11-11",
+        "Document Key":"KCE-TSTRN-4001256",
+        "Name":"RES mode with SPP configuration ",
+        "Assigned To":"Badaganti Sai Prasad"
+    },
+    {
+        "TestRunStatus":"FAILED",
+        "ExecutionDate":"2025-11-11",
+        "Document Key":"KCE-TSTRN-4001261",
+        "Name":"PRC mode with SPP configuration",
+        "Assigned To":"Badaganti Sai Prasad"
+    },
+    {
+        "TestRunStatus":"INPROGRESS",
+        "ExecutionDate":"2025-11-11",
+        "Document Key":"KCE-TSTRN-4002614",
+        "Name":"Rescue mode landing indication and 1449=3",
+        "Assigned To":"Priyavalli"
+    },
+    {
+        "TestRunStatus":"INPROGRESS",
+        "ExecutionDate":"2025-11-11",
+        "Document Key":"KCE-TSTRN-4002615",
+        "Name":"Rescue mode landing indication and 1449=0 or 1",
+        "Assigned To":"Priyavalli"
+    },
+    {
+        "TestRunStatus":"INPROGRESS",
+        "ExecutionDate":"2025-11-11",
         "Document Key":"KCE-TSTRN-4002629",
         "Name":"Commissioning - 3.1 Roll Call",
         "Assigned To":"Dinesh"
     },
     {
         "TestRunStatus":"INPROGRESS",
-        "ExecutionDate":"2025-11-06",
+        "ExecutionDate":"2025-11-11",
         "Document Key":"KCE-TSTRN-4002061",
         "Name":"ACL C - Accurate relevelling - Doors closed - Special modes",
+        "Assigned To":"Suryanarayanan"
+    },
+    {
+        "TestRunStatus":"PASSED",
+        "ExecutionDate":"2025-11-11",
+        "Document Key":"KCE-TSTRN-4002060",
+        "Name":"ACL C - Accurate relevelling - Doors closed - Faults",
         "Assigned To":"Suryanarayanan"
     },
     {
@@ -16049,5 +16091,12 @@
         "Document Key":"KCE-TSTRN-4002067",
         "Name":"BPI C- Bypass indication at landings \u2013 All floors",
         "Assigned To":"Jagadeesh"
+    },
+    {
+        "TestRunStatus":"FAILED",
+        "ExecutionDate":"2025-11-11",
+        "Document Key":"KCE-TSTRN-4002627",
+        "Name":"FRD IL - Phase 1 - Tests not included into TA",
+        "Assigned To":"Dinesh"
     }
 ]
