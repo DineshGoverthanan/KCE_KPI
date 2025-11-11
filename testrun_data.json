@@ -637,7 +637,7 @@
         "Assigned To":"Mohammed Ibrahim Sultan"
     },
     {
-        "TestRunStatus":"INPROGRESS",
+        "TestRunStatus":"FAILED",
         "ExecutionDate":"2025-11-11",
         "Document Key":"KIE601-TSTRN-68224",
         "Name":"Enhanced safety Operational mode",
@@ -15982,7 +15982,7 @@
     },
     {
         "TestRunStatus":"FAILED",
-        "ExecutionDate":"2025-11-06",
+        "ExecutionDate":"2025-11-11",
         "Document Key":"KCE-TSTRN-4001251",
         "Name":"SPP - Parallel run prevention - Normal_Conventional ",
         "Assigned To":"Badaganti Sai Prasad"
@@ -16009,6 +16009,13 @@
         "Assigned To":"Badaganti Sai Prasad"
     },
     {
+        "TestRunStatus":"FAILED",
+        "ExecutionDate":"2025-11-11",
+        "Document Key":"KCE-TSTRN-4002613",
+        "Name":"Rescue mode landing indication and 1449=2",
+        "Assigned To":"Priyavalli"
+    },
+    {
         "TestRunStatus":"INPROGRESS",
         "ExecutionDate":"2025-11-11",
         "Document Key":"KCE-TSTRN-4002614",
@@ -16016,7 +16023,7 @@
         "Assigned To":"Priyavalli"
     },
     {
-        "TestRunStatus":"INPROGRESS",
+        "TestRunStatus":"FAILED",
         "ExecutionDate":"2025-11-11",
         "Document Key":"KCE-TSTRN-4002615",
         "Name":"Rescue mode landing indication and 1449=0 or 1",
