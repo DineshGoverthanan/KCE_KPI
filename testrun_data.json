@@ -637,6 +637,13 @@
         "Assigned To":"Mohammed Ibrahim Sultan"
     },
     {
+        "TestRunStatus":"INPROGRESS",
+        "ExecutionDate":"2025-11-10",
+        "Document Key":"KIE601-TSTRN-68224",
+        "Name":"Enhanced safety Operational mode",
+        "Assigned To":"VIGNESHWARAR"
+    },
+    {
         "TestRunStatus":"PASSED",
         "ExecutionDate":"2025-09-02",
         "Document Key":"KIE601-TSTRN-60006",
@@ -1281,7 +1288,7 @@
         "Assigned To":"Mohammed Ibrahim Sultan"
     },
     {
-        "TestRunStatus":"INPROGRESS",
+        "TestRunStatus":"PASSED",
         "ExecutionDate":"2025-11-10",
         "Document Key":"KIE601-TSTRN-68219",
         "Name":"1. Passenger Control Mode - K2D - Inverter - UP direction",
@@ -15988,7 +15995,7 @@
         "Assigned To":"Suryanarayanan"
     },
     {
-        "TestRunStatus":"INPROGRESS",
+        "TestRunStatus":"FAILED",
         "ExecutionDate":"2025-11-10",
         "Document Key":"KCE-TSTRN-4002058",
         "Name":"ACL B - Accurate relevelling - Doors open - Special FRD cases",
