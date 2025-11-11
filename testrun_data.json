@@ -16016,7 +16016,7 @@
         "Assigned To":"Priyavalli"
     },
     {
-        "TestRunStatus":"INPROGRESS",
+        "TestRunStatus":"FAILED",
         "ExecutionDate":"2025-11-11",
         "Document Key":"KCE-TSTRN-4002614",
         "Name":"Rescue mode landing indication and 1449=3",
@@ -16027,6 +16027,20 @@
         "ExecutionDate":"2025-11-11",
         "Document Key":"KCE-TSTRN-4002615",
         "Name":"Rescue mode landing indication and 1449=0 or 1",
+        "Assigned To":"Priyavalli"
+    },
+    {
+        "TestRunStatus":"FAILED",
+        "ExecutionDate":"2025-11-11",
+        "Document Key":"KCE-TSTRN-4002616",
+        "Name":"Rescue mode car indication and Outputs with 1449= 3 ",
+        "Assigned To":"Priyavalli"
+    },
+    {
+        "TestRunStatus":"FAILED",
+        "ExecutionDate":"2025-11-11",
+        "Document Key":"KCE-TSTRN-4002617",
+        "Name":"Rescue mode car indication and Outputs with 1449= 0\/1\/2  ",
         "Assigned To":"Priyavalli"
     },
     {
