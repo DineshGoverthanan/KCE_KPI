@@ -16031,7 +16031,7 @@
     },
     {
         "TestRunStatus":"FAILED",
-        "ExecutionDate":"2025-11-10",
+        "ExecutionDate":"2025-11-12",
         "Document Key":"KCE-TSTRN-3999129",
         "Name":"Rust test case aganist the KNSMUL G24 + KNSKIL Buttons (Conventional COP)",
         "Assigned To":"Nithya Priya"
@@ -16069,6 +16069,13 @@
         "ExecutionDate":"2025-11-11",
         "Document Key":"KCE-TSTRN-4001256",
         "Name":"RES mode with SPP configuration ",
+        "Assigned To":"Badaganti Sai Prasad"
+    },
+    {
+        "TestRunStatus":"INPROGRESS",
+        "ExecutionDate":"2025-11-12",
+        "Document Key":"KCE-TSTRN-4001260",
+        "Name":"OSS mode with SPP configuration ",
         "Assigned To":"Badaganti Sai Prasad"
     },
     {
@@ -16136,10 +16143,10 @@
     },
     {
         "TestRunStatus":"INPROGRESS",
-        "ExecutionDate":"2025-11-11",
+        "ExecutionDate":"2025-11-12",
         "Document Key":"KCE-TSTRN-4002629",
         "Name":"Commissioning - 3.1 Roll Call",
-        "Assigned To":"Dinesh"
+        "Assigned To":"Kowsalya"
     },
     {
         "TestRunStatus":"INPROGRESS",
