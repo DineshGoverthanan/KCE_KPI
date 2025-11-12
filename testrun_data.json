@@ -16066,7 +16066,14 @@
     },
     {
         "TestRunStatus":"INPROGRESS",
-        "ExecutionDate":"2025-11-11",
+        "ExecutionDate":"2025-11-12",
+        "Document Key":"KCE-TSTRN-4001266",
+        "Name":"EAQ with SPP Configuration ",
+        "Assigned To":"Badaganti Sai Prasad"
+    },
+    {
+        "TestRunStatus":"PASSED",
+        "ExecutionDate":"2025-11-12",
         "Document Key":"KCE-TSTRN-4001268",
         "Name":"EPD with SPP Configuration ",
         "Assigned To":"Badaganti Sai Prasad"
