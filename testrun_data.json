@@ -574,7 +574,7 @@
         "Assigned To":"Mohammed Ibrahim Sultan"
     },
     {
-        "TestRunStatus":"PASSED",
+        "TestRunStatus":"FAILED",
         "ExecutionDate":"2025-11-11",
         "Document Key":"KIE601-TSTRN-68227",
         "Name":"Overspeed 1 fault 31 ",
@@ -588,7 +588,7 @@
         "Assigned To":"Mohammed Ibrahim Sultan"
     },
     {
-        "TestRunStatus":"INPROGRESS",
+        "TestRunStatus":"FAILED",
         "ExecutionDate":"2025-11-11",
         "Document Key":"KIE601-TSTRN-68335",
         "Name":"Overspeed 1 fault 32",
@@ -4519,6 +4519,13 @@
         "ExecutionDate":"2025-11-11",
         "Document Key":"KCE-TSTRN-4002178",
         "Name":"EMH (NA) - Emergency stop switch in shaft pit",
+        "Assigned To":"Veeramanikandan"
+    },
+    {
+        "TestRunStatus":"INPROGRESS",
+        "ExecutionDate":"2025-11-11",
+        "Document Key":"KCE-TSTRN-4002179",
+        "Name":"EMC EM - ELEVATOR STOP SWITCH IN CAR (switch), WITH MEMORY",
         "Assigned To":"Veeramanikandan"
     },
     {
