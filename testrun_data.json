@@ -1540,7 +1540,7 @@
         "Assigned To":"VIGNESHWARAR"
     },
     {
-        "TestRunStatus":"INPROGRESS",
+        "TestRunStatus":"PASSED",
         "ExecutionDate":"2025-11-12",
         "Document Key":"KIE601-TSTRN-68216",
         "Name":"Roll call Non-Safety Network",
@@ -2080,7 +2080,7 @@
     },
     {
         "TestRunStatus":"INPROGRESS",
-        "ExecutionDate":"2025-11-11",
+        "ExecutionDate":"2025-11-12",
         "Document Key":"KIE601-TSTRN-68334",
         "Name":"Missing Step Detection - Lower",
         "Assigned To":"VIGNESHWARAR"
@@ -16079,7 +16079,7 @@
         "Assigned To":"Badaganti Sai Prasad"
     },
     {
-        "TestRunStatus":"INPROGRESS",
+        "TestRunStatus":"PASSED",
         "ExecutionDate":"2025-11-12",
         "Document Key":"KCE-TSTRN-4001265",
         "Name":"FRD with SPP Configuration ",
@@ -16209,6 +16209,13 @@
         "ExecutionDate":"2025-11-11",
         "Document Key":"KCE-TSTRN-4002627",
         "Name":"FRD IL - Phase 1 - Tests not included into TA",
+        "Assigned To":"Dinesh"
+    },
+    {
+        "TestRunStatus":"INPROGRESS",
+        "ExecutionDate":"2025-11-12",
+        "Document Key":"KCE-TSTRN-4002628",
+        "Name":"FRD IL - Phase 2 - Tests not included into TA",
         "Assigned To":"Dinesh"
     }
 ]
