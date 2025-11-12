@@ -1534,6 +1534,20 @@
     },
     {
         "TestRunStatus":"FAILED",
+        "ExecutionDate":"2025-11-12",
+        "Document Key":"KIE601-TSTRN-68215",
+        "Name":"Roll call Safety Network",
+        "Assigned To":"VIGNESHWARAR"
+    },
+    {
+        "TestRunStatus":"INPROGRESS",
+        "ExecutionDate":"2025-11-12",
+        "Document Key":"KIE601-TSTRN-68216",
+        "Name":"Roll call Non-Safety Network",
+        "Assigned To":"VIGNESHWARAR"
+    },
+    {
+        "TestRunStatus":"FAILED",
         "ExecutionDate":"2025-11-07",
         "Document Key":"KIE601-TSTRN-68217",
         "Name":"Lubrication Output - Step chain",
@@ -16002,8 +16016,8 @@
         "Assigned To":"Nithya Priya"
     },
     {
-        "TestRunStatus":"INPROGRESS",
-        "ExecutionDate":"2025-11-06",
+        "TestRunStatus":"PASSED",
+        "ExecutionDate":"2025-11-12",
         "Document Key":"KCE-TSTRN-3999127",
         "Name":"KNSKIB - Floor and Option button in KCOP",
         "Assigned To":"Kowsalya"
@@ -16062,6 +16076,13 @@
         "ExecutionDate":"2025-11-11",
         "Document Key":"KCE-TSTRN-4001261",
         "Name":"PRC mode with SPP configuration",
+        "Assigned To":"Badaganti Sai Prasad"
+    },
+    {
+        "TestRunStatus":"INPROGRESS",
+        "ExecutionDate":"2025-11-12",
+        "Document Key":"KCE-TSTRN-4001265",
+        "Name":"FRD with SPP Configuration ",
         "Assigned To":"Badaganti Sai Prasad"
     },
     {
