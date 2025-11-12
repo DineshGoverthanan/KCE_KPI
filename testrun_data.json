@@ -652,7 +652,7 @@
     },
     {
         "TestRunStatus":"FAILED",
-        "ExecutionDate":"2025-11-11",
+        "ExecutionDate":"2025-11-12",
         "Document Key":"KIE601-TSTRN-68224",
         "Name":"Enhanced safety Operational mode",
         "Assigned To":"VIGNESHWARAR"
@@ -1967,8 +1967,8 @@
         "Assigned To":"VIGNESHWARAR"
     },
     {
-        "TestRunStatus":"FAILED",
-        "ExecutionDate":"2025-11-11",
+        "TestRunStatus":"PASSED",
+        "ExecutionDate":"2025-11-12",
         "Document Key":"KIE601-TSTRN-68210",
         "Name":"operational modes",
         "Assigned To":"VIGNESHWARAR"
@@ -2079,7 +2079,14 @@
         "Assigned To":"Mohammed Ibrahim Sultan"
     },
     {
-        "TestRunStatus":"INPROGRESS",
+        "TestRunStatus":"FAILED",
+        "ExecutionDate":"2025-11-12",
+        "Document Key":"KIE601-TSTRN-68213",
+        "Name":"Missing Step Detection - Upper",
+        "Assigned To":"VIGNESHWARAR"
+    },
+    {
+        "TestRunStatus":"FAILED",
         "ExecutionDate":"2025-11-12",
         "Document Key":"KIE601-TSTRN-68334",
         "Name":"Missing Step Detection - Lower",
@@ -15324,7 +15331,7 @@
     },
     {
         "TestRunStatus":"FAILED",
-        "ExecutionDate":"2025-10-31",
+        "ExecutionDate":"2025-11-12",
         "Document Key":"KIE601-TSTRN-63434",
         "Name":"Interlock Feature 2",
         "Assigned To":"Mohammed Ibrahim Sultan"
@@ -16149,8 +16156,8 @@
         "Assigned To":"Kowsalya"
     },
     {
-        "TestRunStatus":"INPROGRESS",
-        "ExecutionDate":"2025-11-11",
+        "TestRunStatus":"FAILED",
+        "ExecutionDate":"2025-11-12",
         "Document Key":"KCE-TSTRN-4002061",
         "Name":"ACL C - Accurate relevelling - Doors closed - Special modes",
         "Assigned To":"Suryanarayanan"
