@@ -4551,6 +4551,20 @@
     },
     {
         "TestRunStatus":"PASSED",
+        "ExecutionDate":"2025-11-13",
+        "Document Key":"KCE-TSTRN-4002181",
+        "Name":"EMC XM (NA) - Elevator Stop Device in Car",
+        "Assigned To":"Veeramanikandan"
+    },
+    {
+        "TestRunStatus":"PASSED",
+        "ExecutionDate":"2025-11-13",
+        "Document Key":"KCE-TSTRN-4002180",
+        "Name":"EEC C (NA), Emergency exit contact, on car roof",
+        "Assigned To":"Veeramanikandan"
+    },
+    {
+        "TestRunStatus":"PASSED",
         "ExecutionDate":"2025-11-07",
         "Document Key":"KCE-TSTRN-4001912",
         "Name":"25Q4 (Release 3) Rush Tests - Global",
