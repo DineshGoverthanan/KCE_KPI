@@ -5882,6 +5882,13 @@
     {
         "TestRunStatus":"PASSED",
         "ExecutionDate":"2025-03-18",
+        "Document Key":"KCE-TSTRN-3904868",
+        "Name":"5.Elevator Occupancy Sensor \u2013 BLF operation in-between car call registered when lift serving landing calls",
+        "Assigned To":"Shrividhya"
+    },
+    {
+        "TestRunStatus":"PASSED",
+        "ExecutionDate":"2025-03-18",
         "Document Key":"KCE-TSTRN-3904869",
         "Name":"6.Elevator Occupancy Sensor \u2013 BLF Function with door open when Occupancy sensor is ON",
         "Assigned To":"Shrividhya"
