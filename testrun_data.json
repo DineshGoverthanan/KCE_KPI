@@ -2318,6 +2318,13 @@
     },
     {
         "TestRunStatus":"FAILED",
+        "ExecutionDate":"2025-11-14",
+        "Document Key":"KIE601-TSTRN-68359",
+        "Name":"KFPS tool ",
+        "Assigned To":"VIGNESHWARAR"
+    },
+    {
+        "TestRunStatus":"FAILED",
         "ExecutionDate":"2025-09-05",
         "Document Key":"KIE601-TSTRN-61642",
         "Name":"updating latest KIECPU software (TSC and CPU) into Escalator running with TR1.0-t12.7 release configuration",
@@ -5870,13 +5877,6 @@
         "ExecutionDate":"2025-03-18",
         "Document Key":"KCE-TSTRN-3904867",
         "Name":"4.Elevator Occupancy Sensor \u2013 BLF Function after served all the car calls when Occupancy sensor is ON",
-        "Assigned To":"Shrividhya"
-    },
-    {
-        "TestRunStatus":"PASSED",
-        "ExecutionDate":"2025-03-18",
-        "Document Key":"KCE-TSTRN-3904868",
-        "Name":"5.Elevator Occupancy Sensor \u2013 BLF operation in-between car call registered when lift serving landing calls",
         "Assigned To":"Shrividhya"
     },
     {
