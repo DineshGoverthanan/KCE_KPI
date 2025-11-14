@@ -4543,7 +4543,7 @@
         "Assigned To":"Veeramanikandan"
     },
     {
-        "TestRunStatus":"FAILED",
+        "TestRunStatus":"BLOCKED",
         "ExecutionDate":"2025-11-13",
         "Document Key":"KCE-TSTRN-4002179",
         "Name":"EMC EM - ELEVATOR STOP SWITCH IN CAR (switch), WITH MEMORY",
