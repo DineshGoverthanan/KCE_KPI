@@ -15330,8 +15330,8 @@
         "Assigned To":"Mohammed Ibrahim Sultan"
     },
     {
-        "TestRunStatus":"FAILED",
-        "ExecutionDate":"2025-10-14",
+        "TestRunStatus":"PASSED",
+        "ExecutionDate":"2025-11-17",
         "Document Key":"KIE601-TSTRN-66564",
         "Name":"Phase Monitor ",
         "Assigned To":"Mohammed Ibrahim Sultan"
