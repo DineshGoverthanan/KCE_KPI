@@ -16259,5 +16259,19 @@
         "Document Key":"KCE-TSTRN-4003586",
         "Name":"xDOP APP SW Mass Update",
         "Assigned To":"Vivek"
+    },
+    {
+        "TestRunStatus":"PASSED",
+        "ExecutionDate":"2025-11-17",
+        "Document Key":"KCE-TSTRN-4003587",
+        "Name":"xDOP configuration with Site manager",
+        "Assigned To":"Vivek"
+    },
+    {
+        "TestRunStatus":"NOT_APPLICABLE",
+        "ExecutionDate":"2025-11-17",
+        "Document Key":"KCE-TSTRN-4003588",
+        "Name":"mDOP Software Update",
+        "Assigned To":"Vivek"
     }
 ]
