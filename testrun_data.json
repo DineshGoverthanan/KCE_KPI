@@ -574,11 +574,25 @@
         "Assigned To":"Mohammed Ibrahim Sultan"
     },
     {
+        "TestRunStatus":"FAILED",
+        "ExecutionDate":"2025-11-11",
+        "Document Key":"KIE601-TSTRN-68227",
+        "Name":"Overspeed 1 fault 31 ",
+        "Assigned To":"VIGNESHWARAR"
+    },
+    {
         "TestRunStatus":"PASSED",
         "ExecutionDate":"2025-10-16",
         "Document Key":"KIE601-TSTRN-66613",
         "Name":"Overspeed 1 fault 32",
         "Assigned To":"Mohammed Ibrahim Sultan"
+    },
+    {
+        "TestRunStatus":"FAILED",
+        "ExecutionDate":"2025-11-11",
+        "Document Key":"KIE601-TSTRN-68335",
+        "Name":"Overspeed 1 fault 32",
+        "Assigned To":"VIGNESHWARAR"
     },
     {
         "TestRunStatus":"FAILED",
@@ -635,6 +649,13 @@
         "Document Key":"KIE601-TSTRN-66595",
         "Name":"Enhanced safety Operational mode",
         "Assigned To":"Mohammed Ibrahim Sultan"
+    },
+    {
+        "TestRunStatus":"FAILED",
+        "ExecutionDate":"2025-11-13",
+        "Document Key":"KIE601-TSTRN-68224",
+        "Name":"Enhanced safety Operational mode",
+        "Assigned To":"VIGNESHWARAR"
     },
     {
         "TestRunStatus":"PASSED",
@@ -701,6 +722,13 @@
     },
     {
         "TestRunStatus":"PASSED",
+        "ExecutionDate":"2025-11-10",
+        "Document Key":"KIE601-TSTRN-68226",
+        "Name":"Auxiliary break ",
+        "Assigned To":"VIGNESHWARAR"
+    },
+    {
+        "TestRunStatus":"PASSED",
         "ExecutionDate":"2025-05-30",
         "Document Key":"KIE601-TSTRN-51775",
         "Name":"Contactor feedback inspection",
@@ -726,6 +754,13 @@
         "Document Key":"KIE601-TSTRN-66590",
         "Name":"Brake Lift & Close Monitoring. ( Motor Selection 1)",
         "Assigned To":"Mohammed Ibrahim Sultan"
+    },
+    {
+        "TestRunStatus":"PASSED",
+        "ExecutionDate":"2025-11-10",
+        "Document Key":"KIE601-TSTRN-68222",
+        "Name":"Brake Lift & Close Monitoring. ( Motor Selection 1)",
+        "Assigned To":"VIGNESHWARAR"
     },
     {
         "TestRunStatus":"PASSED",
@@ -1058,6 +1093,13 @@
     },
     {
         "TestRunStatus":"FAILED",
+        "ExecutionDate":"2025-11-11",
+        "Document Key":"KIE601-TSTRN-68223",
+        "Name":"Braking Sequence timeout",
+        "Assigned To":"VIGNESHWARAR"
+    },
+    {
+        "TestRunStatus":"FAILED",
         "ExecutionDate":"2025-10-14",
         "Document Key":"KIE601-TSTRN-63410",
         "Name":"LCB software update",
@@ -1265,6 +1307,13 @@
         "Document Key":"KIE601-TSTRN-51767",
         "Name":"Lubrication control outputs 1",
         "Assigned To":"Mohammed Ibrahim Sultan"
+    },
+    {
+        "TestRunStatus":"PASSED",
+        "ExecutionDate":"2025-11-11",
+        "Document Key":"KIE601-TSTRN-68219",
+        "Name":"1. Passenger Control Mode - K2D - Inverter - UP direction",
+        "Assigned To":"VIGNESHWARAR"
     },
     {
         "TestRunStatus":"FAILED",
@@ -1485,6 +1534,20 @@
     },
     {
         "TestRunStatus":"FAILED",
+        "ExecutionDate":"2025-11-12",
+        "Document Key":"KIE601-TSTRN-68215",
+        "Name":"Roll call Safety Network",
+        "Assigned To":"VIGNESHWARAR"
+    },
+    {
+        "TestRunStatus":"PASSED",
+        "ExecutionDate":"2025-11-12",
+        "Document Key":"KIE601-TSTRN-68216",
+        "Name":"Roll call Non-Safety Network",
+        "Assigned To":"VIGNESHWARAR"
+    },
+    {
+        "TestRunStatus":"FAILED",
         "ExecutionDate":"2025-11-07",
         "Document Key":"KIE601-TSTRN-68217",
         "Name":"Lubrication Output - Step chain",
@@ -1629,6 +1692,13 @@
         "Document Key":"KIE601-TSTRN-39260",
         "Name":"Flywheel Cover Monitoring KAM mode",
         "Assigned To":"Mohammed Ibrahim Sultan"
+    },
+    {
+        "TestRunStatus":"PASSED",
+        "ExecutionDate":"2025-11-10",
+        "Document Key":"KIE601-TSTRN-68214",
+        "Name":"Smart Inverter starts with Inverter ",
+        "Assigned To":"VIGNESHWARAR"
     },
     {
         "TestRunStatus":"PASSED",
@@ -1898,6 +1968,13 @@
     },
     {
         "TestRunStatus":"PASSED",
+        "ExecutionDate":"2025-11-12",
+        "Document Key":"KIE601-TSTRN-68210",
+        "Name":"operational modes",
+        "Assigned To":"VIGNESHWARAR"
+    },
+    {
+        "TestRunStatus":"PASSED",
         "ExecutionDate":"2025-04-04",
         "Document Key":"KIE601-TSTRN-46958",
         "Name":"Water Level Monitoring In K2D",
@@ -2000,6 +2077,20 @@
         "Document Key":"KIE601-TSTRN-49588",
         "Name":"Parameters Access Locking in FUI",
         "Assigned To":"Mohammed Ibrahim Sultan"
+    },
+    {
+        "TestRunStatus":"FAILED",
+        "ExecutionDate":"2025-11-12",
+        "Document Key":"KIE601-TSTRN-68213",
+        "Name":"Missing Step Detection - Upper",
+        "Assigned To":"VIGNESHWARAR"
+    },
+    {
+        "TestRunStatus":"FAILED",
+        "ExecutionDate":"2025-11-12",
+        "Document Key":"KIE601-TSTRN-68334",
+        "Name":"Missing Step Detection - Lower",
+        "Assigned To":"VIGNESHWARAR"
     },
     {
         "TestRunStatus":"PASSED",
@@ -2224,6 +2315,13 @@
         "Document Key":"KIE601-TSTRN-53908",
         "Name":"Escalator Safety function, System Parameter Setup and roll call function",
         "Assigned To":"Mohammed Ibrahim Sultan"
+    },
+    {
+        "TestRunStatus":"FAILED",
+        "ExecutionDate":"2025-11-14",
+        "Document Key":"KIE601-TSTRN-68359",
+        "Name":"KFPS tool ",
+        "Assigned To":"VIGNESHWARAR"
     },
     {
         "TestRunStatus":"FAILED",
@@ -4429,6 +4527,48 @@
         "Document Key":"KCE-TSTRN-3850909",
         "Name":"FRD AU1 - Phase 1 with KCECOB and KCECEB - Tests not included into TA",
         "Assigned To":"Shrividhya"
+    },
+    {
+        "TestRunStatus":"PASSED",
+        "ExecutionDate":"2025-11-11",
+        "Document Key":"KCE-TSTRN-4002176",
+        "Name":"EMM (NA) - Emergency stop switch in machine room",
+        "Assigned To":"Veeramanikandan"
+    },
+    {
+        "TestRunStatus":"PASSED",
+        "ExecutionDate":"2025-11-11",
+        "Document Key":"KCE-TSTRN-4002177",
+        "Name":"EMR (NA) - Emergency stop switch on car roof",
+        "Assigned To":"Veeramanikandan"
+    },
+    {
+        "TestRunStatus":"PASSED",
+        "ExecutionDate":"2025-11-11",
+        "Document Key":"KCE-TSTRN-4002178",
+        "Name":"EMH (NA) - Emergency stop switch in shaft pit",
+        "Assigned To":"Veeramanikandan"
+    },
+    {
+        "TestRunStatus":"BLOCKED",
+        "ExecutionDate":"2025-11-13",
+        "Document Key":"KCE-TSTRN-4002179",
+        "Name":"EMC EM - ELEVATOR STOP SWITCH IN CAR (switch), WITH MEMORY",
+        "Assigned To":"Veeramanikandan"
+    },
+    {
+        "TestRunStatus":"PASSED",
+        "ExecutionDate":"2025-11-13",
+        "Document Key":"KCE-TSTRN-4002181",
+        "Name":"EMC XM (NA) - Elevator Stop Device in Car",
+        "Assigned To":"Veeramanikandan"
+    },
+    {
+        "TestRunStatus":"PASSED",
+        "ExecutionDate":"2025-11-13",
+        "Document Key":"KCE-TSTRN-4002180",
+        "Name":"EEC C (NA), Emergency exit contact, on car roof",
+        "Assigned To":"Veeramanikandan"
     },
     {
         "TestRunStatus":"PASSED",
@@ -15190,8 +15330,8 @@
         "Assigned To":"Mohammed Ibrahim Sultan"
     },
     {
-        "TestRunStatus":"FAILED",
-        "ExecutionDate":"2025-10-14",
+        "TestRunStatus":"PASSED",
+        "ExecutionDate":"2025-11-17",
         "Document Key":"KIE601-TSTRN-66564",
         "Name":"Phase Monitor ",
         "Assigned To":"Mohammed Ibrahim Sultan"
@@ -15212,7 +15352,7 @@
     },
     {
         "TestRunStatus":"FAILED",
-        "ExecutionDate":"2025-10-31",
+        "ExecutionDate":"2025-11-12",
         "Document Key":"KIE601-TSTRN-63434",
         "Name":"Interlock Feature 2",
         "Assigned To":"Mohammed Ibrahim Sultan"
@@ -15904,8 +16044,8 @@
         "Assigned To":"Nithya Priya"
     },
     {
-        "TestRunStatus":"INPROGRESS",
-        "ExecutionDate":"2025-11-06",
+        "TestRunStatus":"PASSED",
+        "ExecutionDate":"2025-11-12",
         "Document Key":"KCE-TSTRN-3999127",
         "Name":"KNSKIB - Floor and Option button in KCOP",
         "Assigned To":"Kowsalya"
@@ -15919,7 +16059,7 @@
     },
     {
         "TestRunStatus":"FAILED",
-        "ExecutionDate":"2025-11-07",
+        "ExecutionDate":"2025-11-12",
         "Document Key":"KCE-TSTRN-3999129",
         "Name":"Rust test case aganist the KNSMUL G24 + KNSKIL Buttons (Conventional COP)",
         "Assigned To":"Nithya Priya"
@@ -15940,7 +16080,7 @@
     },
     {
         "TestRunStatus":"FAILED",
-        "ExecutionDate":"2025-11-06",
+        "ExecutionDate":"2025-11-11",
         "Document Key":"KCE-TSTRN-4001251",
         "Name":"SPP - Parallel run prevention - Normal_Conventional ",
         "Assigned To":"Badaganti Sai Prasad"
@@ -15953,10 +16093,101 @@
         "Assigned To":"Badaganti Sai Prasad"
     },
     {
+        "TestRunStatus":"PASSED",
+        "ExecutionDate":"2025-11-11",
+        "Document Key":"KCE-TSTRN-4001256",
+        "Name":"RES mode with SPP configuration ",
+        "Assigned To":"Badaganti Sai Prasad"
+    },
+    {
+        "TestRunStatus":"PASSED",
+        "ExecutionDate":"2025-11-14",
+        "Document Key":"KCE-TSTRN-4001260",
+        "Name":"OSS mode with SPP configuration ",
+        "Assigned To":"Badaganti Sai Prasad"
+    },
+    {
+        "TestRunStatus":"FAILED",
+        "ExecutionDate":"2025-11-11",
+        "Document Key":"KCE-TSTRN-4001261",
+        "Name":"PRC mode with SPP configuration",
+        "Assigned To":"Badaganti Sai Prasad"
+    },
+    {
+        "TestRunStatus":"PASSED",
+        "ExecutionDate":"2025-11-12",
+        "Document Key":"KCE-TSTRN-4001265",
+        "Name":"FRD with SPP Configuration ",
+        "Assigned To":"Badaganti Sai Prasad"
+    },
+    {
         "TestRunStatus":"INPROGRESS",
-        "ExecutionDate":"2025-11-06",
+        "ExecutionDate":"2025-11-12",
+        "Document Key":"KCE-TSTRN-4001266",
+        "Name":"EAQ with SPP Configuration ",
+        "Assigned To":"Badaganti Sai Prasad"
+    },
+    {
+        "TestRunStatus":"PASSED",
+        "ExecutionDate":"2025-11-12",
+        "Document Key":"KCE-TSTRN-4001268",
+        "Name":"EPD with SPP Configuration ",
+        "Assigned To":"Badaganti Sai Prasad"
+    },
+    {
+        "TestRunStatus":"FAILED",
+        "ExecutionDate":"2025-11-11",
+        "Document Key":"KCE-TSTRN-4002613",
+        "Name":"Rescue mode landing indication and 1449=2",
+        "Assigned To":"Priyavalli"
+    },
+    {
+        "TestRunStatus":"FAILED",
+        "ExecutionDate":"2025-11-11",
+        "Document Key":"KCE-TSTRN-4002614",
+        "Name":"Rescue mode landing indication and 1449=3",
+        "Assigned To":"Priyavalli"
+    },
+    {
+        "TestRunStatus":"FAILED",
+        "ExecutionDate":"2025-11-11",
+        "Document Key":"KCE-TSTRN-4002615",
+        "Name":"Rescue mode landing indication and 1449=0 or 1",
+        "Assigned To":"Priyavalli"
+    },
+    {
+        "TestRunStatus":"FAILED",
+        "ExecutionDate":"2025-11-17",
+        "Document Key":"KCE-TSTRN-4002616",
+        "Name":"Rescue mode car indication and Outputs with 1449= 3 and AVDMAT3",
+        "Assigned To":"Priyavalli"
+    },
+    {
+        "TestRunStatus":"INPROGRESS",
+        "ExecutionDate":"2025-11-12",
+        "Document Key":"KCE-TSTRN-4002629",
+        "Name":"Commissioning - 3.1 Roll Call",
+        "Assigned To":"Kowsalya"
+    },
+    {
+        "TestRunStatus":"FAILED",
+        "ExecutionDate":"2025-11-12",
         "Document Key":"KCE-TSTRN-4002061",
         "Name":"ACL C - Accurate relevelling - Doors closed - Special modes",
+        "Assigned To":"Suryanarayanan"
+    },
+    {
+        "TestRunStatus":"PASSED",
+        "ExecutionDate":"2025-11-11",
+        "Document Key":"KCE-TSTRN-4002060",
+        "Name":"ACL C - Accurate relevelling - Doors closed - Faults",
+        "Assigned To":"Suryanarayanan"
+    },
+    {
+        "TestRunStatus":"FAILED",
+        "ExecutionDate":"2025-11-10",
+        "Document Key":"KCE-TSTRN-4002058",
+        "Name":"ACL B - Accurate relevelling - Doors open - Special FRD cases",
         "Assigned To":"Suryanarayanan"
     },
     {
@@ -15974,8 +16205,8 @@
         "Assigned To":"Dinesh"
     },
     {
-        "TestRunStatus":"INPROGRESS",
-        "ExecutionDate":"2025-11-07",
+        "TestRunStatus":"PASSED",
+        "ExecutionDate":"2025-11-10",
         "Document Key":"KCE-TSTRN-4002064",
         "Name":"OCV M - Operation of Car Ventilation - Manual",
         "Assigned To":"Dinesh"
@@ -15988,10 +16219,45 @@
         "Assigned To":"Dinesh"
     },
     {
-        "TestRunStatus":"INPROGRESS",
-        "ExecutionDate":"2025-11-07",
+        "TestRunStatus":"PASSED",
+        "ExecutionDate":"2025-11-10",
         "Document Key":"KCE-TSTRN-4002066",
         "Name":"BPI O  \u2013 Bypass indication at landings \u2013 Bypassed floor only",
         "Assigned To":"Jagadeesh"
+    },
+    {
+        "TestRunStatus":"FAILED",
+        "ExecutionDate":"2025-11-13",
+        "Document Key":"KCE-TSTRN-4002067",
+        "Name":"BPI C- Bypass indication at landings \u2013 All floors",
+        "Assigned To":"Jagadeesh"
+    },
+    {
+        "TestRunStatus":"FAILED",
+        "ExecutionDate":"2025-11-14",
+        "Document Key":"KCE-TSTRN-4002627",
+        "Name":"FRD IL - Phase 1 - Tests not included into TA",
+        "Assigned To":"Dinesh"
+    },
+    {
+        "TestRunStatus":"INPROGRESS",
+        "ExecutionDate":"2025-11-12",
+        "Document Key":"KCE-TSTRN-4002628",
+        "Name":"FRD IL - Phase 2 - Tests not included into TA",
+        "Assigned To":"Dinesh"
+    },
+    {
+        "TestRunStatus":"PASSED",
+        "ExecutionDate":"2025-11-17",
+        "Document Key":"KCE-TSTRN-4003585",
+        "Name":"xDOP DMA SW Mass Update",
+        "Assigned To":"Vivek"
+    },
+    {
+        "TestRunStatus":"PASSED",
+        "ExecutionDate":"2025-11-17",
+        "Document Key":"KCE-TSTRN-4003586",
+        "Name":"xDOP APP SW Mass Update",
+        "Assigned To":"Vivek"
     }
 ]
