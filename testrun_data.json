@@ -16156,6 +16156,13 @@
         "Assigned To":"Priyavalli"
     },
     {
+        "TestRunStatus":"FAILED",
+        "ExecutionDate":"2025-11-17",
+        "Document Key":"KCE-TSTRN-4002616",
+        "Name":"Rescue mode car indication and Outputs with 1449= 3 and AVDMAT3",
+        "Assigned To":"Priyavalli"
+    },
+    {
         "TestRunStatus":"INPROGRESS",
         "ExecutionDate":"2025-11-12",
         "Document Key":"KCE-TSTRN-4002629",

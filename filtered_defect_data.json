@@ -3655,21 +3655,24 @@
         "itemType": 154,
         "project": 417,
         "createdDate": "2025-11-10T12:01:23.000+0000",
-        "modifiedDate": "2025-11-17T06:41:26.000+0000",
-        "lastActivityDate": "2025-11-17T06:41:26.000+0000",
+        "modifiedDate": "2025-11-17T07:19:14.000+0000",
+        "lastActivityDate": "2025-11-17T07:19:14.000+0000",
         "createdBy": 6117,
-        "modifiedBy": 6117,
+        "modifiedBy": 1941,
         "fields": {
             "documentKey": "KIE601-SWBUG-2734",
             "globalId": "GID-7519726",
             "name": "IEX - Escalator not running in interlock mode after learning is initiated in 3rd simulator",
             "description": "<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\"><strong>Detailed Defect Description:</strong></span></span></p>\n\n<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\">IEX - Escalator not running in interlock mode after learning is initiated in 3rd simulator. Safety relay is chattering</span></span></p>\n\n<p>&nbsp;</p>\n\n<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\"><strong>Parameters:&nbsp;&nbsp;</strong></span></span></p>\n\n<p>NA</p>\n\n<p>&nbsp;</p>\n\n<p>&nbsp;</p>\n\n<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\"><strong>Drive type:</strong></span></span></p>\n\n<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\">Monarch</span></span></p>\n\n<p>&nbsp;</p>\n\n<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\"><strong>Regression or new finding:</strong></span></span></p>\n\n<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\">New Finding</span></span></p>\n\n<p>&nbsp;</p>\n\n<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\"><strong>Test case Name / Feature name:</strong></span></span></p>\n\n<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\">Test case</span></span></p>\n\n<p>&nbsp;</p>\n\n<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\"><strong>Test step number:</strong></span></span></p>\n\n<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\">15</span></span></p>\n\n<p>&nbsp;</p>\n\n<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\"><strong>Description of the test case (Detailed Scenario)&nbsp;</strong></span></span></p>\n\n<ol>\n\t<li>3 Escalators are connected in interlock</li>\n\t<li>No FC is displayed in FUI</li>\n\t<li>Now, 3rd escalator (topmost) learning is initiated by Parameter PC4_4000_1</li>\n\t<li>after learning gets completed, all FC is cleared.</li>\n\t<li>Now. Down key switch input is given in bottom most escalator (ESC 1)</li>\n\t<li>Esc does not run, safety relay chatters.</li>\n\t<li>No FC is posted in FUI</li>\n</ol>\n\n<p>Note: Logs are attached in the attachments section</p>\n\n<p>&nbsp;</p>\n\n<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\"><strong>Expected behavior:&nbsp; </strong></span></span></p>\n\n<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\">Escalator must run in interlock</span></span></p>\n\n<p>&nbsp;</p>\n\n<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\"><strong>Actual behavior:</strong></span></span></p>\n\n<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\">Escalator does not run</span></span></p>\n\n<p>&nbsp;</p>\n\n<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\"><strong>Recovery:&nbsp;</strong></span></span></p>\n\n<p><span style=\"font-family:Calibri, sans-serif\"><span style=\"font-size:14.6667px\">Power cycle</span></span></p>\n",
-            "status": 1081,
+            "status": 1085,
             "BUG_component$154": 1561,
             "BUG_subcomponent$154": "IEX",
             "createdBy": 6117,
+            "assignedTo": 6330,
             "release": 2527,
             "BUG_foundOnDate$154": "2025-11-05",
+            "BUG_plannedRelease$154": 2274,
+            "BUG_fixedInRelease$154": 2574,
             "priority": 2410,
             "BUG_severity$154": 1109,
             "BUG_category$154": 1422,
@@ -3677,8 +3680,10 @@
             "BUG_howFound$154": 1095,
             "BUG_whereFound$154": 1137,
             "BUG_probability_on_field$154": 2396,
-            "root_cause_category$154": 2512,
+            "root_cause_category$154": 2519,
+            "BUG_rootCause$154": "<p>Root cause:</p>\n\n<p>Instead of using the&nbsp;u16MiParamEscalatorIdInInterlock (from the MIP parameter value) used the&nbsp;u8InterlockEscalatorId (from&nbsp;Response frame from CPU - Byte 15) and also used u8InterlockGroupSize instead of&nbsp;u16ParamInterlockGroupSize.</p>\n\n<p>Corrective action done:</p>\n\n<p>Using the&nbsp;u16MiParamEscalatorIdInInterlock and&nbsp;u8InterlockEscalatorId - from MIP parameter value.</p>",
             "BUG_testCaseUpdated$154": 1198,
+            "BUG_RD_comments$154": "<p>[satish]: 17-Nov-2025:</p>\n\n<p>This defect observation is same as&nbsp;<a href=\"https://konerqm.jamacloud.com/perspective.req?docId=27588847&amp;projectId=417\">KIE601-SWBUG-2635</a>. It is fixed in R 3.0.1.1. So this defect is to be reverified in R3.0.1.1 or later releases.</p>",
             "BUG_V1_project$154": 1431
         },
         "resources": {
@@ -3688,7 +3693,7 @@
                 ]
             }
         },
-        "version": 2,
+        "version": 5,
         "location": {
             "sortOrder": 1313,
             "globalSortOrder": 1311223280,
@@ -3699,7 +3704,7 @@
         },
         "lock": {
             "locked": false,
-            "lastLockedDate": "2025-11-17T06:41:28.000+0000"
+            "lastLockedDate": "2025-11-17T07:19:15.000+0000"
         },
         "type": "items"
     },
