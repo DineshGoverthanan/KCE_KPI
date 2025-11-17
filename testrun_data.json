@@ -16238,5 +16238,19 @@
         "Document Key":"KCE-TSTRN-4002628",
         "Name":"FRD IL - Phase 2 - Tests not included into TA",
         "Assigned To":"Dinesh"
+    },
+    {
+        "TestRunStatus":"PASSED",
+        "ExecutionDate":"2025-11-17",
+        "Document Key":"KCE-TSTRN-4003585",
+        "Name":"xDOP DMA SW Mass Update",
+        "Assigned To":"Vivek"
+    },
+    {
+        "TestRunStatus":"PASSED",
+        "ExecutionDate":"2025-11-17",
+        "Document Key":"KCE-TSTRN-4003586",
+        "Name":"xDOP APP SW Mass Update",
+        "Assigned To":"Vivek"
     }
 ]

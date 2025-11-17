@@ -1731,3 +1731,31 @@ Data exported to kp_data.xlsx
 ℹ️ No changes to commit.
 Run completed at: 2025-11-17 11:35:30
 ============================================================
+------------------------------------------------------------
+Script started at: 2025-11-17 12:11:28
+On branch: KCE_KPI_Server
+Fetched 2768 test run items
+Fetched 336 defect items
+Raw data saved (JSON & CSV)
+Filtered test run data: 2322 items (removed 446 LCE items)
+Filtered defect data: 329 items (removed 7 LCE items)
+Filtered data saved (JSON & CSV)
+Error fetching user info for ID 6395: 'data'
+Data exported to kp_data.csv, defect_data.csv, testrun_data.json
+Data exported to kp_data.xlsx
+✅ Script completed successfully at: 2025-11-17 12:16:55
+Git status before add:
+## KCE_KPI_Server...origin/KCE_KPI_Server
+ M cron.log
+ M filtered_defect_data.csv
+ M filtered_defect_data.json
+ M filtered_testrun_data.csv
+ M filtered_testrun_data.json
+ M kp_data.csv
+ M kp_data.xlsx
+ M raw_defect_data.csv
+ M raw_defect_data.json
+ M raw_testrun_data.csv
+ M raw_testrun_data.json
+ M run_jama_script.sh
+ M testrun_data.json

@@ -2122,21 +2122,21 @@
         "itemType": 154,
         "project": 417,
         "createdDate": "2025-09-09T03:56:12.000+0000",
-        "modifiedDate": "2025-10-22T11:18:27.000+0000",
-        "lastActivityDate": "2025-11-06T11:11:11.000+0000",
+        "modifiedDate": "2025-11-17T06:34:37.000+0000",
+        "lastActivityDate": "2025-11-17T06:34:37.000+0000",
         "createdBy": 5932,
-        "modifiedBy": 5932,
+        "modifiedBy": 1291,
         "fields": {
             "documentKey": "KIE601-SWBUG-2645",
             "globalId": "GID-7393018",
             "name": "IEX-Braking Distance not updated sometimes it retains old braking distance value.",
             "description": "<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\"><strong>Detailed Defect Description</strong></span></span>:</p>\n\n<p>IEX-Braking Distance not updated sometimes retains old braking distance value.</p>\n\n<p>&nbsp;</p>\n\n<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\"><strong>Parameters:&nbsp;&nbsp;</strong></span></span></p>\n\n<p><span style=\"font-family:Calibri, sans-serif\"><span style=\"font-size:14.6667px\">-</span></span></p>\n\n<p>&nbsp;</p>\n\n<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\"><strong>Group configuration: </strong></span></span></p>\n\n<p><span style=\"font-family:Calibri, sans-serif\"><span style=\"font-size:14.6667px\">Single escalator setup.</span></span></p>\n\n<p>&nbsp;</p>\n\n<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\"><strong>Drive type:</strong></span></span></p>\n\n<p><span style=\"font-family:Calibri, sans-serif\"><span style=\"font-size:14.6667px\">Danfoss, Monarch</span></span></p>\n\n<p>&nbsp;</p>\n\n<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\"><strong>Regression or new finding:</strong></span></span></p>\n\n<p><span style=\"font-family:Calibri, sans-serif\"><span style=\"font-size:14.6667px\">Regression</span></span></p>\n\n<p>&nbsp;</p>\n\n<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\"><strong>Test case Name / Feature name:</strong></span></span></p>\n\n<p>&nbsp;</p>\n\n<p>AMC features for Escalator&nbsp;</p>\n\n<p>&nbsp;</p>\n\n<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\"><strong>Test step number:</strong></span></span></p>\n\n<p>5,18,34,42</p>\n\n<p>&nbsp;</p>\n\n<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\"><strong>Description of the test case (Detailed Scenario)&nbsp;</strong></span></span></p>\n\n<p>1.Using the AMC Tool, navigate to the Escalator Status section,<br />\n2.Start the escalator in the UP direction, and perform braking distance tests.<br />\n3.The Braking Distance fails to update and retains it previous value.<br />\n<br />\n<strong>Note: it observes 3 out of 15 times (Random manner)<br />\n<br />\nIt observed in all modes: KCM, KAM,KST,KSB &amp; K2D</strong><br />\n<br />\nRecovery : Navigate to RTD &gt; Escalator Performance to monitor the Stopping Distance, which updates correctly in real-time. Upon returning to the Escalator Status screen, the Braking Distance parameter will be updated.</p>\n\n<p>&nbsp;</p>\n\n<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\"><strong>Expected behavior:&nbsp;&nbsp;</strong></span></span></p>\n\n<p>The Braking Distance should updated for every brake.</p>\n\n<p>&nbsp;</p>\n\n<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\"><strong>Actual behavior:</strong></span></span></p>\n\n<p>The Braking Distance fails to update and retains it previous value sometimes.</p>\n\n<p>&nbsp;</p>\n\n<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\"><strong>Recovery:&nbsp;</strong></span></span></p>\n\n<p>Navigate to RTD &gt; Escalator Performance to monitor the Stopping Distance, which updates correctly in real-time. Upon returning to the Escalator Status screen, the Braking Distance parameter will be updated.</p>\n\n<p>&nbsp;</p>\n\n<p>&nbsp;</p>\n\n<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\"><strong>Value-added information:&nbsp;</strong></span></span></p>\n\n<p>IEX SW-TR1.0-t12.13</p>\n\n<p>AMC-4.6.244</p>\n\n<p>&nbsp;</p>\n\n<p>&nbsp;</p>\n",
             "status": 1082,
-            "BUG_component$154": 2243,
-            "BUG_subcomponent$154": "Escalator - KIE",
+            "BUG_component$154": 1561,
+            "BUG_subcomponent$154": "Service Tools - Android MiniConsole",
             "createdBy": 5932,
             "assignedTo": 2454,
-            "release": 2529,
+            "release": 2466,
             "BUG_foundInBuild$154": "AMC 4.6.244.7098",
             "BUG_foundOnDate$154": "2025-09-02",
             "BUG_plannedRelease$154": 2504,
@@ -2149,7 +2149,7 @@
             "BUG_probability_on_field$154": 2399,
             "root_cause_category$154": 2512,
             "BUG_testCaseUpdated$154": 1198,
-            "BUG_RD_comments$154": "<p>[Vigneshwarar V]:08-Oct-2025<br />\nAs per T. Viswanathan comments,this defect has changed from critical call out to Medium-Long time reliability</p>",
+            "BUG_RD_comments$154": "<p>Srinath S: 17-Nov-2025</p>\n\n<p>based on the discussion, Component field changed back to Escalator - KIE and Subcomponent field changed back to&nbsp;Service Tools - Android MiniConsole,</p>\n\n<p>&nbsp;</p>\n\n<p>Vigneshwarar V]:08-Oct-2025<br />\nAs per T. Viswanathan comments,this defect has changed from critical call out to Medium-Long time reliability</p>",
             "BUG_V1_project$154": 1431
         },
         "resources": {
@@ -2159,7 +2159,7 @@
                 ]
             }
         },
-        "version": 8,
+        "version": 9,
         "location": {
             "sortOrder": 1226,
             "globalSortOrder": 1302850089,
@@ -2169,9 +2169,8 @@
             }
         },
         "lock": {
-            "locked": true,
-            "lastLockedDate": "2025-11-17T05:53:28.000+0000",
-            "lockedBy": 1291
+            "locked": false,
+            "lastLockedDate": "2025-11-17T06:34:38.000+0000"
         },
         "type": "items"
     },
@@ -3656,8 +3655,8 @@
         "itemType": 154,
         "project": 417,
         "createdDate": "2025-11-10T12:01:23.000+0000",
-        "modifiedDate": "2025-11-10T12:01:23.000+0000",
-        "lastActivityDate": "2025-11-10T12:02:09.000+0000",
+        "modifiedDate": "2025-11-17T06:41:26.000+0000",
+        "lastActivityDate": "2025-11-17T06:41:26.000+0000",
         "createdBy": 6117,
         "modifiedBy": 6117,
         "fields": {
@@ -3672,7 +3671,7 @@
             "release": 2527,
             "BUG_foundOnDate$154": "2025-11-05",
             "priority": 2410,
-            "BUG_severity$154": 1282,
+            "BUG_severity$154": 1109,
             "BUG_category$154": 1422,
             "BUG_testLevel$154": 1285,
             "BUG_howFound$154": 1095,
@@ -3689,7 +3688,7 @@
                 ]
             }
         },
-        "version": 1,
+        "version": 2,
         "location": {
             "sortOrder": 1313,
             "globalSortOrder": 1311223280,
@@ -3700,7 +3699,7 @@
         },
         "lock": {
             "locked": false,
-            "lastLockedDate": "2025-11-10T12:01:26.000+0000"
+            "lastLockedDate": "2025-11-17T06:41:28.000+0000"
         },
         "type": "items"
     },
