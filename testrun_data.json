@@ -16240,8 +16240,8 @@
         "Assigned To":"Dinesh"
     },
     {
-        "TestRunStatus":"INPROGRESS",
-        "ExecutionDate":"2025-11-12",
+        "TestRunStatus":"PASSED",
+        "ExecutionDate":"2025-11-17",
         "Document Key":"KCE-TSTRN-4002628",
         "Name":"FRD IL - Phase 2 - Tests not included into TA",
         "Assigned To":"Dinesh"

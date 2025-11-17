@@ -3763,6 +3763,60 @@
         "type": "items"
     },
     {
+        "id": 28343918,
+        "documentKey": "KIE601-SWBUG-2751",
+        "globalId": "GID-7533052",
+        "itemType": 154,
+        "project": 417,
+        "createdDate": "2025-11-17T08:25:06.000+0000",
+        "modifiedDate": "2025-11-17T08:25:06.000+0000",
+        "lastActivityDate": "2025-11-17T08:25:06.000+0000",
+        "createdBy": 5932,
+        "modifiedBy": 5932,
+        "fields": {
+            "documentKey": "KIE601-SWBUG-2751",
+            "globalId": "GID-7533052",
+            "name": "IEX-AMC Mode Status Not Updating to On-site Mode Until Application Restart",
+            "description": "<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\"><strong>Detailed Defect Description:</strong></span></span></p>\n\n<p><span style=\"font-family:Calibri, sans-serif\"><span style=\"font-size:14.6667px\">IEX-</span></span>AMC Mode Status Not Updating to On-site Mode Until Application Restart</p>\n\n<p>&nbsp;</p>\n\n<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\"><strong>Parameters:&nbsp;&nbsp;</strong></span></span></p>\n\n<p><span style=\"font-family:Calibri, sans-serif\"><span style=\"font-size:14.6667px\">4300_3</span></span></p>\n\n<p>&nbsp;</p>\n\n<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\"><strong>Group configuration: </strong></span></span></p>\n\n<p><span style=\"font-family:Calibri, sans-serif\"><span style=\"font-size:14.6667px\">Single Escalator setup</span></span></p>\n\n<p>&nbsp;</p>\n\n<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\"><strong>Drive type:</strong></span></span></p>\n\n<p><span style=\"font-family:Calibri, sans-serif\"><span style=\"font-size:14.6667px\">Monarch,Danfoss</span></span></p>\n\n<p>&nbsp;</p>\n\n<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\"><strong>Regression or new finding:</strong></span></span></p>\n\n<p>Adhoc</p>\n\n<p>&nbsp;</p>\n\n<p>&nbsp;</p>\n\n<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\"><strong>Description of the test case (Detailed Scenario)&nbsp;</strong></span></span></p>\n\n<p>1.Connect the AMC to the escalator.<br />\n2.Set parameter 4300_3 to On-site mode.<br />\n3.Checked the mode status in the AMC tool.<br />\n4.The mode stays still in Normal mode.<br />\n5.Then quit and re-open the AMC application.<br />\n6.The mode has updated correctly to On-site mode.<br />\n<br />\n<strong>Note: Same issue occurs on both G99 and G01 units.</strong></p>\n\n<p>&nbsp;</p>\n\n<p><strong>Attached Screenshot below for reference :&nbsp;</strong></p>\n\n<p>1.Set parameter 4300_3 to On-site mode.<br />\n2.Checked the mode status in the AMC tool.</p>\n\n<p><img alt=\"\" height=\"434\" src=\"https://konerqm.jamacloud.com/attachment/231470/2025_11_17_08_22_201.jpg\" width=\"200\" /></p>\n\n<p>Quit and re-open the AMC application.</p>\n\n<p>&nbsp;</p>\n\n<p><img alt=\"\" height=\"434\" src=\"https://konerqm.jamacloud.com/attachment/231472/2025_11_17_08_22_582.jpg\" width=\"200\" /></p>\n\n<p>&nbsp;</p>\n\n<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\"><strong>Expected behavior:&nbsp;&nbsp;</strong></span></span></p>\n\n<p>The mode should update as On-site mode.</p>\n\n<p>&nbsp;</p>\n\n<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\"><strong>Actual behavior:</strong></span></span></p>\n\n<p>The mode is not updating to On-site mode-still displayed as Normal mode.</p>\n\n<p>&nbsp;</p>\n\n<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\"><strong>Recovery:&nbsp;</strong></span></span></p>\n\n<p>Quit and re-open the AMC application.</p>\n\n<p>&nbsp;</p>\n\n<p>&nbsp;</p>\n\n<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\"><strong>Value-added information:&nbsp;</strong></span></span></p>\n\n<p>IEX SW-TR1.0-t12.16.</p>\n\n<p>AMC SW-4.6.247.7128</p>\n\n<p>&nbsp;</p>\n\n<p>&nbsp;</p>\n",
+            "status": 1081,
+            "BUG_component$154": 1561,
+            "BUG_subcomponent$154": "Service Tool-Android Miniconsole",
+            "createdBy": 5932,
+            "release": 2570,
+            "BUG_foundOnDate$154": "2025-11-13",
+            "priority": 2410,
+            "BUG_severity$154": 1110,
+            "BUG_category$154": 1422,
+            "BUG_testLevel$154": 1129,
+            "BUG_howFound$154": 1092,
+            "BUG_whereFound$154": 1137,
+            "BUG_probability_on_field$154": 2399,
+            "root_cause_category$154": 2512,
+            "BUG_testCaseUpdated$154": 1198,
+            "BUG_V1_project$154": 1431
+        },
+        "resources": {
+            "self": {
+                "allowed": [
+                    "GET"
+                ]
+            }
+        },
+        "version": 1,
+        "location": {
+            "sortOrder": 1330,
+            "globalSortOrder": 1311332679,
+            "sequence": "2.8.1331",
+            "parent": {
+                "item": 18771233
+            }
+        },
+        "lock": {
+            "locked": false
+        },
+        "type": "items"
+    },
+    {
         "id": 26912907,
         "documentKey": "DRIVE_HW_SW-SWBUG-1587",
         "globalId": "GID-7250660",
@@ -20603,9 +20657,8 @@
             }
         },
         "lock": {
-            "locked": true,
-            "lastLockedDate": "2025-11-17T05:52:10.000+0000",
-            "lockedBy": 6374
+            "locked": false,
+            "lastLockedDate": "2025-11-17T08:15:58.000+0000"
         },
         "type": "items"
     }

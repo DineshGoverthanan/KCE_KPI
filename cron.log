@@ -1809,3 +1809,75 @@ Git status before add:
  M raw_testrun_data.csv
  M raw_testrun_data.json
  M testrun_data.json
+============================================================
+Script started at: 2025-11-17 14:55:42
+On branch: main
+Fetched 2769 test run items
+Fetched 337 defect items
+Raw data saved (JSON & CSV)
+Filtered test run data: 2323 items (removed 446 LCE items)
+Filtered defect data: 330 items (removed 7 LCE items)
+Filtered data saved (JSON & CSV)
+Error fetching user info for ID 6395: 'data'
+Data exported to kp_data.csv, defect_data.csv, testrun_data.json
+Data exported to kp_data.xlsx
+✅ Python script finished successfully at: 2025-11-17 15:01:41
+---- git status (before add) ----
+## main...origin/main
+ M cron.log
+ M defect_data.csv
+ M filtered_defect_data.csv
+ M filtered_defect_data.json
+ M filtered_testrun_data.csv
+ M filtered_testrun_data.json
+ M kp_data.csv
+ M kp_data.xlsx
+ M raw_defect_data.csv
+ M raw_defect_data.json
+ M raw_testrun_data.csv
+ M raw_testrun_data.json
+ M run_jama_script.sh
+ M testrun_data.json
+ M venv/lib/python3.10/site-packages/xlsxwriter/__pycache__/__init__.cpython-310.pyc
+ M venv/lib/python3.10/site-packages/xlsxwriter/__pycache__/app.cpython-310.pyc
+ M venv/lib/python3.10/site-packages/xlsxwriter/__pycache__/chart.cpython-310.pyc
+ M venv/lib/python3.10/site-packages/xlsxwriter/__pycache__/chart_area.cpython-310.pyc
+ M venv/lib/python3.10/site-packages/xlsxwriter/__pycache__/chart_bar.cpython-310.pyc
+ M venv/lib/python3.10/site-packages/xlsxwriter/__pycache__/chart_column.cpython-310.pyc
+ M venv/lib/python3.10/site-packages/xlsxwriter/__pycache__/chart_doughnut.cpython-310.pyc
+ M venv/lib/python3.10/site-packages/xlsxwriter/__pycache__/chart_line.cpython-310.pyc
+ M venv/lib/python3.10/site-packages/xlsxwriter/__pycache__/chart_pie.cpython-310.pyc
+ M venv/lib/python3.10/site-packages/xlsxwriter/__pycache__/chart_radar.cpython-310.pyc
+ M venv/lib/python3.10/site-packages/xlsxwriter/__pycache__/chart_scatter.cpython-310.pyc
+ M venv/lib/python3.10/site-packages/xlsxwriter/__pycache__/chart_stock.cpython-310.pyc
+ M venv/lib/python3.10/site-packages/xlsxwriter/__pycache__/chart_title.cpython-310.pyc
+ M venv/lib/python3.10/site-packages/xlsxwriter/__pycache__/chartsheet.cpython-310.pyc
+ M venv/lib/python3.10/site-packages/xlsxwriter/__pycache__/color.cpython-310.pyc
+ M venv/lib/python3.10/site-packages/xlsxwriter/__pycache__/comments.cpython-310.pyc
+ M venv/lib/python3.10/site-packages/xlsxwriter/__pycache__/contenttypes.cpython-310.pyc
+ M venv/lib/python3.10/site-packages/xlsxwriter/__pycache__/core.cpython-310.pyc
+ M venv/lib/python3.10/site-packages/xlsxwriter/__pycache__/custom.cpython-310.pyc
+ M venv/lib/python3.10/site-packages/xlsxwriter/__pycache__/drawing.cpython-310.pyc
+ M venv/lib/python3.10/site-packages/xlsxwriter/__pycache__/exceptions.cpython-310.pyc
+ M venv/lib/python3.10/site-packages/xlsxwriter/__pycache__/feature_property_bag.cpython-310.pyc
+ M venv/lib/python3.10/site-packages/xlsxwriter/__pycache__/format.cpython-310.pyc
+ M venv/lib/python3.10/site-packages/xlsxwriter/__pycache__/image.cpython-310.pyc
+ M venv/lib/python3.10/site-packages/xlsxwriter/__pycache__/metadata.cpython-310.pyc
+ M venv/lib/python3.10/site-packages/xlsxwriter/__pycache__/packager.cpython-310.pyc
+ M venv/lib/python3.10/site-packages/xlsxwriter/__pycache__/relationships.cpython-310.pyc
+ M venv/lib/python3.10/site-packages/xlsxwriter/__pycache__/rich_value.cpython-310.pyc
+ M venv/lib/python3.10/site-packages/xlsxwriter/__pycache__/rich_value_rel.cpython-310.pyc
+ M venv/lib/python3.10/site-packages/xlsxwriter/__pycache__/rich_value_structure.cpython-310.pyc
+ M venv/lib/python3.10/site-packages/xlsxwriter/__pycache__/rich_value_types.cpython-310.pyc
+ M venv/lib/python3.10/site-packages/xlsxwriter/__pycache__/shape.cpython-310.pyc
+ M venv/lib/python3.10/site-packages/xlsxwriter/__pycache__/sharedstrings.cpython-310.pyc
+ M venv/lib/python3.10/site-packages/xlsxwriter/__pycache__/styles.cpython-310.pyc
+ M venv/lib/python3.10/site-packages/xlsxwriter/__pycache__/table.cpython-310.pyc
+ M venv/lib/python3.10/site-packages/xlsxwriter/__pycache__/theme.cpython-310.pyc
+ M venv/lib/python3.10/site-packages/xlsxwriter/__pycache__/url.cpython-310.pyc
+ M venv/lib/python3.10/site-packages/xlsxwriter/__pycache__/utility.cpython-310.pyc
+ M venv/lib/python3.10/site-packages/xlsxwriter/__pycache__/vml.cpython-310.pyc
+ M venv/lib/python3.10/site-packages/xlsxwriter/__pycache__/workbook.cpython-310.pyc
+ M venv/lib/python3.10/site-packages/xlsxwriter/__pycache__/worksheet.cpython-310.pyc
+ M venv/lib/python3.10/site-packages/xlsxwriter/__pycache__/xmlwriter.cpython-310.pyc
+?? cron.log.bak.20251117_144518

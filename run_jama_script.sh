@@ -1,74 +1,107 @@
 #!/bin/bash
 # ------------------------------------------------------------------
-# Jama KPI Auto Script - Cron-friendly (stages real outputs + pushes current branch)
+# run_jama_script.sh
+# Cron-friendly: run kpi.py, stage outputs, commit if changed, push main
+# Logs appended to /home/rellab/KCE_KPI/cron.log and retained 14 days
 # ------------------------------------------------------------------
 
 PROJECT_DIR="/home/rellab/KCE_KPI"
-PYTHON_BIN="$PROJECT_DIR/venv/bin/python3"
+VENV_PY="$PROJECT_DIR/venv/bin/python3"
 LOG_FILE="$PROJECT_DIR/cron.log"
 SSH_KEY="/home/rellab/.ssh/id_ed25519"
 ENV_FILE="$PROJECT_DIR/.env"
-BRANCH="KCE_KPI_Server"   # branch to push (use the branch you're actively working on)
+BRANCH="main"
 
 {
-  echo "------------------------------------------------------------"
+  echo "============================================================"
   echo "Script started at: $(date '+%Y-%m-%d %H:%M:%S')"
 
+  # Move to project dir
   cd "$PROJECT_DIR" || { echo "❌ Cannot cd to $PROJECT_DIR"; exit 1; }
 
-  # ensure correct branch
+  # Safety: ensure .env exists (contains client_ID and client_Secrect)
+  if [ ! -f "$ENV_FILE" ]; then
+    echo "❌ Missing .env file at $ENV_FILE - aborting"
+    echo "Please create .env with client_ID and client_Secrect"
+    echo "Run aborted at: $(date '+%Y-%m-%d %H:%M:%S')"
+    echo "============================================================"
+    exit 1
+  fi
+
+  # Load environment variables from .env (exported)
+  set -a
+  source "$ENV_FILE"
+  set +a
+
+  # Ensure we are on main and up-to-date
   git fetch origin "$BRANCH" >/dev/null 2>&1
-  git checkout "$BRANCH" >/dev/null 2>&1 || git checkout -b "$BRANCH" origin/"$BRANCH" >/dev/null 2>&1
+  # If main exists locally, checkout it; otherwise create tracking branch
+  if git rev-parse --verify "$BRANCH" >/dev/null 2>&1; then
+    git checkout "$BRANCH" >/dev/null 2>&1 || true
+  else
+    git checkout -b "$BRANCH" origin/"$BRANCH" >/dev/null 2>&1 || git checkout -b "$BRANCH"
+  fi
+  git pull origin "$BRANCH" --no-rebase >/dev/null 2>&1 || echo "⚠️ git pull warning"
+
   echo "On branch: $(git rev-parse --abbrev-ref HEAD)"
 
-  # load env (if present)
-  if [ -f "$ENV_FILE" ]; then
-    set -a
-    source "$ENV_FILE"
-    set +a
-  fi
-
-  # start ssh-agent for push
+  # Start ssh agent and add key (key must be passphrase-free or agent should already have it)
   eval "$(ssh-agent -s)" >/dev/null 2>&1
-  ssh-add "$SSH_KEY" >/dev/null 2>&1
+  ssh-add "$SSH_KEY" >/dev/null 2>&1 || echo "⚠️ ssh-add failed (check key or passphrase)"
 
-  # run the python script (use venv python if available)
-  if [ -x "$PYTHON_BIN" ]; then
-    PYEXEC="$PYTHON_BIN"
+  # Activate venv python if exists, else fall back to system python3
+  if [ -x "$VENV_PY" ]; then
+    PYEXEC="$VENV_PY"
   else
     PYEXEC="python3"
+    echo "⚠️ Venv python not found; using system python3"
   fi
 
+  # Run the Python script
   if $PYEXEC "$PROJECT_DIR/kpi.py"; then
-    echo "✅ Script completed successfully at: $(date '+%Y-%m-%d %H:%M:%S')"
+    echo "✅ Python script finished successfully at: $(date '+%Y-%m-%d %H:%M:%S')"
   else
-    echo "❌ Script FAILED at: $(date '+%Y-%m-%d %H:%M:%S')"
+    echo "❌ Python script failed at: $(date '+%Y-%m-%d %H:%M:%S')"
+    # continue to attempt git staging so logs/errors are captured
   fi
 
-  # Stage actual outputs: use -A to include modified & new files
-  echo "Git status before add:"
+  # Show git status before staging (helpful for debugging)
+  echo "---- git status (before add) ----"
   git status --short -b
 
+  # Stage everything changed (explicit, catches all outputs)
   git add -A
-  echo "Staged files (cached):"
-  git --no-pager diff --cached --name-only || true
 
-  # Commit & push only if staged changes exist
+  echo "---- Staged files (cached) ----"
+  git --no-pager diff --cached --name-only || echo "(none staged)"
+
+  # Commit only if there are staged changes
   if git diff --cached --quiet; then
     echo "ℹ️ No changes to commit."
   else
-    git commit -m "Auto update on $(date '+%Y-%m-%d %H:%M:%S')" || echo "⚠️ Commit failed"
-    # push current branch
-    CURBR="$(git rev-parse --abbrev-ref HEAD)"
-    if git push origin "$CURBR"; then
-      echo "✅ Pushed branch $CURBR to origin."
+    if git commit -m "Auto update on $(date '+%Y-%m-%d %H:%M:%S')"; then
+      echo "✅ Commit created."
+      if git push origin "$BRANCH"; then
+        echo "✅ Changes pushed to origin/$BRANCH."
+      else
+        echo "❌ Git push failed (exit $?)."
+      fi
     else
-      echo "❌ Push failed for branch $CURBR."
+      echo "❌ Git commit failed."
     fi
   fi
 
-  # Log retention: keep cron.log for 14 days (rotate if you use multiple log files)
-  find "$PROJECT_DIR" -type f -name "cron.log*" -mtime +14 -delete 2>/dev/null
+  # Optional: remove accidental stray file if present
+  if [ -f ".......................end.........................." ]; then
+    git rm -f ".......................end.........................." >/dev/null 2>&1 || true
+    git commit -m "Remove stray file" >/dev/null 2>&1 || true
+    git push origin "$BRANCH" >/dev/null 2>&1 || true
+    echo "ℹ️ Removed stray file if existed."
+  fi
+
+  # Log retention: delete logs older than 14 days (if you create rotated ones)
+  # (keeps main cron.log untouched; if you implement rotation, you can adapt this)
+  find "$PROJECT_DIR" -type f -name "cron.log.*" -mtime +14 -delete 2>/dev/null
 
   echo "Run completed at: $(date '+%Y-%m-%d %H:%M:%S')"
   echo "============================================================"
