@@ -4571,6 +4571,13 @@
         "Assigned To":"Veeramanikandan"
     },
     {
+        "TestRunStatus":"INPROGRESS",
+        "ExecutionDate":"2025-11-18",
+        "Document Key":"KCE-TSTRN-4002199",
+        "Name":"KCESAFETY \u2013 NA - DTS (Traction Loss Supervision) - with KCEABS: Basic",
+        "Assigned To":"Veeramanikandan"
+    },
+    {
         "TestRunStatus":"PASSED",
         "ExecutionDate":"2025-11-07",
         "Document Key":"KCE-TSTRN-4001912",
@@ -16273,5 +16280,26 @@
         "Document Key":"KCE-TSTRN-4003588",
         "Name":"mDOP Software Update",
         "Assigned To":"Vivek"
+    },
+    {
+        "TestRunStatus":"INPROGRESS",
+        "ExecutionDate":"2025-11-18",
+        "Document Key":"KCE-TSTRN-4004078",
+        "Name":"1. Monitoring parameter 880= 1 with any licence ",
+        "Assigned To":"Nithya Priya"
+    },
+    {
+        "TestRunStatus":"INPROGRESS",
+        "ExecutionDate":"2025-11-18",
+        "Document Key":"KCE-TSTRN-4004119",
+        "Name":"EZO Shaft setup with Single Virtual floor section ",
+        "Assigned To":"Nithya Priya"
+    },
+    {
+        "TestRunStatus":"INPROGRESS",
+        "ExecutionDate":"2025-11-18",
+        "Document Key":"KCE-TSTRN-4004122",
+        "Name":"Served floor Landing call registration outside EZO zone ",
+        "Assigned To":"Nithya Priya"
     }
 ]
