@@ -66,6 +66,7 @@ KIE601-SWBUG-2711,IEX-While running escalator Fault code F 303-2 is thrown unnec
 KIE601-SWBUG-2734,IEX - Escalator not running in interlock mode after learning is initiated in 3rd simulator,Mohammed Ibrahim Sultan,,2025-11-05
 KIE601-SWBUG-2736,IEX-Fault-count for KIECPU in G01 not updating within AMC on IEX system,VIGNESHWARAR,,2025-11-09
 KIE601-SWBUG-2751,IEX-AMC Mode Status Not Updating to On-site Mode Until Application Restart,VIGNESHWARAR,,2025-11-13
+KIE601-SWBUG-2752,IEX- G01 Board Showing Delayed Direction Status Update after normal stop,VIGNESHWARAR,,2025-11-13
 DRIVE_HW_SW-SWBUG-1587,GG DCBL 5.51 SW - Fault 124 3064 Not Triggered when Software file is missed from SD Card.,VIGNESHWARAR,,2025-06-01
 KCE-SWBUG-5615,16.4-DCBL GD- Speed is not reduced when the elevator reaches the lower limit during the NTS Buffer Test.,Jagadeesh,KCE16.4.92 (LD 16.4.1.11 and GCD 16.4.65) + DCBL 24.47sw,
 KCE-SWBUG-6553,"KCE NA - When MES activated during car call service, lift is unable to stop at the nearest floor.",Veeramanikandan,KCE 17.0.0.10,2025-09-02
