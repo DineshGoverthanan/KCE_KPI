@@ -1370,8 +1370,8 @@
         "itemType": 154,
         "project": 417,
         "createdDate": "2025-07-08T12:15:34.000+0000",
-        "modifiedDate": "2025-11-14T11:07:58.000+0000",
-        "lastActivityDate": "2025-11-14T11:07:58.000+0000",
+        "modifiedDate": "2025-11-17T12:15:44.000+0000",
+        "lastActivityDate": "2025-11-17T12:15:44.000+0000",
         "createdBy": 5932,
         "modifiedBy": 2001,
         "fields": {
@@ -1394,7 +1394,7 @@
             "BUG_probability_on_field$154": 2398,
             "root_cause_category$154": 2512,
             "BUG_testCaseUpdated$154": 1198,
-            "BUG_RD_comments$154": "<p>[Visu]: 10-Jul-2025</p>\n\n<p>&nbsp;</p>\n\n<p>Fix to be done supplier side, observation shared to supplier via CRD team.&nbsp;</p>\n\n<p>&nbsp;</p>\n\n<p>[Visu]: 17-Jul-2025</p>\n\n<p>Not critical with IEX SW release point of view, pilot can be managed by CRD team.&nbsp;</p>\n\n<p>&nbsp;</p>\n\n<p>[Visu]:&nbsp;10-Nov-2025<br />\nDefect Review meeting<br />\nParticipants: Visu, Banu</p>\n\n<p>&nbsp;</p>\n\n<p>Status to be checked with Vincent</p>\n\n<p>&nbsp;</p>\n\n<p>[Visu]:&nbsp;14-Nov-2025</p>\n\n<p>Observed only in particular Digital lighting setup.&nbsp;</p>\n\n<p>&nbsp;</p>\n\n<p>We can this Reject this defect.&nbsp;</p>\n\n<p>&nbsp;</p>\n\n<p>Latest&nbsp;Digital lighting setup to be received from CRD</p>\n\n<p>&nbsp;</p>\n\n<p>Sev to be changed to 3</p>\n\n<p>&nbsp;</p>",
+            "BUG_RD_comments$154": "<p>[Visu]: 10-Jul-2025</p>\n\n<p>&nbsp;</p>\n\n<p>Fix to be done supplier side, observation shared to supplier via CRD team.&nbsp;</p>\n\n<p>&nbsp;</p>\n\n<p>[Visu]: 17-Jul-2025</p>\n\n<p>Not critical with IEX SW release point of view, pilot can be managed by CRD team.&nbsp;</p>\n\n<p>&nbsp;</p>\n\n<p>[Visu]:&nbsp;10-Nov-2025<br />\nDefect Review meeting<br />\nParticipants: Visu, Banu</p>\n\n<p>&nbsp;</p>\n\n<p>Status to be checked with Vincent</p>\n\n<p>&nbsp;</p>\n\n<p>[Visu]:&nbsp;14-Nov-2025</p>\n\n<p>Observed only in particular Digital lighting setup.&nbsp;</p>\n\n<p>&nbsp;</p>\n\n<p>We can this Reject this defect.&nbsp;</p>\n\n<p>&nbsp;</p>\n\n<p>Latest&nbsp;Digital lighting setup to be received from CRD</p>\n\n<p>&nbsp;</p>\n\n<p>Sev to be changed to 3</p>\n\n<p>&nbsp;</p>\n\n<p>[Visu]: 14-Nov-2025</p>\n\n<p>Digital light HW issue</p>\n\n<p>&nbsp;</p>\n\n<p>&nbsp;</p>\n\n<p>&nbsp;</p>",
             "BUG_V1_project$154": 1431
         },
         "resources": {
@@ -1404,7 +1404,7 @@
                 ]
             }
         },
-        "version": 6,
+        "version": 7,
         "location": {
             "sortOrder": 1147,
             "globalSortOrder": 1294588980,
@@ -1415,7 +1415,7 @@
         },
         "lock": {
             "locked": false,
-            "lastLockedDate": "2025-11-14T11:07:59.000+0000"
+            "lastLockedDate": "2025-11-17T12:15:47.000+0000"
         },
         "type": "items"
     },
