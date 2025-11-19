@@ -1890,8 +1890,8 @@
         "itemType": 154,
         "project": 417,
         "createdDate": "2025-09-04T10:09:33.000+0000",
-        "modifiedDate": "2025-10-14T06:54:36.000+0000",
-        "lastActivityDate": "2025-10-14T06:54:36.000+0000",
+        "modifiedDate": "2025-11-19T12:05:08.000+0000",
+        "lastActivityDate": "2025-11-19T12:05:08.000+0000",
         "createdBy": 5932,
         "modifiedBy": 2001,
         "fields": {
@@ -1902,7 +1902,7 @@
             "status": 1082,
             "BUG_component$154": 1561,
             "createdBy": 5932,
-            "assignedTo": 6329,
+            "assignedTo": 2454,
             "release": 2466,
             "BUG_foundOnDate$154": "2025-09-03",
             "BUG_plannedRelease$154": 2504,
@@ -1915,6 +1915,7 @@
             "BUG_probability_on_field$154": 2399,
             "root_cause_category$154": 2512,
             "BUG_testCaseUpdated$154": 1198,
+            "BUG_RD_comments$154": "<p>[Visu]:&nbsp;19-Nov-2025<br />\nDefect Review meeting<br />\nParticipants: Visu, Ajis, Joseph</p>\n\n<p>&nbsp;</p>\n\n<p>Low priority</p>\n\n<p>&nbsp;</p>\n\n<p>&nbsp;</p>",
             "BUG_V1_project$154": 1431
         },
         "resources": {
@@ -1924,7 +1925,7 @@
                 ]
             }
         },
-        "version": 2,
+        "version": 4,
         "location": {
             "sortOrder": 1220,
             "globalSortOrder": 1302222663,
@@ -1934,9 +1935,8 @@
             }
         },
         "lock": {
-            "locked": true,
-            "lastLockedDate": "2025-11-19T12:03:51.000+0000",
-            "lockedBy": 2001
+            "locked": false,
+            "lastLockedDate": "2025-11-19T12:05:10.000+0000"
         },
         "type": "items"
     },
@@ -2127,10 +2127,10 @@
         "itemType": 154,
         "project": 417,
         "createdDate": "2025-09-09T03:56:12.000+0000",
-        "modifiedDate": "2025-11-17T06:34:37.000+0000",
-        "lastActivityDate": "2025-11-17T06:34:37.000+0000",
+        "modifiedDate": "2025-11-19T12:08:31.000+0000",
+        "lastActivityDate": "2025-11-19T12:08:31.000+0000",
         "createdBy": 5932,
-        "modifiedBy": 1291,
+        "modifiedBy": 2001,
         "fields": {
             "documentKey": "KIE601-SWBUG-2645",
             "globalId": "GID-7393018",
@@ -2140,7 +2140,7 @@
             "BUG_component$154": 1561,
             "BUG_subcomponent$154": "Service Tools - Android MiniConsole",
             "createdBy": 5932,
-            "assignedTo": 2454,
+            "assignedTo": 6612,
             "release": 2466,
             "BUG_foundInBuild$154": "AMC 4.6.244.7098",
             "BUG_foundOnDate$154": "2025-09-02",
@@ -2154,7 +2154,7 @@
             "BUG_probability_on_field$154": 2399,
             "root_cause_category$154": 2512,
             "BUG_testCaseUpdated$154": 1198,
-            "BUG_RD_comments$154": "<p>Srinath S: 17-Nov-2025</p>\n\n<p>based on the discussion, Component field changed back to Escalator - KIE and Subcomponent field changed back to&nbsp;Service Tools - Android MiniConsole,</p>\n\n<p>&nbsp;</p>\n\n<p>Vigneshwarar V]:08-Oct-2025<br />\nAs per T. Viswanathan comments,this defect has changed from critical call out to Medium-Long time reliability</p>",
+            "BUG_RD_comments$154": "<p>Srinath S: 17-Nov-2025</p>\n\n<p>based on the discussion, Component field changed back to Escalator - KIE and Subcomponent field changed back to&nbsp;Service Tools - Android MiniConsole,</p>\n\n<p>&nbsp;</p>\n\n<p>Vigneshwarar V]:08-Oct-2025<br />\nAs per T. Viswanathan comments,this defect has changed from critical call out to Medium-Long time reliability</p>\n\n<p>&nbsp;</p>\n\n<p>[Visu]:&nbsp;19-Nov-2025<br />\nDefect Review meeting<br />\nParticipants: Visu, Ajis, Joseph<br />\nTo be compared RTD FUI value and AMC value</p>\n\n<p>&nbsp;</p>",
             "BUG_V1_project$154": 1431
         },
         "resources": {
@@ -2164,7 +2164,7 @@
                 ]
             }
         },
-        "version": 9,
+        "version": 10,
         "location": {
             "sortOrder": 1226,
             "globalSortOrder": 1302850089,
@@ -2175,7 +2175,7 @@
         },
         "lock": {
             "locked": false,
-            "lastLockedDate": "2025-11-17T06:34:38.000+0000"
+            "lastLockedDate": "2025-11-19T12:08:33.000+0000"
         },
         "type": "items"
     },
@@ -4470,6 +4470,67 @@
         "lock": {
             "locked": false,
             "lastLockedDate": "2025-11-04T13:18:25.000+0000"
+        },
+        "type": "items"
+    },
+    {
+        "id": 28376317,
+        "documentKey": "KCE-SWBUG-6999",
+        "globalId": "GID-7542260",
+        "itemType": 154,
+        "project": 229,
+        "createdDate": "2025-11-19T12:18:11.000+0000",
+        "modifiedDate": "2025-11-19T12:18:29.000+0000",
+        "lastActivityDate": "2025-11-19T12:20:29.000+0000",
+        "createdBy": 1300,
+        "modifiedBy": 620,
+        "fields": {
+            "documentKey": "KCE-SWBUG-6999",
+            "globalId": "GID-7542260",
+            "name": "KCE NA -When the in-car stop switch (C4 -Open) is activated while serving car call in inner door zone level, Door opened unexpectedly.",
+            "description": "<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\"><strong>Detailed Defect Description:</strong></span></span></p>\n\n<p><span style=\"font-size:11.0pt\"><span style=\"font-family:Calibri\">When a car call is serve and in-car stop switch (C4) opens, Elevator emergency stopped and door movement does not stop as expected. Door opens when the elevator is within the door zone level. i.e. ~10 to 44mm door zone level.</span></span></p>\n\n<p>&nbsp;</p>\n\n<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\"><strong>Parameters:&nbsp;&nbsp;</strong></span></span></p>\n\n<p><span style=\"font-size:11.0pt\"><span style=\"font-family:Calibri\">1105 =2</span></span></p>\n\n<p><span style=\"font-size:11.0pt\"><span style=\"font-family:Calibri\">1104 = 0</span></span></p>\n\n<p><span style=\"font-size:11.0pt\"><span style=\"font-family:Calibri\">1106 = 0</span></span></p>\n\n<p><span style=\"font-size:11.0pt\"><span style=\"font-family:Calibri\">&nbsp;</span></span></p>\n\n<p><span style=\"font-size:11.0pt\"><span style=\"font-family:Calibri\">1020 = 0 -ADO Disabled</span></span></p>\n\n<p>&nbsp;</p>\n\n<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\"><strong>Group configuration: </strong></span></span></p>\n\n<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\">Single elevator setup</span></span></p>\n\n<p>&nbsp;</p>\n\n<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\"><strong>Drive type:</strong></span></span></p>\n\n<p><span style=\"font-family:Calibri, sans-serif\"><span style=\"font-size:14.6667px\">Serial Drive&nbsp;</span></span></p>\n\n<p><span style=\"font-family:Calibri, sans-serif\"><span style=\"font-size:14.6667px\">KDX32 - 25.41</span></span></p>\n\n<p>&nbsp;</p>\n\n<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\"><strong>Regression or new finding:</strong></span></span></p>\n\n<p><span style=\"font-family:Calibri, sans-serif\"><span style=\"font-size:14.6667px\">New finding&nbsp;</span></span></p>\n\n<p>&nbsp;</p>\n\n<p>&nbsp;</p>\n\n<p>&nbsp;</p>\n\n<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\"><strong>Test case Name / Feature name:</strong></span></span></p>\n\n<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\">ad-hoc</span></span></p>\n\n<p>&nbsp;</p>\n\n<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\"><strong>Test step number:</strong></span></span></p>\n\n<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\">ad-hoc scenario</span></span></p>\n\n<p>&nbsp;</p>\n\n<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\"><strong>Description of the test case (Detailed Scenario)&nbsp;</strong></span></span></p>\n\n<p>&nbsp;</p>\n\n<ol style=\"font-family:Calibri; font-size:11.0pt; font-style:normal; font-weight:normal; list-style-type:decimal; unicode-bidi:embed\">\n\t<li style=\"vertical-align:middle\" value=\"1\"><span style=\"font-size:11.0pt\"><span style=\"font-family:Calibri\"><span><span>Elevator in normal mode.</span></span></span></span></li>\n\t<li style=\"vertical-align:middle\"><span style=\"font-size:11.0pt\"><span style=\"font-family:Calibri\">Given car call to next floor (e.g., 5th floor).</span></span></li>\n\t<li style=\"vertical-align:middle\"><span style=\"font-size:11.0pt\"><span style=\"font-family:Calibri\">While the elevator serve the car call, when reached inner door zone level. At the movement activate the in-car stop switch C4 input (C4 open)</span></span></li>\n\t<li style=\"vertical-align:middle\"><span style=\"font-size:11.0pt\"><span style=\"font-family:Calibri\">Now Elevator Emergency stopped Door operation working with door open state</span></span></li>\n</ol>\n\n<p>&nbsp;</p>\n\n<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\"><strong>Expected behavior:&nbsp;&nbsp;</strong></span></span></p>\n\n<p><span style=\"font-size:11.0pt\"><span style=\"font-family:Calibri\">While the elevator serve the car call, when reached inner door zone level (Door closed state), if C4 is open then Door should be in closed state. Door movement should not happen. </span></span></p>\n\n<p>&nbsp;</p>\n\n<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\"><strong>Actual behavior:</strong></span></span></p>\n\n<p><span style=\"font-family:Calibri, sans-serif\"><span style=\"font-size:14.6667px\">When C4 Open,&nbsp;&nbsp;</span></span><span style=\"font-size:11.0pt\"><span style=\"font-family:Calibri\">Elevator Emergency stopped and Door operation working with door open state.</span></span></p>\n\n<p>&nbsp;</p>\n\n<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\"><strong>Recovery:&nbsp;</strong></span></span></p>\n\n<p><span style=\"font-family:Calibri, sans-serif\"><span style=\"font-size:14.6667px\">Deactivate the in-car stop switch (Close C4 input)</span></span></p>\n\n<p>&nbsp;</p>\n\n<p><strong>Defect Reference Picture:</strong></p>\n\n<p><br />\n<img alt=\"\" height=\"485\" src=\"https://konerqm.jamacloud.com/attachment/231736/image-irDtMzskVo.png\" width=\"823\" /></p>\n\n<p>&nbsp;</p>\n\n<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\"><strong>Log attached Information:</strong></span></span></p>\n\n<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\">TTS log, Console Log attached here.&nbsp;</span></span></p>\n\n<p>&nbsp;</p>\n\n<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\"><strong>Value-added information:&nbsp;</strong></span></span></p>\n\n<p>Door type - AMD 10</p>\n\n<p>&nbsp;</p>\n\n<p><strong><span style=\"font-size:11.0pt\"><span style=\"font-family:Calibri\">SW Details :</span></span></strong></p>\n\n<p><span style=\"font-size:11.0pt\"><span style=\"font-family:Calibri\">LD- 17.0.0.16</span></span></p>\n\n<p><span style=\"font-size:11.0pt\"><span style=\"font-family:Calibri\">GCD - 17.0.0.23</span></span></p>\n\n<p><span style=\"font-size:11.0pt\"><span style=\"font-family:Calibri\">KDX 32 - 25.41</span></span></p>\n\n<p><span style=\"font-size:11.0pt\"><span style=\"font-family:Calibri\">&nbsp;</span></span></p>\n\n<p><span style=\"font-size:11.0pt\"><span style=\"font-family:Calibri\">PESSRAL 4.0 Setup&nbsp;</span></span></p>\n\n<p>&nbsp;</p>\n\n<p>&nbsp;</p>\n\n<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\"><strong>Requirement related to the defect:</strong></span></span></p>\n\n<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\">(e.g. URL link to requirement which is related to the defect)</span></span></p>\n",
+            "status": 1081,
+            "BUG_component$154": 1306,
+            "createdBy": 1300,
+            "release": 2396,
+            "BUG_foundInBuild$154": "17.0.0.16",
+            "BUG_foundOnDate$154": "2025-11-16",
+            "priority": 2410,
+            "BUG_severity$154": 1110,
+            "BUG_category$154": 1422,
+            "BUG_testLevel$154": 1129,
+            "BUG_howFound$154": 1092,
+            "BUG_whereFound$154": 1137,
+            "BUG_probability_on_field$154": 2399,
+            "root_cause_category$154": 2512,
+            "BUG_testCaseUpdated$154": 1198,
+            "BUG_jiraId$154": "KCE-31185",
+            "BUG_jira_project$154": 2465,
+            "BUG_jira_URL$154": "https://kone.atlassian.net/browse/KCE-31185",
+            "BUG_integration_synced_time$154": "2025-11-19 12:18:28.525392",
+            "BUG_V1_project$154": 1431
+        },
+        "resources": {
+            "self": {
+                "allowed": [
+                    "GET",
+                    "PUT",
+                    "PATCH",
+                    "DELETE"
+                ]
+            }
+        },
+        "version": 2,
+        "location": {
+            "sortOrder": 237,
+            "globalSortOrder": 1542794993,
+            "sequence": "17.1.238",
+            "parent": {
+                "item": 14006970
+            }
+        },
+        "lock": {
+            "locked": false
         },
         "type": "items"
     },
@@ -20630,16 +20691,16 @@
         "itemType": 154,
         "project": 229,
         "createdDate": "2025-11-13T12:48:11.000+0000",
-        "modifiedDate": "2025-11-19T08:20:09.000+0000",
-        "lastActivityDate": "2025-11-19T08:20:09.000+0000",
+        "modifiedDate": "2025-11-19T13:17:54.000+0000",
+        "lastActivityDate": "2025-11-19T13:17:54.000+0000",
         "createdBy": 6096,
-        "modifiedBy": 1129,
+        "modifiedBy": 870,
         "fields": {
             "documentKey": "KCE-SWBUG-6969",
             "globalId": "GID-7525867",
             "name": "4.6 - ProManager, KDX - Fault 3043's Name & Data are missing",
             "description": "<p><strong>Description:</strong></p>\n\n<ul>\n\t<li>An unknown fault is thrown from KDX Drive&nbsp;</li>\n\t<li>In ProManager the Fault's Name, Time, Possible Reasons, Preferred Actions are not shown</li>\n\t<li>*Localizations files are updated</li>\n</ul>\n\n<p><img alt=\"\" height=\"392\" src=\"https://konerqm.jamacloud.com/attachment/231254/image-Pgd2I5b49f.png\" width=\"846\" /><br />\n<br />\n<strong>Note</strong>:</p>\n\n<ul>\n\t<li>Fault searched in KCE Tools Data Base</li>\n</ul>\n\n<p><img alt=\"\" height=\"361\" src=\"https://konerqm.jamacloud.com/attachment/231255/image-kCnxSqk6Yy.png\" width=\"829\" /></p>\n\n<p>&nbsp;</p>\n\n<p><em><strong>\"NA KCEABS Warning\"</strong></em><br />\n&nbsp;</p>\n\n<p>&nbsp;</p>\n",
-            "status": 1081,
+            "status": 1085,
             "BUG_component$154": 2160,
             "createdBy": 6096,
             "release": 2188,
@@ -20655,6 +20716,7 @@
             "BUG_probability_on_field$154": 2399,
             "root_cause_category$154": 2512,
             "BUG_testCaseUpdated$154": 1198,
+            "BUG_RD_comments$154": "<p>Localization selection in KCE database tool was missing. Fixed in data 19.11.2025</p>",
             "BUG_V1_project$154": 1431
         },
         "resources": {
@@ -20667,7 +20729,7 @@
                 ]
             }
         },
-        "version": 3,
+        "version": 4,
         "location": {
             "sortOrder": 6400,
             "globalSortOrder": 1669001760,
@@ -20678,7 +20740,7 @@
         },
         "lock": {
             "locked": false,
-            "lastLockedDate": "2025-11-19T08:20:10.000+0000"
+            "lastLockedDate": "2025-11-19T13:17:55.000+0000"
         },
         "type": "items"
     },

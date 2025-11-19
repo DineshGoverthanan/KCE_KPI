@@ -70,6 +70,7 @@ KIE601-SWBUG-2752,IEX- G01 Board Showing Delayed Direction Status Update after n
 DRIVE_HW_SW-SWBUG-1587,GG DCBL 5.51 SW - Fault 124 3064 Not Triggered when Software file is missed from SD Card.,VIGNESHWARAR,,2025-06-01
 KCE-SWBUG-5615,16.4-DCBL GD- Speed is not reduced when the elevator reaches the lower limit during the NTS Buffer Test.,Jagadeesh,KCE16.4.92 (LD 16.4.1.11 and GCD 16.4.65) + DCBL 24.47sw,
 KCE-SWBUG-6553,"KCE NA - When MES activated during car call service, lift is unable to stop at the nearest floor.",Veeramanikandan,KCE 17.0.0.10,2025-09-02
+KCE-SWBUG-6999,"KCE NA -When the in-car stop switch (C4 -Open) is activated while serving car call in inner door zone level, Door opened unexpectedly.",Veeramanikandan,17.0.0.16,2025-11-16
 KCE-SWBUG-5081,16.8 - The emergency announcement in the ACU does not stop when the elevator starts moving.,Shrividhya,"KCE 16.8.2.19(LD: 16.8.2.4, GCD: 16.8.56)",2025-01-01
 KCE-SWBUG-5082,"16.8 - CPU - Parameter 1456 can't be set as ""2""",Suryanarayanan,"KCE 16.8.2.19(LD: 16.8.2.4, GCD: 16.8.56)",2025-01-01
 KCE-SWBUG-5107,PESSRAL4.2 - SSA-BiDi Feature - Landing call acceptance light is not blinking when person in car roof Detection reset,Veeramanikandan,16.10.0.5,2025-01-09
