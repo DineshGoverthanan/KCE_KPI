@@ -1370,8 +1370,8 @@
         "itemType": 154,
         "project": 417,
         "createdDate": "2025-07-08T12:15:34.000+0000",
-        "modifiedDate": "2025-11-17T12:15:44.000+0000",
-        "lastActivityDate": "2025-11-17T12:15:44.000+0000",
+        "modifiedDate": "2025-11-19T04:06:08.000+0000",
+        "lastActivityDate": "2025-11-19T04:06:08.000+0000",
         "createdBy": 5932,
         "modifiedBy": 2001,
         "fields": {
@@ -1383,6 +1383,7 @@
             "BUG_component$154": 1561,
             "BUG_subcomponent$154": "IEX",
             "createdBy": 5932,
+            "assignedTo": 1339,
             "release": 2465,
             "BUG_foundOnDate$154": "2025-07-06",
             "priority": 2410,
@@ -1394,7 +1395,7 @@
             "BUG_probability_on_field$154": 2398,
             "root_cause_category$154": 2512,
             "BUG_testCaseUpdated$154": 1198,
-            "BUG_RD_comments$154": "<p>[Visu]: 10-Jul-2025</p>\n\n<p>&nbsp;</p>\n\n<p>Fix to be done supplier side, observation shared to supplier via CRD team.&nbsp;</p>\n\n<p>&nbsp;</p>\n\n<p>[Visu]: 17-Jul-2025</p>\n\n<p>Not critical with IEX SW release point of view, pilot can be managed by CRD team.&nbsp;</p>\n\n<p>&nbsp;</p>\n\n<p>[Visu]:&nbsp;10-Nov-2025<br />\nDefect Review meeting<br />\nParticipants: Visu, Banu</p>\n\n<p>&nbsp;</p>\n\n<p>Status to be checked with Vincent</p>\n\n<p>&nbsp;</p>\n\n<p>[Visu]:&nbsp;14-Nov-2025</p>\n\n<p>Observed only in particular Digital lighting setup.&nbsp;</p>\n\n<p>&nbsp;</p>\n\n<p>We can this Reject this defect.&nbsp;</p>\n\n<p>&nbsp;</p>\n\n<p>Latest&nbsp;Digital lighting setup to be received from CRD</p>\n\n<p>&nbsp;</p>\n\n<p>Sev to be changed to 3</p>\n\n<p>&nbsp;</p>\n\n<p>[Visu]: 14-Nov-2025</p>\n\n<p>Digital light HW issue</p>\n\n<p>&nbsp;</p>\n\n<p>&nbsp;</p>\n\n<p>&nbsp;</p>",
+            "BUG_RD_comments$154": "<p>[Visu]: 10-Jul-2025</p>\n\n<p>&nbsp;</p>\n\n<p>Fix to be done supplier side, observation shared to supplier via CRD team.&nbsp;</p>\n\n<p>&nbsp;</p>\n\n<p>[Visu]: 17-Jul-2025</p>\n\n<p>Not critical with IEX SW release point of view, pilot can be managed by CRD team.&nbsp;</p>\n\n<p>&nbsp;</p>\n\n<p>[Visu]:&nbsp;10-Nov-2025<br />\nDefect Review meeting<br />\nParticipants: Visu, Banu</p>\n\n<p>&nbsp;</p>\n\n<p>Status to be checked with Vincent</p>\n\n<p>&nbsp;</p>\n\n<p>[Visu]:&nbsp;14-Nov-2025</p>\n\n<p>Observed only in particular Digital lighting setup.&nbsp;</p>\n\n<p>&nbsp;</p>\n\n<p>We can this Reject this defect.&nbsp;</p>\n\n<p>&nbsp;</p>\n\n<p>Latest&nbsp;Digital lighting setup to be received from CRD</p>\n\n<p>&nbsp;</p>\n\n<p>Sev to be changed to 3</p>\n\n<p>&nbsp;</p>\n\n<p>[Visu]: 14-Nov-2025</p>\n\n<p>Digital light HW issue</p>\n\n<p>&nbsp;</p>\n\n<p>[Visu]: 14-Nov-2025</p>\n\n<p>This defect assigned&nbsp; HW team</p>\n\n<p>&nbsp;</p>\n\n<p>&nbsp;</p>",
             "BUG_V1_project$154": 1431
         },
         "resources": {
@@ -1404,7 +1405,7 @@
                 ]
             }
         },
-        "version": 7,
+        "version": 8,
         "location": {
             "sortOrder": 1147,
             "globalSortOrder": 1294588980,
@@ -1415,7 +1416,7 @@
         },
         "lock": {
             "locked": false,
-            "lastLockedDate": "2025-11-17T12:15:47.000+0000"
+            "lastLockedDate": "2025-11-19T04:06:09.000+0000"
         },
         "type": "items"
     },
@@ -2965,8 +2966,9 @@
             }
         },
         "lock": {
-            "locked": false,
-            "lastLockedDate": "2025-11-18T06:53:34.000+0000"
+            "locked": true,
+            "lastLockedDate": "2025-11-19T05:56:21.000+0000",
+            "lockedBy": 6051
         },
         "type": "items"
     },
@@ -20251,7 +20253,7 @@
         "project": 229,
         "createdDate": "2025-11-07T12:57:45.000+0000",
         "modifiedDate": "2025-11-18T05:49:49.000+0000",
-        "lastActivityDate": "2025-11-18T05:49:49.000+0000",
+        "lastActivityDate": "2025-11-18T13:03:09.000+0000",
         "createdBy": 6096,
         "modifiedBy": 1138,
         "fields": {
@@ -20498,15 +20500,15 @@
         "itemType": 154,
         "project": 229,
         "createdDate": "2025-11-12T10:44:24.000+0000",
-        "modifiedDate": "2025-11-12T10:44:24.000+0000",
-        "lastActivityDate": "2025-11-12T10:49:17.000+0000",
+        "modifiedDate": "2025-11-19T05:48:55.000+0000",
+        "lastActivityDate": "2025-11-19T05:48:55.000+0000",
         "createdBy": 6176,
         "modifiedBy": 6176,
         "fields": {
             "documentKey": "KCE-SWBUG-6950",
             "globalId": "GID-7522724",
-            "name": "KCE 17.0.0.108 - B-Side Display Shows Car Lock Message for A-Side Locked Floor During LOC Operation",
-            "description": "<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\"><strong>Detailed Defect Description:</strong></span></span></p>\n\n<p>During LOC (Lock) operation, when A side is in a locked condition, and a car call is given to an A-side locked floor, the B-side display also shows the \u201cCar Lock\u201d message.</p>\n\n<p>&nbsp;</p>\n\n<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\"><strong>Parameters:&nbsp;&nbsp;</strong></span></span></p>\n\n<p>1096 - 0 selective cop&nbsp;</p>\n\n<p>Enable car call lock Single deck 1004 - 1 enabled</p>\n\n<p>Enable car locking from option room 1007 - 0 car call locking via PIO</p>\n\n<p>Locking type - 1</p>\n\n<p>&nbsp;</p>\n\n<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\"><strong>Group configuration: </strong></span></span></p>\n\n<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\">single elevator setup</span></span></p>\n\n<p>&nbsp;</p>\n\n<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\"><strong>Drive type:</strong></span></span></p>\n\n<p>KDH or KDM 90</p>\n\n<p>&nbsp;</p>\n\n<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\"><strong>Regression or new finding:</strong></span></span></p>\n\n<p>Regression</p>\n\n<p>&nbsp;</p>\n\n<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\"><strong>Test case Name / Feature name:</strong></span></span></p>\n\n<p>Rush test case against the KNSMUL G24+KNSKIL button</p>\n\n<p>&nbsp;</p>\n\n<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\"><strong>Test step number:</strong></span></span></p>\n\n<p><span style=\"font-family:Calibri,sans-serif\"><span style=\"font-size:14.6667px\">8</span></span></p>\n\n<p>&nbsp;</p>\n\n<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\"><strong>Description of the test case (Detailed Scenario)&nbsp;</strong></span></span></p>\n\n<p>&nbsp;</p>\n\n<ul>\n\t<li>Set A side to locked condition (activate LOC mode).</li>\n\t<li>Give a car call to any A side locked floor.</li>\n\t<li>Observe both A side and B side displays.</li>\n</ul>\n\n<p>&nbsp;</p>\n\n<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\"><strong>Expected behavior:&nbsp;&nbsp;</strong></span></span></p>\n\n<ul>\n\t<li>Only A side (locked side) should show the \u201cCar Lock\u201d message.</li>\n\t<li>B side display should remain normal and available for operation.</li>\n</ul>\n\n<p>&nbsp;</p>\n\n<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\"><strong>Actual behavior:</strong></span></span></p>\n\n<p>&nbsp;</p>\n\n<p>Both A side and B side displays show \u201cCar Lock\u201d, even though B side is not locked.</p>\n\n<p>&nbsp;</p>\n\n<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\"><strong>Recovery:&nbsp;</strong></span></span></p>\n\n<p><span style=\"font-family:Calibri,sans-serif\"><span style=\"font-size:14.6667px\">NA</span></span></p>\n\n<p>&nbsp;</p>\n\n<p>&nbsp;</p>\n\n<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\"><strong>Log attached Information:</strong></span></span></p>\n\n<p>&nbsp;</p>\n\n<p>Event traffic log and LPA attached</p>\n\n<p>&nbsp;</p>\n\n<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\"><strong>Value-added information:&nbsp;</strong></span></span></p>\n\n<p>&nbsp;</p>\n\n<p>KCE 17.0.0.108(LD: 17.0.0.16, GCD: 17.0.0.29)&nbsp;- SW versions</p>\n\n<p>KNSMUL G24(123 floor setup) - Types of Signalizations used</p>\n\n<p>AMD 10 -Door module types</p>\n\n<p>verified in KDM 90 and KDH&nbsp;</p>\n\n<p>&nbsp;</p>\n\n<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\"><strong>Test Sequence history:&nbsp;</strong></span></span></p>\n\n<p>1: was failing scenario passing earlier - it is also 16.8.3.29 (LD: 16.8.3.14, GCD: 16.8.90)&nbsp;observed in released SW&nbsp;</p>\n\n<p>&nbsp;</p>\n\n<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\"><strong>Requirement related to the defect:</strong></span></span></p>\n\n<p>&nbsp;</p>\n\n<p>Test case details attached</p>\n\n<p>&nbsp;</p>\n\n<p>https://konerqm.jamacloud.com/perspective.req#/testRuns/28102375?projectId=229</p>\n",
+            "name": "KCE 17.0.0.108 - B-Side CAR Display Shows Car Lock Message for A-Side Locked Floor During LOC Operation",
+            "description": "<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\"><strong>Detailed Defect Description:</strong></span></span></p>\n\n<p>During LOC (Lock) operation, when A side is in a locked condition, and a car call is given to an A-side locked floor, the B-side display also shows the \u201cCar Lock\u201d message.</p>\n\n<p>&nbsp;</p>\n\n<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\"><strong>Parameters:&nbsp;&nbsp;</strong></span></span></p>\n\n<p>1096 - 0 selective cop&nbsp;</p>\n\n<p>Enable car call lock Single deck 1004 - 1 enabled</p>\n\n<p>Enable car locking from option room 1007 - 0 car call locking via PIO</p>\n\n<p>Locking type - 1</p>\n\n<p>&nbsp;</p>\n\n<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\"><strong>Group configuration: </strong></span></span></p>\n\n<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\">single elevator setup</span></span></p>\n\n<p>&nbsp;</p>\n\n<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\"><strong>Drive type:</strong></span></span></p>\n\n<p>KDH or KDM 90</p>\n\n<p>&nbsp;</p>\n\n<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\"><strong>Regression or new finding:</strong></span></span></p>\n\n<p>Regression</p>\n\n<p>&nbsp;</p>\n\n<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\"><strong>Test case Name / Feature name:</strong></span></span></p>\n\n<p>Rush test case against the KNSMUL G24+KNSKIL button</p>\n\n<p>&nbsp;</p>\n\n<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\"><strong>Test step number:</strong></span></span></p>\n\n<p><span style=\"font-family:Calibri,sans-serif\"><span style=\"font-size:14.6667px\">8</span></span></p>\n\n<p>&nbsp;</p>\n\n<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\"><strong>Description of the test case (Detailed Scenario)&nbsp;</strong></span></span></p>\n\n<p>&nbsp;</p>\n\n<ul>\n\t<li>Set A side to locked condition (activate LOC mode).</li>\n\t<li>Give a car call to any A side locked floor.</li>\n\t<li>Observe both A side and B side displays.</li>\n</ul>\n\n<p>&nbsp;</p>\n\n<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\"><strong>Expected behavior:&nbsp;&nbsp;</strong></span></span></p>\n\n<ul>\n\t<li>Only A side (locked side) should show the \u201cCar Lock\u201d message.</li>\n\t<li>B side display should remain normal and available for operation.</li>\n</ul>\n\n<p>&nbsp;</p>\n\n<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\"><strong>Actual behavior:</strong></span></span></p>\n\n<p>&nbsp;</p>\n\n<p>Both A side and B side displays show \u201cCar Lock\u201d, even though B side is not locked.</p>\n\n<p>&nbsp;</p>\n\n<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\"><strong>Recovery:&nbsp;</strong></span></span></p>\n\n<p><span style=\"font-family:Calibri,sans-serif\"><span style=\"font-size:14.6667px\">NA</span></span></p>\n\n<p>&nbsp;</p>\n\n<p>&nbsp;</p>\n\n<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\"><strong>Log attached Information:</strong></span></span></p>\n\n<p>&nbsp;</p>\n\n<p>Event traffic log and LPA attached</p>\n\n<p>&nbsp;</p>\n\n<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\"><strong>Value-added information:&nbsp;</strong></span></span></p>\n\n<p>&nbsp;</p>\n\n<p>KCE 17.0.0.108(LD: 17.0.0.16, GCD: 17.0.0.29)&nbsp;- SW versions</p>\n\n<p>KNSMUL G24(123 floor setup) - Types of Signalizations used</p>\n\n<p>AMD 10 -Door module types</p>\n\n<p>verified in KDM 90 and KDH&nbsp;</p>\n\n<p>&nbsp;</p>\n\n<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\"><strong>Test Sequence history:&nbsp;</strong></span></span></p>\n\n<p>1: was failing scenario passing earlier - No, it is also 16.8.3.29 (LD: 16.8.3.14, GCD: 16.8.90)&nbsp;observed in released SW&nbsp;</p>\n\n<p>&nbsp;</p>\n\n<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\"><strong>Requirement related to the defect:</strong></span></span></p>\n\n<p>&nbsp;</p>\n\n<p>Test case details attached</p>\n\n<p>&nbsp;</p>\n\n<p>https://konerqm.jamacloud.com/perspective.req#/testRuns/28102375?projectId=229</p>\n",
             "status": 1081,
             "BUG_component$154": 1291,
             "createdBy": 6176,
@@ -20534,7 +20536,7 @@
                 ]
             }
         },
-        "version": 1,
+        "version": 3,
         "location": {
             "sortOrder": 6386,
             "globalSortOrder": 1668726240,
@@ -20545,7 +20547,7 @@
         },
         "lock": {
             "locked": false,
-            "lastLockedDate": "2025-11-12T10:49:32.000+0000"
+            "lastLockedDate": "2025-11-19T05:48:56.000+0000"
         },
         "type": "items"
     },
@@ -20556,15 +20558,15 @@
         "itemType": 154,
         "project": 229,
         "createdDate": "2025-11-12T12:19:49.000+0000",
-        "modifiedDate": "2025-11-12T12:39:37.000+0000",
-        "lastActivityDate": "2025-11-12T12:39:37.000+0000",
+        "modifiedDate": "2025-11-19T05:49:03.000+0000",
+        "lastActivityDate": "2025-11-19T05:49:03.000+0000",
         "createdBy": 6096,
         "modifiedBy": 6096,
         "fields": {
             "documentKey": "KCE-SWBUG-6952",
             "globalId": "GID-7522811",
             "name": "17.0 - ACL - Elevator Door Signals flutters & gets Stuck when RDF is released after relevelling with ACL in PRC Mode",
-            "description": "<p><em><strong>Parameter:</strong></em></p>\n\n<p><img alt=\"\" height=\"342\" src=\"https://konerqm.jamacloud.com/attachment/231108/image-5chGvsQwvG.png\" width=\"260\" /><br />\n<img alt=\"\" height=\"110\" src=\"https://konerqm.jamacloud.com/attachment/231110/image-ppOJPEjZ97.png\" width=\"256\" /></p>\n\n<p><img alt=\"\" height=\"223\" src=\"https://konerqm.jamacloud.com/attachment/231111/image-E6PwIqlmYU.png\" width=\"255\" /></p>\n\n<p>&nbsp;</p>\n\n<p>&nbsp;</p>\n\n<p><em><strong>Detailed Description:</strong></em></p>\n\n<ul>\n\t<li>Single Elevator</li>\n\t<li>12 Floor Setup (TTC, Dummy &amp; Staggered)</li>\n\t<li>Drive - KDM 40</li>\n\t<li>COP - KDS Signalization</li>\n\t<li>OPT - 35 Connected&nbsp;</li>\n</ul>\n\n<p>&nbsp;</p>\n\n<ul>\n\t<li>Elevator in Vacant state (Normal Mode)</li>\n\t<li>ACL mode is set to function with Doors Closed</li>\n\t<li>PRC C is enabled</li>\n\t<li>Both A &amp; B Side doors are left opened</li>\n\t<li>RDF Enabled</li>\n\t<li>Floor Level is increased/decreased by 10mm</li>\n\t<li>RDF Turned OFF</li>\n</ul>\n\n<p>&nbsp;</p>\n\n<p><em><strong>Expected Scenario:</strong></em></p>\n\n<ul>\n\t<li>Since there is an offset with Floor Level, ACL Should be enabled after Closing the wide opened doors (Due to PRC C)&nbsp;</li>\n\t<li>After Relevelling, Doors should be again Left opened with PRC C enabled<br />\n\t&nbsp;</li>\n</ul>\n\n<p><em><strong>Actual Scenario:</strong></em></p>\n\n<ul>\n\t<li>Doors are not Closed &amp; Relevelled</li>\n\t<li>Instead Doors get stuck&nbsp;forever with fluttering of Door Commands from the CPU</li>\n</ul>\n\n<p><img alt=\"\" height=\"659\" src=\"https://konerqm.jamacloud.com/attachment/231115/image-amqj2ABVE4.png\" width=\"641\" /></p>\n\n<p>&nbsp;</p>\n\n<p><em><strong>Recovery:</strong></em></p>\n\n<ul>\n\t<li>Triggering of any other Special Mode (Like FRD) will cancel out this fluctuation issue and makes the door Close Correctly</li>\n\t<li>RDF - ON/OFF</li>\n</ul>\n\n<p><em><strong>Note:</strong></em></p>\n\n<ul>\n\t<li>This happens only when the ACL is set as 1 (ACL Doors Closed Enabled, Door opening after ACL)</li>\n\t<li>When checked with ACL - 3 (ACL Doors Open Enabled) there is not Fluttering issue noted</li>\n\t<li>This is happening Randomly, at times Doors are closed correctly but most time Fluttering of Door Signal is noted</li>\n\t<li>Checked with 16.10, Same issue noted</li>\n</ul>\n\n<p>&nbsp;</p>\n\n<p>&nbsp;</p>\n\n<p><em><strong>LOGs:</strong></em></p>\n\n<ul>\n\t<li>Event Traffic</li>\n\t<li>LPA</li>\n\t<li>Elevator Backup</li>\n\t<li>MP4 for better understanding</li>\n</ul>\n",
+            "description": "<p><em><strong>Parameter:</strong></em></p>\n\n<p><img alt=\"\" height=\"342\" src=\"https://konerqm.jamacloud.com/attachment/231108/image-5chGvsQwvG.png\" width=\"260\" /><br />\n<img alt=\"\" height=\"110\" src=\"https://konerqm.jamacloud.com/attachment/231110/image-ppOJPEjZ97.png\" width=\"256\" /></p>\n\n<p><img alt=\"\" height=\"223\" src=\"https://konerqm.jamacloud.com/attachment/231111/image-E6PwIqlmYU.png\" width=\"255\" /></p>\n\n<p>&nbsp;</p>\n\n<p>&nbsp;</p>\n\n<p><em><strong>Detailed Description:</strong></em></p>\n\n<ul>\n\t<li>Single Elevator</li>\n\t<li>12 Floor Setup (TTC, Dummy &amp; Staggered)</li>\n\t<li>Drive - KDM 40</li>\n\t<li>COP - KDS Signalization</li>\n\t<li>OPT - 35 Connected&nbsp;</li>\n</ul>\n\n<p>&nbsp;</p>\n\n<ul>\n\t<li>Elevator in Vacant state (Normal Mode)</li>\n\t<li>ACL mode is set to function with Doors Closed</li>\n\t<li>PRC in CAR, PRC K (Continuous - Switch Key usage) is enabled</li>\n\t<li>Both A &amp; B Side doors are left opened</li>\n\t<li>RDF Enabled</li>\n\t<li>Floor Level is increased/decreased by 10mm (Floor level is adjusted by using SDS Shaft Tool)</li>\n\t<li>RDF Turned OFF</li>\n</ul>\n\n<p>&nbsp;</p>\n\n<p><em><strong>Expected Scenario:</strong></em></p>\n\n<ul>\n\t<li>Since there is an offset with Floor Level, ACL Should be enabled after Closing the wide opened doors (Due to PRC C)&nbsp;</li>\n\t<li>After Relevelling, Doors should be again Left opened with PRC C enabled<br />\n\t&nbsp;</li>\n</ul>\n\n<p><em><strong>Actual Scenario:</strong></em></p>\n\n<ul>\n\t<li>Doors are not Closed &amp; Relevelled (CPU throws Open &amp; Close signals continuously which causes the door to stay opened (in a vibrating manner))</li>\n\t<li>Instead Doors get stuck&nbsp;forever with fluttering of Door Commands from the CPU</li>\n</ul>\n\n<p><img alt=\"\" height=\"659\" src=\"https://konerqm.jamacloud.com/attachment/231115/image-amqj2ABVE4.png\" width=\"641\" /></p>\n\n<p>&nbsp;</p>\n\n<p><em><strong>Recovery:</strong></em></p>\n\n<ul>\n\t<li>Triggering of any other Special Mode (Like FRD) will cancel out this fluctuation issue and makes the door Close Correctly</li>\n\t<li>RDF - ON/OFF</li>\n</ul>\n\n<p><em><strong>Note:</strong></em></p>\n\n<ul>\n\t<li>This happens only when the ACL is set as 1 (ACL Doors Closed Enabled, Door opening after ACL)</li>\n\t<li>When checked with ACL - 3 (ACL Doors Open Enabled) there is not Fluttering issue noted</li>\n\t<li>This is happening Randomly, at times Doors are closed correctly but most time Fluttering of Door Signal is noted</li>\n\t<li>Checked with 16.10, Same issue noted</li>\n</ul>\n\n<p>&nbsp;</p>\n\n<p>&nbsp;</p>\n\n<p><em><strong>LOGs:</strong></em></p>\n\n<ul>\n\t<li>Event Traffic</li>\n\t<li>LPA</li>\n\t<li>Elevator Backup</li>\n\t<li>MP4 for better understanding</li>\n</ul>\n",
             "status": 1081,
             "BUG_component$154": 1291,
             "createdBy": 6096,
@@ -20592,7 +20594,7 @@
                 ]
             }
         },
-        "version": 2,
+        "version": 3,
         "location": {
             "sortOrder": 6388,
             "globalSortOrder": 1668765600,
@@ -20603,7 +20605,7 @@
         },
         "lock": {
             "locked": false,
-            "lastLockedDate": "2025-11-12T12:39:38.000+0000"
+            "lastLockedDate": "2025-11-19T05:49:04.000+0000"
         },
         "type": "items"
     },
@@ -20661,7 +20663,7 @@
         },
         "lock": {
             "locked": false,
-            "lastLockedDate": "2025-11-13T12:48:36.000+0000"
+            "lastLockedDate": "2025-11-19T05:49:08.000+0000"
         },
         "type": "items"
     },

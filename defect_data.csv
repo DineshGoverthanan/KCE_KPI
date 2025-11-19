@@ -326,7 +326,7 @@ KCE-SWBUG-6931,17.0 - PAD O - Both Side Doors are not Parked Open in PAD Floor w
 KCE-SWBUG-6936,KCE 17.0.0.108 - Car call button stuck — Fault 1700 not triggered when FEX button (floors 64–123) is stuck,Nithya Priya,"KCE 17.0.0.108(LD: 17.0.0.16, GCD: 17.0.0.29)",2025-11-09
 KCE-SWBUG-6940,4.6_Service Tool-The description for Elevator Parameter (1359) has not been provided for value 2.,Jagadeesh,"KCE 17.0.0.108(LD: 17.0.0.16, GCD: 17.0.0.29)",2025-11-09
 KCE-SWBUG-6944,17.0 - PAD O - Other Floor's UP Landing Call is not Served when PAD Floor's Down Landing Call is Soft Locked ,Suryanarayanan,"KCE 17.0.0.108(LD: 17.0.0.16, GCD: 17.0.0.29)",2025-11-10
-KCE-SWBUG-6950,KCE 17.0.0.108 - B-Side Display Shows Car Lock Message for A-Side Locked Floor During LOC Operation,Nithya Priya,"KCE 17.0.0.108(LD: 17.0.0.16, GCD: 17.0.0.29)",2025-11-10
+KCE-SWBUG-6950,KCE 17.0.0.108 - B-Side CAR Display Shows Car Lock Message for A-Side Locked Floor During LOC Operation,Nithya Priya,"KCE 17.0.0.108(LD: 17.0.0.16, GCD: 17.0.0.29)",2025-11-10
 KCE-SWBUG-6952,17.0 - ACL - Elevator Door Signals flutters & gets Stuck when RDF is released after relevelling with ACL in PRC Mode,Suryanarayanan,"KCE 17.0.0.108(LD: 17.0.0.16, GCD: 17.0.0.29)",2025-11-11
 KCE-SWBUG-6969,"4.6 - ProManager, KDX - Fault 3043's Name & Data are missing",Suryanarayanan,4.6.239.7126,2025-11-12
 KCE-SWBUG-6973,FRD IL-Lift does not return to Return Floor when DOB is pressed repeatedly,Dinesh,"KCE 17.0.0.108(LD: 17.0.0.16, GCD: 17.0.0.29)",2025-11-13

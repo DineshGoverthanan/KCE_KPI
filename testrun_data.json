@@ -16297,9 +16297,16 @@
     },
     {
         "TestRunStatus":"INPROGRESS",
-        "ExecutionDate":"2025-11-18",
+        "ExecutionDate":"2025-11-19",
         "Document Key":"KCE-TSTRN-4004122",
         "Name":"Served floor Landing call registration outside EZO zone ",
+        "Assigned To":"Nithya Priya"
+    },
+    {
+        "TestRunStatus":"INPROGRESS",
+        "ExecutionDate":"2025-11-19",
+        "Document Key":"KCE-TSTRN-4004124",
+        "Name":"Served floor car call registration outside EZO zone ",
         "Assigned To":"Nithya Priya"
     }
 ]
