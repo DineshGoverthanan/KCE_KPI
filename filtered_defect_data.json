@@ -19401,7 +19401,7 @@
         },
         "lock": {
             "locked": false,
-            "lastLockedDate": "2025-11-05T09:02:46.000+0000"
+            "lastLockedDate": "2025-11-19T08:20:49.000+0000"
         },
         "type": "items"
     },
@@ -19840,15 +19840,15 @@
         "itemType": 154,
         "project": 229,
         "createdDate": "2025-11-07T12:57:45.000+0000",
-        "modifiedDate": "2025-11-18T05:49:49.000+0000",
-        "lastActivityDate": "2025-11-18T13:03:09.000+0000",
+        "modifiedDate": "2025-11-19T08:48:46.000+0000",
+        "lastActivityDate": "2025-11-19T08:48:46.000+0000",
         "createdBy": 6096,
-        "modifiedBy": 1138,
+        "modifiedBy": 6096,
         "fields": {
             "documentKey": "KCE-SWBUG-6931",
             "globalId": "GID-7517956",
             "name": "17.0 - PAD O - Both Side Doors are not Parked Open in PAD Floor when Down Landing Call Button Direction is Locked",
-            "description": "<p><strong>\u200b\u200b\u200bParameters:&nbsp;&nbsp;</strong></p>\n\n<p><img alt=\"\" height=\"230\" src=\"https://konerqm.jamacloud.com/attachment/230320/image-3Zkjrq3UD9.png\" width=\"223\" /></p>\n\n<p>&nbsp;</p>\n\n<p><strong>Group configuration:</strong></p>\n\n<p>Single</p>\n\n<p>&nbsp;</p>\n\n<p><strong>Drive type:</strong></p>\n\n<p>KDX 14</p>\n\n<p>&nbsp;</p>\n\n<p>&nbsp;</p>\n\n<p><strong>Description of the test case (Detailed Scenario)&nbsp;</strong></p>\n\n<ul>\n\t<li>Elevator in other than PAD Floor (ADO Disabled)</li>\n\t<li>After PAD Delay, Elevator starts to travel to PAD Floor (Which has B Side Down Landing Call Locked)</li>\n\t<li>PAD Floor Reached with A side Doors alone Left Opened</li>\n\t<li>B side Doors are in closed state (B side's CAR Call &amp; Up Landing Call is in Unlocked state)</li>\n\t<li>But when now UP Landing Call is pressed, B side Doors are Parked Open</li>\n\t<li>This causes confusion, now PAD gives priority to unlocked&nbsp;Car Call &amp; UP Landing Calls when Pressed</li>\n\t<li>But when Elevator Automatically reaches&nbsp;PAD Floor, Doors are Not Parked Opened&nbsp;<br />\n\t\u200b</li>\n</ul>\n\n<p>Expected Scenario:</p>\n\n<ul>\n\t<li>Since UP Landing Call is Unlocked, Registering UP Landing Call Causes the Lift go from \"Vacant State\" to \"CAR Call Pref\"</li>\n\t<li>Which disables PAD Mode</li>\n\t<li>Now Both Doors should Open &amp; after then DOB Time out The locked Landing Call Floor should eventually Close the Door</li>\n\t<li>But this is not happening, Doors are left opened!\u200b\u200b\u200b\u200b\u200b</li>\n</ul>\n\n<p>&nbsp;</p>\n\n<p><strong>Log attached Information:</strong></p>\n\n<ul>\n\t<li>LPA</li>\n\t<li>Event Traffic</li>\n</ul>\n\n<p>&nbsp;</p>\n",
+            "description": "<p><strong>\u200b\u200b\u200bParameters:&nbsp;&nbsp;</strong></p>\n\n<p><img alt=\"\" height=\"230\" src=\"https://konerqm.jamacloud.com/attachment/230320/image-3Zkjrq3UD9.png\" width=\"223\" /></p>\n\n<p>&nbsp;</p>\n\n<p><strong>Group configuration:</strong></p>\n\n<p>Single</p>\n\n<p>&nbsp;</p>\n\n<p><strong>Drive type:</strong></p>\n\n<p>KDX 14</p>\n\n<p>&nbsp;</p>\n\n<p>&nbsp;</p>\n\n<p><strong>Description of the test case (Detailed Scenario)&nbsp;</strong></p>\n\n<ul>\n\t<li>Elevator in other than PAD Floor (ADO Disabled)</li>\n\t<li>After PAD Delay, Elevator starts to travel to PAD Floor (Which has B Side Down Landing Call Locked)</li>\n\t<li>PAD Floor Reached with A side Doors alone Left Opened</li>\n\t<li>B side Doors are in closed state (B side's CAR Call &amp; Up Landing Call is in Unlocked state)</li>\n\t<li>But when now UP Landing Call is pressed, B side Doors are Parked Open</li>\n\t<li>This causes confusion, now PAD gives priority to unlocked&nbsp;Car Call &amp; UP Landing Calls when Pressed</li>\n\t<li>But when Elevator Automatically reaches&nbsp;PAD Floor, Doors are Not Parked Opened (This is happening Randomly, sometime both doors are parked opened)<br />\n\t\u200b</li>\n</ul>\n\n<p>Expected Scenario:</p>\n\n<ul>\n\t<li>Since UP Landing Call is Unlocked, Registering UP Landing Call Causes the Lift go from \"Vacant State\" to \"CAR Call Pref\"</li>\n\t<li>Which disables PAD Mode</li>\n\t<li>Now Both Doors should Open &amp; after then DOB Time out The locked Landing Call Floor should eventually Close the Door</li>\n\t<li>But this is not happening, Doors are left opened!\u200b\u200b\u200b\u200b\u200b</li>\n</ul>\n\n<p>&nbsp;</p>\n\n<p><strong>Log attached Information:</strong></p>\n\n<ul>\n\t<li>LPA</li>\n\t<li>Event Traffic</li>\n</ul>\n\n<p>&nbsp;</p>\n",
             "status": 1081,
             "BUG_component$154": 1291,
             "createdBy": 6096,
@@ -19878,7 +19878,7 @@
                 ]
             }
         },
-        "version": 7,
+        "version": 8,
         "location": {
             "sortOrder": 6369,
             "globalSortOrder": 1668391680,
@@ -19889,7 +19889,7 @@
         },
         "lock": {
             "locked": false,
-            "lastLockedDate": "2025-11-18T05:49:50.000+0000"
+            "lastLockedDate": "2025-11-19T08:48:47.000+0000"
         },
         "type": "items"
     },
@@ -20088,10 +20088,10 @@
         "itemType": 154,
         "project": 229,
         "createdDate": "2025-11-12T10:44:24.000+0000",
-        "modifiedDate": "2025-11-19T06:28:04.000+0000",
-        "lastActivityDate": "2025-11-19T06:28:04.000+0000",
+        "modifiedDate": "2025-11-19T10:02:32.000+0000",
+        "lastActivityDate": "2025-11-19T10:02:32.000+0000",
         "createdBy": 6176,
-        "modifiedBy": 6176,
+        "modifiedBy": 620,
         "fields": {
             "documentKey": "KCE-SWBUG-6950",
             "globalId": "GID-7522724",
@@ -20103,6 +20103,7 @@
             "release": 2396,
             "BUG_foundInBuild$154": "KCE 17.0.0.108(LD: 17.0.0.16, GCD: 17.0.0.29)",
             "BUG_foundOnDate$154": "2025-11-10",
+            "BUG_plannedRelease$154": 2396,
             "priority": 2410,
             "BUG_severity$154": 1111,
             "BUG_category$154": 1422,
@@ -20112,6 +20113,10 @@
             "BUG_probability_on_field$154": 2396,
             "root_cause_category$154": 2512,
             "BUG_testCaseUpdated$154": 1198,
+            "BUG_jiraId$154": "KCE-31163",
+            "BUG_jira_project$154": 2465,
+            "BUG_jira_URL$154": "https://kone.atlassian.net/browse/KCE-31163",
+            "BUG_integration_synced_time$154": "2025-11-19 10:02:31.257869",
             "BUG_V1_project$154": 1431
         },
         "resources": {
@@ -20124,7 +20129,7 @@
                 ]
             }
         },
-        "version": 4,
+        "version": 7,
         "location": {
             "sortOrder": 6386,
             "globalSortOrder": 1668726240,
@@ -20134,9 +20139,8 @@
             }
         },
         "lock": {
-            "locked": true,
-            "lastLockedDate": "2025-11-19T06:25:42.000+0000",
-            "lockedBy": 6176
+            "locked": false,
+            "lastLockedDate": "2025-11-19T10:01:40.000+0000"
         },
         "type": "items"
     },
@@ -20147,10 +20151,10 @@
         "itemType": 154,
         "project": 229,
         "createdDate": "2025-11-12T12:19:49.000+0000",
-        "modifiedDate": "2025-11-19T05:49:03.000+0000",
-        "lastActivityDate": "2025-11-19T05:49:03.000+0000",
+        "modifiedDate": "2025-11-19T10:02:35.000+0000",
+        "lastActivityDate": "2025-11-19T10:02:35.000+0000",
         "createdBy": 6096,
-        "modifiedBy": 6096,
+        "modifiedBy": 620,
         "fields": {
             "documentKey": "KCE-SWBUG-6952",
             "globalId": "GID-7522811",
@@ -20162,6 +20166,7 @@
             "release": 2396,
             "BUG_foundInBuild$154": "KCE 17.0.0.108(LD: 17.0.0.16, GCD: 17.0.0.29)",
             "BUG_foundOnDate$154": "2025-11-11",
+            "BUG_plannedRelease$154": 2396,
             "priority": 2410,
             "BUG_severity$154": 1110,
             "BUG_category$154": 1428,
@@ -20171,6 +20176,10 @@
             "BUG_probability_on_field$154": 2399,
             "root_cause_category$154": 2512,
             "BUG_testCaseUpdated$154": 1198,
+            "BUG_jiraId$154": "KCE-31165",
+            "BUG_jira_project$154": 2465,
+            "BUG_jira_URL$154": "https://kone.atlassian.net/browse/KCE-31165",
+            "BUG_integration_synced_time$154": "2025-11-19 10:02:34.070398",
             "BUG_V1_project$154": 1431
         },
         "resources": {
@@ -20183,7 +20192,7 @@
                 ]
             }
         },
-        "version": 3,
+        "version": 6,
         "location": {
             "sortOrder": 6388,
             "globalSortOrder": 1668765600,
@@ -20194,7 +20203,7 @@
         },
         "lock": {
             "locked": false,
-            "lastLockedDate": "2025-11-19T05:49:04.000+0000"
+            "lastLockedDate": "2025-11-19T10:02:11.000+0000"
         },
         "type": "items"
     },
@@ -20205,21 +20214,22 @@
         "itemType": 154,
         "project": 229,
         "createdDate": "2025-11-13T12:48:11.000+0000",
-        "modifiedDate": "2025-11-13T12:48:35.000+0000",
-        "lastActivityDate": "2025-11-13T12:48:35.000+0000",
+        "modifiedDate": "2025-11-19T08:20:09.000+0000",
+        "lastActivityDate": "2025-11-19T08:20:09.000+0000",
         "createdBy": 6096,
-        "modifiedBy": 6096,
+        "modifiedBy": 1129,
         "fields": {
             "documentKey": "KCE-SWBUG-6969",
             "globalId": "GID-7525867",
             "name": "4.6 - ProManager, KDX - Fault 3043's Name & Data are missing",
             "description": "<p><strong>Description:</strong></p>\n\n<ul>\n\t<li>An unknown fault is thrown from KDX Drive&nbsp;</li>\n\t<li>In ProManager the Fault's Name, Time, Possible Reasons, Preferred Actions are not shown</li>\n\t<li>*Localizations files are updated</li>\n</ul>\n\n<p><img alt=\"\" height=\"392\" src=\"https://konerqm.jamacloud.com/attachment/231254/image-Pgd2I5b49f.png\" width=\"846\" /><br />\n<br />\n<strong>Note</strong>:</p>\n\n<ul>\n\t<li>Fault searched in KCE Tools Data Base</li>\n</ul>\n\n<p><img alt=\"\" height=\"361\" src=\"https://konerqm.jamacloud.com/attachment/231255/image-kCnxSqk6Yy.png\" width=\"829\" /></p>\n\n<p>&nbsp;</p>\n\n<p><em><strong>\"NA KCEABS Warning\"</strong></em><br />\n&nbsp;</p>\n\n<p>&nbsp;</p>\n",
             "status": 1081,
-            "BUG_component$154": 1567,
+            "BUG_component$154": 2160,
             "createdBy": 6096,
             "release": 2188,
             "BUG_foundInBuild$154": "4.6.239.7126",
             "BUG_foundOnDate$154": "2025-11-12",
+            "BUG_plannedRelease$154": 2396,
             "priority": 2410,
             "BUG_severity$154": 1110,
             "BUG_category$154": 1425,
@@ -20241,7 +20251,7 @@
                 ]
             }
         },
-        "version": 2,
+        "version": 3,
         "location": {
             "sortOrder": 6400,
             "globalSortOrder": 1669001760,
@@ -20252,7 +20262,7 @@
         },
         "lock": {
             "locked": false,
-            "lastLockedDate": "2025-11-19T05:49:08.000+0000"
+            "lastLockedDate": "2025-11-19T08:20:10.000+0000"
         },
         "type": "items"
     },
@@ -20263,10 +20273,10 @@
         "itemType": 154,
         "project": 229,
         "createdDate": "2025-11-14T05:16:48.000+0000",
-        "modifiedDate": "2025-11-18T11:04:36.000+0000",
-        "lastActivityDate": "2025-11-18T11:04:36.000+0000",
+        "modifiedDate": "2025-11-19T08:25:47.000+0000",
+        "lastActivityDate": "2025-11-19T08:25:47.000+0000",
         "createdBy": 6374,
-        "modifiedBy": 6374,
+        "modifiedBy": 1129,
         "fields": {
             "documentKey": "KCE-SWBUG-6973",
             "globalId": "GID-7527756",
@@ -20278,6 +20288,7 @@
             "release": 2396,
             "BUG_foundInBuild$154": "KCE 17.0.0.108(LD: 17.0.0.16, GCD: 17.0.0.29)",
             "BUG_foundOnDate$154": "2025-11-13",
+            "BUG_plannedRelease$154": 2492,
             "priority": 2410,
             "BUG_severity$154": 1110,
             "BUG_category$154": 1422,
@@ -20299,7 +20310,7 @@
                 ]
             }
         },
-        "version": 2,
+        "version": 3,
         "location": {
             "sortOrder": 6402,
             "globalSortOrder": 1669041120,
@@ -20310,7 +20321,64 @@
         },
         "lock": {
             "locked": false,
-            "lastLockedDate": "2025-11-18T11:04:37.000+0000"
+            "lastLockedDate": "2025-11-19T08:25:48.000+0000"
+        },
+        "type": "items"
+    },
+    {
+        "id": 28375674,
+        "documentKey": "KCE-SWBUG-6997",
+        "globalId": "GID-7542140",
+        "itemType": 154,
+        "project": 229,
+        "createdDate": "2025-11-19T08:31:56.000+0000",
+        "modifiedDate": "2025-11-19T08:31:56.000+0000",
+        "lastActivityDate": "2025-11-19T08:31:56.000+0000",
+        "createdBy": 6096,
+        "modifiedBy": 6096,
+        "fields": {
+            "documentKey": "KCE-SWBUG-6997",
+            "globalId": "GID-7542140",
+            "name": "4.6 - ProManager, KDX - Fault #6400: 3020 has no Data 1 Description ",
+            "description": "<p><strong>Description:</strong></p>\n\n<ul>\n\t<li>When Load weighing warning Fault is thrown,&nbsp;&nbsp;Motion Control's Data 1 has Value, but not Data 1 Description to it</li>\n\t<li>This causes hard to troubleshoot the Issue</li>\n\t<li>*Localizations files are updated</li>\n</ul>\n\n<p><img alt=\"\" height=\"420\" src=\"https://konerqm.jamacloud.com/attachment/231700/image-SivxI16DCA.png\" width=\"1041\" /></p>\n",
+            "status": 1081,
+            "BUG_component$154": 2270,
+            "createdBy": 6096,
+            "release": 2188,
+            "BUG_foundInBuild$154": "4.6.239.7126",
+            "BUG_foundOnDate$154": "2025-11-18",
+            "priority": 2410,
+            "BUG_severity$154": 1110,
+            "BUG_category$154": 1428,
+            "BUG_testLevel$154": 1129,
+            "BUG_howFound$154": 1092,
+            "BUG_whereFound$154": 1137,
+            "BUG_probability_on_field$154": 2398,
+            "root_cause_category$154": 2512,
+            "BUG_testCaseUpdated$154": 1198,
+            "BUG_V1_project$154": 1431
+        },
+        "resources": {
+            "self": {
+                "allowed": [
+                    "GET",
+                    "PUT",
+                    "PATCH",
+                    "DELETE"
+                ]
+            }
+        },
+        "version": 1,
+        "location": {
+            "sortOrder": 6421,
+            "globalSortOrder": 1669340612,
+            "sequence": "17.6422",
+            "parent": {
+                "item": 83266
+            }
+        },
+        "lock": {
+            "locked": false
         },
         "type": "items"
     }

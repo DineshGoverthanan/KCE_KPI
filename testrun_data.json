@@ -16283,10 +16283,31 @@
     },
     {
         "TestRunStatus":"INPROGRESS",
-        "ExecutionDate":"2025-11-18",
+        "ExecutionDate":"2025-11-19",
+        "Document Key":"KCE-TSTRN-4003589",
+        "Name":"DG DMA SW Mass Updat",
+        "Assigned To":"Vivek"
+    },
+    {
+        "TestRunStatus":"INPROGRESS",
+        "ExecutionDate":"2025-11-19",
+        "Document Key":"KCE-TSTRN-4003590",
+        "Name":"DG APP SW Mass Update",
+        "Assigned To":"Vivek"
+    },
+    {
+        "TestRunStatus":"PASSED",
+        "ExecutionDate":"2025-11-19",
+        "Document Key":"KCE-TSTRN-4003596",
+        "Name":"Router reboot from Site Manager",
+        "Assigned To":"Vivek"
+    },
+    {
+        "TestRunStatus":"INPROGRESS",
+        "ExecutionDate":"2025-11-19",
         "Document Key":"KCE-TSTRN-4004078",
         "Name":"1. Monitoring parameter 880= 1 with any licence ",
-        "Assigned To":"Nithya Priya"
+        "Assigned To":"Dinesh"
     },
     {
         "TestRunStatus":"INPROGRESS",
@@ -16298,12 +16319,19 @@
     {
         "TestRunStatus":"INPROGRESS",
         "ExecutionDate":"2025-11-19",
+        "Document Key":"KCE-TSTRN-4004120",
+        "Name":"EZO Shaft setup with Multiple Virtual floor sections",
+        "Assigned To":"Harini Sri"
+    },
+    {
+        "TestRunStatus":"INPROGRESS",
+        "ExecutionDate":"2025-11-19",
         "Document Key":"KCE-TSTRN-4004122",
         "Name":"Served floor Landing call registration outside EZO zone ",
         "Assigned To":"Nithya Priya"
     },
     {
-        "TestRunStatus":"INPROGRESS",
+        "TestRunStatus":"PASSED",
         "ExecutionDate":"2025-11-19",
         "Document Key":"KCE-TSTRN-4004124",
         "Name":"Served floor car call registration outside EZO zone ",
