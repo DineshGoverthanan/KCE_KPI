@@ -1772,18 +1772,19 @@
         "itemType": 154,
         "project": 417,
         "createdDate": "2025-09-04T09:43:39.000+0000",
-        "modifiedDate": "2025-09-04T09:43:39.000+0000",
-        "lastActivityDate": "2025-09-04T09:43:39.000+0000",
+        "modifiedDate": "2025-11-19T12:02:27.000+0000",
+        "lastActivityDate": "2025-11-19T12:02:27.000+0000",
         "createdBy": 5932,
-        "modifiedBy": 5932,
+        "modifiedBy": 2001,
         "fields": {
             "documentKey": "KIE601-SWBUG-2637",
             "globalId": "GID-7385150",
             "name": "IEX-Acceleration Rate fluctuates on the RTD display when the escalator is in running condition.",
             "description": "<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\"><strong>Detailed Defect Description:</strong></span></span></p>\n\n<p>IEX-Acceleration Rate fluctuates on the RTD display when the escalator is in running condition.</p>\n\n<p>&nbsp;</p>\n\n<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\"><strong>Parameters:&nbsp;&nbsp;</strong></span></span></p>\n\n<p><span style=\"font-family:Calibri,sans-serif\"><span style=\"font-size:14.6667px\">PC5_5100_11</span></span></p>\n\n<p>&nbsp;</p>\n\n<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\"><strong>Group configuration: </strong></span></span></p>\n\n<p><span style=\"font-family:Calibri,sans-serif\"><span style=\"font-size:14.6667px\">Single setup</span></span></p>\n\n<p>&nbsp;</p>\n\n<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\"><strong>Drive type:</strong></span></span></p>\n\n<p><span style=\"font-family:Calibri,sans-serif\"><span style=\"font-size:14.6667px\">Danfoss, Monarch</span></span></p>\n\n<p>&nbsp;</p>\n\n<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\"><strong>Regression or new finding:</strong></span></span></p>\n\n<p><span style=\"font-family:Calibri,sans-serif\"><span style=\"font-size:14.6667px\">Regression</span></span></p>\n\n<p>&nbsp;</p>\n\n<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\"><strong>Test case Name / Feature name:</strong></span></span></p>\n\n<p><span style=\"font-family:Calibri,sans-serif\"><span style=\"font-size:14.6667px\">RTD Display</span></span></p>\n\n<p>&nbsp;</p>\n\n<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\"><strong>Test step number:</strong></span></span></p>\n\n<p>11</p>\n\n<p>&nbsp;</p>\n\n<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\"><strong>Description of the test case (Detailed Scenario)&nbsp;</strong></span></span></p>\n\n<p>1.Start the escalator in the UP direction.<br />\n2.The escalator starts to run in the UP direction.<br />\n3.Set parameter <span style=\"font-family:Calibri,sans-serif\"><span style=\"font-size:14.6667px\">PC5_5100_11 and&nbsp;</span></span>check RTD and monitor the acceleration rate status.<br />\n4.Even after the escalator reaches a stable running state, the acceleration rate continues to fluctuate.<br />\n<br />\n<strong>Note: This issue was observed both in Danfoss and Monarch drive.</strong></p>\n\n<p>&nbsp;</p>\n\n<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\"><strong>Expected behavior:&nbsp;&nbsp;</strong></span></span></p>\n\n<p>Once the escalator reaches a stable running speed, the acceleration rate should remain constant.</p>\n\n<p>&nbsp;</p>\n\n<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\"><strong>Actual behavior:</strong></span></span></p>\n\n<p>Even after the escalator reaches a stable running state, the acceleration rate continues to change, indicating unexpected behavior.</p>\n\n<p>&nbsp;</p>\n\n<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\"><strong>Recovery:&nbsp;</strong></span></span></p>\n\n<p><span style=\"font-family:Calibri,sans-serif\"><span style=\"font-size:14.6667px\">No</span></span></p>\n\n<p>&nbsp;</p>\n\n<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\"><strong>Value-added information:&nbsp;</strong></span></span></p>\n\n<p>SW-TR1.0-t12.13</p>\n",
-            "status": 1081,
+            "status": 1082,
             "BUG_component$154": 1561,
             "createdBy": 5932,
+            "assignedTo": 1941,
             "release": 2466,
             "BUG_foundOnDate$154": "2025-09-02",
             "priority": 2410,
@@ -1795,6 +1796,7 @@
             "BUG_probability_on_field$154": 2399,
             "root_cause_category$154": 2512,
             "BUG_testCaseUpdated$154": 1198,
+            "BUG_RD_comments$154": "<p>[Visu]:&nbsp;19-Nov-2025<br />\nDefect Review meeting<br />\nParticipants: Visu, Ajis, Joseph<br />\nTo be fixed in&nbsp;R 2.0.2.5<br />\n&nbsp;</p>",
             "BUG_V1_project$154": 1431
         },
         "resources": {
@@ -1804,7 +1806,7 @@
                 ]
             }
         },
-        "version": 1,
+        "version": 2,
         "location": {
             "sortOrder": 1218,
             "globalSortOrder": 1302013521,
@@ -1814,8 +1816,9 @@
             }
         },
         "lock": {
-            "locked": false,
-            "lastLockedDate": "2025-10-14T06:50:36.000+0000"
+            "locked": true,
+            "lastLockedDate": "2025-11-19T12:02:37.000+0000",
+            "lockedBy": 2001
         },
         "type": "items"
     },
@@ -1931,8 +1934,9 @@
             }
         },
         "lock": {
-            "locked": false,
-            "lastLockedDate": "2025-11-04T09:52:11.000+0000"
+            "locked": true,
+            "lastLockedDate": "2025-11-19T12:03:51.000+0000",
+            "lockedBy": 2001
         },
         "type": "items"
     },
@@ -2589,10 +2593,10 @@
         "itemType": 154,
         "project": 417,
         "createdDate": "2025-09-22T09:52:04.000+0000",
-        "modifiedDate": "2025-11-16T15:24:36.000+0000",
-        "lastActivityDate": "2025-11-16T15:24:36.000+0000",
+        "modifiedDate": "2025-11-19T10:52:11.000+0000",
+        "lastActivityDate": "2025-11-19T10:52:11.000+0000",
         "createdBy": 6117,
-        "modifiedBy": 2001,
+        "modifiedBy": 6254,
         "fields": {
             "documentKey": "KIE601-SWBUG-2667",
             "globalId": "GID-7420603",
@@ -2616,7 +2620,7 @@
             "BUG_probability_on_field$154": 2399,
             "root_cause_category$154": 2512,
             "BUG_testCaseUpdated$154": 1198,
-            "BUG_RD_comments$154": "<p>[Visu]: 16-Nov-2025<br />\nThis defect is fixed in HD R 3.0.1.4</p>\n\n<p>&nbsp;</p>\n\n<p>UI documents only, PDM issue P</p>\n\n<p>&nbsp;</p>",
+            "BUG_RD_comments$154": "<p>[Visu]: 16-Nov-2025<br />\nThis defect is fixed in HD R 3.0.1.4</p>\n\n<p>&nbsp;</p>\n\n<p>UI documents only, PDM issue P</p>\n\n<p>&nbsp;</p>\n\n<p>[Bhavya]:</p>\n\n<p>This defect is verified in R3.0.1.4 and it found ok.</p>\n\n<p>&nbsp;</p>",
             "BUG_V1_project$154": 1431
         },
         "resources": {
@@ -2626,7 +2630,7 @@
                 ]
             }
         },
-        "version": 4,
+        "version": 5,
         "location": {
             "sortOrder": 1248,
             "globalSortOrder": 1305150651,
@@ -2637,7 +2641,7 @@
         },
         "lock": {
             "locked": false,
-            "lastLockedDate": "2025-11-16T15:24:37.000+0000"
+            "lastLockedDate": "2025-11-19T10:52:12.000+0000"
         },
         "type": "items"
     },
@@ -19412,8 +19416,8 @@
         "itemType": 154,
         "project": 229,
         "createdDate": "2025-10-29T10:25:29.000+0000",
-        "modifiedDate": "2025-11-05T08:03:43.000+0000",
-        "lastActivityDate": "2025-11-05T08:03:43.000+0000",
+        "modifiedDate": "2025-11-19T11:36:08.000+0000",
+        "lastActivityDate": "2025-11-19T11:36:08.000+0000",
         "createdBy": 6096,
         "modifiedBy": 1129,
         "fields": {
@@ -19428,7 +19432,7 @@
             "release": 2188,
             "BUG_foundInBuild$154": "4.6.239.7126",
             "BUG_foundOnDate$154": "2025-10-28",
-            "BUG_plannedRelease$154": 2189,
+            "BUG_plannedRelease$154": 2396,
             "priority": 2410,
             "BUG_severity$154": 1111,
             "BUG_category$154": 1428,
@@ -19450,7 +19454,7 @@
                 ]
             }
         },
-        "version": 3,
+        "version": 4,
         "location": {
             "sortOrder": 6314,
             "globalSortOrder": 1667309280,
@@ -19461,7 +19465,7 @@
         },
         "lock": {
             "locked": false,
-            "lastLockedDate": "2025-11-05T08:03:44.000+0000"
+            "lastLockedDate": "2025-11-19T11:36:09.000+0000"
         },
         "type": "items"
     },
@@ -20273,10 +20277,10 @@
         "itemType": 154,
         "project": 229,
         "createdDate": "2025-11-14T05:16:48.000+0000",
-        "modifiedDate": "2025-11-19T08:25:47.000+0000",
-        "lastActivityDate": "2025-11-19T08:25:47.000+0000",
+        "modifiedDate": "2025-11-19T10:14:33.000+0000",
+        "lastActivityDate": "2025-11-19T10:14:33.000+0000",
         "createdBy": 6374,
-        "modifiedBy": 1129,
+        "modifiedBy": 620,
         "fields": {
             "documentKey": "KCE-SWBUG-6973",
             "globalId": "GID-7527756",
@@ -20298,6 +20302,10 @@
             "BUG_probability_on_field$154": 2396,
             "root_cause_category$154": 2512,
             "BUG_testCaseUpdated$154": 1198,
+            "BUG_jiraId$154": "KCE-31171",
+            "BUG_jira_project$154": 2465,
+            "BUG_jira_URL$154": "https://kone.atlassian.net/browse/KCE-31171",
+            "BUG_integration_synced_time$154": "2025-11-19 10:14:32.346023",
             "BUG_V1_project$154": 1431
         },
         "resources": {
@@ -20310,7 +20318,7 @@
                 ]
             }
         },
-        "version": 3,
+        "version": 5,
         "location": {
             "sortOrder": 6402,
             "globalSortOrder": 1669041120,
@@ -20321,7 +20329,7 @@
         },
         "lock": {
             "locked": false,
-            "lastLockedDate": "2025-11-19T08:25:48.000+0000"
+            "lastLockedDate": "2025-11-19T10:13:58.000+0000"
         },
         "type": "items"
     },

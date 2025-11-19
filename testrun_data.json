@@ -16303,10 +16303,17 @@
         "Assigned To":"Vivek"
     },
     {
-        "TestRunStatus":"INPROGRESS",
+        "TestRunStatus":"PASSED",
         "ExecutionDate":"2025-11-19",
         "Document Key":"KCE-TSTRN-4004078",
         "Name":"1. Monitoring parameter 880= 1 with any licence ",
+        "Assigned To":"Dinesh"
+    },
+    {
+        "TestRunStatus":"PASSED",
+        "ExecutionDate":"2025-11-19",
+        "Document Key":"KCE-TSTRN-4004079",
+        "Name":"2. Monitoring parameter 880=0 with correct licence ",
         "Assigned To":"Dinesh"
     },
     {
@@ -16320,6 +16327,13 @@
         "TestRunStatus":"INPROGRESS",
         "ExecutionDate":"2025-11-19",
         "Document Key":"KCE-TSTRN-4004120",
+        "Name":"EZO Shaft setup with Multiple Virtual floor sections",
+        "Assigned To":"Harini Sri"
+    },
+    {
+        "TestRunStatus":"PASSED",
+        "ExecutionDate":"2025-11-19",
+        "Document Key":"KCE-TSTRN-4004565",
         "Name":"EZO Shaft setup with Multiple Virtual floor sections",
         "Assigned To":"Harini Sri"
     },
