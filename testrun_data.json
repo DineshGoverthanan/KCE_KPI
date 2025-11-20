@@ -16303,6 +16303,13 @@
         "Assigned To":"Vivek"
     },
     {
+        "TestRunStatus":"INPROGRESS",
+        "ExecutionDate":"2025-11-20",
+        "Document Key":"KCE-TSTRN-4003591",
+        "Name":"DG configuration update from Site Manager",
+        "Assigned To":"Vivek"
+    },
+    {
         "TestRunStatus":"PASSED",
         "ExecutionDate":"2025-11-19",
         "Document Key":"KCE-TSTRN-4003596",
@@ -16331,6 +16338,13 @@
         "Assigned To":"Dinesh"
     },
     {
+        "TestRunStatus":"PASSED",
+        "ExecutionDate":"2025-11-20",
+        "Document Key":"KCE-TSTRN-4004081",
+        "Name":"9. EBD drive with power break ",
+        "Assigned To":"Dinesh"
+    },
+    {
         "TestRunStatus":"INPROGRESS",
         "ExecutionDate":"2025-11-18",
         "Document Key":"KCE-TSTRN-4004119",
@@ -16345,14 +16359,14 @@
         "Assigned To":"Harini Sri"
     },
     {
-        "TestRunStatus":"INPROGRESS",
+        "TestRunStatus":"PASSED",
         "ExecutionDate":"2025-11-20",
         "Document Key":"KCE-TSTRN-4004565",
         "Name":"EZO Shaft setup with Multiple Virtual floor sections",
         "Assigned To":"Harini Sri"
     },
     {
-        "TestRunStatus":"INPROGRESS",
+        "TestRunStatus":"PASSED",
         "ExecutionDate":"2025-11-20",
         "Document Key":"KCE-TSTRN-4004566",
         "Name":"EZO Shaft setup without Virtual floor",
@@ -16405,6 +16419,13 @@
         "ExecutionDate":"2025-11-20",
         "Document Key":"KCE-TSTRN-4004575",
         "Name":"Landing call registeration at one above\/below virtual floor",
+        "Assigned To":"Nithya Priya"
+    },
+    {
+        "TestRunStatus":"INPROGRESS",
+        "ExecutionDate":"2025-11-20",
+        "Document Key":"KCE-TSTRN-4004576",
+        "Name":"Car call registeration at one above\/below virtual floor",
         "Assigned To":"Nithya Priya"
     }
 ]
