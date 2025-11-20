@@ -16289,15 +16289,15 @@
         "Assigned To":"Vivek"
     },
     {
-        "TestRunStatus":"INPROGRESS",
-        "ExecutionDate":"2025-11-19",
+        "TestRunStatus":"PASSED",
+        "ExecutionDate":"2025-11-20",
         "Document Key":"KCE-TSTRN-4003589",
         "Name":"DG DMA SW Mass Updat",
         "Assigned To":"Vivek"
     },
     {
-        "TestRunStatus":"INPROGRESS",
-        "ExecutionDate":"2025-11-19",
+        "TestRunStatus":"PASSED",
+        "ExecutionDate":"2025-11-20",
         "Document Key":"KCE-TSTRN-4003590",
         "Name":"DG APP SW Mass Update",
         "Assigned To":"Vivek"
@@ -16324,6 +16324,13 @@
         "Assigned To":"Dinesh"
     },
     {
+        "TestRunStatus":"PASSED",
+        "ExecutionDate":"2025-11-20",
+        "Document Key":"KCE-TSTRN-4004080",
+        "Name":"7. Hardware supervision with 1804 error data1= value1",
+        "Assigned To":"Dinesh"
+    },
+    {
         "TestRunStatus":"INPROGRESS",
         "ExecutionDate":"2025-11-18",
         "Document Key":"KCE-TSTRN-4004119",
@@ -16338,10 +16345,17 @@
         "Assigned To":"Harini Sri"
     },
     {
-        "TestRunStatus":"PASSED",
-        "ExecutionDate":"2025-11-19",
+        "TestRunStatus":"INPROGRESS",
+        "ExecutionDate":"2025-11-20",
         "Document Key":"KCE-TSTRN-4004565",
         "Name":"EZO Shaft setup with Multiple Virtual floor sections",
+        "Assigned To":"Harini Sri"
+    },
+    {
+        "TestRunStatus":"INPROGRESS",
+        "ExecutionDate":"2025-11-20",
+        "Document Key":"KCE-TSTRN-4004566",
+        "Name":"EZO Shaft setup without Virtual floor",
         "Assigned To":"Harini Sri"
     },
     {
@@ -16385,5 +16399,12 @@
         "Document Key":"KCE-TSTRN-4004570",
         "Name":"Intermediate served floor car call registration within EZO zone.",
         "Assigned To":"Harini Sri"
+    },
+    {
+        "TestRunStatus":"INPROGRESS",
+        "ExecutionDate":"2025-11-20",
+        "Document Key":"KCE-TSTRN-4004575",
+        "Name":"Landing call registeration at one above\/below virtual floor",
+        "Assigned To":"Nithya Priya"
     }
 ]
