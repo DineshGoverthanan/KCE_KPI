@@ -16094,6 +16094,13 @@
     },
     {
         "TestRunStatus":"INPROGRESS",
+        "ExecutionDate":"2025-11-20",
+        "Document Key":"KCE-TSTRN-4004660",
+        "Name":"SPP - Parallel run prevention - Normal_Conventional ",
+        "Assigned To":"Badaganti Sai Prasad"
+    },
+    {
+        "TestRunStatus":"INPROGRESS",
         "ExecutionDate":"2025-11-10",
         "Document Key":"KCE-TSTRN-4001255",
         "Name":"ATS mode with SPP configuration ",
@@ -16364,5 +16371,19 @@
         "Document Key":"KCE-TSTRN-4004124",
         "Name":"Served floor car call registration outside EZO zone ",
         "Assigned To":"Nithya Priya"
+    },
+    {
+        "TestRunStatus":"PASSED",
+        "ExecutionDate":"2025-11-20",
+        "Document Key":"KCE-TSTRN-4004569",
+        "Name":"Served floor car call registration outside EZO zone ",
+        "Assigned To":"Nithya Priya"
+    },
+    {
+        "TestRunStatus":"INPROGRESS",
+        "ExecutionDate":"2025-11-20",
+        "Document Key":"KCE-TSTRN-4004570",
+        "Name":"Intermediate served floor car call registration within EZO zone.",
+        "Assigned To":"Harini Sri"
     }
 ]
