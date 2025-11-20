@@ -20403,17 +20403,17 @@
         "itemType": 154,
         "project": 229,
         "createdDate": "2025-11-19T08:31:56.000+0000",
-        "modifiedDate": "2025-11-19T08:31:56.000+0000",
-        "lastActivityDate": "2025-11-19T08:31:56.000+0000",
+        "modifiedDate": "2025-11-20T10:31:13.000+0000",
+        "lastActivityDate": "2025-11-20T10:34:54.000+0000",
         "createdBy": 6096,
-        "modifiedBy": 6096,
+        "modifiedBy": 1908,
         "fields": {
             "documentKey": "KCE-SWBUG-6997",
             "globalId": "GID-7542140",
             "name": "4.6 - ProManager, KDX - Fault #6400: 3020 has no Data 1 Description ",
             "description": "<p><strong>Description:</strong></p>\n\n<ul>\n\t<li>When Load weighing warning Fault is thrown,&nbsp;&nbsp;Motion Control's Data 1 has Value, but not Data 1 Description to it</li>\n\t<li>This causes hard to troubleshoot the Issue</li>\n\t<li>*Localizations files are updated</li>\n</ul>\n\n<p><img alt=\"\" height=\"420\" src=\"https://konerqm.jamacloud.com/attachment/231700/image-SivxI16DCA.png\" width=\"1041\" /></p>\n",
             "status": 1081,
-            "BUG_component$154": 2270,
+            "BUG_component$154": 2160,
             "createdBy": 6096,
             "release": 2188,
             "BUG_foundInBuild$154": "4.6.239.7126",
@@ -20439,7 +20439,7 @@
                 ]
             }
         },
-        "version": 1,
+        "version": 2,
         "location": {
             "sortOrder": 6421,
             "globalSortOrder": 1668489279,
@@ -20449,7 +20449,8 @@
             }
         },
         "lock": {
-            "locked": false
+            "locked": false,
+            "lastLockedDate": "2025-11-20T10:31:14.000+0000"
         },
         "type": "items"
     }

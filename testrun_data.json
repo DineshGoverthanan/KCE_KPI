@@ -16415,7 +16415,14 @@
         "Assigned To":"Harini Sri"
     },
     {
-        "TestRunStatus":"INPROGRESS",
+        "TestRunStatus":"PASSED",
+        "ExecutionDate":"2025-11-20",
+        "Document Key":"KCE-TSTRN-4004572",
+        "Name":"KDM drive and EZO Shaft setup with high raise floor test setup",
+        "Assigned To":"Harini Sri"
+    },
+    {
+        "TestRunStatus":"PASSED",
         "ExecutionDate":"2025-11-20",
         "Document Key":"KCE-TSTRN-4004575",
         "Name":"Landing call registeration at one above\/below virtual floor",
@@ -16427,5 +16434,19 @@
         "Document Key":"KCE-TSTRN-4004576",
         "Name":"Car call registeration at one above\/below virtual floor",
         "Assigned To":"Nithya Priya"
+    },
+    {
+        "TestRunStatus":"PASSED",
+        "ExecutionDate":"2025-11-20",
+        "Document Key":"KCE-TSTRN-4004580",
+        "Name":"Existing EZO shaft + adding the new virtual zone or Floor numbers ",
+        "Assigned To":"Harini Sri"
+    },
+    {
+        "TestRunStatus":"INPROGRESS",
+        "ExecutionDate":"2025-11-20",
+        "Document Key":"KCE-TSTRN-4004409",
+        "Name":"TSCOP with Selective COP functions ",
+        "Assigned To":"Suryanarayanan"
     }
 ]
