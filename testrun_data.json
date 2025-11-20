@@ -16346,6 +16346,20 @@
     },
     {
         "TestRunStatus":"PASSED",
+        "ExecutionDate":"2025-11-20",
+        "Document Key":"KCE-TSTRN-4004567",
+        "Name":"Served floor Landing call registration outside EZO zone ",
+        "Assigned To":"Nithya Priya"
+    },
+    {
+        "TestRunStatus":"PASSED",
+        "ExecutionDate":"2025-11-20",
+        "Document Key":"KCE-TSTRN-4004568",
+        "Name":"Intermediate served floor Landing call registration within EZO zone ",
+        "Assigned To":"Nithya Priya"
+    },
+    {
+        "TestRunStatus":"PASSED",
         "ExecutionDate":"2025-11-19",
         "Document Key":"KCE-TSTRN-4004124",
         "Name":"Served floor car call registration outside EZO zone ",
