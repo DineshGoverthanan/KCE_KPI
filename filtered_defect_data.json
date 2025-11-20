@@ -3868,7 +3868,7 @@
         "version": 2,
         "location": {
             "sortOrder": 1331,
-            "globalSortOrder": 1311333216,
+            "globalSortOrder": 1311242594,
             "sequence": "2.8.1332",
             "parent": {
                 "item": 18771233
@@ -4068,7 +4068,7 @@
         "project": 229,
         "createdDate": "2025-11-19T12:18:11.000+0000",
         "modifiedDate": "2025-11-19T12:18:29.000+0000",
-        "lastActivityDate": "2025-11-19T12:20:29.000+0000",
+        "lastActivityDate": "2025-11-20T13:17:30.000+0000",
         "createdBy": 1300,
         "modifiedBy": 620,
         "fields": {
@@ -4117,9 +4117,8 @@
             }
         },
         "lock": {
-            "locked": true,
-            "lastLockedDate": "2025-11-20T08:15:59.000+0000",
-            "lockedBy": 6374
+            "locked": false,
+            "lastLockedDate": "2025-11-20T13:17:18.000+0000"
         },
         "type": "items"
     },
