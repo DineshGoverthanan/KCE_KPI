@@ -4413,8 +4413,8 @@
         "itemType": 154,
         "project": 229,
         "createdDate": "2025-09-05T05:35:55.000+0000",
-        "modifiedDate": "2025-11-06T15:48:10.000+0000",
-        "lastActivityDate": "2025-11-06T15:48:10.000+0000",
+        "modifiedDate": "2025-11-20T20:25:35.000+0000",
+        "lastActivityDate": "2025-11-20T20:25:35.000+0000",
         "createdBy": 1300,
         "modifiedBy": 620,
         "fields": {
@@ -4422,7 +4422,7 @@
             "globalId": "GID-7386982",
             "name": "KCE NA - When MES activated during car call service, lift is unable to stop at the nearest floor.",
             "description": "<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\"><strong>Detailed Defect Description:</strong></span></span></p>\n\n<p><span style=\"font-size:11.0pt\"><span style=\"font-family:Calibri\">When MES activated during car call service, lift is unable to stop at the nearest floor.</span></span></p>\n\n<p>&nbsp;</p>\n\n<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\"><strong>Parameters:&nbsp;&nbsp;</strong></span></span></p>\n\n<p><span style=\"font-family:Calibri, sans-serif\"><span style=\"font-size:14.6667px\">CPU Parameter :</span></span></p>\n\n<p>&nbsp;</p>\n\n<p><span style=\"font-size:10.0pt\"><span style=\"font-family:arial\"><span style=\"color:black\"><span style=\"background-color:white\"><strong style=\"font-weight:bold\">853 -&nbsp;0</strong></span></span></span></span></p>\n\n<p><span style=\"font-size:10.0pt\"><span style=\"font-family:arial\"><span style=\"color:black\"><span style=\"background-color:white\"><strong style=\"font-weight:bold\">854 - 2</strong></span></span></span></span></p>\n\n<p><span style=\"font-size:10.0pt\"><span style=\"font-family:arial\"><span style=\"color:black\"><span style=\"background-color:white\"><strong style=\"font-weight:bold\">855 - 0</strong></span></span></span></span></p>\n\n<p><span style=\"font-size:10.0pt\"><span style=\"font-family:arial\"><span style=\"color:black\"><span style=\"background-color:white\"><strong style=\"font-weight:bold\">1145 - 0</strong></span></span></span></span></p>\n\n<p><span style=\"font-size:10.0pt\"><span style=\"font-family:arial\"><span style=\"color:black\"><span style=\"background-color:white\"><strong style=\"font-weight:bold\">1155 -&nbsp;0</strong></span></span></span></span></p>\n\n<p><span style=\"font-size:10.0pt\"><span style=\"font-family:arial\"><span style=\"color:black\"><span style=\"background-color:white\"><strong style=\"font-weight:bold\">1186 - 7</strong></span></span></span></span></p>\n\n<p><span style=\"font-size:10.0pt\"><span style=\"font-family:arial\"><span style=\"color:black\"><span style=\"background-color:white\"><strong style=\"font-weight:bold\">1187 - 4</strong></span></span></span></span></p>\n\n<p>&nbsp;</p>\n\n<p><span style=\"font-size:10.0pt\"><span style=\"font-family:arial\"><span style=\"color:black\"><span style=\"background-color:white\"><strong style=\"font-weight:bold\">GCD Parameter:</strong></span></span></span></span></p>\n\n<p>&nbsp;</p>\n\n<p>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;#10 Enable Feature = True</p>\n\n<p>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;#12 Service Type = MES</p>\n\n<p>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;#70 Car Call Waiting Time = 60</p>\n\n<p>&nbsp;</p>\n\n<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\"><strong>Group configuration: </strong></span></span></p>\n\n<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\">Single elevator setup</span></span></p>\n\n<p>&nbsp;</p>\n\n<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\"><strong>Drive type:</strong></span></span></p>\n\n<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\">KDX32 and SW 25.27</span></span></p>\n\n<p>&nbsp;</p>\n\n<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\"><strong>Regression or new finding:</strong></span></span></p>\n\n<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\">New finding&nbsp;</span></span></p>\n\n<p>&nbsp;</p>\n\n<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\"><strong>Test case Name / Feature name:</strong></span></span></p>\n\n<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\">Ad-hoc defect</span></span></p>\n\n<p>&nbsp;</p>\n\n<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\">Ref Test case Name:</span></span></p>\n\n<p><a href=\"https://konerqm.jamacloud.com/perspective.req?docId=12047643&amp;projectId=229\">MES Phase 1 (w/PRL Low)</a></p>\n\n<p>&nbsp;</p>\n\n<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\"><strong>Test step number:</strong></span></span></p>\n\n<p><span style=\"font-family:Calibri, sans-serif\"><span style=\"font-size:14.6667px\">NA</span></span></p>\n\n<p>&nbsp;</p>\n\n<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\"><strong>Description of the test case (Detailed Scenario)&nbsp;</strong></span></span></p>\n\n<p><span style=\"font-size:11.0pt\"><span style=\"font-family:Calibri\">When MES activated during car call service, lift is unable to stop at the nearest floor.</span></span></p>\n\n<p><span style=\"font-size:11.0pt\"><span style=\"font-family:Calibri\">&nbsp;</span></span></p>\n\n<p><span style=\"font-size:11.0pt\"><span style=\"font-family:Calibri\"><strong style=\"font-weight:bold\">Scenario:</strong></span></span></p>\n\n<ol style=\"font-family:Calibri; font-size:11.0pt; font-style:normal; font-weight:normal; list-style-type:decimal; unicode-bidi:embed\">\n\t<li style=\"vertical-align:middle\" value=\"1\"><span style=\"font-size:11.0pt\"><span style=\"font-family:Calibri\"><span><span>Elevator in&nbsp;</span></span></span></span><span style=\"font-size:11.0pt\"><span style=\"font-family:Calibri\"><strong style=\"font-weight:bold\"><span>normal mode</span></strong></span></span><span style=\"font-size:11.0pt\"><span style=\"font-family:Calibri\"><span><span> at MES return floor (4th Floor \u2013 MES Floor).</span></span></span></span></li>\n\t<li style=\"vertical-align:middle\"><span style=\"font-size:11.0pt\"><span style=\"font-family:Calibri\">C</span></span><span style=\"font-size:11.0pt\"><strong style=\"font-weight:bold\"><span style=\"font-family:Calibri\">ar call is registered</span></strong></span><span style=\"font-size:11.0pt\"><span style=\"font-family:Calibri\"> to the top terminal floor (12th Floor). And Elevator starts driving upward to serve the call.</span></span></li>\n\t<li style=\"vertical-align:middle\"><span style=\"font-size:11.0pt\"><strong style=\"font-weight:bold\"><span style=\"font-family:Calibri\">MES switch is activated from the 4th floor while the elevator driving</span></strong></span></li>\n\t<li style=\"vertical-align:middle\"><span style=\"font-size:11.0pt\"><span style=\"font-family:Calibri\">Elevator continues to the&nbsp;</span></span><span style=\"font-size:11.0pt\"><strong style=\"font-weight:bold\"><span style=\"font-family:Calibri\">top terminal floor (12th Floor)</span></strong></span><span style=\"font-size:11.0pt\"><span style=\"font-family:Calibri\"> instead of stopping at the nearest floor.</span></span></li>\n</ol>\n\n<p><span style=\"font-size:11.0pt\"><span style=\"font-family:Calibri\">Note:</span></span></p>\n\n<p><span style=\"font-size:11.0pt\"><span style=\"font-family:Calibri\">Similar scenario for landing call operation working as expected&nbsp;</span></span></p>\n\n<p>&nbsp;</p>\n\n<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\"><strong>Expected behavior:&nbsp;&nbsp;</strong></span></span></p>\n\n<p>Lift must stop at the nearest possible real floor. And return to the MES activated floor</p>\n\n<p>&nbsp;</p>\n\n<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\"><strong>Actual behavior:</strong></span></span></p>\n\n<p><span style=\"font-size:11.0pt\"><span style=\"font-family:Calibri\">Elevator continues to the&nbsp;</span></span><span style=\"font-size:11.0pt\"><strong style=\"font-weight:bold\"><span style=\"font-family:Calibri\">top terminal floor (12th Floor)</span></strong></span><span style=\"font-size:11.0pt\"><span style=\"font-family:Calibri\"> instead of stopping at the nearest floor.</span></span></p>\n\n<p>&nbsp;</p>\n\n<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\"><strong>Recovery:&nbsp;</strong></span></span></p>\n\n<p>NA</p>\n\n<p>&nbsp;</p>\n\n<p>&nbsp;</p>\n\n<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\"><strong>Log attached Information:</strong></span></span></p>\n\n<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\">CPU console Log and Event viewer log attached&nbsp;</span></span></p>\n\n<p>&nbsp;</p>\n\n<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\"><strong>Value-added information:&nbsp;</strong></span></span></p>\n\n<p><span style=\"font-family:Calibri, sans-serif\"><span style=\"font-size:14.6667px\">Some time Elevator mode stuck with MES activation mode.</span></span></p>\n\n<p>&nbsp;</p>\n\n<p>&nbsp;</p>\n\n<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\"><strong>Requirement related to the defect:</strong></span></span></p>\n\n<p><span style=\"font-size:11.0pt\"><span style=\"font-family:Calibri\">Requirement link:</span></span></p>\n\n<p><span style=\"font-size:11.0pt\"><span style=\"font-family:Calibri\"><a href=\"https://konerqm.jamacloud.com/perspective.req#/items/9551277?projectId=229\">MES_4 - Jama Software</a></span></span></p>\n\n<p>&nbsp;</p>\n",
-            "status": 1085,
+            "status": 1086,
             "BUG_component$154": 1291,
             "BUG_subcomponent$154": "GCD",
             "createdBy": 1300,
@@ -4432,6 +4432,7 @@
             "BUG_foundOnDate$154": "2025-09-02",
             "BUG_plannedRelease$154": 2396,
             "BUG_fixedInBuild$154": "KCE 17.0.0.110",
+            "BUG_closingDate$154": "2025-11-20",
             "priority": 2410,
             "BUG_severity$154": 1109,
             "BUG_category$154": 1422,
@@ -4444,7 +4445,7 @@
             "BUG_jiraId$154": "KCE-28767",
             "BUG_jira_project$154": 2465,
             "BUG_jira_URL$154": "https://kone.atlassian.net/browse/KCE-28767",
-            "BUG_integration_synced_time$154": "2025-11-06 15:48:09.685429",
+            "BUG_integration_synced_time$154": "2025-11-20 20:25:34.745696",
             "BUG_V1_project$154": 1431
         },
         "resources": {
@@ -4457,7 +4458,7 @@
                 ]
             }
         },
-        "version": 12,
+        "version": 16,
         "location": {
             "sortOrder": 191,
             "globalSortOrder": 1541047119,
@@ -4468,7 +4469,7 @@
         },
         "lock": {
             "locked": false,
-            "lastLockedDate": "2025-11-04T13:18:25.000+0000"
+            "lastLockedDate": "2025-11-20T16:37:01.000+0000"
         },
         "type": "items"
     },
@@ -4522,7 +4523,7 @@
         "version": 2,
         "location": {
             "sortOrder": 237,
-            "globalSortOrder": 1541951801,
+            "globalSortOrder": 1541933207,
             "sequence": "17.1.238",
             "parent": {
                 "item": 14006970
