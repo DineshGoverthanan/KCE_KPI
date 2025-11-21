@@ -19100,16 +19100,16 @@
         "itemType": 154,
         "project": 229,
         "createdDate": "2025-10-10T09:10:20.000+0000",
-        "modifiedDate": "2025-11-04T05:08:25.000+0000",
-        "lastActivityDate": "2025-11-04T05:08:25.000+0000",
+        "modifiedDate": "2025-11-21T10:03:29.000+0000",
+        "lastActivityDate": "2025-11-21T10:03:29.000+0000",
         "createdBy": 4464,
-        "modifiedBy": 620,
+        "modifiedBy": 1138,
         "fields": {
             "documentKey": "KCE-SWBUG-6750",
             "globalId": "GID-7452080",
             "name": "16.10- In TTC Floor, CLS C ( Car light Supervision) is enabled -Only A- side door is open",
             "description": "<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\"><strong>Detailed Defect Description:</strong></span></span></p>\n\n<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\">16.10 -&nbsp; CLS&nbsp; - In TTC Floor, CLS C ( Car light Supervision) is enabled -Only A- side door is open</span></span></p>\n\n<p>&nbsp;</p>\n\n<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\"><strong>Parameters:&nbsp;&nbsp;</strong></span></span></p>\n\n<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\">1089 - 1&nbsp;</span></span></p>\n\n<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\">582 - 0</span></span></p>\n\n<p><span style=\"font-family:Calibri,sans-serif\"><span style=\"font-size:14.6667px\">585 - 3</span></span></p>\n\n<p>&nbsp;</p>\n\n<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\"><strong>Group configuration: </strong></span></span></p>\n\n<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\">Single</span></span></p>\n\n<p>&nbsp;</p>\n\n<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\"><strong>Drive type:</strong></span></span></p>\n\n<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\">KDM 40&nbsp;</span></span></p>\n\n<p>&nbsp;</p>\n\n<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\"><strong>Regression or new finding:</strong></span></span></p>\n\n<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\">Ad- hoc</span></span></p>\n\n<p>&nbsp;</p>\n\n<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\"><strong>Test case Name / Feature name:</strong></span></span></p>\n\n<p><a href=\"https://konerqm.jamacloud.com/perspective.req?docId=106594&amp;projectId=229\">CLS C - Car Light Supervision - Doors closed</a>&nbsp;</p>\n\n<p>&nbsp;</p>\n\n<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\"><strong>Test step number:</strong></span></span></p>\n\n<p><span style=\"font-family:Calibri,sans-serif\"><span style=\"font-size:14.6667px\">2</span></span></p>\n\n<p>&nbsp;</p>\n\n<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\"><strong>Description of the test case (Detailed Scenario)&nbsp;</strong></span></span></p>\n\n<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\">1. E</span></span>levator is standing in the floor and car lights are ON</p>\n\n<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\">2. C</span></span>ut the car light voltage supply.</p>\n\n<p>3.&nbsp;The door is opened and then closed&nbsp;</p>\n\n<p>4. 1613 Fault code is activated&nbsp;</p>\n\n<p>&nbsp;</p>\n\n<p><img alt=\"\" height=\"77\" src=\"https://konerqm.jamacloud.com/attachment/227380/image-KfYqnehmwr.png\" width=\"925\" /></p>\n\n<p>&nbsp;</p>\n\n<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\"><strong>Expected behavior:&nbsp;&nbsp;</strong></span></span></p>\n\n<p>In <strong>TTC Floor</strong>, when the car light voltage supply is cut, <strong>both A-side and B-side doors</strong> should open for&nbsp;&nbsp;<strong>door open time</strong> and then close automatically.</p>\n\n<p>&nbsp;</p>\n\n<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\"><strong>Actual behavior:</strong></span></span></p>\n\n<p>Only the <strong>A-side door</strong> opens and closes.<br />\nThe <strong>B-side door</strong> remains closed.</p>\n\n<p>&nbsp;</p>\n\n<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\"><strong>Recovery:&nbsp;</strong></span></span></p>\n\n<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\">(e.g. Can issue be recovered by performing some actions like power break / RDF / Parameter changes)</span></span></p>\n\n<p>&nbsp;</p>\n\n<p>&nbsp;</p>\n\n<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\"><strong>Log attached Information:</strong></span></span></p>\n\n<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\">(e.g. Log attached information like KCEGC logs, N test, S test, CPU Logs, E-link play back file &amp; - specific time to seen in log)</span></span></p>\n\n<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\">Detailed instructions for log collection: </span></span><a href=\"https://kone.atlassian.net/wiki/spaces/RQR/pages/54904026/Log+collection+instructions+for+KCECPUc\" target=\"_blank\">https://kone.atlassian.net/wiki/spaces/RQR/pages/54904026/Log+collection+instructions+for+KCECPUc</a></p>\n\n<p>&nbsp;</p>\n\n<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\">Note: Once defect is logged, attachments can be done by editing the defect (use compressed zip folder format)</span></span></p>\n\n<p>&nbsp;</p>\n\n<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\"><strong>Value-added information:&nbsp;</strong></span></span></p>\n\n<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\">(e.g. Other value added info which might be related to the defect:</span></span></p>\n\n<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\">-HW versions - AMD DOOR - Parallel</span></span></p>\n\n<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\">-Types of Signalization used - KDS&nbsp;</span></span></p>\n\n<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\">-Door module types AMD D10 with center opening&nbsp;</span></span></p>\n\n<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\">-any special boards used etc.</span></span></p>\n\n<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\">-is problem validated in other simulators)</span></span></p>\n\n<p>&nbsp;</p>\n\n<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\"><strong>Test Sequence history:&nbsp;</strong></span></span></p>\n\n<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\">1: was failing scenario passing earlier</span></span></p>\n\n<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\">2. what was SW level when this was passing last time</span></span></p>\n\n<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\">3. any changes in test setup or test scenario between passed and failed run</span></span></p>\n\n<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\">4. any changes in tested system configuration between passed and failed run</span></span></p>\n\n<p>&nbsp;</p>\n\n<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\"><strong>Requirement related to the defect:</strong></span></span></p>\n\n<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\">(e.g. URL link to requirement which is related to the defect)</span></span></p>\n",
-            "status": 1081,
+            "status": 1088,
             "BUG_component$154": 1291,
             "createdBy": 4464,
             "assignedTo": 6574,
@@ -19142,7 +19142,7 @@
                 ]
             }
         },
-        "version": 6,
+        "version": 7,
         "location": {
             "sortOrder": 6215,
             "globalSortOrder": 1664437877,
@@ -19153,7 +19153,7 @@
         },
         "lock": {
             "locked": false,
-            "lastLockedDate": "2025-11-04T05:07:48.000+0000"
+            "lastLockedDate": "2025-11-21T10:03:31.000+0000"
         },
         "type": "items"
     },
@@ -19842,8 +19842,8 @@
         "itemType": 154,
         "project": 229,
         "createdDate": "2025-11-07T06:25:50.000+0000",
-        "modifiedDate": "2025-11-18T06:02:33.000+0000",
-        "lastActivityDate": "2025-11-18T06:02:33.000+0000",
+        "modifiedDate": "2025-11-21T09:02:33.000+0000",
+        "lastActivityDate": "2025-11-21T09:02:33.000+0000",
         "createdBy": 6374,
         "modifiedBy": 620,
         "fields": {
@@ -19851,7 +19851,7 @@
             "globalId": "GID-7517496",
             "name": "OCV Output light is not turned OFF after Car Ventilation time",
             "description": "<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\"><strong>Detailed Defect Description:</strong></span></span></p>\n\n<p><span style=\"font-family:Calibri,sans-serif\"><span style=\"font-size:14.6667px\">OCV Output light is not turned OFF after Car Ventilation time</span></span></p>\n\n<p>&nbsp;</p>\n\n<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\"><strong>Parameters:&nbsp;&nbsp;</strong></span></span></p>\n\n<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\">1085 = 3<br />\n1086 = 10 sec</span></span></p>\n\n<p>&nbsp;</p>\n\n<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\"><strong>Group configuration: </strong></span></span></p>\n\n<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\">Single</span></span></p>\n\n<p>&nbsp;</p>\n\n<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\"><strong>Drive type:</strong></span></span></p>\n\n<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\">KDX14</span></span></p>\n\n<p>&nbsp;</p>\n\n<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\"><strong>Regression or new finding:</strong></span></span></p>\n\n<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\">Regression</span></span></p>\n\n<p>&nbsp;</p>\n\n<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\"><strong>Test case Name / Feature name:</strong></span></span></p>\n\n<p>OCV K - Operation of Car Ventilation - Button</p>\n\n<p>&nbsp;</p>\n\n<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\"><strong>Description of the test case (Detailed Scenario)&nbsp;</strong></span></span></p>\n\n<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\">Elevator in Normal in vacant state</span></span></p>\n\n<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\">OCV button is pressed<br />\nCar FAN &amp; Indication output Light&nbsp;is turned ON as expected</span></span></p>\n\n<p>&nbsp;</p>\n\n<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\">SW: 17.0.0.16 LD<br />\nHW used: KSS MUL G21</span></span></p>\n\n<p>&nbsp;</p>\n\n<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\"><strong>Expected behavior:&nbsp;&nbsp;</strong></span></span></p>\n\n<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\">OCV Output light should turned OFF (REL 43 LED should goes ON) after Car ventilation time (i.e. 10s)</span></span></p>\n\n<p>&nbsp;</p>\n\n<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\"><strong>Actual behavior:</strong></span></span></p>\n\n<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\">OCV Output light is active&nbsp;(REL 43 LED still in OFF state ) even after Car ventilation time</span></span></p>\n\n<p>&nbsp;</p>\n\n<p><strong><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\">Note:</span></span></strong></p>\n\n<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\">This issue is happening only when Elevator is in Vacant State &amp; randomly</span></span></p>\n\n<p>&nbsp;</p>\n\n<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\"><strong>Recovery:&nbsp;</strong></span></span></p>\n\n<p><span style=\"font-family:Calibri,sans-serif\"><span style=\"font-size:14.6667px\">Change Elevator state from vacant to busy or car call preference (RDF, Car call)</span></span></p>\n\n<p>&nbsp;</p>\n\n<p>&nbsp;</p>\n\n<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\"><strong>Log attached Information:</strong></span></span></p>\n\n<p><span style=\"font-family:Calibri,sans-serif\"><span style=\"font-size:14.6667px\">LPA</span></span></p>\n\n<p><span style=\"font-family:Calibri,sans-serif\"><span style=\"font-size:14.6667px\">Event Traffic</span></span></p>\n\n<p>&nbsp;</p>\n\n<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\"><strong>Value-added information:&nbsp;</strong></span></span></p>\n\n<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\">-HW versions - KSSMUL G21</span></span></p>\n\n<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\">-Types of Signalization - KSS</span></span></p>\n\n<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\">-Door module types - D10 Serial Communication</span></span></p>\n\n<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\">-is problem validated in other simulators - yes</span></span></p>\n\n<p>&nbsp;</p>\n\n<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\"><strong>Test Sequence history:&nbsp;</strong></span></span></p>\n\n<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\">1: was failing scenario passing earlier - Yes</span></span></p>\n\n<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\">2. what was SW level when this was passing last time - 16.10 &amp; 16.8</span></span></p>\n\n<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\">3. any changes in test setup or test scenario between passed and failed run - No</span></span></p>\n\n<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\">4. any changes in tested system configuration between passed and failed run - No</span></span></p>\n",
-            "status": 1081,
+            "status": 1085,
             "BUG_component$154": 1291,
             "createdBy": 6374,
             "assignedTo": 1150,
@@ -19866,12 +19866,13 @@
             "BUG_howFound$154": 2407,
             "BUG_whereFound$154": 1137,
             "BUG_probability_on_field$154": 2398,
-            "root_cause_category$154": 2512,
+            "root_cause_category$154": 2527,
+            "BUG_rootCause$154": "<p>OCV update was affected due to the OCV2 support implemented for NA. The bug has been fixed in the DoorControl software.</p>",
             "BUG_testCaseUpdated$154": 1198,
             "BUG_jiraId$154": "KCE-30921",
             "BUG_jira_project$154": 2465,
             "BUG_jira_URL$154": "https://kone.atlassian.net/browse/KCE-30921",
-            "BUG_integration_synced_time$154": "2025-11-18 06:02:32.064861",
+            "BUG_integration_synced_time$154": "2025-11-21 09:02:32.930684",
             "BUG_V1_project$154": 1431
         },
         "resources": {
@@ -19884,7 +19885,7 @@
                 ]
             }
         },
-        "version": 10,
+        "version": 12,
         "location": {
             "sortOrder": 6367,
             "globalSortOrder": 1667427261,
@@ -19895,7 +19896,7 @@
         },
         "lock": {
             "locked": false,
-            "lastLockedDate": "2025-11-18T05:52:27.000+0000"
+            "lastLockedDate": "2025-11-21T09:01:35.000+0000"
         },
         "type": "items"
     },
@@ -19906,16 +19907,16 @@
         "itemType": 154,
         "project": 229,
         "createdDate": "2025-11-07T12:57:45.000+0000",
-        "modifiedDate": "2025-11-19T08:48:46.000+0000",
-        "lastActivityDate": "2025-11-19T08:48:46.000+0000",
+        "modifiedDate": "2025-11-21T09:51:40.000+0000",
+        "lastActivityDate": "2025-11-21T09:51:40.000+0000",
         "createdBy": 6096,
-        "modifiedBy": 6096,
+        "modifiedBy": 1138,
         "fields": {
             "documentKey": "KCE-SWBUG-6931",
             "globalId": "GID-7517956",
             "name": "17.0 - PAD O - Both Side Doors are not Parked Open in PAD Floor when Down Landing Call Button Direction is Locked",
             "description": "<p><strong>\u200b\u200b\u200bParameters:&nbsp;&nbsp;</strong></p>\n\n<p><img alt=\"\" height=\"230\" src=\"https://konerqm.jamacloud.com/attachment/230320/image-3Zkjrq3UD9.png\" width=\"223\" /></p>\n\n<p>&nbsp;</p>\n\n<p><strong>Group configuration:</strong></p>\n\n<p>Single</p>\n\n<p>&nbsp;</p>\n\n<p><strong>Drive type:</strong></p>\n\n<p>KDX 14</p>\n\n<p>&nbsp;</p>\n\n<p>&nbsp;</p>\n\n<p><strong>Description of the test case (Detailed Scenario)&nbsp;</strong></p>\n\n<ul>\n\t<li>Elevator in other than PAD Floor (ADO Disabled)</li>\n\t<li>After PAD Delay, Elevator starts to travel to PAD Floor (Which has B Side Down Landing Call Locked)</li>\n\t<li>PAD Floor Reached with A side Doors alone Left Opened</li>\n\t<li>B side Doors are in closed state (B side's CAR Call &amp; Up Landing Call is in Unlocked state)</li>\n\t<li>But when now UP Landing Call is pressed, B side Doors are Parked Open</li>\n\t<li>This causes confusion, now PAD gives priority to unlocked&nbsp;Car Call &amp; UP Landing Calls when Pressed</li>\n\t<li>But when Elevator Automatically reaches&nbsp;PAD Floor, Doors are Not Parked Opened (This is happening Randomly, sometime both doors are parked opened)<br />\n\t\u200b</li>\n</ul>\n\n<p>Expected Scenario:</p>\n\n<ul>\n\t<li>Since UP Landing Call is Unlocked, Registering UP Landing Call Causes the Lift go from \"Vacant State\" to \"CAR Call Pref\"</li>\n\t<li>Which disables PAD Mode</li>\n\t<li>Now Both Doors should Open &amp; after then DOB Time out The locked Landing Call Floor should eventually Close the Door</li>\n\t<li>But this is not happening, Doors are left opened!\u200b\u200b\u200b\u200b\u200b</li>\n</ul>\n\n<p>&nbsp;</p>\n\n<p><strong>Log attached Information:</strong></p>\n\n<ul>\n\t<li>LPA</li>\n\t<li>Event Traffic</li>\n</ul>\n\n<p>&nbsp;</p>\n",
-            "status": 1081,
+            "status": 1088,
             "BUG_component$154": 1291,
             "createdBy": 6096,
             "assignedTo": 1159,
@@ -19944,7 +19945,7 @@
                 ]
             }
         },
-        "version": 8,
+        "version": 9,
         "location": {
             "sortOrder": 6369,
             "globalSortOrder": 1667466595,
@@ -19955,7 +19956,7 @@
         },
         "lock": {
             "locked": false,
-            "lastLockedDate": "2025-11-19T08:48:47.000+0000"
+            "lastLockedDate": "2025-11-21T09:51:41.000+0000"
         },
         "type": "items"
     },
@@ -19967,7 +19968,7 @@
         "project": 229,
         "createdDate": "2025-11-10T10:15:47.000+0000",
         "modifiedDate": "2025-11-13T08:46:44.000+0000",
-        "lastActivityDate": "2025-11-14T08:21:40.000+0000",
+        "lastActivityDate": "2025-11-21T08:24:32.000+0000",
         "createdBy": 6176,
         "modifiedBy": 620,
         "fields": {

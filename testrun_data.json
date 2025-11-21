@@ -16303,8 +16303,8 @@
         "Assigned To":"Vivek"
     },
     {
-        "TestRunStatus":"INPROGRESS",
-        "ExecutionDate":"2025-11-20",
+        "TestRunStatus":"FAILED",
+        "ExecutionDate":"2025-11-21",
         "Document Key":"KCE-TSTRN-4003591",
         "Name":"DG configuration update from Site Manager",
         "Assigned To":"Vivek"
@@ -16352,7 +16352,7 @@
         "Assigned To":"Nithya Priya"
     },
     {
-        "TestRunStatus":"INPROGRESS",
+        "TestRunStatus":"PASSED",
         "ExecutionDate":"2025-11-21",
         "Document Key":"KCE-TSTRN-4004564",
         "Name":"EZO Shaft setup with Single Virtual floor section ",
@@ -16464,7 +16464,7 @@
         "Assigned To":"Nithya Priya"
     },
     {
-        "TestRunStatus":"INPROGRESS",
+        "TestRunStatus":"PASSED",
         "ExecutionDate":"2025-11-21",
         "Document Key":"KCE-TSTRN-4004579",
         "Name":"FRD ph2 active while lift driving the EZO zone ",
@@ -16478,11 +16478,39 @@
         "Assigned To":"Harini Sri"
     },
     {
-        "TestRunStatus":"INPROGRESS",
+        "TestRunStatus":"PASSED",
+        "ExecutionDate":"2025-11-21",
+        "Document Key":"KCE-TSTRN-4004581",
+        "Name":"COD operation towards upward direction, during slow correction drive magnet seen",
+        "Assigned To":"Nithya Priya"
+    },
+    {
+        "TestRunStatus":"PASSED",
         "ExecutionDate":"2025-11-21",
         "Document Key":"KCE-TSTRN-4004584",
         "Name":"COD operation towards downward direction, during slow correction drive magnet seen",
         "Assigned To":"Nithya Priya"
+    },
+    {
+        "TestRunStatus":"PASSED",
+        "ExecutionDate":"2025-11-21",
+        "Document Key":"KCE-TSTRN-4004592",
+        "Name":"Remote LD reboot functionality - From KC3View",
+        "Assigned To":"Priyavalli"
+    },
+    {
+        "TestRunStatus":"PASSED",
+        "ExecutionDate":"2025-11-21",
+        "Document Key":"KCE-TSTRN-4004593",
+        "Name":"Remote LD reboot functionality - From CloudView",
+        "Assigned To":"Priyavalli"
+    },
+    {
+        "TestRunStatus":"INPROGRESS",
+        "ExecutionDate":"2025-11-21",
+        "Document Key":"KCE-TSTRN-4004594",
+        "Name":"Remote LD reboot functionality - Throttling functionality",
+        "Assigned To":"Kowsalya"
     },
     {
         "TestRunStatus":"PASSED",
