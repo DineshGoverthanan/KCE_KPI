@@ -4571,10 +4571,17 @@
         "Assigned To":"Veeramanikandan"
     },
     {
-        "TestRunStatus":"INPROGRESS",
+        "TestRunStatus":"FAILED",
         "ExecutionDate":"2025-11-21",
         "Document Key":"KCE-TSTRN-4002199",
         "Name":"KCESAFETY \u2013 NA - DTS (Traction Loss Supervision) - with KCEABS: Basic",
+        "Assigned To":"Veeramanikandan"
+    },
+    {
+        "TestRunStatus":"INPROGRESS",
+        "ExecutionDate":"2025-11-21",
+        "Document Key":"KCE-TSTRN-4002200",
+        "Name":"KCESAFETY \u2013 NA - DTS (Traction Loss Supervision) - with KCEABS: Speed input loss only to ABS or DZS.",
         "Assigned To":"Veeramanikandan"
     },
     {
@@ -16124,6 +16131,13 @@
         "TestRunStatus":"FAILED",
         "ExecutionDate":"2025-11-11",
         "Document Key":"KCE-TSTRN-4001261",
+        "Name":"PRC mode with SPP configuration",
+        "Assigned To":"Badaganti Sai Prasad"
+    },
+    {
+        "TestRunStatus":"INPROGRESS",
+        "ExecutionDate":"2025-11-21",
+        "Document Key":"KCE-TSTRN-4004668",
         "Name":"PRC mode with SPP configuration",
         "Assigned To":"Badaganti Sai Prasad"
     },
