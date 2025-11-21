@@ -16443,6 +16443,20 @@
         "Assigned To":"Nithya Priya"
     },
     {
+        "TestRunStatus":"INPROGRESS",
+        "ExecutionDate":"2025-11-21",
+        "Document Key":"KCE-TSTRN-4004577",
+        "Name":"FPD activation EZO zone ",
+        "Assigned To":"Nithya Priya"
+    },
+    {
+        "TestRunStatus":"INPROGRESS",
+        "ExecutionDate":"2025-11-21",
+        "Document Key":"KCE-TSTRN-4004578",
+        "Name":"FRD activation while lift driving the EZO zone ",
+        "Assigned To":"Nithya Priya"
+    },
+    {
         "TestRunStatus":"PASSED",
         "ExecutionDate":"2025-11-20",
         "Document Key":"KCE-TSTRN-4004580",
@@ -16450,10 +16464,24 @@
         "Assigned To":"Harini Sri"
     },
     {
-        "TestRunStatus":"INPROGRESS",
-        "ExecutionDate":"2025-11-20",
+        "TestRunStatus":"PASSED",
+        "ExecutionDate":"2025-11-21",
         "Document Key":"KCE-TSTRN-4004409",
         "Name":"TSCOP with Selective COP functions ",
+        "Assigned To":"Suryanarayanan"
+    },
+    {
+        "TestRunStatus":"PASSED",
+        "ExecutionDate":"2025-11-21",
+        "Document Key":"KCE-TSTRN-4004410",
+        "Name":"TSCOP with non-selective funtions",
+        "Assigned To":"Suryanarayanan"
+    },
+    {
+        "TestRunStatus":"FAILED",
+        "ExecutionDate":"2025-11-21",
+        "Document Key":"KCE-TSTRN-4004411",
+        "Name":"TSCOP+ Mixed COP functions ",
         "Assigned To":"Suryanarayanan"
     }
 ]
