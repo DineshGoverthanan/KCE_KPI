@@ -4572,7 +4572,7 @@
     },
     {
         "TestRunStatus":"INPROGRESS",
-        "ExecutionDate":"2025-11-18",
+        "ExecutionDate":"2025-11-21",
         "Document Key":"KCE-TSTRN-4002199",
         "Name":"KCESAFETY \u2013 NA - DTS (Traction Loss Supervision) - with KCEABS: Basic",
         "Assigned To":"Veeramanikandan"
@@ -16093,8 +16093,8 @@
         "Assigned To":"Badaganti Sai Prasad"
     },
     {
-        "TestRunStatus":"INPROGRESS",
-        "ExecutionDate":"2025-11-20",
+        "TestRunStatus":"FAILED",
+        "ExecutionDate":"2025-11-21",
         "Document Key":"KCE-TSTRN-4004660",
         "Name":"SPP - Parallel run prevention - Normal_Conventional ",
         "Assigned To":"Badaganti Sai Prasad"
@@ -16353,6 +16353,13 @@
     },
     {
         "TestRunStatus":"INPROGRESS",
+        "ExecutionDate":"2025-11-21",
+        "Document Key":"KCE-TSTRN-4004564",
+        "Name":"EZO Shaft setup with Single Virtual floor section ",
+        "Assigned To":"Harini Sri"
+    },
+    {
+        "TestRunStatus":"INPROGRESS",
         "ExecutionDate":"2025-11-19",
         "Document Key":"KCE-TSTRN-4004120",
         "Name":"EZO Shaft setup with Multiple Virtual floor sections",
@@ -16422,7 +16429,7 @@
         "Assigned To":"Harini Sri"
     },
     {
-        "TestRunStatus":"INPROGRESS",
+        "TestRunStatus":"PASSED",
         "ExecutionDate":"2025-11-21",
         "Document Key":"KCE-TSTRN-4004574",
         "Name":"EZO Shaft setup Virtual floor reset:",
@@ -16430,14 +16437,14 @@
     },
     {
         "TestRunStatus":"PASSED",
-        "ExecutionDate":"2025-11-20",
+        "ExecutionDate":"2025-11-21",
         "Document Key":"KCE-TSTRN-4004575",
         "Name":"Landing call registeration at one above\/below virtual floor",
         "Assigned To":"Nithya Priya"
     },
     {
-        "TestRunStatus":"INPROGRESS",
-        "ExecutionDate":"2025-11-20",
+        "TestRunStatus":"PASSED",
+        "ExecutionDate":"2025-11-21",
         "Document Key":"KCE-TSTRN-4004576",
         "Name":"Car call registeration at one above\/below virtual floor",
         "Assigned To":"Nithya Priya"
@@ -16450,10 +16457,17 @@
         "Assigned To":"Nithya Priya"
     },
     {
-        "TestRunStatus":"INPROGRESS",
+        "TestRunStatus":"PASSED",
         "ExecutionDate":"2025-11-21",
         "Document Key":"KCE-TSTRN-4004578",
         "Name":"FRD activation while lift driving the EZO zone ",
+        "Assigned To":"Nithya Priya"
+    },
+    {
+        "TestRunStatus":"INPROGRESS",
+        "ExecutionDate":"2025-11-21",
+        "Document Key":"KCE-TSTRN-4004579",
+        "Name":"FRD ph2 active while lift driving the EZO zone ",
         "Assigned To":"Nithya Priya"
     },
     {
@@ -16462,6 +16476,13 @@
         "Document Key":"KCE-TSTRN-4004580",
         "Name":"Existing EZO shaft + adding the new virtual zone or Floor numbers ",
         "Assigned To":"Harini Sri"
+    },
+    {
+        "TestRunStatus":"INPROGRESS",
+        "ExecutionDate":"2025-11-21",
+        "Document Key":"KCE-TSTRN-4004584",
+        "Name":"COD operation towards downward direction, during slow correction drive magnet seen",
+        "Assigned To":"Nithya Priya"
     },
     {
         "TestRunStatus":"PASSED",

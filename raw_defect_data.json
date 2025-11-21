@@ -20865,5 +20865,63 @@
             "lastLockedDate": "2025-11-20T10:31:14.000+0000"
         },
         "type": "items"
+    },
+    {
+        "id": 28397472,
+        "documentKey": "KCE-SWBUG-7011",
+        "globalId": "GID-7545409",
+        "itemType": 154,
+        "project": 229,
+        "createdDate": "2025-11-21T06:09:46.000+0000",
+        "modifiedDate": "2025-11-21T06:17:21.000+0000",
+        "lastActivityDate": "2025-11-21T06:17:21.000+0000",
+        "createdBy": 5995,
+        "modifiedBy": 5995,
+        "fields": {
+            "documentKey": "KCE-SWBUG-7011",
+            "globalId": "GID-7545409",
+            "name": "16.10 - KCEDCS - DG Devices not listed in SM when creating new \"dg.customization.v1.zip\"",
+            "description": "<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\"><strong>Detailed Defect Description:</strong></span></span></p>\n\n<p>DG devices are not appearing in the SM while creating a new \"dg.customization.v1.zip.\"</p>\n\n<p>The uploaded \"customization file\" cleared after refreshing the SM UI</p>\n\n<p>&nbsp;</p>\n\n<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\"><strong>Parameters:&nbsp;&nbsp;</strong></span></span></p>\n\n<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\">(e.g. Parameter X (Description of the parameter) - parameter value)</span></span></p>\n\n<p>&nbsp;</p>\n\n<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\"><strong>Group configuration: </strong></span></span></p>\n\n<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\">Duplex</span></span></p>\n\n<p>&nbsp;</p>\n\n<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\"><strong>Drive type:</strong></span></span></p>\n\n<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\">KDM</span></span></p>\n\n<p>&nbsp;</p>\n\n<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\"><strong>Regression or new finding:</strong></span></span></p>\n\n<p><span style=\"font-family:Calibri,sans-serif\"><span style=\"font-size:14.6667px\">Regression</span></span></p>\n\n<p>&nbsp;</p>\n\n<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\"><strong>Test case Name / Feature name:</strong></span></span></p>\n\n<p><a href=\"https://konerqm.jamacloud.com/perspective.req?docId=26658860&amp;projectId=229\">DG configuration update from Site Manager</a></p>\n\n<p>&nbsp;</p>\n\n<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\"><strong>Test step number:</strong></span></span></p>\n\n<p>Customization:</p>\n\n<ul>\n\t<li>dg.customization.v1.json</li>\n\t<li>dg.localization.006.v1.json</li>\n\t<li>dg.localization.011.v1.json</li>\n\t<li>dg.localization.021.v1.json</li>\n\t<li>dg.localization.026.v1.json</li>\n\t<li>*.mp3</li>\n\t<li>*.svg</li>\n</ul>\n\n<p>&nbsp;</p>\n\n<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\"><strong>Description of the test case (Detailed Scenario)&nbsp;</strong></span></span></p>\n\n<ul>\n\t<li>Open the Sitemanager</li>\n\t<li>Select the DG CUSTOMIZATION button on dashboard</li>\n\t<li>Create or upload the dg.customization.zip file</li>\n\t<li>Select the install now button to proceed</li>\n\t<li>DG devices failed to appear in SM</li>\n</ul>\n\n<p>&nbsp;</p>\n\n<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\"><strong>Expected behavior:&nbsp;&nbsp;</strong></span></span></p>\n\n<p><span style=\"font-family:Calibri,sans-serif\"><span style=\"font-size:14.6667px\">The DG devices should show in SM</span></span></p>\n\n<p>&nbsp;</p>\n\n<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\"><strong>Actual behavior:</strong></span></span></p>\n\n<p><span style=\"font-family:Calibri,sans-serif\"><span style=\"font-size:14.6667px\">The DG devices not appeared in SM</span></span></p>\n\n<p>&nbsp;</p>\n\n<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\"><strong>Recovery:&nbsp;</strong></span></span></p>\n\n<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\">No</span></span></p>\n\n<p>&nbsp;</p>\n\n<p>&nbsp;</p>\n\n<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\"><strong>Log attached Information:</strong></span></span></p>\n\n<p><span style=\"font-family:Calibri,sans-serif\"><span style=\"font-size:14.6667px\">Nodedebug info, SM UI and Video Clip</span></span></p>\n\n<p>&nbsp;</p>\n\n<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\"><strong>Value-added information:&nbsp;</strong></span></span></p>\n\n<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\">SM Version: 4.47</span></span></p>\n\n<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\">DG Apk - 1.7.0.4</span></span></p>\n\n<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\">DG DMA - 1.6.0.0</span></span></p>\n\n<p>&nbsp;</p>\n\n<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\"><strong>Test Sequence history:&nbsp;</strong></span></span></p>\n\n<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\">1: was failing scenario passing earlier</span></span></p>\n\n<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\">2. what was SW level when this was passing last time</span></span></p>\n\n<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\">3. any changes in test setup or test scenario between passed and failed run</span></span></p>\n\n<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\">4. any changes in tested system configuration between passed and failed run</span></span></p>\n\n<p>&nbsp;</p>\n\n<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\"><strong>Requirement related to the defect:</strong></span></span></p>\n\n<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\">(e.g. URL link to requirement which is related to the defect)</span></span></p>\n",
+            "status": 1081,
+            "BUG_component$154": 2273,
+            "createdBy": 5995,
+            "release": 2368,
+            "BUG_foundInBuild$154": "16.10.4.10(LD: 16.10.2.1, GCD: 16.10.21.5)",
+            "BUG_foundOnDate$154": "2025-11-20",
+            "priority": 2410,
+            "BUG_severity$154": 1109,
+            "BUG_category$154": 1422,
+            "BUG_testLevel$154": 1129,
+            "BUG_howFound$154": 2407,
+            "BUG_whereFound$154": 1137,
+            "BUG_probability_on_field$154": 2398,
+            "root_cause_category$154": 2512,
+            "BUG_testCaseUpdated$154": 1198,
+            "BUG_V1_project$154": 1431
+        },
+        "resources": {
+            "self": {
+                "allowed": [
+                    "GET",
+                    "PUT",
+                    "PATCH",
+                    "DELETE"
+                ]
+            }
+        },
+        "version": 2,
+        "location": {
+            "sortOrder": 6433,
+            "globalSortOrder": 1668613719,
+            "sequence": "17.6434",
+            "parent": {
+                "item": 83266
+            }
+        },
+        "lock": {
+            "locked": false,
+            "lastLockedDate": "2025-11-21T06:17:22.000+0000"
+        },
+        "type": "items"
     }
 ]

@@ -332,3 +332,4 @@ KCE-SWBUG-6952,17.0 - ACL - Elevator Door Signals flutters & gets Stuck when RDF
 KCE-SWBUG-6969,"4.6 - ProManager, KDX - Fault 3043's Name & Data are missing",Suryanarayanan,4.6.239.7126,2025-11-12
 KCE-SWBUG-6973,FRD IL-Lift does not return to Return Floor when DOB is pressed repeatedly,Dinesh,"KCE 17.0.0.108(LD: 17.0.0.16, GCD: 17.0.0.29)",2025-11-13
 KCE-SWBUG-6997,"4.6 - ProManager, KDX - Fault #6400: 3020 has no Data 1 Description ",Suryanarayanan,4.6.239.7126,2025-11-18
+KCE-SWBUG-7011,"16.10 - KCEDCS - DG Devices not listed in SM when creating new ""dg.customization.v1.zip""",Vivek,"16.10.4.10(LD: 16.10.2.1, GCD: 16.10.21.5)",2025-11-20
