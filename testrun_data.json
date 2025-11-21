@@ -16422,6 +16422,13 @@
         "Assigned To":"Harini Sri"
     },
     {
+        "TestRunStatus":"INPROGRESS",
+        "ExecutionDate":"2025-11-21",
+        "Document Key":"KCE-TSTRN-4004574",
+        "Name":"EZO Shaft setup Virtual floor reset:",
+        "Assigned To":"Nithya Priya"
+    },
+    {
         "TestRunStatus":"PASSED",
         "ExecutionDate":"2025-11-20",
         "Document Key":"KCE-TSTRN-4004575",
