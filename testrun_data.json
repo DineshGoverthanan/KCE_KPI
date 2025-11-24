@@ -16598,6 +16598,13 @@
     },
     {
         "TestRunStatus":"PASSED",
+        "ExecutionDate":"2025-11-24",
+        "Document Key":"KCE-TSTRN-4004616",
+        "Name":"Remote LD reboot functionality - elevator in RDF mode",
+        "Assigned To":"Kowsalya"
+    },
+    {
+        "TestRunStatus":"PASSED",
         "ExecutionDate":"2025-11-21",
         "Document Key":"KCE-TSTRN-4004409",
         "Name":"TSCOP with Selective COP functions ",

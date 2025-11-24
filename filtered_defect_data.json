@@ -6641,8 +6641,8 @@
         "itemType": 154,
         "project": 229,
         "createdDate": "2025-03-28T11:24:49.000+0000",
-        "modifiedDate": "2025-11-10T08:44:27.000+0000",
-        "lastActivityDate": "2025-11-13T08:26:45.000+0000",
+        "modifiedDate": "2025-11-24T06:41:30.000+0000",
+        "lastActivityDate": "2025-11-24T06:41:30.000+0000",
         "createdBy": 5995,
         "modifiedBy": 620,
         "fields": {
@@ -6650,7 +6650,7 @@
             "globalId": "GID-7062748",
             "name": "16.8 - KCEDCS - Some options were hidden for particular language in xDOP diagnostic view",
             "description": "<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\"><strong>Detailed Defect Description:</strong></span></span></p>\n\n<p><span style=\"font-family:Calibri, sans-serif\"><span style=\"font-size:14.6667px\">Some options were hidden in the xDOP diagnostic view for some languages.</span></span></p>\n\n<p>&nbsp;</p>\n\n<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\"><strong>Parameters:&nbsp;&nbsp;</strong></span></span></p>\n\n<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\">(e.g. Parameter X (Description of the parameter) - parameter value)</span></span></p>\n\n<p>&nbsp;</p>\n\n<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\"><strong>Group configuration: </strong></span></span></p>\n\n<p><span style=\"font-family:Calibri, sans-serif\"><span style=\"font-size:14.6667px\">Fourplex</span></span></p>\n\n<p>&nbsp;</p>\n\n<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\"><strong>Drive type:</strong></span></span></p>\n\n<p><span style=\"font-family:Calibri, sans-serif\"><span style=\"font-size:14.6667px\">KDL16 24.13</span></span></p>\n\n<p>&nbsp;</p>\n\n<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\"><strong>Regression or new finding:</strong></span></span></p>\n\n<p><span style=\"font-family:Calibri, sans-serif\"><span style=\"font-size:14.6667px\">New</span></span></p>\n\n<p>&nbsp;</p>\n\n<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\"><strong>Test case Name / Feature name:</strong></span></span></p>\n\n<p><a href=\"https://konerqm.jamacloud.com/perspective.req?docId=20289000&amp;projectId=229\">xDOP Multiple languages support</a></p>\n\n<p>&nbsp;</p>\n\n<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\"><strong>Test step number:</strong></span></span></p>\n\n<p>Step 2</p>\n\n<p>&nbsp;</p>\n\n<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\"><strong>Description of the test case (Detailed Scenario)&nbsp;</strong></span></span></p>\n\n<ul>\n\t<li>Open the Site Manager</li>\n\t<li>Select the dop config in the dashboard and edit</li>\n\t<li>Choose the UI and change the primary language to any other language except English (for ex., German or French or Chinese or Hebrew or Russian)</li>\n\t<li>Once updated go to diagnostic view via setting option in the xDOP.</li>\n\t<li><strong>System info</strong> and <strong>Log</strong> options were hidden&nbsp;in the DOP UI.</li>\n</ul>\n\n<p><img alt=\"\" height=\"390\" src=\"https://konerqm.jamacloud.com/attachment/206638/image-4woGKfqfUC.png\" width=\"879\" /></p>\n\n<p>&nbsp;</p>\n\n<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\"><strong>Expected behavior:&nbsp;</strong></span></span></p>\n\n<p>The<strong> System info</strong> and <strong>Log</strong> options should be visible.</p>\n\n<p>&nbsp;</p>\n\n<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\"><strong>Actual behavior:</strong></span></span></p>\n\n<p><span style=\"font-family:Calibri, sans-serif\"><span style=\"font-size:14.6667px\">The&nbsp;</span></span><strong>System info</strong> and <strong>Log</strong> options are hidden.</p>\n\n<p>&nbsp;</p>\n\n<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\"><strong>Recovery:&nbsp;</strong></span></span></p>\n\n<p><span style=\"font-family:Calibri, sans-serif\"><span style=\"font-size:14.6667px\">No</span></span></p>\n\n<p>&nbsp;</p>\n\n<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\"><strong>Log attached Information:</strong></span></span></p>\n\n<p><span style=\"font-family:Calibri, sans-serif\"><span style=\"font-size:14.6667px\">xDOP logs,SM UI and Node Debug info.</span></span></p>\n\n<p>&nbsp;</p>\n\n<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\"><strong>Value-added information:&nbsp;</strong></span></span></p>\n\n<p><span style=\"font-family:Calibri, sans-serif\"><span style=\"font-size:14.6667px\"><span style=\"background-color:#f1c40f\">Working fine when English language is set</span></span></span></p>\n\n<p>xDOP 1.6.0.27 (DMA_version: 1.6.0.23 DOP_version: 1.6.0.27)</p>\n\n<p>&nbsp;</p>\n\n<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\"><strong>Test Sequence history:&nbsp;</strong></span></span></p>\n\n<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\">1: was failing scenario passing earlier</span></span></p>\n\n<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\">2. what was SW level when this was passing last time</span></span></p>\n\n<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\">3. any changes in test setup or test scenario between passed and failed run</span></span></p>\n\n<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\">4. any changes in tested system configuration between passed and failed run</span></span></p>\n\n<p>&nbsp;</p>\n\n<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\"><strong>Requirement related to the defect:</strong></span></span></p>\n\n<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\">(e.g. URL link to requirement which is related to the defect)</span></span></p>\n",
-            "status": 1085,
+            "status": 1086,
             "BUG_component$154": 1531,
             "BUG_subcomponent$154": "xDOP",
             "createdBy": 5995,
@@ -6672,7 +6672,7 @@
             "BUG_jiraId$154": "ISWF-1278",
             "BUG_jira_project$154": 2457,
             "BUG_jira_URL$154": "https://kone.atlassian.net/browse/ISWF-1278",
-            "BUG_integration_synced_time$154": "2025-11-10 08:44:26.820793",
+            "BUG_integration_synced_time$154": "2025-11-24 06:41:29.806483",
             "BUG_V1_project$154": 1431
         },
         "resources": {
@@ -6685,7 +6685,7 @@
                 ]
             }
         },
-        "version": 13,
+        "version": 15,
         "location": {
             "sortOrder": 5174,
             "globalSortOrder": 1642315768,
@@ -6696,7 +6696,7 @@
         },
         "lock": {
             "locked": false,
-            "lastLockedDate": "2025-11-10T08:43:55.000+0000"
+            "lastLockedDate": "2025-11-24T06:40:49.000+0000"
         },
         "type": "items"
     },
@@ -8134,8 +8134,8 @@
         "itemType": 154,
         "project": 229,
         "createdDate": "2025-06-04T04:30:25.000+0000",
-        "modifiedDate": "2025-10-13T10:41:17.000+0000",
-        "lastActivityDate": "2025-11-21T12:06:26.000+0000",
+        "modifiedDate": "2025-11-24T07:59:28.000+0000",
+        "lastActivityDate": "2025-11-24T07:59:28.000+0000",
         "createdBy": 5995,
         "modifiedBy": 620,
         "fields": {
@@ -8144,10 +8144,10 @@
             "name": "16.10 - KCEDCS - OEO B - DG shows ETA message twice when the lift has been arrived at evacuation floor.",
             "description": "<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\"><strong>Detailed Defect Description:</strong></span></span></p>\n\n<p><span style=\"font-family:Calibri, sans-serif\"><span style=\"font-size:14.6667px\">The ETA message shown twice in DG when the lift has been served at evacuation floor</span></span></p>\n\n<p>&nbsp;</p>\n\n<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\"><strong>Parameters:&nbsp;&nbsp;</strong></span></span></p>\n\n<p><strong>OEO B (Group parameters):</strong></p>\n\n<p>&nbsp;</p>\n\n<p><strong>OEO enabled: True</strong></p>\n\n<p><strong>Evacuation strategy: OEO B</strong></p>\n\n<p><strong>Main exit floor and side: main floor</strong></p>\n\n<p><strong>Alternative exit floor and side: - (set as empty)</strong></p>\n\n<p><strong>Firefighter entry floor: main floor</strong></p>\n\n<p><strong>Evacuation full load limit: 75%</strong></p>\n\n<p><strong>Evacuation no calls timeout: 0<br />\nEvacuation floors:&nbsp;All served floors</strong></p>\n\n<p><strong>Evacuation area up / down: 0</strong></p>\n\n<p><strong>OEO Landing signalization mode: GE = Group based signalization, FCB outputs, ETA on displays.</strong></p>\n\n<p><strong>Maximum stopping time: 15</strong></p>\n\n<p><strong>Lift Overload - Generate Landing Call: False</strong></p>\n\n<p><strong>Cancel all existing calls: False</strong></p>\n\n<p><strong>Only first alarm has effect: False</strong></p>\n\n<p><strong>remember evacuation calls while power break: False</strong></p>\n\n<p><strong>Evacuation Simultaneous Door opening forbidden: False</strong></p>\n\n<p>&nbsp;</p>\n\n<p>&nbsp;</p>\n\n<table cellspacing=\"0\">\n\t<tbody>\n\t\t<tr>\n\t\t\t<td>\n\t\t\t<p><strong>Parameter</strong></p>\n\t\t\t</td>\n\t\t\t<td>\n\t\t\t<p>&nbsp;</p>\n\n\t\t\t<p><strong>Lift 1</strong></p>\n\t\t\t</td>\n\t\t\t<td>\n\t\t\t<p>&nbsp;</p>\n\n\t\t\t<p><strong>Lift 2</strong></p>\n\t\t\t</td>\n\t\t\t<td>\n\t\t\t<p>&nbsp;</p>\n\n\t\t\t<p><strong>Lift 3</strong></p>\n\t\t\t</td>\n\t\t\t<td>\n\t\t\t<p>&nbsp;</p>\n\t\t\t<strong>Lift 4</strong>\n\n\t\t\t<p>&nbsp;</p>\n\t\t\t</td>\n\t\t</tr>\n\t\t<tr>\n\t\t\t<td>1582-Standart type</td>\n\t\t\t<td>2</td>\n\t\t\t<td>2</td>\n\t\t\t<td>1</td>\n\t\t\t<td>0</td>\n\t\t</tr>\n\t\t<tr>\n\t\t\t<td>1584-List of PIO cards</td>\n\t\t\t<td>51</td>\n\t\t\t<td>51</td>\n\t\t\t<td>0,0,0,0</td>\n\t\t\t<td>0,0,0,0</td>\n\t\t</tr>\n\t\t<tr>\n\t\t\t<td>Group : Evacuation strategy</td>\n\t\t\t<td colspan=\"4\">OEO B</td>\n\t\t</tr>\n\t\t<tr>\n\t\t\t<td><strong>Remarks&nbsp;</strong></td>\n\t\t\t<td>PIO and OPT installed, Eva lifts&nbsp;&nbsp;</td>\n\t\t\t<td>PIO and OPT installed, Eva lifts&nbsp;&nbsp;</td>\n\t\t\t<td>No PIO &amp; OPT cards, Eva lifts&nbsp;</td>\n\t\t\t<td>Fireman lift&nbsp;</td>\n\t\t</tr>\n\t</tbody>\n</table>\n\n<p>&nbsp;</p>\n\n<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\"><strong>Group configuration: </strong></span></span></p>\n\n<p><span style=\"font-family:Calibri, sans-serif\"><span style=\"font-size:14.6667px\">Fourplex</span></span></p>\n\n<p>&nbsp;</p>\n\n<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\"><strong>Drive type:</strong></span></span></p>\n\n<p><span style=\"font-family:Calibri, sans-serif\"><span style=\"font-size:14.6667px\">KDM &amp; KDL16</span></span></p>\n\n<p>&nbsp;</p>\n\n<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\"><strong>Regression or new finding:</strong></span></span></p>\n\n<p><span style=\"font-family:Calibri, sans-serif\"><span style=\"font-size:14.6667px\">New</span></span></p>\n\n<p>&nbsp;</p>\n\n<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\"><strong>Test case Name / Feature name:</strong></span></span></p>\n\n<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\">ad-hoc defect</span></span></p>\n\n<p>&nbsp;</p>\n\n<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\"><strong>Test step number:</strong></span></span></p>\n\n<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\">\u201cad-hoc scenario\u201d</span></span></p>\n\n<p>&nbsp;</p>\n\n<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\"><strong>Description of the test case (Detailed Scenario)&nbsp;</strong></span></span></p>\n\n<ul>\n\t<li>All the lift is in normal mode (except 1)</li>\n\t<li>OEO B Input is activated via OPT</li>\n\t<li>The available lift has been called for evacuation</li>\n\t<li>The ETA message displayed in DG</li>\n\t<li>Once the lift arrived on the evacuation floor, the DG puts <span style=\"color:#2ecc71\"><strong>\"USE THIS LIFT FOR EXIT\"&nbsp;</strong></span>again, the ETA message comes for a second in the DG and&nbsp;disappears.</li>\n</ul>\n\n<p>&nbsp;</p>\n\n<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\"><strong>Expected behavior:&nbsp;&nbsp;</strong></span></span></p>\n\n<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\">The ETA message should come once&nbsp;</span></span></p>\n\n<p>&nbsp;</p>\n\n<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\"><strong>Actual behavior:</strong></span></span></p>\n\n<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\">The ETA message comes twice (Probably when giving so many evacuations calls, Occurrence 3/5)</span></span></p>\n\n<p>&nbsp;</p>\n\n<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\"><strong>Recovery:&nbsp;</strong></span></span></p>\n\n<p><span style=\"font-family:Calibri, sans-serif\"><span style=\"font-size:14.6667px\">No</span></span></p>\n\n<p>&nbsp;</p>\n\n<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\"><strong>Log attached Information:</strong></span></span></p>\n\n<p><span style=\"font-family:Calibri, sans-serif\"><span style=\"font-size:14.6667px\">Node Debug info, LPA, and event traffic.</span></span></p>\n\n<p>&nbsp;</p>\n\n<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\">Note: Once defect is logged, attachments can be done by editing the defect (use compressed zip folder format)</span></span></p>\n\n<p>&nbsp;</p>\n\n<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\"><strong>Value-added information:&nbsp;</strong></span></span></p>\n\n<p>DG Release:&nbsp;1.6.0.19<br />\n-----------------------------<br />\nDG_version: 1.6.0.21<br />\nDMA_version: 1.6.0.0</p>\n\n<p>&nbsp;</p>\n\n<p>Attached Video snap for reference.</p>\n\n<p>&nbsp;</p>\n\n<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\"><strong>Test Sequence history:&nbsp;</strong></span></span></p>\n\n<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\">1: was failing scenario passing earlier</span></span></p>\n\n<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\">2. what was SW level when this was passing last time</span></span></p>\n\n<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\">3. any changes in test setup or test scenario between passed and failed run</span></span></p>\n\n<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\">4. any changes in tested system configuration between passed and failed run</span></span></p>\n\n<p>&nbsp;</p>\n\n<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\"><strong>Requirement related to the defect:</strong></span></span></p>\n\n<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\">(e.g. URL link to requirement which is related to the defect)</span></span></p>\n",
             "status": 1081,
-            "BUG_component$154": 1531,
-            "BUG_subcomponent$154": "DG",
+            "BUG_component$154": 2510,
+            "BUG_subcomponent$154": "FCBx",
             "createdBy": 5995,
-            "assignedTo": 1650,
+            "assignedTo": 1971,
             "release": 2368,
             "BUG_foundInBuild$154": "KCE 16.10.0.100(LD: 16.10.0.23, GCD: 16.10.10.13)",
             "BUG_foundOnDate$154": "2025-06-03",
@@ -8164,7 +8164,7 @@
             "BUG_jiraId$154": "KCE-27980",
             "BUG_jira_project$154": 2465,
             "BUG_jira_URL$154": "https://kone.atlassian.net/browse/KCE-27980",
-            "BUG_integration_synced_time$154": "2025-10-13 10:41:16.076428",
+            "BUG_integration_synced_time$154": "2025-11-24 07:59:27.124478",
             "BUG_V1_project$154": 1431
         },
         "resources": {
@@ -8177,7 +8177,7 @@
                 ]
             }
         },
-        "version": 16,
+        "version": 18,
         "location": {
             "sortOrder": 5484,
             "globalSortOrder": 1648402928,
@@ -8188,7 +8188,7 @@
         },
         "lock": {
             "locked": false,
-            "lastLockedDate": "2025-11-18T08:20:34.000+0000"
+            "lastLockedDate": "2025-11-24T07:58:31.000+0000"
         },
         "type": "items"
     },
@@ -20471,10 +20471,10 @@
         "itemType": 154,
         "project": 229,
         "createdDate": "2025-11-21T06:09:46.000+0000",
-        "modifiedDate": "2025-11-21T06:17:21.000+0000",
-        "lastActivityDate": "2025-11-21T06:17:21.000+0000",
+        "modifiedDate": "2025-11-24T07:28:27.000+0000",
+        "lastActivityDate": "2025-11-24T07:28:27.000+0000",
         "createdBy": 5995,
-        "modifiedBy": 5995,
+        "modifiedBy": 620,
         "fields": {
             "documentKey": "KCE-SWBUG-7011",
             "globalId": "GID-7545409",
@@ -20483,6 +20483,7 @@
             "status": 1081,
             "BUG_component$154": 2273,
             "createdBy": 5995,
+            "assignedTo": 3399,
             "release": 2368,
             "BUG_foundInBuild$154": "16.10.4.10(LD: 16.10.2.1, GCD: 16.10.21.5)",
             "BUG_foundOnDate$154": "2025-11-20",
@@ -20495,6 +20496,10 @@
             "BUG_probability_on_field$154": 2398,
             "root_cause_category$154": 2512,
             "BUG_testCaseUpdated$154": 1198,
+            "BUG_jiraId$154": "MST-16659",
+            "BUG_jira_project$154": 2460,
+            "BUG_jira_URL$154": "https://kone.atlassian.net/browse/MST-16659",
+            "BUG_integration_synced_time$154": "2025-11-24 07:28:27.038334",
             "BUG_V1_project$154": 1431
         },
         "resources": {
@@ -20507,7 +20512,7 @@
                 ]
             }
         },
-        "version": 2,
+        "version": 5,
         "location": {
             "sortOrder": 6433,
             "globalSortOrder": 1667037492,
@@ -20518,7 +20523,7 @@
         },
         "lock": {
             "locked": false,
-            "lastLockedDate": "2025-11-21T06:17:22.000+0000"
+            "lastLockedDate": "2025-11-24T07:27:31.000+0000"
         },
         "type": "items"
     }
