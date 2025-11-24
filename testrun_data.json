@@ -4587,8 +4587,22 @@
     {
         "TestRunStatus":"INPROGRESS",
         "ExecutionDate":"2025-11-24",
+        "Document Key":"KCE-TSTRN-4002202",
+        "Name":"KCESAFETY \u2013 NA - DTS (Traction Loss Supervision) - with KCEABS: Disconnection.",
+        "Assigned To":"Veeramanikandan"
+    },
+    {
+        "TestRunStatus":"PASSED",
+        "ExecutionDate":"2025-11-24",
         "Document Key":"KCE-TSTRN-4002203",
         "Name":"KCESAFETY \u2013 NA - DTS (Traction Loss Supervision) - with KCEABS: Resetting of DTS time",
+        "Assigned To":"Veeramanikandan"
+    },
+    {
+        "TestRunStatus":"PASSED",
+        "ExecutionDate":"2025-11-24",
+        "Document Key":"KCE-TSTRN-4002204",
+        "Name":"KCESAFETY \u2013 NA - Traction Loss Supervision Service Test",
         "Assigned To":"Veeramanikandan"
     },
     {
@@ -16135,6 +16149,20 @@
         "Assigned To":"Badaganti Sai Prasad"
     },
     {
+        "TestRunStatus":"INPROGRESS",
+        "ExecutionDate":"2025-11-24",
+        "Document Key":"KCE-TSTRN-4004665",
+        "Name":"BSW mode with SPP configuration",
+        "Assigned To":"Badaganti Sai Prasad"
+    },
+    {
+        "TestRunStatus":"PASSED",
+        "ExecutionDate":"2025-11-24",
+        "Document Key":"KCE-TSTRN-4004667",
+        "Name":"PRL L mode with SPP configuration",
+        "Assigned To":"Badaganti Sai Prasad"
+    },
+    {
         "TestRunStatus":"PASSED",
         "ExecutionDate":"2025-11-14",
         "Document Key":"KCE-TSTRN-4001260",
@@ -16394,6 +16422,13 @@
         "Assigned To":"Jagadeesh"
     },
     {
+        "TestRunStatus":"INPROGRESS",
+        "ExecutionDate":"2025-11-24",
+        "Document Key":"KCE-TSTRN-4004506",
+        "Name":"Manual DBR C Test with Vacant state",
+        "Assigned To":"Jagadeesh"
+    },
+    {
         "TestRunStatus":"PASSED",
         "ExecutionDate":"2025-11-19",
         "Document Key":"KCE-TSTRN-4004078",
@@ -16618,7 +16653,7 @@
         "Assigned To":"Kowsalya"
     },
     {
-        "TestRunStatus":"INPROGRESS",
+        "TestRunStatus":"PASSED",
         "ExecutionDate":"2025-11-24",
         "Document Key":"KCE-TSTRN-4004610",
         "Name":"Remote LD reboot functionality - elevator in EAQ mode",
