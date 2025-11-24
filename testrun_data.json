@@ -16107,6 +16107,13 @@
         "Assigned To":"Badaganti Sai Prasad"
     },
     {
+        "TestRunStatus":"PASSED",
+        "ExecutionDate":"2025-11-24",
+        "Document Key":"KCE-TSTRN-4004663",
+        "Name":"SPP - Parallel run prevention - Provocative test scenario\u2019s",
+        "Assigned To":"Badaganti Sai Prasad"
+    },
+    {
         "TestRunStatus":"INPROGRESS",
         "ExecutionDate":"2025-11-10",
         "Document Key":"KCE-TSTRN-4001255",
@@ -16135,10 +16142,24 @@
         "Assigned To":"Badaganti Sai Prasad"
     },
     {
-        "TestRunStatus":"INPROGRESS",
-        "ExecutionDate":"2025-11-21",
+        "TestRunStatus":"PASSED",
+        "ExecutionDate":"2025-11-22",
         "Document Key":"KCE-TSTRN-4004668",
         "Name":"PRC mode with SPP configuration",
+        "Assigned To":"Badaganti Sai Prasad"
+    },
+    {
+        "TestRunStatus":"INPROGRESS",
+        "ExecutionDate":"2025-11-22",
+        "Document Key":"KCE-TSTRN-4004670",
+        "Name":"Substance Release with SPP Configuration ",
+        "Assigned To":"Badaganti Sai Prasad"
+    },
+    {
+        "TestRunStatus":"PASSED",
+        "ExecutionDate":"2025-11-22",
+        "Document Key":"KCE-TSTRN-4004671",
+        "Name":"Inspection mode with SPP Configuration ",
         "Assigned To":"Badaganti Sai Prasad"
     },
     {
@@ -16153,6 +16174,20 @@
         "ExecutionDate":"2025-11-12",
         "Document Key":"KCE-TSTRN-4001266",
         "Name":"EAQ with SPP Configuration ",
+        "Assigned To":"Badaganti Sai Prasad"
+    },
+    {
+        "TestRunStatus":"INPROGRESS",
+        "ExecutionDate":"2025-11-22",
+        "Document Key":"KCE-TSTRN-4004672",
+        "Name":"EAQ with SPP Configuration ",
+        "Assigned To":"Badaganti Sai Prasad"
+    },
+    {
+        "TestRunStatus":"PASSED",
+        "ExecutionDate":"2025-11-22",
+        "Document Key":"KCE-TSTRN-4004673",
+        "Name":"FRE with SPP Configuration ",
         "Assigned To":"Badaganti Sai Prasad"
     },
     {
@@ -16332,6 +16367,13 @@
     },
     {
         "TestRunStatus":"PASSED",
+        "ExecutionDate":"2025-11-24",
+        "Document Key":"KCE-TSTRN-4004499",
+        "Name":"DBR C Parameter & Setup configuration",
+        "Assigned To":"Jagadeesh"
+    },
+    {
+        "TestRunStatus":"PASSED",
         "ExecutionDate":"2025-11-19",
         "Document Key":"KCE-TSTRN-4004078",
         "Name":"1. Monitoring parameter 880= 1 with any licence ",
@@ -16429,8 +16471,8 @@
         "Assigned To":"Nithya Priya"
     },
     {
-        "TestRunStatus":"INPROGRESS",
-        "ExecutionDate":"2025-11-20",
+        "TestRunStatus":"PASSED",
+        "ExecutionDate":"2025-11-24",
         "Document Key":"KCE-TSTRN-4004570",
         "Name":"Intermediate served floor car call registration within EZO zone.",
         "Assigned To":"Harini Sri"
@@ -16464,8 +16506,8 @@
         "Assigned To":"Nithya Priya"
     },
     {
-        "TestRunStatus":"INPROGRESS",
-        "ExecutionDate":"2025-11-21",
+        "TestRunStatus":"PASSED",
+        "ExecutionDate":"2025-11-24",
         "Document Key":"KCE-TSTRN-4004577",
         "Name":"FPD activation EZO zone ",
         "Assigned To":"Nithya Priya"
@@ -16506,6 +16548,27 @@
         "Assigned To":"Nithya Priya"
     },
     {
+        "TestRunStatus":"INPROGRESS",
+        "ExecutionDate":"2025-11-24",
+        "Document Key":"KCE-TSTRN-4004585",
+        "Name":"COD operation towards downward direction, few virtual zones",
+        "Assigned To":"Nithya Priya"
+    },
+    {
+        "TestRunStatus":"INPROGRESS",
+        "ExecutionDate":"2025-11-24",
+        "Document Key":"KCE-TSTRN-4004586",
+        "Name":"COD operation toward downwards direction, EZO between P2 and P3 magnet",
+        "Assigned To":"Nithya Priya"
+    },
+    {
+        "TestRunStatus":"INPROGRESS",
+        "ExecutionDate":"2025-11-24",
+        "Document Key":"KCE-TSTRN-4004589",
+        "Name":"COD operation during EZO floors with FRD return drive ",
+        "Assigned To":"Nithya Priya"
+    },
+    {
         "TestRunStatus":"PASSED",
         "ExecutionDate":"2025-11-21",
         "Document Key":"KCE-TSTRN-4004592",
@@ -16520,10 +16583,17 @@
         "Assigned To":"Priyavalli"
     },
     {
-        "TestRunStatus":"INPROGRESS",
-        "ExecutionDate":"2025-11-21",
+        "TestRunStatus":"PASSED",
+        "ExecutionDate":"2025-11-24",
         "Document Key":"KCE-TSTRN-4004594",
         "Name":"Remote LD reboot functionality - Throttling functionality",
+        "Assigned To":"Kowsalya"
+    },
+    {
+        "TestRunStatus":"INPROGRESS",
+        "ExecutionDate":"2025-11-24",
+        "Document Key":"KCE-TSTRN-4004610",
+        "Name":"Remote LD reboot functionality - elevator in EAQ mode",
         "Assigned To":"Kowsalya"
     },
     {
