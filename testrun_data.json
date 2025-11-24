@@ -16373,6 +16373,20 @@
         "Assigned To":"Jagadeesh"
     },
     {
+        "TestRunStatus":"INPROGRESS",
+        "ExecutionDate":"2025-11-24",
+        "Document Key":"KCE-TSTRN-4004500",
+        "Name":"Automatic Capacitor Test cannot be perform when 1507 or 1247 is set to '0' ",
+        "Assigned To":"Jagadeesh"
+    },
+    {
+        "TestRunStatus":"PASSED",
+        "ExecutionDate":"2025-11-24",
+        "Document Key":"KCE-TSTRN-4004505",
+        "Name":"Manual DBR C Test \u2013 Proactive ",
+        "Assigned To":"Jagadeesh"
+    },
+    {
         "TestRunStatus":"PASSED",
         "ExecutionDate":"2025-11-19",
         "Document Key":"KCE-TSTRN-4004078",
@@ -16570,14 +16584,21 @@
     },
     {
         "TestRunStatus":"PASSED",
-        "ExecutionDate":"2025-11-21",
+        "ExecutionDate":"2025-11-24",
+        "Document Key":"KCE-TSTRN-4004591",
+        "Name":"Remote LD reboot functionality - From device management portal",
+        "Assigned To":"Priyavalli"
+    },
+    {
+        "TestRunStatus":"PASSED",
+        "ExecutionDate":"2025-11-24",
         "Document Key":"KCE-TSTRN-4004592",
         "Name":"Remote LD reboot functionality - From KC3View",
         "Assigned To":"Priyavalli"
     },
     {
         "TestRunStatus":"PASSED",
-        "ExecutionDate":"2025-11-21",
+        "ExecutionDate":"2025-11-24",
         "Document Key":"KCE-TSTRN-4004593",
         "Name":"Remote LD reboot functionality - From CloudView",
         "Assigned To":"Priyavalli"
@@ -16597,7 +16618,7 @@
         "Assigned To":"Kowsalya"
     },
     {
-        "TestRunStatus":"PASSED",
+        "TestRunStatus":"FAILED",
         "ExecutionDate":"2025-11-24",
         "Document Key":"KCE-TSTRN-4004616",
         "Name":"Remote LD reboot functionality - elevator in RDF mode",
