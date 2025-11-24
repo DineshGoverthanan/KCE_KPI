@@ -4578,10 +4578,17 @@
         "Assigned To":"Veeramanikandan"
     },
     {
-        "TestRunStatus":"INPROGRESS",
-        "ExecutionDate":"2025-11-21",
+        "TestRunStatus":"PASSED",
+        "ExecutionDate":"2025-11-24",
         "Document Key":"KCE-TSTRN-4002200",
         "Name":"KCESAFETY \u2013 NA - DTS (Traction Loss Supervision) - with KCEABS: Speed input loss only to ABS or DZS.",
+        "Assigned To":"Veeramanikandan"
+    },
+    {
+        "TestRunStatus":"INPROGRESS",
+        "ExecutionDate":"2025-11-24",
+        "Document Key":"KCE-TSTRN-4002203",
+        "Name":"KCESAFETY \u2013 NA - DTS (Traction Loss Supervision) - with KCEABS: Resetting of DTS time",
         "Assigned To":"Veeramanikandan"
     },
     {
@@ -16527,8 +16534,8 @@
         "Assigned To":"Nithya Priya"
     },
     {
-        "TestRunStatus":"PASSED",
-        "ExecutionDate":"2025-11-21",
+        "TestRunStatus":"FAILED",
+        "ExecutionDate":"2025-11-24",
         "Document Key":"KCE-TSTRN-4004578",
         "Name":"FRD activation while lift driving the EZO zone ",
         "Assigned To":"Nithya Priya"
@@ -16576,7 +16583,7 @@
         "Assigned To":"Nithya Priya"
     },
     {
-        "TestRunStatus":"INPROGRESS",
+        "TestRunStatus":"PASSED",
         "ExecutionDate":"2025-11-24",
         "Document Key":"KCE-TSTRN-4004589",
         "Name":"COD operation during EZO floors with FRD return drive ",
@@ -16622,6 +16629,13 @@
         "ExecutionDate":"2025-11-24",
         "Document Key":"KCE-TSTRN-4004616",
         "Name":"Remote LD reboot functionality - elevator in RDF mode",
+        "Assigned To":"Kowsalya"
+    },
+    {
+        "TestRunStatus":"INPROGRESS",
+        "ExecutionDate":"2025-11-24",
+        "Document Key":"KCE-TSTRN-4004617",
+        "Name":"Remote LD reboot functionality - elevator in TOC inspection mode",
         "Assigned To":"Kowsalya"
     },
     {
