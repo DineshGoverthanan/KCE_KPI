@@ -16457,6 +16457,20 @@
         "Assigned To":"Jagadeesh"
     },
     {
+        "TestRunStatus":"INPROGRESS",
+        "ExecutionDate":"2025-11-25",
+        "Document Key":"KCE-TSTRN-4004511",
+        "Name":"During DBR C Test KCECPUc XD4 Missing\/Disconnection",
+        "Assigned To":"Jagadeesh"
+    },
+    {
+        "TestRunStatus":"INPROGRESS",
+        "ExecutionDate":"2025-11-25",
+        "Document Key":"KCE-TSTRN-4004512",
+        "Name":"DBR C Test failed with Fault 1755 Data1 and Data2 active",
+        "Assigned To":"Jagadeesh"
+    },
+    {
         "TestRunStatus":"PASSED",
         "ExecutionDate":"2025-11-19",
         "Document Key":"KCE-TSTRN-4004078",
@@ -16653,7 +16667,7 @@
         "Assigned To":"Nithya Priya"
     },
     {
-        "TestRunStatus":"INPROGRESS",
+        "TestRunStatus":"PASSED",
         "ExecutionDate":"2025-11-25",
         "Document Key":"KCE-TSTRN-4004585",
         "Name":"COD operation towards downward direction, few virtual zones",
@@ -16741,6 +16755,13 @@
         "ExecutionDate":"2025-11-21",
         "Document Key":"KCE-TSTRN-4004411",
         "Name":"TSCOP+ Mixed COP functions ",
+        "Assigned To":"Suryanarayanan"
+    },
+    {
+        "TestRunStatus":"INPROGRESS",
+        "ExecutionDate":"2025-11-25",
+        "Document Key":"KCE-TSTRN-4004412",
+        "Name":"TSCOP with Fireman COP functions",
         "Assigned To":"Suryanarayanan"
     }
 ]
