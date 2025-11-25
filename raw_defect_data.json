@@ -2128,8 +2128,8 @@
         "itemType": 154,
         "project": 417,
         "createdDate": "2025-09-09T03:56:12.000+0000",
-        "modifiedDate": "2025-11-19T12:08:31.000+0000",
-        "lastActivityDate": "2025-11-19T12:08:31.000+0000",
+        "modifiedDate": "2025-11-25T05:19:56.000+0000",
+        "lastActivityDate": "2025-11-25T05:19:56.000+0000",
         "createdBy": 5932,
         "modifiedBy": 2001,
         "fields": {
@@ -2155,7 +2155,7 @@
             "BUG_probability_on_field$154": 2399,
             "root_cause_category$154": 2512,
             "BUG_testCaseUpdated$154": 1198,
-            "BUG_RD_comments$154": "<p>Srinath S: 17-Nov-2025</p>\n\n<p>based on the discussion, Component field changed back to Escalator - KIE and Subcomponent field changed back to&nbsp;Service Tools - Android MiniConsole,</p>\n\n<p>&nbsp;</p>\n\n<p>Vigneshwarar V]:08-Oct-2025<br />\nAs per T. Viswanathan comments,this defect has changed from critical call out to Medium-Long time reliability</p>\n\n<p>&nbsp;</p>\n\n<p>[Visu]:&nbsp;19-Nov-2025<br />\nDefect Review meeting<br />\nParticipants: Visu, Ajis, Joseph<br />\nTo be compared RTD FUI value and AMC value</p>\n\n<p>&nbsp;</p>",
+            "BUG_RD_comments$154": "<p>Srinath S: 17-Nov-2025</p>\n\n<p>based on the discussion, Component field changed back to Escalator - KIE and Subcomponent field changed back to&nbsp;Service Tools - Android MiniConsole,</p>\n\n<p>&nbsp;</p>\n\n<p>Vigneshwarar V]:08-Oct-2025<br />\nAs per T. Viswanathan comments,this defect has changed from critical call out to Medium-Long time reliability</p>\n\n<p>&nbsp;</p>\n\n<p>[Visu]:&nbsp;19-Nov-2025<br />\nDefect Review meeting<br />\nParticipants: Visu, Ajis, Joseph<br />\nTo be compared RTD FUI value and AMC value</p>\n\n<p>&nbsp;</p>\n\n<p>[Visu]:&nbsp;19-Nov-2025</p>\n\n<p>RTD FUI value and AMC values are same.&nbsp;</p>\n\n<p>CPU will retain the stopping distance value till next key start.&nbsp;</p>\n\n<p>&nbsp;</p>\n\n<p>&nbsp;</p>\n\n<p>&nbsp;</p>",
             "BUG_V1_project$154": 1431
         },
         "resources": {
@@ -2165,7 +2165,7 @@
                 ]
             }
         },
-        "version": 10,
+        "version": 11,
         "location": {
             "sortOrder": 1226,
             "globalSortOrder": 1302850089,
@@ -2175,8 +2175,9 @@
             }
         },
         "lock": {
-            "locked": false,
-            "lastLockedDate": "2025-11-19T12:08:33.000+0000"
+            "locked": true,
+            "lastLockedDate": "2025-11-25T05:51:53.000+0000",
+            "lockedBy": 6612
         },
         "type": "items"
     },
@@ -3986,7 +3987,7 @@
         "version": 2,
         "location": {
             "sortOrder": 6,
-            "globalSortOrder": 1305440552,
+            "globalSortOrder": 1304671140,
             "sequence": "12.7",
             "parent": {
                 "item": 19704612
@@ -4465,7 +4466,7 @@
         "version": 16,
         "location": {
             "sortOrder": 191,
-            "globalSortOrder": 1539540944,
+            "globalSortOrder": 1538600400,
             "sequence": "17.1.192",
             "parent": {
                 "item": 14006970
@@ -4527,7 +4528,7 @@
         "version": 4,
         "location": {
             "sortOrder": 237,
-            "globalSortOrder": 1540444200,
+            "globalSortOrder": 1539502920,
             "sequence": "17.1.238",
             "parent": {
                 "item": 14006970
@@ -4591,7 +4592,7 @@
         "version": 12,
         "location": {
             "sortOrder": 4712,
-            "globalSortOrder": 1633243936,
+            "globalSortOrder": 1632246660,
             "sequence": "17.4713",
             "parent": {
                 "item": 83266
@@ -4651,7 +4652,7 @@
         "version": 8,
         "location": {
             "sortOrder": 4713,
-            "globalSortOrder": 1633263572,
+            "globalSortOrder": 1632266280,
             "sequence": "17.4714",
             "parent": {
                 "item": 83266
@@ -4715,7 +4716,7 @@
         "version": 12,
         "location": {
             "sortOrder": 4735,
-            "globalSortOrder": 1633695564,
+            "globalSortOrder": 1632697920,
             "sequence": "17.4736",
             "parent": {
                 "item": 83266
@@ -4781,7 +4782,7 @@
         "version": 18,
         "location": {
             "sortOrder": 4736,
-            "globalSortOrder": 1633715200,
+            "globalSortOrder": 1632717540,
             "sequence": "17.4737",
             "parent": {
                 "item": 83266
@@ -4845,7 +4846,7 @@
         "version": 8,
         "location": {
             "sortOrder": 4763,
-            "globalSortOrder": 1634245372,
+            "globalSortOrder": 1633247280,
             "sequence": "17.4764",
             "parent": {
                 "item": 83266
@@ -4911,7 +4912,7 @@
         "version": 23,
         "location": {
             "sortOrder": 4779,
-            "globalSortOrder": 1634559548,
+            "globalSortOrder": 1633561200,
             "sequence": "17.4780",
             "parent": {
                 "item": 83266
@@ -4973,7 +4974,7 @@
         "version": 8,
         "location": {
             "sortOrder": 4798,
-            "globalSortOrder": 1634932632,
+            "globalSortOrder": 1633933980,
             "sequence": "17.4799",
             "parent": {
                 "item": 83266
@@ -5034,7 +5035,7 @@
         "version": 8,
         "location": {
             "sortOrder": 4809,
-            "globalSortOrder": 1635148628,
+            "globalSortOrder": 1634149800,
             "sequence": "17.4810",
             "parent": {
                 "item": 83266
@@ -5100,7 +5101,7 @@
         "version": 15,
         "location": {
             "sortOrder": 4810,
-            "globalSortOrder": 1635168264,
+            "globalSortOrder": 1634169420,
             "sequence": "17.4811",
             "parent": {
                 "item": 83266
@@ -5164,7 +5165,7 @@
         "version": 14,
         "location": {
             "sortOrder": 4832,
-            "globalSortOrder": 1635600256,
+            "globalSortOrder": 1634601060,
             "sequence": "17.4833",
             "parent": {
                 "item": 83266
@@ -5229,7 +5230,7 @@
         "version": 19,
         "location": {
             "sortOrder": 4847,
-            "globalSortOrder": 1635894796,
+            "globalSortOrder": 1634895360,
             "sequence": "17.4848",
             "parent": {
                 "item": 83266
@@ -5296,7 +5297,7 @@
         "version": 16,
         "location": {
             "sortOrder": 4852,
-            "globalSortOrder": 1635992976,
+            "globalSortOrder": 1634993460,
             "sequence": "17.4853",
             "parent": {
                 "item": 83266
@@ -5359,7 +5360,7 @@
         "version": 12,
         "location": {
             "sortOrder": 4853,
-            "globalSortOrder": 1636012612,
+            "globalSortOrder": 1635013080,
             "sequence": "17.4854",
             "parent": {
                 "item": 83266
@@ -5424,7 +5425,7 @@
         "version": 10,
         "location": {
             "sortOrder": 4856,
-            "globalSortOrder": 1636071520,
+            "globalSortOrder": 1635071940,
             "sequence": "17.4857",
             "parent": {
                 "item": 83266
@@ -5487,7 +5488,7 @@
         "version": 10,
         "location": {
             "sortOrder": 4889,
-            "globalSortOrder": 1636719508,
+            "globalSortOrder": 1635719400,
             "sequence": "17.4890",
             "parent": {
                 "item": 83266
@@ -5554,7 +5555,7 @@
         "version": 29,
         "location": {
             "sortOrder": 4890,
-            "globalSortOrder": 1636739144,
+            "globalSortOrder": 1635739020,
             "sequence": "17.4891",
             "parent": {
                 "item": 83266
@@ -5619,7 +5620,7 @@
         "version": 13,
         "location": {
             "sortOrder": 4941,
-            "globalSortOrder": 1637740580,
+            "globalSortOrder": 1636739640,
             "sequence": "17.4942",
             "parent": {
                 "item": 83266
@@ -5685,7 +5686,7 @@
         "version": 24,
         "location": {
             "sortOrder": 4943,
-            "globalSortOrder": 1637779852,
+            "globalSortOrder": 1636778880,
             "sequence": "17.4944",
             "parent": {
                 "item": 83266
@@ -5747,7 +5748,7 @@
         "version": 6,
         "location": {
             "sortOrder": 4952,
-            "globalSortOrder": 1637956576,
+            "globalSortOrder": 1636955460,
             "sequence": "17.4953",
             "parent": {
                 "item": 83266
@@ -5812,7 +5813,7 @@
         "version": 17,
         "location": {
             "sortOrder": 4957,
-            "globalSortOrder": 1638054756,
+            "globalSortOrder": 1637053560,
             "sequence": "17.4958",
             "parent": {
                 "item": 83266
@@ -5873,7 +5874,7 @@
         "version": 4,
         "location": {
             "sortOrder": 4979,
-            "globalSortOrder": 1638486748,
+            "globalSortOrder": 1637485200,
             "sequence": "17.4980",
             "parent": {
                 "item": 83266
@@ -5931,7 +5932,7 @@
         "version": 4,
         "location": {
             "sortOrder": 5007,
-            "globalSortOrder": 1639036556,
+            "globalSortOrder": 1638034560,
             "sequence": "17.5008",
             "parent": {
                 "item": 83266
@@ -5991,7 +5992,7 @@
         "version": 5,
         "location": {
             "sortOrder": 5029,
-            "globalSortOrder": 1639468548,
+            "globalSortOrder": 1638466200,
             "sequence": "17.5030",
             "parent": {
                 "item": 83266
@@ -6053,7 +6054,7 @@
         "version": 5,
         "location": {
             "sortOrder": 5030,
-            "globalSortOrder": 1639488184,
+            "globalSortOrder": 1638485820,
             "sequence": "17.5031",
             "parent": {
                 "item": 83266
@@ -6111,7 +6112,7 @@
         "version": 2,
         "location": {
             "sortOrder": 5031,
-            "globalSortOrder": 1639507820,
+            "globalSortOrder": 1638505440,
             "sequence": "17.5032",
             "parent": {
                 "item": 83266
@@ -6175,7 +6176,7 @@
         "version": 13,
         "location": {
             "sortOrder": 5036,
-            "globalSortOrder": 1639606000,
+            "globalSortOrder": 1638603540,
             "sequence": "17.5037",
             "parent": {
                 "item": 83266
@@ -6234,7 +6235,7 @@
         "version": 7,
         "location": {
             "sortOrder": 5057,
-            "globalSortOrder": 1640018356,
+            "globalSortOrder": 1639015560,
             "sequence": "17.5058",
             "parent": {
                 "item": 83266
@@ -6300,7 +6301,7 @@
         "version": 11,
         "location": {
             "sortOrder": 5079,
-            "globalSortOrder": 1640450348,
+            "globalSortOrder": 1639447200,
             "sequence": "17.5080",
             "parent": {
                 "item": 83266
@@ -6363,7 +6364,7 @@
         "version": 5,
         "location": {
             "sortOrder": 5094,
-            "globalSortOrder": 1640744888,
+            "globalSortOrder": 1639741500,
             "sequence": "17.5095",
             "parent": {
                 "item": 83266
@@ -6426,7 +6427,7 @@
         "version": 6,
         "location": {
             "sortOrder": 5105,
-            "globalSortOrder": 1640960884,
+            "globalSortOrder": 1639957320,
             "sequence": "17.5106",
             "parent": {
                 "item": 83266
@@ -6484,7 +6485,7 @@
         "version": 2,
         "location": {
             "sortOrder": 5116,
-            "globalSortOrder": 1641176880,
+            "globalSortOrder": 1640173140,
             "sequence": "17.5117",
             "parent": {
                 "item": 83266
@@ -6546,7 +6547,7 @@
         "version": 5,
         "location": {
             "sortOrder": 5124,
-            "globalSortOrder": 1641333968,
+            "globalSortOrder": 1640330100,
             "sequence": "17.5125",
             "parent": {
                 "item": 83266
@@ -6604,7 +6605,7 @@
         "version": 2,
         "location": {
             "sortOrder": 5125,
-            "globalSortOrder": 1641353604,
+            "globalSortOrder": 1640349720,
             "sequence": "17.5126",
             "parent": {
                 "item": 83266
@@ -6662,7 +6663,7 @@
         "version": 2,
         "location": {
             "sortOrder": 5126,
-            "globalSortOrder": 1641373240,
+            "globalSortOrder": 1640369340,
             "sequence": "17.5127",
             "parent": {
                 "item": 83266
@@ -6721,7 +6722,7 @@
         "version": 3,
         "location": {
             "sortOrder": 5127,
-            "globalSortOrder": 1641392876,
+            "globalSortOrder": 1640388960,
             "sequence": "17.5128",
             "parent": {
                 "item": 83266
@@ -6786,7 +6787,7 @@
         "version": 20,
         "location": {
             "sortOrder": 5132,
-            "globalSortOrder": 1641491056,
+            "globalSortOrder": 1640487060,
             "sequence": "17.5133",
             "parent": {
                 "item": 83266
@@ -6850,7 +6851,7 @@
         "version": 11,
         "location": {
             "sortOrder": 5143,
-            "globalSortOrder": 1641707052,
+            "globalSortOrder": 1640702880,
             "sequence": "17.5144",
             "parent": {
                 "item": 83266
@@ -6914,7 +6915,7 @@
         "version": 12,
         "location": {
             "sortOrder": 5146,
-            "globalSortOrder": 1641765960,
+            "globalSortOrder": 1640761740,
             "sequence": "17.5147",
             "parent": {
                 "item": 83266
@@ -6976,7 +6977,7 @@
         "version": 5,
         "location": {
             "sortOrder": 5168,
-            "globalSortOrder": 1642197952,
+            "globalSortOrder": 1641193380,
             "sequence": "17.5169",
             "parent": {
                 "item": 83266
@@ -7035,7 +7036,7 @@
         "version": 4,
         "location": {
             "sortOrder": 5171,
-            "globalSortOrder": 1642256860,
+            "globalSortOrder": 1641252240,
             "sequence": "17.5172",
             "parent": {
                 "item": 83266
@@ -7101,7 +7102,7 @@
         "version": 15,
         "location": {
             "sortOrder": 5174,
-            "globalSortOrder": 1642315768,
+            "globalSortOrder": 1641311100,
             "sequence": "17.5175",
             "parent": {
                 "item": 83266
@@ -7160,7 +7161,7 @@
         "version": 4,
         "location": {
             "sortOrder": 5178,
-            "globalSortOrder": 1642394312,
+            "globalSortOrder": 1641389580,
             "sequence": "17.5179",
             "parent": {
                 "item": 83266
@@ -7218,7 +7219,7 @@
         "version": 4,
         "location": {
             "sortOrder": 5179,
-            "globalSortOrder": 1642413948,
+            "globalSortOrder": 1641409200,
             "sequence": "17.5180",
             "parent": {
                 "item": 83266
@@ -7283,7 +7284,7 @@
         "version": 33,
         "location": {
             "sortOrder": 5184,
-            "globalSortOrder": 1642512128,
+            "globalSortOrder": 1641507300,
             "sequence": "17.5185",
             "parent": {
                 "item": 83266
@@ -7347,7 +7348,7 @@
         "version": 15,
         "location": {
             "sortOrder": 5188,
-            "globalSortOrder": 1642590672,
+            "globalSortOrder": 1641585780,
             "sequence": "17.5189",
             "parent": {
                 "item": 83266
@@ -7403,7 +7404,7 @@
         "version": 2,
         "location": {
             "sortOrder": 5191,
-            "globalSortOrder": 1642649580,
+            "globalSortOrder": 1641644640,
             "sequence": "17.5192",
             "parent": {
                 "item": 83266
@@ -7461,7 +7462,7 @@
         "version": 2,
         "location": {
             "sortOrder": 5193,
-            "globalSortOrder": 1642688852,
+            "globalSortOrder": 1641683880,
             "sequence": "17.5194",
             "parent": {
                 "item": 83266
@@ -7522,7 +7523,7 @@
         "version": 7,
         "location": {
             "sortOrder": 5195,
-            "globalSortOrder": 1642728124,
+            "globalSortOrder": 1641723120,
             "sequence": "17.5196",
             "parent": {
                 "item": 83266
@@ -7580,7 +7581,7 @@
         "version": 4,
         "location": {
             "sortOrder": 5197,
-            "globalSortOrder": 1642767396,
+            "globalSortOrder": 1641762360,
             "sequence": "17.5198",
             "parent": {
                 "item": 83266
@@ -7646,7 +7647,7 @@
         "version": 14,
         "location": {
             "sortOrder": 5198,
-            "globalSortOrder": 1642787032,
+            "globalSortOrder": 1641781980,
             "sequence": "17.5199",
             "parent": {
                 "item": 83266
@@ -7704,7 +7705,7 @@
         "version": 2,
         "location": {
             "sortOrder": 5199,
-            "globalSortOrder": 1642806668,
+            "globalSortOrder": 1641801600,
             "sequence": "17.5200",
             "parent": {
                 "item": 83266
@@ -7766,7 +7767,7 @@
         "version": 4,
         "location": {
             "sortOrder": 5222,
-            "globalSortOrder": 1643258296,
+            "globalSortOrder": 1642252860,
             "sequence": "17.5223",
             "parent": {
                 "item": 83266
@@ -7825,7 +7826,7 @@
         "version": 6,
         "location": {
             "sortOrder": 5226,
-            "globalSortOrder": 1643336840,
+            "globalSortOrder": 1642331340,
             "sequence": "17.5227",
             "parent": {
                 "item": 83266
@@ -7893,7 +7894,7 @@
         "version": 9,
         "location": {
             "sortOrder": 5243,
-            "globalSortOrder": 1643670652,
+            "globalSortOrder": 1642664880,
             "sequence": "17.5244",
             "parent": {
                 "item": 83266
@@ -7956,7 +7957,7 @@
         "version": 14,
         "location": {
             "sortOrder": 5253,
-            "globalSortOrder": 1643867012,
+            "globalSortOrder": 1642861080,
             "sequence": "17.5254",
             "parent": {
                 "item": 83266
@@ -8022,7 +8023,7 @@
         "version": 14,
         "location": {
             "sortOrder": 5308,
-            "globalSortOrder": 1644946992,
+            "globalSortOrder": 1643940180,
             "sequence": "17.5309",
             "parent": {
                 "item": 83266
@@ -8087,7 +8088,7 @@
         "version": 36,
         "location": {
             "sortOrder": 5350,
-            "globalSortOrder": 1645771704,
+            "globalSortOrder": 1644764220,
             "sequence": "17.5351",
             "parent": {
                 "item": 83266
@@ -8152,7 +8153,7 @@
         "version": 24,
         "location": {
             "sortOrder": 5444,
-            "globalSortOrder": 1647617488,
+            "globalSortOrder": 1646608500,
             "sequence": "17.5445",
             "parent": {
                 "item": 83266
@@ -8211,7 +8212,7 @@
         "version": 4,
         "location": {
             "sortOrder": 5445,
-            "globalSortOrder": 1647637124,
+            "globalSortOrder": 1646628120,
             "sequence": "17.5446",
             "parent": {
                 "item": 83266
@@ -8273,7 +8274,7 @@
         "version": 5,
         "location": {
             "sortOrder": 5447,
-            "globalSortOrder": 1647676396,
+            "globalSortOrder": 1646667360,
             "sequence": "17.5448",
             "parent": {
                 "item": 83266
@@ -8338,7 +8339,7 @@
         "version": 12,
         "location": {
             "sortOrder": 5460,
-            "globalSortOrder": 1647931664,
+            "globalSortOrder": 1646922420,
             "sequence": "17.5461",
             "parent": {
                 "item": 83266
@@ -8402,7 +8403,7 @@
         "version": 8,
         "location": {
             "sortOrder": 5461,
-            "globalSortOrder": 1647951300,
+            "globalSortOrder": 1646942040,
             "sequence": "17.5462",
             "parent": {
                 "item": 83266
@@ -8463,7 +8464,7 @@
         "version": 7,
         "location": {
             "sortOrder": 5477,
-            "globalSortOrder": 1648265476,
+            "globalSortOrder": 1647255960,
             "sequence": "17.5478",
             "parent": {
                 "item": 83266
@@ -8528,7 +8529,7 @@
         "version": 10,
         "location": {
             "sortOrder": 5482,
-            "globalSortOrder": 1648363656,
+            "globalSortOrder": 1647354060,
             "sequence": "17.5483",
             "parent": {
                 "item": 83266
@@ -8593,7 +8594,7 @@
         "version": 18,
         "location": {
             "sortOrder": 5484,
-            "globalSortOrder": 1648402928,
+            "globalSortOrder": 1647393300,
             "sequence": "17.5485",
             "parent": {
                 "item": 83266
@@ -8655,7 +8656,7 @@
         "version": 8,
         "location": {
             "sortOrder": 5487,
-            "globalSortOrder": 1648461836,
+            "globalSortOrder": 1647452160,
             "sequence": "17.5488",
             "parent": {
                 "item": 83266
@@ -8716,7 +8717,7 @@
         "version": 4,
         "location": {
             "sortOrder": 5494,
-            "globalSortOrder": 1648599288,
+            "globalSortOrder": 1647589500,
             "sequence": "17.5495",
             "parent": {
                 "item": 83266
@@ -8775,7 +8776,7 @@
         "version": 6,
         "location": {
             "sortOrder": 5497,
-            "globalSortOrder": 1648658196,
+            "globalSortOrder": 1647648360,
             "sequence": "17.5498",
             "parent": {
                 "item": 83266
@@ -8836,7 +8837,7 @@
         "version": 7,
         "location": {
             "sortOrder": 5500,
-            "globalSortOrder": 1648717104,
+            "globalSortOrder": 1647707220,
             "sequence": "17.5501",
             "parent": {
                 "item": 83266
@@ -8896,7 +8897,7 @@
         "version": 7,
         "location": {
             "sortOrder": 5516,
-            "globalSortOrder": 1649031280,
+            "globalSortOrder": 1648021140,
             "sequence": "17.5517",
             "parent": {
                 "item": 83266
@@ -8954,7 +8955,7 @@
         "version": 2,
         "location": {
             "sortOrder": 5518,
-            "globalSortOrder": 1649070552,
+            "globalSortOrder": 1648060380,
             "sequence": "17.5519",
             "parent": {
                 "item": 83266
@@ -9015,7 +9016,7 @@
         "version": 5,
         "location": {
             "sortOrder": 5522,
-            "globalSortOrder": 1649149096,
+            "globalSortOrder": 1648138860,
             "sequence": "17.5523",
             "parent": {
                 "item": 83266
@@ -9073,7 +9074,7 @@
         "version": 2,
         "location": {
             "sortOrder": 5525,
-            "globalSortOrder": 1649208004,
+            "globalSortOrder": 1648197720,
             "sequence": "17.5526",
             "parent": {
                 "item": 83266
@@ -9131,7 +9132,7 @@
         "version": 1,
         "location": {
             "sortOrder": 5527,
-            "globalSortOrder": 1649247276,
+            "globalSortOrder": 1648236960,
             "sequence": "17.5528",
             "parent": {
                 "item": 83266
@@ -9189,7 +9190,7 @@
         "version": 3,
         "location": {
             "sortOrder": 5528,
-            "globalSortOrder": 1649266912,
+            "globalSortOrder": 1648256580,
             "sequence": "17.5529",
             "parent": {
                 "item": 83266
@@ -9247,7 +9248,7 @@
         "version": 1,
         "location": {
             "sortOrder": 5529,
-            "globalSortOrder": 1649286548,
+            "globalSortOrder": 1648276200,
             "sequence": "17.5530",
             "parent": {
                 "item": 83266
@@ -9310,7 +9311,7 @@
         "version": 10,
         "location": {
             "sortOrder": 5532,
-            "globalSortOrder": 1649345456,
+            "globalSortOrder": 1648335060,
             "sequence": "17.5533",
             "parent": {
                 "item": 83266
@@ -9369,7 +9370,7 @@
         "version": 3,
         "location": {
             "sortOrder": 5534,
-            "globalSortOrder": 1649384728,
+            "globalSortOrder": 1648374300,
             "sequence": "17.5535",
             "parent": {
                 "item": 83266
@@ -9434,7 +9435,7 @@
         "version": 16,
         "location": {
             "sortOrder": 5535,
-            "globalSortOrder": 1649404364,
+            "globalSortOrder": 1648393920,
             "sequence": "17.5536",
             "parent": {
                 "item": 83266
@@ -9499,7 +9500,7 @@
         "version": 8,
         "location": {
             "sortOrder": 5541,
-            "globalSortOrder": 1649522180,
+            "globalSortOrder": 1648511640,
             "sequence": "17.5542",
             "parent": {
                 "item": 83266
@@ -9562,7 +9563,7 @@
         "version": 7,
         "location": {
             "sortOrder": 5542,
-            "globalSortOrder": 1649541816,
+            "globalSortOrder": 1648531260,
             "sequence": "17.5543",
             "parent": {
                 "item": 83266
@@ -9625,7 +9626,7 @@
         "version": 9,
         "location": {
             "sortOrder": 5543,
-            "globalSortOrder": 1649561452,
+            "globalSortOrder": 1648550880,
             "sequence": "17.5544",
             "parent": {
                 "item": 83266
@@ -9686,7 +9687,7 @@
         "version": 4,
         "location": {
             "sortOrder": 5544,
-            "globalSortOrder": 1649581088,
+            "globalSortOrder": 1648570500,
             "sequence": "17.5545",
             "parent": {
                 "item": 83266
@@ -9749,7 +9750,7 @@
         "version": 7,
         "location": {
             "sortOrder": 5546,
-            "globalSortOrder": 1649620360,
+            "globalSortOrder": 1648609740,
             "sequence": "17.5547",
             "parent": {
                 "item": 83266
@@ -9811,7 +9812,7 @@
         "version": 7,
         "location": {
             "sortOrder": 5547,
-            "globalSortOrder": 1649639996,
+            "globalSortOrder": 1648629360,
             "sequence": "17.5548",
             "parent": {
                 "item": 83266
@@ -9873,7 +9874,7 @@
         "version": 10,
         "location": {
             "sortOrder": 5553,
-            "globalSortOrder": 1649757812,
+            "globalSortOrder": 1648747080,
             "sequence": "17.5554",
             "parent": {
                 "item": 83266
@@ -9936,7 +9937,7 @@
         "version": 7,
         "location": {
             "sortOrder": 5561,
-            "globalSortOrder": 1649914900,
+            "globalSortOrder": 1648904040,
             "sequence": "17.5562",
             "parent": {
                 "item": 83266
@@ -9999,7 +10000,7 @@
         "version": 7,
         "location": {
             "sortOrder": 5564,
-            "globalSortOrder": 1649973808,
+            "globalSortOrder": 1648962900,
             "sequence": "17.5565",
             "parent": {
                 "item": 83266
@@ -10062,7 +10063,7 @@
         "version": 5,
         "location": {
             "sortOrder": 5568,
-            "globalSortOrder": 1650052352,
+            "globalSortOrder": 1649041380,
             "sequence": "17.5569",
             "parent": {
                 "item": 83266
@@ -10121,7 +10122,7 @@
         "version": 6,
         "location": {
             "sortOrder": 5571,
-            "globalSortOrder": 1650111260,
+            "globalSortOrder": 1649100240,
             "sequence": "17.5572",
             "parent": {
                 "item": 83266
@@ -10185,7 +10186,7 @@
         "version": 6,
         "location": {
             "sortOrder": 5572,
-            "globalSortOrder": 1650130896,
+            "globalSortOrder": 1649119860,
             "sequence": "17.5573",
             "parent": {
                 "item": 83266
@@ -10247,7 +10248,7 @@
         "version": 4,
         "location": {
             "sortOrder": 5574,
-            "globalSortOrder": 1650170168,
+            "globalSortOrder": 1649159100,
             "sequence": "17.5575",
             "parent": {
                 "item": 83266
@@ -10311,7 +10312,7 @@
         "version": 7,
         "location": {
             "sortOrder": 5576,
-            "globalSortOrder": 1650209440,
+            "globalSortOrder": 1649198340,
             "sequence": "17.5577",
             "parent": {
                 "item": 83266
@@ -10374,7 +10375,7 @@
         "version": 7,
         "location": {
             "sortOrder": 5579,
-            "globalSortOrder": 1650268348,
+            "globalSortOrder": 1649257200,
             "sequence": "17.5580",
             "parent": {
                 "item": 83266
@@ -10442,7 +10443,7 @@
         "version": 19,
         "location": {
             "sortOrder": 5582,
-            "globalSortOrder": 1650327256,
+            "globalSortOrder": 1649316060,
             "sequence": "17.5583",
             "parent": {
                 "item": 83266
@@ -10505,7 +10506,7 @@
         "version": 6,
         "location": {
             "sortOrder": 5583,
-            "globalSortOrder": 1650346892,
+            "globalSortOrder": 1649335680,
             "sequence": "17.5584",
             "parent": {
                 "item": 83266
@@ -10570,7 +10571,7 @@
         "version": 30,
         "location": {
             "sortOrder": 5584,
-            "globalSortOrder": 1650366528,
+            "globalSortOrder": 1649355300,
             "sequence": "17.5585",
             "parent": {
                 "item": 83266
@@ -10632,7 +10633,7 @@
         "version": 5,
         "location": {
             "sortOrder": 5585,
-            "globalSortOrder": 1650386164,
+            "globalSortOrder": 1649374920,
             "sequence": "17.5586",
             "parent": {
                 "item": 83266
@@ -10695,7 +10696,7 @@
         "version": 7,
         "location": {
             "sortOrder": 5591,
-            "globalSortOrder": 1650503980,
+            "globalSortOrder": 1649492640,
             "sequence": "17.5592",
             "parent": {
                 "item": 83266
@@ -10759,7 +10760,7 @@
         "version": 5,
         "location": {
             "sortOrder": 5600,
-            "globalSortOrder": 1650680704,
+            "globalSortOrder": 1649669220,
             "sequence": "17.5601",
             "parent": {
                 "item": 83266
@@ -10824,7 +10825,7 @@
         "version": 14,
         "location": {
             "sortOrder": 5609,
-            "globalSortOrder": 1650857428,
+            "globalSortOrder": 1649845800,
             "sequence": "17.5610",
             "parent": {
                 "item": 83266
@@ -10887,7 +10888,7 @@
         "version": 3,
         "location": {
             "sortOrder": 5614,
-            "globalSortOrder": 1650955608,
+            "globalSortOrder": 1649943900,
             "sequence": "17.5615",
             "parent": {
                 "item": 83266
@@ -10951,7 +10952,7 @@
         "version": 7,
         "location": {
             "sortOrder": 5618,
-            "globalSortOrder": 1651034152,
+            "globalSortOrder": 1650022380,
             "sequence": "17.5619",
             "parent": {
                 "item": 83266
@@ -11016,7 +11017,7 @@
         "version": 12,
         "location": {
             "sortOrder": 5620,
-            "globalSortOrder": 1651073424,
+            "globalSortOrder": 1650061620,
             "sequence": "17.5621",
             "parent": {
                 "item": 83266
@@ -11080,7 +11081,7 @@
         "version": 7,
         "location": {
             "sortOrder": 5621,
-            "globalSortOrder": 1651093060,
+            "globalSortOrder": 1650081240,
             "sequence": "17.5622",
             "parent": {
                 "item": 83266
@@ -11143,7 +11144,7 @@
         "version": 2,
         "location": {
             "sortOrder": 5623,
-            "globalSortOrder": 1651132332,
+            "globalSortOrder": 1650120480,
             "sequence": "17.5624",
             "parent": {
                 "item": 83266
@@ -11206,7 +11207,7 @@
         "version": 5,
         "location": {
             "sortOrder": 5624,
-            "globalSortOrder": 1651151968,
+            "globalSortOrder": 1650140100,
             "sequence": "17.5625",
             "parent": {
                 "item": 83266
@@ -11270,7 +11271,7 @@
         "version": 15,
         "location": {
             "sortOrder": 5628,
-            "globalSortOrder": 1651230512,
+            "globalSortOrder": 1650218580,
             "sequence": "17.5629",
             "parent": {
                 "item": 83266
@@ -11334,7 +11335,7 @@
         "version": 5,
         "location": {
             "sortOrder": 5634,
-            "globalSortOrder": 1651348328,
+            "globalSortOrder": 1650336300,
             "sequence": "17.5635",
             "parent": {
                 "item": 83266
@@ -11353,16 +11354,16 @@
         "itemType": 154,
         "project": 229,
         "createdDate": "2025-06-25T09:16:42.000+0000",
-        "modifiedDate": "2025-10-17T13:33:03.000+0000",
-        "lastActivityDate": "2025-10-17T13:33:03.000+0000",
+        "modifiedDate": "2025-11-25T05:20:50.000+0000",
+        "lastActivityDate": "2025-11-25T05:27:00.000+0000",
         "createdBy": 5995,
-        "modifiedBy": 1120,
+        "modifiedBy": 5995,
         "fields": {
             "documentKey": "KCE-SWBUG-6105",
             "globalId": "GID-7241539",
             "name": "16.10 - KCEDCS - Sitemanager puts continuous popups for a Router device.",
             "description": "<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\"><strong>Detailed Defect Description:</strong></span></span></p>\n\n<p><span style=\"font-family:Calibri, sans-serif\"><span style=\"font-size:14.6667px\">Sitemanager puts continuous popups for a router device</span></span></p>\n\n<p>&nbsp;</p>\n\n<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\"><strong>Parameters:&nbsp;&nbsp;</strong></span></span></p>\n\n<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\">(e.g. Parameter X (Description of the parameter) - parameter value)</span></span></p>\n\n<p>&nbsp;</p>\n\n<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\"><strong>Group configuration: </strong></span></span></p>\n\n<p><span style=\"font-family:Calibri, sans-serif\"><span style=\"font-size:14.6667px\">Fourplex</span></span></p>\n\n<p>&nbsp;</p>\n\n<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\"><strong>Drive type:</strong></span></span></p>\n\n<p><span style=\"font-family:Calibri, sans-serif\"><span style=\"font-size:14.6667px\">KDL16 and KDM</span></span></p>\n\n<p>&nbsp;</p>\n\n<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\"><strong>Regression or new finding:</strong></span></span></p>\n\n<p><span style=\"font-family:Calibri, sans-serif\"><span style=\"font-size:14.6667px\">New</span></span></p>\n\n<p>&nbsp;</p>\n\n<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\"><strong>Test case Name / Feature name:</strong></span></span></p>\n\n<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\">ad-hoc defect</span></span></p>\n\n<p>&nbsp;</p>\n\n<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\"><strong>Test step number:</strong></span></span></p>\n\n<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\">\u201cad-hoc scenario\u201d</span></span></p>\n\n<p>&nbsp;</p>\n\n<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\"><strong>Description of the test case (Detailed Scenario)&nbsp;</strong></span></span></p>\n\n<ul>\n\t<li>Open the Site Manager</li>\n\t<li>The \"router modified\"&nbsp;message displays several times</li>\n</ul>\n\n<p><img alt=\"\" height=\"341\" src=\"https://konerqm.jamacloud.com/attachment/216306/image-uW8OwNye11.png\" width=\"735\" /></p>\n\n<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\"><strong>Expected behavior:&nbsp;&nbsp;</strong></span></span></p>\n\n<p><span style=\"font-family:Calibri, sans-serif\"><span style=\"font-size:14.6667px\">The popup should not occur several times</span></span></p>\n\n<p>&nbsp;</p>\n\n<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\"><strong>Actual behavior:</strong></span></span></p>\n\n<p><span style=\"font-family:Calibri, sans-serif\"><span style=\"font-size:14.6667px\">The popup occurs several times</span></span></p>\n\n<p>&nbsp;</p>\n\n<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\"><strong>Recovery:&nbsp;</strong></span></span></p>\n\n<p><span style=\"font-family:Calibri, sans-serif\"><span style=\"font-size:14.6667px\">No</span></span></p>\n\n<p>&nbsp;</p>\n\n<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\"><strong>Log attached Information:</strong></span></span></p>\n\n<p><span style=\"font-family:Calibri, sans-serif\"><span style=\"font-size:14.6667px\">Sitemanager UI</span></span><span style=\"font-family:Calibri, sans-serif\"><span style=\"font-size:14.6667px\">,Node debug info,Clip</span></span></p>\n\n<p>&nbsp;</p>\n\n<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\">Note: Once defect is logged, attachments can be done by editing the defect (use compressed zip folder format)</span></span></p>\n\n<p>&nbsp;</p>\n\n<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\"><strong>Value-added information:&nbsp;</strong></span></span></p>\n\n<p><strong><span style=\"background-color:#f39c12\">Nothing modified in the router</span></strong></p>\n\n<p>&nbsp;</p>\n\n<p><strong>Model: WS-C3560CX-8PC-S</strong></p>\n\n<p>&nbsp;</p>\n\n<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\"><strong>Test Sequence history:&nbsp;</strong></span></span></p>\n\n<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\">1: was failing scenario passing earlier</span></span></p>\n\n<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\">2. what was SW level when this was passing last time</span></span></p>\n\n<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\">3. any changes in test setup or test scenario between passed and failed run</span></span></p>\n\n<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\">4. any changes in tested system configuration between passed and failed run</span></span></p>\n\n<p>&nbsp;</p>\n\n<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\"><strong>Requirement related to the defect:</strong></span></span></p>\n\n<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\">(e.g. URL link to requirement which is related to the defect)</span></span></p>\n",
-            "status": 1085,
+            "status": 1087,
             "BUG_component$154": 2273,
             "createdBy": 5995,
             "assignedTo": 3399,
@@ -11392,10 +11393,10 @@
                 ]
             }
         },
-        "version": 5,
+        "version": 6,
         "location": {
             "sortOrder": 5639,
-            "globalSortOrder": 1651446508,
+            "globalSortOrder": 1650434400,
             "sequence": "17.5640",
             "parent": {
                 "item": 83266
@@ -11403,7 +11404,7 @@
         },
         "lock": {
             "locked": false,
-            "lastLockedDate": "2025-08-12T09:14:36.000+0000"
+            "lastLockedDate": "2025-11-25T05:20:51.000+0000"
         },
         "type": "items"
     },
@@ -11461,7 +11462,7 @@
         "version": 12,
         "location": {
             "sortOrder": 5640,
-            "globalSortOrder": 1651466144,
+            "globalSortOrder": 1650454020,
             "sequence": "17.5641",
             "parent": {
                 "item": 83266
@@ -11524,7 +11525,7 @@
         "version": 2,
         "location": {
             "sortOrder": 5643,
-            "globalSortOrder": 1651525052,
+            "globalSortOrder": 1650512880,
             "sequence": "17.5644",
             "parent": {
                 "item": 83266
@@ -11583,7 +11584,7 @@
         "version": 5,
         "location": {
             "sortOrder": 5652,
-            "globalSortOrder": 1651701776,
+            "globalSortOrder": 1650689460,
             "sequence": "17.5653",
             "parent": {
                 "item": 83266
@@ -11649,7 +11650,7 @@
         "version": 13,
         "location": {
             "sortOrder": 5655,
-            "globalSortOrder": 1651760684,
+            "globalSortOrder": 1650748320,
             "sequence": "17.5656",
             "parent": {
                 "item": 83266
@@ -11713,7 +11714,7 @@
         "version": 8,
         "location": {
             "sortOrder": 5657,
-            "globalSortOrder": 1651799956,
+            "globalSortOrder": 1650787560,
             "sequence": "17.5658",
             "parent": {
                 "item": 83266
@@ -11777,7 +11778,7 @@
         "version": 5,
         "location": {
             "sortOrder": 5661,
-            "globalSortOrder": 1651878500,
+            "globalSortOrder": 1650866040,
             "sequence": "17.5662",
             "parent": {
                 "item": 83266
@@ -11836,7 +11837,7 @@
         "version": 4,
         "location": {
             "sortOrder": 5669,
-            "globalSortOrder": 1652035588,
+            "globalSortOrder": 1651023000,
             "sequence": "17.5670",
             "parent": {
                 "item": 83266
@@ -11900,7 +11901,7 @@
         "version": 5,
         "location": {
             "sortOrder": 5679,
-            "globalSortOrder": 1652231948,
+            "globalSortOrder": 1651219200,
             "sequence": "17.5680",
             "parent": {
                 "item": 83266
@@ -11964,7 +11965,7 @@
         "version": 10,
         "location": {
             "sortOrder": 5680,
-            "globalSortOrder": 1652251584,
+            "globalSortOrder": 1651238820,
             "sequence": "17.5681",
             "parent": {
                 "item": 83266
@@ -12028,7 +12029,7 @@
         "version": 6,
         "location": {
             "sortOrder": 5685,
-            "globalSortOrder": 1652349764,
+            "globalSortOrder": 1651336920,
             "sequence": "17.5686",
             "parent": {
                 "item": 83266
@@ -12092,7 +12093,7 @@
         "version": 6,
         "location": {
             "sortOrder": 5707,
-            "globalSortOrder": 1652781756,
+            "globalSortOrder": 1651768560,
             "sequence": "17.5708",
             "parent": {
                 "item": 83266
@@ -12155,7 +12156,7 @@
         "version": 12,
         "location": {
             "sortOrder": 5714,
-            "globalSortOrder": 1652919208,
+            "globalSortOrder": 1651905900,
             "sequence": "17.5715",
             "parent": {
                 "item": 83266
@@ -12223,7 +12224,7 @@
         "version": 8,
         "location": {
             "sortOrder": 5716,
-            "globalSortOrder": 1652958480,
+            "globalSortOrder": 1651945140,
             "sequence": "17.5717",
             "parent": {
                 "item": 83266
@@ -12288,7 +12289,7 @@
         "version": 14,
         "location": {
             "sortOrder": 5718,
-            "globalSortOrder": 1652997752,
+            "globalSortOrder": 1651984380,
             "sequence": "17.5719",
             "parent": {
                 "item": 83266
@@ -12350,7 +12351,7 @@
         "version": 11,
         "location": {
             "sortOrder": 5728,
-            "globalSortOrder": 1653194112,
+            "globalSortOrder": 1652180580,
             "sequence": "17.5729",
             "parent": {
                 "item": 83266
@@ -12417,7 +12418,7 @@
         "version": 16,
         "location": {
             "sortOrder": 5734,
-            "globalSortOrder": 1653311928,
+            "globalSortOrder": 1652298300,
             "sequence": "17.5735",
             "parent": {
                 "item": 83266
@@ -12482,7 +12483,7 @@
         "version": 9,
         "location": {
             "sortOrder": 5735,
-            "globalSortOrder": 1653331564,
+            "globalSortOrder": 1652317920,
             "sequence": "17.5736",
             "parent": {
                 "item": 83266
@@ -12545,7 +12546,7 @@
         "version": 15,
         "location": {
             "sortOrder": 5736,
-            "globalSortOrder": 1653351200,
+            "globalSortOrder": 1652337540,
             "sequence": "17.5737",
             "parent": {
                 "item": 83266
@@ -12611,7 +12612,7 @@
         "version": 10,
         "location": {
             "sortOrder": 5737,
-            "globalSortOrder": 1653370836,
+            "globalSortOrder": 1652357160,
             "sequence": "17.5738",
             "parent": {
                 "item": 83266
@@ -12670,7 +12671,7 @@
         "version": 4,
         "location": {
             "sortOrder": 5739,
-            "globalSortOrder": 1653410108,
+            "globalSortOrder": 1652396400,
             "sequence": "17.5740",
             "parent": {
                 "item": 83266
@@ -12732,7 +12733,7 @@
         "version": 11,
         "location": {
             "sortOrder": 5740,
-            "globalSortOrder": 1653429744,
+            "globalSortOrder": 1652416020,
             "sequence": "17.5741",
             "parent": {
                 "item": 83266
@@ -12793,7 +12794,7 @@
         "version": 5,
         "location": {
             "sortOrder": 5746,
-            "globalSortOrder": 1653547560,
+            "globalSortOrder": 1652533740,
             "sequence": "17.5747",
             "parent": {
                 "item": 83266
@@ -12812,8 +12813,8 @@
         "itemType": 154,
         "project": 229,
         "createdDate": "2025-07-16T06:02:35.000+0000",
-        "modifiedDate": "2025-10-17T14:03:19.000+0000",
-        "lastActivityDate": "2025-10-17T14:03:19.000+0000",
+        "modifiedDate": "2025-11-25T05:36:23.000+0000",
+        "lastActivityDate": "2025-11-25T05:36:23.000+0000",
         "createdBy": 5995,
         "modifiedBy": 620,
         "fields": {
@@ -12821,7 +12822,7 @@
             "globalId": "GID-7291064",
             "name": "16.10 - KCEDCS - LAN Riser details are missing from the network view in the SM UI",
             "description": "<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\"><strong>Detailed Defect Description:</strong></span></span></p>\n\n<p>Sometimes, the SM network view fails to display LAN Riser information</p>\n\n<p>&nbsp;</p>\n\n<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\"><strong>Parameters:&nbsp;&nbsp;</strong></span></span></p>\n\n<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\">(e.g. Parameter X (Description of the parameter) - parameter value)</span></span></p>\n\n<p>&nbsp;</p>\n\n<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\"><strong>Group configuration: </strong></span></span></p>\n\n<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\">Fourplex</span></span></p>\n\n<p>&nbsp;</p>\n\n<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\"><strong>Drive type:</strong></span></span></p>\n\n<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\">KDM and KDL16</span></span></p>\n\n<p>&nbsp;</p>\n\n<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\"><strong>Regression or new finding:</strong></span></span></p>\n\n<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\">New</span></span></p>\n\n<p>&nbsp;</p>\n\n<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\"><strong>Test case Name / Feature name:</strong></span></span></p>\n\n<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\">ad-hoc defect</span></span></p>\n\n<p>&nbsp;</p>\n\n<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\"><strong>Test step number:</strong></span></span></p>\n\n<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\">\u201cad-hoc scenario\u201d</span></span></p>\n\n<p>&nbsp;</p>\n\n<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\"><strong>Description of the test case (Detailed Scenario)&nbsp;</strong></span></span></p>\n\n<ul>\n\t<li>Open the Sitemanager</li>\n\t<li>Click the Network view button on the dashboard</li>\n\t<li>Click the LAN riser segment information</li>\n\t<li>xDOP and EG LAN information is missing.</li>\n</ul>\n\n<p><strong>RISER SWITCH 1:</strong></p>\n\n<p>&nbsp;</p>\n\n<p>Physically, 8 xDOPs are present, but only 4 are shown</p>\n\n<p><img alt=\"\" height=\"229\" src=\"https://konerqm.jamacloud.com/attachment/218167/image-dTK8Y7CYmn.png\" width=\"187\" /></p>\n\n<p>&nbsp;</p>\n\n<p>&nbsp;</p>\n\n<p>The connection view from the Switch to EG is missing</p>\n\n<p><img alt=\"\" height=\"205\" src=\"https://konerqm.jamacloud.com/attachment/218169/image-vnRJrK8CCJ.png\" width=\"186\" /></p>\n\n<p>&nbsp;</p>\n\n<p><strong>RISER SWITCH 2:</strong></p>\n\n<p>&nbsp;</p>\n\n<p>Physically, 8 xDOPs are present, but only 4 are shown</p>\n\n<p><img alt=\"\" height=\"219\" src=\"https://konerqm.jamacloud.com/attachment/218171/image-AHruy7cgKA.png\" width=\"179\" /></p>\n\n<p>&nbsp;</p>\n\n<p>The EG terminal and floor information are not shown in the connection view from the Switch; an ELINK message appears in their place</p>\n\n<p><img alt=\"\" height=\"189\" src=\"https://konerqm.jamacloud.com/attachment/218172/image-VwO2A0zD4R.png\" width=\"180\" /></p>\n\n<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\"><strong>Expected behavior:&nbsp;&nbsp;</strong></span></span></p>\n\n<p><span style=\"font-family:Calibri, sans-serif\"><span style=\"font-size:14.6667px\">The Network view should show the correct information</span></span></p>\n\n<p>&nbsp;</p>\n\n<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\"><strong>Actual behavior:</strong></span></span></p>\n\n<p><span style=\"font-family:Calibri, sans-serif\"><span style=\"font-size:14.6667px\">The SM refused to show the correct information in the network view</span></span></p>\n\n<p>&nbsp;</p>\n\n<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\"><strong>Recovery:&nbsp;</strong></span></span></p>\n\n<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\">No</span></span></p>\n\n<p>&nbsp;</p>\n\n<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\"><strong>Log attached Information:</strong></span></span></p>\n\n<p>&nbsp;</p>\n\n<p><span style=\"background-color:#f1c40f\">This is happening sometimes</span></p>\n\n<p><span style=\"font-family:Calibri, sans-serif\"><span style=\"font-size:14.6667px\">Sitemanger UI</span></span></p>\n\n<p>&nbsp;</p>\n\n<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\">Note: Once defect is logged, attachments can be done by editing the defect (use compressed zip folder format)</span></span></p>\n\n<p>&nbsp;</p>\n\n<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\"><strong>Value-added information:&nbsp;</strong></span></span></p>\n\n<p>&nbsp;</p>\n\n<p><strong>Model: WS-C3560CX-8PC-S</strong></p>\n\n<p>SM version - 4.39.0</p>\n\n<p>&nbsp;</p>\n\n<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\"><strong>Test Sequence history:&nbsp;</strong></span></span></p>\n\n<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\">1: was failing scenario passing earlier</span></span></p>\n\n<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\">2. what was SW level when this was passing last time</span></span></p>\n\n<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\">3. any changes in test setup or test scenario between passed and failed run</span></span></p>\n\n<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\">4. any changes in tested system configuration between passed and failed run</span></span></p>\n\n<p>&nbsp;</p>\n\n<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\"><strong>Requirement related to the defect:</strong></span></span></p>\n\n<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\">(e.g. URL link to requirement which is related to the defect)</span></span></p>\n",
-            "status": 1085,
+            "status": 1087,
             "BUG_component$154": 2273,
             "createdBy": 5995,
             "assignedTo": 3399,
@@ -12842,7 +12843,7 @@
             "BUG_jiraId$154": "MST-14945",
             "BUG_jira_project$154": 2460,
             "BUG_jira_URL$154": "https://kone.atlassian.net/browse/MST-14945",
-            "BUG_integration_synced_time$154": "2025-10-17 14:03:18.435238",
+            "BUG_integration_synced_time$154": "2025-11-25 05:36:22.832705",
             "BUG_V1_project$154": 1431
         },
         "resources": {
@@ -12855,10 +12856,10 @@
                 ]
             }
         },
-        "version": 8,
+        "version": 10,
         "location": {
             "sortOrder": 5747,
-            "globalSortOrder": 1653567196,
+            "globalSortOrder": 1652553360,
             "sequence": "17.5748",
             "parent": {
                 "item": 83266
@@ -12866,7 +12867,7 @@
         },
         "lock": {
             "locked": false,
-            "lastLockedDate": "2025-08-21T12:48:21.000+0000"
+            "lastLockedDate": "2025-11-25T05:36:09.000+0000"
         },
         "type": "items"
     },
@@ -12921,7 +12922,7 @@
         "version": 9,
         "location": {
             "sortOrder": 5748,
-            "globalSortOrder": 1653586832,
+            "globalSortOrder": 1652572980,
             "sequence": "17.5749",
             "parent": {
                 "item": 83266
@@ -12985,7 +12986,7 @@
         "version": 15,
         "location": {
             "sortOrder": 5751,
-            "globalSortOrder": 1653645740,
+            "globalSortOrder": 1652631840,
             "sequence": "17.5752",
             "parent": {
                 "item": 83266
@@ -13049,7 +13050,7 @@
         "version": 9,
         "location": {
             "sortOrder": 5756,
-            "globalSortOrder": 1653743920,
+            "globalSortOrder": 1652729940,
             "sequence": "17.5757",
             "parent": {
                 "item": 83266
@@ -13107,7 +13108,7 @@
         "version": 2,
         "location": {
             "sortOrder": 5763,
-            "globalSortOrder": 1653881372,
+            "globalSortOrder": 1652867280,
             "sequence": "17.5764",
             "parent": {
                 "item": 83266
@@ -13168,7 +13169,7 @@
         "version": 6,
         "location": {
             "sortOrder": 5803,
-            "globalSortOrder": 1654666812,
+            "globalSortOrder": 1653652080,
             "sequence": "17.5804",
             "parent": {
                 "item": 83266
@@ -13227,7 +13228,7 @@
         "version": 3,
         "location": {
             "sortOrder": 5812,
-            "globalSortOrder": 1654843536,
+            "globalSortOrder": 1653828660,
             "sequence": "17.5813",
             "parent": {
                 "item": 83266
@@ -13290,7 +13291,7 @@
         "version": 9,
         "location": {
             "sortOrder": 5813,
-            "globalSortOrder": 1654863172,
+            "globalSortOrder": 1653848280,
             "sequence": "17.5814",
             "parent": {
                 "item": 83266
@@ -13353,7 +13354,7 @@
         "version": 10,
         "location": {
             "sortOrder": 5818,
-            "globalSortOrder": 1654961352,
+            "globalSortOrder": 1653946380,
             "sequence": "17.5819",
             "parent": {
                 "item": 83266
@@ -13418,7 +13419,7 @@
         "version": 8,
         "location": {
             "sortOrder": 5820,
-            "globalSortOrder": 1655000624,
+            "globalSortOrder": 1653985620,
             "sequence": "17.5821",
             "parent": {
                 "item": 83266
@@ -13479,7 +13480,7 @@
         "version": 2,
         "location": {
             "sortOrder": 5822,
-            "globalSortOrder": 1655039896,
+            "globalSortOrder": 1654024860,
             "sequence": "17.5823",
             "parent": {
                 "item": 83266
@@ -13545,7 +13546,7 @@
         "version": 6,
         "location": {
             "sortOrder": 5827,
-            "globalSortOrder": 1655138076,
+            "globalSortOrder": 1654122960,
             "sequence": "17.5828",
             "parent": {
                 "item": 83266
@@ -13606,7 +13607,7 @@
         "version": 5,
         "location": {
             "sortOrder": 5828,
-            "globalSortOrder": 1655157712,
+            "globalSortOrder": 1654142580,
             "sequence": "17.5829",
             "parent": {
                 "item": 83266
@@ -13669,7 +13670,7 @@
         "version": 6,
         "location": {
             "sortOrder": 5835,
-            "globalSortOrder": 1655295164,
+            "globalSortOrder": 1654279920,
             "sequence": "17.5836",
             "parent": {
                 "item": 83266
@@ -13729,7 +13730,7 @@
         "version": 7,
         "location": {
             "sortOrder": 5837,
-            "globalSortOrder": 1655334436,
+            "globalSortOrder": 1654319160,
             "sequence": "17.5838",
             "parent": {
                 "item": 83266
@@ -13788,7 +13789,7 @@
         "version": 4,
         "location": {
             "sortOrder": 5839,
-            "globalSortOrder": 1655373708,
+            "globalSortOrder": 1654358400,
             "sequence": "17.5840",
             "parent": {
                 "item": 83266
@@ -13854,7 +13855,7 @@
         "version": 19,
         "location": {
             "sortOrder": 5841,
-            "globalSortOrder": 1655412980,
+            "globalSortOrder": 1654397640,
             "sequence": "17.5842",
             "parent": {
                 "item": 83266
@@ -13920,7 +13921,7 @@
         "version": 19,
         "location": {
             "sortOrder": 5842,
-            "globalSortOrder": 1655432616,
+            "globalSortOrder": 1654417260,
             "sequence": "17.5843",
             "parent": {
                 "item": 83266
@@ -13983,7 +13984,7 @@
         "version": 2,
         "location": {
             "sortOrder": 5846,
-            "globalSortOrder": 1655511160,
+            "globalSortOrder": 1654495740,
             "sequence": "17.5847",
             "parent": {
                 "item": 83266
@@ -14047,7 +14048,7 @@
         "version": 8,
         "location": {
             "sortOrder": 5847,
-            "globalSortOrder": 1655530796,
+            "globalSortOrder": 1654515360,
             "sequence": "17.5848",
             "parent": {
                 "item": 83266
@@ -14113,7 +14114,7 @@
         "version": 18,
         "location": {
             "sortOrder": 5848,
-            "globalSortOrder": 1655550432,
+            "globalSortOrder": 1654534980,
             "sequence": "17.5849",
             "parent": {
                 "item": 83266
@@ -14176,7 +14177,7 @@
         "version": 2,
         "location": {
             "sortOrder": 5851,
-            "globalSortOrder": 1655609340,
+            "globalSortOrder": 1654593840,
             "sequence": "17.5852",
             "parent": {
                 "item": 83266
@@ -14240,7 +14241,7 @@
         "version": 8,
         "location": {
             "sortOrder": 5852,
-            "globalSortOrder": 1655628976,
+            "globalSortOrder": 1654613460,
             "sequence": "17.5853",
             "parent": {
                 "item": 83266
@@ -14303,7 +14304,7 @@
         "version": 2,
         "location": {
             "sortOrder": 5853,
-            "globalSortOrder": 1655648612,
+            "globalSortOrder": 1654633080,
             "sequence": "17.5854",
             "parent": {
                 "item": 83266
@@ -14369,7 +14370,7 @@
         "version": 17,
         "location": {
             "sortOrder": 5854,
-            "globalSortOrder": 1655668248,
+            "globalSortOrder": 1654652700,
             "sequence": "17.5855",
             "parent": {
                 "item": 83266
@@ -14434,7 +14435,7 @@
         "version": 8,
         "location": {
             "sortOrder": 5857,
-            "globalSortOrder": 1655727156,
+            "globalSortOrder": 1654711560,
             "sequence": "17.5858",
             "parent": {
                 "item": 83266
@@ -14500,7 +14501,7 @@
         "version": 15,
         "location": {
             "sortOrder": 5860,
-            "globalSortOrder": 1655786064,
+            "globalSortOrder": 1654770420,
             "sequence": "17.5861",
             "parent": {
                 "item": 83266
@@ -14566,7 +14567,7 @@
         "version": 10,
         "location": {
             "sortOrder": 5864,
-            "globalSortOrder": 1655864608,
+            "globalSortOrder": 1654848900,
             "sequence": "17.5865",
             "parent": {
                 "item": 83266
@@ -14629,7 +14630,7 @@
         "version": 2,
         "location": {
             "sortOrder": 5867,
-            "globalSortOrder": 1655923516,
+            "globalSortOrder": 1654907760,
             "sequence": "17.5868",
             "parent": {
                 "item": 83266
@@ -14693,7 +14694,7 @@
         "version": 8,
         "location": {
             "sortOrder": 5868,
-            "globalSortOrder": 1655943152,
+            "globalSortOrder": 1654927380,
             "sequence": "17.5869",
             "parent": {
                 "item": 83266
@@ -14756,7 +14757,7 @@
         "version": 2,
         "location": {
             "sortOrder": 5869,
-            "globalSortOrder": 1655962788,
+            "globalSortOrder": 1654947000,
             "sequence": "17.5870",
             "parent": {
                 "item": 83266
@@ -14820,7 +14821,7 @@
         "version": 8,
         "location": {
             "sortOrder": 5870,
-            "globalSortOrder": 1655982424,
+            "globalSortOrder": 1654966620,
             "sequence": "17.5871",
             "parent": {
                 "item": 83266
@@ -14881,7 +14882,7 @@
         "version": 9,
         "location": {
             "sortOrder": 5874,
-            "globalSortOrder": 1656060968,
+            "globalSortOrder": 1655045100,
             "sequence": "17.5875",
             "parent": {
                 "item": 83266
@@ -14946,7 +14947,7 @@
         "version": 18,
         "location": {
             "sortOrder": 5877,
-            "globalSortOrder": 1656119876,
+            "globalSortOrder": 1655103960,
             "sequence": "17.5878",
             "parent": {
                 "item": 83266
@@ -15012,7 +15013,7 @@
         "version": 16,
         "location": {
             "sortOrder": 5883,
-            "globalSortOrder": 1656237692,
+            "globalSortOrder": 1655221680,
             "sequence": "17.5884",
             "parent": {
                 "item": 83266
@@ -15075,7 +15076,7 @@
         "version": 2,
         "location": {
             "sortOrder": 5884,
-            "globalSortOrder": 1656257328,
+            "globalSortOrder": 1655241300,
             "sequence": "17.5885",
             "parent": {
                 "item": 83266
@@ -15137,7 +15138,7 @@
         "version": 2,
         "location": {
             "sortOrder": 5887,
-            "globalSortOrder": 1656316236,
+            "globalSortOrder": 1655300160,
             "sequence": "17.5888",
             "parent": {
                 "item": 83266
@@ -15199,7 +15200,7 @@
         "version": 2,
         "location": {
             "sortOrder": 5888,
-            "globalSortOrder": 1656335872,
+            "globalSortOrder": 1655319780,
             "sequence": "17.5889",
             "parent": {
                 "item": 83266
@@ -15261,7 +15262,7 @@
         "version": 2,
         "location": {
             "sortOrder": 5896,
-            "globalSortOrder": 1656492960,
+            "globalSortOrder": 1655476740,
             "sequence": "17.5897",
             "parent": {
                 "item": 83266
@@ -15323,7 +15324,7 @@
         "version": 2,
         "location": {
             "sortOrder": 5897,
-            "globalSortOrder": 1656512596,
+            "globalSortOrder": 1655496360,
             "sequence": "17.5898",
             "parent": {
                 "item": 83266
@@ -15386,7 +15387,7 @@
         "version": 13,
         "location": {
             "sortOrder": 5901,
-            "globalSortOrder": 1656591140,
+            "globalSortOrder": 1655574840,
             "sequence": "17.5902",
             "parent": {
                 "item": 83266
@@ -15445,7 +15446,7 @@
         "version": 6,
         "location": {
             "sortOrder": 5902,
-            "globalSortOrder": 1656610776,
+            "globalSortOrder": 1655594460,
             "sequence": "17.5903",
             "parent": {
                 "item": 83266
@@ -15509,7 +15510,7 @@
         "version": 8,
         "location": {
             "sortOrder": 5903,
-            "globalSortOrder": 1656630412,
+            "globalSortOrder": 1655614080,
             "sequence": "17.5904",
             "parent": {
                 "item": 83266
@@ -15572,7 +15573,7 @@
         "version": 2,
         "location": {
             "sortOrder": 5905,
-            "globalSortOrder": 1656669684,
+            "globalSortOrder": 1655653320,
             "sequence": "17.5906",
             "parent": {
                 "item": 83266
@@ -15633,7 +15634,7 @@
         "version": 4,
         "location": {
             "sortOrder": 5906,
-            "globalSortOrder": 1656689320,
+            "globalSortOrder": 1655672940,
             "sequence": "17.5907",
             "parent": {
                 "item": 83266
@@ -15697,7 +15698,7 @@
         "version": 14,
         "location": {
             "sortOrder": 5909,
-            "globalSortOrder": 1656748228,
+            "globalSortOrder": 1655731800,
             "sequence": "17.5910",
             "parent": {
                 "item": 83266
@@ -15763,7 +15764,7 @@
         "version": 8,
         "location": {
             "sortOrder": 5910,
-            "globalSortOrder": 1656767864,
+            "globalSortOrder": 1655751420,
             "sequence": "17.5911",
             "parent": {
                 "item": 83266
@@ -15828,7 +15829,7 @@
         "version": 9,
         "location": {
             "sortOrder": 5926,
-            "globalSortOrder": 1657082040,
+            "globalSortOrder": 1656065340,
             "sequence": "17.5927",
             "parent": {
                 "item": 83266
@@ -15887,7 +15888,7 @@
         "version": 4,
         "location": {
             "sortOrder": 5929,
-            "globalSortOrder": 1657140948,
+            "globalSortOrder": 1656124200,
             "sequence": "17.5930",
             "parent": {
                 "item": 83266
@@ -15950,7 +15951,7 @@
         "version": 4,
         "location": {
             "sortOrder": 5936,
-            "globalSortOrder": 1657278400,
+            "globalSortOrder": 1656261540,
             "sequence": "17.5937",
             "parent": {
                 "item": 83266
@@ -16011,7 +16012,7 @@
         "version": 3,
         "location": {
             "sortOrder": 5938,
-            "globalSortOrder": 1657317672,
+            "globalSortOrder": 1656300780,
             "sequence": "17.5939",
             "parent": {
                 "item": 83266
@@ -16074,7 +16075,7 @@
         "version": 9,
         "location": {
             "sortOrder": 5943,
-            "globalSortOrder": 1657415852,
+            "globalSortOrder": 1656398880,
             "sequence": "17.5944",
             "parent": {
                 "item": 83266
@@ -16136,7 +16137,7 @@
         "version": 6,
         "location": {
             "sortOrder": 5946,
-            "globalSortOrder": 1657474760,
+            "globalSortOrder": 1656457740,
             "sequence": "17.5947",
             "parent": {
                 "item": 83266
@@ -16199,7 +16200,7 @@
         "version": 2,
         "location": {
             "sortOrder": 5948,
-            "globalSortOrder": 1657514032,
+            "globalSortOrder": 1656496980,
             "sequence": "17.5949",
             "parent": {
                 "item": 83266
@@ -16261,7 +16262,7 @@
         "version": 8,
         "location": {
             "sortOrder": 5949,
-            "globalSortOrder": 1657533668,
+            "globalSortOrder": 1656516600,
             "sequence": "17.5950",
             "parent": {
                 "item": 83266
@@ -16324,7 +16325,7 @@
         "version": 4,
         "location": {
             "sortOrder": 5950,
-            "globalSortOrder": 1657553304,
+            "globalSortOrder": 1656536220,
             "sequence": "17.5951",
             "parent": {
                 "item": 83266
@@ -16381,7 +16382,7 @@
         "version": 5,
         "location": {
             "sortOrder": 5952,
-            "globalSortOrder": 1657592576,
+            "globalSortOrder": 1656575460,
             "sequence": "17.5953",
             "parent": {
                 "item": 83266
@@ -16444,7 +16445,7 @@
         "version": 7,
         "location": {
             "sortOrder": 5953,
-            "globalSortOrder": 1657612212,
+            "globalSortOrder": 1656595080,
             "sequence": "17.5954",
             "parent": {
                 "item": 83266
@@ -16507,7 +16508,7 @@
         "version": 2,
         "location": {
             "sortOrder": 5955,
-            "globalSortOrder": 1657651484,
+            "globalSortOrder": 1656634320,
             "sequence": "17.5956",
             "parent": {
                 "item": 83266
@@ -16565,7 +16566,7 @@
         "version": 6,
         "location": {
             "sortOrder": 5961,
-            "globalSortOrder": 1657769300,
+            "globalSortOrder": 1656752040,
             "sequence": "17.5962",
             "parent": {
                 "item": 83266
@@ -16629,7 +16630,7 @@
         "version": 4,
         "location": {
             "sortOrder": 5963,
-            "globalSortOrder": 1657808572,
+            "globalSortOrder": 1656791280,
             "sequence": "17.5964",
             "parent": {
                 "item": 83266
@@ -16693,7 +16694,7 @@
         "version": 7,
         "location": {
             "sortOrder": 5968,
-            "globalSortOrder": 1657906752,
+            "globalSortOrder": 1656889380,
             "sequence": "17.5969",
             "parent": {
                 "item": 83266
@@ -16757,7 +16758,7 @@
         "version": 6,
         "location": {
             "sortOrder": 5970,
-            "globalSortOrder": 1657946024,
+            "globalSortOrder": 1656928620,
             "sequence": "17.5971",
             "parent": {
                 "item": 83266
@@ -16816,7 +16817,7 @@
         "version": 5,
         "location": {
             "sortOrder": 5971,
-            "globalSortOrder": 1657965660,
+            "globalSortOrder": 1656948240,
             "sequence": "17.5972",
             "parent": {
                 "item": 83266
@@ -16880,7 +16881,7 @@
         "version": 6,
         "location": {
             "sortOrder": 5977,
-            "globalSortOrder": 1658083476,
+            "globalSortOrder": 1657065960,
             "sequence": "17.5978",
             "parent": {
                 "item": 83266
@@ -16944,7 +16945,7 @@
         "version": 5,
         "location": {
             "sortOrder": 5980,
-            "globalSortOrder": 1658142384,
+            "globalSortOrder": 1657124820,
             "sequence": "17.5981",
             "parent": {
                 "item": 83266
@@ -17004,7 +17005,7 @@
         "version": 4,
         "location": {
             "sortOrder": 5981,
-            "globalSortOrder": 1658162020,
+            "globalSortOrder": 1657144440,
             "sequence": "17.5982",
             "parent": {
                 "item": 83266
@@ -17067,7 +17068,7 @@
         "version": 2,
         "location": {
             "sortOrder": 5984,
-            "globalSortOrder": 1658220928,
+            "globalSortOrder": 1657203300,
             "sequence": "17.5985",
             "parent": {
                 "item": 83266
@@ -17129,7 +17130,7 @@
         "version": 5,
         "location": {
             "sortOrder": 5985,
-            "globalSortOrder": 1658240564,
+            "globalSortOrder": 1657222920,
             "sequence": "17.5986",
             "parent": {
                 "item": 83266
@@ -17193,7 +17194,7 @@
         "version": 6,
         "location": {
             "sortOrder": 5990,
-            "globalSortOrder": 1658338744,
+            "globalSortOrder": 1657321020,
             "sequence": "17.5991",
             "parent": {
                 "item": 83266
@@ -17256,7 +17257,7 @@
         "version": 2,
         "location": {
             "sortOrder": 5997,
-            "globalSortOrder": 1658476196,
+            "globalSortOrder": 1657458360,
             "sequence": "17.5998",
             "parent": {
                 "item": 83266
@@ -17318,7 +17319,7 @@
         "version": 2,
         "location": {
             "sortOrder": 5998,
-            "globalSortOrder": 1658495832,
+            "globalSortOrder": 1657477980,
             "sequence": "17.5999",
             "parent": {
                 "item": 83266
@@ -17384,7 +17385,7 @@
         "version": 11,
         "location": {
             "sortOrder": 6001,
-            "globalSortOrder": 1658554740,
+            "globalSortOrder": 1657536840,
             "sequence": "17.6002",
             "parent": {
                 "item": 83266
@@ -17449,7 +17450,7 @@
         "version": 15,
         "location": {
             "sortOrder": 6002,
-            "globalSortOrder": 1658574376,
+            "globalSortOrder": 1657556460,
             "sequence": "17.6003",
             "parent": {
                 "item": 83266
@@ -17512,7 +17513,7 @@
         "version": 10,
         "location": {
             "sortOrder": 6003,
-            "globalSortOrder": 1658594012,
+            "globalSortOrder": 1657576080,
             "sequence": "17.6004",
             "parent": {
                 "item": 83266
@@ -17575,7 +17576,7 @@
         "version": 6,
         "location": {
             "sortOrder": 6016,
-            "globalSortOrder": 1658849280,
+            "globalSortOrder": 1657831140,
             "sequence": "17.6017",
             "parent": {
                 "item": 83266
@@ -17636,7 +17637,7 @@
         "version": 3,
         "location": {
             "sortOrder": 6048,
-            "globalSortOrder": 1659477632,
+            "globalSortOrder": 1658458980,
             "sequence": "17.6049",
             "parent": {
                 "item": 83266
@@ -17700,7 +17701,7 @@
         "version": 18,
         "location": {
             "sortOrder": 6057,
-            "globalSortOrder": 1659654356,
+            "globalSortOrder": 1658635560,
             "sequence": "17.6058",
             "parent": {
                 "item": 83266
@@ -17764,7 +17765,7 @@
         "version": 7,
         "location": {
             "sortOrder": 6071,
-            "globalSortOrder": 1659929260,
+            "globalSortOrder": 1658910240,
             "sequence": "17.6072",
             "parent": {
                 "item": 83266
@@ -17829,7 +17830,7 @@
         "version": 11,
         "location": {
             "sortOrder": 6075,
-            "globalSortOrder": 1660007804,
+            "globalSortOrder": 1658988720,
             "sequence": "17.6076",
             "parent": {
                 "item": 83266
@@ -17892,7 +17893,7 @@
         "version": 9,
         "location": {
             "sortOrder": 6076,
-            "globalSortOrder": 1660027440,
+            "globalSortOrder": 1659008340,
             "sequence": "17.6077",
             "parent": {
                 "item": 83266
@@ -17955,7 +17956,7 @@
         "version": 11,
         "location": {
             "sortOrder": 6077,
-            "globalSortOrder": 1660047076,
+            "globalSortOrder": 1659027960,
             "sequence": "17.6078",
             "parent": {
                 "item": 83266
@@ -18020,7 +18021,7 @@
         "version": 6,
         "location": {
             "sortOrder": 6085,
-            "globalSortOrder": 1660204164,
+            "globalSortOrder": 1659184920,
             "sequence": "17.6086",
             "parent": {
                 "item": 83266
@@ -18079,7 +18080,7 @@
         "version": 3,
         "location": {
             "sortOrder": 6112,
-            "globalSortOrder": 1660734336,
+            "globalSortOrder": 1659714660,
             "sequence": "17.6113",
             "parent": {
                 "item": 83266
@@ -18147,7 +18148,7 @@
         "version": 11,
         "location": {
             "sortOrder": 6122,
-            "globalSortOrder": 1660930696,
+            "globalSortOrder": 1659910860,
             "sequence": "17.6123",
             "parent": {
                 "item": 83266
@@ -18205,7 +18206,7 @@
         "version": 1,
         "location": {
             "sortOrder": 6123,
-            "globalSortOrder": 1660950332,
+            "globalSortOrder": 1659930480,
             "sequence": "17.6124",
             "parent": {
                 "item": 83266
@@ -18262,7 +18263,7 @@
         "version": 1,
         "location": {
             "sortOrder": 6129,
-            "globalSortOrder": 1661068148,
+            "globalSortOrder": 1660048200,
             "sequence": "17.6130",
             "parent": {
                 "item": 83266
@@ -18328,7 +18329,7 @@
         "version": 9,
         "location": {
             "sortOrder": 6134,
-            "globalSortOrder": 1661166328,
+            "globalSortOrder": 1660146300,
             "sequence": "17.6135",
             "parent": {
                 "item": 83266
@@ -18393,7 +18394,7 @@
         "version": 11,
         "location": {
             "sortOrder": 6137,
-            "globalSortOrder": 1661225236,
+            "globalSortOrder": 1660205160,
             "sequence": "17.6138",
             "parent": {
                 "item": 83266
@@ -18458,7 +18459,7 @@
         "version": 14,
         "location": {
             "sortOrder": 6138,
-            "globalSortOrder": 1661244872,
+            "globalSortOrder": 1660224780,
             "sequence": "17.6139",
             "parent": {
                 "item": 83266
@@ -18516,7 +18517,7 @@
         "version": 2,
         "location": {
             "sortOrder": 6144,
-            "globalSortOrder": 1661362688,
+            "globalSortOrder": 1660342500,
             "sequence": "17.6145",
             "parent": {
                 "item": 83266
@@ -18579,7 +18580,7 @@
         "version": 2,
         "location": {
             "sortOrder": 6154,
-            "globalSortOrder": 1661559048,
+            "globalSortOrder": 1660538700,
             "sequence": "17.6155",
             "parent": {
                 "item": 83266
@@ -18640,7 +18641,7 @@
         "version": 4,
         "location": {
             "sortOrder": 6159,
-            "globalSortOrder": 1661657228,
+            "globalSortOrder": 1660636800,
             "sequence": "17.6160",
             "parent": {
                 "item": 83266
@@ -18702,7 +18703,7 @@
         "version": 2,
         "location": {
             "sortOrder": 6168,
-            "globalSortOrder": 1661833952,
+            "globalSortOrder": 1660813380,
             "sequence": "17.6169",
             "parent": {
                 "item": 83266
@@ -18763,7 +18764,7 @@
         "version": 2,
         "location": {
             "sortOrder": 6169,
-            "globalSortOrder": 1661853588,
+            "globalSortOrder": 1660833000,
             "sequence": "17.6170",
             "parent": {
                 "item": 83266
@@ -18824,7 +18825,7 @@
         "version": 2,
         "location": {
             "sortOrder": 6171,
-            "globalSortOrder": 1661892860,
+            "globalSortOrder": 1660872240,
             "sequence": "17.6172",
             "parent": {
                 "item": 83266
@@ -18885,7 +18886,7 @@
         "version": 2,
         "location": {
             "sortOrder": 6174,
-            "globalSortOrder": 1661951768,
+            "globalSortOrder": 1660931100,
             "sequence": "17.6175",
             "parent": {
                 "item": 83266
@@ -18947,7 +18948,7 @@
         "version": 2,
         "location": {
             "sortOrder": 6179,
-            "globalSortOrder": 1662049948,
+            "globalSortOrder": 1661029200,
             "sequence": "17.6180",
             "parent": {
                 "item": 83266
@@ -19009,7 +19010,7 @@
         "version": 2,
         "location": {
             "sortOrder": 6181,
-            "globalSortOrder": 1662089220,
+            "globalSortOrder": 1661068440,
             "sequence": "17.6182",
             "parent": {
                 "item": 83266
@@ -19071,7 +19072,7 @@
         "version": 2,
         "location": {
             "sortOrder": 6183,
-            "globalSortOrder": 1662128492,
+            "globalSortOrder": 1661107680,
             "sequence": "17.6184",
             "parent": {
                 "item": 83266
@@ -19133,7 +19134,7 @@
         "version": 2,
         "location": {
             "sortOrder": 6191,
-            "globalSortOrder": 1662285580,
+            "globalSortOrder": 1661264640,
             "sequence": "17.6192",
             "parent": {
                 "item": 83266
@@ -19195,7 +19196,7 @@
         "version": 2,
         "location": {
             "sortOrder": 6194,
-            "globalSortOrder": 1662344488,
+            "globalSortOrder": 1661323500,
             "sequence": "17.6195",
             "parent": {
                 "item": 83266
@@ -19257,7 +19258,7 @@
         "version": 2,
         "location": {
             "sortOrder": 6202,
-            "globalSortOrder": 1662501576,
+            "globalSortOrder": 1661480460,
             "sequence": "17.6203",
             "parent": {
                 "item": 83266
@@ -19319,7 +19320,7 @@
         "version": 2,
         "location": {
             "sortOrder": 6203,
-            "globalSortOrder": 1662521212,
+            "globalSortOrder": 1661500080,
             "sequence": "17.6204",
             "parent": {
                 "item": 83266
@@ -19381,7 +19382,7 @@
         "version": 2,
         "location": {
             "sortOrder": 6204,
-            "globalSortOrder": 1662540848,
+            "globalSortOrder": 1661519700,
             "sequence": "17.6205",
             "parent": {
                 "item": 83266
@@ -19443,7 +19444,7 @@
         "version": 2,
         "location": {
             "sortOrder": 6210,
-            "globalSortOrder": 1662658664,
+            "globalSortOrder": 1661637420,
             "sequence": "17.6211",
             "parent": {
                 "item": 83266
@@ -19504,7 +19505,7 @@
         "version": 2,
         "location": {
             "sortOrder": 6212,
-            "globalSortOrder": 1662697936,
+            "globalSortOrder": 1661676660,
             "sequence": "17.6213",
             "parent": {
                 "item": 83266
@@ -19567,7 +19568,7 @@
         "version": 8,
         "location": {
             "sortOrder": 6215,
-            "globalSortOrder": 1662756844,
+            "globalSortOrder": 1661735520,
             "sequence": "17.6216",
             "parent": {
                 "item": 83266
@@ -19629,7 +19630,7 @@
         "version": 2,
         "location": {
             "sortOrder": 6216,
-            "globalSortOrder": 1662776480,
+            "globalSortOrder": 1661755140,
             "sequence": "17.6217",
             "parent": {
                 "item": 83266
@@ -19692,7 +19693,7 @@
         "version": 8,
         "location": {
             "sortOrder": 6288,
-            "globalSortOrder": 1664190272,
+            "globalSortOrder": 1663167780,
             "sequence": "17.6289",
             "parent": {
                 "item": 83266
@@ -19756,7 +19757,7 @@
         "version": 6,
         "location": {
             "sortOrder": 6290,
-            "globalSortOrder": 1664229544,
+            "globalSortOrder": 1663207020,
             "sequence": "17.6291",
             "parent": {
                 "item": 83266
@@ -19816,7 +19817,7 @@
         "version": 4,
         "location": {
             "sortOrder": 6312,
-            "globalSortOrder": 1664661536,
+            "globalSortOrder": 1663638660,
             "sequence": "17.6313",
             "parent": {
                 "item": 83266
@@ -19881,7 +19882,7 @@
         "version": 17,
         "location": {
             "sortOrder": 6313,
-            "globalSortOrder": 1664681172,
+            "globalSortOrder": 1663658280,
             "sequence": "17.6314",
             "parent": {
                 "item": 83266
@@ -19941,7 +19942,7 @@
         "version": 5,
         "location": {
             "sortOrder": 6314,
-            "globalSortOrder": 1664700808,
+            "globalSortOrder": 1663677900,
             "sequence": "17.6315",
             "parent": {
                 "item": 83266
@@ -19999,7 +20000,7 @@
         "version": 2,
         "location": {
             "sortOrder": 6324,
-            "globalSortOrder": 1664897168,
+            "globalSortOrder": 1663874100,
             "sequence": "17.6325",
             "parent": {
                 "item": 83266
@@ -20062,7 +20063,7 @@
         "version": 7,
         "location": {
             "sortOrder": 6342,
-            "globalSortOrder": 1665250616,
+            "globalSortOrder": 1664227260,
             "sequence": "17.6343",
             "parent": {
                 "item": 83266
@@ -20126,7 +20127,7 @@
         "version": 8,
         "location": {
             "sortOrder": 6343,
-            "globalSortOrder": 1665270252,
+            "globalSortOrder": 1664246880,
             "sequence": "17.6344",
             "parent": {
                 "item": 83266
@@ -20186,7 +20187,7 @@
         "version": 3,
         "location": {
             "sortOrder": 6348,
-            "globalSortOrder": 1665368432,
+            "globalSortOrder": 1664344980,
             "sequence": "17.6349",
             "parent": {
                 "item": 83266
@@ -20245,7 +20246,7 @@
         "version": 2,
         "location": {
             "sortOrder": 6361,
-            "globalSortOrder": 1665623700,
+            "globalSortOrder": 1664600040,
             "sequence": "17.6362",
             "parent": {
                 "item": 83266
@@ -20310,7 +20311,7 @@
         "version": 12,
         "location": {
             "sortOrder": 6367,
-            "globalSortOrder": 1665741516,
+            "globalSortOrder": 1664717760,
             "sequence": "17.6368",
             "parent": {
                 "item": 83266
@@ -20370,7 +20371,7 @@
         "version": 9,
         "location": {
             "sortOrder": 6369,
-            "globalSortOrder": 1665780788,
+            "globalSortOrder": 1664757000,
             "sequence": "17.6370",
             "parent": {
                 "item": 83266
@@ -20435,7 +20436,7 @@
         "version": 7,
         "location": {
             "sortOrder": 6372,
-            "globalSortOrder": 1665839696,
+            "globalSortOrder": 1664815860,
             "sequence": "17.6373",
             "parent": {
                 "item": 83266
@@ -20494,7 +20495,7 @@
         "version": 4,
         "location": {
             "sortOrder": 6376,
-            "globalSortOrder": 1665918240,
+            "globalSortOrder": 1664894340,
             "sequence": "17.6377",
             "parent": {
                 "item": 83266
@@ -20558,7 +20559,7 @@
         "version": 8,
         "location": {
             "sortOrder": 6380,
-            "globalSortOrder": 1665996784,
+            "globalSortOrder": 1664972820,
             "sequence": "17.6381",
             "parent": {
                 "item": 83266
@@ -20621,7 +20622,7 @@
         "version": 7,
         "location": {
             "sortOrder": 6386,
-            "globalSortOrder": 1666114600,
+            "globalSortOrder": 1665090540,
             "sequence": "17.6387",
             "parent": {
                 "item": 83266
@@ -20684,7 +20685,7 @@
         "version": 6,
         "location": {
             "sortOrder": 6388,
-            "globalSortOrder": 1666153872,
+            "globalSortOrder": 1665129780,
             "sequence": "17.6389",
             "parent": {
                 "item": 83266
@@ -20744,7 +20745,7 @@
         "version": 4,
         "location": {
             "sortOrder": 6400,
-            "globalSortOrder": 1666389504,
+            "globalSortOrder": 1665365220,
             "sequence": "17.6401",
             "parent": {
                 "item": 83266
@@ -20807,7 +20808,7 @@
         "version": 5,
         "location": {
             "sortOrder": 6402,
-            "globalSortOrder": 1666428776,
+            "globalSortOrder": 1665404460,
             "sequence": "17.6403",
             "parent": {
                 "item": 83266
@@ -20865,7 +20866,7 @@
         "version": 2,
         "location": {
             "sortOrder": 6421,
-            "globalSortOrder": 1666801860,
+            "globalSortOrder": 1665777240,
             "sequence": "17.6422",
             "parent": {
                 "item": 83266
@@ -20928,7 +20929,7 @@
         "version": 5,
         "location": {
             "sortOrder": 6433,
-            "globalSortOrder": 1667037492,
+            "globalSortOrder": 1666012680,
             "sequence": "17.6434",
             "parent": {
                 "item": 83266

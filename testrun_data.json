@@ -16430,6 +16430,20 @@
     },
     {
         "TestRunStatus":"PASSED",
+        "ExecutionDate":"2025-11-25",
+        "Document Key":"KCE-TSTRN-4004507",
+        "Name":"Manual DBR C Test at In-between floor",
+        "Assigned To":"Jagadeesh"
+    },
+    {
+        "TestRunStatus":"PASSED",
+        "ExecutionDate":"2025-11-25",
+        "Document Key":"KCE-TSTRN-4004508",
+        "Name":"Manual DBR C Test in \u201cspecial test\u201d",
+        "Assigned To":"Jagadeesh"
+    },
+    {
+        "TestRunStatus":"PASSED",
         "ExecutionDate":"2025-11-19",
         "Document Key":"KCE-TSTRN-4004078",
         "Name":"1. Monitoring parameter 880= 1 with any licence ",
@@ -16454,6 +16468,20 @@
         "ExecutionDate":"2025-11-20",
         "Document Key":"KCE-TSTRN-4004081",
         "Name":"9. EBD drive with power break ",
+        "Assigned To":"Dinesh"
+    },
+    {
+        "TestRunStatus":"PASSED",
+        "ExecutionDate":"2025-11-25",
+        "Document Key":"KCE-TSTRN-4004082",
+        "Name":"11. Hardware missing ",
+        "Assigned To":"Dinesh"
+    },
+    {
+        "TestRunStatus":"PASSED",
+        "ExecutionDate":"2025-11-25",
+        "Document Key":"KCE-TSTRN-4004083",
+        "Name":"12. Inspection drive with wrong hardware configuration\/missing hardware ",
         "Assigned To":"Dinesh"
     },
     {
@@ -16605,7 +16633,7 @@
     },
     {
         "TestRunStatus":"INPROGRESS",
-        "ExecutionDate":"2025-11-24",
+        "ExecutionDate":"2025-11-25",
         "Document Key":"KCE-TSTRN-4004585",
         "Name":"COD operation towards downward direction, few virtual zones",
         "Assigned To":"Nithya Priya"
