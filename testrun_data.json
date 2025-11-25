@@ -15100,21 +15100,21 @@
     },
     {
         "TestRunStatus":"PASSED",
-        "ExecutionDate":"2025-09-17",
+        "ExecutionDate":"2025-11-25",
         "Document Key":"KIE601-TSTRN-62411",
         "Name":"Reverse Direction (Step Reversal) for KCM",
         "Assigned To":"Mohammed Ibrahim Sultan"
     },
     {
         "TestRunStatus":"FAILED",
-        "ExecutionDate":"2025-09-22",
+        "ExecutionDate":"2025-11-25",
         "Document Key":"KIE601-TSTRN-62412",
         "Name":"Missing Step Detection - Upper",
         "Assigned To":"Mohammed Ibrahim Sultan"
     },
     {
         "TestRunStatus":"FAILED",
-        "ExecutionDate":"2025-09-22",
+        "ExecutionDate":"2025-11-25",
         "Document Key":"KIE601-TSTRN-62413",
         "Name":"Missing Step Detection - Lower",
         "Assigned To":"Mohammed Ibrahim Sultan"
@@ -15135,7 +15135,7 @@
     },
     {
         "TestRunStatus":"PASSED",
-        "ExecutionDate":"2025-10-14",
+        "ExecutionDate":"2025-11-25",
         "Document Key":"KIE601-TSTRN-62416",
         "Name":" Safety fault codes MSC (1)",
         "Assigned To":"Mohammed Ibrahim Sultan"
@@ -15149,14 +15149,14 @@
     },
     {
         "TestRunStatus":"PASSED",
-        "ExecutionDate":"2025-10-14",
+        "ExecutionDate":"2025-11-25",
         "Document Key":"KIE601-TSTRN-62418",
         "Name":" Safety fault codes LSC",
         "Assigned To":"Mohammed Ibrahim Sultan"
     },
     {
         "TestRunStatus":"PASSED",
-        "ExecutionDate":"2025-10-27",
+        "ExecutionDate":"2025-11-25",
         "Document Key":"KIE601-TSTRN-62419",
         "Name":" Safety fault codes SEC",
         "Assigned To":"Mohammed Ibrahim Sultan"
@@ -15191,14 +15191,14 @@
     },
     {
         "TestRunStatus":"PASSED",
-        "ExecutionDate":"2025-10-27",
+        "ExecutionDate":"2025-11-25",
         "Document Key":"KIE601-TSTRN-62424",
         "Name":"Overspeed 1 fault 31 ",
         "Assigned To":"Mohammed Ibrahim Sultan"
     },
     {
         "TestRunStatus":"PASSED",
-        "ExecutionDate":"2025-10-27",
+        "ExecutionDate":"2025-11-25",
         "Document Key":"KIE601-TSTRN-62425",
         "Name":"Overspeed 1 fault 32",
         "Assigned To":"Mohammed Ibrahim Sultan"
@@ -15331,7 +15331,7 @@
     },
     {
         "TestRunStatus":"PASSED",
-        "ExecutionDate":"2025-09-17",
+        "ExecutionDate":"2025-11-25",
         "Document Key":"KIE601-TSTRN-62470",
         "Name":"Auxiliary break ",
         "Assigned To":"Mohammed Ibrahim Sultan"
@@ -15660,7 +15660,7 @@
     },
     {
         "TestRunStatus":"PASSED",
-        "ExecutionDate":"2025-09-22",
+        "ExecutionDate":"2025-11-25",
         "Document Key":"KIE601-TSTRN-62444",
         "Name":"Enhanced safety ",
         "Assigned To":"Mohammed Ibrahim Sultan"
@@ -16444,6 +16444,20 @@
     },
     {
         "TestRunStatus":"PASSED",
+        "ExecutionDate":"2025-11-25",
+        "Document Key":"KCE-TSTRN-4004509",
+        "Name":"Manual DBR C Test with DBR fault code",
+        "Assigned To":"Jagadeesh"
+    },
+    {
+        "TestRunStatus":"FAILED",
+        "ExecutionDate":"2025-11-25",
+        "Document Key":"KCE-TSTRN-4004510",
+        "Name":"Perform the Manual DBR C Test while Automatic brake test is going-on ",
+        "Assigned To":"Jagadeesh"
+    },
+    {
+        "TestRunStatus":"PASSED",
         "ExecutionDate":"2025-11-19",
         "Document Key":"KCE-TSTRN-4004078",
         "Name":"1. Monitoring parameter 880= 1 with any licence ",
@@ -16625,6 +16639,13 @@
         "Assigned To":"Nithya Priya"
     },
     {
+        "TestRunStatus":"INPROGRESS",
+        "ExecutionDate":"2025-11-25",
+        "Document Key":"KCE-TSTRN-4004582",
+        "Name":"COD operation towards upward direction, few virtual zones",
+        "Assigned To":"Harini Sri"
+    },
+    {
         "TestRunStatus":"PASSED",
         "ExecutionDate":"2025-11-21",
         "Document Key":"KCE-TSTRN-4004584",
@@ -16640,7 +16661,7 @@
     },
     {
         "TestRunStatus":"INPROGRESS",
-        "ExecutionDate":"2025-11-24",
+        "ExecutionDate":"2025-11-25",
         "Document Key":"KCE-TSTRN-4004586",
         "Name":"COD operation toward downwards direction, EZO between P2 and P3 magnet",
         "Assigned To":"Nithya Priya"
