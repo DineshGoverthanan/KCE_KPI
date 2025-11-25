@@ -19852,8 +19852,8 @@
         "itemType": 154,
         "project": 229,
         "createdDate": "2025-11-07T06:25:50.000+0000",
-        "modifiedDate": "2025-11-21T09:02:33.000+0000",
-        "lastActivityDate": "2025-11-21T09:02:33.000+0000",
+        "modifiedDate": "2025-11-25T12:17:44.000+0000",
+        "lastActivityDate": "2025-11-25T12:17:44.000+0000",
         "createdBy": 6374,
         "modifiedBy": 620,
         "fields": {
@@ -19869,6 +19869,7 @@
             "BUG_foundInBuild$154": "KCE 17.0.0.108(LD: 17.0.0.16, GCD: 17.0.0.29)",
             "BUG_foundOnDate$154": "2025-11-06",
             "BUG_plannedRelease$154": 2396,
+            "BUG_fixedInBuild$154": "KCE 17.0.0.115",
             "priority": 2410,
             "BUG_severity$154": 1109,
             "BUG_category$154": 1422,
@@ -19882,7 +19883,7 @@
             "BUG_jiraId$154": "KCE-30921",
             "BUG_jira_project$154": 2465,
             "BUG_jira_URL$154": "https://kone.atlassian.net/browse/KCE-30921",
-            "BUG_integration_synced_time$154": "2025-11-21 09:02:32.930684",
+            "BUG_integration_synced_time$154": "2025-11-25 12:17:43.364766",
             "BUG_V1_project$154": 1431
         },
         "resources": {
@@ -19895,7 +19896,7 @@
                 ]
             }
         },
-        "version": 12,
+        "version": 14,
         "location": {
             "sortOrder": 6367,
             "globalSortOrder": 1664717760,
@@ -20525,6 +20526,62 @@
         "lock": {
             "locked": false,
             "lastLockedDate": "2025-11-24T07:27:31.000+0000"
+        },
+        "type": "items"
+    },
+    {
+        "id": 28441898,
+        "documentKey": "KCE-SWBUG-7041",
+        "globalId": "GID-7552332",
+        "itemType": 154,
+        "project": 229,
+        "createdDate": "2025-11-25T13:18:32.000+0000",
+        "modifiedDate": "2025-11-25T13:18:32.000+0000",
+        "lastActivityDate": "2025-11-25T13:18:32.000+0000",
+        "createdBy": 6096,
+        "modifiedBy": 6096,
+        "fields": {
+            "documentKey": "KCE-SWBUG-7041",
+            "globalId": "GID-7552332",
+            "name": "17.0 - KDX - Fault #3083's Data 2 field is empty",
+            "description": "<p><img alt=\"\" height=\"365\" src=\"https://konerqm.jamacloud.com/attachment/232487/image-veOnElcSxK.png\" width=\"803\" /></p>\n\n<ul>\n\t<li>Without the proper Data 2 details it is hard to troubleshoot the Issue</li>\n\t<li>*Localizations files are updated</li>\n</ul>\n",
+            "status": 1081,
+            "BUG_component$154": 2160,
+            "createdBy": 6096,
+            "release": 2396,
+            "BUG_foundOnDate$154": "2025-11-24",
+            "priority": 2410,
+            "BUG_severity$154": 1111,
+            "BUG_category$154": 1422,
+            "BUG_testLevel$154": 1129,
+            "BUG_howFound$154": 1092,
+            "BUG_whereFound$154": 1137,
+            "BUG_probability_on_field$154": 2396,
+            "root_cause_category$154": 2512,
+            "BUG_testCaseUpdated$154": 1198,
+            "BUG_V1_project$154": 1431
+        },
+        "resources": {
+            "self": {
+                "allowed": [
+                    "GET",
+                    "PUT",
+                    "PATCH",
+                    "DELETE"
+                ]
+            }
+        },
+        "version": 1,
+        "location": {
+            "sortOrder": 6460,
+            "globalSortOrder": 1666313418,
+            "sequence": "17.6461",
+            "parent": {
+                "item": 83266
+            }
+        },
+        "lock": {
+            "locked": false
         },
         "type": "items"
     }
