@@ -16660,7 +16660,7 @@
         "Assigned To":"Harini Sri"
     },
     {
-        "TestRunStatus":"INPROGRESS",
+        "TestRunStatus":"PASSED",
         "ExecutionDate":"2025-11-26",
         "Document Key":"KCE-TSTRN-4004583",
         "Name":"COD operation towards upward direction, EZO between P2 and P3 magnet",
@@ -16675,14 +16675,14 @@
     },
     {
         "TestRunStatus":"PASSED",
-        "ExecutionDate":"2025-11-25",
+        "ExecutionDate":"2025-11-26",
         "Document Key":"KCE-TSTRN-4004585",
         "Name":"COD operation towards downward direction, few virtual zones",
         "Assigned To":"Nithya Priya"
     },
     {
         "TestRunStatus":"INPROGRESS",
-        "ExecutionDate":"2025-11-25",
+        "ExecutionDate":"2025-11-26",
         "Document Key":"KCE-TSTRN-4004586",
         "Name":"COD operation toward downwards direction, EZO between P2 and P3 magnet",
         "Assigned To":"Nithya Priya"
@@ -16727,6 +16727,13 @@
         "ExecutionDate":"2025-11-26",
         "Document Key":"KCE-TSTRN-4004610",
         "Name":"Remote LD reboot functionality - elevator in EAQ mode",
+        "Assigned To":"Kowsalya"
+    },
+    {
+        "TestRunStatus":"PASSED",
+        "ExecutionDate":"2025-11-26",
+        "Document Key":"KCE-TSTRN-4004613",
+        "Name":"Remote LD reboot functionality - elevator in ATS mode",
         "Assigned To":"Kowsalya"
     },
     {
