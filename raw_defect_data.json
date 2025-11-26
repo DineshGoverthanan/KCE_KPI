@@ -20986,8 +20986,65 @@
         "version": 1,
         "location": {
             "sortOrder": 6460,
-            "globalSortOrder": 1666313418,
+            "globalSortOrder": 1666301309,
             "sequence": "17.6461",
+            "parent": {
+                "item": 83266
+            }
+        },
+        "lock": {
+            "locked": false
+        },
+        "type": "items"
+    },
+    {
+        "id": 28450491,
+        "documentKey": "KCE-SWBUG-7043",
+        "globalId": "GID-7553262",
+        "itemType": 154,
+        "project": 229,
+        "createdDate": "2025-11-26T05:44:42.000+0000",
+        "modifiedDate": "2025-11-26T05:44:42.000+0000",
+        "lastActivityDate": "2025-11-26T05:44:42.000+0000",
+        "createdBy": 6096,
+        "modifiedBy": 6096,
+        "fields": {
+            "documentKey": "KCE-SWBUG-7043",
+            "globalId": "GID-7553262",
+            "name": "17.0 - CPU - Fault #1443's Data 1 & 2 Description is missing",
+            "description": "<p><img alt=\"\" height=\"577\" src=\"https://konerqm.jamacloud.com/attachment/232522/image-gzmcrdNIcP.png\" width=\"1500\" /></p>\n\n<p>&nbsp;</p>\n\n<p><em><strong>Note:</strong></em><br />\nLocalization Files are updated</p>\n\n<p>ProManager Version: 4.6</p>\n",
+            "status": 1081,
+            "BUG_component$154": 1291,
+            "createdBy": 6096,
+            "release": 2396,
+            "BUG_foundInBuild$154": "17.0.0.111(LD: 17.0.0.18, GCD: 17.0.0.33),",
+            "BUG_foundOnDate$154": "2025-11-25",
+            "priority": 2410,
+            "BUG_severity$154": 1110,
+            "BUG_category$154": 1422,
+            "BUG_testLevel$154": 1129,
+            "BUG_howFound$154": 1092,
+            "BUG_whereFound$154": 1137,
+            "BUG_probability_on_field$154": 2398,
+            "root_cause_category$154": 2512,
+            "BUG_testCaseUpdated$154": 1198,
+            "BUG_V1_project$154": 1431
+        },
+        "resources": {
+            "self": {
+                "allowed": [
+                    "GET",
+                    "PUT",
+                    "PATCH",
+                    "DELETE"
+                ]
+            }
+        },
+        "version": 1,
+        "location": {
+            "sortOrder": 6461,
+            "globalSortOrder": 1666313954,
+            "sequence": "17.6462",
             "parent": {
                 "item": 83266
             }
