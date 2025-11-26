@@ -20872,8 +20872,65 @@
         "version": 1,
         "location": {
             "sortOrder": 6472,
-            "globalSortOrder": 1666319856,
+            "globalSortOrder": 1666314185,
             "sequence": "17.6473",
+            "parent": {
+                "item": 83266
+            }
+        },
+        "lock": {
+            "locked": false
+        },
+        "type": "items"
+    },
+    {
+        "id": 28452835,
+        "documentKey": "KCE-SWBUG-7056",
+        "globalId": "GID-7554206",
+        "itemType": 154,
+        "project": 229,
+        "createdDate": "2025-11-26T13:27:38.000+0000",
+        "modifiedDate": "2025-11-26T13:27:38.000+0000",
+        "lastActivityDate": "2025-11-26T13:27:38.000+0000",
+        "createdBy": 6096,
+        "modifiedBy": 6096,
+        "fields": {
+            "documentKey": "KCE-SWBUG-7056",
+            "globalId": "GID-7554206",
+            "name": "0.0.0.88 - TSCOP - CAR Call resigistration Markings are not shown after pressing Floor Icons",
+            "description": "<p><em><strong>Parameter:</strong></em></p>\n\n<ul>\n\t<li>UI - Standard UI</li>\n\t<li>TSCOP - Main</li>\n\t<li>Logic for Side Handling - Selective</li>\n\t<li>Logic for FRD - Selective</li>\n</ul>\n\n<p><br />\n<em><strong>CPU Parameter:</strong></em></p>\n\n<ul>\n\t<li>1308 - 1</li>\n\t<li>1309 - 0</li>\n</ul>\n\n<p>&nbsp;</p>\n\n<p><em><strong>Description:</strong></em></p>\n\n<ul>\n\t<li>LD : 17.0.0.18</li>\n\t<li>KNSMUL : 0.0.0.49</li>\n\t<li>Drive : KDHN 150</li>\n\t<li>Shaft : 72 Floor TTC setup&nbsp;</li>\n\t<li>WELM : 0.0.0.88</li>\n\t<li>Proto SW : 0.0.0.15</li>\n\t<li>Theme (Newer Mock Theme causing issue with the Application SW, So older Theme used for testing)</li>\n\t<li>1096 - 0</li>\n\t<li>A &amp; B side KNSMUL - Non-Conventional (KCOP)</li>\n</ul>\n\n<p>&nbsp;</p>\n\n<p><em><strong>Scenario:</strong></em></p>\n\n<ul>\n\t<li>When CAR Call is given, the registered icon is not stored in the TSCOP</li>\n\t<li>8th Floor CAR Call is pressed,</li>\n</ul>\n\n<p><img alt=\"\" height=\"469\" src=\"https://konerqm.jamacloud.com/attachment/232692/image-8d9xOxsVd7.png\" width=\"370\" /></p>\n\n<ul>\n\t<li>But no indication of registration</li>\n\t<li>Floor Number &amp; Next floor indication is also not Shown</li>\n</ul>\n\n<p>&nbsp;</p>\n\n<p><strong>NOTE:</strong></p>\n\n<p>Calls are registered &amp; served but Markings are not shown in the UI</p>\n\n<p><br />\n<br />\n<em><strong>Expected Scenario:</strong></em></p>\n\n<p><img alt=\"\" height=\"467\" src=\"https://konerqm.jamacloud.com/attachment/232693/image-HVFMQ7ojfc.png\" width=\"370\" /></p>\n\n<p>&nbsp;</p>\n\n<p><em><strong>Logs:</strong></em></p>\n\n<ul>\n\t<li>TSCOP Logs</li>\n\t<li>LPA</li>\n\t<li>Event Traffic</li>\n</ul>\n",
+            "status": 1081,
+            "BUG_component$154": 1291,
+            "BUG_subcomponent$154": "WELM 0.0.0.88",
+            "createdBy": 6096,
+            "release": 2396,
+            "BUG_foundOnDate$154": "2025-11-25",
+            "priority": 2410,
+            "BUG_severity$154": 1110,
+            "BUG_category$154": 1428,
+            "BUG_testLevel$154": 1129,
+            "BUG_howFound$154": 1092,
+            "BUG_whereFound$154": 1137,
+            "BUG_probability_on_field$154": 2398,
+            "root_cause_category$154": 2512,
+            "BUG_testCaseUpdated$154": 1198,
+            "BUG_V1_project$154": 1431
+        },
+        "resources": {
+            "self": {
+                "allowed": [
+                    "GET",
+                    "PUT",
+                    "PATCH",
+                    "DELETE"
+                ]
+            }
+        },
+        "version": 1,
+        "location": {
+            "sortOrder": 6474,
+            "globalSortOrder": 1666316331,
+            "sequence": "17.6475",
             "parent": {
                 "item": 83266
             }
