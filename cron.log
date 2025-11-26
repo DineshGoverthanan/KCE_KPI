@@ -3556,3 +3556,48 @@ Data exported to kp_data.xlsx
  M kp_data.xlsx
  M raw_defect_data.csv
  M raw_defect_data.json
+---- Staged files (cached) ----
+cron.log
+defect_data.csv
+filtered_defect_data.csv
+filtered_defect_data.json
+kp_data.csv
+kp_data.xlsx
+raw_defect_data.csv
+raw_defect_data.json
+[main 1464d04] Auto update on 2025-11-26 11:36:03
+ 8 files changed, 156 insertions(+), 5 deletions(-)
+ rewrite kp_data.xlsx (95%)
+✅ Commit created.
+To github.com:DineshGoverthanan/KCE_KPI.git
+   0553fe5..1464d04  main -> main
+✅ Changes pushed to origin/main.
+Run completed at: 2025-11-26 11:36:08
+============================================================
+============================================================
+Script started at: 2025-11-26 13:30:01
+On branch: main
+Fetched 2842 test run items
+Fetched 343 defect items
+Raw data saved (JSON & CSV)
+Filtered test run data: 2396 items (removed 446 LCE items)
+Filtered defect data: 336 items (removed 7 LCE items)
+Filtered data saved (JSON & CSV)
+Error fetching user info for ID 6395: 'data'
+Data exported to kp_data.csv, defect_data.csv, testrun_data.json
+Data exported to kp_data.xlsx
+✅ Python script finished successfully at: 2025-11-26 13:36:36
+---- git status (before add) ----
+## main...origin/main
+ M cron.log
+ M filtered_defect_data.csv
+ M filtered_defect_data.json
+ M filtered_testrun_data.csv
+ M filtered_testrun_data.json
+ M kp_data.csv
+ M kp_data.xlsx
+ M raw_defect_data.csv
+ M raw_defect_data.json
+ M raw_testrun_data.csv
+ M raw_testrun_data.json
+ M testrun_data.json
