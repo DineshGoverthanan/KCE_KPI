@@ -20081,8 +20081,8 @@
         "itemType": 154,
         "project": 229,
         "createdDate": "2025-11-04T13:50:12.000+0000",
-        "modifiedDate": "2025-11-12T06:19:24.000+0000",
-        "lastActivityDate": "2025-11-12T06:19:24.000+0000",
+        "modifiedDate": "2025-11-26T10:56:38.000+0000",
+        "lastActivityDate": "2025-11-26T10:56:38.000+0000",
         "createdBy": 6096,
         "modifiedBy": 620,
         "fields": {
@@ -20090,7 +20090,7 @@
             "globalId": "GID-7514174",
             "name": "17.0 - ADO - Both Doors are not parked open in PAD Floor, When ADO is enabled",
             "description": "<p><em><strong>Parameters:</strong></em><br />\n<img alt=\"\" src=\"https://konerqm.jamacloud.com/attachment/230320/image-3Zkjrq3UD9.png\" /></p>\n\n<p>1020 - 1</p>\n\n<p>1021 - 125mm</p>\n\n<p><br />\n<br />\n<em><strong>Detailed Description:</strong></em></p>\n\n<ul>\n\t<li>Lift in other than PAD Floor</li>\n\t<li>PAD Floor CAR Call is given (A side)</li>\n\t<li>After reaching PAD Floor, Only A side doors are LEFT OPENED</li>\n</ul>\n\n<p><br />\n<em><strong>Expected Scenario:</strong></em></p>\n\n<ul>\n\t<li>Both Doors should be left opened&nbsp;</li>\n</ul>\n\n<p><br />\n<em><strong>Actual Scenario:</strong></em></p>\n\n<ul>\n\t<li>Only A side Doors are opened</li>\n</ul>\n\n<p><br />\n<em><strong>Note:</strong></em></p>\n\n<ul>\n\t<li>This is happening only when ADO is enabled</li>\n\t<li>With ADO Disabled, Both doors are opened after reaching the PAD Floor correctly</li>\n</ul>\n\n<p><br />\n<em><strong>LOGS:</strong></em></p>\n\n<ul>\n\t<li>Event Traffic</li>\n\t<li>LPA</li>\n</ul>\n\n<p><br />\n<em><strong>Reference:</strong></em></p>\n\n<p>https://konerqm.jamacloud.com/perspective.req?continue#/containers/746572?projectId=229</p>\n",
-            "status": 1081,
+            "status": 1085,
             "BUG_component$154": 1291,
             "createdBy": 6096,
             "assignedTo": 1159,
@@ -20110,7 +20110,7 @@
             "BUG_jiraId$154": "KCE-30689",
             "BUG_jira_project$154": 2465,
             "BUG_jira_URL$154": "https://kone.atlassian.net/browse/KCE-30689",
-            "BUG_integration_synced_time$154": "2025-11-12 06:19:23.884373",
+            "BUG_integration_synced_time$154": "2025-11-26 10:56:37.318387",
             "BUG_V1_project$154": 1431
         },
         "resources": {
@@ -20123,7 +20123,7 @@
                 ]
             }
         },
-        "version": 8,
+        "version": 10,
         "location": {
             "sortOrder": 6343,
             "globalSortOrder": 1664246880,
@@ -20134,7 +20134,7 @@
         },
         "lock": {
             "locked": false,
-            "lastLockedDate": "2025-11-12T06:19:06.000+0000"
+            "lastLockedDate": "2025-11-26T10:55:54.000+0000"
         },
         "type": "items"
     },
@@ -20887,19 +20887,20 @@
         "itemType": 154,
         "project": 229,
         "createdDate": "2025-11-21T06:09:46.000+0000",
-        "modifiedDate": "2025-11-24T07:28:27.000+0000",
-        "lastActivityDate": "2025-11-25T06:47:48.000+0000",
+        "modifiedDate": "2025-11-26T11:01:40.000+0000",
+        "lastActivityDate": "2025-11-26T11:01:40.000+0000",
         "createdBy": 5995,
         "modifiedBy": 620,
         "fields": {
             "documentKey": "KCE-SWBUG-7011",
             "globalId": "GID-7545409",
-            "name": "16.10 - KCEDCS - DG Devices not listed in SM when creating new \"dg.customization.v1.zip\"",
-            "description": "<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\"><strong>Detailed Defect Description:</strong></span></span></p>\n\n<p>DG devices are not appearing in the SM while creating a new \"dg.customization.v1.zip.\"</p>\n\n<p>The uploaded \"customization file\" cleared after refreshing the SM UI</p>\n\n<p>&nbsp;</p>\n\n<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\"><strong>Parameters:&nbsp;&nbsp;</strong></span></span></p>\n\n<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\">(e.g. Parameter X (Description of the parameter) - parameter value)</span></span></p>\n\n<p>&nbsp;</p>\n\n<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\"><strong>Group configuration: </strong></span></span></p>\n\n<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\">Duplex</span></span></p>\n\n<p>&nbsp;</p>\n\n<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\"><strong>Drive type:</strong></span></span></p>\n\n<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\">KDM</span></span></p>\n\n<p>&nbsp;</p>\n\n<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\"><strong>Regression or new finding:</strong></span></span></p>\n\n<p><span style=\"font-family:Calibri,sans-serif\"><span style=\"font-size:14.6667px\">Regression</span></span></p>\n\n<p>&nbsp;</p>\n\n<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\"><strong>Test case Name / Feature name:</strong></span></span></p>\n\n<p><a href=\"https://konerqm.jamacloud.com/perspective.req?docId=26658860&amp;projectId=229\">DG configuration update from Site Manager</a></p>\n\n<p>&nbsp;</p>\n\n<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\"><strong>Test step number:</strong></span></span></p>\n\n<p>Customization:</p>\n\n<ul>\n\t<li>dg.customization.v1.json</li>\n\t<li>dg.localization.006.v1.json</li>\n\t<li>dg.localization.011.v1.json</li>\n\t<li>dg.localization.021.v1.json</li>\n\t<li>dg.localization.026.v1.json</li>\n\t<li>*.mp3</li>\n\t<li>*.svg</li>\n</ul>\n\n<p>&nbsp;</p>\n\n<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\"><strong>Description of the test case (Detailed Scenario)&nbsp;</strong></span></span></p>\n\n<ul>\n\t<li>Open the Sitemanager</li>\n\t<li>Select the DG CUSTOMIZATION button on dashboard</li>\n\t<li>Create or upload the dg.customization.zip file</li>\n\t<li>Select the install now button to proceed</li>\n\t<li>DG devices failed to appear in SM</li>\n</ul>\n\n<p>&nbsp;</p>\n\n<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\"><strong>Expected behavior:&nbsp;&nbsp;</strong></span></span></p>\n\n<p><span style=\"font-family:Calibri,sans-serif\"><span style=\"font-size:14.6667px\">The DG devices should show in SM</span></span></p>\n\n<p>&nbsp;</p>\n\n<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\"><strong>Actual behavior:</strong></span></span></p>\n\n<p><span style=\"font-family:Calibri,sans-serif\"><span style=\"font-size:14.6667px\">The DG devices not appeared in SM</span></span></p>\n\n<p>&nbsp;</p>\n\n<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\"><strong>Recovery:&nbsp;</strong></span></span></p>\n\n<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\">No</span></span></p>\n\n<p>&nbsp;</p>\n\n<p>&nbsp;</p>\n\n<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\"><strong>Log attached Information:</strong></span></span></p>\n\n<p><span style=\"font-family:Calibri,sans-serif\"><span style=\"font-size:14.6667px\">Nodedebug info, SM UI and Video Clip</span></span></p>\n\n<p>&nbsp;</p>\n\n<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\"><strong>Value-added information:&nbsp;</strong></span></span></p>\n\n<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\">SM Version: 4.47</span></span></p>\n\n<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\">DG Apk - 1.7.0.4</span></span></p>\n\n<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\">DG DMA - 1.6.0.0</span></span></p>\n\n<p>&nbsp;</p>\n\n<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\"><strong>Test Sequence history:&nbsp;</strong></span></span></p>\n\n<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\">1: was failing scenario passing earlier</span></span></p>\n\n<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\">2. what was SW level when this was passing last time</span></span></p>\n\n<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\">3. any changes in test setup or test scenario between passed and failed run</span></span></p>\n\n<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\">4. any changes in tested system configuration between passed and failed run</span></span></p>\n\n<p>&nbsp;</p>\n\n<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\"><strong>Requirement related to the defect:</strong></span></span></p>\n\n<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\">(e.g. URL link to requirement which is related to the defect)</span></span></p>\n",
+            "name": "16.10 - KCEDCS - DG DMA -The file name is not correct in the inventory manager for \"dg.customization.v1.zip\"",
+            "description": "<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\"><strong>Detailed Defect Description:</strong></span></span></p>\n\n<p>In the Inventory Manager, the file name for \"dg.customization.v1.zip\" is not correct</p>\n\n<p>&nbsp;</p>\n\n<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\"><strong>Parameters:&nbsp;&nbsp;</strong></span></span></p>\n\n<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\">(e.g. Parameter X (Description of the parameter) - parameter value)</span></span></p>\n\n<p>&nbsp;</p>\n\n<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\"><strong>Group configuration: </strong></span></span></p>\n\n<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\">Duplex</span></span></p>\n\n<p>&nbsp;</p>\n\n<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\"><strong>Drive type:</strong></span></span></p>\n\n<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\">KDM</span></span></p>\n\n<p>&nbsp;</p>\n\n<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\"><strong>Regression or new finding:</strong></span></span></p>\n\n<p><span style=\"font-family:Calibri,sans-serif\"><span style=\"font-size:14.6667px\">Regression</span></span></p>\n\n<p>&nbsp;</p>\n\n<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\"><strong>Test case Name / Feature name:</strong></span></span></p>\n\n<p><a href=\"https://konerqm.jamacloud.com/perspective.req?docId=26658860&amp;projectId=229\">DG configuration update from Site Manager</a></p>\n\n<p>&nbsp;</p>\n\n<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\"><strong>Test step number:</strong></span></span></p>\n\n<p>Customization:</p>\n\n<ul>\n\t<li>dg.customization.v1.json</li>\n\t<li>dg.localization.006.v1.json</li>\n\t<li>dg.localization.011.v1.json</li>\n\t<li>dg.localization.021.v1.json</li>\n\t<li>dg.localization.026.v1.json</li>\n\t<li>*.mp3</li>\n\t<li>*.svg</li>\n</ul>\n\n<p>&nbsp;</p>\n\n<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\"><strong>Description of the test case (Detailed Scenario)&nbsp;</strong></span></span></p>\n\n<ul>\n\t<li>Open the Sitemanager</li>\n\t<li>Select the devices option and choose any one DG</li>\n\t<li>Select configuration option</li>\n\t<li>In that, instead of <strong>dg.customization.v1.zip</strong>, the&nbsp;<strong>dg.customization.zip</strong> is present.</li>\n</ul>\n\n<p><strong>DG:</strong></p>\n\n<p><img alt=\"\" height=\"329\" src=\"https://konerqm.jamacloud.com/attachment/232624/image-ejyH3UdXoc.png\" width=\"527\" />&nbsp;&nbsp;</p>\n\n<p>&nbsp;</p>\n\n<p><strong>xDOP:</strong></p>\n\n<p><img alt=\"\" height=\"327\" src=\"https://konerqm.jamacloud.com/attachment/232628/image-GDJuASSdvH.png\" width=\"528\" /></p>\n\n<p>&nbsp;</p>\n\n<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\"><strong>Expected behavior:&nbsp;&nbsp;</strong></span></span></p>\n\n<p><span style=\"font-family:Calibri,sans-serif\"><span style=\"font-size:14.6667px\">The correct data should be presented&nbsp;</span></span></p>\n\n<p>&nbsp;</p>\n\n<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\"><strong>Actual behavior:</strong></span></span></p>\n\n<p><span style=\"font-family:Calibri,sans-serif\"><span style=\"font-size:14.6667px\">The incorrect data is shown</span></span></p>\n\n<p>&nbsp;</p>\n\n<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\"><strong>Recovery:&nbsp;</strong></span></span></p>\n\n<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\">No</span></span></p>\n\n<p>&nbsp;</p>\n\n<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\"><strong>Log attached Information:</strong></span></span></p>\n\n<p><span style=\"font-family:Calibri,sans-serif\"><span style=\"font-size:14.6667px\">Nodedebug info, SM UI</span></span></p>\n\n<p>&nbsp;</p>\n\n<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\"><strong>Value-added information:&nbsp;</strong></span></span></p>\n\n<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\">SM Version: 4.47</span></span></p>\n\n<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\">DG Apk - 1.7.0.4</span></span></p>\n\n<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\">DG DMA - 1.6.0.0</span></span></p>\n\n<p>&nbsp;</p>\n\n<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\"><strong>Test Sequence history:&nbsp;</strong></span></span></p>\n\n<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\">1: was failing scenario passing earlier</span></span></p>\n\n<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\">2. what was SW level when this was passing last time</span></span></p>\n\n<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\">3. any changes in test setup or test scenario between passed and failed run</span></span></p>\n\n<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\">4. any changes in tested system configuration between passed and failed run</span></span></p>\n\n<p>&nbsp;</p>\n\n<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\"><strong>Requirement related to the defect:</strong></span></span></p>\n\n<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\">(e.g. URL link to requirement which is related to the defect)</span></span></p>\n",
             "status": 1081,
-            "BUG_component$154": 2273,
+            "BUG_component$154": 1531,
+            "BUG_subcomponent$154": "DOP DMA",
             "createdBy": 5995,
-            "assignedTo": 3399,
+            "assignedTo": 1650,
             "release": 2368,
             "BUG_foundInBuild$154": "16.10.4.10(LD: 16.10.2.1, GCD: 16.10.21.5)",
             "BUG_foundOnDate$154": "2025-11-20",
@@ -20915,7 +20916,7 @@
             "BUG_jiraId$154": "MST-16659",
             "BUG_jira_project$154": 2460,
             "BUG_jira_URL$154": "https://kone.atlassian.net/browse/MST-16659",
-            "BUG_integration_synced_time$154": "2025-11-24 07:28:27.038334",
+            "BUG_integration_synced_time$154": "2025-11-26 11:01:38.972400",
             "BUG_V1_project$154": 1431
         },
         "resources": {
@@ -20928,7 +20929,7 @@
                 ]
             }
         },
-        "version": 5,
+        "version": 9,
         "location": {
             "sortOrder": 6433,
             "globalSortOrder": 1666012680,
@@ -20938,9 +20939,8 @@
             }
         },
         "lock": {
-            "locked": true,
-            "lastLockedDate": "2025-11-26T09:42:44.000+0000",
-            "lockedBy": 5995
+            "locked": false,
+            "lastLockedDate": "2025-11-26T11:01:03.000+0000"
         },
         "type": "items"
     },
@@ -21128,8 +21128,8 @@
         "itemType": 154,
         "project": 229,
         "createdDate": "2025-11-26T08:50:48.000+0000",
-        "modifiedDate": "2025-11-26T08:52:03.000+0000",
-        "lastActivityDate": "2025-11-26T08:52:03.000+0000",
+        "modifiedDate": "2025-11-26T10:37:20.000+0000",
+        "lastActivityDate": "2025-11-26T10:37:20.000+0000",
         "createdBy": 6096,
         "modifiedBy": 6096,
         "fields": {
@@ -21146,6 +21146,122 @@
             "BUG_foundOnDate$154": "2025-11-25",
             "priority": 2410,
             "BUG_severity$154": 1109,
+            "BUG_category$154": 1428,
+            "BUG_testLevel$154": 1129,
+            "BUG_howFound$154": 1095,
+            "BUG_whereFound$154": 1137,
+            "BUG_probability_on_field$154": 2398,
+            "root_cause_category$154": 2512,
+            "BUG_testCaseUpdated$154": 1198,
+            "BUG_V1_project$154": 1431
+        },
+        "resources": {
+            "self": {
+                "allowed": [
+                    "GET",
+                    "PUT",
+                    "PATCH",
+                    "DELETE"
+                ]
+            }
+        },
+        "version": 3,
+        "location": {
+            "sortOrder": 6466,
+            "globalSortOrder": 1666307747,
+            "sequence": "17.6467",
+            "parent": {
+                "item": 83266
+            }
+        },
+        "lock": {
+            "locked": false,
+            "lastLockedDate": "2025-11-26T10:37:22.000+0000"
+        },
+        "type": "items"
+    },
+    {
+        "id": 28451903,
+        "documentKey": "KCE-SWBUG-7050",
+        "globalId": "GID-7553701",
+        "itemType": 154,
+        "project": 229,
+        "createdDate": "2025-11-26T10:27:03.000+0000",
+        "modifiedDate": "2025-11-26T10:27:03.000+0000",
+        "lastActivityDate": "2025-11-26T10:29:50.000+0000",
+        "createdBy": 5995,
+        "modifiedBy": 5995,
+        "fields": {
+            "documentKey": "KCE-SWBUG-7050",
+            "globalId": "GID-7553701",
+            "name": "16.10 - KCEDCS -SM throws an error during the creation of the \"dg.customization.v1.zip\" file",
+            "description": "<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\"><strong>Detailed Defect Description:</strong></span></span></p>\n\n<p>SM displays an error message when creating a new \"dg.customization.v1.zip\"</p>\n\n<p>&nbsp;</p>\n\n<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\"><strong>Parameters:&nbsp;&nbsp;</strong></span></span></p>\n\n<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\">(e.g. Parameter X (Description of the parameter) - parameter value)</span></span></p>\n\n<p>&nbsp;</p>\n\n<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\"><strong>Group configuration: </strong></span></span></p>\n\n<p><span style=\"font-family:Calibri, sans-serif\"><span style=\"font-size:14.6667px\">Fourplex</span></span></p>\n\n<p>&nbsp;</p>\n\n<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\"><strong>Drive type:</strong></span></span></p>\n\n<p><span style=\"font-family:Calibri, sans-serif\"><span style=\"font-size:14.6667px\">KDL and KDM</span></span></p>\n\n<p>&nbsp;</p>\n\n<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\"><strong>Regression or new finding:</strong></span></span></p>\n\n<p><span style=\"font-family:Calibri, sans-serif\"><span style=\"font-size:14.6667px\">New</span></span></p>\n\n<p>&nbsp;</p>\n\n<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\"><strong>Test case Name / Feature name:</strong></span></span></p>\n\n<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\">ad-hoc defect</span></span></p>\n\n<p>&nbsp;</p>\n\n<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\"><strong>Test step number:</strong></span></span></p>\n\n<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\">\u201cad-hoc scenario\u201d</span></span></p>\n\n<p>&nbsp;</p>\n\n<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\"><strong>Description of the test case (Detailed Scenario)&nbsp;</strong></span></span></p>\n\n<ul>\n\t<li>Open the Site manager</li>\n\t<li>Select DG Customization button on the Dashboard&nbsp;</li>\n\t<li>Select create new option</li>\n\t<li>Error message throws in SM \"dg.customization.v1.zip has extra files!\"</li>\n</ul>\n\n<p><img alt=\"\" height=\"308\" src=\"https://konerqm.jamacloud.com/attachment/232643/image-5f4eh7S1AP.png\" width=\"453\" /></p>\n\n<p>&nbsp;</p>\n\n<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\"><strong>Expected behavior:&nbsp;&nbsp;</strong></span></span></p>\n\n<p><span style=\"font-family:Calibri, sans-serif\"><span style=\"font-size:14.6667px\">The error message should not throw</span></span></p>\n\n<p>&nbsp;</p>\n\n<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\"><strong>Actual behavior:</strong></span></span></p>\n\n<p><span style=\"font-family:Calibri, sans-serif\"><span style=\"font-size:14.6667px\">SM throws error message</span></span></p>\n\n<p>&nbsp;</p>\n\n<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\"><strong>Recovery:&nbsp;</strong></span></span></p>\n\n<p><span style=\"font-family:Calibri, sans-serif\"><span style=\"font-size:14.6667px\">No</span></span></p>\n\n<p>&nbsp;</p>\n\n<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\"><strong>Log attached Information:</strong></span></span></p>\n\n<p><span style=\"font-family:Calibri, sans-serif\"><span style=\"font-size:14.6667px\">SM UI and video clip</span></span></p>\n\n<p>&nbsp;</p>\n\n<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\">Note: Once defect is logged, attachments can be done by editing the defect (use compressed zip folder format)</span></span></p>\n\n<p>&nbsp;</p>\n\n<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\"><strong>Value-added information:&nbsp;</strong></span></span></p>\n\n<p><span style=\"font-family:Calibri, sans-serif\"><span style=\"font-size:14.6667px\">SM Version 4.47</span></span></p>\n\n<p>&nbsp;</p>\n\n<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\"><strong>Test Sequence history:&nbsp;</strong></span></span></p>\n\n<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\">1: was failing scenario passing earlier</span></span></p>\n\n<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\">2. what was SW level when this was passing last time</span></span></p>\n\n<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\">3. any changes in test setup or test scenario between passed and failed run</span></span></p>\n\n<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\">4. any changes in tested system configuration between passed and failed run</span></span></p>\n\n<p>&nbsp;</p>\n\n<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\"><strong>Requirement related to the defect:</strong></span></span></p>\n\n<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\">(e.g. URL link to requirement which is related to the defect)</span></span></p>\n",
+            "status": 1081,
+            "BUG_component$154": 2273,
+            "createdBy": 5995,
+            "release": 2368,
+            "BUG_foundInBuild$154": "16.10.4.10(LD: 16.10.2.1, GCD: 16.10.21.5)",
+            "BUG_foundOnDate$154": "2025-11-25",
+            "priority": 2410,
+            "BUG_severity$154": 1110,
+            "BUG_category$154": 1422,
+            "BUG_testLevel$154": 1129,
+            "BUG_howFound$154": 1092,
+            "BUG_whereFound$154": 1137,
+            "BUG_probability_on_field$154": 2398,
+            "root_cause_category$154": 2512,
+            "BUG_testCaseUpdated$154": 1198,
+            "BUG_V1_project$154": 1431
+        },
+        "resources": {
+            "self": {
+                "allowed": [
+                    "GET",
+                    "PUT",
+                    "PATCH",
+                    "DELETE"
+                ]
+            }
+        },
+        "version": 1,
+        "location": {
+            "sortOrder": 6468,
+            "globalSortOrder": 1666309893,
+            "sequence": "17.6469",
+            "parent": {
+                "item": 83266
+            }
+        },
+        "lock": {
+            "locked": false
+        },
+        "type": "items"
+    },
+    {
+        "id": 28452020,
+        "documentKey": "KCE-SWBUG-7054",
+        "globalId": "GID-7553735",
+        "itemType": 154,
+        "project": 229,
+        "createdDate": "2025-11-26T11:16:41.000+0000",
+        "modifiedDate": "2025-11-26T11:16:41.000+0000",
+        "lastActivityDate": "2025-11-26T11:25:39.000+0000",
+        "createdBy": 6096,
+        "modifiedBy": 6096,
+        "fields": {
+            "documentKey": "KCE-SWBUG-7054",
+            "globalId": "GID-7553735",
+            "name": "0.0.0.88 - TSCOP - EAQ Indication not shown when EAQ is triggered for the second time",
+            "description": "<p><em><strong>Parameter:</strong></em></p>\n\n<ul>\n\t<li>UI - Standard UI</li>\n\t<li>TSCOP - Main</li>\n\t<li>Logic for Side Handling - Selective</li>\n\t<li>Logic for FRD - Selective</li>\n</ul>\n\n<p><br />\n<em><strong>CPU Parameter:</strong></em></p>\n\n<ul>\n\t<li>1308 - 1</li>\n\t<li>1309 - 0</li>\n</ul>\n\n<p>&nbsp;</p>\n\n<p><em><strong>Description:</strong></em></p>\n\n<ul>\n\t<li>LD : 17.0.0.18</li>\n\t<li>KNSMUL : 0.0.0.49</li>\n\t<li>Drive : KDHN 150</li>\n\t<li>Shaft : 72 Floor TTC setup&nbsp;</li>\n\t<li>WELM : 0.0.0.88</li>\n\t<li>Proto SW : 0.0.0.15</li>\n\t<li>Theme (Newer Mock Theme causing issue with the Application SW, So older Theme used for testing)</li>\n\t<li>1096 - 0</li>\n\t<li>A &amp; B side KNSMUL - Non-Conventional (KCOP)</li>\n</ul>\n\n<p>&nbsp;</p>\n\n<p><em><strong>Actual Scenario:</strong></em></p>\n\n<ul>\n\t<li>Elevator in Floor Level&nbsp;</li>\n\t<li>EAQ is triggered from Landing (OPT)</li>\n\t<li>For the first Input, EAQ Indication is shown correctly in UI</li>\n\t<li>When EAQ is Turned OFF &amp; ON (Before Doors are completely Closed again)</li>\n\t<li>There is no EAQ indication shown</li>\n</ul>\n\n<p>&nbsp;</p>\n\n<p><em><strong>1st time EAQ Triggered:\u200b\u200b\u200b\u200b\u200b\u200b</strong></em></p>\n\n<p><img alt=\"\" height=\"419\" src=\"https://konerqm.jamacloud.com/attachment/232654/image-ybKLLkx7jJ.png\" width=\"316\" /></p>\n\n<p>&nbsp;</p>\n\n<p><em><strong>EAQ Triggered for the 2nd time:</strong></em></p>\n\n<p><img alt=\"\" height=\"397\" src=\"https://konerqm.jamacloud.com/attachment/232653/image-0rxjrDzgKu.png\" width=\"311\" /></p>\n\n<p><br />\n<em><strong>Note:</strong></em></p>\n\n<ul>\n\t<li>At this particular time, RDF is turned ON, OSI is shown correctly, Turning it off again leaves with OSI&nbsp;</li>\n\t<li>Checked in Both AUX &amp; Main TSCOP, Same issue noted</li>\n</ul>\n\n<p><br />\n<em><strong>Expected Scenario:</strong></em></p>\n\n<ul>\n\t<li>EAQ indication again should show regardless of any state, once activated</li>\n</ul>\n\n<p><br />\n<em><strong>Logs:</strong></em></p>\n\n<ul>\n\t<li>TSCOP Logs</li>\n\t<li>LPA</li>\n\t<li>Event Traffic</li>\n</ul>\n",
+            "status": 1081,
+            "BUG_component$154": 1291,
+            "BUG_subcomponent$154": "WELM 0.0.0.88",
+            "createdBy": 6096,
+            "release": 2396,
+            "BUG_foundInBuild$154": "KCE17.0.0.111(LD: 17.0.0.18, GCD: 17.0.0.33)",
+            "BUG_foundOnDate$154": "2025-11-25",
+            "priority": 2410,
+            "BUG_severity$154": 1110,
             "BUG_category$154": 1428,
             "BUG_testLevel$154": 1129,
             "BUG_howFound$154": 1092,
@@ -21165,18 +21281,17 @@
                 ]
             }
         },
-        "version": 2,
+        "version": 1,
         "location": {
-            "sortOrder": 6466,
-            "globalSortOrder": 1666307747,
-            "sequence": "17.6467",
+            "sortOrder": 6472,
+            "globalSortOrder": 1666319856,
+            "sequence": "17.6473",
             "parent": {
                 "item": 83266
             }
         },
         "lock": {
-            "locked": false,
-            "lastLockedDate": "2025-11-26T08:52:04.000+0000"
+            "locked": false
         },
         "type": "items"
     }
