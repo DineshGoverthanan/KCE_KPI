@@ -20889,8 +20889,8 @@
         "itemType": 154,
         "project": 229,
         "createdDate": "2025-11-21T06:09:46.000+0000",
-        "modifiedDate": "2025-11-26T11:01:40.000+0000",
-        "lastActivityDate": "2025-11-26T11:01:40.000+0000",
+        "modifiedDate": "2025-11-27T12:35:33.000+0000",
+        "lastActivityDate": "2025-11-27T12:35:33.000+0000",
         "createdBy": 5995,
         "modifiedBy": 620,
         "fields": {
@@ -20899,13 +20899,14 @@
             "name": "16.10 - KCEDCS - DG DMA -The file name is not correct in the inventory manager for \"dg.customization.v1.zip\"",
             "description": "<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\"><strong>Detailed Defect Description:</strong></span></span></p>\n\n<p>In the Inventory Manager, the file name for \"dg.customization.v1.zip\" is not correct</p>\n\n<p>&nbsp;</p>\n\n<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\"><strong>Parameters:&nbsp;&nbsp;</strong></span></span></p>\n\n<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\">(e.g. Parameter X (Description of the parameter) - parameter value)</span></span></p>\n\n<p>&nbsp;</p>\n\n<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\"><strong>Group configuration: </strong></span></span></p>\n\n<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\">Duplex</span></span></p>\n\n<p>&nbsp;</p>\n\n<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\"><strong>Drive type:</strong></span></span></p>\n\n<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\">KDM</span></span></p>\n\n<p>&nbsp;</p>\n\n<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\"><strong>Regression or new finding:</strong></span></span></p>\n\n<p><span style=\"font-family:Calibri,sans-serif\"><span style=\"font-size:14.6667px\">Regression</span></span></p>\n\n<p>&nbsp;</p>\n\n<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\"><strong>Test case Name / Feature name:</strong></span></span></p>\n\n<p><a href=\"https://konerqm.jamacloud.com/perspective.req?docId=26658860&amp;projectId=229\">DG configuration update from Site Manager</a></p>\n\n<p>&nbsp;</p>\n\n<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\"><strong>Test step number:</strong></span></span></p>\n\n<p>Customization:</p>\n\n<ul>\n\t<li>dg.customization.v1.json</li>\n\t<li>dg.localization.006.v1.json</li>\n\t<li>dg.localization.011.v1.json</li>\n\t<li>dg.localization.021.v1.json</li>\n\t<li>dg.localization.026.v1.json</li>\n\t<li>*.mp3</li>\n\t<li>*.svg</li>\n</ul>\n\n<p>&nbsp;</p>\n\n<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\"><strong>Description of the test case (Detailed Scenario)&nbsp;</strong></span></span></p>\n\n<ul>\n\t<li>Open the Sitemanager</li>\n\t<li>Select the devices option and choose any one DG</li>\n\t<li>Select configuration option</li>\n\t<li>In that, instead of <strong>dg.customization.v1.zip</strong>, the&nbsp;<strong>dg.customization.zip</strong> is present.</li>\n</ul>\n\n<p><strong>DG:</strong></p>\n\n<p><img alt=\"\" height=\"329\" src=\"https://konerqm.jamacloud.com/attachment/232624/image-ejyH3UdXoc.png\" width=\"527\" />&nbsp;&nbsp;</p>\n\n<p>&nbsp;</p>\n\n<p><strong>xDOP:</strong></p>\n\n<p><img alt=\"\" height=\"327\" src=\"https://konerqm.jamacloud.com/attachment/232628/image-GDJuASSdvH.png\" width=\"528\" /></p>\n\n<p>&nbsp;</p>\n\n<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\"><strong>Expected behavior:&nbsp;&nbsp;</strong></span></span></p>\n\n<p><span style=\"font-family:Calibri,sans-serif\"><span style=\"font-size:14.6667px\">The correct data should be presented&nbsp;</span></span></p>\n\n<p>&nbsp;</p>\n\n<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\"><strong>Actual behavior:</strong></span></span></p>\n\n<p><span style=\"font-family:Calibri,sans-serif\"><span style=\"font-size:14.6667px\">The incorrect data is shown</span></span></p>\n\n<p>&nbsp;</p>\n\n<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\"><strong>Recovery:&nbsp;</strong></span></span></p>\n\n<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\">No</span></span></p>\n\n<p>&nbsp;</p>\n\n<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\"><strong>Log attached Information:</strong></span></span></p>\n\n<p><span style=\"font-family:Calibri,sans-serif\"><span style=\"font-size:14.6667px\">Nodedebug info, SM UI</span></span></p>\n\n<p>&nbsp;</p>\n\n<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\"><strong>Value-added information:&nbsp;</strong></span></span></p>\n\n<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\">SM Version: 4.47</span></span></p>\n\n<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\">DG Apk - 1.7.0.4</span></span></p>\n\n<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\">DG DMA - 1.6.0.0</span></span></p>\n\n<p>&nbsp;</p>\n\n<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\"><strong>Test Sequence history:&nbsp;</strong></span></span></p>\n\n<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\">1: was failing scenario passing earlier</span></span></p>\n\n<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\">2. what was SW level when this was passing last time</span></span></p>\n\n<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\">3. any changes in test setup or test scenario between passed and failed run</span></span></p>\n\n<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\">4. any changes in tested system configuration between passed and failed run</span></span></p>\n\n<p>&nbsp;</p>\n\n<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\"><strong>Requirement related to the defect:</strong></span></span></p>\n\n<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\">(e.g. URL link to requirement which is related to the defect)</span></span></p>\n",
             "status": 1081,
-            "BUG_component$154": 1531,
-            "BUG_subcomponent$154": "DOP DMA",
+            "BUG_component$154": 1318,
+            "BUG_subcomponent$154": "LGA",
             "createdBy": 5995,
-            "assignedTo": 1650,
+            "assignedTo": 1668,
             "release": 2368,
             "BUG_foundInBuild$154": "16.10.4.10(LD: 16.10.2.1, GCD: 16.10.21.5)",
             "BUG_foundOnDate$154": "2025-11-20",
+            "BUG_plannedRelease$154": 2368,
             "priority": 2410,
             "BUG_severity$154": 1109,
             "BUG_category$154": 1422,
@@ -20918,7 +20919,7 @@
             "BUG_jiraId$154": "MST-16659",
             "BUG_jira_project$154": 2460,
             "BUG_jira_URL$154": "https://kone.atlassian.net/browse/MST-16659",
-            "BUG_integration_synced_time$154": "2025-11-26 11:01:38.972400",
+            "BUG_integration_synced_time$154": "2025-11-27 12:35:32.947237",
             "BUG_V1_project$154": 1431
         },
         "resources": {
@@ -20931,7 +20932,7 @@
                 ]
             }
         },
-        "version": 9,
+        "version": 11,
         "location": {
             "sortOrder": 6433,
             "globalSortOrder": 1666012680,
@@ -20942,7 +20943,7 @@
         },
         "lock": {
             "locked": false,
-            "lastLockedDate": "2025-11-26T11:01:03.000+0000"
+            "lastLockedDate": "2025-11-27T12:34:45.000+0000"
         },
         "type": "items"
     },
@@ -21189,8 +21190,8 @@
         "itemType": 154,
         "project": 229,
         "createdDate": "2025-11-26T10:27:03.000+0000",
-        "modifiedDate": "2025-11-27T06:50:26.000+0000",
-        "lastActivityDate": "2025-11-27T06:50:26.000+0000",
+        "modifiedDate": "2025-11-27T12:58:44.000+0000",
+        "lastActivityDate": "2025-11-27T12:58:44.000+0000",
         "createdBy": 5995,
         "modifiedBy": 620,
         "fields": {
@@ -21201,9 +21202,11 @@
             "status": 1081,
             "BUG_component$154": 2273,
             "createdBy": 5995,
+            "assignedTo": 3399,
             "release": 2368,
             "BUG_foundInBuild$154": "16.10.4.10(LD: 16.10.2.1, GCD: 16.10.21.5)",
             "BUG_foundOnDate$154": "2025-11-25",
+            "BUG_plannedRelease$154": 2368,
             "priority": 2410,
             "BUG_severity$154": 1110,
             "BUG_category$154": 1422,
@@ -21216,7 +21219,7 @@
             "BUG_jiraId$154": "MST-16687",
             "BUG_jira_project$154": 2460,
             "BUG_jira_URL$154": "https://kone.atlassian.net/browse/MST-16687",
-            "BUG_integration_synced_time$154": "2025-11-27 06:50:25.917847",
+            "BUG_integration_synced_time$154": "2025-11-27 12:58:43.297279",
             "BUG_V1_project$154": 1431
         },
         "resources": {
@@ -21229,7 +21232,7 @@
                 ]
             }
         },
-        "version": 3,
+        "version": 5,
         "location": {
             "sortOrder": 6468,
             "globalSortOrder": 1666309893,
@@ -21240,7 +21243,7 @@
         },
         "lock": {
             "locked": false,
-            "lastLockedDate": "2025-11-27T06:50:00.000+0000"
+            "lastLockedDate": "2025-11-27T12:57:35.000+0000"
         },
         "type": "items"
     },
@@ -21483,22 +21486,24 @@
         "itemType": 154,
         "project": 229,
         "createdDate": "2025-11-27T09:59:12.000+0000",
-        "modifiedDate": "2025-11-27T10:20:42.000+0000",
-        "lastActivityDate": "2025-11-27T10:20:42.000+0000",
+        "modifiedDate": "2025-11-27T13:23:32.000+0000",
+        "lastActivityDate": "2025-11-27T13:23:32.000+0000",
         "createdBy": 5995,
-        "modifiedBy": 5995,
+        "modifiedBy": 1120,
         "fields": {
             "documentKey": "KCE-SWBUG-7065",
             "globalId": "GID-7555727",
             "name": "16.10 - KCEDCS - DG is unable to update the software for devices that were deleted and later re-added to the inventory",
             "description": "<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\"><strong>Detailed Defect Description:</strong></span></span></p>\n\n<p>DG fails to update the SW for deleted devices which is added back to inventory again</p>\n\n<p>&nbsp;</p>\n\n<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\"><strong>Parameters:&nbsp;&nbsp;</strong></span></span></p>\n\n<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\">(e.g. Parameter X (Description of the parameter) - parameter value)</span></span></p>\n\n<p>&nbsp;</p>\n\n<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\"><strong>Group configuration: </strong></span></span></p>\n\n<p><span style=\"font-family:Calibri,sans-serif\"><span style=\"font-size:14.6667px\">Fourplex</span></span></p>\n\n<p>&nbsp;</p>\n\n<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\"><strong>Drive type:</strong></span></span></p>\n\n<p><span style=\"font-family:Calibri,sans-serif\"><span style=\"font-size:14.6667px\">KDM &amp; KDL</span></span></p>\n\n<p>&nbsp;</p>\n\n<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\"><strong>Regression or new finding:</strong></span></span></p>\n\n<p>New - 16.10 ITER#2</p>\n\n<p>&nbsp;</p>\n\n<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\"><strong>Test case Name / Feature name:</strong></span></span></p>\n\n<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\">ad-hoc defect</span></span></p>\n\n<p>&nbsp;</p>\n\n<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\"><strong>Test step number:</strong></span></span></p>\n\n<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\">\u201cad-hoc scenario\u201d</span></span></p>\n\n<p>&nbsp;</p>\n\n<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\"><strong>Description of the test case (Detailed Scenario)&nbsp;</strong></span></span></p>\n\n<ul>\n\t<li>Remove the DG's in the FCBx</li>\n\t<li>SM throws a disconnected message</li>\n\t<li>Delete the disconnected DG's from SM</li>\n\t<li>Connect it again in FCBx</li>\n\t<li>Roll call done</li>\n\t<li>The deleted DG's detected and came online in SM</li>\n\t<li>Mass update done for all the DG's</li>\n\t<li>DG fails to update the SW when it reaches the 90%</li>\n</ul>\n\n<p>&nbsp;</p>\n\n<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\"><strong>Expected behavior:&nbsp;&nbsp;</strong></span></span></p>\n\n<p><span style=\"font-family:Calibri,sans-serif\"><span style=\"font-size:14.6667px\">The DG should update anyway</span></span></p>\n\n<p>&nbsp;</p>\n\n<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\"><strong>Actual behavior:</strong></span></span></p>\n\n<p><span style=\"font-family:Calibri,sans-serif\"><span style=\"font-size:14.6667px\">The DG gets <strong>stuck</strong> for long time (About more than 30 min) with this message&nbsp;</span></span><em><strong><span style=\"background-color:#f1c40f\">\"Working, Transfer Done, update inventory</span>.....</strong></em></p>\n\n<p>&nbsp;</p>\n\n<p><em><strong><img alt=\"\" height=\"489\" src=\"https://konerqm.jamacloud.com/attachment/232796/image-rHBzJnpYQa.png\" width=\"712\" /></strong></em></p>\n\n<p>&nbsp;</p>\n\n<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\"><strong>Recovery:&nbsp;</strong></span></span></p>\n\n<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\">No</span></span></p>\n\n<p>&nbsp;</p>\n\n<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\"><strong>Log attached Information:</strong></span></span></p>\n\n<p>SM UI, Node debug info and Video Clip</p>\n\n<p>&nbsp;</p>\n\n<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\"><strong>Value-added information:&nbsp;</strong></span></span></p>\n\n<p>&nbsp;</p>\n\n<p><strong><u>Note: <span style=\"color:#f39c12\">Unable to read the RESULT content fully on the SM</span>, which is</u> [</strong><em><strong><span style=\"background-color:#f1c40f\">Working, Transfer Done, update inventory...]</span></strong></em></p>\n\n<p>&nbsp;</p>\n\n<p><em><strong>DG_version: 1.7.0.4<br />\nDMA_version: 1.6.0.0</strong></em></p>\n\n<p>&nbsp;</p>\n\n<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\"><strong>Test Sequence history:&nbsp;</strong></span></span></p>\n\n<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\">1: was failing scenario passing earlier</span></span></p>\n\n<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\">2. what was SW level when this was passing last time</span></span></p>\n\n<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\">3. any changes in test setup or test scenario between passed and failed run</span></span></p>\n\n<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\">4. any changes in tested system configuration between passed and failed run</span></span></p>\n\n<p>&nbsp;</p>\n\n<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\"><strong>Requirement related to the defect:</strong></span></span></p>\n\n<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\">(e.g. URL link to requirement which is related to the defect)</span></span></p>\n",
             "status": 1081,
-            "BUG_component$154": 1531,
-            "BUG_subcomponent$154": "DG",
+            "BUG_component$154": 1318,
+            "BUG_subcomponent$154": "LGA",
             "createdBy": 5995,
+            "assignedTo": 1668,
             "release": 2368,
             "BUG_foundInBuild$154": "16.10.4.10(LD: 16.10.2.1, GCD: 16.10.21.5)",
             "BUG_foundOnDate$154": "2025-11-24",
+            "BUG_plannedRelease$154": 2396,
             "priority": 2410,
             "BUG_severity$154": 1109,
             "BUG_category$154": 1422,
@@ -21520,7 +21525,7 @@
                 ]
             }
         },
-        "version": 2,
+        "version": 3,
         "location": {
             "sortOrder": 6483,
             "globalSortOrder": 1666326121,
@@ -21531,7 +21536,65 @@
         },
         "lock": {
             "locked": false,
-            "lastLockedDate": "2025-11-27T10:20:43.000+0000"
+            "lastLockedDate": "2025-11-27T13:23:33.000+0000"
+        },
+        "type": "items"
+    },
+    {
+        "id": 28470361,
+        "documentKey": "KCE-SWBUG-7067",
+        "globalId": "GID-7556004",
+        "itemType": 154,
+        "project": 229,
+        "createdDate": "2025-11-27T12:30:42.000+0000",
+        "modifiedDate": "2025-11-27T12:30:42.000+0000",
+        "lastActivityDate": "2025-11-27T12:30:42.000+0000",
+        "createdBy": 6096,
+        "modifiedBy": 6096,
+        "fields": {
+            "documentKey": "KCE-SWBUG-7067",
+            "globalId": "GID-7556004",
+            "name": "0.0.0.88 - TSCOP - HAN Mode's initial UI, TTC Floor Cells shows 7A instead of '7'",
+            "description": "<p><em><strong>Parameter:<br />\n\u200b\u200b\u200b\u200b\u200b<img alt=\"\" height=\"414\" src=\"https://konerqm.jamacloud.com/attachment/232836/image-IFXIIrC0xT.png\" width=\"252\" /></strong></em></p>\n\n<p>&nbsp;</p>\n\n<p><em><strong>Description:</strong></em></p>\n\n<ul>\n\t<li>LD : 17.0.0.18</li>\n\t<li>KNSMUL : 0.0.0.49</li>\n\t<li>Drive : KDHN 150</li>\n\t<li>Shaft : 72 Floor TTC setup&nbsp;</li>\n\t<li>WELM : 0.0.0.88</li>\n\t<li>Proto SW : 0.0.0.15</li>\n\t<li>Theme (Newer Mock Theme causing issue with the Application SW, So older Theme used for testing)</li>\n\t<li>1096 - 0</li>\n\t<li>A &amp; B side KNSMUL - Non-Conventional (KCOP)</li>\n\t<li>1 MAIN &amp; 1 AUX</li>\n\t<li>Elevator in 7th TTC Floor&nbsp;</li>\n\t<li>HAN mode activated through HAN Button</li>\n</ul>\n\n<p>&nbsp;</p>\n\n<ul>\n\t<li>In the HAN Sequence UI 7A is shown instead of 7</li>\n</ul>\n\n<p><img alt=\"\" height=\"375\" src=\"https://konerqm.jamacloud.com/attachment/232834/image-Qvy2JQwKFY.png\" width=\"282\" /></p>\n\n<p>&nbsp;</p>\n\n<ul>\n\t<li>When accessing 7A Cell, again 7A &amp; 7B is show cased</li>\n</ul>\n\n<p><img alt=\"\" height=\"426\" src=\"https://konerqm.jamacloud.com/attachment/232835/image-WzqgheKCRS.png\" width=\"293\" /></p>\n\n<p>&nbsp;</p>\n\n<p>&nbsp;</p>\n\n<p><em><strong>Note:</strong></em></p>\n\n<p>**<em>This causes confusion to the Disabled Customer as if there was only 7A (front) side is available to give call.</em></p>\n\n<p>&nbsp;</p>\n\n<p><em><strong>Note:</strong></em></p>\n\n<ul>\n\t<li>HAN Displays all TTC Floors the same way</li>\n</ul>\n\n<p>&nbsp;</p>\n\n<p>\u200b\u200b\u200b\u200b</p>\n\n<p><em><strong>Logs:</strong></em></p>\n\n<ul>\n\t<li>TSCOP Logs</li>\n\t<li>LPA</li>\n\t<li>Event Traffic</li>\n</ul>\n\n<p>&nbsp;</p>\n",
+            "status": 1081,
+            "BUG_component$154": 1291,
+            "BUG_subcomponent$154": "WELM 0.0.0.88",
+            "createdBy": 6096,
+            "release": 2396,
+            "BUG_foundInBuild$154": "KCE17.0.0.111(LD: 17.0.0.18, GCD: 17.0.0.33)",
+            "BUG_foundOnDate$154": "2025-11-26",
+            "priority": 2410,
+            "BUG_severity$154": 1110,
+            "BUG_category$154": 1428,
+            "BUG_testLevel$154": 1129,
+            "BUG_howFound$154": 1092,
+            "BUG_whereFound$154": 1137,
+            "BUG_probability_on_field$154": 2399,
+            "root_cause_category$154": 2512,
+            "BUG_testCaseUpdated$154": 1198,
+            "BUG_V1_project$154": 1431
+        },
+        "resources": {
+            "self": {
+                "allowed": [
+                    "GET",
+                    "PUT",
+                    "PATCH",
+                    "DELETE"
+                ]
+            }
+        },
+        "version": 1,
+        "location": {
+            "sortOrder": 6485,
+            "globalSortOrder": 1666326480,
+            "sequence": "17.6486",
+            "parent": {
+                "item": 83266
+            }
+        },
+        "lock": {
+            "locked": false
         },
         "type": "items"
     }
