@@ -16423,6 +16423,13 @@
     },
     {
         "TestRunStatus":"PASSED",
+        "ExecutionDate":"2025-11-27",
+        "Document Key":"KCE-TSTRN-4005668",
+        "Name":"xDOP Call giving",
+        "Assigned To":"Vivek"
+    },
+    {
+        "TestRunStatus":"PASSED",
         "ExecutionDate":"2025-11-24",
         "Document Key":"KCE-TSTRN-4004499",
         "Name":"DBR C Parameter & Setup configuration",
@@ -16702,8 +16709,8 @@
         "Assigned To":"Nithya Priya"
     },
     {
-        "TestRunStatus":"INPROGRESS",
-        "ExecutionDate":"2025-11-26",
+        "TestRunStatus":"PASSED",
+        "ExecutionDate":"2025-11-27",
         "Document Key":"KCE-TSTRN-4004586",
         "Name":"COD operation toward downwards direction, EZO between P2 and P3 magnet",
         "Assigned To":"Nithya Priya"
@@ -16766,6 +16773,13 @@
     },
     {
         "TestRunStatus":"PASSED",
+        "ExecutionDate":"2025-11-27",
+        "Document Key":"KCE-TSTRN-4004603",
+        "Name":"Remote LD reboot functionality - Remote LD reboot \"release default\" configured",
+        "Assigned To":"Priyavalli"
+    },
+    {
+        "TestRunStatus":"PASSED",
         "ExecutionDate":"2025-11-26",
         "Document Key":"KCE-TSTRN-4004610",
         "Name":"Remote LD reboot functionality - elevator in EAQ mode",
@@ -16787,7 +16801,7 @@
     },
     {
         "TestRunStatus":"INPROGRESS",
-        "ExecutionDate":"2025-11-24",
+        "ExecutionDate":"2025-11-27",
         "Document Key":"KCE-TSTRN-4004617",
         "Name":"Remote LD reboot functionality - elevator in TOC inspection mode",
         "Assigned To":"Kowsalya"
@@ -16797,6 +16811,13 @@
         "ExecutionDate":"2025-11-27",
         "Document Key":"KCE-TSTRN-4004619",
         "Name":"Remote LD reboot functionality - test switch set in the elevator",
+        "Assigned To":"Priyavalli"
+    },
+    {
+        "TestRunStatus":"FAILED",
+        "ExecutionDate":"2025-11-27",
+        "Document Key":"KCE-TSTRN-4004630",
+        "Name":"Remote LD reboot functionality - Remote reboot already ongoing for the elevator",
         "Assigned To":"Priyavalli"
     },
     {
@@ -16828,10 +16849,17 @@
         "Assigned To":"Suryanarayanan"
     },
     {
-        "TestRunStatus":"INPROGRESS",
+        "TestRunStatus":"PASSED",
         "ExecutionDate":"2025-11-27",
         "Document Key":"KCE-TSTRN-4004413",
         "Name":"Activation of Disability Service while lift is standing in floor.",
+        "Assigned To":"Suryanarayanan"
+    },
+    {
+        "TestRunStatus":"PASSED",
+        "ExecutionDate":"2025-11-27",
+        "Document Key":"KCE-TSTRN-4004414",
+        "Name":"Activation of disability Service Activation While Lift is Moving",
         "Assigned To":"Suryanarayanan"
     }
 ]

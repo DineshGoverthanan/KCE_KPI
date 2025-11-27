@@ -20660,17 +20660,17 @@
         "itemType": 154,
         "project": 229,
         "createdDate": "2025-11-26T08:34:01.000+0000",
-        "modifiedDate": "2025-11-26T08:34:01.000+0000",
-        "lastActivityDate": "2025-11-26T08:34:01.000+0000",
+        "modifiedDate": "2025-11-27T09:48:24.000+0000",
+        "lastActivityDate": "2025-11-27T09:48:24.000+0000",
         "createdBy": 5934,
-        "modifiedBy": 5934,
+        "modifiedBy": 1908,
         "fields": {
             "documentKey": "KCE-SWBUG-7047",
             "globalId": "GID-7553491",
             "name": "4.6 Service Tool - Additional value \"3\" is shown in preferred values for KDX drive parameter 65.",
             "description": "<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\"><strong>Detailed Defect Description:</strong></span></span></p>\n\n<p>4.6 Service Tool - Additional value \"3\" is shown in preferred values for KDX drive parameter 65.</p>\n\n<p>&nbsp;</p>\n\n<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\"><strong>Parameters:&nbsp;&nbsp;</strong></span></span></p>\n\n<p><span style=\"font-family:Calibri, sans-serif\"><span style=\"font-size:14.6667px\">Drive parameter - 65</span></span></p>\n\n<p>&nbsp;</p>\n\n<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\"><strong>Group configuration: </strong></span></span></p>\n\n<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\">single elevator setup</span></span></p>\n\n<p>&nbsp;</p>\n\n<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\"><strong>Drive type:</strong></span></span></p>\n\n<p><span style=\"font-family:Calibri, sans-serif\"><span style=\"font-size:14.6667px\">KDX</span></span></p>\n\n<p>&nbsp;</p>\n\n<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\"><strong>Regression or new finding:</strong></span></span></p>\n\n<p><span style=\"font-family:Calibri, sans-serif\"><span style=\"font-size:14.6667px\">new finding</span></span></p>\n\n<p>&nbsp;</p>\n\n<p>&nbsp;</p>\n\n<p>&nbsp;</p>\n\n<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\"><strong>Test case Name / Feature name:</strong></span></span></p>\n\n<p><span style=\"font-family:Calibri, sans-serif\"><span style=\"font-size:14.6667px\">ad hoc</span></span></p>\n\n<p>&nbsp;</p>\n\n<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\"><strong>Test step number:</strong></span></span></p>\n\n<p><span style=\"font-family:Calibri, sans-serif\"><span style=\"font-size:14.6667px\">ad hoc</span></span></p>\n\n<p>&nbsp;</p>\n\n<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\"><strong>Description of the test case (Detailed Scenario)&nbsp;</strong></span></span></p>\n\n<ul>\n\t<li>The KDX drive parameter 65 has only -2,-1, 0, 1, 2 values in database tool</li>\n</ul>\n\n<p><img alt=\"\" height=\"265\" src=\"https://konerqm.jamacloud.com/attachment/232601/image-JAPkufze0A.png\" width=\"252\" /></p>\n\n<p>&nbsp;</p>\n\n<p>&nbsp;</p>\n\n<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\"><strong>Expected behavior:&nbsp;&nbsp;</strong></span></span></p>\n\n<p><span style=\"font-family:Calibri, sans-serif\"><span style=\"font-size:14.6667px\">Only values -2,-1,0,1,2 should be shown in preferred values</span></span></p>\n\n<p>&nbsp;</p>\n\n<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\"><strong>Actual behavior:</strong></span></span></p>\n\n<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\">Additional value \"3\" is shown in preferred values</span></span></p>\n\n<p>&nbsp;</p>\n\n<p><img alt=\"\" height=\"266\" src=\"https://konerqm.jamacloud.com/attachment/232605/image-RKHRXwFnby.png\" width=\"466\" /></p>\n\n<p>&nbsp;</p>\n\n<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\"><strong>Recovery:&nbsp;</strong></span></span></p>\n\n<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\">(e.g. Can issue be recovered by performing some actions like power break / RDF / Parameter changes)</span></span></p>\n\n<p>&nbsp;</p>\n\n<p>&nbsp;</p>\n\n<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\"><strong>Log attached Information:</strong></span></span></p>\n\n<p><span style=\"font-family:Calibri, sans-serif\"><span style=\"font-size:14.6667px\">image attached</span></span></p>\n\n<p>&nbsp;\n</p><p>&nbsp;</p>\n<p></p>\n\n<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\">Note: Once defect is logged, attachments can be done by editing the defect (use compressed zip folder format)</span></span></p>\n\n<p>&nbsp;</p>\n\n<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\"><strong>Value-added information:&nbsp;</strong></span></span></p>\n\n<p>&nbsp;</p>\n\n<p><strong>- Pro manager version - 4.6.239.7126</strong></p>\n\n<p><strong>- Localization files are updated</strong></p>\n\n<p>&nbsp;</p>\n\n<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\"><strong>Test Sequence history:&nbsp;</strong></span></span></p>\n\n<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\">1: was failing scenario passing earlier</span></span></p>\n\n<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\">2. what was SW level when this was passing last time</span></span></p>\n\n<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\">3. any changes in test setup or test scenario between passed and failed run</span></span></p>\n\n<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\">4. any changes in tested system configuration between passed and failed run</span></span></p>\n\n<p>&nbsp;</p>\n\n<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\"><strong>Requirement related to the defect:</strong></span></span></p>\n\n<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\">(e.g. URL link to requirement which is related to the defect)</span></span></p>\n",
             "status": 1081,
-            "BUG_component$154": 2270,
+            "BUG_component$154": 2160,
             "createdBy": 5934,
             "release": 2188,
             "BUG_foundInBuild$154": "4.6.239.7126",
@@ -20696,7 +20696,7 @@
                 ]
             }
         },
-        "version": 1,
+        "version": 2,
         "location": {
             "sortOrder": 6465,
             "globalSortOrder": 1666306674,
@@ -20707,7 +20707,7 @@
         },
         "lock": {
             "locked": false,
-            "lastLockedDate": "2025-11-26T08:54:15.000+0000"
+            "lastLockedDate": "2025-11-27T09:48:25.000+0000"
         },
         "type": "items"
     },
@@ -20897,20 +20897,21 @@
         "itemType": 154,
         "project": 229,
         "createdDate": "2025-11-26T13:27:38.000+0000",
-        "modifiedDate": "2025-11-27T07:08:00.000+0000",
-        "lastActivityDate": "2025-11-27T07:08:00.000+0000",
+        "modifiedDate": "2025-11-27T08:14:15.000+0000",
+        "lastActivityDate": "2025-11-27T09:52:15.000+0000",
         "createdBy": 6096,
         "modifiedBy": 6096,
         "fields": {
             "documentKey": "KCE-SWBUG-7056",
             "globalId": "GID-7554206",
             "name": "0.0.0.88 - TSCOP - Selected CAR Calls are not shown after registering 30+ floors",
-            "description": "<p><em><strong>Parameter:</strong></em></p>\n\n<ul>\n\t<li>UI - Standard UI</li>\n\t<li>TSCOP - Main</li>\n\t<li>Logic for Side Handling - Selective</li>\n\t<li>Logic for FRD - Selective</li>\n</ul>\n\n<p><br />\n<em><strong>CPU Parameter:</strong></em></p>\n\n<ul>\n\t<li>1096 - 0</li>\n\t<li>UI - Static UI</li>\n</ul>\n\n<p>&nbsp;</p>\n\n<p><em><strong>Description:</strong></em></p>\n\n<ul>\n\t<li>LD : 17.0.0.18</li>\n\t<li>KNSMUL : 0.0.0.49</li>\n\t<li>Drive : KDHN 150</li>\n\t<li>Shaft : 72 Floor TTC setup&nbsp;</li>\n\t<li>WELM : 0.0.0.88</li>\n\t<li>Proto SW : 0.0.0.15</li>\n\t<li>Theme (Newer Mock Theme causing issue with the Application SW, So older Theme used for testing)</li>\n\t<li>1096 - 0</li>\n\t<li>A &amp; B side KNSMUL - Non-Conventional (KCOP)</li>\n</ul>\n\n<p>&nbsp;</p>\n\n<p><em><strong>Scenario:</strong></em></p>\n\n<ul>\n\t<li>When 30+ CAR Call is given, after the 30th floor the registered icon is not stored in the TSCOP</li>\n\t<li>But no indication of registration after 30th CAR Call registration<br />\n\t<img alt=\"\" height=\"737\" src=\"https://konerqm.jamacloud.com/attachment/232732/image-1knq7V13h7.png\" width=\"450\" /></li>\n</ul>\n\n<p>&nbsp;</p>\n\n<ul>\n\t<li>Note, all the floors have been registered in the CPU, Just in TSCOP UI the Selection Cells are not stayed resgistered&nbsp;<br />\n\t<img alt=\"\" height=\"587\" src=\"https://konerqm.jamacloud.com/attachment/232733/image-fCCJYAdwMx.png\" width=\"635\" /></li>\n</ul>\n\n<p>&nbsp;</p>\n\n<p><em><strong>Logs:</strong></em></p>\n\n<ul>\n\t<li>TSCOP Logs</li>\n\t<li>LPA</li>\n\t<li>Event Traffic</li>\n\t<li>Video attached for better understanding</li>\n</ul>\n\n<p><em><strong>Reference:</strong></em></p>\n\n<p><img alt=\"\" height=\"603\" src=\"https://konerqm.jamacloud.com/attachment/232737/image-ZrWPfppBzQ.png\" width=\"480\" /></p>\n",
+            "description": "<p><em><strong>Parameter:</strong></em></p>\n\n<ul>\n\t<li>UI - Standard UI</li>\n\t<li>TSCOP - Main</li>\n\t<li>Logic for Side Handling - Selective</li>\n\t<li>Logic for FRD - Selective</li>\n</ul>\n\n<p><br />\n<em><strong>CPU Parameter:</strong></em></p>\n\n<ul>\n\t<li>1096 - 0</li>\n\t<li>UI - Static UI</li>\n</ul>\n\n<p>&nbsp;</p>\n\n<p><em><strong>Description:</strong></em></p>\n\n<ul>\n\t<li>LD : 17.0.0.18</li>\n\t<li>KNSMUL : 0.0.0.49</li>\n\t<li>Drive : KDHN 150</li>\n\t<li>Shaft : 72 Floor TTC setup&nbsp;</li>\n\t<li>WELM : 0.0.0.88</li>\n\t<li>Proto SW : 0.0.0.15</li>\n\t<li>Theme (Newer Mock Theme causing issue with the Application SW, So older Theme used for testing)</li>\n\t<li>1096 - 0</li>\n\t<li>A &amp; B side KNSMUL - Non-Conventional (KCOP)</li>\n</ul>\n\n<p>&nbsp;</p>\n\n<p><em><strong>Scenario:</strong></em></p>\n\n<ul>\n\t<li>When 30+ CAR Call is given, after the 30th floor the registered icon is not stored in the TSCOP</li>\n\t<li>But no indication of registration after 30th CAR Call registration<br />\n\t<img alt=\"\" height=\"737\" src=\"https://konerqm.jamacloud.com/attachment/232732/image-1knq7V13h7.png\" width=\"450\" /></li>\n</ul>\n\n<p>&nbsp;</p>\n\n<ul>\n\t<li>**All the floors have been registered in the CPU, Just in TSCOP UI the Selection Cells are not stayed resgistered&nbsp;</li>\n\t<li><img alt=\"\" height=\"587\" src=\"https://konerqm.jamacloud.com/attachment/232733/image-fCCJYAdwMx.png\" width=\"635\" /></li>\n</ul>\n\n<p><em><strong>NOTE:</strong></em><br />\nFloor markings, Direction Arrow and Next stop indication also not shown</p>\n\n<p>&nbsp;</p>\n\n<p><em><strong>Logs:</strong></em></p>\n\n<ul>\n\t<li>TSCOP Logs</li>\n\t<li>LPA</li>\n\t<li>Event Traffic</li>\n\t<li>Video attached for better understanding</li>\n</ul>\n\n<p><em><strong>Reference:</strong></em></p>\n\n<p><img alt=\"\" height=\"603\" src=\"https://konerqm.jamacloud.com/attachment/232737/image-ZrWPfppBzQ.png\" width=\"480\" /></p>\n",
             "status": 1081,
             "BUG_component$154": 1291,
             "BUG_subcomponent$154": "WELM 0.0.0.88",
             "createdBy": 6096,
             "release": 2396,
+            "BUG_foundInBuild$154": "KCE17.0.0.111(LD: 17.0.0.18, GCD: 17.0.0.33),",
             "BUG_foundOnDate$154": "2025-11-25",
             "priority": 2410,
             "BUG_severity$154": 1110,
@@ -20933,7 +20934,7 @@
                 ]
             }
         },
-        "version": 3,
+        "version": 5,
         "location": {
             "sortOrder": 6474,
             "globalSortOrder": 1666316331,
@@ -20944,7 +20945,7 @@
         },
         "lock": {
             "locked": false,
-            "lastLockedDate": "2025-11-27T07:08:01.000+0000"
+            "lastLockedDate": "2025-11-27T08:14:16.000+0000"
         },
         "type": "items"
     },
@@ -20997,6 +20998,121 @@
             "sortOrder": 6476,
             "globalSortOrder": 1666318477,
             "sequence": "17.6477",
+            "parent": {
+                "item": 83266
+            }
+        },
+        "lock": {
+            "locked": false
+        },
+        "type": "items"
+    },
+    {
+        "id": 28466315,
+        "documentKey": "KCE-SWBUG-7062",
+        "globalId": "GID-7555681",
+        "itemType": 154,
+        "project": 229,
+        "createdDate": "2025-11-27T08:30:41.000+0000",
+        "modifiedDate": "2025-11-27T08:51:45.000+0000",
+        "lastActivityDate": "2025-11-27T08:51:45.000+0000",
+        "createdBy": 6257,
+        "modifiedBy": 6257,
+        "fields": {
+            "documentKey": "KCE-SWBUG-7062",
+            "globalId": "GID-7555681",
+            "name": "KC3 view shows cartop inspection mode as 'UNKNOWN' with '?' symbol",
+            "description": "<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\"><strong>Detailed Defect Description:</strong></span></span></p>\n\n<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\">KC3 view UI shows cartop inspection mode as 'UNKNOWN' with '?' symbol</span></span></p>\n\n<p>&nbsp;</p>\n\n<p>&nbsp;</p>\n\n<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\"><strong>Group configuration: </strong></span></span></p>\n\n<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\">Single</span></span></p>\n\n<p>&nbsp;</p>\n\n<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\"><strong>Drive type:</strong></span></span></p>\n\n<ul>\n\t<li><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\">KDM 40&nbsp;</span></span></li>\n\t<li><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\">PDX 3.2</span></span></li>\n\t<li><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\">Yaskawa</span></span></li>\n</ul>\n\n<p>&nbsp;</p>\n\n<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\"><strong>Regression or new finding:</strong></span></span></p>\n\n<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\">New finding</span></span></p>\n\n<p>&nbsp;</p>\n\n<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\"><strong>Description of the test case (Detailed Scenario)&nbsp;</strong></span></span></p>\n\n<ul>\n\t<li><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\">Connect a KC3 view portal with the respective simulator KEN number.</span></span></li>\n\t<li><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\">Enable Cartop Inspection from simulator</span></span></li>\n\t<li><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\">KC3 view portal UI shows 'UNKNOWN' with '?' symbol.</span></span></li>\n\t<li>Checked with multiple simulators</li>\n</ul>\n\n<p><img alt=\"\" height=\"412\" src=\"https://konerqm.jamacloud.com/attachment/232775/KC3%20view%20%28TOC%29.png\" width=\"779\" /></p>\n\n<p>&nbsp;</p>\n\n<p>&nbsp;</p>\n\n<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\"><strong>Expected behavior:&nbsp;&nbsp;</strong></span></span></p>\n\n<p><span style=\"font-family:Calibri,sans-serif\"><span style=\"font-size:14.6667px\">KC3 view UI should not show 'UNKNOWN' with '?' symbol for cartop inspection and should respective message.</span></span></p>\n\n<p><span style=\"font-family:Calibri,sans-serif\"><span style=\"font-size:14.6667px\">Example: For RDF, UI shows 'Maintenance ongoing' with respective symbol. (For reference screen shot added below)</span></span></p>\n\n<p>&nbsp;</p>\n\n<p><img alt=\"\" height=\"416\" src=\"https://konerqm.jamacloud.com/attachment/232773/KC3%20view%20%28RDF%29.png\" width=\"773\" /></p>\n\n<p>&nbsp;</p>\n\n<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\"><strong>Actual behavior:</strong></span></span></p>\n\n<p>KC3 view UI shows 'UNKNOWN' with '?' symbol.</p>\n\n<p>&nbsp;</p>\n\n<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\"><strong>Recovery:&nbsp;</strong></span></span></p>\n\n<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\">No recovery</span></span></p>\n\n<p>&nbsp;</p>\n\n<p>&nbsp;</p>\n\n<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\"><strong>Log attached Information:</strong></span></span></p>\n\n<p>Screen shot</p>\n\n<p>&nbsp;</p>\n",
+            "status": 1081,
+            "BUG_component$154": 1567,
+            "createdBy": 6257,
+            "release": 2396,
+            "BUG_foundOnDate$154": "2025-11-25",
+            "priority": 2410,
+            "BUG_severity$154": 1110,
+            "BUG_category$154": 1422,
+            "BUG_testLevel$154": 1129,
+            "BUG_howFound$154": 1092,
+            "BUG_whereFound$154": 1137,
+            "BUG_probability_on_field$154": 2396,
+            "root_cause_category$154": 2512,
+            "BUG_testCaseUpdated$154": 1198,
+            "BUG_V1_project$154": 1431
+        },
+        "resources": {
+            "self": {
+                "allowed": [
+                    "GET",
+                    "PUT",
+                    "PATCH",
+                    "DELETE"
+                ]
+            }
+        },
+        "version": 2,
+        "location": {
+            "sortOrder": 6480,
+            "globalSortOrder": 1666322769,
+            "sequence": "17.6481",
+            "parent": {
+                "item": 83266
+            }
+        },
+        "lock": {
+            "locked": false,
+            "lastLockedDate": "2025-11-27T08:51:47.000+0000"
+        },
+        "type": "items"
+    },
+    {
+        "id": 28468350,
+        "documentKey": "KCE-SWBUG-7065",
+        "globalId": "GID-7555727",
+        "itemType": 154,
+        "project": 229,
+        "createdDate": "2025-11-27T09:59:12.000+0000",
+        "modifiedDate": "2025-11-27T09:59:12.000+0000",
+        "lastActivityDate": "2025-11-27T09:59:12.000+0000",
+        "createdBy": 5995,
+        "modifiedBy": 5995,
+        "fields": {
+            "documentKey": "KCE-SWBUG-7065",
+            "globalId": "GID-7555727",
+            "name": "16.10 - KCEDCS - DG is unable to update the software for devices that were deleted and later re-added to the inventory",
+            "description": "<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\"><strong>Detailed Defect Description:</strong></span></span></p>\n\n<p>DG fails to update the SW for deleted devices which is added back to inventory again</p>\n\n<p>&nbsp;</p>\n\n<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\"><strong>Parameters:&nbsp;&nbsp;</strong></span></span></p>\n\n<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\">(e.g. Parameter X (Description of the parameter) - parameter value)</span></span></p>\n\n<p>&nbsp;</p>\n\n<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\"><strong>Group configuration: </strong></span></span></p>\n\n<p><span style=\"font-family:Calibri, sans-serif\"><span style=\"font-size:14.6667px\">Fourplex</span></span></p>\n\n<p>&nbsp;</p>\n\n<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\"><strong>Drive type:</strong></span></span></p>\n\n<p><span style=\"font-family:Calibri, sans-serif\"><span style=\"font-size:14.6667px\">KDM &amp; KDL</span></span></p>\n\n<p>&nbsp;</p>\n\n<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\"><strong>Regression or new finding:</strong></span></span></p>\n\n<p>New - 16.10 ITER#2</p>\n\n<p>&nbsp;</p>\n\n<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\"><strong>Test case Name / Feature name:</strong></span></span></p>\n\n<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\">ad-hoc defect</span></span></p>\n\n<p>&nbsp;</p>\n\n<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\"><strong>Test step number:</strong></span></span></p>\n\n<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\">\u201cad-hoc scenario\u201d</span></span></p>\n\n<p>&nbsp;</p>\n\n<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\"><strong>Description of the test case (Detailed Scenario)&nbsp;</strong></span></span></p>\n\n<ul>\n\t<li>Remove the DG's in the FCBx</li>\n\t<li>SM throws a disconnected message</li>\n\t<li>Delete the disconnected DG's from SM</li>\n\t<li>Connect it again in FCBx</li>\n\t<li>Roll call done</li>\n\t<li>The deleted DG's detected and came online in SM</li>\n\t<li>Mass update done for all the DG's</li>\n\t<li>DG fails to update the SW when it reaches the 90%</li>\n</ul>\n\n<p>&nbsp;</p>\n\n<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\"><strong>Expected behavior:&nbsp;&nbsp;</strong></span></span></p>\n\n<p><span style=\"font-family:Calibri, sans-serif\"><span style=\"font-size:14.6667px\">The DG should update anyway</span></span></p>\n\n<p>&nbsp;</p>\n\n<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\"><strong>Actual behavior:</strong></span></span></p>\n\n<p><span style=\"font-family:Calibri, sans-serif\"><span style=\"font-size:14.6667px\">The DG gets <strong>stuck</strong> for long time (About more than 30 min) with this message&nbsp;</span></span><em><strong><span style=\"background-color:#f1c40f\">\"Working, Transfer Done, update inventory</span>.....</strong></em></p>\n\n<p>&nbsp;</p>\n\n<p><em><strong><img alt=\"\" height=\"489\" src=\"https://konerqm.jamacloud.com/attachment/232796/image-rHBzJnpYQa.png\" width=\"712\" /></strong></em></p>\n\n<p>&nbsp;</p>\n\n<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\"><strong>Recovery:&nbsp;</strong></span></span></p>\n\n<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\">No</span></span></p>\n\n<p>&nbsp;</p>\n\n<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\"><strong>Log attached Information:</strong></span></span></p>\n\n<p>SM UI, Node debug info and Video Clip</p>\n\n<p>&nbsp;</p>\n\n<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\"><strong>Value-added information:&nbsp;</strong></span></span></p>\n\n<p>&nbsp;</p>\n\n<p><strong><u>Note: <span style=\"color:#f39c12\">Unable to read the RESULT content fully on the SM</span>, which is</u> [</strong><em><strong><span style=\"background-color:#f1c40f\">Working, Transfer Done, update inventory...]</span></strong></em></p>\n\n<p>&nbsp;</p>\n\n<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\"><strong>Test Sequence history:&nbsp;</strong></span></span></p>\n\n<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\">1: was failing scenario passing earlier</span></span></p>\n\n<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\">2. what was SW level when this was passing last time</span></span></p>\n\n<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\">3. any changes in test setup or test scenario between passed and failed run</span></span></p>\n\n<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\">4. any changes in tested system configuration between passed and failed run</span></span></p>\n\n<p>&nbsp;</p>\n\n<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\"><strong>Requirement related to the defect:</strong></span></span></p>\n\n<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\">(e.g. URL link to requirement which is related to the defect)</span></span></p>\n",
+            "status": 1081,
+            "BUG_component$154": 1531,
+            "BUG_subcomponent$154": "DG",
+            "createdBy": 5995,
+            "release": 2368,
+            "BUG_foundInBuild$154": "16.10.4.10(LD: 16.10.2.1, GCD: 16.10.21.5)",
+            "BUG_foundOnDate$154": "2025-11-24",
+            "priority": 2410,
+            "BUG_severity$154": 1109,
+            "BUG_category$154": 1422,
+            "BUG_testLevel$154": 1129,
+            "BUG_howFound$154": 1092,
+            "BUG_whereFound$154": 1137,
+            "BUG_probability_on_field$154": 2398,
+            "root_cause_category$154": 2512,
+            "BUG_testCaseUpdated$154": 1198,
+            "BUG_V1_project$154": 1431
+        },
+        "resources": {
+            "self": {
+                "allowed": [
+                    "GET",
+                    "PUT",
+                    "PATCH",
+                    "DELETE"
+                ]
+            }
+        },
+        "version": 1,
+        "location": {
+            "sortOrder": 6483,
+            "globalSortOrder": 1666326121,
+            "sequence": "17.6484",
             "parent": {
                 "item": 83266
             }
