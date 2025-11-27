@@ -1830,10 +1830,10 @@
         "itemType": 154,
         "project": 417,
         "createdDate": "2025-09-04T09:46:05.000+0000",
-        "modifiedDate": "2025-11-11T06:36:07.000+0000",
-        "lastActivityDate": "2025-11-11T06:36:07.000+0000",
+        "modifiedDate": "2025-11-27T07:07:50.000+0000",
+        "lastActivityDate": "2025-11-27T07:07:59.000+0000",
         "createdBy": 6117,
-        "modifiedBy": 5917,
+        "modifiedBy": 2001,
         "fields": {
             "documentKey": "KIE601-SWBUG-2638",
             "globalId": "GID-7385154",
@@ -1859,7 +1859,7 @@
             "root_cause_category$154": 2512,
             "BUG_rootCause$154": "<p>[Karthikeyan K]-(15-09-2025) : Code Error</p>",
             "BUG_testCaseUpdated$154": 1198,
-            "BUG_RD_comments$154": "<p>[Visu]: 22-Sep-2025<br />\nThis defect is fixed in TR 1.0-t12.13.1</p>\n\n<p>&nbsp;</p>\n\n<p>[Augustine]:24-Sep-2025</p>\n\n<p>This defect is verified&nbsp;in TR 1.0-t12.13.1 and found ok<br />\n<br />\n[Vigneshwarar V]:06-oct-2025<br />\nThis defect is verified&nbsp;in TR 1.0-t12.14 and same issue occurs(<span style=\"font-family:Calibri,sans-serif\"><span style=\"font-size:14.6667px\">Since the escalator is waiting to run in any direction the ACU messages deliver wrong message to the passenger)</span></span></p>\n\n<p>&nbsp;</p>\n\n<p><span style=\"font-family:Calibri,sans-serif\"><span style=\"font-size:14.6667px\">[Visu]:&nbsp;10-Nov-2025<br />\nDefect Review meeting<br />\nParticipants: Visu, Banu</span></span></p>\n\n<p><span style=\"font-family:Calibri,sans-serif\"><span style=\"font-size:14.6667px\">Mail to be sent to Rel lab for retest - Karthi</span></span></p>\n\n<p>&nbsp;</p>\n\n<p><span style=\"font-family:Calibri,sans-serif\"><span style=\"font-size:14.6667px\">[Karthikeyan K]: 11</span></span>-Nov-2025&nbsp;<span style=\"font-family:Calibri,sans-serif\"><span style=\"font-size:14.6667px\">Tested and verified with Rel lab team and found OK. due to misunderstanding of test scenario, it was re-opened.</span></span>&nbsp;So, it can be closed.</p>\n\n<p>&nbsp;</p>\n\n<p>[Vigneshwarar V]: 11-Sep-2025</p>\n\n<p>Tested with TR1.0-t12.16, its working fine, so defect moved to closed state.</p>",
+            "BUG_RD_comments$154": "<p>[Visu]: 22-Sep-2025<br />\nThis defect is fixed in TR 1.0-t12.13.1</p>\n\n<p>&nbsp;</p>\n\n<p>[Augustine]:24-Sep-2025</p>\n\n<p>This defect is verified&nbsp;in TR 1.0-t12.13.1 and found ok<br />\n<br />\n[Vigneshwarar V]:06-oct-2025<br />\nThis defect is verified&nbsp;in TR 1.0-t12.14 and same issue occurs(<span style=\"font-family:Calibri,sans-serif\"><span style=\"font-size:14.6667px\">Since the escalator is waiting to run in any direction the ACU messages deliver wrong message to the passenger)</span></span></p>\n\n<p>&nbsp;</p>\n\n<p><span style=\"font-family:Calibri,sans-serif\"><span style=\"font-size:14.6667px\">[Visu]:&nbsp;10-Nov-2025<br />\nDefect Review meeting<br />\nParticipants: Visu, Banu</span></span></p>\n\n<p><span style=\"font-family:Calibri,sans-serif\"><span style=\"font-size:14.6667px\">Mail to be sent to Rel lab for retest - Karthi</span></span></p>\n\n<p>&nbsp;</p>\n\n<p><span style=\"font-family:Calibri,sans-serif\"><span style=\"font-size:14.6667px\">[Karthikeyan K]: 11</span></span>-Nov-2025&nbsp;<span style=\"font-family:Calibri,sans-serif\"><span style=\"font-size:14.6667px\">Tested and verified with Rel lab team and found OK. due to misunderstanding of test scenario, it was re-opened.</span></span>&nbsp;So, it can be closed.</p>\n\n<p>&nbsp;</p>\n\n<p>[Vigneshwarar V]: 11-Sep-2025</p>\n\n<p>Tested with TR1.0-t12.16, its working fine, so defect moved to closed state.</p>\n\n<p>&nbsp;</p>\n\n<p>[Visu]: 27-Nov-2025<br />\nThis defect is fixed in HD R 3.0.1.5 also.</p>\n\n<p>&nbsp;</p>",
             "BUG_V1_project$154": 1431
         },
         "resources": {
@@ -1869,7 +1869,7 @@
                 ]
             }
         },
-        "version": 18,
+        "version": 19,
         "location": {
             "sortOrder": 1219,
             "globalSortOrder": 1302118092,
@@ -1880,7 +1880,7 @@
         },
         "lock": {
             "locked": false,
-            "lastLockedDate": "2025-11-11T06:36:08.000+0000"
+            "lastLockedDate": "2025-11-27T07:07:52.000+0000"
         },
         "type": "items"
     },
@@ -21189,10 +21189,10 @@
         "itemType": 154,
         "project": 229,
         "createdDate": "2025-11-26T10:27:03.000+0000",
-        "modifiedDate": "2025-11-26T10:27:03.000+0000",
-        "lastActivityDate": "2025-11-26T10:29:50.000+0000",
+        "modifiedDate": "2025-11-27T06:50:26.000+0000",
+        "lastActivityDate": "2025-11-27T06:50:26.000+0000",
         "createdBy": 5995,
-        "modifiedBy": 5995,
+        "modifiedBy": 620,
         "fields": {
             "documentKey": "KCE-SWBUG-7050",
             "globalId": "GID-7553701",
@@ -21213,6 +21213,10 @@
             "BUG_probability_on_field$154": 2398,
             "root_cause_category$154": 2512,
             "BUG_testCaseUpdated$154": 1198,
+            "BUG_jiraId$154": "MST-16687",
+            "BUG_jira_project$154": 2460,
+            "BUG_jira_URL$154": "https://kone.atlassian.net/browse/MST-16687",
+            "BUG_integration_synced_time$154": "2025-11-27 06:50:25.917847",
             "BUG_V1_project$154": 1431
         },
         "resources": {
@@ -21225,7 +21229,7 @@
                 ]
             }
         },
-        "version": 1,
+        "version": 3,
         "location": {
             "sortOrder": 6468,
             "globalSortOrder": 1666309893,
@@ -21235,7 +21239,8 @@
             }
         },
         "lock": {
-            "locked": false
+            "locked": false,
+            "lastLockedDate": "2025-11-27T06:50:00.000+0000"
         },
         "type": "items"
     },
@@ -21304,15 +21309,15 @@
         "itemType": 154,
         "project": 229,
         "createdDate": "2025-11-26T13:27:38.000+0000",
-        "modifiedDate": "2025-11-26T13:27:38.000+0000",
-        "lastActivityDate": "2025-11-26T13:27:38.000+0000",
+        "modifiedDate": "2025-11-27T07:08:00.000+0000",
+        "lastActivityDate": "2025-11-27T07:08:00.000+0000",
         "createdBy": 6096,
         "modifiedBy": 6096,
         "fields": {
             "documentKey": "KCE-SWBUG-7056",
             "globalId": "GID-7554206",
-            "name": "0.0.0.88 - TSCOP - CAR Call resigistration Markings are not shown after pressing Floor Icons",
-            "description": "<p><em><strong>Parameter:</strong></em></p>\n\n<ul>\n\t<li>UI - Standard UI</li>\n\t<li>TSCOP - Main</li>\n\t<li>Logic for Side Handling - Selective</li>\n\t<li>Logic for FRD - Selective</li>\n</ul>\n\n<p><br />\n<em><strong>CPU Parameter:</strong></em></p>\n\n<ul>\n\t<li>1308 - 1</li>\n\t<li>1309 - 0</li>\n</ul>\n\n<p>&nbsp;</p>\n\n<p><em><strong>Description:</strong></em></p>\n\n<ul>\n\t<li>LD : 17.0.0.18</li>\n\t<li>KNSMUL : 0.0.0.49</li>\n\t<li>Drive : KDHN 150</li>\n\t<li>Shaft : 72 Floor TTC setup&nbsp;</li>\n\t<li>WELM : 0.0.0.88</li>\n\t<li>Proto SW : 0.0.0.15</li>\n\t<li>Theme (Newer Mock Theme causing issue with the Application SW, So older Theme used for testing)</li>\n\t<li>1096 - 0</li>\n\t<li>A &amp; B side KNSMUL - Non-Conventional (KCOP)</li>\n</ul>\n\n<p>&nbsp;</p>\n\n<p><em><strong>Scenario:</strong></em></p>\n\n<ul>\n\t<li>When CAR Call is given, the registered icon is not stored in the TSCOP</li>\n\t<li>8th Floor CAR Call is pressed,</li>\n</ul>\n\n<p><img alt=\"\" height=\"469\" src=\"https://konerqm.jamacloud.com/attachment/232692/image-8d9xOxsVd7.png\" width=\"370\" /></p>\n\n<ul>\n\t<li>But no indication of registration</li>\n\t<li>Floor Number &amp; Next floor indication is also not Shown</li>\n</ul>\n\n<p>&nbsp;</p>\n\n<p><strong>NOTE:</strong></p>\n\n<p>Calls are registered &amp; served but Markings are not shown in the UI</p>\n\n<p><br />\n<br />\n<em><strong>Expected Scenario:</strong></em></p>\n\n<p><img alt=\"\" height=\"467\" src=\"https://konerqm.jamacloud.com/attachment/232693/image-HVFMQ7ojfc.png\" width=\"370\" /></p>\n\n<p>&nbsp;</p>\n\n<p><em><strong>Logs:</strong></em></p>\n\n<ul>\n\t<li>TSCOP Logs</li>\n\t<li>LPA</li>\n\t<li>Event Traffic</li>\n</ul>\n",
+            "name": "0.0.0.88 - TSCOP - Selected CAR Calls are not shown after registering 30+ floors",
+            "description": "<p><em><strong>Parameter:</strong></em></p>\n\n<ul>\n\t<li>UI - Standard UI</li>\n\t<li>TSCOP - Main</li>\n\t<li>Logic for Side Handling - Selective</li>\n\t<li>Logic for FRD - Selective</li>\n</ul>\n\n<p><br />\n<em><strong>CPU Parameter:</strong></em></p>\n\n<ul>\n\t<li>1096 - 0</li>\n\t<li>UI - Static UI</li>\n</ul>\n\n<p>&nbsp;</p>\n\n<p><em><strong>Description:</strong></em></p>\n\n<ul>\n\t<li>LD : 17.0.0.18</li>\n\t<li>KNSMUL : 0.0.0.49</li>\n\t<li>Drive : KDHN 150</li>\n\t<li>Shaft : 72 Floor TTC setup&nbsp;</li>\n\t<li>WELM : 0.0.0.88</li>\n\t<li>Proto SW : 0.0.0.15</li>\n\t<li>Theme (Newer Mock Theme causing issue with the Application SW, So older Theme used for testing)</li>\n\t<li>1096 - 0</li>\n\t<li>A &amp; B side KNSMUL - Non-Conventional (KCOP)</li>\n</ul>\n\n<p>&nbsp;</p>\n\n<p><em><strong>Scenario:</strong></em></p>\n\n<ul>\n\t<li>When 30+ CAR Call is given, after the 30th floor the registered icon is not stored in the TSCOP</li>\n\t<li>But no indication of registration after 30th CAR Call registration<br />\n\t<img alt=\"\" height=\"737\" src=\"https://konerqm.jamacloud.com/attachment/232732/image-1knq7V13h7.png\" width=\"450\" /></li>\n</ul>\n\n<p>&nbsp;</p>\n\n<ul>\n\t<li>Note, all the floors have been registered in the CPU, Just in TSCOP UI the Selection Cells are not stayed resgistered&nbsp;<br />\n\t<img alt=\"\" height=\"587\" src=\"https://konerqm.jamacloud.com/attachment/232733/image-fCCJYAdwMx.png\" width=\"635\" /></li>\n</ul>\n\n<p>&nbsp;</p>\n\n<p><em><strong>Logs:</strong></em></p>\n\n<ul>\n\t<li>TSCOP Logs</li>\n\t<li>LPA</li>\n\t<li>Event Traffic</li>\n\t<li>Video attached for better understanding</li>\n</ul>\n\n<p><em><strong>Reference:</strong></em></p>\n\n<p><img alt=\"\" height=\"603\" src=\"https://konerqm.jamacloud.com/attachment/232737/image-ZrWPfppBzQ.png\" width=\"480\" /></p>\n",
             "status": 1081,
             "BUG_component$154": 1291,
             "BUG_subcomponent$154": "WELM 0.0.0.88",
@@ -21340,7 +21345,7 @@
                 ]
             }
         },
-        "version": 1,
+        "version": 3,
         "location": {
             "sortOrder": 6474,
             "globalSortOrder": 1666316331,
@@ -21350,7 +21355,8 @@
             }
         },
         "lock": {
-            "locked": false
+            "locked": false,
+            "lastLockedDate": "2025-11-27T07:08:01.000+0000"
         },
         "type": "items"
     },

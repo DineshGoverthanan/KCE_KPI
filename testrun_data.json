@@ -16142,6 +16142,13 @@
         "Assigned To":"Badaganti Sai Prasad"
     },
     {
+        "TestRunStatus":"FAILED",
+        "ExecutionDate":"2025-11-27",
+        "Document Key":"KCE-TSTRN-4004664",
+        "Name":"ATS mode with SPP configuration ",
+        "Assigned To":"Badaganti Sai Prasad"
+    },
+    {
         "TestRunStatus":"PASSED",
         "ExecutionDate":"2025-11-11",
         "Document Key":"KCE-TSTRN-4001256",
@@ -16398,6 +16405,13 @@
         "ExecutionDate":"2025-11-21",
         "Document Key":"KCE-TSTRN-4003591",
         "Name":"DG configuration update from Site Manager",
+        "Assigned To":"Vivek"
+    },
+    {
+        "TestRunStatus":"PASSED",
+        "ExecutionDate":"2025-11-27",
+        "Document Key":"KCE-TSTRN-4003595",
+        "Name":"EDGE router update & replacement",
         "Assigned To":"Vivek"
     },
     {
@@ -16779,6 +16793,13 @@
         "Assigned To":"Kowsalya"
     },
     {
+        "TestRunStatus":"FAILED",
+        "ExecutionDate":"2025-11-27",
+        "Document Key":"KCE-TSTRN-4004619",
+        "Name":"Remote LD reboot functionality - test switch set in the elevator",
+        "Assigned To":"Priyavalli"
+    },
+    {
         "TestRunStatus":"PASSED",
         "ExecutionDate":"2025-11-21",
         "Document Key":"KCE-TSTRN-4004409",
@@ -16804,6 +16825,13 @@
         "ExecutionDate":"2025-11-27",
         "Document Key":"KCE-TSTRN-4004412",
         "Name":"TSCOP with Fireman COP functions",
+        "Assigned To":"Suryanarayanan"
+    },
+    {
+        "TestRunStatus":"INPROGRESS",
+        "ExecutionDate":"2025-11-27",
+        "Document Key":"KCE-TSTRN-4004413",
+        "Name":"Activation of Disability Service while lift is standing in floor.",
         "Assigned To":"Suryanarayanan"
     }
 ]
