@@ -3334,8 +3334,8 @@
         "itemType": 154,
         "project": 417,
         "createdDate": "2025-10-16T09:47:13.000+0000",
-        "modifiedDate": "2025-11-18T07:23:50.000+0000",
-        "lastActivityDate": "2025-11-18T07:23:50.000+0000",
+        "modifiedDate": "2025-11-27T01:34:54.000+0000",
+        "lastActivityDate": "2025-11-27T01:34:54.000+0000",
         "createdBy": 6117,
         "modifiedBy": 2001,
         "fields": {
@@ -3343,13 +3343,14 @@
             "globalId": "GID-7464841",
             "name": "IEX - Supervision parameters PC1-1236 to PC1-1247 is not added in UI sheet for release R 3.0.1",
             "description": "<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\"><strong>Detailed Defect Description:</strong></span></span></p>\n\n<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\">IEX - Supervision parameters PC1-1236 to PC1-1247 is not added in UI sheet for release R 3.0.1</span></span></p>\n\n<p>&nbsp;</p>\n\n<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\"><strong>Parameters:&nbsp;&nbsp;</strong></span></span></p>\n\n<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\">PC1_1236&nbsp;</span></span></p>\n\n<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\">PC1_1237</span></span></p>\n\n<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\">.</span></span></p>\n\n<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\">.</span></span></p>\n\n<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\">.</span></span></p>\n\n<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\">PC1_1247</span></span></p>\n\n<p>&nbsp;</p>\n\n<p>&nbsp;</p>\n\n<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\"><strong>Drive type:</strong></span></span></p>\n\n<p><span style=\"font-family:Calibri, sans-serif\"><span style=\"font-size:14.6667px\">NA</span></span></p>\n\n<p>&nbsp;</p>\n\n<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\"><strong>Regression or new finding:</strong></span></span></p>\n\n<p><span style=\"font-family:Calibri, sans-serif\"><span style=\"font-size:14.6667px\">New Finding</span></span></p>\n\n<p>&nbsp;</p>\n\n<p>&nbsp;</p>\n\n<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\"><strong>Test case Name / Feature name:</strong></span></span></p>\n\n<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\">Ad hoc</span></span></p>\n\n<p>&nbsp;</p>\n\n<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\"><strong>Test step number:</strong></span></span></p>\n\n<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\">AD hoc</span></span></p>\n\n<p>&nbsp;</p>\n\n<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\"><strong>Description of the test case (Detailed Scenario)&nbsp;</strong></span></span></p>\n\n<p>IEX - Supervision parameters PC1-1236 to PC1-1247 is not added in UI sheet for release R 3.0.1</p>\n",
-            "status": 1082,
+            "status": 1085,
             "BUG_component$154": 1561,
             "BUG_subcomponent$154": "IEX",
             "createdBy": 6117,
             "assignedTo": 2001,
             "release": 2527,
             "BUG_foundOnDate$154": "2025-10-15",
+            "BUG_fixedInRelease$154": 2579,
             "priority": 2410,
             "BUG_severity$154": 1110,
             "BUG_category$154": 1422,
@@ -3359,6 +3360,7 @@
             "BUG_probability_on_field$154": 2396,
             "root_cause_category$154": 2512,
             "BUG_testCaseUpdated$154": 1198,
+            "BUG_RD_comments$154": "<p>[Visu]: 27-Nov-2025<br />\nThis defect is fixed in HD R 3.0.1.5</p>\n\n<p>&nbsp;</p>\n\n<p>UI Document update only.</p>\n\n<p>Updated in PDM 51935854 - Issue P</p>\n\n<p>&nbsp;</p>",
             "BUG_V1_project$154": 1431
         },
         "resources": {
@@ -3368,7 +3370,7 @@
                 ]
             }
         },
-        "version": 2,
+        "version": 3,
         "location": {
             "sortOrder": 1277,
             "globalSortOrder": 1308183210,
@@ -3379,7 +3381,7 @@
         },
         "lock": {
             "locked": false,
-            "lastLockedDate": "2025-11-18T07:23:51.000+0000"
+            "lastLockedDate": "2025-11-27T01:34:56.000+0000"
         },
         "type": "items"
     },
@@ -20931,6 +20933,64 @@
             "sortOrder": 6474,
             "globalSortOrder": 1666316331,
             "sequence": "17.6475",
+            "parent": {
+                "item": 83266
+            }
+        },
+        "lock": {
+            "locked": false
+        },
+        "type": "items"
+    },
+    {
+        "id": 28453633,
+        "documentKey": "KCE-SWBUG-7058",
+        "globalId": "GID-7554824",
+        "itemType": 154,
+        "project": 229,
+        "createdDate": "2025-11-26T15:10:34.000+0000",
+        "modifiedDate": "2025-11-26T15:10:34.000+0000",
+        "lastActivityDate": "2025-11-26T15:10:34.000+0000",
+        "createdBy": 6096,
+        "modifiedBy": 6096,
+        "fields": {
+            "documentKey": "KCE-SWBUG-7058",
+            "globalId": "GID-7554824",
+            "name": "0.0.0.88 - TSCOP - OSI not shown when OSS is triggered while elevator is driving",
+            "description": "<p><em><strong>Parameter:</strong></em></p>\n\n<ul>\n\t<li>UI - Standard UI</li>\n\t<li>TSCOP - Main</li>\n\t<li>Logic for Side Handling - Selective</li>\n\t<li>Logic for FRD - Selective</li>\n</ul>\n\n<p><br />\n<em><strong>CPU Parameter:</strong></em></p>\n\n<ul>\n\t<li>1471 - 1</li>\n\t<li>1073 - 0</li>\n</ul>\n\n<p>&nbsp;</p>\n\n<p><em><strong>Description:</strong></em></p>\n\n<ul>\n\t<li>LD : 17.0.0.18</li>\n\t<li>KNSMUL : 0.0.0.49</li>\n\t<li>Drive : KDHN 150</li>\n\t<li>Shaft : 72 Floor TTC setup&nbsp;</li>\n\t<li>WELM : 0.0.0.88</li>\n\t<li>Proto SW : 0.0.0.15</li>\n\t<li>Theme (Newer Mock Theme causing issue with the Application SW, So older Theme used for testing)</li>\n\t<li>1096 - 0</li>\n\t<li>A &amp; B side KNSMUL - Non-Conventional (KCOP)</li>\n</ul>\n\n<p><em><strong>Scenario:</strong></em></p>\n\n<ul>\n\t<li>Elevator is driving towards any floor</li>\n\t<li>OSS from Landing (OPT 35's 6th Input) is triggered</li>\n\t<li>OSI is not shown in TSCOP</li>\n</ul>\n\n<p>&nbsp;</p>\n\n<p><em><strong>Expected Scenario:</strong></em></p>\n\n<ul>\n\t<li>Even when Elevator is in drive state OSI Should be shown</li>\n</ul>\n\n<p><img alt=\"\" height=\"411\" src=\"https://konerqm.jamacloud.com/attachment/232695/image-DrwukqrPzi.png\" width=\"313\" /></p>\n\n<p>&nbsp;</p>\n\n<p>&nbsp;</p>\n\n<p><em><strong>Actual Scenario:</strong></em></p>\n\n<ul>\n\t<li>After triggering OSS from landing while driving</li>\n</ul>\n\n<p><img alt=\"\" height=\"402\" src=\"https://konerqm.jamacloud.com/attachment/232694/image-4lP4UkNZlM.png\" width=\"318\" /></p>\n\n<p>&nbsp;</p>\n\n<p><em><strong>Logs:</strong></em></p>\n\n<ul>\n\t<li>TSCOP Logs</li>\n\t<li>LPA</li>\n\t<li>Event Traffic</li>\n</ul>\n",
+            "status": 1081,
+            "BUG_component$154": 1291,
+            "BUG_subcomponent$154": "WELM 0.0.0.88",
+            "createdBy": 6096,
+            "release": 2396,
+            "BUG_foundInBuild$154": "KCE17.0.0.111(LD: 17.0.0.18, GCD: 17.0.0.33)",
+            "BUG_foundOnDate$154": "2025-11-25",
+            "priority": 2410,
+            "BUG_severity$154": 1110,
+            "BUG_category$154": 1428,
+            "BUG_testLevel$154": 1129,
+            "BUG_howFound$154": 1092,
+            "BUG_whereFound$154": 1137,
+            "BUG_probability_on_field$154": 2399,
+            "root_cause_category$154": 2512,
+            "BUG_testCaseUpdated$154": 1198,
+            "BUG_V1_project$154": 1431
+        },
+        "resources": {
+            "self": {
+                "allowed": [
+                    "GET",
+                    "PUT",
+                    "PATCH",
+                    "DELETE"
+                ]
+            }
+        },
+        "version": 1,
+        "location": {
+            "sortOrder": 6476,
+            "globalSortOrder": 1666322002,
+            "sequence": "17.6477",
             "parent": {
                 "item": 83266
             }
