@@ -16345,6 +16345,13 @@
         "Assigned To":"Dinesh"
     },
     {
+        "TestRunStatus":"INPROGRESS",
+        "ExecutionDate":"2025-11-27",
+        "Document Key":"KCE-TSTRN-4004647",
+        "Name":"WSC O - Water Sensor Contact - Homing - Tests not included into TA",
+        "Assigned To":"Nithya Priya"
+    },
+    {
         "TestRunStatus":"PASSED",
         "ExecutionDate":"2025-11-17",
         "Document Key":"KCE-TSTRN-4003585",
@@ -16737,6 +16744,13 @@
         "Assigned To":"Kowsalya"
     },
     {
+        "TestRunStatus":"INPROGRESS",
+        "ExecutionDate":"2025-11-27",
+        "Document Key":"KCE-TSTRN-4004602",
+        "Name":"Remote LD reboot functionality - Remote LD reboot not allowed configured",
+        "Assigned To":"Kowsalya"
+    },
+    {
         "TestRunStatus":"PASSED",
         "ExecutionDate":"2025-11-26",
         "Document Key":"KCE-TSTRN-4004610",
@@ -16787,7 +16801,7 @@
     },
     {
         "TestRunStatus":"FAILED",
-        "ExecutionDate":"2025-11-25",
+        "ExecutionDate":"2025-11-27",
         "Document Key":"KCE-TSTRN-4004412",
         "Name":"TSCOP with Fireman COP functions",
         "Assigned To":"Suryanarayanan"

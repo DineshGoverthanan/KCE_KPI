@@ -1370,10 +1370,10 @@
         "itemType": 154,
         "project": 417,
         "createdDate": "2025-07-08T12:15:34.000+0000",
-        "modifiedDate": "2025-11-19T04:06:08.000+0000",
-        "lastActivityDate": "2025-11-19T04:06:08.000+0000",
+        "modifiedDate": "2025-11-27T04:21:56.000+0000",
+        "lastActivityDate": "2025-11-27T04:21:56.000+0000",
         "createdBy": 5932,
-        "modifiedBy": 2001,
+        "modifiedBy": 2925,
         "fields": {
             "documentKey": "KIE601-SWBUG-2566",
             "globalId": "GID-7275997",
@@ -1395,7 +1395,7 @@
             "BUG_probability_on_field$154": 2398,
             "root_cause_category$154": 2512,
             "BUG_testCaseUpdated$154": 1198,
-            "BUG_RD_comments$154": "<p>[Visu]: 10-Jul-2025</p>\n\n<p>&nbsp;</p>\n\n<p>Fix to be done supplier side, observation shared to supplier via CRD team.&nbsp;</p>\n\n<p>&nbsp;</p>\n\n<p>[Visu]: 17-Jul-2025</p>\n\n<p>Not critical with IEX SW release point of view, pilot can be managed by CRD team.&nbsp;</p>\n\n<p>&nbsp;</p>\n\n<p>[Visu]:&nbsp;10-Nov-2025<br />\nDefect Review meeting<br />\nParticipants: Visu, Banu</p>\n\n<p>&nbsp;</p>\n\n<p>Status to be checked with Vincent</p>\n\n<p>&nbsp;</p>\n\n<p>[Visu]:&nbsp;14-Nov-2025</p>\n\n<p>Observed only in particular Digital lighting setup.&nbsp;</p>\n\n<p>&nbsp;</p>\n\n<p>We can this Reject this defect.&nbsp;</p>\n\n<p>&nbsp;</p>\n\n<p>Latest&nbsp;Digital lighting setup to be received from CRD</p>\n\n<p>&nbsp;</p>\n\n<p>Sev to be changed to 3</p>\n\n<p>&nbsp;</p>\n\n<p>[Visu]: 14-Nov-2025</p>\n\n<p>Digital light HW issue</p>\n\n<p>&nbsp;</p>\n\n<p>[Visu]: 14-Nov-2025</p>\n\n<p>This defect assigned&nbsp; HW team</p>\n\n<p>&nbsp;</p>\n\n<p>&nbsp;</p>",
+            "BUG_RD_comments$154": "<p>[Visu]: 10-Jul-2025</p>\n\n<p>&nbsp;</p>\n\n<p>Fix to be done supplier side, observation shared to supplier via CRD team.&nbsp;</p>\n\n<p>&nbsp;</p>\n\n<p>[Visu]: 17-Jul-2025</p>\n\n<p>Not critical with IEX SW release point of view, pilot can be managed by CRD team.&nbsp;</p>\n\n<p>&nbsp;</p>\n\n<p>[Visu]:&nbsp;10-Nov-2025<br />\nDefect Review meeting<br />\nParticipants: Visu, Banu</p>\n\n<p>&nbsp;</p>\n\n<p>Status to be checked with Vincent</p>\n\n<p>&nbsp;</p>\n\n<p>[Visu]:&nbsp;14-Nov-2025</p>\n\n<p>Observed only in particular Digital lighting setup.&nbsp;</p>\n\n<p>&nbsp;</p>\n\n<p>We can this Reject this defect.&nbsp;</p>\n\n<p>&nbsp;</p>\n\n<p>Latest&nbsp;Digital lighting setup to be received from CRD</p>\n\n<p>&nbsp;</p>\n\n<p>Sev to be changed to 3</p>\n\n<p>&nbsp;</p>\n\n<p>[Visu]: 14-Nov-2025</p>\n\n<p>Digital light HW issue</p>\n\n<p>&nbsp;</p>\n\n<p>[Visu]: 14-Nov-2025</p>\n\n<p>This defect assigned&nbsp; HW team</p>\n\n<p>&nbsp;</p>\n\n<p>[Pramodh] 27-Nov-2025</p>\n\n<p>&nbsp;</p>\n\n<p>Verified the digital lighting functionality with TR1.0t12.6 and R2.0.2 software versions. Continuous run testing was performed for more than a week using the newly received digital lighting hardware.</p>\n\n<p>All functionalities are working fine, and no issues were observed. Hence, the defect can be closed/rejected&nbsp;</p>\n\n<p>&nbsp;</p>\n\n<p>&nbsp;</p>",
             "BUG_V1_project$154": 1431
         },
         "resources": {
@@ -1405,7 +1405,7 @@
                 ]
             }
         },
-        "version": 8,
+        "version": 9,
         "location": {
             "sortOrder": 1147,
             "globalSortOrder": 1294588980,
@@ -1416,7 +1416,7 @@
         },
         "lock": {
             "locked": false,
-            "lastLockedDate": "2025-11-19T04:06:09.000+0000"
+            "lastLockedDate": "2025-11-27T04:21:57.000+0000"
         },
         "type": "items"
     },
