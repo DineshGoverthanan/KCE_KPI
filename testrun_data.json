@@ -4585,8 +4585,8 @@
         "Assigned To":"Veeramanikandan"
     },
     {
-        "TestRunStatus":"INPROGRESS",
-        "ExecutionDate":"2025-11-24",
+        "TestRunStatus":"FAILED",
+        "ExecutionDate":"2025-11-27",
         "Document Key":"KCE-TSTRN-4002202",
         "Name":"KCESAFETY \u2013 NA - DTS (Traction Loss Supervision) - with KCEABS: Disconnection.",
         "Assigned To":"Veeramanikandan"
@@ -16758,24 +16758,38 @@
         "Assigned To":"Kowsalya"
     },
     {
-        "TestRunStatus":"INPROGRESS",
-        "ExecutionDate":"2025-11-26",
+        "TestRunStatus":"PASSED",
+        "ExecutionDate":"2025-11-27",
         "Document Key":"KCE-TSTRN-4004601",
         "Name":"Remote LD reboot functionality - Remote LD reboot enabled configured",
-        "Assigned To":"Kowsalya"
+        "Assigned To":"Priyavalli"
     },
     {
-        "TestRunStatus":"INPROGRESS",
+        "TestRunStatus":"PASSED",
         "ExecutionDate":"2025-11-27",
         "Document Key":"KCE-TSTRN-4004602",
         "Name":"Remote LD reboot functionality - Remote LD reboot not allowed configured",
-        "Assigned To":"Kowsalya"
+        "Assigned To":"Priyavalli"
     },
     {
         "TestRunStatus":"PASSED",
         "ExecutionDate":"2025-11-27",
         "Document Key":"KCE-TSTRN-4004603",
         "Name":"Remote LD reboot functionality - Remote LD reboot \"release default\" configured",
+        "Assigned To":"Priyavalli"
+    },
+    {
+        "TestRunStatus":"PASSED",
+        "ExecutionDate":"2025-11-27",
+        "Document Key":"KCE-TSTRN-4004604",
+        "Name":"Remote LD reboot functionality - elevator located in North America ",
+        "Assigned To":"Priyavalli"
+    },
+    {
+        "TestRunStatus":"FAILED",
+        "ExecutionDate":"2025-11-27",
+        "Document Key":"KCE-TSTRN-4004605",
+        "Name":"Remote LD reboot functionality - Remote LD reboot \"release default\" configured, LD SW update",
         "Assigned To":"Priyavalli"
     },
     {
@@ -16787,6 +16801,13 @@
     },
     {
         "TestRunStatus":"PASSED",
+        "ExecutionDate":"2025-11-27",
+        "Document Key":"KCE-TSTRN-4004611",
+        "Name":"Remote LD reboot functionality - elevator in PRC mode",
+        "Assigned To":"Priyavalli"
+    },
+    {
+        "TestRunStatus":"PASSED",
         "ExecutionDate":"2025-11-26",
         "Document Key":"KCE-TSTRN-4004613",
         "Name":"Remote LD reboot functionality - elevator in ATS mode",
@@ -16794,7 +16815,7 @@
     },
     {
         "TestRunStatus":"FAILED",
-        "ExecutionDate":"2025-11-24",
+        "ExecutionDate":"2025-11-27",
         "Document Key":"KCE-TSTRN-4004616",
         "Name":"Remote LD reboot functionality - elevator in RDF mode",
         "Assigned To":"Kowsalya"
@@ -16860,6 +16881,13 @@
         "ExecutionDate":"2025-11-27",
         "Document Key":"KCE-TSTRN-4004414",
         "Name":"Activation of disability Service Activation While Lift is Moving",
+        "Assigned To":"Suryanarayanan"
+    },
+    {
+        "TestRunStatus":"INPROGRESS",
+        "ExecutionDate":"2025-11-27",
+        "Document Key":"KCE-TSTRN-4004415",
+        "Name":"Activate disability service If the COP is disabled\/locked.",
         "Assigned To":"Suryanarayanan"
     }
 ]
