@@ -401,16 +401,16 @@
         "itemType": 154,
         "project": 417,
         "createdDate": "2025-03-17T10:53:43.000+0000",
-        "modifiedDate": "2025-11-12T07:18:18.000+0000",
-        "lastActivityDate": "2025-11-12T07:18:18.000+0000",
+        "modifiedDate": "2025-11-28T11:47:12.000+0000",
+        "lastActivityDate": "2025-11-28T11:47:12.000+0000",
         "createdBy": 6117,
-        "modifiedBy": 6117,
+        "modifiedBy": 1291,
         "fields": {
             "documentKey": "KIE601-SWBUG-2461",
             "globalId": "GID-7021411",
             "name": "IEX - MSC board PCBA Leds are not functioning",
             "description": "<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\"><strong>Detailed Defect Description:</strong></span></span></p>\n\n<p>IEX - MSC board PCBA Leds are not functioning</p>\n\n<p>&nbsp;</p>\n\n<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\"><strong>Parameters:&nbsp;&nbsp;</strong></span></span></p>\n\n<p>NA</p>\n\n<p>&nbsp;</p>\n\n<p>&nbsp;</p>\n\n<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\"><strong>Drive type:</strong></span></span></p>\n\n<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\">Monarch &amp; Danfoss</span></span></p>\n\n<p>&nbsp;</p>\n\n<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\"><strong>Regression or new finding:</strong></span></span></p>\n\n<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\">New Finding</span></span></p>\n\n<p>&nbsp;</p>\n\n<p>&nbsp;</p>\n\n<p>&nbsp;</p>\n\n<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\"><strong>Test case Name / Feature name:</strong></span></span></p>\n\n<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\">Ad hoc</span></span></p>\n\n<p>&nbsp;</p>\n\n<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\"><strong>Test step number:</strong></span></span></p>\n\n<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\">Ad hoc</span></span></p>\n\n<p>&nbsp;</p>\n\n<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\"><strong>Description of the test case (Detailed Scenario)&nbsp;</strong></span></span></p>\n\n<p>&nbsp;</p>\n\n<ul>\n\t<li>The PCBA LEDs, D105 &amp; D106 does not turn green when Escalator is running in respective direction.</li>\n</ul>\n\n<p><img alt=\"\" height=\"32\" src=\"https://konerqm.jamacloud.com/attachment/205305/2025_03_17_11_02_361.jpg\" width=\"322\" /></p>\n\n<p>&nbsp;</p>\n\n<p>&nbsp;</p>\n\n<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\"><strong>Expected behavior:&nbsp;&nbsp;</strong></span></span></p>\n\n<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\">The PCBA indicator should turn green when motor runs</span></span></p>\n\n<p>&nbsp;</p>\n\n<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\"><strong>Actual behavior:</strong></span></span></p>\n\n<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\">The PCBA does not turn green</span></span></p>\n\n<p>&nbsp;</p>\n",
-            "status": 1085,
+            "status": 1086,
             "BUG_component$154": 1567,
             "createdBy": 6117,
             "assignedTo": 6311,
@@ -418,6 +418,7 @@
             "BUG_foundOnDate$154": "2025-03-16",
             "BUG_plannedRelease$154": 2274,
             "BUG_fixedInRelease$154": 2527,
+            "BUG_closingDate$154": "2025-11-27",
             "priority": 2410,
             "BUG_severity$154": 1110,
             "BUG_category$154": 1422,
@@ -428,7 +429,7 @@
             "root_cause_category$154": 2519,
             "BUG_rootCause$154": "<p>Coding error. Digital outputs from the Shift registers are over writing the LED's functionality.</p>",
             "BUG_testCaseUpdated$154": 1198,
-            "BUG_RD_comments$154": "<p>[Satish]: 17-Jun-2025:</p>\n\n<p>This defect has been fixed and will be released in R3.0.0.2</p>\n\n<p>&nbsp;</p>\n\n<p>[Gopi]: 1-Jul-2025<br />\nThis defect is fixed in R 3.0.0.2</p>\n\n<p>&nbsp;</p>\n\n<p>[Bhavya]: 01-Aug-2025</p>\n\n<p>This defect is verified in R3.0.0.2 and it found ok.</p>",
+            "BUG_RD_comments$154": "<p>[Satish]: 17-Jun-2025:</p>\n\n<p>This defect has been fixed and will be released in R3.0.0.2</p>\n\n<p>&nbsp;</p>\n\n<p>[Gopi]: 1-Jul-2025<br />\nThis defect is fixed in R 3.0.0.2</p>\n\n<p>&nbsp;</p>\n\n<p>[Bhavya]: 01-Aug-2025</p>\n\n<p>This defect is verified in R3.0.0.2 and it found ok.</p>\n\n<p>&nbsp;</p>\n\n<p>[Srinath S]: 28-Nov-2025</p>\n\n<p>after discussion with Muppadi Sathish, we understand the purpose of these LEDs D105 and D106 are meant to be in OFF state during inverter mode and only works(ON) in star-delta for respective directions. But our only concern is that, on the board, beside these LEDs the label is printed as UP_RUN and&nbsp; DOWN_RUN. This might give confusion for anyone uses these diagnostic LEDs like for example production tester, etc, while running in inverter mode.<br />\nhence we can close this defect if no other concern or comments from anyone else.</p>",
             "BUG_V1_project$154": 1431
         },
         "resources": {
@@ -438,7 +439,7 @@
                 ]
             }
         },
-        "version": 13,
+        "version": 15,
         "location": {
             "sortOrder": 1042,
             "globalSortOrder": 1283609025,
@@ -449,7 +450,7 @@
         },
         "lock": {
             "locked": false,
-            "lastLockedDate": "2025-11-12T07:17:51.000+0000"
+            "lastLockedDate": "2025-11-28T11:47:13.000+0000"
         },
         "type": "items"
     },
@@ -20889,8 +20890,8 @@
         "itemType": 154,
         "project": 229,
         "createdDate": "2025-11-21T06:09:46.000+0000",
-        "modifiedDate": "2025-11-27T12:35:33.000+0000",
-        "lastActivityDate": "2025-11-28T08:00:58.000+0000",
+        "modifiedDate": "2025-11-28T11:31:35.000+0000",
+        "lastActivityDate": "2025-11-28T11:31:35.000+0000",
         "createdBy": 5995,
         "modifiedBy": 620,
         "fields": {
@@ -20900,7 +20901,6 @@
             "description": "<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\"><strong>Detailed Defect Description:</strong></span></span></p>\n\n<p>In the Inventory Manager, the file name for \"dg.customization.v1.zip\" is not correct</p>\n\n<p>&nbsp;</p>\n\n<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\"><strong>Parameters:&nbsp;&nbsp;</strong></span></span></p>\n\n<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\">(e.g. Parameter X (Description of the parameter) - parameter value)</span></span></p>\n\n<p>&nbsp;</p>\n\n<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\"><strong>Group configuration: </strong></span></span></p>\n\n<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\">Duplex</span></span></p>\n\n<p>&nbsp;</p>\n\n<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\"><strong>Drive type:</strong></span></span></p>\n\n<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\">KDM</span></span></p>\n\n<p>&nbsp;</p>\n\n<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\"><strong>Regression or new finding:</strong></span></span></p>\n\n<p><span style=\"font-family:Calibri,sans-serif\"><span style=\"font-size:14.6667px\">Regression</span></span></p>\n\n<p>&nbsp;</p>\n\n<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\"><strong>Test case Name / Feature name:</strong></span></span></p>\n\n<p><a href=\"https://konerqm.jamacloud.com/perspective.req?docId=26658860&amp;projectId=229\">DG configuration update from Site Manager</a></p>\n\n<p>&nbsp;</p>\n\n<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\"><strong>Test step number:</strong></span></span></p>\n\n<p>Customization:</p>\n\n<ul>\n\t<li>dg.customization.v1.json</li>\n\t<li>dg.localization.006.v1.json</li>\n\t<li>dg.localization.011.v1.json</li>\n\t<li>dg.localization.021.v1.json</li>\n\t<li>dg.localization.026.v1.json</li>\n\t<li>*.mp3</li>\n\t<li>*.svg</li>\n</ul>\n\n<p>&nbsp;</p>\n\n<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\"><strong>Description of the test case (Detailed Scenario)&nbsp;</strong></span></span></p>\n\n<ul>\n\t<li>Open the Sitemanager</li>\n\t<li>Select the devices option and choose any one DG</li>\n\t<li>Select configuration option</li>\n\t<li>In that, instead of <strong>dg.customization.v1.zip</strong>, the&nbsp;<strong>dg.customization.zip</strong> is present.</li>\n</ul>\n\n<p><strong>DG:</strong></p>\n\n<p><img alt=\"\" height=\"329\" src=\"https://konerqm.jamacloud.com/attachment/232624/image-ejyH3UdXoc.png\" width=\"527\" />&nbsp;&nbsp;</p>\n\n<p>&nbsp;</p>\n\n<p><strong>xDOP:</strong></p>\n\n<p><img alt=\"\" height=\"327\" src=\"https://konerqm.jamacloud.com/attachment/232628/image-GDJuASSdvH.png\" width=\"528\" /></p>\n\n<p>&nbsp;</p>\n\n<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\"><strong>Expected behavior:&nbsp;&nbsp;</strong></span></span></p>\n\n<p><span style=\"font-family:Calibri,sans-serif\"><span style=\"font-size:14.6667px\">The correct data should be presented&nbsp;</span></span></p>\n\n<p>&nbsp;</p>\n\n<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\"><strong>Actual behavior:</strong></span></span></p>\n\n<p><span style=\"font-family:Calibri,sans-serif\"><span style=\"font-size:14.6667px\">The incorrect data is shown</span></span></p>\n\n<p>&nbsp;</p>\n\n<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\"><strong>Recovery:&nbsp;</strong></span></span></p>\n\n<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\">No</span></span></p>\n\n<p>&nbsp;</p>\n\n<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\"><strong>Log attached Information:</strong></span></span></p>\n\n<p><span style=\"font-family:Calibri,sans-serif\"><span style=\"font-size:14.6667px\">Nodedebug info, SM UI</span></span></p>\n\n<p>&nbsp;</p>\n\n<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\"><strong>Value-added information:&nbsp;</strong></span></span></p>\n\n<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\">SM Version: 4.47</span></span></p>\n\n<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\">DG Apk - 1.7.0.4</span></span></p>\n\n<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\">DG DMA - 1.6.0.0</span></span></p>\n\n<p>&nbsp;</p>\n\n<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\"><strong>Test Sequence history:&nbsp;</strong></span></span></p>\n\n<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\">1: was failing scenario passing earlier</span></span></p>\n\n<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\">2. what was SW level when this was passing last time</span></span></p>\n\n<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\">3. any changes in test setup or test scenario between passed and failed run</span></span></p>\n\n<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\">4. any changes in tested system configuration between passed and failed run</span></span></p>\n\n<p>&nbsp;</p>\n\n<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\"><strong>Requirement related to the defect:</strong></span></span></p>\n\n<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\">(e.g. URL link to requirement which is related to the defect)</span></span></p>\n",
             "status": 1081,
             "BUG_component$154": 1318,
-            "BUG_subcomponent$154": "LGA",
             "createdBy": 5995,
             "assignedTo": 1668,
             "release": 2368,
@@ -20919,7 +20919,7 @@
             "BUG_jiraId$154": "MST-16659",
             "BUG_jira_project$154": 2460,
             "BUG_jira_URL$154": "https://kone.atlassian.net/browse/MST-16659",
-            "BUG_integration_synced_time$154": "2025-11-27 12:35:32.947237",
+            "BUG_integration_synced_time$154": "2025-11-28 11:31:34.169028",
             "BUG_V1_project$154": 1431
         },
         "resources": {
@@ -20932,7 +20932,7 @@
                 ]
             }
         },
-        "version": 11,
+        "version": 13,
         "location": {
             "sortOrder": 6433,
             "globalSortOrder": 1666012680,
@@ -20943,7 +20943,7 @@
         },
         "lock": {
             "locked": false,
-            "lastLockedDate": "2025-11-27T12:34:45.000+0000"
+            "lastLockedDate": "2025-11-28T11:30:26.000+0000"
         },
         "type": "items"
     },

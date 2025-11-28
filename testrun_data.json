@@ -16353,7 +16353,7 @@
     },
     {
         "TestRunStatus":"INPROGRESS",
-        "ExecutionDate":"2025-11-27",
+        "ExecutionDate":"2025-11-28",
         "Document Key":"KCE-TSTRN-4004647",
         "Name":"WSC O - Water Sensor Contact - Homing - Tests not included into TA",
         "Assigned To":"Nithya Priya"
@@ -16538,6 +16538,13 @@
         "ExecutionDate":"2025-11-25",
         "Document Key":"KCE-TSTRN-4004083",
         "Name":"12. Inspection drive with wrong hardware configuration\/missing hardware ",
+        "Assigned To":"Dinesh"
+    },
+    {
+        "TestRunStatus":"PASSED",
+        "ExecutionDate":"2025-11-28",
+        "Document Key":"KCE-TSTRN-4004084",
+        "Name":"14.Commissioning reference value with KCEOPT",
         "Assigned To":"Dinesh"
     },
     {
@@ -16870,6 +16877,13 @@
         "Assigned To":"Priyavalli"
     },
     {
+        "TestRunStatus":"INPROGRESS",
+        "ExecutionDate":"2025-11-28",
+        "Document Key":"KCE-TSTRN-4004631",
+        "Name":"Remote LD reboot functionality - Active car calls and landing calls, elevator running",
+        "Assigned To":"Kowsalya"
+    },
+    {
         "TestRunStatus":"PASSED",
         "ExecutionDate":"2025-11-21",
         "Document Key":"KCE-TSTRN-4004409",
@@ -16930,6 +16944,27 @@
         "ExecutionDate":"2025-11-28",
         "Document Key":"KCE-TSTRN-4004417",
         "Name":"Disability call function_TSCOP with non-selective COP functions ",
+        "Assigned To":"Suryanarayanan"
+    },
+    {
+        "TestRunStatus":"PASSED",
+        "ExecutionDate":"2025-11-28",
+        "Document Key":"KCE-TSTRN-4004418",
+        "Name":"Doors and DCB After Activating Disability Service",
+        "Assigned To":"Suryanarayanan"
+    },
+    {
+        "TestRunStatus":"PASSED",
+        "ExecutionDate":"2025-11-28",
+        "Document Key":"KCE-TSTRN-4004419",
+        "Name":"Reopen closed doors function for disability operation",
+        "Assigned To":"Suryanarayanan"
+    },
+    {
+        "TestRunStatus":"PASSED",
+        "ExecutionDate":"2025-11-28",
+        "Document Key":"KCE-TSTRN-4004420",
+        "Name":"DCB inoperative during floor selection",
         "Assigned To":"Suryanarayanan"
     }
 ]
