@@ -16724,6 +16724,13 @@
     },
     {
         "TestRunStatus":"PASSED",
+        "ExecutionDate":"2025-11-28",
+        "Document Key":"KCE-TSTRN-4004588",
+        "Name":"COD operation towards downwards with multiple consecutive dummy floors",
+        "Assigned To":"Harini Sri"
+    },
+    {
+        "TestRunStatus":"PASSED",
         "ExecutionDate":"2025-11-24",
         "Document Key":"KCE-TSTRN-4004589",
         "Name":"COD operation during EZO floors with FRD return drive ",
@@ -16884,10 +16891,24 @@
         "Assigned To":"Suryanarayanan"
     },
     {
-        "TestRunStatus":"INPROGRESS",
-        "ExecutionDate":"2025-11-27",
+        "TestRunStatus":"PASSED",
+        "ExecutionDate":"2025-11-28",
         "Document Key":"KCE-TSTRN-4004415",
         "Name":"Activate disability service If the COP is disabled\/locked.",
+        "Assigned To":"Suryanarayanan"
+    },
+    {
+        "TestRunStatus":"PASSED",
+        "ExecutionDate":"2025-11-28",
+        "Document Key":"KCE-TSTRN-4004416",
+        "Name":"Disability call function_TSCOP with Selective COP functions ",
+        "Assigned To":"Suryanarayanan"
+    },
+    {
+        "TestRunStatus":"INPROGRESS",
+        "ExecutionDate":"2025-11-28",
+        "Document Key":"KCE-TSTRN-4004417",
+        "Name":"Disability call function_TSCOP with non-selective COP functions ",
         "Assigned To":"Suryanarayanan"
     }
 ]
