@@ -16809,6 +16809,13 @@
     {
         "TestRunStatus":"INPROGRESS",
         "ExecutionDate":"2025-11-28",
+        "Document Key":"KCE-TSTRN-4004608",
+        "Name":"Remote LD reboot functionality - elevator in FRD (Ph1) mode",
+        "Assigned To":"Kowsalya"
+    },
+    {
+        "TestRunStatus":"PASSED",
+        "ExecutionDate":"2025-11-28",
         "Document Key":"KCE-TSTRN-4004609",
         "Name":"Remote LD reboot functionality - elevator in FID mode",
         "Assigned To":"Kowsalya"
@@ -16919,7 +16926,7 @@
         "Assigned To":"Suryanarayanan"
     },
     {
-        "TestRunStatus":"INPROGRESS",
+        "TestRunStatus":"PASSED",
         "ExecutionDate":"2025-11-28",
         "Document Key":"KCE-TSTRN-4004417",
         "Name":"Disability call function_TSCOP with non-selective COP functions ",

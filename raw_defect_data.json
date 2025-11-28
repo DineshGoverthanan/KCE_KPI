@@ -3334,10 +3334,10 @@
         "itemType": 154,
         "project": 417,
         "createdDate": "2025-10-16T09:47:13.000+0000",
-        "modifiedDate": "2025-11-27T01:34:54.000+0000",
-        "lastActivityDate": "2025-11-27T01:34:54.000+0000",
+        "modifiedDate": "2025-11-28T09:59:12.000+0000",
+        "lastActivityDate": "2025-11-28T09:59:12.000+0000",
         "createdBy": 6117,
-        "modifiedBy": 2001,
+        "modifiedBy": 1995,
         "fields": {
             "documentKey": "KIE601-SWBUG-2697",
             "globalId": "GID-7464841",
@@ -3360,7 +3360,7 @@
             "BUG_probability_on_field$154": 2396,
             "root_cause_category$154": 2512,
             "BUG_testCaseUpdated$154": 1198,
-            "BUG_RD_comments$154": "<p>[Visu]: 27-Nov-2025<br />\nThis defect is fixed in HD R 3.0.1.5</p>\n\n<p>&nbsp;</p>\n\n<p>UI Document update only.</p>\n\n<p>Updated in PDM 51935854 - Issue P</p>\n\n<p>&nbsp;</p>",
+            "BUG_RD_comments$154": "<p>[Visu]: 27-Nov-2025<br />\nThis defect is fixed in HD R 3.0.1.5</p>\n\n<p>&nbsp;</p>\n\n<p>UI Document update only.</p>\n\n<p>Updated in PDM 51935854 - Issue P</p>\n\n<p>&nbsp;</p>\n\n<p>[Augustine]:</p>\n\n<p>This defect is verified in&nbsp;HD R 3.0.1.5 with the updated document and found ok.</p>",
             "BUG_V1_project$154": 1431
         },
         "resources": {
@@ -3370,7 +3370,7 @@
                 ]
             }
         },
-        "version": 3,
+        "version": 4,
         "location": {
             "sortOrder": 1277,
             "globalSortOrder": 1308183210,
@@ -3381,7 +3381,7 @@
         },
         "lock": {
             "locked": false,
-            "lastLockedDate": "2025-11-27T01:34:56.000+0000"
+            "lastLockedDate": "2025-11-28T09:59:14.000+0000"
         },
         "type": "items"
     },
@@ -21654,6 +21654,63 @@
             "locked": true,
             "lastLockedDate": "2025-11-28T06:12:28.000+0000",
             "lockedBy": 6176
+        },
+        "type": "items"
+    },
+    {
+        "id": 28480070,
+        "documentKey": "KCE-SWBUG-7073",
+        "globalId": "GID-7559045",
+        "itemType": 154,
+        "project": 229,
+        "createdDate": "2025-11-28T08:38:16.000+0000",
+        "modifiedDate": "2025-11-28T08:38:16.000+0000",
+        "lastActivityDate": "2025-11-28T08:38:16.000+0000",
+        "createdBy": 6096,
+        "modifiedBy": 6096,
+        "fields": {
+            "documentKey": "KCE-SWBUG-7073",
+            "globalId": "GID-7559045",
+            "name": "4.6 - KDX - Fault #2008's Data 1 Description is missing",
+            "description": "<p><em><strong>Description:</strong></em></p>\n\n<p>Data 1 value is thrown but not description in ProManager to trouble shoot the issue</p>\n\n<p><img alt=\"\" height=\"346\" src=\"https://konerqm.jamacloud.com/attachment/232896/image-IF4eINfJ6s.png\" width=\"842\" /></p>\n\n<p>&nbsp;</p>\n\n<p><em><strong>Note:</strong></em></p>\n\n<p><strong>SW : 4.6.239.7126</strong><br />\nLocalization files are updated</p>\n\n<p>&nbsp;</p>\n",
+            "status": 1081,
+            "BUG_component$154": 2160,
+            "BUG_subcomponent$154": "ProManager",
+            "createdBy": 6096,
+            "release": 2188,
+            "BUG_foundOnDate$154": "2025-11-27",
+            "priority": 2410,
+            "BUG_severity$154": 1110,
+            "BUG_category$154": 1422,
+            "BUG_testLevel$154": 1129,
+            "BUG_howFound$154": 1092,
+            "BUG_whereFound$154": 1137,
+            "BUG_probability_on_field$154": 2396,
+            "root_cause_category$154": 2512,
+            "BUG_testCaseUpdated$154": 1198,
+            "BUG_V1_project$154": 1431
+        },
+        "resources": {
+            "self": {
+                "allowed": [
+                    "GET",
+                    "PUT",
+                    "PATCH",
+                    "DELETE"
+                ]
+            }
+        },
+        "version": 1,
+        "location": {
+            "sortOrder": 6488,
+            "globalSortOrder": 1666326585,
+            "sequence": "17.6489",
+            "parent": {
+                "item": 83266
+            }
+        },
+        "lock": {
+            "locked": false
         },
         "type": "items"
     }

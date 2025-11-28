@@ -345,3 +345,4 @@ KCE-SWBUG-7062,KC3 view shows cartop inspection mode as 'UNKNOWN' with '?' symbo
 KCE-SWBUG-7065,16.10 - KCEDCS - DG is unable to update the software for devices that were deleted and later re-added to the inventory,Vivek,"16.10.4.10(LD: 16.10.2.1, GCD: 16.10.21.5)",2025-11-24
 KCE-SWBUG-7067,"0.0.0.88 - TSCOP - HAN Mode's initial UI, TTC Floor Cells shows 7A instead of '7'",Suryanarayanan,"KCE17.0.0.111(LD: 17.0.0.18, GCD: 17.0.0.33)",2025-11-26
 KCE-SWBUG-7071,KCE 17.0.0.18 Unexpected Parameter 76 (Virtual Floor Setting) Appears in Drive Parameter Settings and Is Not Related to EZO,Nithya Priya,"KCE17.0.0.111(LD: 17.0.0.18, GCD: 17.0.0.33)",2025-11-27
+KCE-SWBUG-7073,4.6 - KDX - Fault #2008's Data 1 Description is missing,Suryanarayanan,,2025-11-27
