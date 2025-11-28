@@ -16654,7 +16654,7 @@
     },
     {
         "TestRunStatus":"FAILED",
-        "ExecutionDate":"2025-11-24",
+        "ExecutionDate":"2025-11-28",
         "Document Key":"KCE-TSTRN-4004578",
         "Name":"FRD activation while lift driving the EZO zone ",
         "Assigned To":"Nithya Priya"
@@ -16798,6 +16798,20 @@
         "Document Key":"KCE-TSTRN-4004605",
         "Name":"Remote LD reboot functionality - Remote LD reboot \"release default\" configured, LD SW update",
         "Assigned To":"Priyavalli"
+    },
+    {
+        "TestRunStatus":"INPROGRESS",
+        "ExecutionDate":"2025-11-28",
+        "Document Key":"KCE-TSTRN-4004607",
+        "Name":"Remote LD reboot functionality - Connection lost after LD reboot command",
+        "Assigned To":"Kowsalya"
+    },
+    {
+        "TestRunStatus":"INPROGRESS",
+        "ExecutionDate":"2025-11-28",
+        "Document Key":"KCE-TSTRN-4004609",
+        "Name":"Remote LD reboot functionality - elevator in FID mode",
+        "Assigned To":"Kowsalya"
     },
     {
         "TestRunStatus":"PASSED",
