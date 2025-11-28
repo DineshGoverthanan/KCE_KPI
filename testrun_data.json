@@ -16966,5 +16966,12 @@
         "Document Key":"KCE-TSTRN-4004420",
         "Name":"DCB inoperative during floor selection",
         "Assigned To":"Suryanarayanan"
+    },
+    {
+        "TestRunStatus":"INPROGRESS",
+        "ExecutionDate":"2025-11-28",
+        "Document Key":"KCE-TSTRN-4004421",
+        "Name":"DCB operative after floor selection",
+        "Assigned To":"Suryanarayanan"
     }
 ]
