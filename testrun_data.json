@@ -16359,6 +16359,13 @@
         "Assigned To":"Nithya Priya"
     },
     {
+        "TestRunStatus":"INPROGRESS",
+        "ExecutionDate":"2025-12-01",
+        "Document Key":"KCE-TSTRN-4004648",
+        "Name":"FPD .T - Fire Protection Door",
+        "Assigned To":"Nithya Priya"
+    },
+    {
         "TestRunStatus":"PASSED",
         "ExecutionDate":"2025-11-17",
         "Document Key":"KCE-TSTRN-4003585",
@@ -16426,6 +16433,13 @@
         "ExecutionDate":"2025-11-19",
         "Document Key":"KCE-TSTRN-4003596",
         "Name":"Router reboot from Site Manager",
+        "Assigned To":"Vivek"
+    },
+    {
+        "TestRunStatus":"INPROGRESS",
+        "ExecutionDate":"2025-12-01",
+        "Document Key":"KCE-TSTRN-4005709",
+        "Name":"PIN code - Special calls - Priority call",
         "Assigned To":"Vivek"
     },
     {
@@ -16605,7 +16619,7 @@
     },
     {
         "TestRunStatus":"PASSED",
-        "ExecutionDate":"2025-11-20",
+        "ExecutionDate":"2025-12-01",
         "Document Key":"KCE-TSTRN-4004568",
         "Name":"Intermediate served floor Landing call registration within EZO zone ",
         "Assigned To":"Nithya Priya"
@@ -16640,7 +16654,7 @@
     },
     {
         "TestRunStatus":"PASSED",
-        "ExecutionDate":"2025-11-21",
+        "ExecutionDate":"2025-12-01",
         "Document Key":"KCE-TSTRN-4004574",
         "Name":"EZO Shaft setup Virtual floor reset:",
         "Assigned To":"Nithya Priya"
@@ -16661,7 +16675,7 @@
     },
     {
         "TestRunStatus":"PASSED",
-        "ExecutionDate":"2025-11-24",
+        "ExecutionDate":"2025-12-01",
         "Document Key":"KCE-TSTRN-4004577",
         "Name":"FPD activation EZO zone ",
         "Assigned To":"Nithya Priya"
@@ -16975,8 +16989,8 @@
         "Assigned To":"Suryanarayanan"
     },
     {
-        "TestRunStatus":"INPROGRESS",
-        "ExecutionDate":"2025-11-28",
+        "TestRunStatus":"PASSED",
+        "ExecutionDate":"2025-12-01",
         "Document Key":"KCE-TSTRN-4004421",
         "Name":"DCB operative after floor selection",
         "Assigned To":"Suryanarayanan"
