@@ -1428,10 +1428,10 @@
         "itemType": 154,
         "project": 417,
         "createdDate": "2025-08-01T05:29:31.000+0000",
-        "modifiedDate": "2025-09-29T07:07:58.000+0000",
-        "lastActivityDate": "2025-09-29T07:07:58.000+0000",
+        "modifiedDate": "2025-11-30T14:11:57.000+0000",
+        "lastActivityDate": "2025-11-30T14:11:57.000+0000",
         "createdBy": 6117,
-        "modifiedBy": 1995,
+        "modifiedBy": 2001,
         "fields": {
             "documentKey": "KIE601-SWBUG-2602",
             "globalId": "GID-7322377",
@@ -1444,7 +1444,7 @@
             "assignedTo": 6187,
             "release": 2515,
             "BUG_foundOnDate$154": "2025-07-30",
-            "BUG_fixedInRelease$154": 2537,
+            "BUG_fixedInRelease$154": 2581,
             "priority": 2410,
             "BUG_severity$154": 1109,
             "BUG_category$154": 1422,
@@ -1465,7 +1465,7 @@
                 ]
             }
         },
-        "version": 8,
+        "version": 9,
         "location": {
             "sortOrder": 1183,
             "globalSortOrder": 1298353536,
@@ -1476,7 +1476,7 @@
         },
         "lock": {
             "locked": false,
-            "lastLockedDate": "2025-09-29T07:08:00.000+0000"
+            "lastLockedDate": "2025-11-30T14:11:58.000+0000"
         },
         "type": "items"
     },
@@ -1657,10 +1657,10 @@
         "itemType": 154,
         "project": 417,
         "createdDate": "2025-08-07T15:19:28.000+0000",
-        "modifiedDate": "2025-09-29T09:02:43.000+0000",
-        "lastActivityDate": "2025-09-29T09:02:43.000+0000",
+        "modifiedDate": "2025-11-30T14:14:32.000+0000",
+        "lastActivityDate": "2025-11-30T14:14:32.000+0000",
         "createdBy": 6117,
-        "modifiedBy": 1995,
+        "modifiedBy": 2001,
         "fields": {
             "documentKey": "KIE601-SWBUG-2615",
             "globalId": "GID-7333751",
@@ -1673,7 +1673,7 @@
             "assignedTo": 6187,
             "release": 2515,
             "BUG_foundOnDate$154": "2025-08-06",
-            "BUG_fixedInRelease$154": 2537,
+            "BUG_fixedInRelease$154": 2581,
             "priority": 2410,
             "BUG_severity$154": 1109,
             "BUG_category$154": 1422,
@@ -1694,7 +1694,7 @@
                 ]
             }
         },
-        "version": 6,
+        "version": 7,
         "location": {
             "sortOrder": 1196,
             "globalSortOrder": 1299712959,
@@ -1705,7 +1705,7 @@
         },
         "lock": {
             "locked": false,
-            "lastLockedDate": "2025-09-29T09:02:45.000+0000"
+            "lastLockedDate": "2025-11-30T14:15:19.000+0000"
         },
         "type": "items"
     },
@@ -1716,8 +1716,8 @@
         "itemType": 154,
         "project": 417,
         "createdDate": "2025-08-14T13:36:43.000+0000",
-        "modifiedDate": "2025-11-24T01:27:29.000+0000",
-        "lastActivityDate": "2025-11-24T01:27:29.000+0000",
+        "modifiedDate": "2025-11-30T16:26:02.000+0000",
+        "lastActivityDate": "2025-11-30T16:26:02.000+0000",
         "createdBy": 6117,
         "modifiedBy": 2001,
         "fields": {
@@ -1732,7 +1732,7 @@
             "assignedTo": 6329,
             "release": 2515,
             "BUG_foundOnDate$154": "2025-08-13",
-            "BUG_fixedInRelease$154": 2577,
+            "BUG_fixedInRelease$154": 2581,
             "priority": 2410,
             "BUG_severity$154": 1109,
             "BUG_category$154": 1422,
@@ -1752,7 +1752,7 @@
                 ]
             }
         },
-        "version": 8,
+        "version": 9,
         "location": {
             "sortOrder": 1208,
             "globalSortOrder": 1300967811,
@@ -1763,7 +1763,7 @@
         },
         "lock": {
             "locked": false,
-            "lastLockedDate": "2025-11-24T01:27:33.000+0000"
+            "lastLockedDate": "2025-11-30T16:26:04.000+0000"
         },
         "type": "items"
     },
@@ -2251,7 +2251,7 @@
         "project": 417,
         "createdDate": "2025-09-10T08:16:35.000+0000",
         "modifiedDate": "2025-11-06T05:46:55.000+0000",
-        "lastActivityDate": "2025-11-06T05:46:55.000+0000",
+        "lastActivityDate": "2025-11-30T14:22:05.000+0000",
         "createdBy": 5932,
         "modifiedBy": 6254,
         "fields": {
@@ -2482,7 +2482,7 @@
         "project": 417,
         "createdDate": "2025-09-22T04:46:55.000+0000",
         "modifiedDate": "2025-11-05T04:55:58.000+0000",
-        "lastActivityDate": "2025-11-05T04:55:58.000+0000",
+        "lastActivityDate": "2025-11-30T15:17:51.000+0000",
         "createdBy": 6117,
         "modifiedBy": 6254,
         "fields": {
@@ -3046,7 +3046,7 @@
         "project": 417,
         "createdDate": "2025-10-15T07:20:14.000+0000",
         "modifiedDate": "2025-11-23T08:07:38.000+0000",
-        "lastActivityDate": "2025-11-23T08:07:38.000+0000",
+        "lastActivityDate": "2025-11-30T16:08:09.000+0000",
         "createdBy": 6117,
         "modifiedBy": 6204,
         "fields": {
@@ -3503,8 +3503,8 @@
         "itemType": 154,
         "project": 417,
         "createdDate": "2025-10-23T10:29:12.000+0000",
-        "modifiedDate": "2025-11-23T06:43:07.000+0000",
-        "lastActivityDate": "2025-11-23T06:43:07.000+0000",
+        "modifiedDate": "2025-11-30T16:30:02.000+0000",
+        "lastActivityDate": "2025-11-30T16:30:02.000+0000",
         "createdBy": 5932,
         "modifiedBy": 2001,
         "fields": {
@@ -3519,7 +3519,7 @@
             "assignedTo": 6270,
             "release": 2556,
             "BUG_foundOnDate$154": "2025-10-21",
-            "BUG_fixedInRelease$154": 2577,
+            "BUG_fixedInRelease$154": 2581,
             "priority": 1279,
             "BUG_severity$154": 1109,
             "BUG_category$154": 1428,
@@ -3540,7 +3540,7 @@
                 ]
             }
         },
-        "version": 5,
+        "version": 6,
         "location": {
             "sortOrder": 1287,
             "globalSortOrder": 1309228920,
@@ -3551,7 +3551,7 @@
         },
         "lock": {
             "locked": false,
-            "lastLockedDate": "2025-11-23T06:43:08.000+0000"
+            "lastLockedDate": "2025-11-30T16:30:09.000+0000"
         },
         "type": "items"
     },
