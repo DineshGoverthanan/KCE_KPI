@@ -16352,11 +16352,18 @@
         "Assigned To":"Dinesh"
     },
     {
-        "TestRunStatus":"INPROGRESS",
+        "TestRunStatus":"PASSED",
         "ExecutionDate":"2025-12-01",
         "Document Key":"KCE-TSTRN-4004647",
         "Name":"WSC O - Water Sensor Contact - Homing - Tests not included into TA",
         "Assigned To":"Nithya Priya"
+    },
+    {
+        "TestRunStatus":"INPROGRESS",
+        "ExecutionDate":"2025-12-01",
+        "Document Key":"KCE-TSTRN-4006816",
+        "Name":"WSC O - Water Sensor Contact - Homing - Tests not included into TA",
+        "Assigned To":"Jagadeesh"
     },
     {
         "TestRunStatus":"INPROGRESS",
@@ -16447,6 +16454,13 @@
         "ExecutionDate":"2025-12-01",
         "Document Key":"KCE-TSTRN-4005708",
         "Name":"PIN code - Special calls - Empty car call",
+        "Assigned To":"Vivek"
+    },
+    {
+        "TestRunStatus":"PASSED",
+        "ExecutionDate":"2025-12-01",
+        "Document Key":"KCE-TSTRN-4005697",
+        "Name":"Customized image",
         "Assigned To":"Vivek"
     },
     {
@@ -16912,6 +16926,13 @@
         "Assigned To":"Kowsalya"
     },
     {
+        "TestRunStatus":"INPROGRESS",
+        "ExecutionDate":"2025-12-01",
+        "Document Key":"KCE-TSTRN-4004632",
+        "Name":"Remote LD reboot functionality - Active car calls and landing calls, elevator standing",
+        "Assigned To":"Priyavalli"
+    },
+    {
         "TestRunStatus":"PASSED",
         "ExecutionDate":"2025-11-21",
         "Document Key":"KCE-TSTRN-4004409",
@@ -17014,6 +17035,13 @@
         "ExecutionDate":"2025-12-01",
         "Document Key":"KCE-TSTRN-4004423",
         "Name":"Multiple COPs during disability service",
+        "Assigned To":"Suryanarayanan"
+    },
+    {
+        "TestRunStatus":"INPROGRESS",
+        "ExecutionDate":"2025-12-01",
+        "Document Key":"KCE-TSTRN-4004424",
+        "Name":"Multiple disability service car calls handling",
         "Assigned To":"Suryanarayanan"
     }
 ]
