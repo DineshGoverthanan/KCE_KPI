@@ -1716,10 +1716,10 @@
         "itemType": 154,
         "project": 417,
         "createdDate": "2025-08-14T13:36:43.000+0000",
-        "modifiedDate": "2025-11-30T16:26:02.000+0000",
-        "lastActivityDate": "2025-11-30T16:26:02.000+0000",
+        "modifiedDate": "2025-12-01T03:58:21.000+0000",
+        "lastActivityDate": "2025-12-01T03:58:21.000+0000",
         "createdBy": 6117,
-        "modifiedBy": 2001,
+        "modifiedBy": 6254,
         "fields": {
             "documentKey": "KIE601-SWBUG-2627",
             "globalId": "GID-7346142",
@@ -1742,7 +1742,7 @@
             "BUG_probability_on_field$154": 2397,
             "root_cause_category$154": 2512,
             "BUG_testCaseUpdated$154": 1198,
-            "BUG_RD_comments$154": "<p>[Allwin]: This Defect was verified in production Branch (GSC_IEX_CPU_RB_CP_2.4.0.35 )and fixed in some previous commit. and not able to simulate in this latest branch.</p>\n\n<p>&nbsp;</p>\n\n<p>[Visu]: 24-Nov-2025<br />\nVerify this defect in this R 2.0.2.4 release and give feedback.&nbsp;<br />\n&nbsp;</p>",
+            "BUG_RD_comments$154": "<p>[Allwin]: This Defect was verified in production Branch (GSC_IEX_CPU_RB_CP_2.4.0.35 )and fixed in some previous commit. and not able to simulate in this latest branch.</p>\n\n<p>&nbsp;</p>\n\n<p>[Visu]: 24-Nov-2025<br />\nVerify this defect in this R 2.0.2.4 release and give feedback.&nbsp;</p>\n\n<p>&nbsp;</p>\n\n<p>[Bhavya]:</p>\n\n<p>This defect is verified in R2.0.2.4 and it seems ok.<br />\n&nbsp;</p>",
             "BUG_V1_project$154": 1431
         },
         "resources": {
@@ -1752,7 +1752,7 @@
                 ]
             }
         },
-        "version": 9,
+        "version": 10,
         "location": {
             "sortOrder": 1208,
             "globalSortOrder": 1300967811,
@@ -1763,7 +1763,7 @@
         },
         "lock": {
             "locked": false,
-            "lastLockedDate": "2025-11-30T16:26:04.000+0000"
+            "lastLockedDate": "2025-12-01T03:58:22.000+0000"
         },
         "type": "items"
     },
