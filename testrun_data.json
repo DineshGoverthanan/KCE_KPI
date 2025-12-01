@@ -16353,7 +16353,7 @@
     },
     {
         "TestRunStatus":"INPROGRESS",
-        "ExecutionDate":"2025-11-28",
+        "ExecutionDate":"2025-12-01",
         "Document Key":"KCE-TSTRN-4004647",
         "Name":"WSC O - Water Sensor Contact - Homing - Tests not included into TA",
         "Assigned To":"Nithya Priya"
@@ -16436,10 +16436,17 @@
         "Assigned To":"Vivek"
     },
     {
-        "TestRunStatus":"INPROGRESS",
+        "TestRunStatus":"PASSED",
         "ExecutionDate":"2025-12-01",
         "Document Key":"KCE-TSTRN-4005709",
         "Name":"PIN code - Special calls - Priority call",
+        "Assigned To":"Vivek"
+    },
+    {
+        "TestRunStatus":"PASSED",
+        "ExecutionDate":"2025-12-01",
+        "Document Key":"KCE-TSTRN-4005708",
+        "Name":"PIN code - Special calls - Empty car call",
         "Assigned To":"Vivek"
     },
     {
@@ -16993,6 +17000,20 @@
         "ExecutionDate":"2025-12-01",
         "Document Key":"KCE-TSTRN-4004421",
         "Name":"DCB operative after floor selection",
+        "Assigned To":"Suryanarayanan"
+    },
+    {
+        "TestRunStatus":"PASSED",
+        "ExecutionDate":"2025-12-01",
+        "Document Key":"KCE-TSTRN-4004422",
+        "Name":"Disability Service full sequence",
+        "Assigned To":"Suryanarayanan"
+    },
+    {
+        "TestRunStatus":"PASSED",
+        "ExecutionDate":"2025-12-01",
+        "Document Key":"KCE-TSTRN-4004423",
+        "Name":"Multiple COPs during disability service",
         "Assigned To":"Suryanarayanan"
     }
 ]
