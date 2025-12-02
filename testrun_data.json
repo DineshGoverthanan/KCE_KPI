@@ -9856,6 +9856,13 @@
         "Assigned To":"Mohammed Ibrahim Sultan"
     },
     {
+        "TestRunStatus":"INPROGRESS",
+        "ExecutionDate":"2025-12-02",
+        "Document Key":"KIE601-TSTRN-70611",
+        "Name":"LCB software update",
+        "Assigned To":"Mohammed Ibrahim Sultan"
+    },
+    {
         "TestRunStatus":"PASSED",
         "ExecutionDate":"2025-08-08",
         "Document Key":"KIE601-TSTRN-56783",
@@ -10119,6 +10126,13 @@
         "ExecutionDate":"2025-12-02",
         "Document Key":"KIE601-TSTRN-70539",
         "Name":"Learning by Lower Key Switch in Up Direction",
+        "Assigned To":"VIGNESHWARAR"
+    },
+    {
+        "TestRunStatus":"FAILED",
+        "ExecutionDate":"2025-12-02",
+        "Document Key":"KIE601-TSTRN-70540",
+        "Name":"Learning by Operation mode",
         "Assigned To":"VIGNESHWARAR"
     },
     {
@@ -10630,13 +10644,6 @@
         "ExecutionDate":"2025-07-21",
         "Document Key":"KCE-TSTRN-3975149",
         "Name":"Locking during special modes",
-        "Assigned To":"Suryanarayanan"
-    },
-    {
-        "TestRunStatus":"PASSED",
-        "ExecutionDate":"2025-07-21",
-        "Document Key":"KCE-TSTRN-3975145",
-        "Name":"Locking of car calls automatic activation (all floors locked)",
         "Assigned To":"Suryanarayanan"
     },
     {
@@ -16268,6 +16275,13 @@
         "Assigned To":"Badaganti Sai Prasad"
     },
     {
+        "TestRunStatus":"PASSED",
+        "ExecutionDate":"2025-12-02",
+        "Document Key":"KCE-TSTRN-4006672",
+        "Name":"FPO with SPP Configuration ",
+        "Assigned To":"Badaganti Sai Prasad"
+    },
+    {
         "TestRunStatus":"INPROGRESS",
         "ExecutionDate":"2025-11-22",
         "Document Key":"KCE-TSTRN-4004670",
@@ -17122,7 +17136,7 @@
         "Assigned To":"Suryanarayanan"
     },
     {
-        "TestRunStatus":"INPROGRESS",
+        "TestRunStatus":"PASSED",
         "ExecutionDate":"2025-12-02",
         "Document Key":"KCE-TSTRN-4007032",
         "Name":"Multiple COPs during disability service",
@@ -17132,6 +17146,13 @@
         "TestRunStatus":"INPROGRESS",
         "ExecutionDate":"2025-12-01",
         "Document Key":"KCE-TSTRN-4004424",
+        "Name":"Multiple disability service car calls handling",
+        "Assigned To":"Suryanarayanan"
+    },
+    {
+        "TestRunStatus":"PASSED",
+        "ExecutionDate":"2025-12-02",
+        "Document Key":"KCE-TSTRN-4007033",
         "Name":"Multiple disability service car calls handling",
         "Assigned To":"Suryanarayanan"
     }

@@ -3895,6 +3895,113 @@
         "type": "items"
     },
     {
+        "id": 28513854,
+        "documentKey": "KIE601-SWBUG-2777",
+        "globalId": "GID-7565343",
+        "itemType": 154,
+        "project": 417,
+        "createdDate": "2025-12-02T12:20:47.000+0000",
+        "modifiedDate": "2025-12-02T12:20:47.000+0000",
+        "lastActivityDate": "2025-12-02T12:20:49.000+0000",
+        "createdBy": 6117,
+        "modifiedBy": 6117,
+        "fields": {
+            "documentKey": "KIE601-SWBUG-2777",
+            "globalId": "GID-7565343",
+            "name": "IEX - FC 305-1 is posted after power cycle and long run when G01 software package is uploaded for IOC with G99/G95 variant CPU",
+            "description": "<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\"><strong>Detailed Defect Description:</strong></span></span></p>\n\n<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\">IEX - FC 305-1 is posted after power cycle and long run when G01 software package is uploaded for IOC with G99/G95 variant CPU</span></span></p>\n\n<p>&nbsp;</p>\n\n<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\"><strong>Parameters:&nbsp;&nbsp;</strong></span></span></p>\n\n<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\">NA</span></span></p>\n\n<p>&nbsp;</p>\n\n<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\"><strong>Group configuration: </strong></span></span></p>\n\n<p><span style=\"font-family:Calibri,sans-serif\"><span style=\"font-size:14.6667px\">NA</span></span></p>\n\n<p>&nbsp;</p>\n\n<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\"><strong>Drive type:</strong></span></span></p>\n\n<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\">NA</span></span></p>\n\n<p>&nbsp;</p>\n\n<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\"><strong>Regression or new finding:</strong></span></span></p>\n\n<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\">New Finding</span></span></p>\n\n<p>&nbsp;</p>\n\n<p>&nbsp;</p>\n\n<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\"><strong>Test case Name / Feature name:</strong></span></span></p>\n\n<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\">Ad hoc</span></span></p>\n\n<p>&nbsp;</p>\n\n<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\"><strong>Test step number:</strong></span></span></p>\n\n<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\">Ad hoc</span></span></p>\n\n<p>&nbsp;</p>\n\n<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\"><strong>Description of the test case (Detailed Scenario)&nbsp;</strong></span></span></p>\n\n<ul>\n\t<li>For G99/G95 variant CPU the respective SW R2.0.3 package is uploaded (RnD)</li>\n\t<li>For IOC G01 board, G01-SW R2.0.3 package is uploaded</li>\n\t<li>Now, make a power cycle</li>\n\t<li>set the IOC upper and lower node count and perform roll call</li>\n\t<li><strong>Roll call is passed.</strong></li>\n\t<li>Now, run the escalator continously / Perform power cycle</li>\n\t<li>After power on, FC 305-1 (IOC communication broken) is posted&nbsp;</li>\n</ul>\n\n<p>&nbsp;</p>\n\n<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\"><strong>Expected behavior:&nbsp;&nbsp;</strong></span></span></p>\n\n<ul>\n\t<li>If the PCBA SW package is mismatched, some FC must be posted</li>\n\t<li>Roll call must not be passed if the SW package is mismatched</li>\n</ul>\n\n<p>&nbsp;</p>\n\n<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\"><strong>Actual behavior:</strong></span></span></p>\n\n<p><span style=\"font-family:Calibri,sans-serif\"><span style=\"font-size:14.6667px\">The roll call is passed but while long run / Power cycle the IOC communication gets failed</span></span></p>\n\n<p>&nbsp;</p>\n",
+            "status": 1081,
+            "BUG_component$154": 1561,
+            "BUG_subcomponent$154": "IEX",
+            "createdBy": 6117,
+            "release": 2581,
+            "BUG_foundOnDate$154": "2025-12-01",
+            "priority": 2410,
+            "BUG_severity$154": 1110,
+            "BUG_category$154": 1422,
+            "BUG_testLevel$154": 1129,
+            "BUG_howFound$154": 1092,
+            "BUG_whereFound$154": 1137,
+            "BUG_probability_on_field$154": 2396,
+            "root_cause_category$154": 2512,
+            "BUG_testCaseUpdated$154": 1198,
+            "BUG_V1_project$154": 1431
+        },
+        "resources": {
+            "self": {
+                "allowed": [
+                    "GET"
+                ]
+            }
+        },
+        "version": 1,
+        "location": {
+            "sortOrder": 1356,
+            "globalSortOrder": 1311269419,
+            "sequence": "2.8.1357",
+            "parent": {
+                "item": 18771233
+            }
+        },
+        "lock": {
+            "locked": false
+        },
+        "type": "items"
+    },
+    {
+        "id": 28514029,
+        "documentKey": "KIE601-SWBUG-2778",
+        "globalId": "GID-7565405",
+        "itemType": 154,
+        "project": 417,
+        "createdDate": "2025-12-02T13:29:51.000+0000",
+        "modifiedDate": "2025-12-02T13:29:51.000+0000",
+        "lastActivityDate": "2025-12-02T13:29:51.000+0000",
+        "createdBy": 5932,
+        "modifiedBy": 5932,
+        "fields": {
+            "documentKey": "KIE601-SWBUG-2778",
+            "globalId": "GID-7565405",
+            "name": "IEX-Fault F 84-5 was Triggered when starting Escalator by using Key Switch in Learning Mode",
+            "description": "<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\"><strong>Detailed Defect Description:</strong></span></span></p>\n\n<p>IEX-Fault F 84-5 was Triggered when starting Escalator by using Key Switch in Learning Mode</p>\n\n<p>&nbsp;</p>\n\n<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\"><strong>Parameters:&nbsp;&nbsp;</strong></span></span></p>\n\n<p><span style=\"font-family:Calibri, sans-serif\"><span style=\"font-size:14.6667px\">PC4_4000_1</span></span></p>\n\n<p>&nbsp;</p>\n\n<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\"><strong>Group configuration: </strong></span></span></p>\n\n<p><span style=\"font-family:Calibri, sans-serif\"><span style=\"font-size:14.6667px\">Single escalator setup</span></span></p>\n\n<p>&nbsp;</p>\n\n<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\"><strong>Drive type:</strong></span></span></p>\n\n<p><span style=\"font-family:Calibri, sans-serif\"><span style=\"font-size:14.6667px\">Monarch,Danfoss</span></span></p>\n\n<p>&nbsp;</p>\n\n<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\"><strong>Regression or new finding:</strong></span></span></p>\n\n<p>Adhoc</p>\n\n<p>&nbsp;</p>\n\n<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\"><strong>Description of the test case (Detailed Scenario)&nbsp;</strong></span></span></p>\n\n<p>1.Set the parameter PC4_4000_1.</p>\n\n<p>2.Start the escalator by using key switch.</p>\n\n<p>3.The escalator fails to start and displays fault code F 84-5 (Key switch bottom center not open) &amp; F 302 in FUI.</p>\n\n<p>&nbsp;</p>\n\n<p><strong>Note: Issue was reproduced 3 times out of 5 key start&nbsp;</strong></p>\n\n<p><strong>During key start in normal mode, it functions correctly and the issue occurs only in learning mode.</strong></p>\n\n<p>&nbsp;</p>\n\n<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\"><strong>Expected behavior:&nbsp;&nbsp;</strong></span></span></p>\n\n<p>The escalator should start normally without any faults.</p>\n\n<p>&nbsp;</p>\n\n<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\"><strong>Actual behavior</strong></span></span></p>\n\n<p>The escalator does not start running and displays fault code F 84-5 (Key switch bottom center not open)</p>\n\n<p>&nbsp;</p>\n\n<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\"><strong>Recovery:&nbsp;</strong></span></span></p>\n\n<p>Manual reset.</p>\n\n<p>&nbsp;</p>\n\n<p><strong>Value added information</strong>:<br />\nSW-R 2.0.3</p>\n",
+            "status": 1081,
+            "BUG_component$154": 1561,
+            "createdBy": 5932,
+            "release": 2581,
+            "BUG_foundOnDate$154": "2025-12-01",
+            "priority": 2410,
+            "BUG_severity$154": 1110,
+            "BUG_category$154": 1422,
+            "BUG_testLevel$154": 1129,
+            "BUG_howFound$154": 1092,
+            "BUG_whereFound$154": 1137,
+            "BUG_probability_on_field$154": 2399,
+            "root_cause_category$154": 2512,
+            "BUG_testCaseUpdated$154": 1198,
+            "BUG_V1_project$154": 1431
+        },
+        "resources": {
+            "self": {
+                "allowed": [
+                    "GET"
+                ]
+            }
+        },
+        "version": 1,
+        "location": {
+            "sortOrder": 1357,
+            "globalSortOrder": 1311347165,
+            "sequence": "2.8.1358",
+            "parent": {
+                "item": 18771233
+            }
+        },
+        "lock": {
+            "locked": false
+        },
+        "type": "items"
+    },
+    {
         "id": 26912907,
         "documentKey": "DRIVE_HW_SW-SWBUG-1587",
         "globalId": "GID-7250660",
@@ -21891,6 +21998,64 @@
         "lock": {
             "locked": false,
             "lastLockedDate": "2025-12-02T08:04:18.000+0000"
+        },
+        "type": "items"
+    },
+    {
+        "id": 28514031,
+        "documentKey": "KCE-SWBUG-7104",
+        "globalId": "GID-7565407",
+        "itemType": 154,
+        "project": 229,
+        "createdDate": "2025-12-02T13:31:25.000+0000",
+        "modifiedDate": "2025-12-02T13:31:25.000+0000",
+        "lastActivityDate": "2025-12-02T13:32:19.000+0000",
+        "createdBy": 6096,
+        "modifiedBy": 6096,
+        "fields": {
+            "documentKey": "KCE-SWBUG-7104",
+            "globalId": "GID-7565407",
+            "name": "0.0.0.91 - TSCOP - App Crashes when HAN Mode Enabled",
+            "description": "<p><em><strong>Description:</strong></em></p>\n\n<ul>\n\t<li>LD : 17.0.0.20</li>\n\t<li>KNSMUL : 0.0.0.50</li>\n\t<li>Drive : PDX</li>\n\t<li>TSCOP 20 floor setup is used, since higher floors cause issue with indications (issue raised as defect)</li>\n\t<li>WELM : 0.0.0.91</li>\n\t<li>Proto SW : 0.0.0.16</li>\n\t<li>1096 - 1</li>\n\t<li>A &amp; B side KNSMUL - Non-Conventional (KCOP)<br />\n\t&nbsp;</li>\n\t<li>Elevator in Normal Mode (Vacant)</li>\n\t<li>HAN Button Pressed</li>\n\t<li><img alt=\"\" height=\"349\" src=\"https://konerqm.jamacloud.com/attachment/233276/image-zjIt0n5tVy.png\" width=\"288\" /></li>\n\t<li>TSCOP hangs &amp; Restarts</li>\n\t<li><img alt=\"\" height=\"453\" src=\"https://konerqm.jamacloud.com/attachment/233277/image-Uh0ymbvbqF.png\" width=\"289\" /></li>\n</ul>\n\n<p><br />\n<em><strong>Note:</strong></em></p>\n\n<p>When HAN is pressed, Doors are opened&nbsp; after that no HAN Sequence started</p>\n\n<p>This happens almost all the time with WELM App 0.0.0.91 SW &amp; Proto SW : 0.0.0.16</p>\n\n<p>Checked with App SW 0.0.0.88 &amp; Proto SW 0.0.0.16 in LD 17.0.0.18, No issues found, HAN Mode functions correctly<br />\n<br />\n<em><strong>LOGS:</strong></em><br />\nTSCOP Logs<br />\nLPA<br />\nEvent Traffic<br />\nVideo Recording for better understanding<br />\n<br />\n\u200b</p>\n",
+            "status": 1081,
+            "BUG_component$154": 1291,
+            "BUG_subcomponent$154": "WELM 0.0.0.91",
+            "createdBy": 6096,
+            "release": 2396,
+            "BUG_foundInBuild$154": "KCE 17.0.0.116(LD: 17.0.0.20, GCD: 17.0.1.1), WELM Appl: 0.0.0.91, WELM Prot: 0.0.0.16",
+            "BUG_foundOnDate$154": "2025-12-01",
+            "priority": 2410,
+            "BUG_severity$154": 1109,
+            "BUG_category$154": 1425,
+            "BUG_testLevel$154": 1129,
+            "BUG_howFound$154": 1092,
+            "BUG_whereFound$154": 1137,
+            "BUG_probability_on_field$154": 2397,
+            "root_cause_category$154": 2512,
+            "BUG_testCaseUpdated$154": 1198,
+            "BUG_V1_project$154": 1431
+        },
+        "resources": {
+            "self": {
+                "allowed": [
+                    "GET",
+                    "PUT",
+                    "PATCH",
+                    "DELETE"
+                ]
+            }
+        },
+        "version": 1,
+        "location": {
+            "sortOrder": 6516,
+            "globalSortOrder": 1665880915,
+            "sequence": "17.6517",
+            "parent": {
+                "item": 83266
+            }
+        },
+        "lock": {
+            "locked": false
         },
         "type": "items"
     }

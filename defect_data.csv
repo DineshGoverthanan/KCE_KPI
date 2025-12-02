@@ -67,6 +67,8 @@ KIE601-SWBUG-2734,IEX - Escalator not running in interlock mode after learning i
 KIE601-SWBUG-2736,IEX-Fault-count for KIECPU in G01 not updating within AMC on IEX system,VIGNESHWARAR,,2025-11-09
 KIE601-SWBUG-2751,IEX-AMC Mode Status Not Updating to On-site Mode Until Application Restart,VIGNESHWARAR,,2025-11-13
 KIE601-SWBUG-2752,IEX- G01 Board Showing Delayed Direction Status Update after normal stop,VIGNESHWARAR,,2025-11-13
+KIE601-SWBUG-2777,IEX - FC 305-1 is posted after power cycle and long run when G01 software package is uploaded for IOC with G99/G95 variant CPU,Mohammed Ibrahim Sultan,,2025-12-01
+KIE601-SWBUG-2778,IEX-Fault F 84-5 was Triggered when starting Escalator by using Key Switch in Learning Mode,VIGNESHWARAR,,2025-12-01
 DRIVE_HW_SW-SWBUG-1587,GG DCBL 5.51 SW - Fault 124 3064 Not Triggered when Software file is missed from SD Card.,VIGNESHWARAR,,2025-06-01
 KCE-SWBUG-5615,16.4-DCBL GD- Speed is not reduced when the elevator reaches the lower limit during the NTS Buffer Test.,Jagadeesh,KCE16.4.92 (LD 16.4.1.11 and GCD 16.4.65) + DCBL 24.47sw,
 KCE-SWBUG-6553,"KCE NA - When MES activated during car call service, lift is unable to stop at the nearest floor.",Veeramanikandan,KCE 17.0.0.10,2025-09-02
@@ -349,3 +351,4 @@ KCE-SWBUG-7073,4.6 - KDX - Fault #2008's Data 1 Description is missing,Suryanara
 KCE-SWBUG-7086,0.0.0.91 - TSCOP - TSCOP went inoperable after upgrading LD to 17.0.0.20 (KNSMUL 0.0.0.50),Suryanarayanan,"KCE 17.0.0.116(LD: 17.0.0.20, GCD: 17.0.1.1), WELM Appl: 0.0.0.91, WELM Proto: 0.0.0.16",2025-12-01
 KCE-SWBUG-7087, IoT – Software Update Fails (17.0.0.16 → 17.0.0.20),Priyavalli,,2025-12-01
 KCE-SWBUG-7088,KC3 view randomly shows FID M mode as 'OTHER' for few seconds,Kowsalya,17.0.0.18,2025-11-27
+KCE-SWBUG-7104,0.0.0.91 - TSCOP - App Crashes when HAN Mode Enabled,Suryanarayanan,"KCE 17.0.0.116(LD: 17.0.0.20, GCD: 17.0.1.1), WELM Appl: 0.0.0.91, WELM Prot: 0.0.0.16",2025-12-01
