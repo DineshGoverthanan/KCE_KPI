@@ -346,3 +346,6 @@ KCE-SWBUG-7065,16.10 - KCEDCS - DG is unable to update the software for devices 
 KCE-SWBUG-7067,"0.0.0.88 - TSCOP - HAN Mode's initial UI, TTC Floor Cells shows 7A instead of '7'",Suryanarayanan,"KCE17.0.0.111(LD: 17.0.0.18, GCD: 17.0.0.33)",2025-11-26
 KCE-SWBUG-7071,KCE 17.0.0.18 Unexpected Parameter 76 (Virtual Floor Setting) Appears in Drive Parameter Settings and Is Not Related to EZO,Nithya Priya,"KCE17.0.0.111(LD: 17.0.0.18, GCD: 17.0.0.33)",2025-11-27
 KCE-SWBUG-7073,4.6 - KDX - Fault #2008's Data 1 Description is missing,Suryanarayanan,,2025-11-27
+KCE-SWBUG-7086,0.0.0.91 - TSCOP - TSCOP went inoperable after upgrading LD to 17.0.0.20 (KNSMUL 0.0.0.50),Suryanarayanan,"KCE 17.0.0.116(LD: 17.0.0.20, GCD: 17.0.1.1), WELM Appl: 0.0.0.91, WELM Proto: 0.0.0.16",2025-12-01
+KCE-SWBUG-7087, IoT – Software Update Fails (17.0.0.16 → 17.0.0.20),Priyavalli,,2025-12-01
+KCE-SWBUG-7088,KC3 view randomly shows FID M mode as 'OTHER' for few seconds,Kowsalya,17.0.0.18,2025-11-27

@@ -4494,8 +4494,8 @@
         "itemType": 154,
         "project": 229,
         "createdDate": "2025-11-19T12:18:11.000+0000",
-        "modifiedDate": "2025-11-21T13:35:34.000+0000",
-        "lastActivityDate": "2025-11-21T13:35:34.000+0000",
+        "modifiedDate": "2025-12-02T07:15:22.000+0000",
+        "lastActivityDate": "2025-12-02T07:15:22.000+0000",
         "createdBy": 1300,
         "modifiedBy": 620,
         "fields": {
@@ -4509,6 +4509,7 @@
             "release": 2396,
             "BUG_foundInBuild$154": "17.0.0.16",
             "BUG_foundOnDate$154": "2025-11-16",
+            "BUG_plannedRelease$154": 2441,
             "priority": 2410,
             "BUG_severity$154": 1110,
             "BUG_category$154": 1422,
@@ -4521,7 +4522,7 @@
             "BUG_jiraId$154": "KCE-31185",
             "BUG_jira_project$154": 2465,
             "BUG_jira_URL$154": "https://kone.atlassian.net/browse/KCE-31185",
-            "BUG_integration_synced_time$154": "2025-11-21 13:35:33.084179",
+            "BUG_integration_synced_time$154": "2025-12-02 07:15:21.915828",
             "BUG_V1_project$154": 1431
         },
         "resources": {
@@ -4534,7 +4535,7 @@
                 ]
             }
         },
-        "version": 4,
+        "version": 6,
         "location": {
             "sortOrder": 237,
             "globalSortOrder": 1538265880,
@@ -6751,7 +6752,7 @@
         "project": 229,
         "createdDate": "2025-03-20T10:08:41.000+0000",
         "modifiedDate": "2025-12-01T09:02:27.000+0000",
-        "lastActivityDate": "2025-12-01T09:42:17.000+0000",
+        "lastActivityDate": "2025-12-02T06:12:48.000+0000",
         "createdBy": 5995,
         "modifiedBy": 620,
         "fields": {
@@ -21717,6 +21718,179 @@
         },
         "lock": {
             "locked": false
+        },
+        "type": "items"
+    },
+    {
+        "id": 28512568,
+        "documentKey": "KCE-SWBUG-7086",
+        "globalId": "GID-7564983",
+        "itemType": 154,
+        "project": 229,
+        "createdDate": "2025-12-02T06:20:36.000+0000",
+        "modifiedDate": "2025-12-02T06:20:36.000+0000",
+        "lastActivityDate": "2025-12-02T06:20:36.000+0000",
+        "createdBy": 6096,
+        "modifiedBy": 6096,
+        "fields": {
+            "documentKey": "KCE-SWBUG-7086",
+            "globalId": "GID-7564983",
+            "name": "0.0.0.91 - TSCOP - TSCOP went inoperable after upgrading LD to 17.0.0.20 (KNSMUL 0.0.0.50)",
+            "description": "<p><em><strong>Description:</strong></em></p>\n\n<p>LD version updated from 17.0.0.18 (KNSMUL 0.0.0..49) to 17.0.0.20 (KNSMUL 0.0.0.50)<br />\nRoll Call Performed</p>\n\n<p>After Completion of Roll Call, No Calls were registered</p>\n\n<p>No Indications were shown<br />\nComplete TSCOP went not operable<br />\n<br />\n<em><strong>Note:</strong></em><br />\nTried Downgrading the LD Back to 17.0.0.18<br />\nIssue was still there</p>\n\n<p><br />\n<em><strong>Recovery:</strong></em><br />\nSame WELM Application SW 0.0.0.91 &amp; Protocol SW 0.0.0.16 is reinstalled back again, TSCOP Works fine</p>\n",
+            "status": 1081,
+            "BUG_component$154": 1291,
+            "BUG_subcomponent$154": "WELM 0.0.0.91",
+            "createdBy": 6096,
+            "release": 2396,
+            "BUG_foundInBuild$154": "KCE 17.0.0.116(LD: 17.0.0.20, GCD: 17.0.1.1), WELM Appl: 0.0.0.91, WELM Proto: 0.0.0.16",
+            "BUG_foundOnDate$154": "2025-12-01",
+            "priority": 2410,
+            "BUG_severity$154": 1109,
+            "BUG_category$154": 1428,
+            "BUG_testLevel$154": 1129,
+            "BUG_howFound$154": 1092,
+            "BUG_whereFound$154": 1137,
+            "BUG_probability_on_field$154": 2398,
+            "root_cause_category$154": 2512,
+            "BUG_testCaseUpdated$154": 1198,
+            "BUG_V1_project$154": 1431
+        },
+        "resources": {
+            "self": {
+                "allowed": [
+                    "GET",
+                    "PUT",
+                    "PATCH",
+                    "DELETE"
+                ]
+            }
+        },
+        "version": 1,
+        "location": {
+            "sortOrder": 6498,
+            "globalSortOrder": 1665855422,
+            "sequence": "17.6499",
+            "parent": {
+                "item": 83266
+            }
+        },
+        "lock": {
+            "locked": false
+        },
+        "type": "items"
+    },
+    {
+        "id": 28512744,
+        "documentKey": "KCE-SWBUG-7087",
+        "globalId": "GID-7565024",
+        "itemType": 154,
+        "project": 229,
+        "createdDate": "2025-12-02T06:56:03.000+0000",
+        "modifiedDate": "2025-12-02T06:56:03.000+0000",
+        "lastActivityDate": "2025-12-02T06:56:03.000+0000",
+        "createdBy": 5804,
+        "modifiedBy": 5804,
+        "fields": {
+            "documentKey": "KCE-SWBUG-7087",
+            "globalId": "GID-7565024",
+            "name": "\u00a0IoT \u2013 Software Update Fails (17.0.0.16 \u2192 17.0.0.20)",
+            "description": "<h3><span style=\"font-size:12px\"><strong>Issue Description:</strong><br />\nDuring the remote software update process from <strong>17.0.0.16</strong> to <strong>17.0.0.20</strong>, the update fails immediately after initiation.<br />\nThe system displays the following error message:</span></h3>\n\n<p><span style=\"font-size:12px\"><strong><em>\u201cFailed to initiate software update\u201d</em></strong></span></p>\n\n<p>&nbsp;</p>\n\n<p><span style=\"font-size:12px\"><strong>Observed Behavior:</strong></span></p>\n\n<ul>\n\t<li>\n\t<p><span style=\"font-size:12px\">Update request is triggered from the IoT Portal</span></p>\n\t</li>\n\t<li>\n\t<p><span style=\"font-size:12px\">Update moves to <em>Initiating</em> state</span></p>\n\t</li>\n\t<li>\n\t<p><span style=\"font-size:12px\">Fails within a few seconds</span></p>\n\t</li>\n\t<li>\n\t<p><span style=\"font-size:12px\">Error pop-up shown at portal side: <em>\u201cfailed to initiate software update, rollback SW file not found\u201d</em></span></p>\n\t</li>\n\t<li>\n\t<p><span style=\"font-size:12px\">No download attempt is made on the device</span></p>\n\t</li>\n</ul>\n\n<p><span style=\"font-size:12px\"><strong>Expected Behavior:</strong></span></p>\n\n<ul>\n\t<li>\n\t<p><span style=\"font-size:12px\">Software update should be successfully initiated</span></p>\n\t</li>\n\t<li>\n\t<p><span style=\"font-size:12px\">Device should download the software package and proceed through normal update stages</span></p>\n\t</li>\n</ul>\n\n<p><span style=\"font-size:12px\"><strong>Impact:</strong></span></p>\n\n<ul>\n\t<li>\n\t<p><span style=\"font-size:12px\">Remote Software Update (RSU) not functional for the affected device</span></p>\n\t</li>\n\t<li>\n\t<p><span style=\"font-size:12px\">Blocks regression testing for 17.0.0.20 release</span></p>\n\t</li>\n</ul>\n\n<p>&nbsp;</p>\n\n<p><img alt=\"\" height=\"389\" src=\"https://konerqm.jamacloud.com/attachment/233184/image-pvbBJ86dZE.png\" width=\"801\" /></p>\n",
+            "status": 1081,
+            "BUG_component$154": 1303,
+            "BUG_subcomponent$154": "IOT",
+            "createdBy": 5804,
+            "release": 2396,
+            "BUG_foundOnDate$154": "2025-12-01",
+            "priority": 2410,
+            "BUG_severity$154": 1109,
+            "BUG_category$154": 1422,
+            "BUG_testLevel$154": 1129,
+            "BUG_howFound$154": 1092,
+            "BUG_whereFound$154": 1137,
+            "BUG_probability_on_field$154": 2396,
+            "root_cause_category$154": 2512,
+            "BUG_testCaseUpdated$154": 1198,
+            "BUG_V1_project$154": 1431
+        },
+        "resources": {
+            "self": {
+                "allowed": [
+                    "GET",
+                    "PUT",
+                    "PATCH",
+                    "DELETE"
+                ]
+            }
+        },
+        "version": 1,
+        "location": {
+            "sortOrder": 6499,
+            "globalSortOrder": 1665856495,
+            "sequence": "17.6500",
+            "parent": {
+                "item": 83266
+            }
+        },
+        "lock": {
+            "locked": false
+        },
+        "type": "items"
+    },
+    {
+        "id": 28512908,
+        "documentKey": "KCE-SWBUG-7088",
+        "globalId": "GID-7565053",
+        "itemType": 154,
+        "project": 229,
+        "createdDate": "2025-12-02T07:57:51.000+0000",
+        "modifiedDate": "2025-12-02T08:04:17.000+0000",
+        "lastActivityDate": "2025-12-02T08:04:17.000+0000",
+        "createdBy": 6257,
+        "modifiedBy": 6257,
+        "fields": {
+            "documentKey": "KCE-SWBUG-7088",
+            "globalId": "GID-7565053",
+            "name": "KC3 view randomly shows FID M mode as 'OTHER' for few seconds",
+            "description": "<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\"><strong>Detailed Defect Description:</strong></span></span></p>\n\n<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\">KC3 view randomly shows FID V mode as 'OTHER' for few seconds</span></span></p>\n\n<p>&nbsp;</p>\n\n<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\"><strong>Description of the test case (Detailed Scenario)&nbsp;</strong></span></span></p>\n\n<ul>\n\t<li><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\">Activate FID M</span></span>\u200b\u200b\u200b mode from OPT 4th input</li>\n\t<li>FID M mode\u200b activated and promanager shows 'FID M'</li>\n\t<li>KC3 view shows randomly 'OTHER' for few seconds and changed to 'FID M'</li>\n</ul>\n\n<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\"><strong>Expected behavior:&nbsp;&nbsp;</strong></span></span></p>\n\n<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\">KC3 view should show FID M mode as 'FID MACHINE'</span></span></p>\n\n<p>&nbsp;</p>\n\n<p><img alt=\"\" height=\"393\" src=\"https://konerqm.jamacloud.com/attachment/233194/image-TrE9lwzVnA.png\" width=\"742\" /></p>\n\n<p>&nbsp;</p>\n\n<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\"><strong>Actual behavior:</strong></span></span></p>\n\n<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\">KC3 view shows FID M mode as 'OTHER'</span></span></p>\n\n<p>&nbsp;</p>\n\n<p><img alt=\"\" height=\"274\" src=\"https://konerqm.jamacloud.com/attachment/233195/image-JzrYZw5I63.png\" width=\"713\" /></p>\n\n<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\"><strong>Recovery:&nbsp;</strong></span></span></p>\n\n<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\">After few seconds, changed to 'FID MACHINE'.</span></span></p>\n\n<p>&nbsp;</p>\n\n<p>&nbsp;</p>\n\n<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\"><strong>Log attached Information:</strong></span></span></p>\n\n<p><span style=\"font-family:Calibri, sans-serif\"><span style=\"font-size:14.6667px\">Screen shot&nbsp;</span></span></p>\n\n<p>&nbsp;</p>\n",
+            "status": 1081,
+            "BUG_component$154": 1585,
+            "createdBy": 6257,
+            "release": 2396,
+            "BUG_foundInBuild$154": "17.0.0.18",
+            "BUG_foundOnDate$154": "2025-11-27",
+            "priority": 2411,
+            "BUG_severity$154": 1111,
+            "BUG_category$154": 1422,
+            "BUG_testLevel$154": 1129,
+            "BUG_howFound$154": 2409,
+            "BUG_whereFound$154": 1137,
+            "BUG_probability_on_field$154": 2396,
+            "root_cause_category$154": 2512,
+            "BUG_testCaseUpdated$154": 1198,
+            "BUG_V1_project$154": 1431
+        },
+        "resources": {
+            "self": {
+                "allowed": [
+                    "GET",
+                    "PUT",
+                    "PATCH",
+                    "DELETE"
+                ]
+            }
+        },
+        "version": 2,
+        "location": {
+            "sortOrder": 6500,
+            "globalSortOrder": 1665872331,
+            "sequence": "17.6501",
+            "parent": {
+                "item": 83266
+            }
+        },
+        "lock": {
+            "locked": false,
+            "lastLockedDate": "2025-12-02T08:04:18.000+0000"
         },
         "type": "items"
     }
