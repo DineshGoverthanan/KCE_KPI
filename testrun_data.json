@@ -16359,8 +16359,8 @@
         "Assigned To":"Nithya Priya"
     },
     {
-        "TestRunStatus":"INPROGRESS",
-        "ExecutionDate":"2025-12-01",
+        "TestRunStatus":"PASSED",
+        "ExecutionDate":"2025-12-02",
         "Document Key":"KCE-TSTRN-4006816",
         "Name":"WSC O - Water Sensor Contact - Homing - Tests not included into TA",
         "Assigned To":"Jagadeesh"
@@ -17041,6 +17041,13 @@
         "TestRunStatus":"PASSED",
         "ExecutionDate":"2025-12-01",
         "Document Key":"KCE-TSTRN-4004423",
+        "Name":"Multiple COPs during disability service",
+        "Assigned To":"Suryanarayanan"
+    },
+    {
+        "TestRunStatus":"INPROGRESS",
+        "ExecutionDate":"2025-12-02",
+        "Document Key":"KCE-TSTRN-4007032",
         "Name":"Multiple COPs during disability service",
         "Assigned To":"Suryanarayanan"
     },
