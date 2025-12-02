@@ -10094,17 +10094,31 @@
         "Assigned To":"Mohammed Ibrahim Sultan"
     },
     {
-        "TestRunStatus":"INPROGRESS",
+        "TestRunStatus":"PASSED",
         "ExecutionDate":"2025-12-02",
         "Document Key":"KIE601-TSTRN-70522",
         "Name":"Overspeed 1 fault 31 ",
         "Assigned To":"VIGNESHWARAR"
     },
     {
-        "TestRunStatus":"INPROGRESS",
+        "TestRunStatus":"PASSED",
         "ExecutionDate":"2025-12-02",
         "Document Key":"KIE601-TSTRN-70523",
         "Name":"Overspeed 1 fault 32",
+        "Assigned To":"VIGNESHWARAR"
+    },
+    {
+        "TestRunStatus":"FAILED",
+        "ExecutionDate":"2025-12-02",
+        "Document Key":"KIE601-TSTRN-70538",
+        "Name":"Learning by Upper Key Switch in down Direction",
+        "Assigned To":"VIGNESHWARAR"
+    },
+    {
+        "TestRunStatus":"FAILED",
+        "ExecutionDate":"2025-12-02",
+        "Document Key":"KIE601-TSTRN-70539",
+        "Name":"Learning by Lower Key Switch in Up Direction",
         "Assigned To":"VIGNESHWARAR"
     },
     {
@@ -10616,6 +10630,13 @@
         "ExecutionDate":"2025-07-21",
         "Document Key":"KCE-TSTRN-3975149",
         "Name":"Locking during special modes",
+        "Assigned To":"Suryanarayanan"
+    },
+    {
+        "TestRunStatus":"PASSED",
+        "ExecutionDate":"2025-07-21",
+        "Document Key":"KCE-TSTRN-3975145",
+        "Name":"Locking of car calls automatic activation (all floors locked)",
         "Assigned To":"Suryanarayanan"
     },
     {
