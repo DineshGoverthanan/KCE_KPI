@@ -20609,16 +20609,16 @@
         "itemType": 154,
         "project": 229,
         "createdDate": "2025-11-26T05:44:42.000+0000",
-        "modifiedDate": "2025-11-26T08:49:54.000+0000",
-        "lastActivityDate": "2025-11-26T08:49:54.000+0000",
+        "modifiedDate": "2025-12-02T08:38:49.000+0000",
+        "lastActivityDate": "2025-12-02T08:38:49.000+0000",
         "createdBy": 6096,
-        "modifiedBy": 1129,
+        "modifiedBy": 1138,
         "fields": {
             "documentKey": "KCE-SWBUG-7043",
             "globalId": "GID-7553262",
             "name": "17.0 - CPU - Fault #1443's Data 1 & 2 Description is missing",
             "description": "<p><img alt=\"\" height=\"577\" src=\"https://konerqm.jamacloud.com/attachment/232522/image-gzmcrdNIcP.png\" width=\"1500\" /></p>\n\n<p>&nbsp;</p>\n\n<p><em><strong>Note:</strong></em><br />\nLocalization Files are updated</p>\n\n<p>ProManager Version: 4.6</p>\n",
-            "status": 1081,
+            "status": 1085,
             "BUG_component$154": 1291,
             "createdBy": 6096,
             "assignedTo": 1138,
@@ -20647,7 +20647,7 @@
                 ]
             }
         },
-        "version": 2,
+        "version": 3,
         "location": {
             "sortOrder": 6461,
             "globalSortOrder": 1665241632,
@@ -20658,7 +20658,7 @@
         },
         "lock": {
             "locked": false,
-            "lastLockedDate": "2025-11-26T08:49:55.000+0000"
+            "lastLockedDate": "2025-12-02T08:38:50.000+0000"
         },
         "type": "items"
     },
@@ -21470,7 +21470,7 @@
         "version": 2,
         "location": {
             "sortOrder": 6500,
-            "globalSortOrder": 1665872331,
+            "globalSortOrder": 1665857568,
             "sequence": "17.6501",
             "parent": {
                 "item": 83266

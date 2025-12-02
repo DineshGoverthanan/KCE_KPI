@@ -9976,6 +9976,13 @@
     },
     {
         "TestRunStatus":"PASSED",
+        "ExecutionDate":"2025-12-02",
+        "Document Key":"KIE601-TSTRN-70588",
+        "Name":"Software Version",
+        "Assigned To":"Mohammed Ibrahim Sultan"
+    },
+    {
+        "TestRunStatus":"PASSED",
         "ExecutionDate":"2025-07-30",
         "Document Key":"KIE601-TSTRN-56756",
         "Name":"Automatic Mode - KAM - Star Delta - Down direction",
@@ -9983,10 +9990,24 @@
     },
     {
         "TestRunStatus":"PASSED",
+        "ExecutionDate":"2025-12-02",
+        "Document Key":"KIE601-TSTRN-70555",
+        "Name":"Continous Mode - KCM - Operation by Inverter - Upper Key Switch",
+        "Assigned To":"Mohammed Ibrahim Sultan"
+    },
+    {
+        "TestRunStatus":"PASSED",
         "ExecutionDate":"2025-07-30",
         "Document Key":"KIE601-TSTRN-56757",
         "Name":"Automatic Mode - KAM - Inverter - Opposite Running",
         "Assigned To":"VIGNESHWARAR"
+    },
+    {
+        "TestRunStatus":"PASSED",
+        "ExecutionDate":"2025-12-02",
+        "Document Key":"KIE601-TSTRN-70556",
+        "Name":"Continous Mode - KCM - Operation by Star - Delta - Upper Key Switch",
+        "Assigned To":"Mohammed Ibrahim Sultan"
     },
     {
         "TestRunStatus":"PASSED",
@@ -10075,8 +10096,29 @@
     {
         "TestRunStatus":"INPROGRESS",
         "ExecutionDate":"2025-12-02",
+        "Document Key":"KIE601-TSTRN-70522",
+        "Name":"Overspeed 1 fault 31 ",
+        "Assigned To":"VIGNESHWARAR"
+    },
+    {
+        "TestRunStatus":"INPROGRESS",
+        "ExecutionDate":"2025-12-02",
+        "Document Key":"KIE601-TSTRN-70523",
+        "Name":"Overspeed 1 fault 32",
+        "Assigned To":"VIGNESHWARAR"
+    },
+    {
+        "TestRunStatus":"INPROGRESS",
+        "ExecutionDate":"2025-12-02",
         "Document Key":"KIE601-TSTRN-70551",
         "Name":"Enhanced safety ",
+        "Assigned To":"VIGNESHWARAR"
+    },
+    {
+        "TestRunStatus":"FAILED",
+        "ExecutionDate":"2025-12-02",
+        "Document Key":"KIE601-TSTRN-70552",
+        "Name":"Enhanced safety Operational mode",
         "Assigned To":"VIGNESHWARAR"
     },
     {
@@ -16166,6 +16208,13 @@
         "TestRunStatus":"INPROGRESS",
         "ExecutionDate":"2025-11-24",
         "Document Key":"KCE-TSTRN-4004665",
+        "Name":"BSW mode with SPP configuration",
+        "Assigned To":"Badaganti Sai Prasad"
+    },
+    {
+        "TestRunStatus":"FAILED",
+        "ExecutionDate":"2025-12-02",
+        "Document Key":"KCE-TSTRN-4006670",
         "Name":"BSW mode with SPP configuration",
         "Assigned To":"Badaganti Sai Prasad"
     },
