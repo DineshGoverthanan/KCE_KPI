@@ -1838,7 +1838,7 @@
         "project": 417,
         "createdDate": "2025-09-04T09:46:05.000+0000",
         "modifiedDate": "2025-12-03T03:52:17.000+0000",
-        "lastActivityDate": "2025-12-03T03:52:17.000+0000",
+        "lastActivityDate": "2025-12-03T10:49:30.000+0000",
         "createdBy": 6117,
         "modifiedBy": 6254,
         "fields": {
@@ -2601,10 +2601,10 @@
         "itemType": 154,
         "project": 417,
         "createdDate": "2025-09-22T09:52:04.000+0000",
-        "modifiedDate": "2025-11-19T10:52:11.000+0000",
-        "lastActivityDate": "2025-11-19T10:52:11.000+0000",
+        "modifiedDate": "2025-12-03T10:18:13.000+0000",
+        "lastActivityDate": "2025-12-03T10:18:13.000+0000",
         "createdBy": 6117,
-        "modifiedBy": 6254,
+        "modifiedBy": 2001,
         "fields": {
             "documentKey": "KIE601-SWBUG-2667",
             "globalId": "GID-7420603",
@@ -2618,7 +2618,7 @@
             "release": 2527,
             "BUG_foundOnDate$154": "2025-09-18",
             "BUG_plannedRelease$154": 2550,
-            "BUG_fixedInRelease$154": 2574,
+            "BUG_fixedInRelease$154": 2550,
             "priority": 2410,
             "BUG_severity$154": 1111,
             "BUG_category$154": 1422,
@@ -2638,7 +2638,7 @@
                 ]
             }
         },
-        "version": 5,
+        "version": 6,
         "location": {
             "sortOrder": 1248,
             "globalSortOrder": 1305150651,
@@ -2649,7 +2649,7 @@
         },
         "lock": {
             "locked": false,
-            "lastLockedDate": "2025-11-19T10:52:12.000+0000"
+            "lastLockedDate": "2025-12-03T10:18:14.000+0000"
         },
         "type": "items"
     },
@@ -2991,10 +2991,10 @@
         "itemType": 154,
         "project": 417,
         "createdDate": "2025-10-14T05:54:23.000+0000",
-        "modifiedDate": "2025-11-23T07:53:46.000+0000",
-        "lastActivityDate": "2025-11-23T07:53:46.000+0000",
+        "modifiedDate": "2025-12-03T10:21:43.000+0000",
+        "lastActivityDate": "2025-12-03T10:21:43.000+0000",
         "createdBy": 6117,
-        "modifiedBy": 6204,
+        "modifiedBy": 2001,
         "fields": {
             "documentKey": "KIE601-SWBUG-2690",
             "globalId": "GID-7458068",
@@ -3008,7 +3008,7 @@
             "release": 2527,
             "BUG_foundOnDate$154": "2025-10-13",
             "BUG_plannedRelease$154": 2274,
-            "BUG_fixedInRelease$154": 2574,
+            "BUG_fixedInRelease$154": 2550,
             "priority": 2410,
             "BUG_severity$154": 1110,
             "BUG_category$154": 1422,
@@ -3029,7 +3029,7 @@
                 ]
             }
         },
-        "version": 11,
+        "version": 12,
         "location": {
             "sortOrder": 1270,
             "globalSortOrder": 1307451213,
@@ -3040,7 +3040,7 @@
         },
         "lock": {
             "locked": false,
-            "lastLockedDate": "2025-11-23T07:53:47.000+0000"
+            "lastLockedDate": "2025-12-03T10:21:44.000+0000"
         },
         "type": "items"
     },
@@ -3051,10 +3051,10 @@
         "itemType": 154,
         "project": 417,
         "createdDate": "2025-10-15T07:20:14.000+0000",
-        "modifiedDate": "2025-12-01T11:14:15.000+0000",
-        "lastActivityDate": "2025-12-01T11:14:15.000+0000",
+        "modifiedDate": "2025-12-03T10:22:40.000+0000",
+        "lastActivityDate": "2025-12-03T10:22:40.000+0000",
         "createdBy": 6117,
-        "modifiedBy": 6117,
+        "modifiedBy": 2001,
         "fields": {
             "documentKey": "KIE601-SWBUG-2691",
             "globalId": "GID-7459986",
@@ -3067,7 +3067,7 @@
             "assignedTo": 6612,
             "release": 2527,
             "BUG_foundOnDate$154": "2025-10-14",
-            "BUG_fixedInRelease$154": 2574,
+            "BUG_fixedInRelease$154": 2550,
             "priority": 2410,
             "BUG_severity$154": 1109,
             "BUG_category$154": 1422,
@@ -3088,7 +3088,7 @@
                 ]
             }
         },
-        "version": 8,
+        "version": 9,
         "location": {
             "sortOrder": 1271,
             "globalSortOrder": 1307555784,
@@ -3099,7 +3099,7 @@
         },
         "lock": {
             "locked": false,
-            "lastLockedDate": "2025-12-01T11:14:16.000+0000"
+            "lastLockedDate": "2025-12-03T10:22:41.000+0000"
         },
         "type": "items"
     },
@@ -3167,10 +3167,10 @@
         "itemType": 154,
         "project": 417,
         "createdDate": "2025-10-15T07:38:48.000+0000",
-        "modifiedDate": "2025-11-22T05:33:19.000+0000",
-        "lastActivityDate": "2025-11-22T05:33:19.000+0000",
+        "modifiedDate": "2025-12-03T10:23:39.000+0000",
+        "lastActivityDate": "2025-12-03T10:23:39.000+0000",
         "createdBy": 6117,
-        "modifiedBy": 6204,
+        "modifiedBy": 2001,
         "fields": {
             "documentKey": "KIE601-SWBUG-2693",
             "globalId": "GID-7459993",
@@ -3184,7 +3184,7 @@
             "release": 2527,
             "BUG_foundOnDate$154": "2025-10-14",
             "BUG_plannedRelease$154": 2274,
-            "BUG_fixedInRelease$154": 2574,
+            "BUG_fixedInRelease$154": 2550,
             "priority": 2410,
             "BUG_severity$154": 1109,
             "BUG_category$154": 1422,
@@ -3205,7 +3205,7 @@
                 ]
             }
         },
-        "version": 8,
+        "version": 9,
         "location": {
             "sortOrder": 1273,
             "globalSortOrder": 1307764926,
@@ -3216,7 +3216,7 @@
         },
         "lock": {
             "locked": false,
-            "lastLockedDate": "2025-11-22T05:33:20.000+0000"
+            "lastLockedDate": "2025-12-03T10:23:41.000+0000"
         },
         "type": "items"
     },
@@ -3227,10 +3227,10 @@
         "itemType": 154,
         "project": 417,
         "createdDate": "2025-10-15T07:51:34.000+0000",
-        "modifiedDate": "2025-11-24T03:58:54.000+0000",
-        "lastActivityDate": "2025-11-24T03:58:54.000+0000",
+        "modifiedDate": "2025-12-03T10:24:18.000+0000",
+        "lastActivityDate": "2025-12-03T10:24:18.000+0000",
         "createdBy": 6117,
-        "modifiedBy": 1995,
+        "modifiedBy": 2001,
         "fields": {
             "documentKey": "KIE601-SWBUG-2694",
             "globalId": "GID-7459995",
@@ -3244,7 +3244,7 @@
             "release": 2527,
             "BUG_foundOnDate$154": "2025-10-14",
             "BUG_plannedRelease$154": 2274,
-            "BUG_fixedInRelease$154": 2574,
+            "BUG_fixedInRelease$154": 2550,
             "priority": 2410,
             "BUG_severity$154": 1111,
             "BUG_category$154": 1422,
@@ -3265,7 +3265,7 @@
                 ]
             }
         },
-        "version": 8,
+        "version": 9,
         "location": {
             "sortOrder": 1274,
             "globalSortOrder": 1307869497,
@@ -3276,7 +3276,7 @@
         },
         "lock": {
             "locked": false,
-            "lastLockedDate": "2025-11-24T03:58:55.000+0000"
+            "lastLockedDate": "2025-12-03T10:24:19.000+0000"
         },
         "type": "items"
     },
@@ -3342,10 +3342,10 @@
         "itemType": 154,
         "project": 417,
         "createdDate": "2025-10-16T09:47:13.000+0000",
-        "modifiedDate": "2025-11-28T09:59:12.000+0000",
-        "lastActivityDate": "2025-11-28T09:59:12.000+0000",
+        "modifiedDate": "2025-12-03T10:33:36.000+0000",
+        "lastActivityDate": "2025-12-03T10:33:36.000+0000",
         "createdBy": 6117,
-        "modifiedBy": 1995,
+        "modifiedBy": 2001,
         "fields": {
             "documentKey": "KIE601-SWBUG-2697",
             "globalId": "GID-7464841",
@@ -3358,7 +3358,7 @@
             "assignedTo": 2001,
             "release": 2527,
             "BUG_foundOnDate$154": "2025-10-15",
-            "BUG_fixedInRelease$154": 2579,
+            "BUG_fixedInRelease$154": 2550,
             "priority": 2410,
             "BUG_severity$154": 1110,
             "BUG_category$154": 1422,
@@ -3378,7 +3378,7 @@
                 ]
             }
         },
-        "version": 4,
+        "version": 5,
         "location": {
             "sortOrder": 1277,
             "globalSortOrder": 1308183210,
@@ -3389,7 +3389,7 @@
         },
         "lock": {
             "locked": false,
-            "lastLockedDate": "2025-11-28T09:59:14.000+0000"
+            "lastLockedDate": "2025-12-03T10:33:37.000+0000"
         },
         "type": "items"
     },
@@ -3956,7 +3956,7 @@
         "project": 417,
         "createdDate": "2025-12-02T13:29:51.000+0000",
         "modifiedDate": "2025-12-02T13:29:51.000+0000",
-        "lastActivityDate": "2025-12-02T13:29:51.000+0000",
+        "lastActivityDate": "2025-12-03T10:18:03.000+0000",
         "createdBy": 5932,
         "modifiedBy": 5932,
         "fields": {
@@ -21372,10 +21372,10 @@
         "itemType": 154,
         "project": 229,
         "createdDate": "2025-11-26T11:16:41.000+0000",
-        "modifiedDate": "2025-12-03T08:04:57.000+0000",
-        "lastActivityDate": "2025-12-03T08:12:07.000+0000",
+        "modifiedDate": "2025-12-03T10:13:57.000+0000",
+        "lastActivityDate": "2025-12-03T10:25:30.000+0000",
         "createdBy": 6096,
-        "modifiedBy": 1129,
+        "modifiedBy": 1953,
         "fields": {
             "documentKey": "KCE-SWBUG-7054",
             "globalId": "GID-7553735",
@@ -21385,6 +21385,7 @@
             "BUG_component$154": 1291,
             "BUG_subcomponent$154": "WELM 0.0.0.88",
             "createdBy": 6096,
+            "assignedTo": 1546,
             "release": 2396,
             "BUG_foundInBuild$154": "KCE17.0.0.111(LD: 17.0.0.18, GCD: 17.0.0.33)",
             "BUG_foundOnDate$154": "2025-11-25",
@@ -21410,7 +21411,7 @@
                 ]
             }
         },
-        "version": 2,
+        "version": 3,
         "location": {
             "sortOrder": 6472,
             "globalSortOrder": 1665457144,
@@ -21421,7 +21422,7 @@
         },
         "lock": {
             "locked": false,
-            "lastLockedDate": "2025-12-03T08:05:00.000+0000"
+            "lastLockedDate": "2025-12-03T10:14:01.000+0000"
         },
         "type": "items"
     },
@@ -21433,7 +21434,7 @@
         "project": 229,
         "createdDate": "2025-11-26T13:27:38.000+0000",
         "modifiedDate": "2025-12-03T08:07:28.000+0000",
-        "lastActivityDate": "2025-12-03T08:51:05.000+0000",
+        "lastActivityDate": "2025-12-03T10:33:55.000+0000",
         "createdBy": 6096,
         "modifiedBy": 1129,
         "fields": {
@@ -21493,10 +21494,10 @@
         "itemType": 154,
         "project": 229,
         "createdDate": "2025-11-26T15:10:34.000+0000",
-        "modifiedDate": "2025-12-03T08:08:11.000+0000",
-        "lastActivityDate": "2025-12-03T08:14:46.000+0000",
+        "modifiedDate": "2025-12-03T10:15:12.000+0000",
+        "lastActivityDate": "2025-12-03T10:15:12.000+0000",
         "createdBy": 6096,
-        "modifiedBy": 1129,
+        "modifiedBy": 1953,
         "fields": {
             "documentKey": "KCE-SWBUG-7058",
             "globalId": "GID-7554824",
@@ -21506,6 +21507,7 @@
             "BUG_component$154": 1291,
             "BUG_subcomponent$154": "WELM 0.0.0.88",
             "createdBy": 6096,
+            "assignedTo": 1546,
             "release": 2396,
             "BUG_foundInBuild$154": "KCE17.0.0.111(LD: 17.0.0.18, GCD: 17.0.0.33)",
             "BUG_foundOnDate$154": "2025-11-25",
@@ -21531,7 +21533,7 @@
                 ]
             }
         },
-        "version": 2,
+        "version": 3,
         "location": {
             "sortOrder": 6476,
             "globalSortOrder": 1665535512,
@@ -21542,7 +21544,7 @@
         },
         "lock": {
             "locked": false,
-            "lastLockedDate": "2025-12-03T08:08:13.000+0000"
+            "lastLockedDate": "2025-12-03T10:15:20.000+0000"
         },
         "type": "items"
     },
@@ -22098,15 +22100,15 @@
         "itemType": 154,
         "project": 229,
         "createdDate": "2025-12-03T06:02:02.000+0000",
-        "modifiedDate": "2025-12-03T06:02:02.000+0000",
-        "lastActivityDate": "2025-12-03T06:02:04.000+0000",
+        "modifiedDate": "2025-12-03T11:40:03.000+0000",
+        "lastActivityDate": "2025-12-03T11:40:03.000+0000",
         "createdBy": 6257,
         "modifiedBy": 6257,
         "fields": {
             "documentKey": "KCE-SWBUG-7106",
             "globalId": "GID-7566618",
-            "name": "Remote LD reboot not initiated from the KC3View and 24/7 Cloudview portals when Lift in RDF mode",
-            "description": "<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\"><strong>Detailed Defect Description:</strong></span></span></p>\n\n<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\">Remote LD reboot not initiated from the KC3View and 24/7 Cloudview portals when Lift in RDF mode</span></span></p>\n\n<p>&nbsp;</p>\n\n<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\"><strong>Parameters:&nbsp;&nbsp;</strong></span></span></p>\n\n<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\">742 - Remote reboot -&gt; 1 (Enabled)</span></span></p>\n\n<p>&nbsp;</p>\n\n<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\"><strong>Group configuration: </strong></span></span></p>\n\n<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\">Single</span></span></p>\n\n<p>&nbsp;</p>\n\n<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\"><strong>Drive type:</strong></span></span></p>\n\n<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\">KDX, KDM 40</span></span></p>\n\n<p>&nbsp;</p>\n\n<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\"><strong>Regression or new finding:</strong></span></span></p>\n\n<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\">Regression</span></span></p>\n\n<p>&nbsp;</p>\n\n<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\"><strong>Test case Name / Feature name:</strong></span></span></p>\n\n<p>Remote LD reboot functionality - elevator in RDF mode&nbsp;</p>\n\n<p>&nbsp;</p>\n\n<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\"><strong>Description of the test case (Detailed Scenario)&nbsp;</strong></span></span></p>\n\n<ul>\n\t<li><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\">Set parameter 742 to 1.</span></span></li>\n\t<li><span style=\"font-family:Calibri,sans-serif\"><span style=\"font-size:14.6667px\">When elevator in RDF mode, give remote reboot from Device management or KC3View or 24/7 Cloudview portals</span></span>.</li>\n\t<li>Remote reboot was initiated and throws failed message in Device Management portal.</li>\n\t<li>But reboot was not initiated in&nbsp;<span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\">KC3View and 24/7 Cloudview portals</span></span></li>\n</ul>\n\n<p>&nbsp;</p>\n\n<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\"><strong>Expected behavior:&nbsp;&nbsp;</strong></span></span></p>\n\n<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\">Remote LD reboot should be initiated from Device Management, KC3View and 24/7 Cloudview portals, when reboot was given.</span></span></p>\n\n<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\">Below image, remote reboot was initiated from Device management portal.</span></span></p>\n\n<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\"><img alt=\"\" height=\"214\" src=\"https://konerqm.jamacloud.com/attachment/233361/image-yVOyJepIPQ.png\" width=\"269\" /></span></span></p>\n\n<p>&nbsp;</p>\n\n<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\"><strong>Actual behavior:</strong></span></span></p>\n\n<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\">Remote LD reboot was initiated from Device Management portal only, not initiated&nbsp;from both KC3View portal and 24/7 Cloudview portal, when reboot was given. Both KC3View and 24/7 Cloudview shows 'Something went wrong. You can try again.' message.</span></span></p>\n\n<p><img alt=\"\" height=\"538\" src=\"https://konerqm.jamacloud.com/attachment/233362/2025_12_03_05_35_002.png\" width=\"955\" /></p>\n\n<p>&nbsp;</p>\n\n<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\"><strong>Recovery:&nbsp;</strong></span></span></p>\n\n<p><span style=\"font-family:Calibri,sans-serif\"><span style=\"font-size:14.6667px\">No recovery</span></span></p>\n\n<p>&nbsp;</p>\n",
+            "name": "KC3view and Cloudview show \u2018Something went wrong. You can try again.\u2019 error message instead of the correct remote reboot failure status in RDF mode.",
+            "description": "<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\"><strong>Detailed Defect Description:</strong></span></span></p>\n\n<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\">KC3view and Cloudview show \u2018Something went wrong. You can try again.\u2019 instead of the correct remote reboot failure status in RDF mode.</span></span></p>\n\n<p>&nbsp;</p>\n\n<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\"><strong>Parameters:&nbsp;&nbsp;</strong></span></span></p>\n\n<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\">742 - Remote reboot -&gt; 1 (Enabled)</span></span></p>\n\n<p>&nbsp;</p>\n\n<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\"><strong>Group configuration: </strong></span></span></p>\n\n<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\">Single</span></span></p>\n\n<p>&nbsp;</p>\n\n<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\"><strong>Drive type:</strong></span></span></p>\n\n<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\">KDX, KDM 40</span></span></p>\n\n<p>&nbsp;</p>\n\n<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\"><strong>Regression or new finding:</strong></span></span></p>\n\n<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\">Regression</span></span></p>\n\n<p>&nbsp;</p>\n\n<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\"><strong>Test case Name / Feature name:</strong></span></span></p>\n\n<p>Remote LD reboot functionality - elevator in RDF mode&nbsp;</p>\n\n<p>&nbsp;</p>\n\n<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\"><strong>Description of the test case (Detailed Scenario)&nbsp;</strong></span></span></p>\n\n<ul>\n\t<li><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\">Set parameter 742 to 1.</span></span></li>\n\t<li><span style=\"font-family:Calibri,sans-serif\"><span style=\"font-size:14.6667px\">When elevator is in RDF mode.</span></span></li>\n\t<li><span style=\"font-family:Calibri,sans-serif\"><span style=\"font-size:14.6667px\">Remote reboot was initiated from KC3View or 24/7 Cloudview</span></span>.</li>\n\t<li>LD reboot not performed</li>\n\t<li>KC3view and Cloudview not show correct remote reboot failure status</li>\n</ul>\n\n<p>&nbsp;</p>\n\n<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\"><strong>Expected behavior:&nbsp;&nbsp;</strong></span></span></p>\n\n<p><span style=\"font-family:Calibri, sans-serif\"><span style=\"font-size:14.6667px\">KC3View and Cloudview should show remote reboot failure status in RDF mode</span></span></p>\n\n<p>&nbsp;</p>\n\n<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\"><img alt=\"\" height=\"319\" src=\"https://konerqm.jamacloud.com/attachment/233465/image-9nb3WBscsT.png\" width=\"568\" /></span></span></p>\n\n<p>&nbsp;</p>\n\n<p>&nbsp;</p>\n\n<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\"><strong>Actual behavior:</strong></span></span></p>\n\n<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\">KC3View and Cloudview show 'Something went wrong. You can try again.' error message.</span></span></p>\n\n<p>&nbsp;</p>\n\n<p><img alt=\"\" height=\"171\" src=\"https://konerqm.jamacloud.com/attachment/233468/image-S7OoA3G7Vg.png\" width=\"600\" /></p>\n\n<p>&nbsp;</p>\n\n<p><img alt=\"\" height=\"261\" src=\"https://konerqm.jamacloud.com/attachment/233470/image-4llGyXuDjb.png\" width=\"612\" /></p>\n\n<p>&nbsp;</p>\n\n<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\"><strong>Recovery:&nbsp;</strong></span></span></p>\n\n<p><span style=\"font-family:Calibri,sans-serif\"><span style=\"font-size:14.6667px\">No recovery</span></span></p>\n\n<p>&nbsp;</p>\n",
             "status": 1081,
             "BUG_component$154": 1585,
             "createdBy": 6257,
@@ -22134,7 +22136,7 @@
                 ]
             }
         },
-        "version": 1,
+        "version": 2,
         "location": {
             "sortOrder": 6518,
             "globalSortOrder": 1665876882,
@@ -22144,9 +22146,8 @@
             }
         },
         "lock": {
-            "locked": true,
-            "lastLockedDate": "2025-12-03T09:38:15.000+0000",
-            "lockedBy": 6257
+            "locked": false,
+            "lastLockedDate": "2025-12-03T11:40:04.000+0000"
         },
         "type": "items"
     },
@@ -22157,17 +22158,17 @@
         "itemType": 154,
         "project": 229,
         "createdDate": "2025-12-03T07:45:55.000+0000",
-        "modifiedDate": "2025-12-03T09:08:42.000+0000",
-        "lastActivityDate": "2025-12-03T09:08:42.000+0000",
+        "modifiedDate": "2025-12-03T11:11:49.000+0000",
+        "lastActivityDate": "2025-12-03T11:11:49.000+0000",
         "createdBy": 6257,
-        "modifiedBy": 1129,
+        "modifiedBy": 1953,
         "fields": {
             "documentKey": "KCE-SWBUG-7109",
             "globalId": "GID-7566857",
             "name": "Elevator in RDF mode and LD reboot was performed from IoT portal, CPU sent 'Not allowed by mode' response to the cloud which is in event timeline",
             "description": "<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\"><strong>Detailed Defect Description:</strong></span></span></p>\n\n<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\">When elevator in RDF mode and LD reboot was performed from IoT portal, CPU sent 'Not allowed by mode' response to the cloud which is in remote operation events</span></span></p>\n\n<p>&nbsp;</p>\n\n<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\"><strong>Parameters:&nbsp;&nbsp;</strong></span></span></p>\n\n<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\">742 - Remote reboot - 1</span></span></p>\n\n<p>&nbsp;</p>\n\n<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\"><strong>Group configuration: </strong></span></span></p>\n\n<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\">Single</span></span></p>\n\n<p>&nbsp;</p>\n\n<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\"><strong>Drive type:</strong></span></span></p>\n\n<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\">KDX, KDM 40</span></span></p>\n\n<p>&nbsp;</p>\n\n<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\"><strong>Regression or new finding:</strong></span></span></p>\n\n<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\">Regression</span></span></p>\n\n<p>&nbsp;</p>\n\n<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\"><strong>Test case Name / Feature name:</strong></span></span></p>\n\n<p>&nbsp;</p>\n\n<p>Remote LD reboot functionality - elevator in RDF mode&nbsp;</p>\n\n<p>&nbsp;</p>\n\n<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\"><strong>Description of the test case (Detailed Scenario)&nbsp;</strong></span></span></p>\n\n<ul>\n\t<li><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\">Enable RDF mode in elevator and remote reboot was given from cloud view and KC3view.</span></span></li>\n\t<li>Remote reboot events are visible in the event timeline in both Cloudview and KC3 view.</li>\n\t<li><span style=\"font-family:Calibri,sans-serif\"><span style=\"font-size:14.6667px\">CPU sent '</span></span><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\">Not allowed by mode' instead of '</span></span>Local maintenance active' response to the cloud.</li>\n</ul>\n\n<p>&nbsp;</p>\n\n<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\"><strong>Expected behavior:&nbsp;&nbsp;</strong></span></span></p>\n\n<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\">CPU should send '</span></span>Local maintenance active' response to the cloud.</p>\n\n<p><img alt=\"\" height=\"355\" src=\"https://konerqm.jamacloud.com/attachment/233387/image-ajxpuDs4Da.png\" width=\"966\" /></p>\n\n<p>&nbsp;</p>\n\n<p><img alt=\"\" height=\"318\" src=\"https://konerqm.jamacloud.com/attachment/233393/image-714VLToVAv.png\" width=\"980\" /></p>\n\n<p>&nbsp;</p>\n\n<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\"><strong>Actual behavior:</strong></span></span></p>\n\n<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\">CPU sent 'Not allowed by mode' response to the cloud.</span></span></p>\n\n<p><img alt=\"\" height=\"334\" src=\"https://konerqm.jamacloud.com/attachment/233388/image-qW53yLf6Uv.png\" width=\"931\" /></p>\n\n<p>&nbsp;</p>\n\n<p><img alt=\"\" height=\"319\" src=\"https://konerqm.jamacloud.com/attachment/233391/image-LE3E2ZtRxd.png\" width=\"789\" /></p>\n\n<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\"><strong>Recovery:&nbsp;</strong></span></span></p>\n\n<p><span style=\"font-family:Calibri,sans-serif\"><span style=\"font-size:14.6667px\">Cannot be recover</span></span></p>\n\n<p>&nbsp;</p>\n\n<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\"><strong>Requirement related to the defect:</strong></span></span></p>\n\n<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\">https://konerqm.jamacloud.com/perspective.req#/items/18985498?projectId=229</span></span></p>\n\n<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\">https://konerqm.jamacloud.com/perspective.req#/items/18989526?projectId=229</span></span></p>\n",
             "status": 1081,
-            "BUG_component$154": 1291,
+            "BUG_component$154": 1585,
             "createdBy": 6257,
             "release": 2396,
             "BUG_foundOnDate$154": "2025-12-01",
@@ -22193,7 +22194,7 @@
                 ]
             }
         },
-        "version": 3,
+        "version": 5,
         "location": {
             "sortOrder": 6521,
             "globalSortOrder": 1665880101,
@@ -22204,7 +22205,7 @@
         },
         "lock": {
             "locked": false,
-            "lastLockedDate": "2025-12-03T09:08:44.000+0000"
+            "lastLockedDate": "2025-12-03T11:11:51.000+0000"
         },
         "type": "items"
     }

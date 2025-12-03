@@ -10129,10 +10129,38 @@
         "Assigned To":"Mohammed Ibrahim Sultan"
     },
     {
-        "TestRunStatus":"INPROGRESS",
+        "TestRunStatus":"PASSED",
         "ExecutionDate":"2025-12-03",
         "Document Key":"KIE601-TSTRN-70502",
         "Name":"Inspection Mode - Operation - Upper Pit",
+        "Assigned To":"VIGNESHWARAR"
+    },
+    {
+        "TestRunStatus":"PASSED",
+        "ExecutionDate":"2025-12-03",
+        "Document Key":"KIE601-TSTRN-70503",
+        "Name":"Inspection Mode - Operation - Lower Pit",
+        "Assigned To":"VIGNESHWARAR"
+    },
+    {
+        "TestRunStatus":"PASSED",
+        "ExecutionDate":"2025-12-03",
+        "Document Key":"KIE601-TSTRN-70504",
+        "Name":"Inspection Mode - Faults",
+        "Assigned To":"VIGNESHWARAR"
+    },
+    {
+        "TestRunStatus":"PASSED",
+        "ExecutionDate":"2025-12-03",
+        "Document Key":"KIE601-TSTRN-70505",
+        "Name":"Inspection mode with Fault 106",
+        "Assigned To":"VIGNESHWARAR"
+    },
+    {
+        "TestRunStatus":"INPROGRESS",
+        "ExecutionDate":"2025-12-03",
+        "Document Key":"KIE601-TSTRN-70506",
+        "Name":"Inspection Modes Parameters",
         "Assigned To":"VIGNESHWARAR"
     },
     {
