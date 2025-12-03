@@ -4613,6 +4613,13 @@
         "Assigned To":"Veeramanikandan"
     },
     {
+        "TestRunStatus":"FAILED",
+        "ExecutionDate":"2025-12-03",
+        "Document Key":"KCE-TSTRN-4007140",
+        "Name":"D4 Release 5 Rush Tests (LD: 17.0.0.20, GCD: 17.0.1.1) - Global",
+        "Assigned To":"Veeramanikandan"
+    },
+    {
         "TestRunStatus":"INPROGRESS",
         "ExecutionDate":"2025-02-21",
         "Document Key":"KCE-TSTRN-3800379",
@@ -9856,8 +9863,8 @@
         "Assigned To":"Mohammed Ibrahim Sultan"
     },
     {
-        "TestRunStatus":"INPROGRESS",
-        "ExecutionDate":"2025-12-02",
+        "TestRunStatus":"FAILED",
+        "ExecutionDate":"2025-12-03",
         "Document Key":"KIE601-TSTRN-70611",
         "Name":"LCB software update",
         "Assigned To":"Mohammed Ibrahim Sultan"
@@ -10143,10 +10150,17 @@
         "Assigned To":"VIGNESHWARAR"
     },
     {
-        "TestRunStatus":"INPROGRESS",
+        "TestRunStatus":"PASSED",
         "ExecutionDate":"2025-12-03",
         "Document Key":"KIE601-TSTRN-70541",
         "Name":"Factory Mode Disabled & Input Supervision Enabled ( Permanent) ",
+        "Assigned To":"VIGNESHWARAR"
+    },
+    {
+        "TestRunStatus":"INPROGRESS",
+        "ExecutionDate":"2025-12-03",
+        "Document Key":"KIE601-TSTRN-70542",
+        "Name":"Factory Mode Disabled & all Supervision Disabled for 1 hour",
         "Assigned To":"VIGNESHWARAR"
     },
     {
@@ -11149,6 +11163,13 @@
         "Document Key":"KCE-TSTRN-3995135",
         "Name":"CLS C - Car Light Supervision - Doors closed",
         "Assigned To":"Shrividhya"
+    },
+    {
+        "TestRunStatus":"INPROGRESS",
+        "ExecutionDate":"2025-12-03",
+        "Document Key":"KCE-TSTRN-4007304",
+        "Name":"EAQ - Earthquake mode - Special",
+        "Assigned To":"Kowsalya"
     },
     {
         "TestRunStatus":"PASSED",
