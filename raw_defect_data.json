@@ -1837,10 +1837,10 @@
         "itemType": 154,
         "project": 417,
         "createdDate": "2025-09-04T09:46:05.000+0000",
-        "modifiedDate": "2025-11-27T07:07:50.000+0000",
-        "lastActivityDate": "2025-11-27T07:07:59.000+0000",
+        "modifiedDate": "2025-12-03T03:52:17.000+0000",
+        "lastActivityDate": "2025-12-03T03:52:17.000+0000",
         "createdBy": 6117,
-        "modifiedBy": 2001,
+        "modifiedBy": 6254,
         "fields": {
             "documentKey": "KIE601-SWBUG-2638",
             "globalId": "GID-7385154",
@@ -1866,7 +1866,7 @@
             "root_cause_category$154": 2512,
             "BUG_rootCause$154": "<p>[Karthikeyan K]-(15-09-2025) : Code Error</p>",
             "BUG_testCaseUpdated$154": 1198,
-            "BUG_RD_comments$154": "<p>[Visu]: 22-Sep-2025<br />\nThis defect is fixed in TR 1.0-t12.13.1</p>\n\n<p>&nbsp;</p>\n\n<p>[Augustine]:24-Sep-2025</p>\n\n<p>This defect is verified&nbsp;in TR 1.0-t12.13.1 and found ok<br />\n<br />\n[Vigneshwarar V]:06-oct-2025<br />\nThis defect is verified&nbsp;in TR 1.0-t12.14 and same issue occurs(<span style=\"font-family:Calibri,sans-serif\"><span style=\"font-size:14.6667px\">Since the escalator is waiting to run in any direction the ACU messages deliver wrong message to the passenger)</span></span></p>\n\n<p>&nbsp;</p>\n\n<p><span style=\"font-family:Calibri,sans-serif\"><span style=\"font-size:14.6667px\">[Visu]:&nbsp;10-Nov-2025<br />\nDefect Review meeting<br />\nParticipants: Visu, Banu</span></span></p>\n\n<p><span style=\"font-family:Calibri,sans-serif\"><span style=\"font-size:14.6667px\">Mail to be sent to Rel lab for retest - Karthi</span></span></p>\n\n<p>&nbsp;</p>\n\n<p><span style=\"font-family:Calibri,sans-serif\"><span style=\"font-size:14.6667px\">[Karthikeyan K]: 11</span></span>-Nov-2025&nbsp;<span style=\"font-family:Calibri,sans-serif\"><span style=\"font-size:14.6667px\">Tested and verified with Rel lab team and found OK. due to misunderstanding of test scenario, it was re-opened.</span></span>&nbsp;So, it can be closed.</p>\n\n<p>&nbsp;</p>\n\n<p>[Vigneshwarar V]: 11-Sep-2025</p>\n\n<p>Tested with TR1.0-t12.16, its working fine, so defect moved to closed state.</p>\n\n<p>&nbsp;</p>\n\n<p>[Visu]: 27-Nov-2025<br />\nThis defect is fixed in HD R 3.0.1.5 also.</p>\n\n<p>&nbsp;</p>",
+            "BUG_RD_comments$154": "<p>[Visu]: 22-Sep-2025<br />\nThis defect is fixed in TR 1.0-t12.13.1</p>\n\n<p>&nbsp;</p>\n\n<p>[Augustine]:24-Sep-2025</p>\n\n<p>This defect is verified&nbsp;in TR 1.0-t12.13.1 and found ok<br />\n<br />\n[Vigneshwarar V]:06-oct-2025<br />\nThis defect is verified&nbsp;in TR 1.0-t12.14 and same issue occurs(<span style=\"font-family:Calibri,sans-serif\"><span style=\"font-size:14.6667px\">Since the escalator is waiting to run in any direction the ACU messages deliver wrong message to the passenger)</span></span></p>\n\n<p>&nbsp;</p>\n\n<p><span style=\"font-family:Calibri,sans-serif\"><span style=\"font-size:14.6667px\">[Visu]:&nbsp;10-Nov-2025<br />\nDefect Review meeting<br />\nParticipants: Visu, Banu</span></span></p>\n\n<p><span style=\"font-family:Calibri,sans-serif\"><span style=\"font-size:14.6667px\">Mail to be sent to Rel lab for retest - Karthi</span></span></p>\n\n<p>&nbsp;</p>\n\n<p><span style=\"font-family:Calibri,sans-serif\"><span style=\"font-size:14.6667px\">[Karthikeyan K]: 11</span></span>-Nov-2025&nbsp;<span style=\"font-family:Calibri,sans-serif\"><span style=\"font-size:14.6667px\">Tested and verified with Rel lab team and found OK. due to misunderstanding of test scenario, it was re-opened.</span></span>&nbsp;So, it can be closed.</p>\n\n<p>&nbsp;</p>\n\n<p>[Vigneshwarar V]: 11-Sep-2025</p>\n\n<p>Tested with TR1.0-t12.16, its working fine, so defect moved to closed state.</p>\n\n<p>&nbsp;</p>\n\n<p>[Visu]: 27-Nov-2025<br />\nThis defect is fixed in HD R 3.0.1.5 also.</p>\n\n<p>[Bhavya]:</p>\n\n<p>This defect is verified in HD R3.0.1.5 and it found ok.</p>\n\n<p>&nbsp;</p>",
             "BUG_V1_project$154": 1431
         },
         "resources": {
@@ -1876,7 +1876,7 @@
                 ]
             }
         },
-        "version": 19,
+        "version": 20,
         "location": {
             "sortOrder": 1219,
             "globalSortOrder": 1302118092,
@@ -1887,7 +1887,7 @@
         },
         "lock": {
             "locked": false,
-            "lastLockedDate": "2025-12-02T11:53:40.000+0000"
+            "lastLockedDate": "2025-12-03T03:52:18.000+0000"
         },
         "type": "items"
     },
