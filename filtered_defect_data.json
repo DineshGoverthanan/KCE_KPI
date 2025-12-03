@@ -2373,10 +2373,10 @@
         "itemType": 154,
         "project": 417,
         "createdDate": "2025-09-11T11:55:32.000+0000",
-        "modifiedDate": "2025-10-24T13:36:43.000+0000",
-        "lastActivityDate": "2025-10-24T13:36:43.000+0000",
+        "modifiedDate": "2025-12-03T09:21:08.000+0000",
+        "lastActivityDate": "2025-12-03T09:21:08.000+0000",
         "createdBy": 6117,
-        "modifiedBy": 1941,
+        "modifiedBy": 2001,
         "fields": {
             "documentKey": "KIE601-SWBUG-2653",
             "globalId": "GID-7400279",
@@ -2390,7 +2390,7 @@
             "release": 2527,
             "BUG_foundOnDate$154": "2025-09-10",
             "BUG_plannedRelease$154": 2274,
-            "BUG_fixedInRelease$154": 2538,
+            "BUG_fixedInRelease$154": 2550,
             "priority": 2410,
             "BUG_severity$154": 1109,
             "BUG_category$154": 1422,
@@ -2411,7 +2411,7 @@
                 ]
             }
         },
-        "version": 6,
+        "version": 7,
         "location": {
             "sortOrder": 1234,
             "globalSortOrder": 1303686657,
@@ -2422,7 +2422,7 @@
         },
         "lock": {
             "locked": false,
-            "lastLockedDate": "2025-10-24T13:36:45.000+0000"
+            "lastLockedDate": "2025-12-03T09:21:09.000+0000"
         },
         "type": "items"
     },
@@ -2487,10 +2487,10 @@
         "itemType": 154,
         "project": 417,
         "createdDate": "2025-09-22T04:46:55.000+0000",
-        "modifiedDate": "2025-12-01T11:08:13.000+0000",
-        "lastActivityDate": "2025-12-01T11:08:13.000+0000",
+        "modifiedDate": "2025-12-03T10:02:59.000+0000",
+        "lastActivityDate": "2025-12-03T10:02:59.000+0000",
         "createdBy": 6117,
-        "modifiedBy": 6117,
+        "modifiedBy": 2001,
         "fields": {
             "documentKey": "KIE601-SWBUG-2665",
             "globalId": "GID-7420468",
@@ -2502,7 +2502,7 @@
             "assignedTo": 6329,
             "release": 2527,
             "BUG_foundOnDate$154": "2025-09-21",
-            "BUG_fixedInRelease$154": 2557,
+            "BUG_fixedInRelease$154": 2550,
             "priority": 2410,
             "BUG_severity$154": 1110,
             "BUG_category$154": 1425,
@@ -2523,7 +2523,7 @@
                 ]
             }
         },
-        "version": 8,
+        "version": 9,
         "location": {
             "sortOrder": 1246,
             "globalSortOrder": 1304941509,
@@ -2534,7 +2534,7 @@
         },
         "lock": {
             "locked": false,
-            "lastLockedDate": "2025-12-01T11:08:14.000+0000"
+            "lastLockedDate": "2025-12-03T10:03:02.000+0000"
         },
         "type": "items"
     },
@@ -20960,10 +20960,10 @@
         "itemType": 154,
         "project": 229,
         "createdDate": "2025-11-26T11:16:41.000+0000",
-        "modifiedDate": "2025-11-26T11:16:41.000+0000",
-        "lastActivityDate": "2025-11-26T11:25:39.000+0000",
+        "modifiedDate": "2025-12-03T08:04:57.000+0000",
+        "lastActivityDate": "2025-12-03T08:12:07.000+0000",
         "createdBy": 6096,
-        "modifiedBy": 6096,
+        "modifiedBy": 1129,
         "fields": {
             "documentKey": "KCE-SWBUG-7054",
             "globalId": "GID-7553735",
@@ -20976,6 +20976,7 @@
             "release": 2396,
             "BUG_foundInBuild$154": "KCE17.0.0.111(LD: 17.0.0.18, GCD: 17.0.0.33)",
             "BUG_foundOnDate$154": "2025-11-25",
+            "BUG_plannedRelease$154": 2396,
             "priority": 2410,
             "BUG_severity$154": 1110,
             "BUG_category$154": 1428,
@@ -20997,7 +20998,7 @@
                 ]
             }
         },
-        "version": 1,
+        "version": 2,
         "location": {
             "sortOrder": 6472,
             "globalSortOrder": 1665457144,
@@ -21007,9 +21008,8 @@
             }
         },
         "lock": {
-            "locked": true,
-            "lastLockedDate": "2025-12-03T08:04:10.000+0000",
-            "lockedBy": 1129
+            "locked": false,
+            "lastLockedDate": "2025-12-03T08:05:00.000+0000"
         },
         "type": "items"
     },
@@ -21020,10 +21020,10 @@
         "itemType": 154,
         "project": 229,
         "createdDate": "2025-11-26T13:27:38.000+0000",
-        "modifiedDate": "2025-11-27T08:14:15.000+0000",
-        "lastActivityDate": "2025-11-27T09:52:15.000+0000",
+        "modifiedDate": "2025-12-03T08:07:28.000+0000",
+        "lastActivityDate": "2025-12-03T08:51:05.000+0000",
         "createdBy": 6096,
-        "modifiedBy": 6096,
+        "modifiedBy": 1129,
         "fields": {
             "documentKey": "KCE-SWBUG-7056",
             "globalId": "GID-7554206",
@@ -21033,9 +21033,11 @@
             "BUG_component$154": 1291,
             "BUG_subcomponent$154": "WELM 0.0.0.88",
             "createdBy": 6096,
+            "assignedTo": 2439,
             "release": 2396,
             "BUG_foundInBuild$154": "KCE17.0.0.111(LD: 17.0.0.18, GCD: 17.0.0.33),",
             "BUG_foundOnDate$154": "2025-11-25",
+            "BUG_plannedRelease$154": 2396,
             "priority": 2410,
             "BUG_severity$154": 1110,
             "BUG_category$154": 1428,
@@ -21057,7 +21059,7 @@
                 ]
             }
         },
-        "version": 5,
+        "version": 6,
         "location": {
             "sortOrder": 6474,
             "globalSortOrder": 1665496328,
@@ -21068,7 +21070,7 @@
         },
         "lock": {
             "locked": false,
-            "lastLockedDate": "2025-11-27T08:14:16.000+0000"
+            "lastLockedDate": "2025-12-03T08:07:30.000+0000"
         },
         "type": "items"
     },
@@ -21079,10 +21081,10 @@
         "itemType": 154,
         "project": 229,
         "createdDate": "2025-11-26T15:10:34.000+0000",
-        "modifiedDate": "2025-11-26T15:10:34.000+0000",
-        "lastActivityDate": "2025-11-26T15:10:34.000+0000",
+        "modifiedDate": "2025-12-03T08:08:11.000+0000",
+        "lastActivityDate": "2025-12-03T08:14:46.000+0000",
         "createdBy": 6096,
-        "modifiedBy": 6096,
+        "modifiedBy": 1129,
         "fields": {
             "documentKey": "KCE-SWBUG-7058",
             "globalId": "GID-7554824",
@@ -21095,6 +21097,7 @@
             "release": 2396,
             "BUG_foundInBuild$154": "KCE17.0.0.111(LD: 17.0.0.18, GCD: 17.0.0.33)",
             "BUG_foundOnDate$154": "2025-11-25",
+            "BUG_plannedRelease$154": 2396,
             "priority": 2410,
             "BUG_severity$154": 1110,
             "BUG_category$154": 1428,
@@ -21116,7 +21119,7 @@
                 ]
             }
         },
-        "version": 1,
+        "version": 2,
         "location": {
             "sortOrder": 6476,
             "globalSortOrder": 1665535512,
@@ -21126,7 +21129,8 @@
             }
         },
         "lock": {
-            "locked": false
+            "locked": false,
+            "lastLockedDate": "2025-12-03T08:08:13.000+0000"
         },
         "type": "items"
     },
@@ -21137,20 +21141,22 @@
         "itemType": 154,
         "project": 229,
         "createdDate": "2025-11-27T08:30:41.000+0000",
-        "modifiedDate": "2025-11-27T08:51:45.000+0000",
-        "lastActivityDate": "2025-11-27T08:51:45.000+0000",
+        "modifiedDate": "2025-12-03T08:16:28.000+0000",
+        "lastActivityDate": "2025-12-03T08:16:28.000+0000",
         "createdBy": 6257,
-        "modifiedBy": 6257,
+        "modifiedBy": 620,
         "fields": {
             "documentKey": "KCE-SWBUG-7062",
             "globalId": "GID-7555681",
             "name": "KC3 view shows cartop inspection mode as 'UNKNOWN' with '?' symbol",
             "description": "<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\"><strong>Detailed Defect Description:</strong></span></span></p>\n\n<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\">KC3 view UI shows cartop inspection mode as 'UNKNOWN' with '?' symbol</span></span></p>\n\n<p>&nbsp;</p>\n\n<p>&nbsp;</p>\n\n<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\"><strong>Group configuration: </strong></span></span></p>\n\n<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\">Single</span></span></p>\n\n<p>&nbsp;</p>\n\n<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\"><strong>Drive type:</strong></span></span></p>\n\n<ul>\n\t<li><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\">KDM 40&nbsp;</span></span></li>\n\t<li><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\">PDX 3.2</span></span></li>\n\t<li><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\">Yaskawa</span></span></li>\n</ul>\n\n<p>&nbsp;</p>\n\n<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\"><strong>Regression or new finding:</strong></span></span></p>\n\n<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\">New finding</span></span></p>\n\n<p>&nbsp;</p>\n\n<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\"><strong>Description of the test case (Detailed Scenario)&nbsp;</strong></span></span></p>\n\n<ul>\n\t<li><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\">Connect a KC3 view portal with the respective simulator KEN number.</span></span></li>\n\t<li><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\">Enable Cartop Inspection from simulator</span></span></li>\n\t<li><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\">KC3 view portal UI shows 'UNKNOWN' with '?' symbol.</span></span></li>\n\t<li>Checked with multiple simulators</li>\n</ul>\n\n<p><img alt=\"\" height=\"412\" src=\"https://konerqm.jamacloud.com/attachment/232775/KC3%20view%20%28TOC%29.png\" width=\"779\" /></p>\n\n<p>&nbsp;</p>\n\n<p>&nbsp;</p>\n\n<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\"><strong>Expected behavior:&nbsp;&nbsp;</strong></span></span></p>\n\n<p><span style=\"font-family:Calibri,sans-serif\"><span style=\"font-size:14.6667px\">KC3 view UI should not show 'UNKNOWN' with '?' symbol for cartop inspection and should respective message.</span></span></p>\n\n<p><span style=\"font-family:Calibri,sans-serif\"><span style=\"font-size:14.6667px\">Example: For RDF, UI shows 'Maintenance ongoing' with respective symbol. (For reference screen shot added below)</span></span></p>\n\n<p>&nbsp;</p>\n\n<p><img alt=\"\" height=\"416\" src=\"https://konerqm.jamacloud.com/attachment/232773/KC3%20view%20%28RDF%29.png\" width=\"773\" /></p>\n\n<p>&nbsp;</p>\n\n<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\"><strong>Actual behavior:</strong></span></span></p>\n\n<p>KC3 view UI shows 'UNKNOWN' with '?' symbol.</p>\n\n<p>&nbsp;</p>\n\n<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\"><strong>Recovery:&nbsp;</strong></span></span></p>\n\n<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\">No recovery</span></span></p>\n\n<p>&nbsp;</p>\n\n<p>&nbsp;</p>\n\n<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\"><strong>Log attached Information:</strong></span></span></p>\n\n<p>Screen shot</p>\n\n<p>&nbsp;</p>\n",
             "status": 1081,
-            "BUG_component$154": 1567,
+            "BUG_component$154": 1585,
+            "BUG_subcomponent$154": "cloud view",
             "createdBy": 6257,
             "release": 2396,
             "BUG_foundOnDate$154": "2025-11-25",
+            "BUG_plannedRelease$154": 2396,
             "priority": 2410,
             "BUG_severity$154": 1110,
             "BUG_category$154": 1422,
@@ -21160,6 +21166,10 @@
             "BUG_probability_on_field$154": 2396,
             "root_cause_category$154": 2512,
             "BUG_testCaseUpdated$154": 1198,
+            "BUG_jiraId$154": "DF247-7434",
+            "BUG_jira_project$154": 2477,
+            "BUG_jira_URL$154": "https://kone.atlassian.net/browse/DF247-7434",
+            "BUG_integration_synced_time$154": "2025-12-03 08:16:27.283618",
             "BUG_V1_project$154": 1431
         },
         "resources": {
@@ -21172,7 +21182,7 @@
                 ]
             }
         },
-        "version": 2,
+        "version": 4,
         "location": {
             "sortOrder": 6480,
             "globalSortOrder": 1665613880,
@@ -21183,7 +21193,7 @@
         },
         "lock": {
             "locked": false,
-            "lastLockedDate": "2025-11-27T08:51:47.000+0000"
+            "lastLockedDate": "2025-12-03T08:15:21.000+0000"
         },
         "type": "items"
     },
@@ -21255,22 +21265,23 @@
         "itemType": 154,
         "project": 229,
         "createdDate": "2025-11-27T12:30:42.000+0000",
-        "modifiedDate": "2025-11-27T12:30:42.000+0000",
-        "lastActivityDate": "2025-11-27T12:30:42.000+0000",
+        "modifiedDate": "2025-12-03T09:32:24.000+0000",
+        "lastActivityDate": "2025-12-03T09:48:27.000+0000",
         "createdBy": 6096,
-        "modifiedBy": 6096,
+        "modifiedBy": 1546,
         "fields": {
             "documentKey": "KCE-SWBUG-7067",
             "globalId": "GID-7556004",
             "name": "0.0.0.88 - TSCOP - HAN Mode's initial UI, TTC Floor Cells shows 7A instead of '7'",
             "description": "<p><em><strong>Parameter:<br />\n\u200b\u200b\u200b\u200b\u200b<img alt=\"\" height=\"414\" src=\"https://konerqm.jamacloud.com/attachment/232836/image-IFXIIrC0xT.png\" width=\"252\" /></strong></em></p>\n\n<p>&nbsp;</p>\n\n<p><em><strong>Description:</strong></em></p>\n\n<ul>\n\t<li>LD : 17.0.0.18</li>\n\t<li>KNSMUL : 0.0.0.49</li>\n\t<li>Drive : KDHN 150</li>\n\t<li>Shaft : 72 Floor TTC setup&nbsp;</li>\n\t<li>WELM : 0.0.0.88</li>\n\t<li>Proto SW : 0.0.0.15</li>\n\t<li>Theme (Newer Mock Theme causing issue with the Application SW, So older Theme used for testing)</li>\n\t<li>1096 - 0</li>\n\t<li>A &amp; B side KNSMUL - Non-Conventional (KCOP)</li>\n\t<li>1 MAIN &amp; 1 AUX</li>\n\t<li>Elevator in 7th TTC Floor&nbsp;</li>\n\t<li>HAN mode activated through HAN Button</li>\n</ul>\n\n<p>&nbsp;</p>\n\n<ul>\n\t<li>In the HAN Sequence UI 7A is shown instead of 7</li>\n</ul>\n\n<p><img alt=\"\" height=\"375\" src=\"https://konerqm.jamacloud.com/attachment/232834/image-Qvy2JQwKFY.png\" width=\"282\" /></p>\n\n<p>&nbsp;</p>\n\n<ul>\n\t<li>When accessing 7A Cell, again 7A &amp; 7B is show cased</li>\n</ul>\n\n<p><img alt=\"\" height=\"426\" src=\"https://konerqm.jamacloud.com/attachment/232835/image-WzqgheKCRS.png\" width=\"293\" /></p>\n\n<p>&nbsp;</p>\n\n<p>&nbsp;</p>\n\n<p><em><strong>Note:</strong></em></p>\n\n<p>**<em>This causes confusion to the Disabled Customer as if there was only 7A (front) side is available to give call.</em></p>\n\n<p>&nbsp;</p>\n\n<p><em><strong>Note:</strong></em></p>\n\n<ul>\n\t<li>HAN Displays all TTC Floors the same way</li>\n</ul>\n\n<p>&nbsp;</p>\n\n<p>\u200b\u200b\u200b\u200b</p>\n\n<p><em><strong>Logs:</strong></em></p>\n\n<ul>\n\t<li>TSCOP Logs</li>\n\t<li>LPA</li>\n\t<li>Event Traffic</li>\n</ul>\n\n<p>&nbsp;</p>\n",
-            "status": 1081,
-            "BUG_component$154": 1291,
-            "BUG_subcomponent$154": "WELM 0.0.0.88",
+            "status": 1083,
+            "BUG_component$154": 1531,
+            "BUG_subcomponent$154": "WELM TSCOP 0.0.0.88",
             "createdBy": 6096,
             "release": 2396,
             "BUG_foundInBuild$154": "KCE17.0.0.111(LD: 17.0.0.18, GCD: 17.0.0.33)",
             "BUG_foundOnDate$154": "2025-11-26",
+            "BUG_plannedRelease$154": 2396,
             "priority": 2410,
             "BUG_severity$154": 1110,
             "BUG_category$154": 1428,
@@ -21292,7 +21303,7 @@
                 ]
             }
         },
-        "version": 1,
+        "version": 3,
         "location": {
             "sortOrder": 6485,
             "globalSortOrder": 1665711840,
@@ -21302,7 +21313,8 @@
             }
         },
         "lock": {
-            "locked": false
+            "locked": false,
+            "lastLockedDate": "2025-12-03T09:32:25.000+0000"
         },
         "type": "items"
     },
@@ -21313,10 +21325,10 @@
         "itemType": 154,
         "project": 229,
         "createdDate": "2025-11-28T06:11:54.000+0000",
-        "modifiedDate": "2025-11-28T06:11:54.000+0000",
-        "lastActivityDate": "2025-11-28T06:13:37.000+0000",
+        "modifiedDate": "2025-12-03T08:21:17.000+0000",
+        "lastActivityDate": "2025-12-03T08:21:17.000+0000",
         "createdBy": 6176,
-        "modifiedBy": 6176,
+        "modifiedBy": 1129,
         "fields": {
             "documentKey": "KCE-SWBUG-7071",
             "globalId": "GID-7558160",
@@ -21325,9 +21337,11 @@
             "status": 1081,
             "BUG_component$154": 1351,
             "createdBy": 6176,
+            "assignedTo": 870,
             "release": 2396,
             "BUG_foundInBuild$154": "KCE17.0.0.111(LD: 17.0.0.18, GCD: 17.0.0.33)",
             "BUG_foundOnDate$154": "2025-11-27",
+            "BUG_plannedRelease$154": 2396,
             "priority": 2410,
             "BUG_severity$154": 1110,
             "BUG_category$154": 1422,
@@ -21349,7 +21363,7 @@
                 ]
             }
         },
-        "version": 1,
+        "version": 2,
         "location": {
             "sortOrder": 6487,
             "globalSortOrder": 1665751024,
@@ -21360,7 +21374,7 @@
         },
         "lock": {
             "locked": false,
-            "lastLockedDate": "2025-12-01T08:16:50.000+0000"
+            "lastLockedDate": "2025-12-03T08:21:18.000+0000"
         },
         "type": "items"
     },
@@ -21371,10 +21385,10 @@
         "itemType": 154,
         "project": 229,
         "createdDate": "2025-11-28T08:38:16.000+0000",
-        "modifiedDate": "2025-11-28T08:38:16.000+0000",
-        "lastActivityDate": "2025-11-28T08:38:16.000+0000",
+        "modifiedDate": "2025-12-03T08:25:54.000+0000",
+        "lastActivityDate": "2025-12-03T08:25:54.000+0000",
         "createdBy": 6096,
-        "modifiedBy": 6096,
+        "modifiedBy": 1129,
         "fields": {
             "documentKey": "KCE-SWBUG-7073",
             "globalId": "GID-7559045",
@@ -21384,8 +21398,10 @@
             "BUG_component$154": 2160,
             "BUG_subcomponent$154": "ProManager",
             "createdBy": 6096,
+            "assignedTo": 870,
             "release": 2188,
             "BUG_foundOnDate$154": "2025-11-27",
+            "BUG_plannedRelease$154": 2189,
             "priority": 2410,
             "BUG_severity$154": 1110,
             "BUG_category$154": 1422,
@@ -21407,7 +21423,7 @@
                 ]
             }
         },
-        "version": 1,
+        "version": 2,
         "location": {
             "sortOrder": 6488,
             "globalSortOrder": 1665770616,
@@ -21417,7 +21433,8 @@
             }
         },
         "lock": {
-            "locked": false
+            "locked": false,
+            "lastLockedDate": "2025-12-03T08:25:55.000+0000"
         },
         "type": "items"
     },
@@ -21544,10 +21561,10 @@
         "itemType": 154,
         "project": 229,
         "createdDate": "2025-12-02T07:57:51.000+0000",
-        "modifiedDate": "2025-12-02T08:04:17.000+0000",
-        "lastActivityDate": "2025-12-02T08:04:17.000+0000",
+        "modifiedDate": "2025-12-03T08:44:34.000+0000",
+        "lastActivityDate": "2025-12-03T08:44:34.000+0000",
         "createdBy": 6257,
-        "modifiedBy": 6257,
+        "modifiedBy": 620,
         "fields": {
             "documentKey": "KCE-SWBUG-7088",
             "globalId": "GID-7565053",
@@ -21555,10 +21572,12 @@
             "description": "<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\"><strong>Detailed Defect Description:</strong></span></span></p>\n\n<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\">KC3 view randomly shows FID V mode as 'OTHER' for few seconds</span></span></p>\n\n<p>&nbsp;</p>\n\n<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\"><strong>Description of the test case (Detailed Scenario)&nbsp;</strong></span></span></p>\n\n<ul>\n\t<li><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\">Activate FID M</span></span>\u200b\u200b\u200b mode from OPT 4th input</li>\n\t<li>FID M mode\u200b activated and promanager shows 'FID M'</li>\n\t<li>KC3 view shows randomly 'OTHER' for few seconds and changed to 'FID M'</li>\n</ul>\n\n<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\"><strong>Expected behavior:&nbsp;&nbsp;</strong></span></span></p>\n\n<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\">KC3 view should show FID M mode as 'FID MACHINE'</span></span></p>\n\n<p>&nbsp;</p>\n\n<p><img alt=\"\" height=\"393\" src=\"https://konerqm.jamacloud.com/attachment/233194/image-TrE9lwzVnA.png\" width=\"742\" /></p>\n\n<p>&nbsp;</p>\n\n<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\"><strong>Actual behavior:</strong></span></span></p>\n\n<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\">KC3 view shows FID M mode as 'OTHER'</span></span></p>\n\n<p>&nbsp;</p>\n\n<p><img alt=\"\" height=\"274\" src=\"https://konerqm.jamacloud.com/attachment/233195/image-JzrYZw5I63.png\" width=\"713\" /></p>\n\n<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\"><strong>Recovery:&nbsp;</strong></span></span></p>\n\n<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\">After few seconds, changed to 'FID MACHINE'.</span></span></p>\n\n<p>&nbsp;</p>\n\n<p>&nbsp;</p>\n\n<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\"><strong>Log attached Information:</strong></span></span></p>\n\n<p><span style=\"font-family:Calibri, sans-serif\"><span style=\"font-size:14.6667px\">Screen shot&nbsp;</span></span></p>\n\n<p>&nbsp;</p>\n",
             "status": 1081,
             "BUG_component$154": 1585,
+            "BUG_subcomponent$154": "cloud view",
             "createdBy": 6257,
             "release": 2396,
             "BUG_foundInBuild$154": "17.0.0.18",
             "BUG_foundOnDate$154": "2025-11-27",
+            "BUG_plannedRelease$154": 2396,
             "priority": 2411,
             "BUG_severity$154": 1111,
             "BUG_category$154": 1422,
@@ -21568,6 +21587,10 @@
             "BUG_probability_on_field$154": 2396,
             "root_cause_category$154": 2512,
             "BUG_testCaseUpdated$154": 1198,
+            "BUG_jiraId$154": "DF247-7435",
+            "BUG_jira_project$154": 2477,
+            "BUG_jira_URL$154": "https://kone.atlassian.net/browse/DF247-7435",
+            "BUG_integration_synced_time$154": "2025-12-03 08:44:33.027094",
             "BUG_V1_project$154": 1431
         },
         "resources": {
@@ -21580,7 +21603,7 @@
                 ]
             }
         },
-        "version": 2,
+        "version": 4,
         "location": {
             "sortOrder": 6500,
             "globalSortOrder": 1665857568,
@@ -21591,7 +21614,7 @@
         },
         "lock": {
             "locked": false,
-            "lastLockedDate": "2025-12-02T08:04:18.000+0000"
+            "lastLockedDate": "2025-12-03T08:43:48.000+0000"
         },
         "type": "items"
     },
@@ -21602,22 +21625,24 @@
         "itemType": 154,
         "project": 229,
         "createdDate": "2025-12-02T13:31:25.000+0000",
-        "modifiedDate": "2025-12-02T13:31:25.000+0000",
-        "lastActivityDate": "2025-12-02T13:32:19.000+0000",
+        "modifiedDate": "2025-12-03T09:00:47.000+0000",
+        "lastActivityDate": "2025-12-03T09:00:47.000+0000",
         "createdBy": 6096,
-        "modifiedBy": 6096,
+        "modifiedBy": 1546,
         "fields": {
             "documentKey": "KCE-SWBUG-7104",
             "globalId": "GID-7565407",
             "name": "0.0.0.91 - TSCOP - App Crashes when HAN Mode Enabled",
-            "description": "<p><em><strong>Description:</strong></em></p>\n\n<ul>\n\t<li>LD : 17.0.0.20</li>\n\t<li>KNSMUL : 0.0.0.50</li>\n\t<li>Drive : PDX</li>\n\t<li>TSCOP 20 floor setup is used, since higher floors cause issue with indications (issue raised as defect)</li>\n\t<li>WELM : 0.0.0.91</li>\n\t<li>Proto SW : 0.0.0.16</li>\n\t<li>1096 - 1</li>\n\t<li>A &amp; B side KNSMUL - Non-Conventional (KCOP)<br />\n\t&nbsp;</li>\n\t<li>Elevator in Normal Mode (Vacant)</li>\n\t<li>HAN Button Pressed</li>\n\t<li><img alt=\"\" height=\"349\" src=\"https://konerqm.jamacloud.com/attachment/233276/image-zjIt0n5tVy.png\" width=\"288\" /></li>\n\t<li>TSCOP hangs &amp; Restarts</li>\n\t<li><img alt=\"\" height=\"453\" src=\"https://konerqm.jamacloud.com/attachment/233277/image-Uh0ymbvbqF.png\" width=\"289\" /></li>\n</ul>\n\n<p><br />\n<em><strong>Note:</strong></em></p>\n\n<p>When HAN is pressed, Doors are opened&nbsp; after that no HAN Sequence started</p>\n\n<p>This happens almost all the time with WELM App 0.0.0.91 SW &amp; Proto SW : 0.0.0.16</p>\n\n<p>Checked with App SW 0.0.0.88 &amp; Proto SW 0.0.0.16 in LD 17.0.0.18, No issues found, HAN Mode functions correctly<br />\n<br />\n<em><strong>LOGS:</strong></em><br />\nTSCOP Logs<br />\nLPA<br />\nEvent Traffic<br />\nVideo Recording for better understanding<br />\n<br />\n\u200b</p>\n",
+            "description": "<p><em><strong>Description:</strong></em></p>\n\n<ul>\n\t<li>LD : 17.0.0.20</li>\n\t<li>KNSMUL : 0.0.0.50</li>\n\t<li>Drive : PDX</li>\n\t<li>TSCOP 20 floor setup is used, since higher floors cause issue with indications (issue raised as defect)</li>\n\t<li>WELM : 0.0.0.91</li>\n\t<li>Proto SW : 0.0.0.16</li>\n\t<li>1096 - 0 (Selective)</li>\n\t<li>A &amp; B side KNSMUL - Non-Conventional (KCOP)<br />\n\t&nbsp;</li>\n\t<li>Elevator in Normal Mode (Vacant)</li>\n\t<li>HAN Button Pressed</li>\n\t<li><img alt=\"\" height=\"349\" src=\"https://konerqm.jamacloud.com/attachment/233276/image-zjIt0n5tVy.png\" width=\"288\" /></li>\n\t<li>TSCOP hangs &amp; Restarts</li>\n\t<li><img alt=\"\" height=\"453\" src=\"https://konerqm.jamacloud.com/attachment/233277/image-Uh0ymbvbqF.png\" width=\"289\" /></li>\n</ul>\n\n<p><br />\n<em><strong>Note:</strong></em></p>\n\n<p>When HAN is pressed, Doors are opened&nbsp; after that no HAN Sequence started</p>\n\n<p>This happens almost all the time with WELM App 0.0.0.91 SW &amp; Proto SW : 0.0.0.16</p>\n\n<p>Checked with App SW 0.0.0.88 &amp; Proto SW 0.0.0.16 in LD 17.0.0.18, No issues found, HAN Mode functions correctly<br />\n<br />\n<em><strong>LOGS:</strong></em><br />\nTSCOP Logs<br />\nLPA<br />\nEvent Traffic<br />\nVideo Recording for better understanding<br />\n<br />\n\u200b</p>\n",
             "status": 1081,
-            "BUG_component$154": 1291,
-            "BUG_subcomponent$154": "WELM 0.0.0.91",
+            "BUG_component$154": 1531,
+            "BUG_subcomponent$154": "WELM TSCOP 0.0.0.91",
             "createdBy": 6096,
+            "assignedTo": 2439,
             "release": 2396,
             "BUG_foundInBuild$154": "KCE 17.0.0.116(LD: 17.0.0.20, GCD: 17.0.1.1), WELM Appl: 0.0.0.91, WELM Prot: 0.0.0.16",
             "BUG_foundOnDate$154": "2025-12-01",
+            "BUG_plannedRelease$154": 2396,
             "priority": 2410,
             "BUG_severity$154": 1109,
             "BUG_category$154": 1425,
@@ -21639,7 +21664,7 @@
                 ]
             }
         },
-        "version": 1,
+        "version": 4,
         "location": {
             "sortOrder": 6516,
             "globalSortOrder": 1665874736,
@@ -21650,7 +21675,7 @@
         },
         "lock": {
             "locked": false,
-            "lastLockedDate": "2025-12-03T07:01:04.000+0000"
+            "lastLockedDate": "2025-12-03T09:00:48.000+0000"
         },
         "type": "items"
     },
@@ -21707,7 +21732,9 @@
             }
         },
         "lock": {
-            "locked": false
+            "locked": true,
+            "lastLockedDate": "2025-12-03T09:38:15.000+0000",
+            "lockedBy": 6257
         },
         "type": "items"
     },
@@ -21718,10 +21745,10 @@
         "itemType": 154,
         "project": 229,
         "createdDate": "2025-12-03T07:45:55.000+0000",
-        "modifiedDate": "2025-12-03T08:00:00.000+0000",
-        "lastActivityDate": "2025-12-03T08:00:00.000+0000",
+        "modifiedDate": "2025-12-03T09:08:42.000+0000",
+        "lastActivityDate": "2025-12-03T09:08:42.000+0000",
         "createdBy": 6257,
-        "modifiedBy": 6257,
+        "modifiedBy": 1129,
         "fields": {
             "documentKey": "KCE-SWBUG-7109",
             "globalId": "GID-7566857",
@@ -21732,6 +21759,7 @@
             "createdBy": 6257,
             "release": 2396,
             "BUG_foundOnDate$154": "2025-12-01",
+            "BUG_plannedRelease$154": 2396,
             "priority": 2410,
             "BUG_severity$154": 1110,
             "BUG_category$154": 1422,
@@ -21753,10 +21781,10 @@
                 ]
             }
         },
-        "version": 2,
+        "version": 3,
         "location": {
             "sortOrder": 6521,
-            "globalSortOrder": 1665883598,
+            "globalSortOrder": 1665880101,
             "sequence": "17.6522",
             "parent": {
                 "item": 83266
@@ -21764,7 +21792,7 @@
         },
         "lock": {
             "locked": false,
-            "lastLockedDate": "2025-12-03T08:00:01.000+0000"
+            "lastLockedDate": "2025-12-03T09:08:44.000+0000"
         },
         "type": "items"
     }

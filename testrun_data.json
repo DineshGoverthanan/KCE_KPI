@@ -9871,6 +9871,13 @@
     },
     {
         "TestRunStatus":"PASSED",
+        "ExecutionDate":"2025-12-03",
+        "Document Key":"KIE601-TSTRN-70610",
+        "Name":"Parameters Access Locking in FUI",
+        "Assigned To":"Mohammed Ibrahim Sultan"
+    },
+    {
+        "TestRunStatus":"PASSED",
         "ExecutionDate":"2025-08-08",
         "Document Key":"KIE601-TSTRN-56783",
         "Name":"Smart Inverter starts with Inverter ",
@@ -10032,10 +10039,24 @@
     },
     {
         "TestRunStatus":"PASSED",
+        "ExecutionDate":"2025-12-03",
+        "Document Key":"KIE601-TSTRN-70557",
+        "Name":"Continous Mode - KCM - Operation by Inverter - Lower Key Switch",
+        "Assigned To":"Mohammed Ibrahim Sultan"
+    },
+    {
+        "TestRunStatus":"PASSED",
         "ExecutionDate":"2025-08-05",
         "Document Key":"KIE601-TSTRN-56759",
         "Name":"KSB Mode - Change of Different operation modes",
         "Assigned To":"VIGNESHWARAR"
+    },
+    {
+        "TestRunStatus":"PASSED",
+        "ExecutionDate":"2025-12-03",
+        "Document Key":"KIE601-TSTRN-70558",
+        "Name":"Continous Mode - KCM - Operation by Star - Delta - Lower Key Switch",
+        "Assigned To":"Mohammed Ibrahim Sultan"
     },
     {
         "TestRunStatus":"PASSED",
@@ -10108,6 +10129,13 @@
         "Assigned To":"Mohammed Ibrahim Sultan"
     },
     {
+        "TestRunStatus":"INPROGRESS",
+        "ExecutionDate":"2025-12-03",
+        "Document Key":"KIE601-TSTRN-70502",
+        "Name":"Inspection Mode - Operation - Upper Pit",
+        "Assigned To":"VIGNESHWARAR"
+    },
+    {
         "TestRunStatus":"PASSED",
         "ExecutionDate":"2025-12-03",
         "Document Key":"KIE601-TSTRN-70509",
@@ -10137,7 +10165,7 @@
     },
     {
         "TestRunStatus":"FAILED",
-        "ExecutionDate":"2025-12-02",
+        "ExecutionDate":"2025-12-03",
         "Document Key":"KIE601-TSTRN-70539",
         "Name":"Learning by Lower Key Switch in Up Direction",
         "Assigned To":"VIGNESHWARAR"
@@ -10147,13 +10175,6 @@
         "ExecutionDate":"2025-12-03",
         "Document Key":"KIE601-TSTRN-70540",
         "Name":"Learning by Operation mode",
-        "Assigned To":"VIGNESHWARAR"
-    },
-    {
-        "TestRunStatus":"PASSED",
-        "ExecutionDate":"2025-12-03",
-        "Document Key":"KIE601-TSTRN-70541",
-        "Name":"Factory Mode Disabled & Input Supervision Enabled ( Permanent) ",
         "Assigned To":"VIGNESHWARAR"
     },
     {
@@ -16588,6 +16609,20 @@
         "Document Key":"KCE-TSTRN-4005708",
         "Name":"PIN code - Special calls - Empty car call",
         "Assigned To":"Vivek"
+    },
+    {
+        "TestRunStatus":"INPROGRESS",
+        "ExecutionDate":"2025-12-03",
+        "Document Key":"KCE-TSTRN-4007369",
+        "Name":"10\" DOP Floor icons",
+        "Assigned To":"Nithya Priya"
+    },
+    {
+        "TestRunStatus":"INPROGRESS",
+        "ExecutionDate":"2025-12-03",
+        "Document Key":"KCE-TSTRN-4007370",
+        "Name":"7\" DOP Floor icons",
+        "Assigned To":"Nithya Priya"
     },
     {
         "TestRunStatus":"PASSED",
