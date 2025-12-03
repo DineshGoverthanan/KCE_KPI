@@ -21372,10 +21372,10 @@
         "itemType": 154,
         "project": 229,
         "createdDate": "2025-11-26T11:16:41.000+0000",
-        "modifiedDate": "2025-12-03T10:13:57.000+0000",
-        "lastActivityDate": "2025-12-03T10:25:30.000+0000",
+        "modifiedDate": "2025-12-03T12:49:32.000+0000",
+        "lastActivityDate": "2025-12-03T12:49:32.000+0000",
         "createdBy": 6096,
-        "modifiedBy": 1953,
+        "modifiedBy": 620,
         "fields": {
             "documentKey": "KCE-SWBUG-7054",
             "globalId": "GID-7553735",
@@ -21399,6 +21399,10 @@
             "BUG_probability_on_field$154": 2398,
             "root_cause_category$154": 2512,
             "BUG_testCaseUpdated$154": 1198,
+            "BUG_jiraId$154": "KCE-31571",
+            "BUG_jira_project$154": 2465,
+            "BUG_jira_URL$154": "https://kone.atlassian.net/browse/KCE-31571",
+            "BUG_integration_synced_time$154": "2025-12-03 12:49:31.523842",
             "BUG_V1_project$154": 1431
         },
         "resources": {
@@ -21411,7 +21415,7 @@
                 ]
             }
         },
-        "version": 3,
+        "version": 5,
         "location": {
             "sortOrder": 6472,
             "globalSortOrder": 1665457144,
@@ -21422,7 +21426,7 @@
         },
         "lock": {
             "locked": false,
-            "lastLockedDate": "2025-12-03T10:14:01.000+0000"
+            "lastLockedDate": "2025-12-03T12:48:32.000+0000"
         },
         "type": "items"
     },
@@ -21433,10 +21437,10 @@
         "itemType": 154,
         "project": 229,
         "createdDate": "2025-11-26T13:27:38.000+0000",
-        "modifiedDate": "2025-12-03T08:07:28.000+0000",
-        "lastActivityDate": "2025-12-03T10:33:55.000+0000",
+        "modifiedDate": "2025-12-03T12:49:36.000+0000",
+        "lastActivityDate": "2025-12-03T12:49:36.000+0000",
         "createdBy": 6096,
-        "modifiedBy": 1129,
+        "modifiedBy": 620,
         "fields": {
             "documentKey": "KCE-SWBUG-7056",
             "globalId": "GID-7554206",
@@ -21460,6 +21464,10 @@
             "BUG_probability_on_field$154": 2398,
             "root_cause_category$154": 2512,
             "BUG_testCaseUpdated$154": 1198,
+            "BUG_jiraId$154": "KCE-31573",
+            "BUG_jira_project$154": 2465,
+            "BUG_jira_URL$154": "https://kone.atlassian.net/browse/KCE-31573",
+            "BUG_integration_synced_time$154": "2025-12-03 12:49:35.085165",
             "BUG_V1_project$154": 1431
         },
         "resources": {
@@ -21472,7 +21480,7 @@
                 ]
             }
         },
-        "version": 6,
+        "version": 8,
         "location": {
             "sortOrder": 6474,
             "globalSortOrder": 1665496328,
@@ -21483,7 +21491,7 @@
         },
         "lock": {
             "locked": false,
-            "lastLockedDate": "2025-12-03T08:07:30.000+0000"
+            "lastLockedDate": "2025-12-03T12:49:20.000+0000"
         },
         "type": "items"
     },
@@ -21494,10 +21502,10 @@
         "itemType": 154,
         "project": 229,
         "createdDate": "2025-11-26T15:10:34.000+0000",
-        "modifiedDate": "2025-12-03T10:15:12.000+0000",
-        "lastActivityDate": "2025-12-03T10:15:12.000+0000",
+        "modifiedDate": "2025-12-03T12:51:33.000+0000",
+        "lastActivityDate": "2025-12-03T12:51:33.000+0000",
         "createdBy": 6096,
-        "modifiedBy": 1953,
+        "modifiedBy": 620,
         "fields": {
             "documentKey": "KCE-SWBUG-7058",
             "globalId": "GID-7554824",
@@ -21521,6 +21529,10 @@
             "BUG_probability_on_field$154": 2399,
             "root_cause_category$154": 2512,
             "BUG_testCaseUpdated$154": 1198,
+            "BUG_jiraId$154": "KCE-31575",
+            "BUG_jira_project$154": 2465,
+            "BUG_jira_URL$154": "https://kone.atlassian.net/browse/KCE-31575",
+            "BUG_integration_synced_time$154": "2025-12-03 12:51:32.712340",
             "BUG_V1_project$154": 1431
         },
         "resources": {
@@ -21533,7 +21545,7 @@
                 ]
             }
         },
-        "version": 3,
+        "version": 5,
         "location": {
             "sortOrder": 6476,
             "globalSortOrder": 1665535512,
@@ -21544,7 +21556,7 @@
         },
         "lock": {
             "locked": false,
-            "lastLockedDate": "2025-12-03T10:15:20.000+0000"
+            "lastLockedDate": "2025-12-03T12:51:00.000+0000"
         },
         "type": "items"
     },
@@ -21788,7 +21800,7 @@
         },
         "lock": {
             "locked": false,
-            "lastLockedDate": "2025-12-03T08:21:18.000+0000"
+            "lastLockedDate": "2025-12-03T12:59:14.000+0000"
         },
         "type": "items"
     },
@@ -22100,15 +22112,15 @@
         "itemType": 154,
         "project": 229,
         "createdDate": "2025-12-03T06:02:02.000+0000",
-        "modifiedDate": "2025-12-03T11:40:03.000+0000",
-        "lastActivityDate": "2025-12-03T11:40:03.000+0000",
+        "modifiedDate": "2025-12-03T12:21:02.000+0000",
+        "lastActivityDate": "2025-12-03T12:33:00.000+0000",
         "createdBy": 6257,
         "modifiedBy": 6257,
         "fields": {
             "documentKey": "KCE-SWBUG-7106",
             "globalId": "GID-7566618",
-            "name": "KC3view and Cloudview show \u2018Something went wrong. You can try again.\u2019 error message instead of the correct remote reboot failure status in RDF mode.",
-            "description": "<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\"><strong>Detailed Defect Description:</strong></span></span></p>\n\n<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\">KC3view and Cloudview show \u2018Something went wrong. You can try again.\u2019 instead of the correct remote reboot failure status in RDF mode.</span></span></p>\n\n<p>&nbsp;</p>\n\n<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\"><strong>Parameters:&nbsp;&nbsp;</strong></span></span></p>\n\n<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\">742 - Remote reboot -&gt; 1 (Enabled)</span></span></p>\n\n<p>&nbsp;</p>\n\n<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\"><strong>Group configuration: </strong></span></span></p>\n\n<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\">Single</span></span></p>\n\n<p>&nbsp;</p>\n\n<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\"><strong>Drive type:</strong></span></span></p>\n\n<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\">KDX, KDM 40</span></span></p>\n\n<p>&nbsp;</p>\n\n<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\"><strong>Regression or new finding:</strong></span></span></p>\n\n<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\">Regression</span></span></p>\n\n<p>&nbsp;</p>\n\n<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\"><strong>Test case Name / Feature name:</strong></span></span></p>\n\n<p>Remote LD reboot functionality - elevator in RDF mode&nbsp;</p>\n\n<p>&nbsp;</p>\n\n<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\"><strong>Description of the test case (Detailed Scenario)&nbsp;</strong></span></span></p>\n\n<ul>\n\t<li><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\">Set parameter 742 to 1.</span></span></li>\n\t<li><span style=\"font-family:Calibri,sans-serif\"><span style=\"font-size:14.6667px\">When elevator is in RDF mode.</span></span></li>\n\t<li><span style=\"font-family:Calibri,sans-serif\"><span style=\"font-size:14.6667px\">Remote reboot was initiated from KC3View or 24/7 Cloudview</span></span>.</li>\n\t<li>LD reboot not performed</li>\n\t<li>KC3view and Cloudview not show correct remote reboot failure status</li>\n</ul>\n\n<p>&nbsp;</p>\n\n<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\"><strong>Expected behavior:&nbsp;&nbsp;</strong></span></span></p>\n\n<p><span style=\"font-family:Calibri, sans-serif\"><span style=\"font-size:14.6667px\">KC3View and Cloudview should show remote reboot failure status in RDF mode</span></span></p>\n\n<p>&nbsp;</p>\n\n<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\"><img alt=\"\" height=\"319\" src=\"https://konerqm.jamacloud.com/attachment/233465/image-9nb3WBscsT.png\" width=\"568\" /></span></span></p>\n\n<p>&nbsp;</p>\n\n<p>&nbsp;</p>\n\n<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\"><strong>Actual behavior:</strong></span></span></p>\n\n<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\">KC3View and Cloudview show 'Something went wrong. You can try again.' error message.</span></span></p>\n\n<p>&nbsp;</p>\n\n<p><img alt=\"\" height=\"171\" src=\"https://konerqm.jamacloud.com/attachment/233468/image-S7OoA3G7Vg.png\" width=\"600\" /></p>\n\n<p>&nbsp;</p>\n\n<p><img alt=\"\" height=\"261\" src=\"https://konerqm.jamacloud.com/attachment/233470/image-4llGyXuDjb.png\" width=\"612\" /></p>\n\n<p>&nbsp;</p>\n\n<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\"><strong>Recovery:&nbsp;</strong></span></span></p>\n\n<p><span style=\"font-family:Calibri,sans-serif\"><span style=\"font-size:14.6667px\">No recovery</span></span></p>\n\n<p>&nbsp;</p>\n",
+            "name": "In RDF mode, KC3view and Cloudview show \u2018Something went wrong. You can try again\u2019 instead of the reboot failure notification",
+            "description": "<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\"><strong>Detailed Defect Description:</strong></span></span></p>\n\n<p>In RDF mode, KC3view and Cloudview show \u2018<strong>Something went wrong. You can try again\u2019</strong> instead of the reboot failure notification.</p>\n\n<p>&nbsp;</p>\n\n<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\"><strong>Parameters:&nbsp;&nbsp;</strong></span></span></p>\n\n<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\">742 - Remote reboot -&gt; 1 (Enabled)</span></span></p>\n\n<p>&nbsp;</p>\n\n<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\"><strong>Group configuration: </strong></span></span></p>\n\n<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\">Single</span></span></p>\n\n<p>&nbsp;</p>\n\n<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\"><strong>Drive type:</strong></span></span></p>\n\n<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\">KDX, KDM 40</span></span></p>\n\n<p>&nbsp;</p>\n\n<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\"><strong>Regression or new finding:</strong></span></span></p>\n\n<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\">Regression</span></span></p>\n\n<p>&nbsp;</p>\n\n<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\"><strong>Test case Name / Feature name:</strong></span></span></p>\n\n<p><a href=\"https://konerqm.jamacloud.com/perspective.req?docId=28505537&amp;projectId=229\">KCE-TSTRN-4006978</a>&nbsp;- Remote LD reboot functionality - elevator in RDF mode&nbsp;</p>\n\n<p>&nbsp;</p>\n\n<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\"><strong>Description of the test case (Detailed Scenario)&nbsp;</strong></span></span></p>\n\n<ul>\n\t<li>\n\t<p>Set parameter <strong>742 = 1</strong>.</p>\n\t</li>\n\t<li>\n\t<p>Put the elevator into&nbsp;<strong>RDF mode</strong>.</p>\n\t</li>\n\t<li>\n\t<p>Initiate a <strong>Remote Reboot</strong> from either <strong>KC3View</strong> or <strong>24/7 Cloudview</strong>.</p>\n\t</li>\n</ul>\n\n<p>&nbsp;</p>\n\n<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\"><strong>Expected behavior:&nbsp;&nbsp;</strong></span></span></p>\n\n<p>In RDF mode, KC3View and Cloudview are expected to show the device reboot failure notification</p>\n\n<p>&nbsp;</p>\n\n<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\"><img alt=\"\" height=\"319\" src=\"https://konerqm.jamacloud.com/attachment/233465/image-9nb3WBscsT.png\" width=\"568\" /></span></span></p>\n\n<p>&nbsp;</p>\n\n<p>&nbsp;</p>\n\n<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\"><strong>Actual behavior:</strong></span></span></p>\n\n<p>But in RDF mode, KC3view and Cloudview show \u2018<strong>Something went wrong. You can try again\u2019</strong> instead of the reboot failure notification.</p>\n\n<p>&nbsp;</p>\n\n<p><img alt=\"\" height=\"171\" src=\"https://konerqm.jamacloud.com/attachment/233468/image-S7OoA3G7Vg.png\" width=\"600\" /></p>\n\n<p>&nbsp;</p>\n\n<p><img alt=\"\" height=\"261\" src=\"https://konerqm.jamacloud.com/attachment/233470/image-4llGyXuDjb.png\" width=\"612\" /></p>\n\n<p>&nbsp;</p>\n\n<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\"><strong>Recovery:&nbsp;</strong></span></span></p>\n\n<p><span style=\"font-family:Calibri,sans-serif\"><span style=\"font-size:14.6667px\">No recovery</span></span></p>\n\n<p>&nbsp;</p>\n",
             "status": 1081,
             "BUG_component$154": 1585,
             "createdBy": 6257,
@@ -22117,9 +22129,9 @@
             "BUG_foundOnDate$154": "2025-12-01",
             "priority": 2410,
             "BUG_severity$154": 1110,
-            "BUG_category$154": 1422,
+            "BUG_category$154": 1428,
             "BUG_testLevel$154": 1129,
-            "BUG_howFound$154": 2409,
+            "BUG_howFound$154": 1095,
             "BUG_whereFound$154": 1137,
             "BUG_probability_on_field$154": 2396,
             "root_cause_category$154": 2512,
@@ -22136,7 +22148,7 @@
                 ]
             }
         },
-        "version": 2,
+        "version": 3,
         "location": {
             "sortOrder": 6518,
             "globalSortOrder": 1665876882,
@@ -22147,7 +22159,7 @@
         },
         "lock": {
             "locked": false,
-            "lastLockedDate": "2025-12-03T11:40:04.000+0000"
+            "lastLockedDate": "2025-12-03T12:21:03.000+0000"
         },
         "type": "items"
     },
@@ -22206,6 +22218,63 @@
         "lock": {
             "locked": false,
             "lastLockedDate": "2025-12-03T11:11:51.000+0000"
+        },
+        "type": "items"
+    },
+    {
+        "id": 28521766,
+        "documentKey": "KCE-SWBUG-7119",
+        "globalId": "GID-7567484",
+        "itemType": 154,
+        "project": 229,
+        "createdDate": "2025-12-03T13:32:00.000+0000",
+        "modifiedDate": "2025-12-03T13:32:00.000+0000",
+        "lastActivityDate": "2025-12-03T13:32:02.000+0000",
+        "createdBy": 6374,
+        "modifiedBy": 6374,
+        "fields": {
+            "documentKey": "KCE-SWBUG-7119",
+            "globalId": "GID-7567484",
+            "name": "FPD.T-Lift does not drive to the nearby non-FPD floor",
+            "description": "<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\"><strong>Detailed Defect Description:</strong></span></span></p>\n\n<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\">FPD.T-Lift does not drive to the nearby non-FPD floor</span></span></p>\n\n<p>&nbsp;</p>\n\n<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\"><strong>Parameters:&nbsp;&nbsp;</strong></span></span></p>\n\n<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\">1320=2</span></span></p>\n\n<p>&nbsp;</p>\n\n<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\"><strong>Group configuration: </strong></span></span></p>\n\n<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\">single elevator&nbsp;</span></span></p>\n\n<p>&nbsp;</p>\n\n<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\"><strong>Drive type:</strong></span></span></p>\n\n<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\">KDH/KDM</span></span></p>\n\n<p>&nbsp;</p>\n\n<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\"><strong>Regression or new finding:</strong></span></span></p>\n\n<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\">New Finding</span></span></p>\n\n<p>&nbsp;</p>\n\n<p>&nbsp;</p>\n\n<p>&nbsp;</p>\n\n<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\"><strong>Test case Name / Feature name:</strong></span></span></p>\n\n<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\">FPD</span></span></p>\n\n<p>&nbsp;</p>\n\n<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\"><strong>Test step number:</strong></span></span></p>\n\n<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\">ad-hoc&nbsp;</span></span></p>\n\n<p>&nbsp;</p>\n\n<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\"><strong>Description of the test case (Detailed Scenario)&nbsp;</strong></span></span></p>\n\n<p>1. Lift is in 1st Floor and 2nd, 3rd, 4th, 5th,6th,7th Floor are FPD Locked Floor.</p>\n\n<p>2. Register a call in 8th Floor.</p>\n\n<p>3. Lift moves towards the 8th Floor.</p>\n\n<p>4.While lift traveling between 6th and 7th floors, stop the lift by opening safety(Xm1,Xosc) and close</p>\n\n<p>&nbsp;</p>\n\n<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\"><strong>Expected behavior:&nbsp;&nbsp;</strong></span></span></p>\n\n<p>After correction drive, Lift shall immediately move to nearest unlocked floor.</p>\n\n<p>&nbsp;</p>\n\n<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\"><strong>Actual behavior:</strong></span></span></p>\n\n<p>After correction drive, Lift does not move to the nearest non-FPD floor. It always goes towards down direction.</p>\n\n<p>&nbsp;</p>\n\n<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\"><strong>Log attached Information:</strong></span></span></p>\n\n<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\">(e.g. Log attached information like KCEGC logs, N test, S test, CPU Logs, E-link play back file &amp; - specific time to seen in log)</span></span></p>\n\n<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\">Detailed instructions for log collection: </span></span><a href=\"https://kone.atlassian.net/wiki/spaces/RQR/pages/54904026/Log+collection+instructions+for+KCECPUc\" target=\"_blank\">https://kone.atlassian.net/wiki/spaces/RQR/pages/54904026/Log+collection+instructions+for+KCECPUc</a></p>\n\n<p>&nbsp;</p>\n\n<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\">Note: Once defect is logged, attachments can be done by editing the defect (use compressed zip folder format)</span></span></p>\n\n<p>&nbsp;</p>\n\n<p>&nbsp;</p>\n\n<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\"><strong>Requirement related to the defect:</strong></span></span></p>\n\n<p><a href=\"https://konerqm.jamacloud.com/perspective.req?docId=125548&amp;projectId=229\">KCE-SSR-2322</a></p>\n",
+            "status": 1081,
+            "BUG_component$154": 1291,
+            "createdBy": 6374,
+            "release": 2396,
+            "BUG_foundInBuild$154": "KCE17.0.0.111(LD: 17.0.0.18, GCD: 17.0.0.33)",
+            "BUG_foundOnDate$154": "2025-12-02",
+            "priority": 2410,
+            "BUG_severity$154": 1110,
+            "BUG_category$154": 1422,
+            "BUG_testLevel$154": 1129,
+            "BUG_howFound$154": 1092,
+            "BUG_whereFound$154": 1137,
+            "BUG_probability_on_field$154": 2396,
+            "root_cause_category$154": 2512,
+            "BUG_testCaseUpdated$154": 1198,
+            "BUG_V1_project$154": 1431
+        },
+        "resources": {
+            "self": {
+                "allowed": [
+                    "GET",
+                    "PUT",
+                    "PATCH",
+                    "DELETE"
+                ]
+            }
+        },
+        "version": 1,
+        "location": {
+            "sortOrder": 6531,
+            "globalSortOrder": 1665888109,
+            "sequence": "17.6532",
+            "parent": {
+                "item": 83266
+            }
+        },
+        "lock": {
+            "locked": false
         },
         "type": "items"
     }

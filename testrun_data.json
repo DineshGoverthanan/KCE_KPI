@@ -9723,6 +9723,13 @@
         "Assigned To":"VIGNESHWARAR"
     },
     {
+        "TestRunStatus":"FAILED",
+        "ExecutionDate":"2025-12-03",
+        "Document Key":"KIE601-TSTRN-70633",
+        "Name":"Smart Inverter starts with Inverter ",
+        "Assigned To":"Mohammed Ibrahim Sultan"
+    },
+    {
         "TestRunStatus":"PASSED",
         "ExecutionDate":"2025-08-04",
         "Document Key":"KIE601-TSTRN-56805",
@@ -9742,6 +9749,13 @@
         "Document Key":"KIE601-TSTRN-56807",
         "Name":"Inspection Mode - Faults",
         "Assigned To":"VIGNESHWARAR"
+    },
+    {
+        "TestRunStatus":"FAILED",
+        "ExecutionDate":"2025-12-03",
+        "Document Key":"KIE601-TSTRN-70632",
+        "Name":"Smart Inverter starts with Star delta",
+        "Assigned To":"Mohammed Ibrahim Sultan"
     },
     {
         "TestRunStatus":"PASSED",
@@ -10433,6 +10447,13 @@
         "TestRunStatus":"PASSED",
         "ExecutionDate":"2025-09-18",
         "Document Key":"KCE-TSTRN-3987589",
+        "Name":"Group features - PRL and HEL - Special",
+        "Assigned To":"Jagadeesh"
+    },
+    {
+        "TestRunStatus":"INPROGRESS",
+        "ExecutionDate":"2025-12-03",
+        "Document Key":"KCE-TSTRN-4007294",
         "Name":"Group features - PRL and HEL - Special",
         "Assigned To":"Jagadeesh"
     },
