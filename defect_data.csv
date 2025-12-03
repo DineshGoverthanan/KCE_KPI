@@ -352,3 +352,4 @@ KCE-SWBUG-7086,0.0.0.91 - TSCOP - TSCOP went inoperable after upgrading LD to 17
 KCE-SWBUG-7087, IoT – Software Update Fails (17.0.0.16 → 17.0.0.20),Priyavalli,,2025-12-01
 KCE-SWBUG-7088,KC3 view randomly shows FID M mode as 'OTHER' for few seconds,Kowsalya,17.0.0.18,2025-11-27
 KCE-SWBUG-7104,0.0.0.91 - TSCOP - App Crashes when HAN Mode Enabled,Suryanarayanan,"KCE 17.0.0.116(LD: 17.0.0.20, GCD: 17.0.1.1), WELM Appl: 0.0.0.91, WELM Prot: 0.0.0.16",2025-12-01
+KCE-SWBUG-7106,Remote LD reboot not initiated from the KC3View and 24/7 Cloudview portals when Lift in RDF mode,Kowsalya,17.0.018,2025-12-01

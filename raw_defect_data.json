@@ -22058,5 +22058,62 @@
             "locked": false
         },
         "type": "items"
+    },
+    {
+        "id": 28519945,
+        "documentKey": "KCE-SWBUG-7106",
+        "globalId": "GID-7566618",
+        "itemType": 154,
+        "project": 229,
+        "createdDate": "2025-12-03T06:02:02.000+0000",
+        "modifiedDate": "2025-12-03T06:02:02.000+0000",
+        "lastActivityDate": "2025-12-03T06:02:04.000+0000",
+        "createdBy": 6257,
+        "modifiedBy": 6257,
+        "fields": {
+            "documentKey": "KCE-SWBUG-7106",
+            "globalId": "GID-7566618",
+            "name": "Remote LD reboot not initiated from the KC3View and 24/7 Cloudview portals when Lift in RDF mode",
+            "description": "<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\"><strong>Detailed Defect Description:</strong></span></span></p>\n\n<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\">Remote LD reboot not initiated from the KC3View and 24/7 Cloudview portals when Lift in RDF mode</span></span></p>\n\n<p>&nbsp;</p>\n\n<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\"><strong>Parameters:&nbsp;&nbsp;</strong></span></span></p>\n\n<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\">742 - Remote reboot -&gt; 1 (Enabled)</span></span></p>\n\n<p>&nbsp;</p>\n\n<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\"><strong>Group configuration: </strong></span></span></p>\n\n<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\">Single</span></span></p>\n\n<p>&nbsp;</p>\n\n<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\"><strong>Drive type:</strong></span></span></p>\n\n<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\">KDX, KDM 40</span></span></p>\n\n<p>&nbsp;</p>\n\n<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\"><strong>Regression or new finding:</strong></span></span></p>\n\n<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\">Regression</span></span></p>\n\n<p>&nbsp;</p>\n\n<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\"><strong>Test case Name / Feature name:</strong></span></span></p>\n\n<p>Remote LD reboot functionality - elevator in RDF mode&nbsp;</p>\n\n<p>&nbsp;</p>\n\n<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\"><strong>Description of the test case (Detailed Scenario)&nbsp;</strong></span></span></p>\n\n<ul>\n\t<li><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\">Set parameter 742 to 1.</span></span></li>\n\t<li><span style=\"font-family:Calibri,sans-serif\"><span style=\"font-size:14.6667px\">When elevator in RDF mode, give remote reboot from Device management or KC3View or 24/7 Cloudview portals</span></span>.</li>\n\t<li>Remote reboot was initiated and throws failed message in Device Management portal.</li>\n\t<li>But reboot was not initiated in&nbsp;<span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\">KC3View and 24/7 Cloudview portals</span></span></li>\n</ul>\n\n<p>&nbsp;</p>\n\n<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\"><strong>Expected behavior:&nbsp;&nbsp;</strong></span></span></p>\n\n<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\">Remote LD reboot should be initiated from Device Management, KC3View and 24/7 Cloudview portals, when reboot was given.</span></span></p>\n\n<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\">Below image, remote reboot was initiated from Device management portal.</span></span></p>\n\n<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\"><img alt=\"\" height=\"214\" src=\"https://konerqm.jamacloud.com/attachment/233361/image-yVOyJepIPQ.png\" width=\"269\" /></span></span></p>\n\n<p>&nbsp;</p>\n\n<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\"><strong>Actual behavior:</strong></span></span></p>\n\n<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\">Remote LD reboot was initiated from Device Management portal only, not initiated&nbsp;from both KC3View portal and 24/7 Cloudview portal, when reboot was given. Both KC3View and 24/7 Cloudview shows 'Something went wrong. You can try again.' message.</span></span></p>\n\n<p><img alt=\"\" height=\"538\" src=\"https://konerqm.jamacloud.com/attachment/233362/2025_12_03_05_35_002.png\" width=\"955\" /></p>\n\n<p>&nbsp;</p>\n\n<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\"><strong>Recovery:&nbsp;</strong></span></span></p>\n\n<p><span style=\"font-family:Calibri,sans-serif\"><span style=\"font-size:14.6667px\">No recovery</span></span></p>\n\n<p>&nbsp;</p>\n",
+            "status": 1081,
+            "BUG_component$154": 1585,
+            "createdBy": 6257,
+            "release": 2396,
+            "BUG_foundInBuild$154": "17.0.018",
+            "BUG_foundOnDate$154": "2025-12-01",
+            "priority": 2410,
+            "BUG_severity$154": 1110,
+            "BUG_category$154": 1422,
+            "BUG_testLevel$154": 1129,
+            "BUG_howFound$154": 2409,
+            "BUG_whereFound$154": 1137,
+            "BUG_probability_on_field$154": 2396,
+            "root_cause_category$154": 2512,
+            "BUG_testCaseUpdated$154": 1198,
+            "BUG_V1_project$154": 1431
+        },
+        "resources": {
+            "self": {
+                "allowed": [
+                    "GET",
+                    "PUT",
+                    "PATCH",
+                    "DELETE"
+                ]
+            }
+        },
+        "version": 1,
+        "location": {
+            "sortOrder": 6518,
+            "globalSortOrder": 1665881988,
+            "sequence": "17.6519",
+            "parent": {
+                "item": 83266
+            }
+        },
+        "lock": {
+            "locked": false
+        },
+        "type": "items"
     }
 ]
