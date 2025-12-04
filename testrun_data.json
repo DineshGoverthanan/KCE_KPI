@@ -10332,6 +10332,27 @@
         "Assigned To":"Mohammed Ibrahim Sultan"
     },
     {
+        "TestRunStatus":"PASSED",
+        "ExecutionDate":"2025-12-04",
+        "Document Key":"KIE601-TSTRN-70498",
+        "Name":"Flywheel Cover Monitoring KST mode",
+        "Assigned To":"Mohammed Ibrahim Sultan"
+    },
+    {
+        "TestRunStatus":"PASSED",
+        "ExecutionDate":"2025-12-04",
+        "Document Key":"KIE601-TSTRN-70499",
+        "Name":"Flywheel Cover Monitoring K2D mode",
+        "Assigned To":"Mohammed Ibrahim Sultan"
+    },
+    {
+        "TestRunStatus":"PASSED",
+        "ExecutionDate":"2025-12-04",
+        "Document Key":"KIE601-TSTRN-70500",
+        "Name":"Flywheel Cover Monitoring Inspection mode",
+        "Assigned To":"Mohammed Ibrahim Sultan"
+    },
+    {
         "TestRunStatus":"FAILED",
         "ExecutionDate":"2025-12-03",
         "Document Key":"KIE601-TSTRN-70501",
@@ -11331,6 +11352,13 @@
         "Document Key":"KCE-TSTRN-3995135",
         "Name":"CLS C - Car Light Supervision - Doors closed",
         "Assigned To":"Shrividhya"
+    },
+    {
+        "TestRunStatus":"INPROGRESS",
+        "ExecutionDate":"2025-12-04",
+        "Document Key":"KCE-TSTRN-4007300",
+        "Name":"Group features - PRL and HEL parameters",
+        "Assigned To":"Kowsalya"
     },
     {
         "TestRunStatus":"INPROGRESS",
@@ -16765,15 +16793,15 @@
         "Assigned To":"Vivek"
     },
     {
-        "TestRunStatus":"INPROGRESS",
+        "TestRunStatus":"PASSED",
         "ExecutionDate":"2025-12-04",
         "Document Key":"KCE-TSTRN-4007369",
         "Name":"10\" DOP Floor icons",
         "Assigned To":"Nithya Priya"
     },
     {
-        "TestRunStatus":"INPROGRESS",
-        "ExecutionDate":"2025-12-03",
+        "TestRunStatus":"PASSED",
+        "ExecutionDate":"2025-12-04",
         "Document Key":"KCE-TSTRN-4007370",
         "Name":"7\" DOP Floor icons",
         "Assigned To":"Nithya Priya"
@@ -16784,6 +16812,20 @@
         "Document Key":"KCE-TSTRN-4005697",
         "Name":"Customized image",
         "Assigned To":"Vivek"
+    },
+    {
+        "TestRunStatus":"INPROGRESS",
+        "ExecutionDate":"2025-12-04",
+        "Document Key":"KCE-TSTRN-4007365",
+        "Name":"10\" DOP Public menu and public buttons",
+        "Assigned To":"Nithya Priya"
+    },
+    {
+        "TestRunStatus":"INPROGRESS",
+        "ExecutionDate":"2025-12-04",
+        "Document Key":"KCE-TSTRN-4007366",
+        "Name":"7\" DOP Public menu and public buttons",
+        "Assigned To":"Nithya Priya"
     },
     {
         "TestRunStatus":"PASSED",
