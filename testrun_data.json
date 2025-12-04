@@ -9737,11 +9737,25 @@
         "Assigned To":"VIGNESHWARAR"
     },
     {
+        "TestRunStatus":"FAILED",
+        "ExecutionDate":"2025-12-03",
+        "Document Key":"KIE601-TSTRN-70634",
+        "Name":"Smart Inverter starts with Star delta",
+        "Assigned To":"Mohammed Ibrahim Sultan"
+    },
+    {
         "TestRunStatus":"PASSED",
         "ExecutionDate":"2025-08-04",
         "Document Key":"KIE601-TSTRN-56806",
         "Name":"Inspection Mode - Operation - Lower Pit",
         "Assigned To":"VIGNESHWARAR"
+    },
+    {
+        "TestRunStatus":"FAILED",
+        "ExecutionDate":"2025-12-03",
+        "Document Key":"KIE601-TSTRN-70631",
+        "Name":"Smart Inverter starts with Inverter ",
+        "Assigned To":"Mohammed Ibrahim Sultan"
     },
     {
         "TestRunStatus":"PASSED",
@@ -10081,10 +10095,24 @@
     },
     {
         "TestRunStatus":"PASSED",
+        "ExecutionDate":"2025-12-04",
+        "Document Key":"KIE601-TSTRN-70559",
+        "Name":"Automatic Mode - KAM - Inverter - UP direction",
+        "Assigned To":"Mohammed Ibrahim Sultan"
+    },
+    {
+        "TestRunStatus":"PASSED",
         "ExecutionDate":"2025-08-05",
         "Document Key":"KIE601-TSTRN-56761",
         "Name":"Stop After Standby - KST - Inverter - Up direction",
         "Assigned To":"VIGNESHWARAR"
+    },
+    {
+        "TestRunStatus":"PASSED",
+        "ExecutionDate":"2025-12-04",
+        "Document Key":"KIE601-TSTRN-70560",
+        "Name":" Automatic Mode - KAM - Star Delta - UP direction",
+        "Assigned To":"Mohammed Ibrahim Sultan"
     },
     {
         "TestRunStatus":"PASSED",
@@ -10095,10 +10123,24 @@
     },
     {
         "TestRunStatus":"PASSED",
+        "ExecutionDate":"2025-12-03",
+        "Document Key":"KIE601-TSTRN-70561",
+        "Name":"Automatic Mode - KAM - Invereter - Down direction",
+        "Assigned To":"Mohammed Ibrahim Sultan"
+    },
+    {
+        "TestRunStatus":"PASSED",
         "ExecutionDate":"2025-08-06",
         "Document Key":"KIE601-TSTRN-56763",
         "Name":"Stop After Standby - KST - Inverter - Opposite Running",
         "Assigned To":"VIGNESHWARAR"
+    },
+    {
+        "TestRunStatus":"PASSED",
+        "ExecutionDate":"2025-12-03",
+        "Document Key":"KIE601-TSTRN-70562",
+        "Name":"Automatic Mode - KAM - Star Delta - Down direction",
+        "Assigned To":"Mohammed Ibrahim Sultan"
     },
     {
         "TestRunStatus":"PASSED",
@@ -10109,10 +10151,24 @@
     },
     {
         "TestRunStatus":"PASSED",
+        "ExecutionDate":"2025-12-03",
+        "Document Key":"KIE601-TSTRN-70563",
+        "Name":"Automatic Mode - KAM - Inverter - Opposite Running",
+        "Assigned To":"Mohammed Ibrahim Sultan"
+    },
+    {
+        "TestRunStatus":"PASSED",
         "ExecutionDate":"2025-08-07",
         "Document Key":"KIE601-TSTRN-56765",
         "Name":"Stop After Stanby - KST - Faults",
         "Assigned To":"VIGNESHWARAR"
+    },
+    {
+        "TestRunStatus":"PASSED",
+        "ExecutionDate":"2025-12-03",
+        "Document Key":"KIE601-TSTRN-70564",
+        "Name":"Automatic Mode - KAM - Star Delta - Opposite Running",
+        "Assigned To":"Mohammed Ibrahim Sultan"
     },
     {
         "TestRunStatus":"PASSED",
@@ -10239,6 +10295,13 @@
         "Document Key":"KIE601-TSTRN-70552",
         "Name":"Enhanced safety Operational mode",
         "Assigned To":"VIGNESHWARAR"
+    },
+    {
+        "TestRunStatus":"FAILED",
+        "ExecutionDate":"2025-12-03",
+        "Document Key":"KIE601-TSTRN-70501",
+        "Name":"Digital Lighting",
+        "Assigned To":"Mohammed Ibrahim Sultan"
     },
     {
         "TestRunStatus":"PASSED",
