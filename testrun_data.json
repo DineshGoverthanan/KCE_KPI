@@ -9892,6 +9892,13 @@
     },
     {
         "TestRunStatus":"FAILED",
+        "ExecutionDate":"2025-12-04",
+        "Document Key":"KIE601-TSTRN-70612",
+        "Name":"EGD display",
+        "Assigned To":"Mohammed Ibrahim Sultan"
+    },
+    {
+        "TestRunStatus":"FAILED",
         "ExecutionDate":"2025-12-03",
         "Document Key":"KIE601-TSTRN-70611",
         "Name":"LCB software update",
@@ -9909,6 +9916,13 @@
         "ExecutionDate":"2025-08-08",
         "Document Key":"KIE601-TSTRN-56783",
         "Name":"Smart Inverter starts with Inverter ",
+        "Assigned To":"Mohammed Ibrahim Sultan"
+    },
+    {
+        "TestRunStatus":"INPROGRESS",
+        "ExecutionDate":"2025-12-04",
+        "Document Key":"KIE601-TSTRN-70609",
+        "Name":"LCB Node Pairing\u00a0",
         "Assigned To":"Mohammed Ibrahim Sultan"
     },
     {
@@ -11299,7 +11313,7 @@
     },
     {
         "TestRunStatus":"INPROGRESS",
-        "ExecutionDate":"2025-12-03",
+        "ExecutionDate":"2025-12-04",
         "Document Key":"KCE-TSTRN-4007304",
         "Name":"EAQ - Earthquake mode - Special",
         "Assigned To":"Kowsalya"
@@ -16628,6 +16642,13 @@
         "TestRunStatus":"INPROGRESS",
         "ExecutionDate":"2025-12-03",
         "Document Key":"KCE-TSTRN-4004648",
+        "Name":"FPD .T - Fire Protection Door",
+        "Assigned To":"Dinesh"
+    },
+    {
+        "TestRunStatus":"INPROGRESS",
+        "ExecutionDate":"2025-12-04",
+        "Document Key":"KCE-TSTRN-4006817",
         "Name":"FPD .T - Fire Protection Door",
         "Assigned To":"Dinesh"
     },
