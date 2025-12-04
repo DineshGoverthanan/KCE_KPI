@@ -21375,7 +21375,7 @@
         "project": 229,
         "createdDate": "2025-11-26T11:16:41.000+0000",
         "modifiedDate": "2025-12-03T12:49:32.000+0000",
-        "lastActivityDate": "2025-12-04T10:42:20.000+0000",
+        "lastActivityDate": "2025-12-04T13:53:08.000+0000",
         "createdBy": 6096,
         "modifiedBy": 620,
         "fields": {
@@ -22054,16 +22054,16 @@
         "itemType": 154,
         "project": 229,
         "createdDate": "2025-12-02T13:31:25.000+0000",
-        "modifiedDate": "2025-12-04T06:33:13.000+0000",
-        "lastActivityDate": "2025-12-04T06:33:13.000+0000",
+        "modifiedDate": "2025-12-04T13:01:29.000+0000",
+        "lastActivityDate": "2025-12-04T13:01:29.000+0000",
         "createdBy": 6096,
-        "modifiedBy": 6056,
+        "modifiedBy": 6096,
         "fields": {
             "documentKey": "KCE-SWBUG-7104",
             "globalId": "GID-7565407",
             "name": "0.0.0.91 - TSCOP - App Crashes when HAN Mode Enabled",
             "description": "<p><em><strong>Description:</strong></em></p>\n\n<ul>\n\t<li>LD : 17.0.0.20</li>\n\t<li>KNSMUL : 0.0.0.50</li>\n\t<li>Drive : PDX</li>\n\t<li>TSCOP 20 floor setup is used, since higher floors cause issue with indications (issue raised as defect)</li>\n\t<li>WELM : 0.0.0.91</li>\n\t<li>Proto SW : 0.0.0.16</li>\n\t<li>1096 - 0 (Selective)</li>\n\t<li>A &amp; B side KNSMUL - Non-Conventional (KCOP)<br />\n\t&nbsp;</li>\n\t<li>Elevator in Normal Mode (Vacant)</li>\n\t<li>HAN Button Pressed</li>\n\t<li><img alt=\"\" height=\"349\" src=\"https://konerqm.jamacloud.com/attachment/233276/image-zjIt0n5tVy.png\" width=\"288\" /></li>\n\t<li>TSCOP hangs &amp; Restarts</li>\n\t<li><img alt=\"\" height=\"453\" src=\"https://konerqm.jamacloud.com/attachment/233277/image-Uh0ymbvbqF.png\" width=\"289\" /></li>\n</ul>\n\n<p><br />\n<em><strong>Note:</strong></em></p>\n\n<p>When HAN is pressed, Doors are opened&nbsp; after that no HAN Sequence started</p>\n\n<p>This happens almost all the time with WELM App 0.0.0.91 SW &amp; Proto SW : 0.0.0.16</p>\n\n<p>Checked with App SW 0.0.0.88 &amp; Proto SW 0.0.0.16 in LD 17.0.0.18, No issues found, HAN Mode functions correctly<br />\n<br />\n<em><strong>LOGS:</strong></em><br />\nTSCOP Logs<br />\nLPA<br />\nEvent Traffic<br />\nVideo Recording for better understanding<br />\n<br />\n\u200b</p>\n",
-            "status": 1085,
+            "status": 1086,
             "BUG_component$154": 1531,
             "BUG_subcomponent$154": "WELM TSCOP 0.0.0.91",
             "createdBy": 6096,
@@ -22094,7 +22094,7 @@
                 ]
             }
         },
-        "version": 5,
+        "version": 6,
         "location": {
             "sortOrder": 6516,
             "globalSortOrder": 1665441726,
@@ -22105,7 +22105,7 @@
         },
         "lock": {
             "locked": false,
-            "lastLockedDate": "2025-12-04T06:33:14.000+0000"
+            "lastLockedDate": "2025-12-04T13:01:30.000+0000"
         },
         "type": "items"
     },
@@ -22179,15 +22179,15 @@
         "itemType": 154,
         "project": 229,
         "createdDate": "2025-12-03T07:45:55.000+0000",
-        "modifiedDate": "2025-12-04T10:25:34.000+0000",
-        "lastActivityDate": "2025-12-04T10:25:34.000+0000",
+        "modifiedDate": "2025-12-04T12:06:34.000+0000",
+        "lastActivityDate": "2025-12-04T12:06:34.000+0000",
         "createdBy": 6257,
         "modifiedBy": 620,
         "fields": {
             "documentKey": "KCE-SWBUG-7109",
             "globalId": "GID-7566857",
-            "name": "Elevator in RDF mode and LD reboot was performed from IoT portal, CPU sent 'Not allowed by mode' response to the cloud which is in event timeline",
-            "description": "<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\"><strong>Detailed Defect Description:</strong></span></span></p>\n\n<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\">When elevator in RDF mode and LD reboot was performed from IoT portal, CPU sent 'Not allowed by mode' response to the cloud which is in remote operation events</span></span></p>\n\n<p>&nbsp;</p>\n\n<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\"><strong>Parameters:&nbsp;&nbsp;</strong></span></span></p>\n\n<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\">742 - Remote reboot - 1</span></span></p>\n\n<p>&nbsp;</p>\n\n<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\"><strong>Group configuration: </strong></span></span></p>\n\n<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\">Single</span></span></p>\n\n<p>&nbsp;</p>\n\n<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\"><strong>Drive type:</strong></span></span></p>\n\n<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\">KDX, KDM 40</span></span></p>\n\n<p>&nbsp;</p>\n\n<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\"><strong>Regression or new finding:</strong></span></span></p>\n\n<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\">Regression</span></span></p>\n\n<p>&nbsp;</p>\n\n<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\"><strong>Test case Name / Feature name:</strong></span></span></p>\n\n<p>&nbsp;</p>\n\n<p>Remote LD reboot functionality - elevator in RDF mode&nbsp;</p>\n\n<p>&nbsp;</p>\n\n<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\"><strong>Description of the test case (Detailed Scenario)&nbsp;</strong></span></span></p>\n\n<ul>\n\t<li><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\">Enable RDF mode in elevator and remote reboot was given from cloud view and KC3view.</span></span></li>\n\t<li>Remote reboot events are visible in the event timeline in both Cloudview and KC3 view.</li>\n\t<li><span style=\"font-family:Calibri,sans-serif\"><span style=\"font-size:14.6667px\">CPU sent '</span></span><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\">Not allowed by mode' instead of '</span></span>Local maintenance active' response to the cloud.</li>\n</ul>\n\n<p>&nbsp;</p>\n\n<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\"><strong>Expected behavior:&nbsp;&nbsp;</strong></span></span></p>\n\n<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\">CPU should send '</span></span>Local maintenance active' response to the cloud.</p>\n\n<p><img alt=\"\" height=\"355\" src=\"https://konerqm.jamacloud.com/attachment/233387/image-ajxpuDs4Da.png\" width=\"966\" /></p>\n\n<p>&nbsp;</p>\n\n<p><img alt=\"\" height=\"318\" src=\"https://konerqm.jamacloud.com/attachment/233393/image-714VLToVAv.png\" width=\"980\" /></p>\n\n<p>&nbsp;</p>\n\n<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\"><strong>Actual behavior:</strong></span></span></p>\n\n<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\">CPU sent 'Not allowed by mode' response to the cloud.</span></span></p>\n\n<p><img alt=\"\" height=\"334\" src=\"https://konerqm.jamacloud.com/attachment/233388/image-qW53yLf6Uv.png\" width=\"931\" /></p>\n\n<p>&nbsp;</p>\n\n<p><img alt=\"\" height=\"319\" src=\"https://konerqm.jamacloud.com/attachment/233391/image-LE3E2ZtRxd.png\" width=\"789\" /></p>\n\n<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\"><strong>Recovery:&nbsp;</strong></span></span></p>\n\n<p><span style=\"font-family:Calibri,sans-serif\"><span style=\"font-size:14.6667px\">Cannot be recover</span></span></p>\n\n<p>&nbsp;</p>\n\n<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\"><strong>Requirement related to the defect:</strong></span></span></p>\n\n<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\">https://konerqm.jamacloud.com/perspective.req#/items/18985498?projectId=229</span></span></p>\n\n<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\">https://konerqm.jamacloud.com/perspective.req#/items/18989526?projectId=229</span></span></p>\n",
+            "name": "Remote reboot in RDF mode not allowed; CPU sends wrong response: Not allowed by mode instead of Local maintenance active.",
+            "description": "<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\"><strong>Detailed Defect Description:</strong></span></span></p>\n\n<p>Remote reboot in RDF mode not allowed; CPU sends wrong response: \"<strong>Not allowed by mode\"</strong> instead of \"<strong>Local maintenance active</strong>\".</p>\n\n<p>&nbsp;</p>\n\n<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\"><strong>Parameters:&nbsp;&nbsp;</strong></span></span></p>\n\n<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\">742 - Remote reboot - 1</span></span></p>\n\n<p>&nbsp;</p>\n\n<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\"><strong>Group configuration: </strong></span></span></p>\n\n<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\">Single</span></span></p>\n\n<p>&nbsp;</p>\n\n<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\"><strong>Drive type:</strong></span></span></p>\n\n<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\">KDX, KDM 40</span></span></p>\n\n<p>&nbsp;</p>\n\n<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\"><strong>Regression or new finding:</strong></span></span></p>\n\n<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\">Regression</span></span></p>\n\n<p>&nbsp;</p>\n\n<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\"><strong>Test case Name / Feature name:</strong></span></span></p>\n\n<p>&nbsp;</p>\n\n<p><a href=\"https://konerqm.jamacloud.com/perspective.req?docId=28505537&amp;projectId=229\">KCE-TSTRN-4006978</a>&nbsp;- Remote LD reboot functionality - elevator in RDF mode&nbsp;</p>\n\n<p>&nbsp;</p>\n\n<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\"><strong>Description of the test case (Detailed Scenario)&nbsp;</strong></span></span></p>\n\n<ul>\n\t<li><span style=\"font-family:Calibri, sans-serif\"><span style=\"font-size:14.6667px\">Set parameter 742 = 1</span></span></li>\n\t<li><span style=\"font-family:Calibri, sans-serif\"><span style=\"font-size:14.6667px\">Enable RDF mode</span></span></li>\n\t<li><span style=\"font-family:Calibri, sans-serif\"><span style=\"font-size:14.6667px\">Initiate remote reboot from cloudview or KC3View or Device management portal</span></span></li>\n\t<li><span style=\"font-family:Calibri, sans-serif\"><span style=\"font-size:14.6667px\">LD reboot not performed</span></span></li>\n\t<li>CPU sends <strong>\u2018Not allowed by mode\u2019</strong> to the cloud</li>\n</ul>\n\n<p>&nbsp;</p>\n\n<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\"><strong>Expected behavior:&nbsp;&nbsp;</strong></span></span></p>\n\n<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\">CPU should send '</span></span><strong>Local maintenance active</strong>' response to the cloud.</p>\n\n<p>&nbsp;</p>\n\n<p>&nbsp;</p>\n\n<p><img alt=\"\" height=\"329\" src=\"https://konerqm.jamacloud.com/attachment/233619/image-6dy5DLiAAB.png\" width=\"419\" /></p>\n\n<p>&nbsp;</p>\n\n<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\"><strong>Actual behavior:</strong></span></span></p>\n\n<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\">CPU sent '<strong>Not allowed by mode</strong>' response to the cloud.</span></span></p>\n\n<p>&nbsp;</p>\n\n<p>&nbsp;</p>\n\n<p><img alt=\"\" height=\"198\" src=\"https://konerqm.jamacloud.com/attachment/233621/image-o4tsfxmGX4.png\" width=\"647\" /></p>\n\n<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\"><strong>Recovery:&nbsp;</strong></span></span></p>\n\n<p><span style=\"font-family:Calibri,sans-serif\"><span style=\"font-size:14.6667px\">Cannot be recover</span></span></p>\n\n<p>&nbsp;</p>\n\n<p><strong>Log attached Information:</strong></p>\n\n<p>cloud page links are attached below</p>\n\n<p><a href=\"https://qa.cloudview.dps.kone.com/#!/equipment/information/44126618/events\">IoT Portal - 24/7 CloudView</a></p>\n\n<p><a href=\"https://qa.kc3view.dps.kone.com/#/equipment/information/44126618?remoteop=1\">KC3 View</a></p>\n\n<p>&nbsp;</p>\n\n<p>&nbsp;</p>\n\n<p><strong>Value-added information:&nbsp;</strong></p>\n\n<p>-is problem validated in other simulators with those simulator's KEN numbers</p>\n\n<p>&nbsp;</p>\n\n<p><strong>Test Sequence history:&nbsp;</strong></p>\n\n<p>1.was failing scenario passing earlier - No, same issue is aslo observed in LD: 16.10.1.12 and LD: 16.1.1.5 SW releases.</p>\n\n<p>&nbsp;</p>\n\n<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\"><strong>Requirement related to the defect:</strong></span></span></p>\n\n<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\">https://konerqm.jamacloud.com/perspective.req#/items/18985498?projectId=229</span></span></p>\n\n<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\">https://konerqm.jamacloud.com/perspective.req#/items/18989526?projectId=229</span></span></p>\n",
             "status": 1081,
             "BUG_component$154": 1585,
             "createdBy": 6257,
@@ -22206,7 +22206,7 @@
             "BUG_jiraId$154": "IDM-13937",
             "BUG_jira_project$154": 2484,
             "BUG_jira_URL$154": "https://kone.atlassian.net/browse/IDM-13937",
-            "BUG_integration_synced_time$154": "2025-12-04 10:25:33.182181",
+            "BUG_integration_synced_time$154": "2025-12-04 12:06:33.990334",
             "BUG_V1_project$154": 1431
         },
         "resources": {
@@ -22219,7 +22219,7 @@
                 ]
             }
         },
-        "version": 7,
+        "version": 9,
         "location": {
             "sortOrder": 6521,
             "globalSortOrder": 1665539616,
@@ -22229,9 +22229,8 @@
             }
         },
         "lock": {
-            "locked": true,
-            "lastLockedDate": "2025-12-04T11:43:03.000+0000",
-            "lockedBy": 6257
+            "locked": false,
+            "lastLockedDate": "2025-12-04T12:05:45.000+0000"
         },
         "type": "items"
     },

@@ -353,5 +353,5 @@ KCE-SWBUG-7087, IoT – Software Update Fails (17.0.0.16 → 17.0.0.20),Priyava
 KCE-SWBUG-7088,KC3 view randomly shows FID M mode as 'OTHER' for few seconds,Kowsalya,17.0.0.18,2025-11-27
 KCE-SWBUG-7104,0.0.0.91 - TSCOP - App Crashes when HAN Mode Enabled,Suryanarayanan,"KCE 17.0.0.116(LD: 17.0.0.20, GCD: 17.0.1.1), WELM Appl: 0.0.0.91, WELM Prot: 0.0.0.16",2025-12-01
 KCE-SWBUG-7106,"In RDF mode, KC3view and Cloudview show ‘Something went wrong. You can try again’ instead of the reboot failure notification",Kowsalya,17.0.018,2025-12-01
-KCE-SWBUG-7109,"Elevator in RDF mode and LD reboot was performed from IoT portal, CPU sent 'Not allowed by mode' response to the cloud which is in event timeline",Kowsalya,,2025-12-01
+KCE-SWBUG-7109,Remote reboot in RDF mode not allowed; CPU sends wrong response: Not allowed by mode instead of Local maintenance active.,Kowsalya,,2025-12-01
 KCE-SWBUG-7119,FPD.T-Lift does not drive to the nearby non-FPD floor,Dinesh,"KCE17.0.0.111(LD: 17.0.0.18, GCD: 17.0.0.33)",2025-12-02

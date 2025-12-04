@@ -10262,7 +10262,7 @@
         "Assigned To":"S.P"
     },
     {
-        "TestRunStatus":"INPROGRESS",
+        "TestRunStatus":"PASSED",
         "ExecutionDate":"2025-12-04",
         "Document Key":"KIE601-TSTRN-70511",
         "Name":"Missing Step Detection - Lower",
@@ -10308,6 +10308,13 @@
         "ExecutionDate":"2025-12-03",
         "Document Key":"KIE601-TSTRN-70542",
         "Name":"Factory Mode Disabled & all Supervision Disabled for 1 hour",
+        "Assigned To":"VIGNESHWARAR"
+    },
+    {
+        "TestRunStatus":"INPROGRESS",
+        "ExecutionDate":"2025-12-04",
+        "Document Key":"KIE601-TSTRN-70547",
+        "Name":"Contactor feedback ",
         "Assigned To":"VIGNESHWARAR"
     },
     {
@@ -10584,7 +10591,7 @@
         "Assigned To":"Jagadeesh"
     },
     {
-        "TestRunStatus":"INPROGRESS",
+        "TestRunStatus":"PASSED",
         "ExecutionDate":"2025-12-04",
         "Document Key":"KCE-TSTRN-4007294",
         "Name":"Group features - PRL and HEL - Special",
@@ -11051,6 +11058,13 @@
         "Document Key":"KCE-TSTRN-3985830",
         "Name":"Group features - HEL - Hospital Emergency service at landings - Phase 1",
         "Assigned To":"Suryanarayanan"
+    },
+    {
+        "TestRunStatus":"INPROGRESS",
+        "ExecutionDate":"2025-12-04",
+        "Document Key":"KCE-TSTRN-4007297",
+        "Name":"Group features - HEL - Hospital Emergency service at landings - Phase 1",
+        "Assigned To":"Jagadeesh"
     },
     {
         "TestRunStatus":"PASSED",
