@@ -10241,8 +10241,8 @@
         "Assigned To":"VIGNESHWARAR"
     },
     {
-        "TestRunStatus":"INPROGRESS",
-        "ExecutionDate":"2025-12-03",
+        "TestRunStatus":"PASSED",
+        "ExecutionDate":"2025-12-04",
         "Document Key":"KIE601-TSTRN-70506",
         "Name":"Inspection Modes Parameters",
         "Assigned To":"VIGNESHWARAR"
@@ -10253,6 +10253,20 @@
         "Document Key":"KIE601-TSTRN-70509",
         "Name":"Reverse Direction (Step Reversal) for KCM",
         "Assigned To":"VIGNESHWARAR"
+    },
+    {
+        "TestRunStatus":"INPROGRESS",
+        "ExecutionDate":"2025-12-04",
+        "Document Key":"KIE601-TSTRN-70510",
+        "Name":"Missing Step Detection - Upper",
+        "Assigned To":"S.P"
+    },
+    {
+        "TestRunStatus":"INPROGRESS",
+        "ExecutionDate":"2025-12-04",
+        "Document Key":"KIE601-TSTRN-70511",
+        "Name":"Missing Step Detection - Lower",
+        "Assigned To":"S.P"
     },
     {
         "TestRunStatus":"PASSED",
@@ -16814,17 +16828,45 @@
         "Assigned To":"Vivek"
     },
     {
-        "TestRunStatus":"INPROGRESS",
+        "TestRunStatus":"PASSED",
         "ExecutionDate":"2025-12-04",
         "Document Key":"KCE-TSTRN-4007365",
         "Name":"10\" DOP Public menu and public buttons",
         "Assigned To":"Nithya Priya"
     },
     {
-        "TestRunStatus":"INPROGRESS",
+        "TestRunStatus":"PASSED",
         "ExecutionDate":"2025-12-04",
         "Document Key":"KCE-TSTRN-4007366",
         "Name":"7\" DOP Public menu and public buttons",
+        "Assigned To":"Nithya Priya"
+    },
+    {
+        "TestRunStatus":"INPROGRESS",
+        "ExecutionDate":"2025-12-04",
+        "Document Key":"KCE-TSTRN-4007360",
+        "Name":"10\" DOP Customizable header with image",
+        "Assigned To":"Nithya Priya"
+    },
+    {
+        "TestRunStatus":"INPROGRESS",
+        "ExecutionDate":"2025-12-04",
+        "Document Key":"KCE-TSTRN-4007361",
+        "Name":"7\" DOP Customizable header with image",
+        "Assigned To":"Nithya Priya"
+    },
+    {
+        "TestRunStatus":"INPROGRESS",
+        "ExecutionDate":"2025-12-04",
+        "Document Key":"KCE-TSTRN-4007362",
+        "Name":"10\" DOP Customizable header with color",
+        "Assigned To":"Nithya Priya"
+    },
+    {
+        "TestRunStatus":"INPROGRESS",
+        "ExecutionDate":"2025-12-04",
+        "Document Key":"KCE-TSTRN-4007363",
+        "Name":"7\" DOP Customizable header with color",
         "Assigned To":"Nithya Priya"
     },
     {
