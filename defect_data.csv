@@ -341,8 +341,8 @@ KCE-SWBUG-7047,"4.6 Service Tool - Additional value ""3"" is shown in preferred 
 KCE-SWBUG-7048,0.0.0.88 - TSCOP - App crashes after enabling FRD (Only in MAIN TSCOP),Suryanarayanan,"KCE17.0.0.111(LD: 17.0.0.18, GCD: 17.0.0.33)",2025-11-25
 KCE-SWBUG-7050,"16.10 - KCEDCS -SM throws an error during the creation of the ""dg.customization.v1.zip"" file",Vivek,"16.10.4.10(LD: 16.10.2.1, GCD: 16.10.21.5)",2025-11-25
 KCE-SWBUG-7054,0.0.0.88 - TSCOP - EAQ Indication not shown when EAQ is triggered for the second time,Suryanarayanan,"KCE17.0.0.111(LD: 17.0.0.18, GCD: 17.0.0.33)",2025-11-25
-KCE-SWBUG-7056,0.0.0.88 - TSCOP - Selected CAR Calls are not shown after registering 30+ floors,Suryanarayanan,"KCE17.0.0.111(LD: 17.0.0.18, GCD: 17.0.0.33),",2025-11-25
-KCE-SWBUG-7058,0.0.0.88 - TSCOP - OSI not shown when OSS is triggered while elevator is driving,Suryanarayanan,"KCE17.0.0.111(LD: 17.0.0.18, GCD: 17.0.0.33)",2025-11-25
+KCE-SWBUG-7056,0.0.0.88 - TSCOP - Selected CAR Calls are not shown after registering 30+ floors,Suryanarayanan,KNSMUL 0.0.0.49,2025-11-25
+KCE-SWBUG-7058,KCE17.0 - OSI not shown when OSS is triggered while elevator is driving,Suryanarayanan,"KCE17.0.0.111(LD: 17.0.0.18, GCD: 17.0.0.33)",2025-11-25
 KCE-SWBUG-7062,KC3 view shows cartop inspection mode as 'UNKNOWN' with '?' symbol,Kowsalya,,2025-11-25
 KCE-SWBUG-7065,16.10 - KCEDCS - DG is unable to update the software for devices that were deleted and later re-added to the inventory,Vivek,"16.10.4.10(LD: 16.10.2.1, GCD: 16.10.21.5)",2025-11-24
 KCE-SWBUG-7067,"0.0.0.88 - TSCOP - HAN Mode's initial UI, TTC Floor Cells shows 7A instead of '7'",Suryanarayanan,"KCE17.0.0.111(LD: 17.0.0.18, GCD: 17.0.0.33)",2025-11-26

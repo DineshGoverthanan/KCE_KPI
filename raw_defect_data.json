@@ -12487,7 +12487,7 @@
         "project": 229,
         "createdDate": "2025-07-11T11:52:23.000+0000",
         "modifiedDate": "2025-12-04T06:04:23.000+0000",
-        "lastActivityDate": "2025-12-04T06:04:23.000+0000",
+        "lastActivityDate": "2025-12-04T06:14:30.000+0000",
         "createdBy": 5995,
         "modifiedBy": 620,
         "fields": {
@@ -21438,8 +21438,8 @@
         "itemType": 154,
         "project": 229,
         "createdDate": "2025-11-26T13:27:38.000+0000",
-        "modifiedDate": "2025-12-03T12:49:36.000+0000",
-        "lastActivityDate": "2025-12-03T12:49:36.000+0000",
+        "modifiedDate": "2025-12-04T07:52:27.000+0000",
+        "lastActivityDate": "2025-12-04T07:52:27.000+0000",
         "createdBy": 6096,
         "modifiedBy": 620,
         "fields": {
@@ -21448,12 +21448,12 @@
             "name": "0.0.0.88 - TSCOP - Selected CAR Calls are not shown after registering 30+ floors",
             "description": "<p><em><strong>Parameter:</strong></em></p>\n\n<ul>\n\t<li>UI - Standard UI</li>\n\t<li>TSCOP - Main</li>\n\t<li>Logic for Side Handling - Selective</li>\n\t<li>Logic for FRD - Selective</li>\n</ul>\n\n<p><br />\n<em><strong>CPU Parameter:</strong></em></p>\n\n<ul>\n\t<li>1096 - 0</li>\n\t<li>UI - Static UI</li>\n</ul>\n\n<p>&nbsp;</p>\n\n<p><em><strong>Description:</strong></em></p>\n\n<ul>\n\t<li>LD : 17.0.0.18</li>\n\t<li>KNSMUL : 0.0.0.49</li>\n\t<li>Drive : KDHN 150</li>\n\t<li>Shaft : 72 Floor TTC setup&nbsp;</li>\n\t<li>WELM : 0.0.0.88</li>\n\t<li>Proto SW : 0.0.0.15</li>\n\t<li>Theme (Newer Mock Theme causing issue with the Application SW, So older Theme used for testing)</li>\n\t<li>1096 - 0</li>\n\t<li>A &amp; B side KNSMUL - Non-Conventional (KCOP)</li>\n</ul>\n\n<p>&nbsp;</p>\n\n<p><em><strong>Scenario:</strong></em></p>\n\n<ul>\n\t<li>When 30+ CAR Call is given, after the 30th floor the registered icon is not stored in the TSCOP</li>\n\t<li>But no indication of registration after 30th CAR Call registration<br />\n\t<img alt=\"\" height=\"737\" src=\"https://konerqm.jamacloud.com/attachment/232732/image-1knq7V13h7.png\" width=\"450\" /></li>\n</ul>\n\n<p>&nbsp;</p>\n\n<ul>\n\t<li>**All the floors have been registered in the CPU, Just in TSCOP UI the Selection Cells are not stayed resgistered&nbsp;</li>\n\t<li><img alt=\"\" height=\"587\" src=\"https://konerqm.jamacloud.com/attachment/232733/image-fCCJYAdwMx.png\" width=\"635\" /></li>\n</ul>\n\n<p><em><strong>NOTE:</strong></em><br />\nFloor markings, Direction Arrow and Next stop indication also not shown</p>\n\n<p>&nbsp;</p>\n\n<p><em><strong>Logs:</strong></em></p>\n\n<ul>\n\t<li>TSCOP Logs</li>\n\t<li>LPA</li>\n\t<li>Event Traffic</li>\n\t<li>Video attached for better understanding</li>\n</ul>\n\n<p><em><strong>Reference:</strong></em></p>\n\n<p><img alt=\"\" height=\"603\" src=\"https://konerqm.jamacloud.com/attachment/232737/image-ZrWPfppBzQ.png\" width=\"480\" /></p>\n",
             "status": 1081,
-            "BUG_component$154": 1291,
-            "BUG_subcomponent$154": "WELM 0.0.0.88",
+            "BUG_component$154": 1531,
+            "BUG_subcomponent$154": "KNSMUL",
             "createdBy": 6096,
-            "assignedTo": 2439,
+            "assignedTo": 1926,
             "release": 2396,
-            "BUG_foundInBuild$154": "KCE17.0.0.111(LD: 17.0.0.18, GCD: 17.0.0.33),",
+            "BUG_foundInBuild$154": "KNSMUL 0.0.0.49",
             "BUG_foundOnDate$154": "2025-11-25",
             "BUG_plannedRelease$154": 2396,
             "priority": 2410,
@@ -21468,7 +21468,7 @@
             "BUG_jiraId$154": "KCE-31573",
             "BUG_jira_project$154": 2465,
             "BUG_jira_URL$154": "https://kone.atlassian.net/browse/KCE-31573",
-            "BUG_integration_synced_time$154": "2025-12-03 12:49:35.085165",
+            "BUG_integration_synced_time$154": "2025-12-04 07:52:26.607938",
             "BUG_V1_project$154": 1431
         },
         "resources": {
@@ -21481,7 +21481,7 @@
                 ]
             }
         },
-        "version": 8,
+        "version": 12,
         "location": {
             "sortOrder": 6474,
             "globalSortOrder": 1665496328,
@@ -21492,7 +21492,7 @@
         },
         "lock": {
             "locked": false,
-            "lastLockedDate": "2025-12-03T12:49:20.000+0000"
+            "lastLockedDate": "2025-12-04T07:51:44.000+0000"
         },
         "type": "items"
     },
@@ -21503,18 +21503,17 @@
         "itemType": 154,
         "project": 229,
         "createdDate": "2025-11-26T15:10:34.000+0000",
-        "modifiedDate": "2025-12-03T12:51:33.000+0000",
-        "lastActivityDate": "2025-12-03T12:51:33.000+0000",
+        "modifiedDate": "2025-12-04T06:59:26.000+0000",
+        "lastActivityDate": "2025-12-04T07:03:36.000+0000",
         "createdBy": 6096,
         "modifiedBy": 620,
         "fields": {
             "documentKey": "KCE-SWBUG-7058",
             "globalId": "GID-7554824",
-            "name": "0.0.0.88 - TSCOP - OSI not shown when OSS is triggered while elevator is driving",
+            "name": "KCE17.0 - OSI not shown when OSS is triggered while elevator is driving",
             "description": "<p><em><strong>Parameter:</strong></em></p>\n\n<ul>\n\t<li>UI - Standard UI</li>\n\t<li>TSCOP - Main</li>\n\t<li>Logic for Side Handling - Selective</li>\n\t<li>Logic for FRD - Selective</li>\n</ul>\n\n<p><br />\n<em><strong>CPU Parameter:</strong></em></p>\n\n<ul>\n\t<li>1471 - 1</li>\n\t<li>1073 - 0</li>\n</ul>\n\n<p>&nbsp;</p>\n\n<p><em><strong>Description:</strong></em></p>\n\n<ul>\n\t<li>LD : 17.0.0.18</li>\n\t<li>KNSMUL : 0.0.0.49</li>\n\t<li>Drive : KDHN 150</li>\n\t<li>Shaft : 72 Floor TTC setup&nbsp;</li>\n\t<li>WELM : 0.0.0.88</li>\n\t<li>Proto SW : 0.0.0.15</li>\n\t<li>Theme (Newer Mock Theme causing issue with the Application SW, So older Theme used for testing)</li>\n\t<li>1096 - 0</li>\n\t<li>A &amp; B side KNSMUL - Non-Conventional (KCOP)</li>\n</ul>\n\n<p><em><strong>Scenario:</strong></em></p>\n\n<ul>\n\t<li>Elevator is driving towards any floor</li>\n\t<li>OSS from Landing (OPT 35's 6th Input) is triggered</li>\n\t<li>OSI is not shown in TSCOP</li>\n</ul>\n\n<p>&nbsp;</p>\n\n<p><em><strong>Expected Scenario:</strong></em></p>\n\n<ul>\n\t<li>Even when Elevator is in drive state OSI Should be shown</li>\n</ul>\n\n<p><img alt=\"\" height=\"411\" src=\"https://konerqm.jamacloud.com/attachment/232695/image-DrwukqrPzi.png\" width=\"313\" /></p>\n\n<p>&nbsp;</p>\n\n<p>&nbsp;</p>\n\n<p><em><strong>Actual Scenario:</strong></em></p>\n\n<ul>\n\t<li>After triggering OSS from landing while driving</li>\n</ul>\n\n<p><img alt=\"\" height=\"402\" src=\"https://konerqm.jamacloud.com/attachment/232694/image-4lP4UkNZlM.png\" width=\"318\" /></p>\n\n<p>&nbsp;</p>\n\n<p><em><strong>Logs:</strong></em></p>\n\n<ul>\n\t<li>TSCOP Logs</li>\n\t<li>LPA</li>\n\t<li>Event Traffic</li>\n</ul>\n",
             "status": 1081,
             "BUG_component$154": 1291,
-            "BUG_subcomponent$154": "WELM 0.0.0.88",
             "createdBy": 6096,
             "assignedTo": 1546,
             "release": 2396,
@@ -21533,7 +21532,7 @@
             "BUG_jiraId$154": "KCE-31575",
             "BUG_jira_project$154": 2465,
             "BUG_jira_URL$154": "https://kone.atlassian.net/browse/KCE-31575",
-            "BUG_integration_synced_time$154": "2025-12-03 12:51:32.712340",
+            "BUG_integration_synced_time$154": "2025-12-04 06:59:25.601664",
             "BUG_V1_project$154": 1431
         },
         "resources": {
@@ -21546,7 +21545,7 @@
                 ]
             }
         },
-        "version": 5,
+        "version": 7,
         "location": {
             "sortOrder": 6476,
             "globalSortOrder": 1665535512,
@@ -21557,7 +21556,7 @@
         },
         "lock": {
             "locked": false,
-            "lastLockedDate": "2025-12-03T12:51:00.000+0000"
+            "lastLockedDate": "2025-12-04T06:58:47.000+0000"
         },
         "type": "items"
     },
@@ -21693,7 +21692,7 @@
         "project": 229,
         "createdDate": "2025-11-27T12:30:42.000+0000",
         "modifiedDate": "2025-12-03T09:32:24.000+0000",
-        "lastActivityDate": "2025-12-03T09:48:27.000+0000",
+        "lastActivityDate": "2025-12-04T07:10:55.000+0000",
         "createdBy": 6096,
         "modifiedBy": 1546,
         "fields": {
@@ -21800,8 +21799,9 @@
             }
         },
         "lock": {
-            "locked": false,
-            "lastLockedDate": "2025-12-03T12:59:14.000+0000"
+            "locked": true,
+            "lastLockedDate": "2025-12-04T07:16:25.000+0000",
+            "lockedBy": 870
         },
         "type": "items"
     },
@@ -21977,7 +21977,8 @@
             }
         },
         "lock": {
-            "locked": false
+            "locked": false,
+            "lastLockedDate": "2025-12-04T06:47:53.000+0000"
         },
         "type": "items"
     },
@@ -22052,16 +22053,16 @@
         "itemType": 154,
         "project": 229,
         "createdDate": "2025-12-02T13:31:25.000+0000",
-        "modifiedDate": "2025-12-03T09:00:47.000+0000",
-        "lastActivityDate": "2025-12-03T09:00:47.000+0000",
+        "modifiedDate": "2025-12-04T06:33:13.000+0000",
+        "lastActivityDate": "2025-12-04T06:33:13.000+0000",
         "createdBy": 6096,
-        "modifiedBy": 1546,
+        "modifiedBy": 6056,
         "fields": {
             "documentKey": "KCE-SWBUG-7104",
             "globalId": "GID-7565407",
             "name": "0.0.0.91 - TSCOP - App Crashes when HAN Mode Enabled",
             "description": "<p><em><strong>Description:</strong></em></p>\n\n<ul>\n\t<li>LD : 17.0.0.20</li>\n\t<li>KNSMUL : 0.0.0.50</li>\n\t<li>Drive : PDX</li>\n\t<li>TSCOP 20 floor setup is used, since higher floors cause issue with indications (issue raised as defect)</li>\n\t<li>WELM : 0.0.0.91</li>\n\t<li>Proto SW : 0.0.0.16</li>\n\t<li>1096 - 0 (Selective)</li>\n\t<li>A &amp; B side KNSMUL - Non-Conventional (KCOP)<br />\n\t&nbsp;</li>\n\t<li>Elevator in Normal Mode (Vacant)</li>\n\t<li>HAN Button Pressed</li>\n\t<li><img alt=\"\" height=\"349\" src=\"https://konerqm.jamacloud.com/attachment/233276/image-zjIt0n5tVy.png\" width=\"288\" /></li>\n\t<li>TSCOP hangs &amp; Restarts</li>\n\t<li><img alt=\"\" height=\"453\" src=\"https://konerqm.jamacloud.com/attachment/233277/image-Uh0ymbvbqF.png\" width=\"289\" /></li>\n</ul>\n\n<p><br />\n<em><strong>Note:</strong></em></p>\n\n<p>When HAN is pressed, Doors are opened&nbsp; after that no HAN Sequence started</p>\n\n<p>This happens almost all the time with WELM App 0.0.0.91 SW &amp; Proto SW : 0.0.0.16</p>\n\n<p>Checked with App SW 0.0.0.88 &amp; Proto SW 0.0.0.16 in LD 17.0.0.18, No issues found, HAN Mode functions correctly<br />\n<br />\n<em><strong>LOGS:</strong></em><br />\nTSCOP Logs<br />\nLPA<br />\nEvent Traffic<br />\nVideo Recording for better understanding<br />\n<br />\n\u200b</p>\n",
-            "status": 1081,
+            "status": 1085,
             "BUG_component$154": 1531,
             "BUG_subcomponent$154": "WELM TSCOP 0.0.0.91",
             "createdBy": 6096,
@@ -22070,6 +22071,7 @@
             "BUG_foundInBuild$154": "KCE 17.0.0.116(LD: 17.0.0.20, GCD: 17.0.1.1), WELM Appl: 0.0.0.91, WELM Prot: 0.0.0.16",
             "BUG_foundOnDate$154": "2025-12-01",
             "BUG_plannedRelease$154": 2396,
+            "BUG_fixedInBuild$154": "WELM Application SW 0.0.0.92",
             "priority": 2410,
             "BUG_severity$154": 1109,
             "BUG_category$154": 1425,
@@ -22091,7 +22093,7 @@
                 ]
             }
         },
-        "version": 4,
+        "version": 5,
         "location": {
             "sortOrder": 6516,
             "globalSortOrder": 1665874736,
@@ -22102,7 +22104,7 @@
         },
         "lock": {
             "locked": false,
-            "lastLockedDate": "2025-12-03T09:00:48.000+0000"
+            "lastLockedDate": "2025-12-04T06:33:14.000+0000"
         },
         "type": "items"
     },

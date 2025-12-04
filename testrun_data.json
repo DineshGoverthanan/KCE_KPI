@@ -9919,7 +9919,7 @@
         "Assigned To":"Mohammed Ibrahim Sultan"
     },
     {
-        "TestRunStatus":"INPROGRESS",
+        "TestRunStatus":"FAILED",
         "ExecutionDate":"2025-12-04",
         "Document Key":"KIE601-TSTRN-70609",
         "Name":"LCB Node Pairing\u00a0",
@@ -10311,6 +10311,27 @@
         "Assigned To":"VIGNESHWARAR"
     },
     {
+        "TestRunStatus":"PASSED",
+        "ExecutionDate":"2025-12-04",
+        "Document Key":"KIE601-TSTRN-70495",
+        "Name":"Flywheel Cover Monitoring KCM mode",
+        "Assigned To":"Mohammed Ibrahim Sultan"
+    },
+    {
+        "TestRunStatus":"PASSED",
+        "ExecutionDate":"2025-12-04",
+        "Document Key":"KIE601-TSTRN-70496",
+        "Name":"Flywheel Cover Monitoring KSB mode",
+        "Assigned To":"Mohammed Ibrahim Sultan"
+    },
+    {
+        "TestRunStatus":"PASSED",
+        "ExecutionDate":"2025-12-04",
+        "Document Key":"KIE601-TSTRN-70497",
+        "Name":"Flywheel Cover Monitoring KAM mode",
+        "Assigned To":"Mohammed Ibrahim Sultan"
+    },
+    {
         "TestRunStatus":"FAILED",
         "ExecutionDate":"2025-12-03",
         "Document Key":"KIE601-TSTRN-70501",
@@ -10529,7 +10550,7 @@
     },
     {
         "TestRunStatus":"INPROGRESS",
-        "ExecutionDate":"2025-12-03",
+        "ExecutionDate":"2025-12-04",
         "Document Key":"KCE-TSTRN-4007294",
         "Name":"Group features - PRL and HEL - Special",
         "Assigned To":"Jagadeesh"
@@ -16745,7 +16766,7 @@
     },
     {
         "TestRunStatus":"INPROGRESS",
-        "ExecutionDate":"2025-12-03",
+        "ExecutionDate":"2025-12-04",
         "Document Key":"KCE-TSTRN-4007369",
         "Name":"10\" DOP Floor icons",
         "Assigned To":"Nithya Priya"
