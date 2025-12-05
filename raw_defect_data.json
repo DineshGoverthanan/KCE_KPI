@@ -4066,19 +4066,20 @@
         "itemType": 154,
         "project": 417,
         "createdDate": "2025-12-05T01:52:05.000+0000",
-        "modifiedDate": "2025-12-05T01:52:05.000+0000",
-        "lastActivityDate": "2025-12-05T01:52:05.000+0000",
+        "modifiedDate": "2025-12-05T11:29:28.000+0000",
+        "lastActivityDate": "2025-12-05T11:29:28.000+0000",
         "createdBy": 6117,
-        "modifiedBy": 6117,
+        "modifiedBy": 2001,
         "fields": {
             "documentKey": "KIE601-SWBUG-2783",
             "globalId": "GID-7569567",
             "name": "IEX - Lower FUI gets hanged when parameter PC5_5300 is accessed when escalator is running - Lower FUI must not display No access.",
             "description": "<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\"><strong>Detailed Defect Description:</strong></span></span></p>\n\n<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\">IEX - Lower FUI gets hanged when parameter PC5_5300 is accessed when escalator is running - Lower FUI must not display No access.</span></span></p>\n\n<p>&nbsp;</p>\n\n<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\"><strong>Parameters:&nbsp;&nbsp;</strong></span></span></p>\n\n<p><span style=\"font-family:Calibri, sans-serif\"><span style=\"font-size:14.6667px\">PC5_5300 (Node SW Download)</span></span></p>\n\n<p>&nbsp;</p>\n\n<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\"><strong>Group configuration: </strong></span></span></p>\n\n<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\">NA</span></span></p>\n\n<p>&nbsp;</p>\n\n<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\"><strong>Drive type:</strong></span></span></p>\n\n<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\">NA</span></span></p>\n\n<p>&nbsp;</p>\n\n<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\"><strong>Regression or new finding:</strong></span></span></p>\n\n<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\">New Finding</span></span></p>\n\n<p>&nbsp;</p>\n\n<p>&nbsp;</p>\n\n<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\"><strong>Test case Name / Feature name:</strong></span></span></p>\n\n<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\">Ad hoc</span></span></p>\n\n<p>&nbsp;</p>\n\n<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\"><strong>Test step number:</strong></span></span></p>\n\n<p><span style=\"font-family:Calibri, sans-serif\"><span style=\"font-size:14.6667px\">Ad hoc</span></span></p>\n\n<p>&nbsp;</p>\n\n<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\"><strong>Description of the test case (Detailed Scenario)&nbsp;</strong></span></span></p>\n\n<ul>\n\t<li>The Escalator is running in Operational Mode / Inspection mode</li>\n\t<li>Try to access the parameter PC5_5300</li>\n\t<li>Lower FUI and Upper FUI shows \"No access\"</li>\n\t<li>Upper FUI comes back to normal screen, but lower FUI does not refresh.</li>\n\t<li>Tried to create safety fault codes - Lower FUI is still hanged in \"no access\" screen.</li>\n</ul>\n\n<p>&nbsp;</p>\n\n<p>Note:</p>\n\n<p>Recovery: Press any button in FUI screen</p>\n\n<p>Frequency: 1 out of 10 times</p>\n\n<p>&nbsp;</p>\n\n<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\"><strong>Expected behavior:&nbsp;&nbsp;</strong></span></span></p>\n\n<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\">Lower FUI must not display \"No access\"</span></span></p>\n\n<p>&nbsp;</p>\n\n<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\"><strong>Actual behavior:</strong></span></span></p>\n\n<p>Upper FUI comes back to normal screen, but lower FUI does not refresh.</p>\n",
-            "status": 1081,
+            "status": 1082,
             "BUG_component$154": 1561,
             "BUG_subcomponent$154": "IEX",
             "createdBy": 6117,
+            "assignedTo": 6453,
             "release": 2581,
             "BUG_foundOnDate$154": "2025-12-04",
             "priority": 2410,
@@ -4099,7 +4100,7 @@
                 ]
             }
         },
-        "version": 1,
+        "version": 2,
         "location": {
             "sortOrder": 1362,
             "globalSortOrder": 1311275857,
@@ -4109,7 +4110,8 @@
             }
         },
         "lock": {
-            "locked": false
+            "locked": false,
+            "lastLockedDate": "2025-12-05T11:29:29.000+0000"
         },
         "type": "items"
     },
@@ -4264,7 +4266,7 @@
         "version": 2,
         "location": {
             "sortOrder": 468,
-            "globalSortOrder": 270133471,
+            "globalSortOrder": 265420184,
             "sequence": "4.469",
             "parent": {
                 "item": 166775
@@ -13835,8 +13837,8 @@
         "itemType": 154,
         "project": 229,
         "createdDate": "2025-08-01T04:27:55.000+0000",
-        "modifiedDate": "2025-11-07T06:21:27.000+0000",
-        "lastActivityDate": "2025-11-07T06:21:27.000+0000",
+        "modifiedDate": "2025-12-05T11:23:28.000+0000",
+        "lastActivityDate": "2025-12-05T11:23:28.000+0000",
         "createdBy": 5995,
         "modifiedBy": 620,
         "fields": {
@@ -13853,7 +13855,7 @@
             "BUG_foundInBuild$154": "16.10.20.8(LD: 16.10.1.5, GCD: 16.10.20.7)",
             "BUG_foundOnDate$154": "2025-07-31",
             "BUG_plannedRelease$154": 2396,
-            "BUG_fixedInBuild$154": "DG Release v1.7.0.4",
+            "BUG_fixedInBuild$154": "DG Release 1.7.0.6",
             "priority": 2410,
             "BUG_severity$154": 1111,
             "BUG_category$154": 1422,
@@ -13866,7 +13868,7 @@
             "BUG_jiraId$154": "ISWF-1457",
             "BUG_jira_project$154": 2457,
             "BUG_jira_URL$154": "https://kone.atlassian.net/browse/ISWF-1457",
-            "BUG_integration_synced_time$154": "2025-11-07 06:21:26.229364",
+            "BUG_integration_synced_time$154": "2025-12-05 11:23:27.384240",
             "BUG_V1_project$154": 1431
         },
         "resources": {
@@ -13879,7 +13881,7 @@
                 ]
             }
         },
-        "version": 6,
+        "version": 8,
         "location": {
             "sortOrder": 5827,
             "globalSortOrder": 1651952484,
@@ -13890,7 +13892,7 @@
         },
         "lock": {
             "locked": false,
-            "lastLockedDate": "2025-11-07T06:20:22.000+0000"
+            "lastLockedDate": "2025-12-05T11:22:38.000+0000"
         },
         "type": "items"
     },
@@ -21224,8 +21226,8 @@
         "itemType": 154,
         "project": 229,
         "createdDate": "2025-11-21T06:09:46.000+0000",
-        "modifiedDate": "2025-12-02T04:17:24.000+0000",
-        "lastActivityDate": "2025-12-04T11:22:13.000+0000",
+        "modifiedDate": "2025-12-05T11:08:33.000+0000",
+        "lastActivityDate": "2025-12-05T11:08:33.000+0000",
         "createdBy": 5995,
         "modifiedBy": 620,
         "fields": {
@@ -21233,7 +21235,7 @@
             "globalId": "GID-7545409",
             "name": "16.10 - KCEDCS - DG DMA -The file name is not correct in the inventory manager for \"dg.customization.v1.zip\"",
             "description": "<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\"><strong>Detailed Defect Description:</strong></span></span></p>\n\n<p>In the Inventory Manager, the file name for \"dg.customization.v1.zip\" is not correct</p>\n\n<p>&nbsp;</p>\n\n<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\"><strong>Parameters:&nbsp;&nbsp;</strong></span></span></p>\n\n<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\">(e.g. Parameter X (Description of the parameter) - parameter value)</span></span></p>\n\n<p>&nbsp;</p>\n\n<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\"><strong>Group configuration: </strong></span></span></p>\n\n<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\">Duplex</span></span></p>\n\n<p>&nbsp;</p>\n\n<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\"><strong>Drive type:</strong></span></span></p>\n\n<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\">KDM</span></span></p>\n\n<p>&nbsp;</p>\n\n<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\"><strong>Regression or new finding:</strong></span></span></p>\n\n<p><span style=\"font-family:Calibri,sans-serif\"><span style=\"font-size:14.6667px\">Regression</span></span></p>\n\n<p>&nbsp;</p>\n\n<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\"><strong>Test case Name / Feature name:</strong></span></span></p>\n\n<p><a href=\"https://konerqm.jamacloud.com/perspective.req?docId=26658860&amp;projectId=229\">DG configuration update from Site Manager</a></p>\n\n<p>&nbsp;</p>\n\n<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\"><strong>Test step number:</strong></span></span></p>\n\n<p>Customization:</p>\n\n<ul>\n\t<li>dg.customization.v1.json</li>\n\t<li>dg.localization.006.v1.json</li>\n\t<li>dg.localization.011.v1.json</li>\n\t<li>dg.localization.021.v1.json</li>\n\t<li>dg.localization.026.v1.json</li>\n\t<li>*.mp3</li>\n\t<li>*.svg</li>\n</ul>\n\n<p>&nbsp;</p>\n\n<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\"><strong>Description of the test case (Detailed Scenario)&nbsp;</strong></span></span></p>\n\n<ul>\n\t<li>Open the Sitemanager</li>\n\t<li>Select the devices option and choose any one DG</li>\n\t<li>Select configuration option</li>\n\t<li>In that, instead of <strong>dg.customization.v1.zip</strong>, the&nbsp;<strong>dg.customization.zip</strong> is present.</li>\n</ul>\n\n<p><strong>DG:</strong></p>\n\n<p><img alt=\"\" height=\"329\" src=\"https://konerqm.jamacloud.com/attachment/232624/image-ejyH3UdXoc.png\" width=\"527\" />&nbsp;&nbsp;</p>\n\n<p>&nbsp;</p>\n\n<p><strong>xDOP:</strong></p>\n\n<p><img alt=\"\" height=\"327\" src=\"https://konerqm.jamacloud.com/attachment/232628/image-GDJuASSdvH.png\" width=\"528\" /></p>\n\n<p>&nbsp;</p>\n\n<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\"><strong>Expected behavior:&nbsp;&nbsp;</strong></span></span></p>\n\n<p><span style=\"font-family:Calibri,sans-serif\"><span style=\"font-size:14.6667px\">The correct data should be presented&nbsp;</span></span></p>\n\n<p>&nbsp;</p>\n\n<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\"><strong>Actual behavior:</strong></span></span></p>\n\n<p><span style=\"font-family:Calibri,sans-serif\"><span style=\"font-size:14.6667px\">The incorrect data is shown</span></span></p>\n\n<p>&nbsp;</p>\n\n<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\"><strong>Recovery:&nbsp;</strong></span></span></p>\n\n<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\">No</span></span></p>\n\n<p>&nbsp;</p>\n\n<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\"><strong>Log attached Information:</strong></span></span></p>\n\n<p><span style=\"font-family:Calibri,sans-serif\"><span style=\"font-size:14.6667px\">Nodedebug info, SM UI</span></span></p>\n\n<p>&nbsp;</p>\n\n<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\"><strong>Value-added information:&nbsp;</strong></span></span></p>\n\n<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\">SM Version: 4.47</span></span></p>\n\n<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\">DG Apk - 1.7.0.4</span></span></p>\n\n<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\">DG DMA - 1.6.0.0</span></span></p>\n\n<p>&nbsp;</p>\n\n<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\"><strong>Test Sequence history:&nbsp;</strong></span></span></p>\n\n<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\">1: was failing scenario passing earlier</span></span></p>\n\n<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\">2. what was SW level when this was passing last time</span></span></p>\n\n<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\">3. any changes in test setup or test scenario between passed and failed run</span></span></p>\n\n<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\">4. any changes in tested system configuration between passed and failed run</span></span></p>\n\n<p>&nbsp;</p>\n\n<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\"><strong>Requirement related to the defect:</strong></span></span></p>\n\n<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\">(e.g. URL link to requirement which is related to the defect)</span></span></p>\n",
-            "status": 1082,
+            "status": 1085,
             "BUG_component$154": 1531,
             "BUG_subcomponent$154": "DG",
             "createdBy": 5995,
@@ -21242,6 +21244,7 @@
             "BUG_foundInBuild$154": "16.10.4.10(LD: 16.10.2.1, GCD: 16.10.21.5)",
             "BUG_foundOnDate$154": "2025-11-20",
             "BUG_plannedRelease$154": 2368,
+            "BUG_fixedInBuild$154": "DG Release v1.7.0.6",
             "priority": 2410,
             "BUG_severity$154": 1109,
             "BUG_category$154": 1422,
@@ -21254,7 +21257,7 @@
             "BUG_jiraId$154": "MST-16659",
             "BUG_jira_project$154": 2460,
             "BUG_jira_URL$154": "https://kone.atlassian.net/browse/MST-16659",
-            "BUG_integration_synced_time$154": "2025-12-02 04:17:23.146413",
+            "BUG_integration_synced_time$154": "2025-12-05 11:08:32.516395",
             "BUG_V1_project$154": 1431
         },
         "resources": {
@@ -21267,7 +21270,7 @@
                 ]
             }
         },
-        "version": 17,
+        "version": 19,
         "location": {
             "sortOrder": 6433,
             "globalSortOrder": 1663816752,
@@ -21278,7 +21281,7 @@
         },
         "lock": {
             "locked": false,
-            "lastLockedDate": "2025-12-02T04:17:11.000+0000"
+            "lastLockedDate": "2025-12-05T11:07:51.000+0000"
         },
         "type": "items"
     },
