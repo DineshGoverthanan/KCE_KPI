@@ -9835,7 +9835,7 @@
         "Assigned To":"Mohammed Ibrahim Sultan"
     },
     {
-        "TestRunStatus":"INPROGRESS",
+        "TestRunStatus":"PASSED",
         "ExecutionDate":"2025-12-05",
         "Document Key":"KIE601-TSTRN-70613",
         "Name":"EN115 Disable AccessCover",
@@ -9976,10 +9976,38 @@
     },
     {
         "TestRunStatus":"PASSED",
+        "ExecutionDate":"2025-12-05",
+        "Document Key":"KIE601-TSTRN-70601",
+        "Name":"System stability, E-Link GUI",
+        "Assigned To":"S.P"
+    },
+    {
+        "TestRunStatus":"PASSED",
+        "ExecutionDate":"2025-12-05",
+        "Document Key":"KIE601-TSTRN-70602",
+        "Name":"System stability, KIC unit or Master Workstation",
+        "Assigned To":"S.P"
+    },
+    {
+        "TestRunStatus":"PASSED",
+        "ExecutionDate":"2025-12-05",
+        "Document Key":"KIE601-TSTRN-70597",
+        "Name":"Traffic View - SITE VIEW ICONS",
+        "Assigned To":"S.P"
+    },
+    {
+        "TestRunStatus":"PASSED",
         "ExecutionDate":"2025-07-31",
         "Document Key":"KIE601-TSTRN-56776",
         "Name":"Lubrication control output in inspection mode",
         "Assigned To":"Mohammed Ibrahim Sultan"
+    },
+    {
+        "TestRunStatus":"PASSED",
+        "ExecutionDate":"2025-12-05",
+        "Document Key":"KIE601-TSTRN-70598",
+        "Name":"Traffic View - BACKGROUND PICTURE FIT",
+        "Assigned To":"S.P"
     },
     {
         "TestRunStatus":"FAILED",
@@ -11144,6 +11172,13 @@
         "Assigned To":"Jagadeesh"
     },
     {
+        "TestRunStatus":"INPROGRESS",
+        "ExecutionDate":"2025-12-05",
+        "Document Key":"KCE-TSTRN-4007296",
+        "Name":"Group features - HEL - Hospital Emergency service at landings - Phase 2",
+        "Assigned To":"Jagadeesh"
+    },
+    {
         "TestRunStatus":"FAILED",
         "ExecutionDate":"2025-08-26",
         "Document Key":"KCE-TSTRN-3982230",
@@ -11480,7 +11515,7 @@
         "Assigned To":"Shrividhya"
     },
     {
-        "TestRunStatus":"INPROGRESS",
+        "TestRunStatus":"FAILED",
         "ExecutionDate":"2025-12-05",
         "Document Key":"KCE-TSTRN-4007300",
         "Name":"Group features - PRL and HEL parameters",
@@ -17581,6 +17616,13 @@
         "ExecutionDate":"2025-12-02",
         "Document Key":"KCE-TSTRN-4007033",
         "Name":"Multiple disability service car calls handling",
+        "Assigned To":"Suryanarayanan"
+    },
+    {
+        "TestRunStatus":"PASSED",
+        "ExecutionDate":"2025-12-05",
+        "Document Key":"KCE-TSTRN-4007034",
+        "Name":"Interrupting Disability Service via \"X\" Button",
         "Assigned To":"Suryanarayanan"
     }
 ]

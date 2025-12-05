@@ -73,6 +73,8 @@ KIE601-SWBUG-2782,"E-link- with Communication fault, unable to RUN the escalator
 KIE601-SWBUG-2783,IEX - Lower FUI gets hanged when parameter PC5_5300 is accessed when escalator is running - Lower FUI must not display No access.,Mohammed Ibrahim Sultan,,2025-12-04
 KIE601-SWBUG-2785,"IEX - After LCB node SW Downloading, FC 348-1 is posted (Node pairing ""Pairing check failed"" - LCB)",Mohammed Ibrahim Sultan,,2025-12-04
 KIE601-SWBUG-2786,"IEX - Inspection mode supervision is mentioned as No for FC 348-1 (Node pairing ""Pairing check failed"" - LCB) - Need to update Fault code sheet",Mohammed Ibrahim Sultan,,2025-12-04
+KIE601-SWBUG-2794,"IEX- Faults F 67-3(MSC and CPU Enhanced Safety Parameters Mismatch), 329-4(MSC 2 Enhanced Safety Parameter Push pending), and F 302  was triggered when Starting Escalator Using Key Switch in Learning Mode",VIGNESHWARAR,,2025-12-04
+KIE601-SWBUG-2795,"IEX-EGD Display shows undefined fault for 355 (Communication fault, E Link)",VIGNESHWARAR,,2025-12-03
 DRIVE_HW_SW-SWBUG-1587,GG DCBL 5.51 SW - Fault 124 3064 Not Triggered when Software file is missed from SD Card.,VIGNESHWARAR,,2025-06-01
 KCE-SWBUG-5615,16.4-DCBL GD- Speed is not reduced when the elevator reaches the lower limit during the NTS Buffer Test.,Jagadeesh,KCE16.4.92 (LD 16.4.1.11 and GCD 16.4.65) + DCBL 24.47sw,
 KCE-SWBUG-6553,"KCE NA - When MES activated during car call service, lift is unable to stop at the nearest floor.",Veeramanikandan,KCE 17.0.0.10,2025-09-02

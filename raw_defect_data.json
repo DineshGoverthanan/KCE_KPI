@@ -4010,16 +4010,16 @@
         "itemType": 154,
         "project": 417,
         "createdDate": "2025-12-04T15:15:17.000+0000",
-        "modifiedDate": "2025-12-05T09:28:51.000+0000",
-        "lastActivityDate": "2025-12-05T09:28:51.000+0000",
+        "modifiedDate": "2025-12-05T13:35:33.000+0000",
+        "lastActivityDate": "2025-12-05T13:35:33.000+0000",
         "createdBy": 2925,
-        "modifiedBy": 5932,
+        "modifiedBy": 6485,
         "fields": {
             "documentKey": "KIE601-SWBUG-2782",
             "globalId": "GID-7569475",
             "name": "E-link- with Communication fault, unable to RUN the escalator in inspection mode",
             "description": "<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\"><strong>Detailed Defect Description:</strong></span></span></p>\n\n<p><span style=\"font-family:Calibri,sans-serif\"><span style=\"font-size:14.6667px\">With the&nbsp;</span></span><span style=\"font-family:Calibri,sans-serif\"><span style=\"font-size:14.6667px\">E-link</span></span><span style=\"font-family:Calibri,sans-serif\"><span style=\"font-size:14.6667px\">&nbsp;</span></span><span style=\"font-family:Calibri,sans-serif\"><span style=\"font-size:14.6667px\">Communication fault 355- unable to run the escalator in inspection mode</span></span></p>\n\n<p>&nbsp;</p>\n\n<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\"><strong>Parameters:&nbsp;&nbsp;</strong></span></span></p>\n\n<p>&nbsp;</p>\n\n<p>PC1 - 1248_1</p>\n\n<p>&nbsp;</p>\n\n<p>&nbsp;</p>\n\n<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\"><strong>Drive type:</strong></span></span></p>\n\n<p>&nbsp;</p>\n\n<p>Danfoss and Monarch</p>\n\n<p>&nbsp;</p>\n\n<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\"><strong>Description of the test case (Detailed Scenario)&nbsp;</strong></span></span></p>\n\n<p>&nbsp;</p>\n\n<p>1 The escalator is in normal mode</p>\n\n<p>2 Set parameter PC1 - 1248_1(ELink Selection)</p>\n\n<p>3 Now, run the escalator UP/DOWN direction</p>\n\n<p>4 During running, create fault 355 (Communication fault, E Link)&nbsp;</p>\n\n<p>5 with the fault activated, when trying to run the escalator in inspection mode,&nbsp;</p>\n\n<p>Inspection mode running is not possible in any direction&nbsp;</p>\n\n<p>&nbsp;</p>\n\n<p><strong>Note: with fault 355, a normal run is possible&nbsp;</strong></p>\n\n<p>&nbsp;</p>\n\n<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\"><strong>Expected behavior:&nbsp;&nbsp;</strong></span></span></p>\n\n<p>&nbsp;</p>\n\n<p>with fault 355 (Communication fault, E Link) escalator should run in inspection mode</p>\n\n<p>&nbsp;</p>\n\n<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\"><strong>Actual behavior:</strong></span></span></p>\n\n<p>&nbsp;</p>\n\n<p>With the fault-activated condition, when trying to run the escalator in inspection mode, unable to run</p>\n\n<p>&nbsp;</p>\n\n<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\"><strong>Recovery:&nbsp;</strong></span></span></p>\n\n<p>&nbsp;</p>\n\n<p>If we disable the parameter PC1-1248_0. Then Inspection run is possible&nbsp;</p>\n\n<p>&nbsp;</p>\n\n<p>&nbsp;</p>\n\n<p>&nbsp;</p>\n",
-            "status": 1082,
+            "status": 1085,
             "BUG_component$154": 1561,
             "createdBy": 2925,
             "assignedTo": 6485,
@@ -4032,7 +4032,8 @@
             "BUG_howFound$154": 1092,
             "BUG_whereFound$154": 1137,
             "BUG_probability_on_field$154": 2398,
-            "root_cause_category$154": 2512,
+            "root_cause_category$154": 2515,
+            "BUG_rootCause$154": "<p>Requirement was incorrect</p>",
             "BUG_testCaseUpdated$154": 1198,
             "BUG_RD_comments$154": "<p>Vigneshwarar V [4.12.2025]- Resimulated the same issue in SIM 316 with the fault condition F 355. In inspection mode, the escalator could not run. After disabling the E-link selection parameter PC1_1248_0, the fault get cleared, but the escalator still not able to run in inspection mode(It gets hang), although it run normally in normal mode. We also tried by setting the default parameter with PC2_2908_1, but try to run in inspection mode still did not work. Finally, after reloading the software for the CPU, MSC, LSC, and LCB,the escalator was able to run in inspection mode,it working fine without any issues.</p>\n\n<p><strong>Note:Issue has observed 1 time&nbsp;</strong></p>\n\n<p><br />\n\u200b</p>",
             "BUG_V1_project$154": 1431
@@ -4044,7 +4045,7 @@
                 ]
             }
         },
-        "version": 5,
+        "version": 6,
         "location": {
             "sortOrder": 1361,
             "globalSortOrder": 1311274784,
@@ -4055,7 +4056,7 @@
         },
         "lock": {
             "locked": false,
-            "lastLockedDate": "2025-12-05T09:28:52.000+0000"
+            "lastLockedDate": "2025-12-05T13:35:34.000+0000"
         },
         "type": "items"
     },
@@ -4214,6 +4215,112 @@
             "sortOrder": 1365,
             "globalSortOrder": 1311279076,
             "sequence": "2.8.1366",
+            "parent": {
+                "item": 18771233
+            }
+        },
+        "lock": {
+            "locked": false
+        },
+        "type": "items"
+    },
+    {
+        "id": 28540948,
+        "documentKey": "KIE601-SWBUG-2794",
+        "globalId": "GID-7571208",
+        "itemType": 154,
+        "project": 417,
+        "createdDate": "2025-12-05T13:25:35.000+0000",
+        "modifiedDate": "2025-12-05T13:25:35.000+0000",
+        "lastActivityDate": "2025-12-05T13:25:35.000+0000",
+        "createdBy": 5932,
+        "modifiedBy": 5932,
+        "fields": {
+            "documentKey": "KIE601-SWBUG-2794",
+            "globalId": "GID-7571208",
+            "name": "IEX- Faults F 67-3(MSC and CPU Enhanced Safety Parameters Mismatch), 329-4(MSC 2 Enhanced Safety Parameter Push pending), and F 302  was triggered when Starting Escalator Using Key Switch in Learning Mode",
+            "description": "<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\"><strong>Detailed Defect Description:</strong></span></span></p>\n\n<p>IEX- Faults F 67-3(MSC and CPU Enhanced Safety Parameters Mismatch), 329-4(MSC 2 Enhanced Safety Parameter Push pending), and F 302 &nbsp;was triggered when Starting Escalator Using Key Switch in Learning Mode.</p>\n\n<p>&nbsp;</p>\n\n<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\"><strong>Parameters:&nbsp;&nbsp;</strong></span></span></p>\n\n<p>PC4_4000_1</p>\n\n<p>&nbsp;</p>\n\n<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\"><strong>Group configuration: </strong></span></span></p>\n\n<p>Single escalator setup</p>\n\n<p>&nbsp;</p>\n\n<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\"><strong>Drive type:</strong></span></span></p>\n\n<p>Monarch,Danfoss</p>\n\n<p>&nbsp;</p>\n\n<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\"><strong>Regression or new finding:</strong></span></span></p>\n\n<p>Adhoc</p>\n\n<p>&nbsp;</p>\n\n<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\"><strong>Description of the test case (Detailed Scenario)&nbsp;</strong></span></span></p>\n\n<p>1.Set the parameter PC4_4000_1.</p>\n\n<p>2.Start the escalator by using key switch.</p>\n\n<p>3.The escalator fails to start and displays fault code F 67-3 ,F329-4 &amp; F 302 in FUI.</p>\n\n<p>Note :This issue was reproduced 3<strong>&nbsp;times out of 5 key starts.</strong></p>\n\n<p>Performing an Enhanced Safety Push (<strong>PC2_2199_1</strong>) clears the faults. After the enhanced safety push, starting the escalator in learning mode using the key switch is successful.</p>\n\n<p>&nbsp;</p>\n\n<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\"><strong>Expected behavior:&nbsp;&nbsp;</strong></span></span></p>\n\n<p>The escalator should start normally without any faults.</p>\n\n<p>&nbsp;</p>\n\n<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\"><strong>Actual behavior:</strong></span></span></p>\n\n<p>The escalator does not start and F 67-3 ,F329-4 &amp; F 302 triggered in FUI</p>\n\n<p>&nbsp;</p>\n\n<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\"><strong>Recovery:&nbsp;</strong></span></span></p>\n\n<p>Performing an Enhanced Safety Push (<strong>PC2_2199_1</strong>) clears the faults. After the enhanced safety push, starting the escalator in learning mode using the key switch is successful.</p>\n\n<p>&nbsp;</p>\n\n<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\"><strong>Value-added information:&nbsp;</strong></span></span></p>\n\n<p>IEX SW-R 2.0.3</p>\n",
+            "status": 1081,
+            "BUG_component$154": 1561,
+            "createdBy": 5932,
+            "release": 2581,
+            "BUG_foundOnDate$154": "2025-12-04",
+            "priority": 2410,
+            "BUG_severity$154": 1109,
+            "BUG_category$154": 1422,
+            "BUG_testLevel$154": 1129,
+            "BUG_howFound$154": 1092,
+            "BUG_whereFound$154": 1137,
+            "BUG_probability_on_field$154": 2396,
+            "root_cause_category$154": 2512,
+            "BUG_testCaseUpdated$154": 1198,
+            "BUG_V1_project$154": 1431
+        },
+        "resources": {
+            "self": {
+                "allowed": [
+                    "GET"
+                ]
+            }
+        },
+        "version": 1,
+        "location": {
+            "sortOrder": 1373,
+            "globalSortOrder": 1311287660,
+            "sequence": "2.8.1374",
+            "parent": {
+                "item": 18771233
+            }
+        },
+        "lock": {
+            "locked": false
+        },
+        "type": "items"
+    },
+    {
+        "id": 28541182,
+        "documentKey": "KIE601-SWBUG-2795",
+        "globalId": "GID-7571399",
+        "itemType": 154,
+        "project": 417,
+        "createdDate": "2025-12-05T13:31:05.000+0000",
+        "modifiedDate": "2025-12-05T13:31:05.000+0000",
+        "lastActivityDate": "2025-12-05T13:31:05.000+0000",
+        "createdBy": 5932,
+        "modifiedBy": 5932,
+        "fields": {
+            "documentKey": "KIE601-SWBUG-2795",
+            "globalId": "GID-7571399",
+            "name": "IEX-EGD Display shows undefined fault for 355 (Communication fault, E Link)",
+            "description": "<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\"><strong>Detailed Defect Description:</strong></span></span></p>\n\n<p>IEX-EGD Display shows undefined fault for 355 (Communication fault, E Link)</p>\n\n<p>&nbsp;</p>\n\n<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\"><strong>Parameters:&nbsp;&nbsp;</strong></span></span></p>\n\n<p><span style=\"font-family:Calibri, sans-serif\"><span style=\"font-size:14.6667px\">PC1_1248_1</span></span></p>\n\n<p>&nbsp;</p>\n\n<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\"><strong>Group configuration: </strong></span></span></p>\n\n<p><span style=\"font-family:Calibri, sans-serif\"><span style=\"font-size:14.6667px\">Single escalator setup</span></span></p>\n\n<p>&nbsp;</p>\n\n<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\"><strong>Drive type:</strong></span></span></p>\n\n<p><span style=\"font-family:Calibri, sans-serif\"><span style=\"font-size:14.6667px\">Monarch,Danfoss</span></span></p>\n\n<p>&nbsp;</p>\n\n<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\"><strong>Regression or new finding:</strong></span></span></p>\n\n<p><span style=\"font-family:Calibri, sans-serif\"><span style=\"font-size:14.6667px\">Adhoc</span></span></p>\n\n<p>&nbsp;</p>\n\n<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\"><strong>Description of the test case (Detailed Scenario)&nbsp;</strong></span></span></p>\n\n<p>1.Create 355 fault (Communication fault, E Link).</p>\n\n<p>2.Check in EGD Display.</p>\n\n<p>3.EGD Display shows undefined fault.</p>\n\n<p><img alt=\"\" height=\"170\" src=\"https://konerqm.jamacloud.com/attachment/233829/2025_12_05_13_29_231.png\" width=\"270\" /></p>\n\n<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\"><strong>Expected behavior:&nbsp;&nbsp;</strong></span></span></p>\n\n<p>EGD Display need to show Communication fault, E Link</p>\n\n<p>&nbsp;</p>\n\n<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\"><strong>Actual behavior:</strong></span></span></p>\n\n<p>EGD Display shows undefined fault.</p>\n\n<p>&nbsp;</p>\n\n<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\"><strong>Recovery:&nbsp;</strong></span></span></p>\n\n<p><span style=\"font-family:Calibri, sans-serif\"><span style=\"font-size:14.6667px\">-</span></span></p>\n\n<p>&nbsp;</p>\n\n<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\"><strong>Value-added information:&nbsp;</strong></span></span></p>\n\n<p>IEX SW-R 2.0.3</p>\n\n<p>Attached screenshot</p>\n\n<p>&nbsp;</p>\n",
+            "status": 1081,
+            "BUG_component$154": 1561,
+            "createdBy": 5932,
+            "release": 2581,
+            "BUG_foundOnDate$154": "2025-12-03",
+            "priority": 2410,
+            "BUG_severity$154": 1109,
+            "BUG_category$154": 1422,
+            "BUG_testLevel$154": 1129,
+            "BUG_howFound$154": 1092,
+            "BUG_whereFound$154": 1137,
+            "BUG_probability_on_field$154": 2397,
+            "root_cause_category$154": 2512,
+            "BUG_testCaseUpdated$154": 1198,
+            "BUG_V1_project$154": 1431
+        },
+        "resources": {
+            "self": {
+                "allowed": [
+                    "GET"
+                ]
+            }
+        },
+        "version": 1,
+        "location": {
+            "sortOrder": 1374,
+            "globalSortOrder": 1311356285,
+            "sequence": "2.8.1375",
             "parent": {
                 "item": 18771233
             }
@@ -20484,16 +20591,16 @@
         "itemType": 154,
         "project": 229,
         "createdDate": "2025-11-05T08:26:16.000+0000",
-        "modifiedDate": "2025-11-05T08:47:35.000+0000",
-        "lastActivityDate": "2025-11-05T08:47:35.000+0000",
+        "modifiedDate": "2025-12-05T12:48:22.000+0000",
+        "lastActivityDate": "2025-12-05T12:48:22.000+0000",
         "createdBy": 6096,
-        "modifiedBy": 1129,
+        "modifiedBy": 870,
         "fields": {
             "documentKey": "KCE-SWBUG-6906",
             "globalId": "GID-7514917",
             "name": "4.6 - ProManager - Fault #2111's Data 1 Description data is missing",
             "description": "<p><em><strong>Description:</strong></em></p>\n\n<p>&nbsp;</p>\n\n<p>\"High Priority\" PDX Fault #2111 has no information shown in \"Data 1\" to troubleshoot the issue</p>\n\n<p>&nbsp;</p>\n\n<p><img alt=\"\" height=\"426\" src=\"https://konerqm.jamacloud.com/attachment/230406/image-obPnWYs6V2.png\" width=\"934\" /></p>\n\n<p>&nbsp;</p>\n\n<p><em><strong>**Localization Files are updated</strong></em></p>\n\n<p>&nbsp;</p>\n",
-            "status": 1081,
+            "status": 1085,
             "BUG_component$154": 2435,
             "createdBy": 6096,
             "assignedTo": 870,
@@ -20510,6 +20617,7 @@
             "BUG_probability_on_field$154": 2398,
             "root_cause_category$154": 2512,
             "BUG_testCaseUpdated$154": 1198,
+            "BUG_RD_comments$154": "<p>Alessio Calcagno 5.12.2025: Data 1 corrected in database tool.</p>\n\n<p>&nbsp;</p>\n\n<p>Data1:&nbsp;</p>\n\n<p>0 = Brake side A<br />\n1 = Brake side B</p>",
             "BUG_V1_project$154": 1431
         },
         "resources": {
@@ -20522,7 +20630,7 @@
                 ]
             }
         },
-        "version": 3,
+        "version": 4,
         "location": {
             "sortOrder": 6348,
             "globalSortOrder": 1662152622,
@@ -20533,7 +20641,7 @@
         },
         "lock": {
             "locked": false,
-            "lastLockedDate": "2025-11-05T08:47:37.000+0000"
+            "lastLockedDate": "2025-12-05T12:48:23.000+0000"
         },
         "type": "items"
     },
@@ -20544,16 +20652,16 @@
         "itemType": 154,
         "project": 229,
         "createdDate": "2025-11-06T12:18:16.000+0000",
-        "modifiedDate": "2025-11-12T08:32:04.000+0000",
-        "lastActivityDate": "2025-11-12T08:32:04.000+0000",
+        "modifiedDate": "2025-12-05T12:59:02.000+0000",
+        "lastActivityDate": "2025-12-05T12:59:02.000+0000",
         "createdBy": 5804,
-        "modifiedBy": 1129,
+        "modifiedBy": 870,
         "fields": {
             "documentKey": "KCE-SWBUG-6922",
             "globalId": "GID-7516442",
             "name": "PDX - Fault #1064's Data is missing",
             "description": "<p><strong>Description:</strong></p>\n\n<p>&nbsp;</p>\n\n<ul>\n\t<li>High Priority Fault #1064's Data 1 Value is popped up but there's no info regarding the reason for that to troubleshoot</li>\n</ul>\n\n<p><img alt=\"\" height=\"485\" src=\"https://konerqm.jamacloud.com/attachment/230604/2025_11_06_12_16_282.png\" width=\"1267\" /></p>\n\n<p>&nbsp;</p>\n\n<p><strong>Note:</strong></p>\n\n<ul>\n\t<li>Localization Files are updated</li>\n\t<li>ProManager SW Version: 4.6.239.7126</li>\n</ul>\n",
-            "status": 1081,
+            "status": 1085,
             "BUG_component$154": 2435,
             "createdBy": 5804,
             "assignedTo": 870,
@@ -20569,6 +20677,7 @@
             "BUG_probability_on_field$154": 2398,
             "root_cause_category$154": 2512,
             "BUG_testCaseUpdated$154": 1198,
+            "BUG_RD_comments$154": "<p>Alessio Calcagno 5.12.2025: KCE Tool Database corrected.</p>\n\n<p>&nbsp;</p>\n\n<p>Data 1:</p>\n\n<p>0 = Brake side A<br />\n1 = Brake side B</p>",
             "BUG_V1_project$154": 1431
         },
         "resources": {
@@ -20581,7 +20690,7 @@
                 ]
             }
         },
-        "version": 2,
+        "version": 3,
         "location": {
             "sortOrder": 6361,
             "globalSortOrder": 1662407136,
@@ -20592,7 +20701,7 @@
         },
         "lock": {
             "locked": false,
-            "lastLockedDate": "2025-11-12T08:32:08.000+0000"
+            "lastLockedDate": "2025-12-05T12:59:03.000+0000"
         },
         "type": "items"
     },
