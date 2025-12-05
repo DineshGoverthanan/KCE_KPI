@@ -21181,8 +21181,8 @@
         "itemType": 154,
         "project": 229,
         "createdDate": "2025-11-26T11:16:41.000+0000",
-        "modifiedDate": "2025-12-03T12:49:32.000+0000",
-        "lastActivityDate": "2025-12-04T16:44:54.000+0000",
+        "modifiedDate": "2025-12-05T06:26:24.000+0000",
+        "lastActivityDate": "2025-12-05T06:26:24.000+0000",
         "createdBy": 6096,
         "modifiedBy": 620,
         "fields": {
@@ -21190,7 +21190,7 @@
             "globalId": "GID-7553735",
             "name": "0.0.0.88 - TSCOP - EAQ Indication not shown when EAQ is triggered for the second time",
             "description": "<p><em><strong>Parameter:</strong></em></p>\n\n<ul>\n\t<li>UI - Standard UI</li>\n\t<li>TSCOP - Main</li>\n\t<li>Logic for Side Handling - Selective</li>\n\t<li>Logic for FRD - Selective</li>\n</ul>\n\n<p><br />\n<em><strong>CPU Parameter:</strong></em></p>\n\n<ul>\n\t<li>1308 - 1</li>\n\t<li>1309 - 0</li>\n</ul>\n\n<p>&nbsp;</p>\n\n<p><em><strong>Description:</strong></em></p>\n\n<ul>\n\t<li>LD : 17.0.0.18</li>\n\t<li>KNSMUL : 0.0.0.49</li>\n\t<li>Drive : KDHN 150</li>\n\t<li>Shaft : 72 Floor TTC setup&nbsp;</li>\n\t<li>WELM : 0.0.0.88</li>\n\t<li>Proto SW : 0.0.0.15</li>\n\t<li>Theme (Newer Mock Theme causing issue with the Application SW, So older Theme used for testing)</li>\n\t<li>1096 - 0</li>\n\t<li>A &amp; B side KNSMUL - Non-Conventional (KCOP)</li>\n</ul>\n\n<p>&nbsp;</p>\n\n<p><em><strong>Actual Scenario:</strong></em></p>\n\n<ul>\n\t<li>Elevator in Floor Level&nbsp;</li>\n\t<li>EAQ is triggered from Landing (OPT)</li>\n\t<li>For the first Input, EAQ Indication is shown correctly in UI</li>\n\t<li>When EAQ is Turned OFF &amp; ON (Before Doors are completely Closed again)</li>\n\t<li>There is no EAQ indication shown</li>\n</ul>\n\n<p>&nbsp;</p>\n\n<p><em><strong>1st time EAQ Triggered:\u200b\u200b\u200b\u200b\u200b\u200b</strong></em></p>\n\n<p><img alt=\"\" height=\"419\" src=\"https://konerqm.jamacloud.com/attachment/232654/image-ybKLLkx7jJ.png\" width=\"316\" /></p>\n\n<p>&nbsp;</p>\n\n<p><em><strong>EAQ Triggered for the 2nd time:</strong></em></p>\n\n<p><img alt=\"\" height=\"397\" src=\"https://konerqm.jamacloud.com/attachment/232653/image-0rxjrDzgKu.png\" width=\"311\" /></p>\n\n<p><br />\n<em><strong>Note:</strong></em></p>\n\n<ul>\n\t<li>At this particular time, RDF is turned ON, OSI is shown correctly, Turning it off again leaves with OSI&nbsp;</li>\n\t<li>Checked in Both AUX &amp; Main TSCOP, Same issue noted</li>\n</ul>\n\n<p><br />\n<em><strong>Expected Scenario:</strong></em></p>\n\n<ul>\n\t<li>EAQ indication again should show regardless of any state, once activated</li>\n</ul>\n\n<p><br />\n<em><strong>Logs:</strong></em></p>\n\n<ul>\n\t<li>TSCOP Logs</li>\n\t<li>LPA</li>\n\t<li>Event Traffic</li>\n</ul>\n",
-            "status": 1081,
+            "status": 1084,
             "BUG_component$154": 1291,
             "BUG_subcomponent$154": "WELM 0.0.0.88",
             "createdBy": 6096,
@@ -21211,7 +21211,7 @@
             "BUG_jiraId$154": "KCE-31571",
             "BUG_jira_project$154": 2465,
             "BUG_jira_URL$154": "https://kone.atlassian.net/browse/KCE-31571",
-            "BUG_integration_synced_time$154": "2025-12-03 12:49:31.523842",
+            "BUG_integration_synced_time$154": "2025-12-05 06:26:23.426142",
             "BUG_V1_project$154": 1431
         },
         "resources": {
@@ -21224,7 +21224,7 @@
                 ]
             }
         },
-        "version": 5,
+        "version": 7,
         "location": {
             "sortOrder": 6472,
             "globalSortOrder": 1664580294,
@@ -21235,7 +21235,7 @@
         },
         "lock": {
             "locked": false,
-            "lastLockedDate": "2025-12-03T12:48:32.000+0000"
+            "lastLockedDate": "2025-12-05T06:25:59.000+0000"
         },
         "type": "items"
     },
@@ -21312,7 +21312,7 @@
         "project": 229,
         "createdDate": "2025-11-26T15:10:34.000+0000",
         "modifiedDate": "2025-12-05T05:09:25.000+0000",
-        "lastActivityDate": "2025-12-05T05:09:25.000+0000",
+        "lastActivityDate": "2025-12-05T06:17:33.000+0000",
         "createdBy": 6096,
         "modifiedBy": 620,
         "fields": {
@@ -21924,7 +21924,7 @@
         "project": 229,
         "createdDate": "2025-12-03T06:02:02.000+0000",
         "modifiedDate": "2025-12-04T11:43:15.000+0000",
-        "lastActivityDate": "2025-12-04T11:43:15.000+0000",
+        "lastActivityDate": "2025-12-05T06:17:57.000+0000",
         "createdBy": 6257,
         "modifiedBy": 620,
         "fields": {
@@ -21987,7 +21987,7 @@
         "project": 229,
         "createdDate": "2025-12-03T07:45:55.000+0000",
         "modifiedDate": "2025-12-04T12:06:34.000+0000",
-        "lastActivityDate": "2025-12-04T12:06:34.000+0000",
+        "lastActivityDate": "2025-12-05T06:17:14.000+0000",
         "createdBy": 6257,
         "modifiedBy": 620,
         "fields": {

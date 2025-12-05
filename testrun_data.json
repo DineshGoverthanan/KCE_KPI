@@ -9780,6 +9780,13 @@
     },
     {
         "TestRunStatus":"PASSED",
+        "ExecutionDate":"2025-12-05",
+        "Document Key":"KIE601-TSTRN-70627",
+        "Name":"Voice announcer",
+        "Assigned To":"Mohammed Ibrahim Sultan"
+    },
+    {
+        "TestRunStatus":"PASSED",
         "ExecutionDate":"2025-08-07",
         "Document Key":"KIE601-TSTRN-56809",
         "Name":"Inspection Modes Parameters",
@@ -9797,6 +9804,13 @@
         "ExecutionDate":"2025-07-30",
         "Document Key":"KIE601-TSTRN-56800",
         "Name":"Factory Mode Disabled & Input Supervision Enabled ( Permanent) ",
+        "Assigned To":"Mohammed Ibrahim Sultan"
+    },
+    {
+        "TestRunStatus":"PASSED",
+        "ExecutionDate":"2025-12-05",
+        "Document Key":"KIE601-TSTRN-70630",
+        "Name":"Voice announcer in nodes supervision",
         "Assigned To":"Mohammed Ibrahim Sultan"
     },
     {
@@ -10199,10 +10213,24 @@
         "Assigned To":"VIGNESHWARAR"
     },
     {
+        "TestRunStatus":"PASSED",
+        "ExecutionDate":"2025-12-05",
+        "Document Key":"KIE601-TSTRN-70565",
+        "Name":"Standby Mode - KSB - Operation by Inverter - Up direction",
+        "Assigned To":"Mohammed Ibrahim Sultan"
+    },
+    {
         "TestRunStatus":"FAILED",
         "ExecutionDate":"2025-08-07",
         "Document Key":"KIE601-TSTRN-56752",
         "Name":"LCB Node Pairing\u00a0",
+        "Assigned To":"Mohammed Ibrahim Sultan"
+    },
+    {
+        "TestRunStatus":"PASSED",
+        "ExecutionDate":"2025-12-05",
+        "Document Key":"KIE601-TSTRN-70566",
+        "Name":"Standby Mode - KSB - Operation by Inverter - Down direction",
         "Assigned To":"Mohammed Ibrahim Sultan"
     },
     {
@@ -10214,9 +10242,30 @@
     },
     {
         "TestRunStatus":"PASSED",
+        "ExecutionDate":"2025-12-05",
+        "Document Key":"KIE601-TSTRN-70567",
+        "Name":"KSB Mode - Change of Different operation modes",
+        "Assigned To":"Mohammed Ibrahim Sultan"
+    },
+    {
+        "TestRunStatus":"PASSED",
         "ExecutionDate":"2025-08-07",
         "Document Key":"KIE601-TSTRN-56750",
         "Name":"Node Pairing ",
+        "Assigned To":"Mohammed Ibrahim Sultan"
+    },
+    {
+        "TestRunStatus":"INPROGRESS",
+        "ExecutionDate":"2025-12-05",
+        "Document Key":"KIE601-TSTRN-70568",
+        "Name":"Standby Mode - KSB - Faults",
+        "Assigned To":"Mohammed Ibrahim Sultan"
+    },
+    {
+        "TestRunStatus":"PASSED",
+        "ExecutionDate":"2025-12-05",
+        "Document Key":"KIE601-TSTRN-70569",
+        "Name":"Standby Mode- KSB - Inverter - Opposite Running",
         "Assigned To":"Mohammed Ibrahim Sultan"
     },
     {
@@ -11102,8 +11151,8 @@
         "Assigned To":"Suryanarayanan"
     },
     {
-        "TestRunStatus":"INPROGRESS",
-        "ExecutionDate":"2025-12-04",
+        "TestRunStatus":"FAILED",
+        "ExecutionDate":"2025-12-05",
         "Document Key":"KCE-TSTRN-4007297",
         "Name":"Group features - HEL - Hospital Emergency service at landings - Phase 1",
         "Assigned To":"Jagadeesh"
@@ -16766,7 +16815,7 @@
     },
     {
         "TestRunStatus":"INPROGRESS",
-        "ExecutionDate":"2025-12-04",
+        "ExecutionDate":"2025-12-05",
         "Document Key":"KCE-TSTRN-4006817",
         "Name":"FPD .T - Fire Protection Door",
         "Assigned To":"Dinesh"
@@ -16898,29 +16947,29 @@
         "Assigned To":"Nithya Priya"
     },
     {
-        "TestRunStatus":"INPROGRESS",
+        "TestRunStatus":"PASSED",
         "ExecutionDate":"2025-12-05",
         "Document Key":"KCE-TSTRN-4007360",
         "Name":"10\" DOP Customizable header with image",
         "Assigned To":"Nithya Priya"
     },
     {
-        "TestRunStatus":"INPROGRESS",
-        "ExecutionDate":"2025-12-04",
+        "TestRunStatus":"PASSED",
+        "ExecutionDate":"2025-12-05",
         "Document Key":"KCE-TSTRN-4007361",
         "Name":"7\" DOP Customizable header with image",
         "Assigned To":"Nithya Priya"
     },
     {
         "TestRunStatus":"INPROGRESS",
-        "ExecutionDate":"2025-12-04",
+        "ExecutionDate":"2025-12-05",
         "Document Key":"KCE-TSTRN-4007362",
         "Name":"10\" DOP Customizable header with color",
         "Assigned To":"Nithya Priya"
     },
     {
         "TestRunStatus":"INPROGRESS",
-        "ExecutionDate":"2025-12-04",
+        "ExecutionDate":"2025-12-05",
         "Document Key":"KCE-TSTRN-4007363",
         "Name":"7\" DOP Customizable header with color",
         "Assigned To":"Nithya Priya"
