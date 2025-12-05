@@ -4614,7 +4614,7 @@
     },
     {
         "TestRunStatus":"FAILED",
-        "ExecutionDate":"2025-12-03",
+        "ExecutionDate":"2025-12-04",
         "Document Key":"KCE-TSTRN-4007140",
         "Name":"D4 Release 5 Rush Tests (LD: 17.0.0.20, GCD: 17.0.1.1) - Global",
         "Assigned To":"Veeramanikandan"
@@ -10031,6 +10031,13 @@
         "Assigned To":"VIGNESHWARAR"
     },
     {
+        "TestRunStatus":"INPROGRESS",
+        "ExecutionDate":"2025-12-04",
+        "Document Key":"KIE601-TSTRN-70594",
+        "Name":"Escalator modes, monitoring, E-Link",
+        "Assigned To":"S.P"
+    },
+    {
         "TestRunStatus":"PASSED",
         "ExecutionDate":"2025-07-30",
         "Document Key":"KIE601-TSTRN-56755",
@@ -10269,6 +10276,34 @@
         "Assigned To":"S.P"
     },
     {
+        "TestRunStatus":"INPROGRESS",
+        "ExecutionDate":"2025-12-04",
+        "Document Key":"KIE601-TSTRN-70512",
+        "Name":"Brake Lift & Close Monitoring. ( Motor Selection 1)",
+        "Assigned To":"VIGNESHWARAR"
+    },
+    {
+        "TestRunStatus":"PASSED",
+        "ExecutionDate":"2025-12-04",
+        "Document Key":"KIE601-TSTRN-70514",
+        "Name":" Safety fault codes MSC (1)",
+        "Assigned To":"S.P"
+    },
+    {
+        "TestRunStatus":"PASSED",
+        "ExecutionDate":"2025-12-04",
+        "Document Key":"KIE601-TSTRN-70515",
+        "Name":" Safety fault codes MSC (2)",
+        "Assigned To":"S.P"
+    },
+    {
+        "TestRunStatus":"PASSED",
+        "ExecutionDate":"2025-12-04",
+        "Document Key":"KIE601-TSTRN-70518",
+        "Name":"Operation modes ",
+        "Assigned To":"VIGNESHWARAR"
+    },
+    {
         "TestRunStatus":"PASSED",
         "ExecutionDate":"2025-12-02",
         "Document Key":"KIE601-TSTRN-70522",
@@ -10311,10 +10346,17 @@
         "Assigned To":"VIGNESHWARAR"
     },
     {
-        "TestRunStatus":"INPROGRESS",
+        "TestRunStatus":"FAILED",
         "ExecutionDate":"2025-12-04",
         "Document Key":"KIE601-TSTRN-70547",
         "Name":"Contactor feedback ",
+        "Assigned To":"VIGNESHWARAR"
+    },
+    {
+        "TestRunStatus":"INPROGRESS",
+        "ExecutionDate":"2025-12-04",
+        "Document Key":"KIE601-TSTRN-70548",
+        "Name":"Contactor feedback inspection",
         "Assigned To":"VIGNESHWARAR"
     },
     {

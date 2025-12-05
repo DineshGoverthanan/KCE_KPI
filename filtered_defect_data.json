@@ -4003,6 +4003,167 @@
         "type": "items"
     },
     {
+        "id": 28531367,
+        "documentKey": "KIE601-SWBUG-2782",
+        "globalId": "GID-7569475",
+        "itemType": 154,
+        "project": 417,
+        "createdDate": "2025-12-04T15:15:17.000+0000",
+        "modifiedDate": "2025-12-04T15:15:17.000+0000",
+        "lastActivityDate": "2025-12-04T15:15:18.000+0000",
+        "createdBy": 2925,
+        "modifiedBy": 2925,
+        "fields": {
+            "documentKey": "KIE601-SWBUG-2782",
+            "globalId": "GID-7569475",
+            "name": "E-link- with Communication fault, unable to RUN the escalator in inspection mode",
+            "description": "<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\"><strong>Detailed Defect Description:</strong></span></span></p>\n\n<p><span style=\"font-family:Calibri,sans-serif\"><span style=\"font-size:14.6667px\">With the&nbsp;</span></span><span style=\"font-family:Calibri,sans-serif\"><span style=\"font-size:14.6667px\">E-link</span></span><span style=\"font-family:Calibri,sans-serif\"><span style=\"font-size:14.6667px\">&nbsp;</span></span><span style=\"font-family:Calibri,sans-serif\"><span style=\"font-size:14.6667px\">Communication fault 355- unable to run the escalator in inspection mode</span></span></p>\n\n<p>&nbsp;</p>\n\n<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\"><strong>Parameters:&nbsp;&nbsp;</strong></span></span></p>\n\n<p>&nbsp;</p>\n\n<p>PC1 - 1248_1</p>\n\n<p>&nbsp;</p>\n\n<p>&nbsp;</p>\n\n<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\"><strong>Drive type:</strong></span></span></p>\n\n<p>&nbsp;</p>\n\n<p>Danfoss and Monarch</p>\n\n<p>&nbsp;</p>\n\n<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\"><strong>Description of the test case (Detailed Scenario)&nbsp;</strong></span></span></p>\n\n<p>&nbsp;</p>\n\n<p>1 The escalator is in normal mode</p>\n\n<p>2 Set parameter PC1 - 1248_1(ELink Selection)</p>\n\n<p>3 Now, run the escalator UP/DOWN direction</p>\n\n<p>4 During running, create fault 355 (Communication fault, E Link)&nbsp;</p>\n\n<p>5 with the fault activated, when trying to run the escalator in inspection mode,&nbsp;</p>\n\n<p>Inspection mode running is not possible in any direction&nbsp;</p>\n\n<p>&nbsp;</p>\n\n<p><strong>Note: with fault 355, a normal run is possible&nbsp;</strong></p>\n\n<p>&nbsp;</p>\n\n<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\"><strong>Expected behavior:&nbsp;&nbsp;</strong></span></span></p>\n\n<p>&nbsp;</p>\n\n<p>with fault 355 (Communication fault, E Link) escalator should run in inspection mode</p>\n\n<p>&nbsp;</p>\n\n<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\"><strong>Actual behavior:</strong></span></span></p>\n\n<p>&nbsp;</p>\n\n<p>With the fault-activated condition, when trying to run the escalator in inspection mode, unable to run</p>\n\n<p>&nbsp;</p>\n\n<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\"><strong>Recovery:&nbsp;</strong></span></span></p>\n\n<p>&nbsp;</p>\n\n<p>If we disable the parameter PC1-1248_0. Then Inspection run is possible&nbsp;</p>\n\n<p>&nbsp;</p>\n\n<p>&nbsp;</p>\n\n<p>&nbsp;</p>\n",
+            "status": 1081,
+            "BUG_component$154": 1561,
+            "createdBy": 2925,
+            "release": 2581,
+            "BUG_foundOnDate$154": "2025-12-03",
+            "priority": 2410,
+            "BUG_severity$154": 1109,
+            "BUG_category$154": 1422,
+            "BUG_testLevel$154": 1129,
+            "BUG_howFound$154": 1092,
+            "BUG_whereFound$154": 1137,
+            "BUG_probability_on_field$154": 2398,
+            "root_cause_category$154": 2512,
+            "BUG_testCaseUpdated$154": 1198,
+            "BUG_V1_project$154": 1431
+        },
+        "resources": {
+            "self": {
+                "allowed": [
+                    "GET"
+                ]
+            }
+        },
+        "version": 1,
+        "location": {
+            "sortOrder": 1361,
+            "globalSortOrder": 1311274784,
+            "sequence": "2.8.1362",
+            "parent": {
+                "item": 18771233
+            }
+        },
+        "lock": {
+            "locked": false
+        },
+        "type": "items"
+    },
+    {
+        "id": 28535399,
+        "documentKey": "KIE601-SWBUG-2783",
+        "globalId": "GID-7569567",
+        "itemType": 154,
+        "project": 417,
+        "createdDate": "2025-12-05T01:52:05.000+0000",
+        "modifiedDate": "2025-12-05T01:52:05.000+0000",
+        "lastActivityDate": "2025-12-05T01:52:05.000+0000",
+        "createdBy": 6117,
+        "modifiedBy": 6117,
+        "fields": {
+            "documentKey": "KIE601-SWBUG-2783",
+            "globalId": "GID-7569567",
+            "name": "IEX - Lower FUI gets hanged when parameter PC5_5300 is accessed when escalator is running - Lower FUI must not display No access.",
+            "description": "<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\"><strong>Detailed Defect Description:</strong></span></span></p>\n\n<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\">IEX - Lower FUI gets hanged when parameter PC5_5300 is accessed when escalator is running - Lower FUI must not display No access.</span></span></p>\n\n<p>&nbsp;</p>\n\n<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\"><strong>Parameters:&nbsp;&nbsp;</strong></span></span></p>\n\n<p><span style=\"font-family:Calibri, sans-serif\"><span style=\"font-size:14.6667px\">PC5_5300 (Node SW Download)</span></span></p>\n\n<p>&nbsp;</p>\n\n<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\"><strong>Group configuration: </strong></span></span></p>\n\n<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\">NA</span></span></p>\n\n<p>&nbsp;</p>\n\n<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\"><strong>Drive type:</strong></span></span></p>\n\n<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\">NA</span></span></p>\n\n<p>&nbsp;</p>\n\n<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\"><strong>Regression or new finding:</strong></span></span></p>\n\n<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\">New Finding</span></span></p>\n\n<p>&nbsp;</p>\n\n<p>&nbsp;</p>\n\n<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\"><strong>Test case Name / Feature name:</strong></span></span></p>\n\n<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\">Ad hoc</span></span></p>\n\n<p>&nbsp;</p>\n\n<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\"><strong>Test step number:</strong></span></span></p>\n\n<p><span style=\"font-family:Calibri, sans-serif\"><span style=\"font-size:14.6667px\">Ad hoc</span></span></p>\n\n<p>&nbsp;</p>\n\n<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\"><strong>Description of the test case (Detailed Scenario)&nbsp;</strong></span></span></p>\n\n<ul>\n\t<li>The Escalator is running in Operational Mode / Inspection mode</li>\n\t<li>Try to access the parameter PC5_5300</li>\n\t<li>Lower FUI and Upper FUI shows \"No access\"</li>\n\t<li>Upper FUI comes back to normal screen, but lower FUI does not refresh.</li>\n\t<li>Tried to create safety fault codes - Lower FUI is still hanged in \"no access\" screen.</li>\n</ul>\n\n<p>&nbsp;</p>\n\n<p>Note:</p>\n\n<p>Recovery: Press any button in FUI screen</p>\n\n<p>Frequency: 1 out of 10 times</p>\n\n<p>&nbsp;</p>\n\n<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\"><strong>Expected behavior:&nbsp;&nbsp;</strong></span></span></p>\n\n<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\">Lower FUI must not display \"No access\"</span></span></p>\n\n<p>&nbsp;</p>\n\n<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\"><strong>Actual behavior:</strong></span></span></p>\n\n<p>Upper FUI comes back to normal screen, but lower FUI does not refresh.</p>\n",
+            "status": 1081,
+            "BUG_component$154": 1561,
+            "BUG_subcomponent$154": "IEX",
+            "createdBy": 6117,
+            "release": 2581,
+            "BUG_foundOnDate$154": "2025-12-04",
+            "priority": 2410,
+            "BUG_severity$154": 1110,
+            "BUG_category$154": 1422,
+            "BUG_testLevel$154": 1129,
+            "BUG_howFound$154": 1092,
+            "BUG_whereFound$154": 1137,
+            "BUG_probability_on_field$154": 2396,
+            "root_cause_category$154": 2512,
+            "BUG_testCaseUpdated$154": 1198,
+            "BUG_V1_project$154": 1431
+        },
+        "resources": {
+            "self": {
+                "allowed": [
+                    "GET"
+                ]
+            }
+        },
+        "version": 1,
+        "location": {
+            "sortOrder": 1362,
+            "globalSortOrder": 1311275857,
+            "sequence": "2.8.1363",
+            "parent": {
+                "item": 18771233
+            }
+        },
+        "lock": {
+            "locked": false
+        },
+        "type": "items"
+    },
+    {
+        "id": 28535402,
+        "documentKey": "KIE601-SWBUG-2785",
+        "globalId": "GID-7569569",
+        "itemType": 154,
+        "project": 417,
+        "createdDate": "2025-12-05T02:01:15.000+0000",
+        "modifiedDate": "2025-12-05T02:01:15.000+0000",
+        "lastActivityDate": "2025-12-05T02:01:15.000+0000",
+        "createdBy": 6117,
+        "modifiedBy": 6117,
+        "fields": {
+            "documentKey": "KIE601-SWBUG-2785",
+            "globalId": "GID-7569569",
+            "name": "IEX - After LCB node SW Downloading, FC 348-1 is posted (Node pairing \"Pairing check failed\" - LCB)",
+            "description": "<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\"><strong>Detailed Defect Description:</strong></span></span></p>\n\n<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\">IEX - After LCB node SW Downloading, FC 348-1 is posted (Node pairing \"Pairing check failed\" - LCB)</span></span></p>\n\n<p>&nbsp;</p>\n\n<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\"><strong>Parameters:&nbsp; </strong></span></span></p>\n\n<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\">PC5_5300_1 (LCB Node SW Download)</span></span></p>\n\n<p>&nbsp;</p>\n\n<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\"><strong>Group configuration: </strong></span></span></p>\n\n<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\">NA</span></span></p>\n\n<p>&nbsp;</p>\n\n<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\"><strong>Drive type:</strong></span></span></p>\n\n<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\">NA</span></span></p>\n\n<p>&nbsp;</p>\n\n<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\"><strong>Regression or new finding:</strong></span></span></p>\n\n<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\">New Finding</span></span></p>\n\n<p>&nbsp;</p>\n\n<p>&nbsp;</p>\n\n<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\"><strong>Test case Name / Feature name:</strong></span></span></p>\n\n<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\">Test Case: LCB Node pairing</span></span></p>\n\n<p>&nbsp;</p>\n\n<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\"><strong>Test step number:</strong></span></span></p>\n\n<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\">13</span></span></p>\n\n<p>&nbsp;</p>\n\n<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\"><strong>Description of the test case (Detailed Scenario)&nbsp;</strong></span></span></p>\n\n<ul>\n\t<li>The LCB node SW is initiated with PC5_5300_1</li>\n\t<li>After the process, FC 103.13 (Communication fault, LCB) and FC<span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\">&nbsp;348-1 is posted (Node pairing \"Pairing check failed\" - LCB)</span></span></li>\n\t<li><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\">The FC 348-1 does not clear after power cycle also.</span></span></li>\n\t<li><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\">After Roll call - Non safety lower, The FC 348-1 gets cleared.</span></span>&nbsp;</li>\n</ul>\n\n<p>&nbsp;</p>\n\n<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\"><strong>Expected behavior:&nbsp;&nbsp;</strong></span></span></p>\n\n<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\">FC 348-1 must not be posted</span></span></p>\n\n<p>&nbsp;</p>\n\n<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\"><strong>Actual behavior:</strong></span></span></p>\n\n<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\">FC 348-1 is posted</span></span></p>\n\n<p>&nbsp;</p>\n\n<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\"><strong>Recovery:&nbsp;</strong></span></span></p>\n\n<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\">Roll call - Non safety NW Lower</span></span></p>\n\n<p>&nbsp;</p>\n\n<p><strong>Frequency:</strong></p>\n\n<p>1 Out of 10 times</p>\n",
+            "status": 1081,
+            "BUG_component$154": 1561,
+            "BUG_subcomponent$154": "IEX",
+            "createdBy": 6117,
+            "release": 2581,
+            "BUG_foundOnDate$154": "2025-12-04",
+            "priority": 2410,
+            "BUG_severity$154": 1110,
+            "BUG_category$154": 1422,
+            "BUG_testLevel$154": 1129,
+            "BUG_howFound$154": 2407,
+            "BUG_whereFound$154": 1137,
+            "BUG_probability_on_field$154": 2396,
+            "root_cause_category$154": 2512,
+            "BUG_testCaseUpdated$154": 1198,
+            "BUG_V1_project$154": 1431
+        },
+        "resources": {
+            "self": {
+                "allowed": [
+                    "GET"
+                ]
+            }
+        },
+        "version": 1,
+        "location": {
+            "sortOrder": 1364,
+            "globalSortOrder": 1311350920,
+            "sequence": "2.8.1365",
+            "parent": {
+                "item": 18771233
+            }
+        },
+        "lock": {
+            "locked": false
+        },
+        "type": "items"
+    },
+    {
         "id": 26912907,
         "documentKey": "DRIVE_HW_SW-SWBUG-1587",
         "globalId": "GID-7250660",
@@ -20963,7 +21124,7 @@
         "project": 229,
         "createdDate": "2025-11-26T11:16:41.000+0000",
         "modifiedDate": "2025-12-03T12:49:32.000+0000",
-        "lastActivityDate": "2025-12-04T13:53:08.000+0000",
+        "lastActivityDate": "2025-12-04T16:44:54.000+0000",
         "createdBy": 6096,
         "modifiedBy": 620,
         "fields": {
