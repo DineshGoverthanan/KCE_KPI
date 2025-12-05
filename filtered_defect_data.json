@@ -4010,8 +4010,8 @@
         "itemType": 154,
         "project": 417,
         "createdDate": "2025-12-04T15:15:17.000+0000",
-        "modifiedDate": "2025-12-05T05:19:30.000+0000",
-        "lastActivityDate": "2025-12-05T05:22:37.000+0000",
+        "modifiedDate": "2025-12-05T09:28:51.000+0000",
+        "lastActivityDate": "2025-12-05T09:28:51.000+0000",
         "createdBy": 2925,
         "modifiedBy": 5932,
         "fields": {
@@ -4034,7 +4034,7 @@
             "BUG_probability_on_field$154": 2398,
             "root_cause_category$154": 2512,
             "BUG_testCaseUpdated$154": 1198,
-            "BUG_RD_comments$154": "<p>Vigneshwarar V [4.12.2025]- Resimulated the same issue in SIM 316 with the fault condition F 355-1. In inspection mode, the escalator could not run. After disabling the E-link selection parameter PC1_1248_0, the fault get cleared, but the escalator still not able to run in inspection mode(It gets hang), although it run normally in normal mode. We also tried by setting the default parameter with PC2_2908_1, but try to run in inspection mode still did not work. Finally, after reloading the software for the CPU, MSC, LSC, and LCB,the escalator was able to run in inspection mode,it working fine without any issues.</p>\n\n<p><strong>Note:Issue has observed 1 time&nbsp;</strong></p>\n\n<p><br />\n\u200b</p>",
+            "BUG_RD_comments$154": "<p>Vigneshwarar V [4.12.2025]- Resimulated the same issue in SIM 316 with the fault condition F 355. In inspection mode, the escalator could not run. After disabling the E-link selection parameter PC1_1248_0, the fault get cleared, but the escalator still not able to run in inspection mode(It gets hang), although it run normally in normal mode. We also tried by setting the default parameter with PC2_2908_1, but try to run in inspection mode still did not work. Finally, after reloading the software for the CPU, MSC, LSC, and LCB,the escalator was able to run in inspection mode,it working fine without any issues.</p>\n\n<p><strong>Note:Issue has observed 1 time&nbsp;</strong></p>\n\n<p><br />\n\u200b</p>",
             "BUG_V1_project$154": 1431
         },
         "resources": {
@@ -4044,7 +4044,7 @@
                 ]
             }
         },
-        "version": 4,
+        "version": 5,
         "location": {
             "sortOrder": 1361,
             "globalSortOrder": 1311274784,
@@ -4055,7 +4055,7 @@
         },
         "lock": {
             "locked": false,
-            "lastLockedDate": "2025-12-05T05:19:32.000+0000"
+            "lastLockedDate": "2025-12-05T09:28:52.000+0000"
         },
         "type": "items"
     },
@@ -20618,7 +20618,7 @@
         },
         "lock": {
             "locked": false,
-            "lastLockedDate": "2025-11-19T10:02:11.000+0000"
+            "lastLockedDate": "2025-12-05T08:36:25.000+0000"
         },
         "type": "items"
     },
@@ -21311,8 +21311,8 @@
         "itemType": 154,
         "project": 229,
         "createdDate": "2025-11-26T15:10:34.000+0000",
-        "modifiedDate": "2025-12-05T05:09:25.000+0000",
-        "lastActivityDate": "2025-12-05T06:17:33.000+0000",
+        "modifiedDate": "2025-12-05T09:01:27.000+0000",
+        "lastActivityDate": "2025-12-05T09:01:27.000+0000",
         "createdBy": 6096,
         "modifiedBy": 620,
         "fields": {
@@ -21323,7 +21323,7 @@
             "status": 1081,
             "BUG_component$154": 1291,
             "createdBy": 6096,
-            "assignedTo": 1546,
+            "assignedTo": 1138,
             "release": 2396,
             "BUG_foundInBuild$154": "KCE17.0.0.111(LD: 17.0.0.18, GCD: 17.0.0.33)",
             "BUG_foundOnDate$154": "2025-11-25",
@@ -21340,7 +21340,7 @@
             "BUG_jiraId$154": "KCE-31575",
             "BUG_jira_project$154": 2465,
             "BUG_jira_URL$154": "https://kone.atlassian.net/browse/KCE-31575",
-            "BUG_integration_synced_time$154": "2025-12-05 05:09:24.701986",
+            "BUG_integration_synced_time$154": "2025-12-05 09:01:26.896573",
             "BUG_V1_project$154": 1431
         },
         "resources": {
@@ -21353,7 +21353,7 @@
                 ]
             }
         },
-        "version": 9,
+        "version": 11,
         "location": {
             "sortOrder": 6476,
             "globalSortOrder": 1664658606,
@@ -21364,7 +21364,7 @@
         },
         "lock": {
             "locked": false,
-            "lastLockedDate": "2025-12-05T05:08:58.000+0000"
+            "lastLockedDate": "2025-12-05T09:00:34.000+0000"
         },
         "type": "items"
     },
@@ -22146,7 +22146,7 @@
         "version": 1,
         "location": {
             "sortOrder": 6544,
-            "globalSortOrder": 1665875661,
+            "globalSortOrder": 1665860375,
             "sequence": "17.6545",
             "parent": {
                 "item": 83266

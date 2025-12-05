@@ -10402,8 +10402,8 @@
         "Assigned To":"VIGNESHWARAR"
     },
     {
-        "TestRunStatus":"INPROGRESS",
-        "ExecutionDate":"2025-12-04",
+        "TestRunStatus":"FAILED",
+        "ExecutionDate":"2025-12-05",
         "Document Key":"KIE601-TSTRN-70548",
         "Name":"Contactor feedback inspection",
         "Assigned To":"VIGNESHWARAR"
@@ -11474,7 +11474,7 @@
     },
     {
         "TestRunStatus":"INPROGRESS",
-        "ExecutionDate":"2025-12-04",
+        "ExecutionDate":"2025-12-05",
         "Document Key":"KCE-TSTRN-4007300",
         "Name":"Group features - PRL and HEL parameters",
         "Assigned To":"Kowsalya"
@@ -16961,17 +16961,24 @@
         "Assigned To":"Nithya Priya"
     },
     {
-        "TestRunStatus":"INPROGRESS",
+        "TestRunStatus":"PASSED",
         "ExecutionDate":"2025-12-05",
         "Document Key":"KCE-TSTRN-4007362",
         "Name":"10\" DOP Customizable header with color",
         "Assigned To":"Nithya Priya"
     },
     {
-        "TestRunStatus":"INPROGRESS",
+        "TestRunStatus":"PASSED",
         "ExecutionDate":"2025-12-05",
         "Document Key":"KCE-TSTRN-4007363",
         "Name":"7\" DOP Customizable header with color",
+        "Assigned To":"Nithya Priya"
+    },
+    {
+        "TestRunStatus":"INPROGRESS",
+        "ExecutionDate":"2025-12-05",
+        "Document Key":"KCE-TSTRN-4007316",
+        "Name":"Code compliant for NA\/Hong Kong\/Singapore in 10 inch xDOP  ",
         "Assigned To":"Nithya Priya"
     },
     {
