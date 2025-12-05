@@ -3955,10 +3955,10 @@
         "itemType": 154,
         "project": 417,
         "createdDate": "2025-12-02T13:29:51.000+0000",
-        "modifiedDate": "2025-12-04T08:42:52.000+0000",
-        "lastActivityDate": "2025-12-04T08:52:04.000+0000",
+        "modifiedDate": "2025-12-05T04:13:07.000+0000",
+        "lastActivityDate": "2025-12-05T04:13:33.000+0000",
         "createdBy": 5932,
-        "modifiedBy": 5932,
+        "modifiedBy": 2001,
         "fields": {
             "documentKey": "KIE601-SWBUG-2778",
             "globalId": "GID-7565405",
@@ -3978,6 +3978,7 @@
             "BUG_probability_on_field$154": 2399,
             "root_cause_category$154": 2512,
             "BUG_testCaseUpdated$154": 1198,
+            "BUG_RD_comments$154": "<p>[Visu]: 05-Dec-2025</p>\n\n<p>As discussed in defect review meeting, sev to be changed to Long term.&nbsp;</p>\n\n<p>&nbsp;</p>",
             "BUG_V1_project$154": 1431
         },
         "resources": {
@@ -3987,7 +3988,7 @@
                 ]
             }
         },
-        "version": 2,
+        "version": 3,
         "location": {
             "sortOrder": 1357,
             "globalSortOrder": 1311270492,
@@ -3998,7 +3999,7 @@
         },
         "lock": {
             "locked": false,
-            "lastLockedDate": "2025-12-04T08:42:53.000+0000"
+            "lastLockedDate": "2025-12-05T04:13:08.000+0000"
         },
         "type": "items"
     },
@@ -4009,18 +4010,19 @@
         "itemType": 154,
         "project": 417,
         "createdDate": "2025-12-04T15:15:17.000+0000",
-        "modifiedDate": "2025-12-04T15:15:17.000+0000",
-        "lastActivityDate": "2025-12-04T15:15:18.000+0000",
+        "modifiedDate": "2025-12-05T05:19:30.000+0000",
+        "lastActivityDate": "2025-12-05T05:22:37.000+0000",
         "createdBy": 2925,
-        "modifiedBy": 2925,
+        "modifiedBy": 5932,
         "fields": {
             "documentKey": "KIE601-SWBUG-2782",
             "globalId": "GID-7569475",
             "name": "E-link- with Communication fault, unable to RUN the escalator in inspection mode",
             "description": "<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\"><strong>Detailed Defect Description:</strong></span></span></p>\n\n<p><span style=\"font-family:Calibri,sans-serif\"><span style=\"font-size:14.6667px\">With the&nbsp;</span></span><span style=\"font-family:Calibri,sans-serif\"><span style=\"font-size:14.6667px\">E-link</span></span><span style=\"font-family:Calibri,sans-serif\"><span style=\"font-size:14.6667px\">&nbsp;</span></span><span style=\"font-family:Calibri,sans-serif\"><span style=\"font-size:14.6667px\">Communication fault 355- unable to run the escalator in inspection mode</span></span></p>\n\n<p>&nbsp;</p>\n\n<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\"><strong>Parameters:&nbsp;&nbsp;</strong></span></span></p>\n\n<p>&nbsp;</p>\n\n<p>PC1 - 1248_1</p>\n\n<p>&nbsp;</p>\n\n<p>&nbsp;</p>\n\n<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\"><strong>Drive type:</strong></span></span></p>\n\n<p>&nbsp;</p>\n\n<p>Danfoss and Monarch</p>\n\n<p>&nbsp;</p>\n\n<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\"><strong>Description of the test case (Detailed Scenario)&nbsp;</strong></span></span></p>\n\n<p>&nbsp;</p>\n\n<p>1 The escalator is in normal mode</p>\n\n<p>2 Set parameter PC1 - 1248_1(ELink Selection)</p>\n\n<p>3 Now, run the escalator UP/DOWN direction</p>\n\n<p>4 During running, create fault 355 (Communication fault, E Link)&nbsp;</p>\n\n<p>5 with the fault activated, when trying to run the escalator in inspection mode,&nbsp;</p>\n\n<p>Inspection mode running is not possible in any direction&nbsp;</p>\n\n<p>&nbsp;</p>\n\n<p><strong>Note: with fault 355, a normal run is possible&nbsp;</strong></p>\n\n<p>&nbsp;</p>\n\n<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\"><strong>Expected behavior:&nbsp;&nbsp;</strong></span></span></p>\n\n<p>&nbsp;</p>\n\n<p>with fault 355 (Communication fault, E Link) escalator should run in inspection mode</p>\n\n<p>&nbsp;</p>\n\n<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\"><strong>Actual behavior:</strong></span></span></p>\n\n<p>&nbsp;</p>\n\n<p>With the fault-activated condition, when trying to run the escalator in inspection mode, unable to run</p>\n\n<p>&nbsp;</p>\n\n<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\"><strong>Recovery:&nbsp;</strong></span></span></p>\n\n<p>&nbsp;</p>\n\n<p>If we disable the parameter PC1-1248_0. Then Inspection run is possible&nbsp;</p>\n\n<p>&nbsp;</p>\n\n<p>&nbsp;</p>\n\n<p>&nbsp;</p>\n",
-            "status": 1081,
+            "status": 1082,
             "BUG_component$154": 1561,
             "createdBy": 2925,
+            "assignedTo": 6485,
             "release": 2581,
             "BUG_foundOnDate$154": "2025-12-03",
             "priority": 2410,
@@ -4032,6 +4034,7 @@
             "BUG_probability_on_field$154": 2398,
             "root_cause_category$154": 2512,
             "BUG_testCaseUpdated$154": 1198,
+            "BUG_RD_comments$154": "<p>Vigneshwarar V [4.12.2025]- Resimulated the same issue in SIM 316 with the fault condition F 355-1. In inspection mode, the escalator could not run. After disabling the E-link selection parameter PC1_1248_0, the fault get cleared, but the escalator still not able to run in inspection mode(It gets hang), although it run normally in normal mode. We also tried by setting the default parameter with PC2_2908_1, but try to run in inspection mode still did not work. Finally, after reloading the software for the CPU, MSC, LSC, and LCB,the escalator was able to run in inspection mode,it working fine without any issues.</p>\n\n<p><strong>Note:Issue has observed 1 time&nbsp;</strong></p>\n\n<p><br />\n\u200b</p>",
             "BUG_V1_project$154": 1431
         },
         "resources": {
@@ -4041,7 +4044,7 @@
                 ]
             }
         },
-        "version": 1,
+        "version": 4,
         "location": {
             "sortOrder": 1361,
             "globalSortOrder": 1311274784,
@@ -4051,7 +4054,8 @@
             }
         },
         "lock": {
-            "locked": false
+            "locked": false,
+            "lastLockedDate": "2025-12-05T05:19:32.000+0000"
         },
         "type": "items"
     },
@@ -21719,8 +21723,8 @@
         "itemType": 154,
         "project": 229,
         "createdDate": "2025-11-26T15:10:34.000+0000",
-        "modifiedDate": "2025-12-04T06:59:26.000+0000",
-        "lastActivityDate": "2025-12-04T10:44:30.000+0000",
+        "modifiedDate": "2025-12-05T05:09:25.000+0000",
+        "lastActivityDate": "2025-12-05T05:09:25.000+0000",
         "createdBy": 6096,
         "modifiedBy": 620,
         "fields": {
@@ -21735,7 +21739,7 @@
             "release": 2396,
             "BUG_foundInBuild$154": "KCE17.0.0.111(LD: 17.0.0.18, GCD: 17.0.0.33)",
             "BUG_foundOnDate$154": "2025-11-25",
-            "BUG_plannedRelease$154": 2396,
+            "BUG_plannedRelease$154": 2492,
             "priority": 2410,
             "BUG_severity$154": 1110,
             "BUG_category$154": 1428,
@@ -21748,7 +21752,7 @@
             "BUG_jiraId$154": "KCE-31575",
             "BUG_jira_project$154": 2465,
             "BUG_jira_URL$154": "https://kone.atlassian.net/browse/KCE-31575",
-            "BUG_integration_synced_time$154": "2025-12-04 06:59:25.601664",
+            "BUG_integration_synced_time$154": "2025-12-05 05:09:24.701986",
             "BUG_V1_project$154": 1431
         },
         "resources": {
@@ -21761,7 +21765,7 @@
                 ]
             }
         },
-        "version": 7,
+        "version": 9,
         "location": {
             "sortOrder": 6476,
             "globalSortOrder": 1664658606,
@@ -21772,7 +21776,7 @@
         },
         "lock": {
             "locked": false,
-            "lastLockedDate": "2025-12-04T06:58:47.000+0000"
+            "lastLockedDate": "2025-12-05T05:08:58.000+0000"
         },
         "type": "items"
     },
@@ -22456,15 +22460,15 @@
         "itemType": 154,
         "project": 229,
         "createdDate": "2025-12-03T13:32:00.000+0000",
-        "modifiedDate": "2025-12-03T13:32:00.000+0000",
-        "lastActivityDate": "2025-12-03T13:32:02.000+0000",
+        "modifiedDate": "2025-12-05T05:38:17.000+0000",
+        "lastActivityDate": "2025-12-05T05:38:17.000+0000",
         "createdBy": 6374,
         "modifiedBy": 6374,
         "fields": {
             "documentKey": "KCE-SWBUG-7119",
             "globalId": "GID-7567484",
             "name": "FPD.T-Lift does not drive to the nearby non-FPD floor",
-            "description": "<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\"><strong>Detailed Defect Description:</strong></span></span></p>\n\n<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\">FPD.T-Lift does not drive to the nearby non-FPD floor</span></span></p>\n\n<p>&nbsp;</p>\n\n<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\"><strong>Parameters:&nbsp;&nbsp;</strong></span></span></p>\n\n<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\">1320=2</span></span></p>\n\n<p>&nbsp;</p>\n\n<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\"><strong>Group configuration: </strong></span></span></p>\n\n<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\">single elevator&nbsp;</span></span></p>\n\n<p>&nbsp;</p>\n\n<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\"><strong>Drive type:</strong></span></span></p>\n\n<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\">KDH/KDM</span></span></p>\n\n<p>&nbsp;</p>\n\n<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\"><strong>Regression or new finding:</strong></span></span></p>\n\n<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\">New Finding</span></span></p>\n\n<p>&nbsp;</p>\n\n<p>&nbsp;</p>\n\n<p>&nbsp;</p>\n\n<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\"><strong>Test case Name / Feature name:</strong></span></span></p>\n\n<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\">FPD</span></span></p>\n\n<p>&nbsp;</p>\n\n<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\"><strong>Test step number:</strong></span></span></p>\n\n<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\">ad-hoc&nbsp;</span></span></p>\n\n<p>&nbsp;</p>\n\n<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\"><strong>Description of the test case (Detailed Scenario)&nbsp;</strong></span></span></p>\n\n<p>1. Lift is in 1st Floor and 2nd, 3rd, 4th, 5th,6th,7th Floor are FPD Locked Floor.</p>\n\n<p>2. Register a call in 8th Floor.</p>\n\n<p>3. Lift moves towards the 8th Floor.</p>\n\n<p>4.While lift traveling between 6th and 7th floors, stop the lift by opening safety(Xm1,Xosc) and close</p>\n\n<p>&nbsp;</p>\n\n<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\"><strong>Expected behavior:&nbsp;&nbsp;</strong></span></span></p>\n\n<p>After correction drive, Lift shall immediately move to nearest unlocked floor.</p>\n\n<p>&nbsp;</p>\n\n<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\"><strong>Actual behavior:</strong></span></span></p>\n\n<p>After correction drive, Lift does not move to the nearest non-FPD floor. It always goes towards down direction.</p>\n\n<p>&nbsp;</p>\n\n<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\"><strong>Log attached Information:</strong></span></span></p>\n\n<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\">(e.g. Log attached information like KCEGC logs, N test, S test, CPU Logs, E-link play back file &amp; - specific time to seen in log)</span></span></p>\n\n<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\">Detailed instructions for log collection: </span></span><a href=\"https://kone.atlassian.net/wiki/spaces/RQR/pages/54904026/Log+collection+instructions+for+KCECPUc\" target=\"_blank\">https://kone.atlassian.net/wiki/spaces/RQR/pages/54904026/Log+collection+instructions+for+KCECPUc</a></p>\n\n<p>&nbsp;</p>\n\n<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\">Note: Once defect is logged, attachments can be done by editing the defect (use compressed zip folder format)</span></span></p>\n\n<p>&nbsp;</p>\n\n<p>&nbsp;</p>\n\n<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\"><strong>Requirement related to the defect:</strong></span></span></p>\n\n<p><a href=\"https://konerqm.jamacloud.com/perspective.req?docId=125548&amp;projectId=229\">KCE-SSR-2322</a></p>\n",
+            "description": "<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\"><strong>Detailed Defect Description:</strong></span></span></p>\n\n<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\">FPD.T-Lift does not drive to the nearby non-FPD floor</span></span></p>\n\n<p>&nbsp;</p>\n\n<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\"><strong>Parameters:&nbsp;&nbsp;</strong></span></span></p>\n\n<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\">1320=2</span></span></p>\n\n<p>&nbsp;</p>\n\n<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\"><strong>Group configuration: </strong></span></span></p>\n\n<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\">single elevator&nbsp;</span></span></p>\n\n<p>&nbsp;</p>\n\n<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\"><strong>Drive type:</strong></span></span></p>\n\n<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\">KDH/KDM</span></span></p>\n\n<p>&nbsp;</p>\n\n<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\"><strong>Regression or new finding:</strong></span></span></p>\n\n<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\">New Finding</span></span></p>\n\n<p>&nbsp;</p>\n\n<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\"><strong>Test case Name / Feature name:</strong></span></span></p>\n\n<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\">FPD</span></span></p>\n\n<p>&nbsp;</p>\n\n<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\"><strong>Test step number:</strong></span></span></p>\n\n<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\">ad-hoc&nbsp;</span></span></p>\n\n<p>&nbsp;</p>\n\n<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\"><strong>Description of the test case (Detailed Scenario)&nbsp;</strong></span></span></p>\n\n<p>1. Lift is in 1st Floor and 2nd, 3rd, 4th, 5th,6th,7th Floor are FPD Locked Floor.</p>\n\n<p>2. Register a call in 8th Floor.</p>\n\n<p>3. Lift moves towards the 8th Floor.</p>\n\n<p>4.While lift traveling between 6th and 7th floors, stop the lift by opening any safety (Xm1, Xosc) and close</p>\n\n<p>&nbsp;</p>\n\n<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\"><strong>Expected behavior:&nbsp;&nbsp;</strong></span></span></p>\n\n<p>After correction drive, Lift shall immediately move to nearest unlocked floor.</p>\n\n<p>&nbsp;</p>\n\n<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\"><strong>Actual behavior:</strong></span></span></p>\n\n<p>After correction drive, Lift does not move to the nearest non-FPD floor. It always goes towards down direction.</p>\n\n<p>&nbsp;</p>\n\n<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\"><strong>Log attached Information:</strong></span></span></p>\n\n<p>LPA</p>\n\n<p>Event Traffic</p>\n\n<p>&nbsp;</p>\n\n<p>&nbsp;</p>\n\n<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\"><strong>Requirement related to the defect:</strong></span></span></p>\n\n<p><a href=\"https://konerqm.jamacloud.com/perspective.req?docId=125548&amp;projectId=229\">KCE-SSR-2322</a></p>\n",
             "status": 1081,
             "BUG_component$154": 1291,
             "createdBy": 6374,
@@ -22492,7 +22496,7 @@
                 ]
             }
         },
-        "version": 1,
+        "version": 2,
         "location": {
             "sortOrder": 6531,
             "globalSortOrder": 1665735396,
@@ -22502,7 +22506,8 @@
             }
         },
         "lock": {
-            "locked": false
+            "locked": false,
+            "lastLockedDate": "2025-12-05T05:38:18.000+0000"
         },
         "type": "items"
     },
