@@ -72,6 +72,7 @@ KIE601-SWBUG-2778,IEX-Fault F 84-5 was Triggered when starting Escalator by usin
 KIE601-SWBUG-2782,"E-link- with Communication fault, unable to RUN the escalator in inspection mode",S.P,,2025-12-03
 KIE601-SWBUG-2783,IEX - Lower FUI gets hanged when parameter PC5_5300 is accessed when escalator is running - Lower FUI must not display No access.,Mohammed Ibrahim Sultan,,2025-12-04
 KIE601-SWBUG-2785,"IEX - After LCB node SW Downloading, FC 348-1 is posted (Node pairing ""Pairing check failed"" - LCB)",Mohammed Ibrahim Sultan,,2025-12-04
+KIE601-SWBUG-2786,"IEX - Inspection mode supervision is mentioned as No for FC 348-1 (Node pairing ""Pairing check failed"" - LCB) - Need to update Fault code sheet",Mohammed Ibrahim Sultan,,2025-12-04
 DRIVE_HW_SW-SWBUG-1587,GG DCBL 5.51 SW - Fault 124 3064 Not Triggered when Software file is missed from SD Card.,VIGNESHWARAR,,2025-06-01
 KCE-SWBUG-5615,16.4-DCBL GD- Speed is not reduced when the elevator reaches the lower limit during the NTS Buffer Test.,Jagadeesh,KCE16.4.92 (LD 16.4.1.11 and GCD 16.4.65) + DCBL 24.47sw,
 KCE-SWBUG-6553,"KCE NA - When MES activated during car call service, lift is unable to stop at the nearest floor.",Veeramanikandan,KCE 17.0.0.10,2025-09-02
@@ -358,3 +359,4 @@ KCE-SWBUG-7104,0.0.0.91 - TSCOP - App Crashes when HAN Mode Enabled,Suryanarayan
 KCE-SWBUG-7106,"In RDF mode, KC3view and Cloudview show ‘Something went wrong. You can try again’ instead of the reboot failure notification",Kowsalya,17.0.018,2025-12-01
 KCE-SWBUG-7109,Remote reboot in RDF mode not allowed; CPU sends wrong response: Not allowed by mode instead of Local maintenance active.,Kowsalya,,2025-12-01
 KCE-SWBUG-7119,FPD.T-Lift does not drive to the nearby non-FPD floor,Dinesh,"KCE17.0.0.111(LD: 17.0.0.18, GCD: 17.0.0.33)",2025-12-02
+KCE-SWBUG-7134,17.0 - KCEDCS - No Response message displays in SM when updating GCD SW,Vivek,"17.0.0.116(LD: 17.0.0.20, GCD: 17.0.1.1 GCH: 17.0.1.1)",2025-12-03
