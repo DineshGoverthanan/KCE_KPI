@@ -9850,9 +9850,23 @@
     },
     {
         "TestRunStatus":"PASSED",
+        "ExecutionDate":"2025-12-05",
+        "Document Key":"KIE601-TSTRN-70614",
+        "Name":"EN115 Disable Auxiliary Brake",
+        "Assigned To":"VIGNESHWARAR"
+    },
+    {
+        "TestRunStatus":"PASSED",
         "ExecutionDate":"2025-07-31",
         "Document Key":"KIE601-TSTRN-56796",
         "Name":"Traffic Light Flashing for Inspection mode",
+        "Assigned To":"VIGNESHWARAR"
+    },
+    {
+        "TestRunStatus":"PASSED",
+        "ExecutionDate":"2025-12-05",
+        "Document Key":"KIE601-TSTRN-70615",
+        "Name":"EN115 Disable HR Overspeed",
         "Assigned To":"VIGNESHWARAR"
     },
     {
@@ -9870,11 +9884,25 @@
         "Assigned To":"VIGNESHWARAR"
     },
     {
+        "TestRunStatus":"PASSED",
+        "ExecutionDate":"2025-12-05",
+        "Document Key":"KIE601-TSTRN-70617",
+        "Name":"EN115 Disable MSD",
+        "Assigned To":"VIGNESHWARAR"
+    },
+    {
         "TestRunStatus":"FAILED",
         "ExecutionDate":"2025-08-06",
         "Document Key":"KIE601-TSTRN-56794",
         "Name":"Roll call - Upper",
         "Assigned To":"Mohammed Ibrahim Sultan"
+    },
+    {
+        "TestRunStatus":"PASSED",
+        "ExecutionDate":"2025-12-05",
+        "Document Key":"KIE601-TSTRN-70618",
+        "Name":"EN115 Disable Motor 1 Brake",
+        "Assigned To":"VIGNESHWARAR"
     },
     {
         "TestRunStatus":"PASSED",
@@ -9885,10 +9913,24 @@
     },
     {
         "TestRunStatus":"PASSED",
+        "ExecutionDate":"2025-12-05",
+        "Document Key":"KIE601-TSTRN-70619",
+        "Name":"EN115 Disable Motor 2 Brake",
+        "Assigned To":"VIGNESHWARAR"
+    },
+    {
+        "TestRunStatus":"PASSED",
         "ExecutionDate":"2025-08-08",
         "Document Key":"KIE601-TSTRN-56793",
         "Name":"Upper Truss Fan Operation",
         "Assigned To":"Mohammed Ibrahim Sultan"
+    },
+    {
+        "TestRunStatus":"PASSED",
+        "ExecutionDate":"2025-12-05",
+        "Document Key":"KIE601-TSTRN-70620",
+        "Name":"EN115 Inspection Mode Motor Sensors",
+        "Assigned To":"VIGNESHWARAR"
     },
     {
         "TestRunStatus":"BLOCKED",
@@ -9896,6 +9938,13 @@
         "Document Key":"KIE601-TSTRN-56790",
         "Name":"Heater Operation Upper Control Cabinet",
         "Assigned To":"Mohammed Ibrahim Sultan"
+    },
+    {
+        "TestRunStatus":"PASSED",
+        "ExecutionDate":"2025-12-05",
+        "Document Key":"KIE601-TSTRN-70621",
+        "Name":"EN115 Inspection Mode Safety Switches",
+        "Assigned To":"VIGNESHWARAR"
     },
     {
         "TestRunStatus":"BLOCKED",
@@ -9910,6 +9959,13 @@
         "Document Key":"KIE601-TSTRN-56792",
         "Name":"Heater Operation Lower Control Cabinet",
         "Assigned To":"Mohammed Ibrahim Sultan"
+    },
+    {
+        "TestRunStatus":"INPROGRESS",
+        "ExecutionDate":"2025-12-05",
+        "Document Key":"KIE601-TSTRN-70623",
+        "Name":"EN115 All Supervision",
+        "Assigned To":"VIGNESHWARAR"
     },
     {
         "TestRunStatus":"FAILED",
@@ -10017,11 +10073,25 @@
         "Assigned To":"Mohammed Ibrahim Sultan"
     },
     {
+        "TestRunStatus":"PASSED",
+        "ExecutionDate":"2025-12-05",
+        "Document Key":"KIE601-TSTRN-70599",
+        "Name":"Configuration Tool - FAULT POP-UP DIALOG",
+        "Assigned To":"S.P"
+    },
+    {
         "TestRunStatus":"FAILED",
         "ExecutionDate":"2025-08-01",
         "Document Key":"KIE601-TSTRN-56778",
         "Name":"Lubrication output - Step chain & HR\/Drive chain",
         "Assigned To":"Mohammed Ibrahim Sultan"
+    },
+    {
+        "TestRunStatus":"PASSED",
+        "ExecutionDate":"2025-12-05",
+        "Document Key":"KIE601-TSTRN-70600",
+        "Name":"Configuration Tool - FAULT CLASS SELECTION",
+        "Assigned To":"S.P"
     },
     {
         "TestRunStatus":"PASSED",
@@ -10032,10 +10102,24 @@
     },
     {
         "TestRunStatus":"PASSED",
+        "ExecutionDate":"2025-12-05",
+        "Document Key":"KIE601-TSTRN-70596",
+        "Name":"E-link5 - Configuring group type - Escalator",
+        "Assigned To":"S.P"
+    },
+    {
+        "TestRunStatus":"PASSED",
         "ExecutionDate":"2025-07-29",
         "Document Key":"KIE601-TSTRN-56771",
         "Name":"Lub Oil Level Monitor Escalator Stopped Monitor Time Zero",
         "Assigned To":"Mohammed Ibrahim Sultan"
+    },
+    {
+        "TestRunStatus":"PASSED",
+        "ExecutionDate":"2025-12-05",
+        "Document Key":"KIE601-TSTRN-70595",
+        "Name":"KIC configuration",
+        "Assigned To":"S.P"
     },
     {
         "TestRunStatus":"PASSED",
@@ -10045,11 +10129,25 @@
         "Assigned To":"Mohammed Ibrahim Sultan"
     },
     {
+        "TestRunStatus":"NOT_APPLICABLE",
+        "ExecutionDate":"2025-12-05",
+        "Document Key":"KIE601-TSTRN-70589",
+        "Name":"Mode commands, autowalk monitoring, E-Link GUI",
+        "Assigned To":"S.P"
+    },
+    {
         "TestRunStatus":"PASSED",
         "ExecutionDate":"2025-08-04",
         "Document Key":"KIE601-TSTRN-56769",
         "Name":"BMS output",
         "Assigned To":"VIGNESHWARAR"
+    },
+    {
+        "TestRunStatus":"NOT_APPLICABLE",
+        "ExecutionDate":"2025-12-05",
+        "Document Key":"KIE601-TSTRN-70590",
+        "Name":"Mode commands, escalator monitoring, E-Link GUI",
+        "Assigned To":"S.P"
     },
     {
         "TestRunStatus":"PASSED",
@@ -10059,11 +10157,25 @@
         "Assigned To":"Mohammed Ibrahim Sultan"
     },
     {
+        "TestRunStatus":"NOT_APPLICABLE",
+        "ExecutionDate":"2025-12-05",
+        "Document Key":"KIE601-TSTRN-70591",
+        "Name":"Stop command, autowalk monitoring, E-Link GUI",
+        "Assigned To":"S.P"
+    },
+    {
         "TestRunStatus":"PASSED",
         "ExecutionDate":"2025-08-05",
         "Document Key":"KIE601-TSTRN-56767",
         "Name":"LCB software update",
         "Assigned To":"Mohammed Ibrahim Sultan"
+    },
+    {
+        "TestRunStatus":"NOT_APPLICABLE",
+        "ExecutionDate":"2025-12-05",
+        "Document Key":"KIE601-TSTRN-70592",
+        "Name":"Stop command, escalator monitoring, E-Link GUI",
+        "Assigned To":"S.P"
     },
     {
         "TestRunStatus":"PASSED",
@@ -10080,8 +10192,8 @@
         "Assigned To":"VIGNESHWARAR"
     },
     {
-        "TestRunStatus":"INPROGRESS",
-        "ExecutionDate":"2025-12-04",
+        "TestRunStatus":"FAILED",
+        "ExecutionDate":"2025-12-05",
         "Document Key":"KIE601-TSTRN-70594",
         "Name":"Escalator modes, monitoring, E-Link",
         "Assigned To":"S.P"

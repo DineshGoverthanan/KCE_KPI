@@ -3510,10 +3510,10 @@
         "itemType": 154,
         "project": 417,
         "createdDate": "2025-10-23T10:29:12.000+0000",
-        "modifiedDate": "2025-11-30T16:30:02.000+0000",
-        "lastActivityDate": "2025-11-30T16:30:02.000+0000",
+        "modifiedDate": "2025-12-05T16:56:13.000+0000",
+        "lastActivityDate": "2025-12-05T16:56:13.000+0000",
         "createdBy": 5932,
-        "modifiedBy": 2001,
+        "modifiedBy": 5932,
         "fields": {
             "documentKey": "KIE601-SWBUG-2708",
             "globalId": "GID-7481488",
@@ -3535,9 +3535,9 @@
             "BUG_whereFound$154": 1137,
             "BUG_probability_on_field$154": 2397,
             "root_cause_category$154": 2519,
-            "BUG_rootCause$154": "<p>Pradeep Kumar [13/11/2025]:</p>\n\n<p>Updated Ost mode and send status to EGD.</p>",
+            "BUG_rootCause$154": "<p>Pradeep Kumar [13/11/2025]:</p>\n\n<p>Updated Ost mode and send status to EGD.</p>\n\n<p>&nbsp;</p>\n\n<p>&nbsp;</p>",
             "BUG_testCaseUpdated$154": 1198,
-            "BUG_RD_comments$154": "<p>[Visu]: 23-Nov-2025<br />\nThis defect is fixed in R 2.0.2.4</p>\n\n<p>&nbsp;</p>",
+            "BUG_RD_comments$154": "<p>[Visu]: 23-Nov-2025<br />\nThis defect is fixed in R 2.0.2.4</p>\n\n<p>&nbsp;</p>\n\n<p>Vigneshwarar V [04/12/2025]:</p>\n\n<p>Checked with R 2.0.3 release. During onsite mode, EGD Display updated as Debugging.</p>\n\n<p><img alt=\"\" height=\"173\" src=\"https://konerqm.jamacloud.com/attachment/233837/2025_12_05_16_55_161.jpg\" width=\"231\" /></p>",
             "BUG_V1_project$154": 1431
         },
         "resources": {
@@ -3547,7 +3547,7 @@
                 ]
             }
         },
-        "version": 6,
+        "version": 8,
         "location": {
             "sortOrder": 1287,
             "globalSortOrder": 1309228920,
@@ -3558,7 +3558,7 @@
         },
         "lock": {
             "locked": false,
-            "lastLockedDate": "2025-11-30T16:30:09.000+0000"
+            "lastLockedDate": "2025-12-05T16:56:14.000+0000"
         },
         "type": "items"
     },
@@ -3955,15 +3955,15 @@
         "itemType": 154,
         "project": 417,
         "createdDate": "2025-12-02T13:29:51.000+0000",
-        "modifiedDate": "2025-12-05T04:13:07.000+0000",
-        "lastActivityDate": "2025-12-05T04:13:33.000+0000",
+        "modifiedDate": "2025-12-06T01:51:12.000+0000",
+        "lastActivityDate": "2025-12-06T01:51:12.000+0000",
         "createdBy": 5932,
-        "modifiedBy": 2001,
+        "modifiedBy": 3603,
         "fields": {
             "documentKey": "KIE601-SWBUG-2778",
             "globalId": "GID-7565405",
             "name": "IEX-Fault F 84-5 was Triggered when starting Escalator by using Key Switch in Learning Mode",
-            "description": "<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\"><strong>Detailed Defect Description:</strong></span></span></p>\n\n<p>IEX-Fault F 84-5 was Triggered when starting Escalator by using Key Switch in Learning Mode</p>\n\n<p>&nbsp;</p>\n\n<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\"><strong>Parameters:&nbsp;&nbsp;</strong></span></span></p>\n\n<p><span style=\"font-family:Calibri, sans-serif\"><span style=\"font-size:14.6667px\">PC4_4000_1</span></span></p>\n\n<p>&nbsp;</p>\n\n<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\"><strong>Group configuration: </strong></span></span></p>\n\n<p><span style=\"font-family:Calibri, sans-serif\"><span style=\"font-size:14.6667px\">Single escalator setup</span></span></p>\n\n<p>&nbsp;</p>\n\n<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\"><strong>Drive type:</strong></span></span></p>\n\n<p><span style=\"font-family:Calibri, sans-serif\"><span style=\"font-size:14.6667px\">Monarch,Danfoss</span></span></p>\n\n<p>&nbsp;</p>\n\n<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\"><strong>Regression or new finding:</strong></span></span></p>\n\n<p>Adhoc</p>\n\n<p>&nbsp;</p>\n\n<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\"><strong>Description of the test case (Detailed Scenario)&nbsp;</strong></span></span></p>\n\n<p>1.Set the parameter PC4_4000_1.</p>\n\n<p>2.Start the escalator by using key switch.</p>\n\n<p>3.The escalator fails to start and displays fault code F 84-5 (Key switch bottom center not open) &amp; F 302 in FUI.</p>\n\n<p>&nbsp;</p>\n\n<p><strong>Note: Issue was reproduced 3 times out of 5 key start&nbsp;</strong></p>\n\n<p><strong>During key start in normal mode, it functions correctly and the issue occurs only in learning mode.</strong></p>\n\n<p>&nbsp;</p>\n\n<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\"><strong>Expected behavior:&nbsp;&nbsp;</strong></span></span></p>\n\n<p>The escalator should start normally without any faults.</p>\n\n<p>&nbsp;</p>\n\n<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\"><strong>Actual behavior</strong></span></span></p>\n\n<p>The escalator does not start running and displays fault code F 84-5 (Key switch bottom center not open)</p>\n\n<p>&nbsp;</p>\n\n<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\"><strong>Recovery:&nbsp;</strong></span></span></p>\n\n<p>Manual reset.</p>\n\n<p>&nbsp;</p>\n\n<p><strong>Value added information</strong>:<br />\nSW-R 2.0.3</p>\n",
+            "description": "<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\"><strong>Detailed Defect Description:</strong></span></span></p>\n\n<p>IEX-Fault F 84-5 was Triggered when starting Escalator by using Key Switch in Learning Mode</p>\n\n<p>&nbsp;</p>\n\n<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\"><strong>Parameters:&nbsp;&nbsp;</strong></span></span></p>\n\n<p><span style=\"font-family:Calibri,sans-serif\"><span style=\"font-size:14.6667px\">PC4_4000_1</span></span></p>\n\n<p>&nbsp;</p>\n\n<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\"><strong>Group configuration: </strong></span></span></p>\n\n<p><span style=\"font-family:Calibri,sans-serif\"><span style=\"font-size:14.6667px\">Single escalator setup</span></span></p>\n\n<p>&nbsp;</p>\n\n<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\"><strong>Drive type:</strong></span></span></p>\n\n<p><span style=\"font-family:Calibri,sans-serif\"><span style=\"font-size:14.6667px\">Monarch,Danfoss</span></span></p>\n\n<p>&nbsp;</p>\n\n<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\"><strong>Regression or new finding:</strong></span></span></p>\n\n<p>Adhoc</p>\n\n<p>&nbsp;</p>\n\n<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\"><strong>Description of the test case (Detailed Scenario)&nbsp;</strong></span></span></p>\n\n<p>1.Set the parameter PC4_4000_1.</p>\n\n<p>2.Start the escalator by using key switch.</p>\n\n<p>3.The escalator fails to start and displays fault code F 84-5 (Key switch bottom center not open) &amp; F 302 in FUI.</p>\n\n<p>&nbsp;</p>\n\n<p><strong>Note: Issue was reproduced 3 times out of 5 key start&nbsp;</strong></p>\n\n<p><strong>During key start in normal mode, it functions correctly and the issue occurs only in learning mode.</strong></p>\n\n<p>&nbsp;</p>\n\n<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\"><strong>Expected behavior:&nbsp;&nbsp;</strong></span></span></p>\n\n<p>The escalator should start normally without any faults.</p>\n\n<p>&nbsp;</p>\n\n<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\"><strong>Actual behavior</strong></span></span></p>\n\n<p>The escalator does not start running and displays fault code F 84-5 (Key switch bottom center not open)</p>\n\n<p>&nbsp;</p>\n\n<p><strong>Scenario-2</strong></p>\n\n<p>Escalator Is In Fault Stop Condition</p>\n\n<p>Activate Bottom Keyswitch</p>\n\n<p>&nbsp;</p>\n\n<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\"><strong>Expected behavior:</strong></span></span></p>\n\n<p>No Unnecessary fault should be posted</p>\n\n<p>&nbsp;</p>\n\n<p><strong>Actual behavior:</strong></p>\n\n<p>FC 084-5 is posted along with existing fault</p>\n\n<p>&nbsp;</p>\n\n<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\"><strong>Recovery:&nbsp;</strong></span></span></p>\n\n<p>Manual reset.</p>\n\n<p>&nbsp;</p>\n\n<p>&nbsp;</p>\n\n<p>&nbsp;</p>\n\n<p><strong>Value added information</strong>:<br />\nSW-R 2.0.3</p>\n",
             "status": 1081,
             "BUG_component$154": 1561,
             "createdBy": 5932,
@@ -3988,7 +3988,7 @@
                 ]
             }
         },
-        "version": 3,
+        "version": 4,
         "location": {
             "sortOrder": 1357,
             "globalSortOrder": 1311270492,
@@ -3999,7 +3999,7 @@
         },
         "lock": {
             "locked": false,
-            "lastLockedDate": "2025-12-05T04:13:08.000+0000"
+            "lastLockedDate": "2025-12-06T01:51:14.000+0000"
         },
         "type": "items"
     },
@@ -4319,8 +4319,170 @@
         "version": 1,
         "location": {
             "sortOrder": 1374,
-            "globalSortOrder": 1311356285,
+            "globalSortOrder": 1311288733,
             "sequence": "2.8.1375",
+            "parent": {
+                "item": 18771233
+            }
+        },
+        "lock": {
+            "locked": false
+        },
+        "type": "items"
+    },
+    {
+        "id": 28548349,
+        "documentKey": "KIE601-SWBUG-2796",
+        "globalId": "GID-7572603",
+        "itemType": 154,
+        "project": 417,
+        "createdDate": "2025-12-06T01:42:06.000+0000",
+        "modifiedDate": "2025-12-06T01:42:06.000+0000",
+        "lastActivityDate": "2025-12-06T01:42:06.000+0000",
+        "createdBy": 6117,
+        "modifiedBy": 6117,
+        "fields": {
+            "documentKey": "KIE601-SWBUG-2796",
+            "globalId": "GID-7572603",
+            "name": "IEX - FC 342-2 is posted after power cycle when LCB SW is changed using Segger",
+            "description": "<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\"><strong>Detailed Defect Description:</strong></span></span></p>\n\n<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\">IEX - FC 342-2 is posted after power cycle when LCB SW is changed using Segger</span></span></p>\n\n<p>&nbsp;</p>\n\n<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\"><strong>Parameters:&nbsp;&nbsp;</strong></span></span></p>\n\n<p><span style=\"font-family:Calibri, sans-serif\"><span style=\"font-size:14.6667px\">NA</span></span></p>\n\n<p>&nbsp;</p>\n\n<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\"><strong>Group configuration: </strong></span></span></p>\n\n<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\">NA</span></span></p>\n\n<p>&nbsp;</p>\n\n<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\"><strong>Drive type:</strong></span></span></p>\n\n<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\">NA</span></span></p>\n\n<p>&nbsp;</p>\n\n<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\"><strong>Regression or new finding:</strong></span></span></p>\n\n<p><span style=\"font-family:Calibri, sans-serif\"><span style=\"font-size:14.6667px\">Regression</span></span></p>\n\n<p>&nbsp;</p>\n\n<p>&nbsp;</p>\n\n<p>&nbsp;</p>\n\n<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\"><strong>Test case Name / Feature name:</strong></span></span></p>\n\n<p><span style=\"font-family:Calibri, sans-serif\"><span style=\"font-size:14.6667px\">Ad hoc</span></span></p>\n\n<p>&nbsp;</p>\n\n<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\"><strong>Test step number:</strong></span></span></p>\n\n<p><span style=\"font-family:Calibri, sans-serif\"><span style=\"font-size:14.6667px\">Ad hoc</span></span></p>\n\n<p>&nbsp;</p>\n\n<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\"><strong>Description of the test case (Detailed Scenario)&nbsp;</strong></span></span></p>\n\n<ul>\n\t<li><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\">LCB SW is changed using segger</span></span></li>\n\t<li><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\">FC 342-1 (rollcall not done)</span></span></li>\n\t<li><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\">FC 342-2 (IOC node mismatch)</span></span></li>\n\t<li><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\">FC 103.13 (LCB communication broken)are posted</span></span></li>\n\t<li><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\">Now press reset</span></span></li>\n\t<li><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\">FC 103.13 is cleared</span></span></li>\n\t<li><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\">FC 342-1 is not cleared with Power cycle also</span></span></li>\n</ul>\n\n<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\">Note: Frequency 2 out of 10</span></span></p>\n\n<p>&nbsp;</p>\n\n<p>&nbsp;</p>\n\n<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\"><strong>Expected behavior:&nbsp;&nbsp;</strong></span></span></p>\n\n<p>IOC node mismatch FC should not be posted</p>\n\n<p>&nbsp;</p>\n\n<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\"><strong>Actual behavior:</strong></span></span></p>\n\n<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\">FC 342-1 is not cleared with Power cycle also</span></span></p>\n\n<p>&nbsp;</p>\n\n<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\"><strong>Recovery:&nbsp;</strong></span></span></p>\n\n<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\">Roll call</span></span></p>\n",
+            "status": 1081,
+            "BUG_component$154": 1561,
+            "BUG_subcomponent$154": "IEX",
+            "createdBy": 6117,
+            "release": 2581,
+            "BUG_foundOnDate$154": "2025-12-05",
+            "priority": 2410,
+            "BUG_severity$154": 1110,
+            "BUG_category$154": 1422,
+            "BUG_testLevel$154": 1129,
+            "BUG_howFound$154": 1092,
+            "BUG_whereFound$154": 1137,
+            "BUG_probability_on_field$154": 2396,
+            "root_cause_category$154": 2512,
+            "BUG_testCaseUpdated$154": 1198,
+            "BUG_V1_project$154": 1431
+        },
+        "resources": {
+            "self": {
+                "allowed": [
+                    "GET"
+                ]
+            }
+        },
+        "version": 1,
+        "location": {
+            "sortOrder": 1375,
+            "globalSortOrder": 1311289806,
+            "sequence": "2.8.1376",
+            "parent": {
+                "item": 18771233
+            }
+        },
+        "lock": {
+            "locked": false
+        },
+        "type": "items"
+    },
+    {
+        "id": 28548493,
+        "documentKey": "KIE601-SWBUG-2797",
+        "globalId": "GID-7572605",
+        "itemType": 154,
+        "project": 417,
+        "createdDate": "2025-12-06T01:48:11.000+0000",
+        "modifiedDate": "2025-12-06T01:48:11.000+0000",
+        "lastActivityDate": "2025-12-06T01:48:11.000+0000",
+        "createdBy": 6117,
+        "modifiedBy": 6117,
+        "fields": {
+            "documentKey": "KIE601-SWBUG-2797",
+            "globalId": "GID-7572605",
+            "name": "IEX - Inspection Mode is not displayed in EGD Display",
+            "description": "<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\"><strong>Detailed Defect Description:</strong></span></span></p>\n\n<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\">IEX - Inspection Mode is not displayed in EGD Display</span></span></p>\n\n<p>&nbsp;</p>\n\n<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\"><strong>Parameters:&nbsp;&nbsp;</strong></span></span></p>\n\n<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\">NA</span></span></p>\n\n<p>&nbsp;</p>\n\n<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\"><strong>Group configuration: </strong></span></span></p>\n\n<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\">NA</span></span></p>\n\n<p>&nbsp;</p>\n\n<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\"><strong>Drive type:</strong></span></span></p>\n\n<p><span style=\"font-family:Calibri, sans-serif\"><span style=\"font-size:14.6667px\">NA</span></span></p>\n\n<p>&nbsp;</p>\n\n<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\"><strong>Regression or new finding:</strong></span></span></p>\n\n<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\">New Finding</span></span></p>\n\n<p>&nbsp;</p>\n\n<p>&nbsp;</p>\n\n<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\"><strong>Test case Name / Feature name:</strong></span></span></p>\n\n<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\">EGD&nbsp;</span></span></p>\n\n<p>&nbsp;</p>\n\n<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\"><strong>Test step number:</strong></span></span></p>\n\n<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\">18</span></span></p>\n\n<p>&nbsp;</p>\n\n<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\"><strong>Description of the test case (Detailed Scenario)&nbsp;</strong></span></span></p>\n\n<ul>\n\t<li>EGD is connected in both Upper and Lower</li>\n\t<li>Now Press the enter button and give password</li>\n\t<li>The Screen displays operational mode</li>\n\t<li>Now, remove upper / Lower Blind plug</li>\n\t<li>The Operational&nbsp;mode section is blank (No data shown)</li>\n</ul>\n\n<p>&nbsp;</p>\n\n<p><img alt=\"\" height=\"171\" src=\"https://konerqm.jamacloud.com/attachment/233842/2025_12_06_01_46_021.jpg\" width=\"228\" />&nbsp;</p>\n\n<p>&nbsp;</p>\n\n<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\"><strong>Expected behavior:&nbsp;&nbsp;</strong></span></span></p>\n\n<p><span style=\"font-family:Calibri, sans-serif\"><span style=\"font-size:14.6667px\">Inspection mode must be displayed</span></span></p>\n\n<p>&nbsp;</p>\n\n<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\"><strong>Actual behavior:</strong></span></span></p>\n\n<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\">No data displayed in operational mode</span></span></p>\n\n<p>&nbsp;</p>\n\n<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\"><strong>Recovery:&nbsp;</strong></span></span></p>\n\n<p><span style=\"font-family:Calibri, sans-serif\"><span style=\"font-size:14.6667px\">NA</span></span></p>\n",
+            "status": 1081,
+            "BUG_component$154": 1561,
+            "BUG_subcomponent$154": "IEX",
+            "createdBy": 6117,
+            "release": 2581,
+            "BUG_foundOnDate$154": "2025-12-05",
+            "priority": 2410,
+            "BUG_severity$154": 1110,
+            "BUG_category$154": 1422,
+            "BUG_testLevel$154": 1129,
+            "BUG_howFound$154": 2407,
+            "BUG_whereFound$154": 1137,
+            "BUG_probability_on_field$154": 2396,
+            "root_cause_category$154": 2512,
+            "BUG_testCaseUpdated$154": 1198,
+            "BUG_V1_project$154": 1431
+        },
+        "resources": {
+            "self": {
+                "allowed": [
+                    "GET"
+                ]
+            }
+        },
+        "version": 1,
+        "location": {
+            "sortOrder": 1376,
+            "globalSortOrder": 1311290879,
+            "sequence": "2.8.1377",
+            "parent": {
+                "item": 18771233
+            }
+        },
+        "lock": {
+            "locked": false
+        },
+        "type": "items"
+    },
+    {
+        "id": 28548529,
+        "documentKey": "KIE601-SWBUG-2798",
+        "globalId": "GID-7572612",
+        "itemType": 154,
+        "project": 417,
+        "createdDate": "2025-12-06T01:53:11.000+0000",
+        "modifiedDate": "2025-12-06T01:53:11.000+0000",
+        "lastActivityDate": "2025-12-06T01:53:11.000+0000",
+        "createdBy": 6117,
+        "modifiedBy": 6117,
+        "fields": {
+            "documentKey": "KIE601-SWBUG-2798",
+            "globalId": "GID-7572612",
+            "name": "IEX - The UI sheet for R2.0.3 for ACU parameters is not as per FUI working",
+            "description": "<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\"><strong>Detailed Defect Description:</strong></span></span></p>\n\n<p>IEX - The UI sheet for R2.0.3 for ACU parameters is not as per FUI working</p>\n\n<p>&nbsp;</p>\n\n<p>&nbsp;</p>\n\n<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\"><strong>Parameters:&nbsp;&nbsp;</strong></span></span></p>\n\n<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\">PC1_1216</span></span></p>\n\n<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\">PC3_3012</span></span></p>\n\n<p>&nbsp;</p>\n\n<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\"><strong>Group configuration: </strong></span></span></p>\n\n<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\">NA</span></span></p>\n\n<p>&nbsp;</p>\n\n<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\"><strong>Drive type:</strong></span></span></p>\n\n<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\">NA</span></span></p>\n\n<p>&nbsp;</p>\n\n<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\"><strong>Regression or new finding:</strong></span></span></p>\n\n<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\">New Finding</span></span></p>\n\n<p>&nbsp;</p>\n\n<p>&nbsp;</p>\n\n<p>&nbsp;</p>\n\n<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\"><strong>Test case Name / Feature name:</strong></span></span></p>\n\n<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\">ACU</span></span></p>\n\n<p>&nbsp;</p>\n\n<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\"><strong>Test step number:</strong></span></span></p>\n\n<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\">3</span></span></p>\n\n<p>&nbsp;</p>\n\n<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\"><strong>Description of the test case (Detailed Scenario)&nbsp;</strong></span></span></p>\n\n<ul>\n\t<li>The UI sheet mentions for PC1-1216_1/0 for commercial production</li>\n\t<li>For Commercial Piloting PC1_1216_0/1/2</li>\n\t<li>In R2.0.3 (Com prod) FUI displays PC1_1216_0/1/2</li>\n</ul>\n\n<p>&nbsp;</p>\n\n<p>Note: All ACU parameters except 3007 works like Pilot release</p>\n\n<p>&nbsp;</p>\n\n<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\"><strong>Expected behavior:&nbsp;&nbsp;</strong></span></span></p>\n\n<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\">The FUI parameters must be as same as UI sheet</span></span></p>\n\n<p>&nbsp;</p>\n\n<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\"><strong>Actual behavior:</strong></span></span></p>\n\n<p>All ACU parameters except 3007 works like Pilot release</p>\n\n<p>&nbsp;</p>\n\n<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\"><strong>Recovery:&nbsp;</strong></span></span></p>\n\n<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\">NA</span></span></p>\n\n<p>&nbsp;</p>\n",
+            "status": 1081,
+            "BUG_component$154": 1561,
+            "BUG_subcomponent$154": "IEX",
+            "createdBy": 6117,
+            "release": 2581,
+            "BUG_foundOnDate$154": "2025-12-05",
+            "priority": 2410,
+            "BUG_severity$154": 1111,
+            "BUG_category$154": 1422,
+            "BUG_testLevel$154": 1129,
+            "BUG_howFound$154": 2407,
+            "BUG_whereFound$154": 1137,
+            "BUG_probability_on_field$154": 2396,
+            "root_cause_category$154": 2512,
+            "BUG_testCaseUpdated$154": 1198,
+            "BUG_V1_project$154": 1431
+        },
+        "resources": {
+            "self": {
+                "allowed": [
+                    "GET"
+                ]
+            }
+        },
+        "version": 1,
+        "location": {
+            "sortOrder": 1377,
+            "globalSortOrder": 1311291952,
+            "sequence": "2.8.1378",
             "parent": {
                 "item": 18771233
             }
@@ -4373,7 +4535,7 @@
         "version": 2,
         "location": {
             "sortOrder": 468,
-            "globalSortOrder": 265420184,
+            "globalSortOrder": 265410800,
             "sequence": "4.469",
             "parent": {
                 "item": 166775
