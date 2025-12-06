@@ -10417,6 +10417,20 @@
     },
     {
         "TestRunStatus":"PASSED",
+        "ExecutionDate":"2025-12-06",
+        "Document Key":"KIE601-TSTRN-70570",
+        "Name":"1. Stop After Standby - KST - Inverter - Up direction",
+        "Assigned To":"Mohammed Ibrahim Sultan"
+    },
+    {
+        "TestRunStatus":"PASSED",
+        "ExecutionDate":"2025-12-06",
+        "Document Key":"KIE601-TSTRN-70572",
+        "Name":"3. Stop After Standby - KST - Inverter - Down direction",
+        "Assigned To":"Mohammed Ibrahim Sultan"
+    },
+    {
+        "TestRunStatus":"PASSED",
         "ExecutionDate":"2025-12-03",
         "Document Key":"KIE601-TSTRN-70502",
         "Name":"Inspection Mode - Operation - Upper Pit",
@@ -10518,6 +10532,27 @@
         "ExecutionDate":"2025-12-06",
         "Document Key":"KIE601-TSTRN-70534",
         "Name":"Acceleration Rate Supervision Fault 64",
+        "Assigned To":"Mohammed Ibrahim Sultan"
+    },
+    {
+        "TestRunStatus":"PASSED",
+        "ExecutionDate":"2025-12-06",
+        "Document Key":"KIE601-TSTRN-70535",
+        "Name":" Acceleration Rate Supervision - One Sensor Interface - P1 Only",
+        "Assigned To":"Mohammed Ibrahim Sultan"
+    },
+    {
+        "TestRunStatus":"PASSED",
+        "ExecutionDate":"2025-12-06",
+        "Document Key":"KIE601-TSTRN-70536",
+        "Name":" Acceleration Rate Supervision - One Sensor Interface - P2 Only",
+        "Assigned To":"Mohammed Ibrahim Sultan"
+    },
+    {
+        "TestRunStatus":"PASSED",
+        "ExecutionDate":"2025-12-06",
+        "Document Key":"KIE601-TSTRN-70537",
+        "Name":" Acceleration Rate Supervision - Two Sensor Interface",
         "Assigned To":"Mohammed Ibrahim Sultan"
     },
     {
