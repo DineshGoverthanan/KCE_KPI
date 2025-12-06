@@ -10514,6 +10514,13 @@
         "Assigned To":"VIGNESHWARAR"
     },
     {
+        "TestRunStatus":"INPROGRESS",
+        "ExecutionDate":"2025-12-06",
+        "Document Key":"KIE601-TSTRN-70534",
+        "Name":"Acceleration Rate Supervision Fault 64",
+        "Assigned To":"Mohammed Ibrahim Sultan"
+    },
+    {
         "TestRunStatus":"FAILED",
         "ExecutionDate":"2025-12-02",
         "Document Key":"KIE601-TSTRN-70538",
