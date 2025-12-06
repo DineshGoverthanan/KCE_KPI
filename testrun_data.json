@@ -10584,6 +10584,13 @@
         "Assigned To":"VIGNESHWARAR"
     },
     {
+        "TestRunStatus":"PASSED",
+        "ExecutionDate":"2025-12-06",
+        "Document Key":"KIE601-TSTRN-70528",
+        "Name":"310-1 Unintentional Movement for KCM",
+        "Assigned To":"Mohammed Ibrahim Sultan"
+    },
+    {
         "TestRunStatus":"INPROGRESS",
         "ExecutionDate":"2025-12-06",
         "Document Key":"KIE601-TSTRN-70534",

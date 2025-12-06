@@ -3955,18 +3955,19 @@
         "itemType": 154,
         "project": 417,
         "createdDate": "2025-12-02T13:29:51.000+0000",
-        "modifiedDate": "2025-12-06T01:51:12.000+0000",
-        "lastActivityDate": "2025-12-06T01:51:12.000+0000",
+        "modifiedDate": "2025-12-06T09:29:00.000+0000",
+        "lastActivityDate": "2025-12-06T09:29:00.000+0000",
         "createdBy": 5932,
-        "modifiedBy": 3603,
+        "modifiedBy": 2001,
         "fields": {
             "documentKey": "KIE601-SWBUG-2778",
             "globalId": "GID-7565405",
             "name": "IEX-Fault F 84-5 was Triggered when starting Escalator by using Key Switch in Learning Mode",
             "description": "<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\"><strong>Detailed Defect Description:</strong></span></span></p>\n\n<p>IEX-Fault F 84-5 was Triggered when starting Escalator by using Key Switch in Learning Mode</p>\n\n<p>&nbsp;</p>\n\n<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\"><strong>Parameters:&nbsp;&nbsp;</strong></span></span></p>\n\n<p><span style=\"font-family:Calibri,sans-serif\"><span style=\"font-size:14.6667px\">PC4_4000_1</span></span></p>\n\n<p>&nbsp;</p>\n\n<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\"><strong>Group configuration: </strong></span></span></p>\n\n<p><span style=\"font-family:Calibri,sans-serif\"><span style=\"font-size:14.6667px\">Single escalator setup</span></span></p>\n\n<p>&nbsp;</p>\n\n<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\"><strong>Drive type:</strong></span></span></p>\n\n<p><span style=\"font-family:Calibri,sans-serif\"><span style=\"font-size:14.6667px\">Monarch,Danfoss</span></span></p>\n\n<p>&nbsp;</p>\n\n<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\"><strong>Regression or new finding:</strong></span></span></p>\n\n<p>Adhoc</p>\n\n<p>&nbsp;</p>\n\n<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\"><strong>Description of the test case (Detailed Scenario)&nbsp;</strong></span></span></p>\n\n<p>1.Set the parameter PC4_4000_1.</p>\n\n<p>2.Start the escalator by using key switch.</p>\n\n<p>3.The escalator fails to start and displays fault code F 84-5 (Key switch bottom center not open) &amp; F 302 in FUI.</p>\n\n<p>&nbsp;</p>\n\n<p><strong>Note: Issue was reproduced 3 times out of 5 key start&nbsp;</strong></p>\n\n<p><strong>During key start in normal mode, it functions correctly and the issue occurs only in learning mode.</strong></p>\n\n<p>&nbsp;</p>\n\n<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\"><strong>Expected behavior:&nbsp;&nbsp;</strong></span></span></p>\n\n<p>The escalator should start normally without any faults.</p>\n\n<p>&nbsp;</p>\n\n<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\"><strong>Actual behavior</strong></span></span></p>\n\n<p>The escalator does not start running and displays fault code F 84-5 (Key switch bottom center not open)</p>\n\n<p>&nbsp;</p>\n\n<p><strong>Scenario-2</strong></p>\n\n<p>Escalator Is In Fault Stop Condition</p>\n\n<p>Activate Bottom Keyswitch</p>\n\n<p>&nbsp;</p>\n\n<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\"><strong>Expected behavior:</strong></span></span></p>\n\n<p>No Unnecessary fault should be posted</p>\n\n<p>&nbsp;</p>\n\n<p><strong>Actual behavior:</strong></p>\n\n<p>FC 084-5 is posted along with existing fault</p>\n\n<p>&nbsp;</p>\n\n<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\"><strong>Recovery:&nbsp;</strong></span></span></p>\n\n<p>Manual reset.</p>\n\n<p>&nbsp;</p>\n\n<p>&nbsp;</p>\n\n<p>&nbsp;</p>\n\n<p><strong>Value added information</strong>:<br />\nSW-R 2.0.3</p>\n",
-            "status": 1081,
+            "status": 1082,
             "BUG_component$154": 1561,
             "createdBy": 5932,
+            "assignedTo": 6329,
             "release": 2581,
             "BUG_foundOnDate$154": "2025-12-01",
             "priority": 2410,
@@ -3988,7 +3989,7 @@
                 ]
             }
         },
-        "version": 4,
+        "version": 5,
         "location": {
             "sortOrder": 1357,
             "globalSortOrder": 1311270492,
@@ -3999,7 +4000,7 @@
         },
         "lock": {
             "locked": false,
-            "lastLockedDate": "2025-12-06T01:51:14.000+0000"
+            "lastLockedDate": "2025-12-06T09:29:01.000+0000"
         },
         "type": "items"
     },
@@ -4231,18 +4232,19 @@
         "itemType": 154,
         "project": 417,
         "createdDate": "2025-12-05T13:25:35.000+0000",
-        "modifiedDate": "2025-12-05T13:25:35.000+0000",
-        "lastActivityDate": "2025-12-05T13:25:35.000+0000",
+        "modifiedDate": "2025-12-06T09:21:29.000+0000",
+        "lastActivityDate": "2025-12-06T09:21:29.000+0000",
         "createdBy": 5932,
-        "modifiedBy": 5932,
+        "modifiedBy": 2001,
         "fields": {
             "documentKey": "KIE601-SWBUG-2794",
             "globalId": "GID-7571208",
             "name": "IEX- Faults F 67-3(MSC and CPU Enhanced Safety Parameters Mismatch), 329-4(MSC 2 Enhanced Safety Parameter Push pending), and F 302  was triggered when Starting Escalator Using Key Switch in Learning Mode",
             "description": "<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\"><strong>Detailed Defect Description:</strong></span></span></p>\n\n<p>IEX- Faults F 67-3(MSC and CPU Enhanced Safety Parameters Mismatch), 329-4(MSC 2 Enhanced Safety Parameter Push pending), and F 302 &nbsp;was triggered when Starting Escalator Using Key Switch in Learning Mode.</p>\n\n<p>&nbsp;</p>\n\n<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\"><strong>Parameters:&nbsp;&nbsp;</strong></span></span></p>\n\n<p>PC4_4000_1</p>\n\n<p>&nbsp;</p>\n\n<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\"><strong>Group configuration: </strong></span></span></p>\n\n<p>Single escalator setup</p>\n\n<p>&nbsp;</p>\n\n<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\"><strong>Drive type:</strong></span></span></p>\n\n<p>Monarch,Danfoss</p>\n\n<p>&nbsp;</p>\n\n<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\"><strong>Regression or new finding:</strong></span></span></p>\n\n<p>Adhoc</p>\n\n<p>&nbsp;</p>\n\n<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\"><strong>Description of the test case (Detailed Scenario)&nbsp;</strong></span></span></p>\n\n<p>1.Set the parameter PC4_4000_1.</p>\n\n<p>2.Start the escalator by using key switch.</p>\n\n<p>3.The escalator fails to start and displays fault code F 67-3 ,F329-4 &amp; F 302 in FUI.</p>\n\n<p>Note :This issue was reproduced 3<strong>&nbsp;times out of 5 key starts.</strong></p>\n\n<p>Performing an Enhanced Safety Push (<strong>PC2_2199_1</strong>) clears the faults. After the enhanced safety push, starting the escalator in learning mode using the key switch is successful.</p>\n\n<p>&nbsp;</p>\n\n<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\"><strong>Expected behavior:&nbsp;&nbsp;</strong></span></span></p>\n\n<p>The escalator should start normally without any faults.</p>\n\n<p>&nbsp;</p>\n\n<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\"><strong>Actual behavior:</strong></span></span></p>\n\n<p>The escalator does not start and F 67-3 ,F329-4 &amp; F 302 triggered in FUI</p>\n\n<p>&nbsp;</p>\n\n<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\"><strong>Recovery:&nbsp;</strong></span></span></p>\n\n<p>Performing an Enhanced Safety Push (<strong>PC2_2199_1</strong>) clears the faults. After the enhanced safety push, starting the escalator in learning mode using the key switch is successful.</p>\n\n<p>&nbsp;</p>\n\n<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\"><strong>Value-added information:&nbsp;</strong></span></span></p>\n\n<p>IEX SW-R 2.0.3</p>\n",
-            "status": 1081,
+            "status": 1082,
             "BUG_component$154": 1561,
             "createdBy": 5932,
+            "assignedTo": 6329,
             "release": 2581,
             "BUG_foundOnDate$154": "2025-12-04",
             "priority": 2410,
@@ -4263,7 +4265,7 @@
                 ]
             }
         },
-        "version": 1,
+        "version": 2,
         "location": {
             "sortOrder": 1373,
             "globalSortOrder": 1311287660,
@@ -4273,7 +4275,8 @@
             }
         },
         "lock": {
-            "locked": false
+            "locked": false,
+            "lastLockedDate": "2025-12-06T09:21:30.000+0000"
         },
         "type": "items"
     },
@@ -4284,18 +4287,19 @@
         "itemType": 154,
         "project": 417,
         "createdDate": "2025-12-05T13:31:05.000+0000",
-        "modifiedDate": "2025-12-05T13:31:05.000+0000",
-        "lastActivityDate": "2025-12-05T13:31:05.000+0000",
+        "modifiedDate": "2025-12-06T09:31:56.000+0000",
+        "lastActivityDate": "2025-12-06T09:31:56.000+0000",
         "createdBy": 5932,
-        "modifiedBy": 5932,
+        "modifiedBy": 2001,
         "fields": {
             "documentKey": "KIE601-SWBUG-2795",
             "globalId": "GID-7571399",
             "name": "IEX-EGD Display shows undefined fault for 355 (Communication fault, E Link)",
             "description": "<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\"><strong>Detailed Defect Description:</strong></span></span></p>\n\n<p>IEX-EGD Display shows undefined fault for 355 (Communication fault, E Link)</p>\n\n<p>&nbsp;</p>\n\n<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\"><strong>Parameters:&nbsp;&nbsp;</strong></span></span></p>\n\n<p><span style=\"font-family:Calibri, sans-serif\"><span style=\"font-size:14.6667px\">PC1_1248_1</span></span></p>\n\n<p>&nbsp;</p>\n\n<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\"><strong>Group configuration: </strong></span></span></p>\n\n<p><span style=\"font-family:Calibri, sans-serif\"><span style=\"font-size:14.6667px\">Single escalator setup</span></span></p>\n\n<p>&nbsp;</p>\n\n<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\"><strong>Drive type:</strong></span></span></p>\n\n<p><span style=\"font-family:Calibri, sans-serif\"><span style=\"font-size:14.6667px\">Monarch,Danfoss</span></span></p>\n\n<p>&nbsp;</p>\n\n<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\"><strong>Regression or new finding:</strong></span></span></p>\n\n<p><span style=\"font-family:Calibri, sans-serif\"><span style=\"font-size:14.6667px\">Adhoc</span></span></p>\n\n<p>&nbsp;</p>\n\n<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\"><strong>Description of the test case (Detailed Scenario)&nbsp;</strong></span></span></p>\n\n<p>1.Create 355 fault (Communication fault, E Link).</p>\n\n<p>2.Check in EGD Display.</p>\n\n<p>3.EGD Display shows undefined fault.</p>\n\n<p><img alt=\"\" height=\"170\" src=\"https://konerqm.jamacloud.com/attachment/233829/2025_12_05_13_29_231.png\" width=\"270\" /></p>\n\n<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\"><strong>Expected behavior:&nbsp;&nbsp;</strong></span></span></p>\n\n<p>EGD Display need to show Communication fault, E Link</p>\n\n<p>&nbsp;</p>\n\n<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\"><strong>Actual behavior:</strong></span></span></p>\n\n<p>EGD Display shows undefined fault.</p>\n\n<p>&nbsp;</p>\n\n<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\"><strong>Recovery:&nbsp;</strong></span></span></p>\n\n<p><span style=\"font-family:Calibri, sans-serif\"><span style=\"font-size:14.6667px\">-</span></span></p>\n\n<p>&nbsp;</p>\n\n<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\"><strong>Value-added information:&nbsp;</strong></span></span></p>\n\n<p>IEX SW-R 2.0.3</p>\n\n<p>Attached screenshot</p>\n\n<p>&nbsp;</p>\n",
-            "status": 1081,
+            "status": 1082,
             "BUG_component$154": 1561,
             "createdBy": 5932,
+            "assignedTo": 2001,
             "release": 2581,
             "BUG_foundOnDate$154": "2025-12-03",
             "priority": 2410,
@@ -4316,7 +4320,7 @@
                 ]
             }
         },
-        "version": 1,
+        "version": 2,
         "location": {
             "sortOrder": 1374,
             "globalSortOrder": 1311288733,
@@ -4326,7 +4330,8 @@
             }
         },
         "lock": {
-            "locked": false
+            "locked": false,
+            "lastLockedDate": "2025-12-06T09:31:57.000+0000"
         },
         "type": "items"
     },
