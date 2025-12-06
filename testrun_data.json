@@ -10648,6 +10648,13 @@
     },
     {
         "TestRunStatus":"FAILED",
+        "ExecutionDate":"2025-12-06",
+        "Document Key":"KIE601-TSTRN-70546",
+        "Name":"On-site mode updated",
+        "Assigned To":"VIGNESHWARAR"
+    },
+    {
+        "TestRunStatus":"FAILED",
         "ExecutionDate":"2025-12-04",
         "Document Key":"KIE601-TSTRN-70547",
         "Name":"Contactor feedback ",
