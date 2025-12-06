@@ -9892,6 +9892,13 @@
     },
     {
         "TestRunStatus":"PASSED",
+        "ExecutionDate":"2025-12-06",
+        "Document Key":"KIE601-TSTRN-70616",
+        "Name":"EN115 Disable HR Underspeed",
+        "Assigned To":"VIGNESHWARAR"
+    },
+    {
+        "TestRunStatus":"PASSED",
         "ExecutionDate":"2025-07-31",
         "Document Key":"KIE601-TSTRN-56798",
         "Name":"Traffic Light Flashing for Out of Service Fault",
@@ -9966,6 +9973,13 @@
         "Document Key":"KIE601-TSTRN-56791",
         "Name":"Heater Operation upper Truss",
         "Assigned To":"Mohammed Ibrahim Sultan"
+    },
+    {
+        "TestRunStatus":"INPROGRESS",
+        "ExecutionDate":"2025-12-06",
+        "Document Key":"KIE601-TSTRN-70622",
+        "Name":"EN115 Learning Mode",
+        "Assigned To":"VIGNESHWARAR"
     },
     {
         "TestRunStatus":"BLOCKED",
@@ -10560,6 +10574,20 @@
         "ExecutionDate":"2025-12-04",
         "Document Key":"KIE601-TSTRN-70515",
         "Name":" Safety fault codes MSC (2)",
+        "Assigned To":"S.P"
+    },
+    {
+        "TestRunStatus":"PASSED",
+        "ExecutionDate":"2025-12-06",
+        "Document Key":"KIE601-TSTRN-70516",
+        "Name":" Safety fault codes LSC",
+        "Assigned To":"S.P"
+    },
+    {
+        "TestRunStatus":"PASSED",
+        "ExecutionDate":"2025-12-06",
+        "Document Key":"KIE601-TSTRN-70517",
+        "Name":" Safety fault codes SEC",
         "Assigned To":"S.P"
     },
     {
