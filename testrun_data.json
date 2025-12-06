@@ -9793,11 +9793,25 @@
         "Assigned To":"VIGNESHWARAR"
     },
     {
+        "TestRunStatus":"BLOCKED",
+        "ExecutionDate":"2025-12-06",
+        "Document Key":"KIE601-TSTRN-70628",
+        "Name":"Voice annaouncer as Buzzer in  - Start Condition",
+        "Assigned To":"S.P"
+    },
+    {
         "TestRunStatus":"FAILED",
         "ExecutionDate":"2025-08-07",
         "Document Key":"KIE601-TSTRN-56804",
         "Name":"On-site mode updated",
         "Assigned To":"VIGNESHWARAR"
+    },
+    {
+        "TestRunStatus":"BLOCKED",
+        "ExecutionDate":"2025-12-06",
+        "Document Key":"KIE601-TSTRN-70629",
+        "Name":"Voice announcer as Buzzer in  - Stop Condition",
+        "Assigned To":"S.P"
     },
     {
         "TestRunStatus":"PASSED",
@@ -10402,8 +10416,8 @@
         "Assigned To":"Mohammed Ibrahim Sultan"
     },
     {
-        "TestRunStatus":"INPROGRESS",
-        "ExecutionDate":"2025-12-05",
+        "TestRunStatus":"FAILED",
+        "ExecutionDate":"2025-12-06",
         "Document Key":"KIE601-TSTRN-70568",
         "Name":"Standby Mode - KSB - Faults",
         "Assigned To":"Mohammed Ibrahim Sultan"
@@ -10425,8 +10439,50 @@
     {
         "TestRunStatus":"PASSED",
         "ExecutionDate":"2025-12-06",
+        "Document Key":"KIE601-TSTRN-70571",
+        "Name":"2. Stop After Standby - KST - Inverter - Up direction - Operation After Stopping",
+        "Assigned To":"Mohammed Ibrahim Sultan"
+    },
+    {
+        "TestRunStatus":"PASSED",
+        "ExecutionDate":"2025-12-06",
         "Document Key":"KIE601-TSTRN-70572",
         "Name":"3. Stop After Standby - KST - Inverter - Down direction",
+        "Assigned To":"Mohammed Ibrahim Sultan"
+    },
+    {
+        "TestRunStatus":"PASSED",
+        "ExecutionDate":"2025-12-06",
+        "Document Key":"KIE601-TSTRN-70573",
+        "Name":"4. Stop After Standby - KST - Inverter - Down direction - Operation After Stopping",
+        "Assigned To":"Mohammed Ibrahim Sultan"
+    },
+    {
+        "TestRunStatus":"PASSED",
+        "ExecutionDate":"2025-12-06",
+        "Document Key":"KIE601-TSTRN-70574",
+        "Name":"5. Stop After Standby - KST - Inverter - Opposite Running",
+        "Assigned To":"Mohammed Ibrahim Sultan"
+    },
+    {
+        "TestRunStatus":"PASSED",
+        "ExecutionDate":"2025-12-06",
+        "Document Key":"KIE601-TSTRN-70575",
+        "Name":"6. Change of Modes -  Different Modes to KST",
+        "Assigned To":"Mohammed Ibrahim Sultan"
+    },
+    {
+        "TestRunStatus":"PASSED",
+        "ExecutionDate":"2025-12-06",
+        "Document Key":"KIE601-TSTRN-70576",
+        "Name":"7. Change of Modes -  KST to Different Modes",
+        "Assigned To":"Mohammed Ibrahim Sultan"
+    },
+    {
+        "TestRunStatus":"INPROGRESS",
+        "ExecutionDate":"2025-12-06",
+        "Document Key":"KIE601-TSTRN-70577",
+        "Name":"8. Stop After Stanby - KST - Faults",
         "Assigned To":"Mohammed Ibrahim Sultan"
     },
     {
