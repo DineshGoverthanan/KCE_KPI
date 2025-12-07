@@ -9997,14 +9997,14 @@
     },
     {
         "TestRunStatus":"FAILED",
-        "ExecutionDate":"2025-12-04",
+        "ExecutionDate":"2025-12-07",
         "Document Key":"KIE601-TSTRN-70612",
         "Name":"EGD display",
         "Assigned To":"Mohammed Ibrahim Sultan"
     },
     {
         "TestRunStatus":"FAILED",
-        "ExecutionDate":"2025-12-03",
+        "ExecutionDate":"2025-12-07",
         "Document Key":"KIE601-TSTRN-70611",
         "Name":"LCB software update",
         "Assigned To":"Mohammed Ibrahim Sultan"
@@ -10025,7 +10025,7 @@
     },
     {
         "TestRunStatus":"FAILED",
-        "ExecutionDate":"2025-12-04",
+        "ExecutionDate":"2025-12-07",
         "Document Key":"KIE601-TSTRN-70609",
         "Name":"LCB Node Pairing\u00a0",
         "Assigned To":"Mohammed Ibrahim Sultan"
@@ -10459,7 +10459,7 @@
     },
     {
         "TestRunStatus":"PASSED",
-        "ExecutionDate":"2025-12-06",
+        "ExecutionDate":"2025-12-07",
         "Document Key":"KIE601-TSTRN-70572",
         "Name":"3. Stop After Standby - KST - Inverter - Down direction",
         "Assigned To":"Mohammed Ibrahim Sultan"
@@ -10689,6 +10689,13 @@
         "Assigned To":"Mohammed Ibrahim Sultan"
     },
     {
+        "TestRunStatus":"FAILED",
+        "ExecutionDate":"2025-12-07",
+        "Document Key":"KIE601-TSTRN-70533",
+        "Name":"Deceleration ramp fault 314",
+        "Assigned To":"Mohammed Ibrahim Sultan"
+    },
+    {
         "TestRunStatus":"INPROGRESS",
         "ExecutionDate":"2025-12-06",
         "Document Key":"KIE601-TSTRN-70534",
@@ -10738,15 +10745,22 @@
         "Assigned To":"VIGNESHWARAR"
     },
     {
-        "TestRunStatus":"INPROGRESS",
-        "ExecutionDate":"2025-12-03",
+        "TestRunStatus":"PASSED",
+        "ExecutionDate":"2025-12-07",
+        "Document Key":"KIE601-TSTRN-70541",
+        "Name":"Factory Mode Disabled & Input Supervision Enabled ( Permanent) ",
+        "Assigned To":"VIGNESHWARAR"
+    },
+    {
+        "TestRunStatus":"FAILED",
+        "ExecutionDate":"2025-12-07",
         "Document Key":"KIE601-TSTRN-70542",
         "Name":"Factory Mode Disabled & all Supervision Disabled for 1 hour",
         "Assigned To":"VIGNESHWARAR"
     },
     {
         "TestRunStatus":"FAILED",
-        "ExecutionDate":"2025-12-06",
+        "ExecutionDate":"2025-12-07",
         "Document Key":"KIE601-TSTRN-70546",
         "Name":"On-site mode updated",
         "Assigned To":"VIGNESHWARAR"
