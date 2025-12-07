@@ -9989,8 +9989,8 @@
         "Assigned To":"Mohammed Ibrahim Sultan"
     },
     {
-        "TestRunStatus":"INPROGRESS",
-        "ExecutionDate":"2025-12-05",
+        "TestRunStatus":"PASSED",
+        "ExecutionDate":"2025-12-07",
         "Document Key":"KIE601-TSTRN-70623",
         "Name":"EN115 All Supervision",
         "Assigned To":"VIGNESHWARAR"
@@ -10501,6 +10501,20 @@
     },
     {
         "TestRunStatus":"PASSED",
+        "ExecutionDate":"2025-12-07",
+        "Document Key":"KIE601-TSTRN-70579",
+        "Name":"2. Passenger Control Mode - K2D - Star Delta - UP direction",
+        "Assigned To":"Mohammed Ibrahim Sultan"
+    },
+    {
+        "TestRunStatus":"PASSED",
+        "ExecutionDate":"2025-12-07",
+        "Document Key":"KIE601-TSTRN-70581",
+        "Name":"4. Passenger Control Mode - K2D - Star Delta - Down direction",
+        "Assigned To":"Mohammed Ibrahim Sultan"
+    },
+    {
+        "TestRunStatus":"PASSED",
         "ExecutionDate":"2025-12-06",
         "Document Key":"KIE601-TSTRN-70587",
         "Name":"K2D Mode indication & K2D Wait flashing",
@@ -10570,8 +10584,8 @@
         "Assigned To":"VIGNESHWARAR"
     },
     {
-        "TestRunStatus":"INPROGRESS",
-        "ExecutionDate":"2025-12-06",
+        "TestRunStatus":"PASSED",
+        "ExecutionDate":"2025-12-07",
         "Document Key":"KIE601-TSTRN-70513",
         "Name":"Brake Lift & Close Monitoring. ( Motor Selection 2)",
         "Assigned To":"VIGNESHWARAR"
