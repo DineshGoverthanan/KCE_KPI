@@ -10803,6 +10803,13 @@
     {
         "TestRunStatus":"PASSED",
         "ExecutionDate":"2025-12-07",
+        "Document Key":"KIE601-TSTRN-70550",
+        "Name":"under and over voltage detection ",
+        "Assigned To":"Mohammed Ibrahim Sultan"
+    },
+    {
+        "TestRunStatus":"PASSED",
+        "ExecutionDate":"2025-12-07",
         "Document Key":"KIE601-TSTRN-70551",
         "Name":"Enhanced safety ",
         "Assigned To":"VIGNESHWARAR"
