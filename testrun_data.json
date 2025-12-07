@@ -10509,8 +10509,50 @@
     {
         "TestRunStatus":"PASSED",
         "ExecutionDate":"2025-12-07",
+        "Document Key":"KIE601-TSTRN-70580",
+        "Name":"3. Passenger Control Mode - K2D - Inverter - Down direction",
+        "Assigned To":"Mohammed Ibrahim Sultan"
+    },
+    {
+        "TestRunStatus":"PASSED",
+        "ExecutionDate":"2025-12-07",
         "Document Key":"KIE601-TSTRN-70581",
         "Name":"4. Passenger Control Mode - K2D - Star Delta - Down direction",
+        "Assigned To":"Mohammed Ibrahim Sultan"
+    },
+    {
+        "TestRunStatus":"PASSED",
+        "ExecutionDate":"2025-12-07",
+        "Document Key":"KIE601-TSTRN-70582",
+        "Name":"5. Passenger Control Mode - K2D - Mode Output",
+        "Assigned To":"Mohammed Ibrahim Sultan"
+    },
+    {
+        "TestRunStatus":"FAILED",
+        "ExecutionDate":"2025-12-07",
+        "Document Key":"KIE601-TSTRN-70583",
+        "Name":"6. Passenger Control Mode - K2D - K2D wait Flashing",
+        "Assigned To":"Mohammed Ibrahim Sultan"
+    },
+    {
+        "TestRunStatus":"FAILED",
+        "ExecutionDate":"2025-12-07",
+        "Document Key":"KIE601-TSTRN-70584",
+        "Name":"7. Change of Modes -  Different Modes to K2D",
+        "Assigned To":"Mohammed Ibrahim Sultan"
+    },
+    {
+        "TestRunStatus":"FAILED",
+        "ExecutionDate":"2025-12-07",
+        "Document Key":"KIE601-TSTRN-70585",
+        "Name":"8. Change of Modes -  K2D to Different Modes",
+        "Assigned To":"Mohammed Ibrahim Sultan"
+    },
+    {
+        "TestRunStatus":"INPROGRESS",
+        "ExecutionDate":"2025-12-07",
+        "Document Key":"KIE601-TSTRN-70586",
+        "Name":"9. Passenger Control Mode - K2D - Faults",
         "Assigned To":"Mohammed Ibrahim Sultan"
     },
     {
@@ -10721,6 +10763,13 @@
         "ExecutionDate":"2025-12-05",
         "Document Key":"KIE601-TSTRN-70548",
         "Name":"Contactor feedback inspection",
+        "Assigned To":"VIGNESHWARAR"
+    },
+    {
+        "TestRunStatus":"PASSED",
+        "ExecutionDate":"2025-12-07",
+        "Document Key":"KIE601-TSTRN-70549",
+        "Name":"operational modes",
         "Assigned To":"VIGNESHWARAR"
     },
     {
