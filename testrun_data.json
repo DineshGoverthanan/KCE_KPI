@@ -9975,7 +9975,7 @@
         "Assigned To":"Mohammed Ibrahim Sultan"
     },
     {
-        "TestRunStatus":"INPROGRESS",
+        "TestRunStatus":"PASSED",
         "ExecutionDate":"2025-12-06",
         "Document Key":"KIE601-TSTRN-70622",
         "Name":"EN115 Learning Mode",
@@ -10501,6 +10501,13 @@
     },
     {
         "TestRunStatus":"PASSED",
+        "ExecutionDate":"2025-12-06",
+        "Document Key":"KIE601-TSTRN-70587",
+        "Name":"K2D Mode indication & K2D Wait flashing",
+        "Assigned To":"VIGNESHWARAR"
+    },
+    {
+        "TestRunStatus":"PASSED",
         "ExecutionDate":"2025-12-03",
         "Document Key":"KIE601-TSTRN-70502",
         "Name":"Inspection Mode - Operation - Upper Pit",
@@ -10556,10 +10563,17 @@
         "Assigned To":"S.P"
     },
     {
-        "TestRunStatus":"INPROGRESS",
-        "ExecutionDate":"2025-12-04",
+        "TestRunStatus":"PASSED",
+        "ExecutionDate":"2025-12-06",
         "Document Key":"KIE601-TSTRN-70512",
         "Name":"Brake Lift & Close Monitoring. ( Motor Selection 1)",
+        "Assigned To":"VIGNESHWARAR"
+    },
+    {
+        "TestRunStatus":"INPROGRESS",
+        "ExecutionDate":"2025-12-06",
+        "Document Key":"KIE601-TSTRN-70513",
+        "Name":"Brake Lift & Close Monitoring. ( Motor Selection 2)",
         "Assigned To":"VIGNESHWARAR"
     },
     {
