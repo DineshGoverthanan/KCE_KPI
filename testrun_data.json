@@ -652,7 +652,7 @@
     },
     {
         "TestRunStatus":"FAILED",
-        "ExecutionDate":"2025-11-13",
+        "ExecutionDate":"2025-12-07",
         "Document Key":"KIE601-TSTRN-68224",
         "Name":"Enhanced safety Operational mode",
         "Assigned To":"VIGNESHWARAR"
@@ -9835,6 +9835,13 @@
         "Assigned To":"Mohammed Ibrahim Sultan"
     },
     {
+        "TestRunStatus":"INPROGRESS",
+        "ExecutionDate":"2025-12-07",
+        "Document Key":"KIE601-TSTRN-70626",
+        "Name":"Safety Input Configuration",
+        "Assigned To":"VIGNESHWARAR"
+    },
+    {
         "TestRunStatus":"PASSED",
         "ExecutionDate":"2025-07-30",
         "Document Key":"KIE601-TSTRN-56802",
@@ -10683,6 +10690,13 @@
     },
     {
         "TestRunStatus":"PASSED",
+        "ExecutionDate":"2025-12-07",
+        "Document Key":"KIE601-TSTRN-70525",
+        "Name":"Auxiliary break ",
+        "Assigned To":"Mohammed Ibrahim Sultan"
+    },
+    {
+        "TestRunStatus":"PASSED",
         "ExecutionDate":"2025-12-06",
         "Document Key":"KIE601-TSTRN-70528",
         "Name":"310-1 Unintentional Movement for KCM",
@@ -10787,15 +10801,15 @@
         "Assigned To":"VIGNESHWARAR"
     },
     {
-        "TestRunStatus":"INPROGRESS",
-        "ExecutionDate":"2025-12-02",
+        "TestRunStatus":"PASSED",
+        "ExecutionDate":"2025-12-07",
         "Document Key":"KIE601-TSTRN-70551",
         "Name":"Enhanced safety ",
         "Assigned To":"VIGNESHWARAR"
     },
     {
         "TestRunStatus":"FAILED",
-        "ExecutionDate":"2025-12-02",
+        "ExecutionDate":"2025-12-07",
         "Document Key":"KIE601-TSTRN-70552",
         "Name":"Enhanced safety Operational mode",
         "Assigned To":"VIGNESHWARAR"
