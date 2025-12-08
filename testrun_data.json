@@ -9835,8 +9835,8 @@
         "Assigned To":"Mohammed Ibrahim Sultan"
     },
     {
-        "TestRunStatus":"INPROGRESS",
-        "ExecutionDate":"2025-12-07",
+        "TestRunStatus":"FAILED",
+        "ExecutionDate":"2025-12-08",
         "Document Key":"KIE601-TSTRN-70626",
         "Name":"Safety Input Configuration",
         "Assigned To":"VIGNESHWARAR"
@@ -10774,7 +10774,7 @@
     },
     {
         "TestRunStatus":"FAILED",
-        "ExecutionDate":"2025-12-07",
+        "ExecutionDate":"2025-12-08",
         "Document Key":"KIE601-TSTRN-70546",
         "Name":"On-site mode updated",
         "Assigned To":"VIGNESHWARAR"
@@ -17045,6 +17045,13 @@
         "Assigned To":"Badaganti Sai Prasad"
     },
     {
+        "TestRunStatus":"NOT_APPLICABLE",
+        "ExecutionDate":"2025-12-08",
+        "Document Key":"KCE-TSTRN-4006673",
+        "Name":"Substance Release with SPP Configuration-  Not applicable ",
+        "Assigned To":"Badaganti Sai Prasad"
+    },
+    {
         "TestRunStatus":"PASSED",
         "ExecutionDate":"2025-11-22",
         "Document Key":"KCE-TSTRN-4004671",
@@ -17070,6 +17077,13 @@
         "ExecutionDate":"2025-11-22",
         "Document Key":"KCE-TSTRN-4004672",
         "Name":"EAQ with SPP Configuration ",
+        "Assigned To":"Badaganti Sai Prasad"
+    },
+    {
+        "TestRunStatus":"NOT_APPLICABLE",
+        "ExecutionDate":"2025-12-08",
+        "Document Key":"KCE-TSTRN-4006674",
+        "Name":"EAQ with SPP Configuration- Not applicable ",
         "Assigned To":"Badaganti Sai Prasad"
     },
     {
