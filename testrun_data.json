@@ -9814,6 +9814,13 @@
         "Assigned To":"S.P"
     },
     {
+        "TestRunStatus":"FAILED",
+        "ExecutionDate":"2025-12-08",
+        "Document Key":"KIE601-TSTRN-70802",
+        "Name":"Traffic Light Flashing for Out of Service Fault",
+        "Assigned To":"Mohammed Ibrahim Sultan"
+    },
+    {
         "TestRunStatus":"PASSED",
         "ExecutionDate":"2025-07-30",
         "Document Key":"KIE601-TSTRN-56800",
@@ -9986,6 +9993,13 @@
         "ExecutionDate":"2025-12-06",
         "Document Key":"KIE601-TSTRN-70622",
         "Name":"EN115 Learning Mode",
+        "Assigned To":"VIGNESHWARAR"
+    },
+    {
+        "TestRunStatus":"INPROGRESS",
+        "ExecutionDate":"2025-12-08",
+        "Document Key":"KIE601-TSTRN-70795",
+        "Name":"KFPS tool ",
         "Assigned To":"VIGNESHWARAR"
     },
     {
@@ -10535,8 +10549,8 @@
         "Assigned To":"Mohammed Ibrahim Sultan"
     },
     {
-        "TestRunStatus":"FAILED",
-        "ExecutionDate":"2025-12-07",
+        "TestRunStatus":"PASSED",
+        "ExecutionDate":"2025-12-08",
         "Document Key":"KIE601-TSTRN-70583",
         "Name":"6. Passenger Control Mode - K2D - K2D wait Flashing",
         "Assigned To":"Mohammed Ibrahim Sultan"
@@ -18022,6 +18036,13 @@
         "ExecutionDate":"2025-12-08",
         "Document Key":"KCE-TSTRN-4007035",
         "Name":"Timeout for Disability Service Response",
+        "Assigned To":"Suryanarayanan"
+    },
+    {
+        "TestRunStatus":"PASSED",
+        "ExecutionDate":"2025-12-08",
+        "Document Key":"KCE-TSTRN-4007036",
+        "Name":"Door Operation During Ongoing Disability Service",
         "Assigned To":"Suryanarayanan"
     }
 ]

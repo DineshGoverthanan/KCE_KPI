@@ -2373,16 +2373,16 @@
         "itemType": 154,
         "project": 417,
         "createdDate": "2025-09-11T11:55:32.000+0000",
-        "modifiedDate": "2025-12-03T09:21:08.000+0000",
-        "lastActivityDate": "2025-12-03T09:21:08.000+0000",
+        "modifiedDate": "2025-12-08T10:16:27.000+0000",
+        "lastActivityDate": "2025-12-08T10:16:27.000+0000",
         "createdBy": 6117,
-        "modifiedBy": 2001,
+        "modifiedBy": 6424,
         "fields": {
             "documentKey": "KIE601-SWBUG-2653",
             "globalId": "GID-7400279",
             "name": "IEX - FC 302 is cleared When Escalator is running in learning mode & interrupted by removing inspection blind plug  ",
             "description": "<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\"><strong>Detailed Defect Description:</strong></span></span></p>\n\n<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\">IEX - FC 302 is cleared When Escalator is running in learning mode &amp; interrupted by removing inspection blind plug</span></span></p>\n\n<p>&nbsp;</p>\n\n<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\"><strong>Parameters:&nbsp;&nbsp;</strong></span></span></p>\n\n<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\">PC4_4000 (Learning)</span></span></p>\n\n<p>&nbsp;</p>\n\n<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\"><strong>Group configuration:</strong></span></span></p>\n\n<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\">NA</span></span></p>\n\n<p>&nbsp;</p>\n\n<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\"><strong>Drive type:</strong></span></span></p>\n\n<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\">Monarch &amp; Danfoss</span></span></p>\n\n<p>&nbsp;</p>\n\n<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\"><strong>Regression or new finding:</strong></span></span></p>\n\n<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\">New Finding</span></span></p>\n\n<p>&nbsp;</p>\n\n<p>&nbsp;</p>\n\n<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\"><strong>Test case Name / Feature name:</strong></span></span></p>\n\n<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\">Ad hoc</span></span></p>\n\n<p>&nbsp;</p>\n\n<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\"><strong>Test step number:</strong></span></span></p>\n\n<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\">Ad hoc</span></span></p>\n\n<p>&nbsp;</p>\n\n<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\"><strong>Description of the test case (Detailed Scenario)&nbsp;</strong></span></span></p>\n\n<ol>\n\t<li>Create FC 302</li>\n\t<li>Now initiate Learning by Parameter PC4_4000_1</li>\n\t<li>Give Key switch input, Escalator starts running</li>\n\t<li>Now, interrupt the Escalator running by removing Inspection blind plug</li>\n\t<li>Escalator stops with Upper FUI = 'Lear_' &amp; Lower FUI = \"_ _ _ _\"</li>\n\t<li>FC 302 is cleared.</li>\n\t<li>Close the inspection blind plug and give key start</li>\n\t<li>Escalator runs normally in operational mode</li>\n</ol>\n\n<p>&nbsp;</p>\n\n<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\"><strong>Expected behavior:&nbsp;&nbsp;</strong></span></span></p>\n\n<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\">FC 302 must not be cleared</span></span></p>\n\n<p>&nbsp;</p>\n\n<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\"><strong>Actual behavior:</strong></span></span></p>\n\n<p><span style=\"font-family:Calibri, sans-serif\"><span style=\"font-size:14.6667px\">FC 302 is cleared</span></span></p>\n\n<p>&nbsp;</p>\n\n<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\"><strong>Recovery:&nbsp;</strong></span></span></p>\n\n<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\">Again, Power cycle - FC 302 is posted again</span></span></p>\n",
-            "status": 1085,
+            "status": 1086,
             "BUG_component$154": 1561,
             "BUG_subcomponent$154": "IEX",
             "createdBy": 6117,
@@ -2391,6 +2391,8 @@
             "BUG_foundOnDate$154": "2025-09-10",
             "BUG_plannedRelease$154": 2274,
             "BUG_fixedInRelease$154": 2550,
+            "BUG_closedInRelease$154": 2502,
+            "BUG_closingDate$154": "2025-12-07",
             "priority": 2410,
             "BUG_severity$154": 1109,
             "BUG_category$154": 1422,
@@ -2401,7 +2403,7 @@
             "root_cause_category$154": 2519,
             "BUG_rootCause$154": "<p>PRAKASH K</p>\n\n<p>Root Cause: Coding Error</p>\n\n<p>when learning was interrupted (switching to inspection mode), the learning status was not set to PENDING, so the learning fault (302)cleared. The fix makes sure any interruption sets the status to PENDING, so the fault stays active until learning is completed.</p>",
             "BUG_testCaseUpdated$154": 1198,
-            "BUG_RD_comments$154": "<p>[Satish]: 25-Sep-2025</p>\n\n<p>This defect is fixed in R 3.0.1.1</p>\n\n<p>&nbsp;</p>\n\n<p>[Krishna]: 23-Oct-2025</p>\n\n<p>This defect tested in R3.0.1.1 and it seems okay&nbsp;</p>",
+            "BUG_RD_comments$154": "<p>[Satish]: 25-Sep-2025</p>\n\n<p>This defect is fixed in R 3.0.1.1</p>\n\n<p>&nbsp;</p>\n\n<p>[Krishna]: 23-Oct-2025</p>\n\n<p>This defect tested in R3.0.1.1 and it seems okay&nbsp;<br />\n&nbsp;</p>\n\n<p>[Shafi]: 08-Dec-2025</p>\n\n<p>This defect tested in R3.0.0.2 and it seems okay&nbsp;</p>",
             "BUG_V1_project$154": 1431
         },
         "resources": {
@@ -2411,7 +2413,7 @@
                 ]
             }
         },
-        "version": 7,
+        "version": 9,
         "location": {
             "sortOrder": 1234,
             "globalSortOrder": 1303686657,
@@ -2422,7 +2424,7 @@
         },
         "lock": {
             "locked": false,
-            "lastLockedDate": "2025-12-03T09:21:09.000+0000"
+            "lastLockedDate": "2025-12-08T10:16:28.000+0000"
         },
         "type": "items"
     },
@@ -2487,22 +2489,24 @@
         "itemType": 154,
         "project": 417,
         "createdDate": "2025-09-22T04:46:55.000+0000",
-        "modifiedDate": "2025-12-03T10:02:59.000+0000",
-        "lastActivityDate": "2025-12-03T10:02:59.000+0000",
+        "modifiedDate": "2025-12-08T10:42:39.000+0000",
+        "lastActivityDate": "2025-12-08T10:42:39.000+0000",
         "createdBy": 6117,
-        "modifiedBy": 2001,
+        "modifiedBy": 6424,
         "fields": {
             "documentKey": "KIE601-SWBUG-2665",
             "globalId": "GID-7420468",
             "name": "IEX - In KST mode, Escalator accepts photocell after Drive acceleration rate high detected during key start",
             "description": "<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\"><strong>Detailed Defect Description:</strong></span></span></p>\n\n<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\">IEX - In KST mode, Escalator accepts photocell after Drive acceleration rate high detected during key start</span></span></p>\n\n<p>&nbsp;</p>\n\n<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\"><strong>Parameters:&nbsp;&nbsp;</strong></span></span></p>\n\n<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\">PC1_1101_2 (only P2 photocell installed)</span></span></p>\n\n<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\">Drive parameter U4-08 = 1, u4-10 = 1 (monarch)</span></span></p>\n\n<p>&nbsp;</p>\n\n<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\"><strong>Group configuration: </strong></span></span></p>\n\n<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\">NA</span></span></p>\n\n<p>&nbsp;</p>\n\n<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\"><strong>Drive type:</strong></span></span></p>\n\n<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\">Monarch</span></span></p>\n\n<p>&nbsp;</p>\n\n<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\"><strong>Regression or new finding:</strong></span></span></p>\n\n<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\">New finding</span></span></p>\n\n<p>&nbsp;</p>\n\n<p>&nbsp;</p>\n\n<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\"><strong>Test case Name / Feature name:</strong></span></span></p>\n\n<p><span style=\"font-family:Calibri, sans-serif\"><span style=\"font-size:14.6667px\">Ad hoc</span></span></p>\n\n<p>&nbsp;</p>\n\n<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\"><strong>Test step number:</strong></span></span></p>\n\n<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\">Ad hoc</span></span></p>\n\n<p>&nbsp;</p>\n\n<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\"><strong>Description of the test case (Detailed Scenario)&nbsp;</strong></span></span></p>\n\n<ol>\n\t<li>Escalator is in KST mode (P2 only installed)</li>\n\t<li>Change the drive parameter<span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\">&nbsp;U4-08 = 1, u4-10 = 1 (monarch)</span></span></li>\n\t<li><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\">Give key switch in up direction</span></span>\u200b\u200b\u200b\u200b\u200b\u200b, escalator starts to run in Up direction</li>\n\t<li>after nominal time expires, escalator changes to standby speed</li>\n\t<li>now, cut P2 photocell Escalator starts running again</li>\n\t<li>Escalator runs in nominal speed, then standby speed (completely expires) and then FC 64 is posted</li>\n</ol>\n\n<p>Scenario repeats every time</p>\n\n<p>&nbsp;</p>\n\n<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\"><strong>Expected behavior:&nbsp;&nbsp;</strong></span></span></p>\n\n<p><span style=\"font-family:Calibri, sans-serif\"><span style=\"font-size:14.6667px\">Escalator must not run in standby speed if Acceleration is high in key switch</span></span></p>\n\n<p>&nbsp;</p>\n\n<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\"><strong>Actual behavior:</strong></span></span></p>\n\n<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\">Escalator runs in standby speed&nbsp;</span></span></p>\n\n<p>&nbsp;</p>\n\n<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\"><strong>Recovery:&nbsp;</strong></span></span></p>\n\n<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\">NA</span></span></p>\n\n<p>&nbsp;</p>\n",
-            "status": 1085,
+            "status": 1086,
             "BUG_component$154": 1561,
             "createdBy": 6117,
             "assignedTo": 6329,
             "release": 2527,
             "BUG_foundOnDate$154": "2025-09-21",
             "BUG_fixedInRelease$154": 2550,
+            "BUG_closedInRelease$154": 2502,
+            "BUG_closingDate$154": "2025-12-07",
             "priority": 2410,
             "BUG_severity$154": 1110,
             "BUG_category$154": 1425,
@@ -2513,7 +2517,7 @@
             "root_cause_category$154": 2512,
             "BUG_rootCause$154": "<p>Coding error</p>",
             "BUG_testCaseUpdated$154": 1198,
-            "BUG_RD_comments$154": "<p>[Visu]: 15-Oct-2025<br />\nThis defect is fixed in HD R 3.0.1.2</p>\n\n<p>&nbsp;</p>\n\n<p>[Visu]: 25-Oct-2025<br />\nThis defect is fixed in R2.0.1.2 also</p>\n\n<p>&nbsp;</p>\n\n<p>[Bhavya]:</p>\n\n<p>This defect is verified in R3.0.1.3 and it seems ok.</p>\n\n<p>&nbsp;</p>\n\n<p>[Bhavya]:</p>\n\n<p>This defect is verified in R2.0.2.2 and it seems ok.</p>\n\n<p>&nbsp;</p>\n\n<p>[Sultan]: 1-Dec-2025:</p>\n\n<p>Tried to resimulate this defect in release R2.0.3, It seems to work fine</p>",
+            "BUG_RD_comments$154": "<p>[Visu]: 15-Oct-2025<br />\nThis defect is fixed in HD R 3.0.1.2</p>\n\n<p>&nbsp;</p>\n\n<p>[Visu]: 25-Oct-2025<br />\nThis defect is fixed in R2.0.1.2 also</p>\n\n<p>&nbsp;</p>\n\n<p>[Bhavya]:</p>\n\n<p>This defect is verified in R3.0.1.3 and it seems ok.</p>\n\n<p>&nbsp;</p>\n\n<p>[Bhavya]:</p>\n\n<p>This defect is verified in R2.0.2.2 and it seems ok.</p>\n\n<p>&nbsp;</p>\n\n<p>[Sultan]: 1-Dec-2025:</p>\n\n<p>Tried to resimulate this defect in release R2.0.3, It seems to work fine<br />\n&nbsp;</p>\n\n<p>[Shafi]: 8-Dec-2025:</p>\n\n<p>Tried to resimulate this defect in release R3.0.0.2, It seems to work fine</p>",
             "BUG_V1_project$154": 1431
         },
         "resources": {
@@ -2523,7 +2527,7 @@
                 ]
             }
         },
-        "version": 9,
+        "version": 11,
         "location": {
             "sortOrder": 1246,
             "globalSortOrder": 1304941509,
@@ -2534,7 +2538,7 @@
         },
         "lock": {
             "locked": false,
-            "lastLockedDate": "2025-12-03T10:03:02.000+0000"
+            "lastLockedDate": "2025-12-08T10:42:40.000+0000"
         },
         "type": "items"
     },
@@ -3961,16 +3965,16 @@
         "itemType": 154,
         "project": 417,
         "createdDate": "2025-12-02T13:29:51.000+0000",
-        "modifiedDate": "2025-12-06T09:29:00.000+0000",
-        "lastActivityDate": "2025-12-06T09:29:00.000+0000",
+        "modifiedDate": "2025-12-08T11:18:24.000+0000",
+        "lastActivityDate": "2025-12-08T11:18:24.000+0000",
         "createdBy": 5932,
-        "modifiedBy": 2001,
+        "modifiedBy": 6329,
         "fields": {
             "documentKey": "KIE601-SWBUG-2778",
             "globalId": "GID-7565405",
             "name": "IEX-Fault F 84-5 was Triggered when starting Escalator by using Key Switch in Learning Mode",
             "description": "<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\"><strong>Detailed Defect Description:</strong></span></span></p>\n\n<p>IEX-Fault F 84-5 was Triggered when starting Escalator by using Key Switch in Learning Mode</p>\n\n<p>&nbsp;</p>\n\n<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\"><strong>Parameters:&nbsp;&nbsp;</strong></span></span></p>\n\n<p><span style=\"font-family:Calibri,sans-serif\"><span style=\"font-size:14.6667px\">PC4_4000_1</span></span></p>\n\n<p>&nbsp;</p>\n\n<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\"><strong>Group configuration: </strong></span></span></p>\n\n<p><span style=\"font-family:Calibri,sans-serif\"><span style=\"font-size:14.6667px\">Single escalator setup</span></span></p>\n\n<p>&nbsp;</p>\n\n<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\"><strong>Drive type:</strong></span></span></p>\n\n<p><span style=\"font-family:Calibri,sans-serif\"><span style=\"font-size:14.6667px\">Monarch,Danfoss</span></span></p>\n\n<p>&nbsp;</p>\n\n<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\"><strong>Regression or new finding:</strong></span></span></p>\n\n<p>Adhoc</p>\n\n<p>&nbsp;</p>\n\n<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\"><strong>Description of the test case (Detailed Scenario)&nbsp;</strong></span></span></p>\n\n<p>1.Set the parameter PC4_4000_1.</p>\n\n<p>2.Start the escalator by using key switch.</p>\n\n<p>3.The escalator fails to start and displays fault code F 84-5 (Key switch bottom center not open) &amp; F 302 in FUI.</p>\n\n<p>&nbsp;</p>\n\n<p><strong>Note: Issue was reproduced 3 times out of 5 key start&nbsp;</strong></p>\n\n<p><strong>During key start in normal mode, it functions correctly and the issue occurs only in learning mode.</strong></p>\n\n<p>&nbsp;</p>\n\n<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\"><strong>Expected behavior:&nbsp;&nbsp;</strong></span></span></p>\n\n<p>The escalator should start normally without any faults.</p>\n\n<p>&nbsp;</p>\n\n<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\"><strong>Actual behavior</strong></span></span></p>\n\n<p>The escalator does not start running and displays fault code F 84-5 (Key switch bottom center not open)</p>\n\n<p>&nbsp;</p>\n\n<p><strong>Scenario-2</strong></p>\n\n<p>Escalator Is In Fault Stop Condition</p>\n\n<p>Activate Bottom Keyswitch</p>\n\n<p>&nbsp;</p>\n\n<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\"><strong>Expected behavior:</strong></span></span></p>\n\n<p>No Unnecessary fault should be posted</p>\n\n<p>&nbsp;</p>\n\n<p><strong>Actual behavior:</strong></p>\n\n<p>FC 084-5 is posted along with existing fault</p>\n\n<p>&nbsp;</p>\n\n<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\"><strong>Recovery:&nbsp;</strong></span></span></p>\n\n<p>Manual reset.</p>\n\n<p>&nbsp;</p>\n\n<p>&nbsp;</p>\n\n<p>&nbsp;</p>\n\n<p><strong>Value added information</strong>:<br />\nSW-R 2.0.3</p>\n",
-            "status": 1082,
+            "status": 1085,
             "BUG_component$154": 1561,
             "createdBy": 5932,
             "assignedTo": 6329,
@@ -3984,6 +3988,7 @@
             "BUG_whereFound$154": 1137,
             "BUG_probability_on_field$154": 2399,
             "root_cause_category$154": 2512,
+            "BUG_rootCause$154": "<p>Coding Error<br />\n<br />\nCenter key state change debounce timer updated.</p>",
             "BUG_testCaseUpdated$154": 1198,
             "BUG_RD_comments$154": "<p>[Visu]: 05-Dec-2025</p>\n\n<p>As discussed in defect review meeting, sev to be changed to Long term.&nbsp;</p>\n\n<p>&nbsp;</p>",
             "BUG_V1_project$154": 1431
@@ -3995,7 +4000,7 @@
                 ]
             }
         },
-        "version": 5,
+        "version": 6,
         "location": {
             "sortOrder": 1357,
             "globalSortOrder": 1311270492,
@@ -4006,7 +4011,7 @@
         },
         "lock": {
             "locked": false,
-            "lastLockedDate": "2025-12-06T09:29:01.000+0000"
+            "lastLockedDate": "2025-12-08T11:18:26.000+0000"
         },
         "type": "items"
     },
@@ -16712,10 +16717,10 @@
         "itemType": 154,
         "project": 229,
         "createdDate": "2025-08-21T12:07:35.000+0000",
-        "modifiedDate": "2025-10-24T06:59:49.000+0000",
-        "lastActivityDate": "2025-10-24T06:59:49.000+0000",
+        "modifiedDate": "2025-12-08T10:26:12.000+0000",
+        "lastActivityDate": "2025-12-08T10:26:12.000+0000",
         "createdBy": 6096,
-        "modifiedBy": 1138,
+        "modifiedBy": 6096,
         "fields": {
             "documentKey": "KCE-SWBUG-6442",
             "globalId": "GID-7357886",
@@ -16732,7 +16737,7 @@
             "BUG_closedInBuild$154": "TSCOP Application v0.0.0.68",
             "BUG_closingDate$154": "2025-09-15",
             "priority": 2410,
-            "BUG_severity$154": 1111,
+            "BUG_severity$154": 1110,
             "BUG_category$154": 1422,
             "BUG_testLevel$154": 1129,
             "BUG_howFound$154": 1092,
@@ -16752,7 +16757,7 @@
                 ]
             }
         },
-        "version": 6,
+        "version": 7,
         "location": {
             "sortOrder": 5946,
             "globalSortOrder": 1654282266,
@@ -16763,7 +16768,7 @@
         },
         "lock": {
             "locked": false,
-            "lastLockedDate": "2025-09-16T08:29:27.000+0000"
+            "lastLockedDate": "2025-12-08T10:26:13.000+0000"
         },
         "type": "items"
     },
@@ -16838,10 +16843,10 @@
         "itemType": 154,
         "project": 229,
         "createdDate": "2025-08-22T11:32:34.000+0000",
-        "modifiedDate": "2025-09-16T08:28:48.000+0000",
-        "lastActivityDate": "2025-09-24T07:46:33.000+0000",
+        "modifiedDate": "2025-12-08T10:27:13.000+0000",
+        "lastActivityDate": "2025-12-08T10:27:13.000+0000",
         "createdBy": 6096,
-        "modifiedBy": 6056,
+        "modifiedBy": 6096,
         "fields": {
             "documentKey": "KCE-SWBUG-6445",
             "globalId": "GID-7362767",
@@ -16857,7 +16862,7 @@
             "BUG_closedInBuild$154": "TSCOP Application v0.0.0.68",
             "BUG_closingDate$154": "2025-09-15",
             "priority": 2411,
-            "BUG_severity$154": 1110,
+            "BUG_severity$154": 1109,
             "BUG_category$154": 1428,
             "BUG_testLevel$154": 1129,
             "BUG_howFound$154": 1092,
@@ -16877,7 +16882,7 @@
                 ]
             }
         },
-        "version": 8,
+        "version": 9,
         "location": {
             "sortOrder": 5949,
             "globalSortOrder": 1654341000,
@@ -16888,7 +16893,7 @@
         },
         "lock": {
             "locked": false,
-            "lastLockedDate": "2025-09-16T08:28:53.000+0000"
+            "lastLockedDate": "2025-12-08T10:27:14.000+0000"
         },
         "type": "items"
     },
@@ -21693,10 +21698,10 @@
         "itemType": 154,
         "project": 229,
         "createdDate": "2025-11-26T08:34:01.000+0000",
-        "modifiedDate": "2025-11-27T09:48:24.000+0000",
-        "lastActivityDate": "2025-11-27T09:48:24.000+0000",
+        "modifiedDate": "2025-12-08T10:21:27.000+0000",
+        "lastActivityDate": "2025-12-08T10:21:27.000+0000",
         "createdBy": 5934,
-        "modifiedBy": 1908,
+        "modifiedBy": 5934,
         "fields": {
             "documentKey": "KCE-SWBUG-7047",
             "globalId": "GID-7553491",
@@ -21712,7 +21717,7 @@
             "BUG_severity$154": 1110,
             "BUG_category$154": 1422,
             "BUG_testLevel$154": 1129,
-            "BUG_howFound$154": 2409,
+            "BUG_howFound$154": 1092,
             "BUG_whereFound$154": 1137,
             "BUG_probability_on_field$154": 2396,
             "root_cause_category$154": 2512,
@@ -21729,7 +21734,7 @@
                 ]
             }
         },
-        "version": 2,
+        "version": 3,
         "location": {
             "sortOrder": 6465,
             "globalSortOrder": 1664443248,
@@ -21740,7 +21745,7 @@
         },
         "lock": {
             "locked": false,
-            "lastLockedDate": "2025-11-27T09:48:25.000+0000"
+            "lastLockedDate": "2025-12-08T10:21:28.000+0000"
         },
         "type": "items"
     },
@@ -21943,8 +21948,8 @@
         "itemType": 154,
         "project": 229,
         "createdDate": "2025-11-26T13:27:38.000+0000",
-        "modifiedDate": "2025-12-04T07:52:27.000+0000",
-        "lastActivityDate": "2025-12-04T07:52:27.000+0000",
+        "modifiedDate": "2025-12-08T11:39:43.000+0000",
+        "lastActivityDate": "2025-12-08T11:45:41.000+0000",
         "createdBy": 6096,
         "modifiedBy": 620,
         "fields": {
@@ -21952,7 +21957,7 @@
             "globalId": "GID-7554206",
             "name": "0.0.0.88 - TSCOP - Selected CAR Calls are not shown after registering 30+ floors",
             "description": "<p><em><strong>Parameter:</strong></em></p>\n\n<ul>\n\t<li>UI - Standard UI</li>\n\t<li>TSCOP - Main</li>\n\t<li>Logic for Side Handling - Selective</li>\n\t<li>Logic for FRD - Selective</li>\n</ul>\n\n<p><br />\n<em><strong>CPU Parameter:</strong></em></p>\n\n<ul>\n\t<li>1096 - 0</li>\n\t<li>UI - Static UI</li>\n</ul>\n\n<p>&nbsp;</p>\n\n<p><em><strong>Description:</strong></em></p>\n\n<ul>\n\t<li>LD : 17.0.0.18</li>\n\t<li>KNSMUL : 0.0.0.49</li>\n\t<li>Drive : KDHN 150</li>\n\t<li>Shaft : 72 Floor TTC setup&nbsp;</li>\n\t<li>WELM : 0.0.0.88</li>\n\t<li>Proto SW : 0.0.0.15</li>\n\t<li>Theme (Newer Mock Theme causing issue with the Application SW, So older Theme used for testing)</li>\n\t<li>1096 - 0</li>\n\t<li>A &amp; B side KNSMUL - Non-Conventional (KCOP)</li>\n</ul>\n\n<p>&nbsp;</p>\n\n<p><em><strong>Scenario:</strong></em></p>\n\n<ul>\n\t<li>When 30+ CAR Call is given, after the 30th floor the registered icon is not stored in the TSCOP</li>\n\t<li>But no indication of registration after 30th CAR Call registration<br />\n\t<img alt=\"\" height=\"737\" src=\"https://konerqm.jamacloud.com/attachment/232732/image-1knq7V13h7.png\" width=\"450\" /></li>\n</ul>\n\n<p>&nbsp;</p>\n\n<ul>\n\t<li>**All the floors have been registered in the CPU, Just in TSCOP UI the Selection Cells are not stayed resgistered&nbsp;</li>\n\t<li><img alt=\"\" height=\"587\" src=\"https://konerqm.jamacloud.com/attachment/232733/image-fCCJYAdwMx.png\" width=\"635\" /></li>\n</ul>\n\n<p><em><strong>NOTE:</strong></em><br />\nFloor markings, Direction Arrow and Next stop indication also not shown</p>\n\n<p>&nbsp;</p>\n\n<p><em><strong>Logs:</strong></em></p>\n\n<ul>\n\t<li>TSCOP Logs</li>\n\t<li>LPA</li>\n\t<li>Event Traffic</li>\n\t<li>Video attached for better understanding</li>\n</ul>\n\n<p><em><strong>Reference:</strong></em></p>\n\n<p><img alt=\"\" height=\"603\" src=\"https://konerqm.jamacloud.com/attachment/232737/image-ZrWPfppBzQ.png\" width=\"480\" /></p>\n",
-            "status": 1081,
+            "status": 1083,
             "BUG_component$154": 1531,
             "BUG_subcomponent$154": "KNSMUL",
             "createdBy": 6096,
@@ -21973,7 +21978,7 @@
             "BUG_jiraId$154": "KCE-31573",
             "BUG_jira_project$154": 2465,
             "BUG_jira_URL$154": "https://kone.atlassian.net/browse/KCE-31573",
-            "BUG_integration_synced_time$154": "2025-12-04 07:52:26.607938",
+            "BUG_integration_synced_time$154": "2025-12-08 11:39:42.193115",
             "BUG_V1_project$154": 1431
         },
         "resources": {
@@ -21986,7 +21991,7 @@
                 ]
             }
         },
-        "version": 12,
+        "version": 14,
         "location": {
             "sortOrder": 6474,
             "globalSortOrder": 1664619450,
@@ -21997,7 +22002,7 @@
         },
         "lock": {
             "locked": false,
-            "lastLockedDate": "2025-12-04T07:51:44.000+0000"
+            "lastLockedDate": "2025-12-08T11:39:12.000+0000"
         },
         "type": "items"
     },
@@ -22436,10 +22441,10 @@
         "itemType": 154,
         "project": 229,
         "createdDate": "2025-12-02T06:56:03.000+0000",
-        "modifiedDate": "2025-12-02T06:56:03.000+0000",
-        "lastActivityDate": "2025-12-02T06:56:03.000+0000",
+        "modifiedDate": "2025-12-08T11:45:35.000+0000",
+        "lastActivityDate": "2025-12-08T11:45:35.000+0000",
         "createdBy": 5804,
-        "modifiedBy": 5804,
+        "modifiedBy": 620,
         "fields": {
             "documentKey": "KCE-SWBUG-7087",
             "globalId": "GID-7565024",
@@ -22460,6 +22465,10 @@
             "BUG_probability_on_field$154": 2396,
             "root_cause_category$154": 2512,
             "BUG_testCaseUpdated$154": 1198,
+            "BUG_jiraId$154": "IDM-13970",
+            "BUG_jira_project$154": 2484,
+            "BUG_jira_URL$154": "https://kone.atlassian.net/browse/IDM-13970",
+            "BUG_integration_synced_time$154": "2025-12-08 11:45:34.032416",
             "BUG_V1_project$154": 1431
         },
         "resources": {
@@ -22472,7 +22481,7 @@
                 ]
             }
         },
-        "version": 1,
+        "version": 3,
         "location": {
             "sortOrder": 6499,
             "globalSortOrder": 1665108900,
@@ -22483,7 +22492,7 @@
         },
         "lock": {
             "locked": false,
-            "lastLockedDate": "2025-12-04T06:47:53.000+0000"
+            "lastLockedDate": "2025-12-08T11:45:17.000+0000"
         },
         "type": "items"
     },
@@ -23017,7 +23026,7 @@
         "version": 2,
         "location": {
             "sortOrder": 6550,
-            "globalSortOrder": 1665885450,
+            "globalSortOrder": 1665879953,
             "sequence": "17.6551",
             "parent": {
                 "item": 83266
