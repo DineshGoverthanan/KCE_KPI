@@ -9996,7 +9996,7 @@
         "Assigned To":"VIGNESHWARAR"
     },
     {
-        "TestRunStatus":"INPROGRESS",
+        "TestRunStatus":"FAILED",
         "ExecutionDate":"2025-12-08",
         "Document Key":"KIE601-TSTRN-70795",
         "Name":"KFPS tool ",
@@ -11894,7 +11894,7 @@
     },
     {
         "TestRunStatus":"FAILED",
-        "ExecutionDate":"2025-12-05",
+        "ExecutionDate":"2025-12-08",
         "Document Key":"KCE-TSTRN-4007300",
         "Name":"Group features - PRL and HEL parameters",
         "Assigned To":"Kowsalya"
@@ -16888,6 +16888,13 @@
         "ExecutionDate":"2025-12-08",
         "Document Key":"KCE-TSTRN-4006625",
         "Name":"IO's status for PIO, OPT & FOB",
+        "Assigned To":"Vivek"
+    },
+    {
+        "TestRunStatus":"PASSED",
+        "ExecutionDate":"2025-12-08",
+        "Document Key":"KCE-TSTRN-4006626",
+        "Name":"Normal mode with OEO test Group",
         "Assigned To":"Vivek"
     },
     {
