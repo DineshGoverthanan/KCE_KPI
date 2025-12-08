@@ -366,3 +366,5 @@ KCE-SWBUG-7109,Remote reboot in RDF mode not allowed; CPU sends wrong response: 
 KCE-SWBUG-7119,FPD.T-Lift does not drive to the nearby non-FPD floor,Dinesh,"KCE17.0.0.111(LD: 17.0.0.18, GCD: 17.0.0.33)",2025-12-02
 KCE-SWBUG-7134,17.0 - KCEDCS - No Response message displays in SM when updating GCD SW,Vivek,"17.0.0.116(LD: 17.0.0.20, GCD: 17.0.1.1 GCH: 17.0.1.1)",2025-12-03
 KCE-SWBUG-7138,17.0 - KCEDCS - DG Customization button missing on the SM Dashboard,Vivek,"17.0.0.116(LD: 17.0.0.20, GCD: 17.0.1.1 GCH: 17.0.1.1)",2025-12-07
+KCE-SWBUG-7139,17.0 - KDX - Fault #3220 has no Data Description to it,Suryanarayanan,,2025-12-07
+KCE-SWBUG-10017,17.0 - KCEDCS - OEO EN81-76 The DG displays an OSS indication at the L27 gap whenever the inputs are toggled (activated or deactivated),Vivek,"17.0.0.116(LD: 17.0.0.20, GCD: 17.0.1.1 GCH: 17.0.1.1)",2025-12-07

@@ -16864,6 +16864,13 @@
     },
     {
         "TestRunStatus":"PASSED",
+        "ExecutionDate":"2025-12-08",
+        "Document Key":"KCE-TSTRN-4006624",
+        "Name":"Lift and Group parameters settings:",
+        "Assigned To":"Vivek"
+    },
+    {
+        "TestRunStatus":"PASSED",
         "ExecutionDate":"2025-11-07",
         "Document Key":"KCE-TSTRN-3999120",
         "Name":"Button sw - Configuration of buttons and switches - F2K configuration Tool",

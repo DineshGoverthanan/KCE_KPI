@@ -4287,16 +4287,16 @@
         "itemType": 154,
         "project": 417,
         "createdDate": "2025-12-05T13:31:05.000+0000",
-        "modifiedDate": "2025-12-06T09:31:56.000+0000",
-        "lastActivityDate": "2025-12-06T09:31:56.000+0000",
+        "modifiedDate": "2025-12-08T06:40:37.000+0000",
+        "lastActivityDate": "2025-12-08T06:40:37.000+0000",
         "createdBy": 5932,
-        "modifiedBy": 2001,
+        "modifiedBy": 5802,
         "fields": {
             "documentKey": "KIE601-SWBUG-2795",
             "globalId": "GID-7571399",
             "name": "IEX-EGD Display shows undefined fault for 355 (Communication fault, E Link)",
             "description": "<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\"><strong>Detailed Defect Description:</strong></span></span></p>\n\n<p>IEX-EGD Display shows undefined fault for 355 (Communication fault, E Link)</p>\n\n<p>&nbsp;</p>\n\n<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\"><strong>Parameters:&nbsp;&nbsp;</strong></span></span></p>\n\n<p><span style=\"font-family:Calibri, sans-serif\"><span style=\"font-size:14.6667px\">PC1_1248_1</span></span></p>\n\n<p>&nbsp;</p>\n\n<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\"><strong>Group configuration: </strong></span></span></p>\n\n<p><span style=\"font-family:Calibri, sans-serif\"><span style=\"font-size:14.6667px\">Single escalator setup</span></span></p>\n\n<p>&nbsp;</p>\n\n<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\"><strong>Drive type:</strong></span></span></p>\n\n<p><span style=\"font-family:Calibri, sans-serif\"><span style=\"font-size:14.6667px\">Monarch,Danfoss</span></span></p>\n\n<p>&nbsp;</p>\n\n<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\"><strong>Regression or new finding:</strong></span></span></p>\n\n<p><span style=\"font-family:Calibri, sans-serif\"><span style=\"font-size:14.6667px\">Adhoc</span></span></p>\n\n<p>&nbsp;</p>\n\n<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\"><strong>Description of the test case (Detailed Scenario)&nbsp;</strong></span></span></p>\n\n<p>1.Create 355 fault (Communication fault, E Link).</p>\n\n<p>2.Check in EGD Display.</p>\n\n<p>3.EGD Display shows undefined fault.</p>\n\n<p><img alt=\"\" height=\"170\" src=\"https://konerqm.jamacloud.com/attachment/233829/2025_12_05_13_29_231.png\" width=\"270\" /></p>\n\n<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\"><strong>Expected behavior:&nbsp;&nbsp;</strong></span></span></p>\n\n<p>EGD Display need to show Communication fault, E Link</p>\n\n<p>&nbsp;</p>\n\n<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\"><strong>Actual behavior:</strong></span></span></p>\n\n<p>EGD Display shows undefined fault.</p>\n\n<p>&nbsp;</p>\n\n<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\"><strong>Recovery:&nbsp;</strong></span></span></p>\n\n<p><span style=\"font-family:Calibri, sans-serif\"><span style=\"font-size:14.6667px\">-</span></span></p>\n\n<p>&nbsp;</p>\n\n<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\"><strong>Value-added information:&nbsp;</strong></span></span></p>\n\n<p>IEX SW-R 2.0.3</p>\n\n<p>Attached screenshot</p>\n\n<p>&nbsp;</p>\n",
-            "status": 1082,
+            "status": 1086,
             "BUG_component$154": 1561,
             "createdBy": 5932,
             "assignedTo": 2001,
@@ -4320,7 +4320,7 @@
                 ]
             }
         },
-        "version": 2,
+        "version": 3,
         "location": {
             "sortOrder": 1374,
             "globalSortOrder": 1311288733,
@@ -4331,7 +4331,7 @@
         },
         "lock": {
             "locked": false,
-            "lastLockedDate": "2025-12-08T03:59:28.000+0000"
+            "lastLockedDate": "2025-12-08T06:40:39.000+0000"
         },
         "type": "items"
     },
@@ -21872,8 +21872,8 @@
         "itemType": 154,
         "project": 229,
         "createdDate": "2025-11-26T11:16:41.000+0000",
-        "modifiedDate": "2025-12-05T06:26:24.000+0000",
-        "lastActivityDate": "2025-12-05T06:26:24.000+0000",
+        "modifiedDate": "2025-12-08T07:53:25.000+0000",
+        "lastActivityDate": "2025-12-08T07:57:39.000+0000",
         "createdBy": 6096,
         "modifiedBy": 620,
         "fields": {
@@ -21881,7 +21881,7 @@
             "globalId": "GID-7553735",
             "name": "0.0.0.88 - TSCOP - EAQ Indication not shown when EAQ is triggered for the second time",
             "description": "<p><em><strong>Parameter:</strong></em></p>\n\n<ul>\n\t<li>UI - Standard UI</li>\n\t<li>TSCOP - Main</li>\n\t<li>Logic for Side Handling - Selective</li>\n\t<li>Logic for FRD - Selective</li>\n</ul>\n\n<p><br />\n<em><strong>CPU Parameter:</strong></em></p>\n\n<ul>\n\t<li>1308 - 1</li>\n\t<li>1309 - 0</li>\n</ul>\n\n<p>&nbsp;</p>\n\n<p><em><strong>Description:</strong></em></p>\n\n<ul>\n\t<li>LD : 17.0.0.18</li>\n\t<li>KNSMUL : 0.0.0.49</li>\n\t<li>Drive : KDHN 150</li>\n\t<li>Shaft : 72 Floor TTC setup&nbsp;</li>\n\t<li>WELM : 0.0.0.88</li>\n\t<li>Proto SW : 0.0.0.15</li>\n\t<li>Theme (Newer Mock Theme causing issue with the Application SW, So older Theme used for testing)</li>\n\t<li>1096 - 0</li>\n\t<li>A &amp; B side KNSMUL - Non-Conventional (KCOP)</li>\n</ul>\n\n<p>&nbsp;</p>\n\n<p><em><strong>Actual Scenario:</strong></em></p>\n\n<ul>\n\t<li>Elevator in Floor Level&nbsp;</li>\n\t<li>EAQ is triggered from Landing (OPT)</li>\n\t<li>For the first Input, EAQ Indication is shown correctly in UI</li>\n\t<li>When EAQ is Turned OFF &amp; ON (Before Doors are completely Closed again)</li>\n\t<li>There is no EAQ indication shown</li>\n</ul>\n\n<p>&nbsp;</p>\n\n<p><em><strong>1st time EAQ Triggered:\u200b\u200b\u200b\u200b\u200b\u200b</strong></em></p>\n\n<p><img alt=\"\" height=\"419\" src=\"https://konerqm.jamacloud.com/attachment/232654/image-ybKLLkx7jJ.png\" width=\"316\" /></p>\n\n<p>&nbsp;</p>\n\n<p><em><strong>EAQ Triggered for the 2nd time:</strong></em></p>\n\n<p><img alt=\"\" height=\"397\" src=\"https://konerqm.jamacloud.com/attachment/232653/image-0rxjrDzgKu.png\" width=\"311\" /></p>\n\n<p><br />\n<em><strong>Note:</strong></em></p>\n\n<ul>\n\t<li>At this particular time, RDF is turned ON, OSI is shown correctly, Turning it off again leaves with OSI&nbsp;</li>\n\t<li>Checked in Both AUX &amp; Main TSCOP, Same issue noted</li>\n</ul>\n\n<p><br />\n<em><strong>Expected Scenario:</strong></em></p>\n\n<ul>\n\t<li>EAQ indication again should show regardless of any state, once activated</li>\n</ul>\n\n<p><br />\n<em><strong>Logs:</strong></em></p>\n\n<ul>\n\t<li>TSCOP Logs</li>\n\t<li>LPA</li>\n\t<li>Event Traffic</li>\n</ul>\n",
-            "status": 1084,
+            "status": 1088,
             "BUG_component$154": 1291,
             "BUG_subcomponent$154": "WELM 0.0.0.88",
             "createdBy": 6096,
@@ -21902,7 +21902,7 @@
             "BUG_jiraId$154": "KCE-31571",
             "BUG_jira_project$154": 2465,
             "BUG_jira_URL$154": "https://kone.atlassian.net/browse/KCE-31571",
-            "BUG_integration_synced_time$154": "2025-12-05 06:26:23.426142",
+            "BUG_integration_synced_time$154": "2025-12-08 07:53:24.128083",
             "BUG_V1_project$154": 1431
         },
         "resources": {
@@ -21915,7 +21915,7 @@
                 ]
             }
         },
-        "version": 7,
+        "version": 9,
         "location": {
             "sortOrder": 6472,
             "globalSortOrder": 1664580294,
@@ -21926,7 +21926,7 @@
         },
         "lock": {
             "locked": false,
-            "lastLockedDate": "2025-12-05T06:25:59.000+0000"
+            "lastLockedDate": "2025-12-08T07:52:47.000+0000"
         },
         "type": "items"
     },
@@ -22003,7 +22003,7 @@
         "project": 229,
         "createdDate": "2025-11-26T15:10:34.000+0000",
         "modifiedDate": "2025-12-05T09:01:27.000+0000",
-        "lastActivityDate": "2025-12-05T09:01:27.000+0000",
+        "lastActivityDate": "2025-12-08T06:35:28.000+0000",
         "createdBy": 6096,
         "modifiedBy": 620,
         "fields": {
@@ -22895,8 +22895,124 @@
         "version": 1,
         "location": {
             "sortOrder": 6547,
-            "globalSortOrder": 1665877270,
+            "globalSortOrder": 1665863594,
             "sequence": "17.6548",
+            "parent": {
+                "item": 83266
+            }
+        },
+        "lock": {
+            "locked": false
+        },
+        "type": "items"
+    },
+    {
+        "id": 28562916,
+        "documentKey": "KCE-SWBUG-7139",
+        "globalId": "GID-7574420",
+        "itemType": 154,
+        "project": 229,
+        "createdDate": "2025-12-08T06:25:17.000+0000",
+        "modifiedDate": "2025-12-08T06:25:17.000+0000",
+        "lastActivityDate": "2025-12-08T06:25:17.000+0000",
+        "createdBy": 6096,
+        "modifiedBy": 6096,
+        "fields": {
+            "documentKey": "KCE-SWBUG-7139",
+            "globalId": "GID-7574420",
+            "name": "17.0 - KDX - Fault #3220 has no Data Description to it",
+            "description": "<p><span style=\"font-size:11.0pt\"><span style=\"font-family:Calibri\"><span><em><strong>Description:</strong></em><br />\nData value missing in Fault 3220</span></span></span></p>\n\n<p><img alt=\"\" height=\"508\" src=\"https://konerqm.jamacloud.com/attachment/233910/2025_12_08_06_23_053.png\" width=\"1500\" /></p>\n\n<p>&nbsp;</p>\n\n<p>This makes it hard to Troubleshoot without knowing the exact Data&nbsp;<br />\n<br />\n<em><strong>NOTE:</strong></em><br />\nLocalization files are updated<br />\n&nbsp;</p>\n",
+            "status": 1081,
+            "BUG_component$154": 2160,
+            "createdBy": 6096,
+            "release": 2396,
+            "BUG_foundOnDate$154": "2025-12-07",
+            "priority": 2410,
+            "BUG_severity$154": 1110,
+            "BUG_category$154": 1428,
+            "BUG_testLevel$154": 1129,
+            "BUG_howFound$154": 1092,
+            "BUG_whereFound$154": 1137,
+            "BUG_probability_on_field$154": 2397,
+            "root_cause_category$154": 2512,
+            "BUG_testCaseUpdated$154": 1198,
+            "BUG_V1_project$154": 1431
+        },
+        "resources": {
+            "self": {
+                "allowed": [
+                    "GET",
+                    "PUT",
+                    "PATCH",
+                    "DELETE"
+                ]
+            }
+        },
+        "version": 1,
+        "location": {
+            "sortOrder": 6548,
+            "globalSortOrder": 1665877807,
+            "sequence": "17.6549",
+            "parent": {
+                "item": 83266
+            }
+        },
+        "lock": {
+            "locked": true,
+            "lastLockedDate": "2025-12-08T06:47:23.000+0000",
+            "lockedBy": 870
+        },
+        "type": "items"
+    },
+    {
+        "id": 28568944,
+        "documentKey": "KCE-SWBUG-10017",
+        "globalId": "GID-7574462",
+        "itemType": 154,
+        "project": 229,
+        "createdDate": "2025-12-08T06:59:13.000+0000",
+        "modifiedDate": "2025-12-08T06:59:13.000+0000",
+        "lastActivityDate": "2025-12-08T07:51:48.000+0000",
+        "createdBy": 5995,
+        "modifiedBy": 5995,
+        "fields": {
+            "documentKey": "KCE-SWBUG-10017",
+            "globalId": "GID-7574462",
+            "name": "17.0 - KCEDCS - OEO EN81-76 The DG displays an OSS indication at the L27 gap whenever the inputs are toggled (activated or deactivated)",
+            "description": "<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\"><strong>Detailed Defect Description:</strong></span></span></p>\n\n<p><span style=\"font-family:Calibri, sans-serif\"><span style=\"font-size:14.6667px\">When activating and deactivating the GERF1 via OPT, the OSS indication appeared in DG</span></span></p>\n\n<p>&nbsp;</p>\n\n<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\"><strong>Parameters:&nbsp;&nbsp;</strong></span></span></p>\n\n<p>OPT 20 (00010100)</p>\n\n<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\">1582 - 3</span></span></p>\n\n<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\">1594 - 2</span></span></p>\n\n<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\">1584 - 51(PIO card)</span></span></p>\n\n<h3><u><strong>Group Parameters to Set:</strong></u></h3>\n\n<p>Enable Feature - True</p>\n\n<p>Evacuation strategy - OEO_D</p>\n\n<p>Firefighter entry floor - 1</p>\n\n<p>Evacuation Full Load limit - 80&nbsp;</p>\n\n<p>Class A : 0% ; Class B : 20%</p>\n\n<p>Evacuation no calls timeout - 0</p>\n\n<p>Evacuation floors -&nbsp;&nbsp;<strong>Possible Values:</strong>&nbsp;0 - 999</p>\n\n<p>Evacuation area up - normally 2 floors up / down</p>\n\n<p>Evacuation area down - 120 - normally 2 floors up / down</p>\n\n<p>OEO Landing signalization mode -&nbsp;<strong>Possible Values:</strong>&nbsp;G/L/GE</p>\n\n<p>Maximum Stopping time -&nbsp;<strong>Possible Values:&nbsp;</strong>0 - 600</p>\n\n<p>Cancel all existing calls -&nbsp;false</p>\n\n<p>Only first alarm has effect&nbsp; -<strong>&nbsp;</strong>false</p>\n\n<p>Main exit floor&nbsp; - 2</p>\n\n<p>Main exit floor side&nbsp; - 1</p>\n\n<p>Alternative exit floor&nbsp; - 7</p>\n\n<p>Alternative exit floor side&nbsp; - 2</p>\n\n<p>remember evacuation calls while power break - True</p>\n\n<p>Evacuation Simultaneous Door opening forbidden - 1</p>\n\n<p>&nbsp;</p>\n\n<p>&nbsp;</p>\n\n<p>&nbsp;</p>\n\n<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\"><strong>Group configuration: </strong></span></span></p>\n\n<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\">Fourplex</span></span></p>\n\n<p>&nbsp;</p>\n\n<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\"><strong>Drive type:</strong></span></span></p>\n\n<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\">KDM and KDL</span></span></p>\n\n<p>&nbsp;</p>\n\n<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\"><strong>Regression or new finding:</strong></span></span></p>\n\n<p><span style=\"font-family:Calibri, sans-serif\"><span style=\"font-size:14.6667px\">New</span></span></p>\n\n<p>&nbsp;</p>\n\n<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\"><strong>Test case Name / Feature name:</strong></span></span></p>\n\n<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\">ad-hoc defect</span></span></p>\n\n<p>&nbsp;</p>\n\n<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\"><strong>Test step number:</strong></span></span></p>\n\n<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\">\u201cad-hoc scenario\u201d</span></span></p>\n\n<p>&nbsp;</p>\n\n<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\"><strong>Description of the test case (Detailed Scenario)&nbsp;</strong></span></span></p>\n\n<p>&nbsp;</p>\n\n<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\"><strong>Scenario 1:</strong></span></span></p>\n\n<ul>\n\t<li>Lift is in normal mode, standing on the GERF1 floor</li>\n\t<li>DG is in normal mode</li>\n\t<li>Activate GERF1 input via OPT (20)</li>\n\t<li>DG shows OSS --&gt;&nbsp;<strong>L27</strong></li>\n\t<li>Deactivate GERF1 input via OPT (20)</li>\n\t<li>DG reverted from L27--&gt;OSS--&gt;Normal</li>\n</ul>\n\n<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\"><strong>Scenario 2:</strong></span></span></p>\n\n<ul>\n\t<li>Lift is in normal mode</li>\n\t<li>DG is in normal mode</li>\n\t<li>Giving DCS call (Giving destination call 1 from source floor 6)</li>\n\t<li>Activate GERF1 input via OPT (20)</li>\n\t<li>DG shows OSS --&gt;&nbsp;<strong>L27</strong></li>\n\t<li>Deactivate GERF1 input via OPT (20) while lift travelling</li>\n\t<li>DCS call cancelled, and DG shows OSS indication until the lift reaches GERF1</li>\n\t<li>Once the lift reaches the GERF1 DG reverted from OSS--&gt;Normal</li>\n</ul>\n\n<p>&nbsp;</p>\n\n<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\"><strong>Expected behavior:&nbsp;&nbsp;</strong></span></span></p>\n\n<p><span style=\"font-family:Calibri, sans-serif\"><span style=\"font-size:14.6667px\">The DG should show Normal to L27 directly</span></span></p>\n\n<p>&nbsp;</p>\n\n<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\"><strong>Actual behavior:</strong></span></span></p>\n\n<p>DG shows OSS indication when enabling and disabling the GERF1 input (OPT)</p>\n\n<p>&nbsp;</p>\n\n<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\"><strong>Recovery:&nbsp;</strong></span></span></p>\n\n<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\">No</span></span></p>\n\n<p>&nbsp;</p>\n\n<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\"><strong>Log attached Information:</strong></span></span></p>\n\n<p><span style=\"font-family:Calibri, sans-serif\"><span style=\"font-size:14.6667px\">DG logs Node debug Info Video info</span></span></p>\n\n<p>&nbsp;</p>\n\n<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\">Note: Once defect is logged, attachments can be done by editing the defect (use compressed zip folder format)</span></span></p>\n\n<p>&nbsp;</p>\n\n<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\"><strong>Value-added information:&nbsp;</strong></span></span></p>\n\n<p>DG Apk 1.7.0.5</p>\n\n<p>DG DMA 1.6.0.0</p>\n\n<p>SM Version 4.48.1</p>\n\n<p>&nbsp;</p>\n\n<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\"><strong>Test Sequence history:&nbsp;</strong></span></span></p>\n\n<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\">1: was failing scenario passing earlier</span></span></p>\n\n<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\">2. what was SW level when this was passing last time</span></span></p>\n\n<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\">3. any changes in test setup or test scenario between passed and failed run</span></span></p>\n\n<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\">4. any changes in tested system configuration between passed and failed run</span></span></p>\n\n<p>&nbsp;</p>\n\n<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\"><strong>Requirement related to the defect:</strong></span></span></p>\n\n<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\">(e.g. URL link to requirement which is related to the defect)</span></span></p>\n",
+            "status": 1081,
+            "BUG_component$154": 1531,
+            "BUG_subcomponent$154": "DG",
+            "createdBy": 5995,
+            "release": 2396,
+            "BUG_foundInBuild$154": "17.0.0.116(LD: 17.0.0.20, GCD: 17.0.1.1 GCH: 17.0.1.1)",
+            "BUG_foundOnDate$154": "2025-12-07",
+            "priority": 2410,
+            "BUG_severity$154": 1110,
+            "BUG_category$154": 1422,
+            "BUG_testLevel$154": 1129,
+            "BUG_howFound$154": 1092,
+            "BUG_whereFound$154": 1288,
+            "BUG_probability_on_field$154": 2398,
+            "root_cause_category$154": 2512,
+            "BUG_testCaseUpdated$154": 1198,
+            "BUG_V1_project$154": 1431
+        },
+        "resources": {
+            "self": {
+                "allowed": [
+                    "GET",
+                    "PUT",
+                    "PATCH",
+                    "DELETE"
+                ]
+            }
+        },
+        "version": 1,
+        "location": {
+            "sortOrder": 6550,
+            "globalSortOrder": 1665885450,
+            "sequence": "17.6551",
             "parent": {
                 "item": 83266
             }
