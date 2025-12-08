@@ -10438,7 +10438,7 @@
     },
     {
         "TestRunStatus":"FAILED",
-        "ExecutionDate":"2025-12-06",
+        "ExecutionDate":"2025-12-08",
         "Document Key":"KIE601-TSTRN-70568",
         "Name":"Standby Mode - KSB - Faults",
         "Assigned To":"Mohammed Ibrahim Sultan"
@@ -10500,8 +10500,8 @@
         "Assigned To":"Mohammed Ibrahim Sultan"
     },
     {
-        "TestRunStatus":"INPROGRESS",
-        "ExecutionDate":"2025-12-06",
+        "TestRunStatus":"FAILED",
+        "ExecutionDate":"2025-12-08",
         "Document Key":"KIE601-TSTRN-70577",
         "Name":"8. Stop After Stanby - KST - Faults",
         "Assigned To":"Mohammed Ibrahim Sultan"
@@ -10543,21 +10543,21 @@
     },
     {
         "TestRunStatus":"FAILED",
-        "ExecutionDate":"2025-12-07",
+        "ExecutionDate":"2025-12-08",
         "Document Key":"KIE601-TSTRN-70584",
         "Name":"7. Change of Modes -  Different Modes to K2D",
         "Assigned To":"Mohammed Ibrahim Sultan"
     },
     {
         "TestRunStatus":"FAILED",
-        "ExecutionDate":"2025-12-07",
+        "ExecutionDate":"2025-12-08",
         "Document Key":"KIE601-TSTRN-70585",
         "Name":"8. Change of Modes -  K2D to Different Modes",
         "Assigned To":"Mohammed Ibrahim Sultan"
     },
     {
-        "TestRunStatus":"INPROGRESS",
-        "ExecutionDate":"2025-12-07",
+        "TestRunStatus":"FAILED",
+        "ExecutionDate":"2025-12-08",
         "Document Key":"KIE601-TSTRN-70586",
         "Name":"9. Passenger Control Mode - K2D - Faults",
         "Assigned To":"Mohammed Ibrahim Sultan"
@@ -16871,6 +16871,13 @@
     },
     {
         "TestRunStatus":"PASSED",
+        "ExecutionDate":"2025-12-08",
+        "Document Key":"KCE-TSTRN-4006625",
+        "Name":"IO's status for PIO, OPT & FOB",
+        "Assigned To":"Vivek"
+    },
+    {
+        "TestRunStatus":"PASSED",
         "ExecutionDate":"2025-11-07",
         "Document Key":"KCE-TSTRN-3999120",
         "Name":"Button sw - Configuration of buttons and switches - F2K configuration Tool",
@@ -18008,6 +18015,13 @@
         "ExecutionDate":"2025-12-05",
         "Document Key":"KCE-TSTRN-4007034",
         "Name":"Interrupting Disability Service via \"X\" Button",
+        "Assigned To":"Suryanarayanan"
+    },
+    {
+        "TestRunStatus":"INPROGRESS",
+        "ExecutionDate":"2025-12-08",
+        "Document Key":"KCE-TSTRN-4007035",
+        "Name":"Timeout for Disability Service Response",
         "Assigned To":"Suryanarayanan"
     }
 ]
