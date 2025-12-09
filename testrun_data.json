@@ -4529,6 +4529,13 @@
         "Assigned To":"Shrividhya"
     },
     {
+        "TestRunStatus":"INPROGRESS",
+        "ExecutionDate":"2025-12-09",
+        "Document Key":"KCE-TSTRN-4002920",
+        "Name":"Commissioning - 3. Roll Call",
+        "Assigned To":"Veeramanikandan"
+    },
+    {
         "TestRunStatus":"PASSED",
         "ExecutionDate":"2025-12-09",
         "Document Key":"KCE-TSTRN-4002921",
@@ -9766,6 +9773,13 @@
     },
     {
         "TestRunStatus":"PASSED",
+        "ExecutionDate":"2025-12-09",
+        "Document Key":"KIE601-TSTRN-70804",
+        "Name":"updating latest KIECPU software (TSC and CPU) into Escalator running with TR1.0-t12.7 release configuration",
+        "Assigned To":"Mohammed Ibrahim Sultan"
+    },
+    {
+        "TestRunStatus":"PASSED",
         "ExecutionDate":"2025-08-04",
         "Document Key":"KIE601-TSTRN-56806",
         "Name":"Inspection Mode - Operation - Lower Pit",
@@ -11910,6 +11924,13 @@
         "TestRunStatus":"PASSED",
         "ExecutionDate":"2025-10-13",
         "Document Key":"KCE-TSTRN-3995122",
+        "Name":"Elevator features - PVS - Penthouse Visitor Feature - PVS feature in group elevators",
+        "Assigned To":"Kowsalya"
+    },
+    {
+        "TestRunStatus":"INPROGRESS",
+        "ExecutionDate":"2025-12-09",
+        "Document Key":"KCE-TSTRN-4007730",
         "Name":"Elevator features - PVS - Penthouse Visitor Feature - PVS feature in group elevators",
         "Assigned To":"Kowsalya"
     },
@@ -16961,7 +16982,7 @@
         "Assigned To":"Vivek"
     },
     {
-        "TestRunStatus":"INPROGRESS",
+        "TestRunStatus":"FAILED",
         "ExecutionDate":"2025-12-09",
         "Document Key":"KCE-TSTRN-4006628",
         "Name":"OEO - E Link view ",
@@ -17083,6 +17104,13 @@
         "TestRunStatus":"FAILED",
         "ExecutionDate":"2025-11-27",
         "Document Key":"KCE-TSTRN-4004664",
+        "Name":"ATS mode with SPP configuration ",
+        "Assigned To":"Badaganti Sai Prasad"
+    },
+    {
+        "TestRunStatus":"PASSED",
+        "ExecutionDate":"2025-12-09",
+        "Document Key":"KCE-TSTRN-4006669",
         "Name":"ATS mode with SPP configuration ",
         "Assigned To":"Badaganti Sai Prasad"
     },
@@ -17353,10 +17381,17 @@
         "Assigned To":"Nithya Priya"
     },
     {
-        "TestRunStatus":"INPROGRESS",
+        "TestRunStatus":"PASSED",
         "ExecutionDate":"2025-12-09",
         "Document Key":"KCE-TSTRN-4006819",
         "Name":"FID M - Fire Detection - Machine room - Tests not included into TA",
+        "Assigned To":"Nithya Priya"
+    },
+    {
+        "TestRunStatus":"INPROGRESS",
+        "ExecutionDate":"2025-12-09",
+        "Document Key":"KCE-TSTRN-4006821",
+        "Name":"CRB C - Call Registered Buzzer - Car call + DOB + DCB + DOE",
         "Assigned To":"Nithya Priya"
     },
     {
@@ -17367,7 +17402,7 @@
         "Assigned To":"Priyavalli"
     },
     {
-        "TestRunStatus":"PASSED",
+        "TestRunStatus":"FAILED",
         "ExecutionDate":"2025-12-09",
         "Document Key":"KCE-TSTRN-4006834",
         "Name":"Remote LD reboot functionality - Rush test scenarios",
