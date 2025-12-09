@@ -10794,6 +10794,13 @@
         "Assigned To":"VIGNESHWARAR"
     },
     {
+        "TestRunStatus":"PASSED",
+        "ExecutionDate":"2025-12-09",
+        "Document Key":"KIE601-TSTRN-70543",
+        "Name":"Factory Mode Disabled & 2 nos Supervision Enabled  for 1 hour",
+        "Assigned To":"Mohammed Ibrahim Sultan"
+    },
+    {
         "TestRunStatus":"FAILED",
         "ExecutionDate":"2025-12-08",
         "Document Key":"KIE601-TSTRN-70546",
@@ -16906,6 +16913,13 @@
     },
     {
         "TestRunStatus":"PASSED",
+        "ExecutionDate":"2025-12-09",
+        "Document Key":"KCE-TSTRN-4006627",
+        "Name":"FID activation with OEO test Group:",
+        "Assigned To":"Vivek"
+    },
+    {
+        "TestRunStatus":"PASSED",
         "ExecutionDate":"2025-11-07",
         "Document Key":"KCE-TSTRN-3999120",
         "Name":"Button sw - Configuration of buttons and switches - F2K configuration Tool",
@@ -17283,8 +17297,15 @@
         "Assigned To":"Dinesh"
     },
     {
-        "TestRunStatus":"INPROGRESS",
-        "ExecutionDate":"2025-12-02",
+        "TestRunStatus":"PASSED",
+        "ExecutionDate":"2025-12-09",
+        "Document Key":"KCE-TSTRN-4006830",
+        "Name":"Remote LD reboot functionality - trap door\/blocking device\/in-car stop switch fault active",
+        "Assigned To":"Priyavalli"
+    },
+    {
+        "TestRunStatus":"PASSED",
+        "ExecutionDate":"2025-12-09",
         "Document Key":"KCE-TSTRN-4006834",
         "Name":"Remote LD reboot functionality - Rush test scenarios",
         "Assigned To":"Priyavalli"
