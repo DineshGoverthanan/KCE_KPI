@@ -79,6 +79,7 @@ KIE601-SWBUG-2796,IEX - FC 342-2 is posted after power cycle when LCB SW is chan
 KIE601-SWBUG-2797,IEX - Inspection Mode is not displayed in EGD Display,Mohammed Ibrahim Sultan,,2025-12-05
 KIE601-SWBUG-2798,IEX - The UI sheet for R2.0.3 for ACU parameters is not as per FUI working,Mohammed Ibrahim Sultan,,2025-12-05
 KIE601-SWBUG-2811,"IEX- When Fault 37-3,37-2 and 37-1 triggered, AMC displays normal mode",VIGNESHWARAR,,2025-12-06
+KIE601-SWBUG-2812,IEX - Escalator does not stop in Photocell stop when operation mode changed from KSB standby speed to KAM / K2D mode,Mohammed Ibrahim Sultan,,2025-12-07
 DRIVE_HW_SW-SWBUG-1587,GG DCBL 5.51 SW - Fault 124 3064 Not Triggered when Software file is missed from SD Card.,VIGNESHWARAR,,2025-06-01
 KCE-SWBUG-5615,16.4-DCBL GD- Speed is not reduced when the elevator reaches the lower limit during the NTS Buffer Test.,Jagadeesh,KCE16.4.92 (LD 16.4.1.11 and GCD 16.4.65) + DCBL 24.47sw,
 KCE-SWBUG-6553,"KCE NA - When MES activated during car call service, lift is unable to stop at the nearest floor.",Veeramanikandan,KCE 17.0.0.10,2025-09-02

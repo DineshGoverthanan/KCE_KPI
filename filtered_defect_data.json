@@ -4515,8 +4515,8 @@
         "itemType": 154,
         "project": 417,
         "createdDate": "2025-12-08T13:59:14.000+0000",
-        "modifiedDate": "2025-12-08T13:59:14.000+0000",
-        "lastActivityDate": "2025-12-08T13:59:14.000+0000",
+        "modifiedDate": "2025-12-08T16:39:54.000+0000",
+        "lastActivityDate": "2025-12-08T16:39:54.000+0000",
         "createdBy": 5932,
         "modifiedBy": 5932,
         "fields": {
@@ -4524,9 +4524,10 @@
             "globalId": "GID-7575591",
             "name": "IEX- When Fault 37-3,37-2 and 37-1 triggered, AMC displays normal mode",
             "description": "<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\"><strong>Detailed Defect Description:</strong></span></span></p>\n\n<p>IEX- When Fault 37-3,37-2 and 37-1 triggered, AMC displays normal mode</p>\n\n<p>&nbsp;</p>\n\n<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\"><strong>Parameters:&nbsp;&nbsp;</strong></span></span></p>\n\n<p><span style=\"font-family:Calibri, sans-serif\"><span style=\"font-size:14.6667px\">-</span></span></p>\n\n<p>&nbsp;</p>\n\n<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\"><strong>Group configuration: </strong></span></span></p>\n\n<p><span style=\"font-family:Calibri, sans-serif\"><span style=\"font-size:14.6667px\">Single escalator setup</span></span></p>\n\n<p>&nbsp;</p>\n\n<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\"><strong>Drive type:</strong></span></span></p>\n\n<p><span style=\"font-family:Calibri,sans-serif\"><span style=\"font-size:14.6667px\">Monarch, Danfoss</span></span></p>\n\n<p>&nbsp;</p>\n\n<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\"><strong>Regression or new finding:</strong></span></span></p>\n\n<p>Adhoc</p>\n\n<p>&nbsp;</p>\n\n<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\"><strong>Description of the test case (Detailed Scenario)&nbsp;</strong></span></span></p>\n\n<p>1.Escalator in stopped condition.</p>\n\n<p>2.Remove CPU X12 pin 4 (Start Permit).</p>\n\n<p>3.Fault F37-3 gets triggered.</p>\n\n<p>4.Check in AMC tool.</p>\n\n<p>5.AMC tool displays normal mode.</p>\n\n<p>&nbsp;</p>\n\n<p><strong>Note:Same issue occurs for F 37-2,37-1</strong></p>\n\n<p><strong>Checked with KFPS tool same issue occurs</strong></p>\n\n<p>&nbsp;</p>\n\n<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\"><strong>Expected behavior:&nbsp;&nbsp;</strong></span></span></p>\n\n<p>AMC tool should display out of service</p>\n\n<p>&nbsp;</p>\n\n<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\"><strong>Actual behavior:</strong></span></span></p>\n\n<p>AMC tool display normal service</p>\n\n<p>&nbsp;</p>\n\n<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\"><strong>Recovery:&nbsp;</strong></span></span></p>\n\n<p><span style=\"font-family:Calibri, sans-serif\"><span style=\"font-size:14.6667px\">-</span></span></p>\n\n<p>&nbsp;</p>\n\n<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\"><strong>Value-added information:&nbsp;</strong></span></span></p>\n\n<p>IEX CPU SW-R 2.0.3</p>\n\n<p>AMC SW-4.6.250.7156</p>\n",
-            "status": 1081,
-            "BUG_component$154": 1567,
+            "status": 1082,
+            "BUG_component$154": 1561,
             "createdBy": 5932,
+            "assignedTo": 6612,
             "release": 2581,
             "BUG_foundOnDate$154": "2025-12-06",
             "priority": 2410,
@@ -4547,11 +4548,66 @@
                 ]
             }
         },
-        "version": 1,
+        "version": 3,
         "location": {
             "sortOrder": 1390,
-            "globalSortOrder": 1311364869,
+            "globalSortOrder": 1311305901,
             "sequence": "2.8.1391",
+            "parent": {
+                "item": 18771233
+            }
+        },
+        "lock": {
+            "locked": false,
+            "lastLockedDate": "2025-12-08T16:39:56.000+0000"
+        },
+        "type": "items"
+    },
+    {
+        "id": 28583060,
+        "documentKey": "KIE601-SWBUG-2812",
+        "globalId": "GID-7575659",
+        "itemType": 154,
+        "project": 417,
+        "createdDate": "2025-12-08T17:00:19.000+0000",
+        "modifiedDate": "2025-12-08T17:00:19.000+0000",
+        "lastActivityDate": "2025-12-08T17:00:19.000+0000",
+        "createdBy": 6117,
+        "modifiedBy": 6117,
+        "fields": {
+            "documentKey": "KIE601-SWBUG-2812",
+            "globalId": "GID-7575659",
+            "name": "IEX - Escalator does not stop in Photocell stop when operation mode changed from KSB standby speed to KAM / K2D mode",
+            "description": "<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\"><strong>Detailed Defect Description:</strong></span></span></p>\n\n<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\">IEX - Escalator does not stop in Photocell stop when operation mode changed from KSB standby speed to KAM / K2D mode</span></span></p>\n\n<p>&nbsp;</p>\n\n<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\"><strong>Parameters:&nbsp;&nbsp;</strong></span></span></p>\n\n<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\">PC2_2003_1 (Mode change during running Selection)</span></span></p>\n\n<p>&nbsp;</p>\n\n<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\"><strong>Group configuration: </strong></span></span></p>\n\n<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\">NA</span></span></p>\n\n<p>&nbsp;</p>\n\n<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\"><strong>Drive type:</strong></span></span></p>\n\n<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\">NA</span></span></p>\n\n<p>&nbsp;</p>\n\n<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\"><strong>Regression or new finding:</strong></span></span></p>\n\n<p><span style=\"font-family:Calibri, sans-serif\"><span style=\"font-size:14.6667px\">New finding</span></span></p>\n\n<p>&nbsp;</p>\n\n<p>&nbsp;</p>\n\n<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\"><strong>Test case Name / Feature name:</strong></span></span></p>\n\n<p><span style=\"font-family:Calibri, sans-serif\"><span style=\"font-size:14.6667px\">test case</span></span></p>\n\n<p>&nbsp;</p>\n\n<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\"><strong>Test step number:</strong></span></span></p>\n\n<p><span style=\"font-family:Calibri, sans-serif\"><span style=\"font-size:14.6667px\">7</span></span></p>\n\n<p>&nbsp;</p>\n\n<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\"><strong>Description of the test case (Detailed Scenario)&nbsp;</strong></span></span></p>\n\n<ol>\n\t<li>Parameter PC2_2003_1 is set (Mode change during running Selection)</li>\n\t<li>Now Start the escalator in KSB mode</li>\n\t<li>When escalator is running in standby speed, change the operation mode to K2D/KAM</li>\n\t<li>The escalator changed to K2D / KAM mode and runs in nominal speed</li>\n\t<li>After nominal speed expires, Stops in photocell stop</li>\n\t<li>Expected that escalator should stop in Photocell stop as soon as the mode is changed.</li>\n</ol>\n\n<p>&nbsp;</p>\n\n<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\"><strong>Expected behavior:&nbsp;&nbsp;</strong></span></span></p>\n\n<p>Expected that escalator should stop in Photocell stop as soon as the mode is changed.</p>\n\n<ol><br />\n</ol>\n\n<p>&nbsp;</p>\n\n<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\"><strong>Actual behavior:</strong></span></span></p>\n\n<p>The escalator changed to K2D / KAM mode and runs in nominal speed</p>\n\n<p>&nbsp;</p>\n\n<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\"><strong>Recovery:&nbsp;</strong></span></span></p>\n\n<p><span style=\"font-family:Calibri, sans-serif\"><span style=\"font-size:14.6667px\">NA</span></span></p>\n\n<p>&nbsp;</p>\n",
+            "status": 1081,
+            "BUG_component$154": 1561,
+            "BUG_subcomponent$154": "IEX",
+            "createdBy": 6117,
+            "release": 2581,
+            "BUG_foundOnDate$154": "2025-12-07",
+            "priority": 2410,
+            "BUG_severity$154": 1110,
+            "BUG_category$154": 1422,
+            "BUG_testLevel$154": 1129,
+            "BUG_howFound$154": 2407,
+            "BUG_whereFound$154": 1137,
+            "BUG_probability_on_field$154": 2396,
+            "root_cause_category$154": 2512,
+            "BUG_testCaseUpdated$154": 1198,
+            "BUG_V1_project$154": 1431
+        },
+        "resources": {
+            "self": {
+                "allowed": [
+                    "GET"
+                ]
+            }
+        },
+        "version": 1,
+        "location": {
+            "sortOrder": 1391,
+            "globalSortOrder": 1311365406,
+            "sequence": "2.8.1392",
             "parent": {
                 "item": 18771233
             }
@@ -22395,10 +22451,10 @@
         "itemType": 154,
         "project": 229,
         "createdDate": "2025-12-03T13:32:00.000+0000",
-        "modifiedDate": "2025-12-05T05:38:17.000+0000",
-        "lastActivityDate": "2025-12-05T05:38:17.000+0000",
+        "modifiedDate": "2025-12-08T21:26:10.000+0000",
+        "lastActivityDate": "2025-12-08T21:26:10.000+0000",
         "createdBy": 6374,
-        "modifiedBy": 6374,
+        "modifiedBy": 620,
         "fields": {
             "documentKey": "KCE-SWBUG-7119",
             "globalId": "GID-7567484",
@@ -22407,6 +22463,7 @@
             "status": 1081,
             "BUG_component$154": 1291,
             "createdBy": 6374,
+            "assignedTo": 6368,
             "release": 2396,
             "BUG_foundInBuild$154": "KCE17.0.0.111(LD: 17.0.0.18, GCD: 17.0.0.33)",
             "BUG_foundOnDate$154": "2025-12-02",
@@ -22419,6 +22476,10 @@
             "BUG_probability_on_field$154": 2396,
             "root_cause_category$154": 2512,
             "BUG_testCaseUpdated$154": 1198,
+            "BUG_jiraId$154": "KCE-31751",
+            "BUG_jira_project$154": 2465,
+            "BUG_jira_URL$154": "https://kone.atlassian.net/browse/KCE-31751",
+            "BUG_integration_synced_time$154": "2025-12-08 21:26:09.503468",
             "BUG_V1_project$154": 1431
         },
         "resources": {
@@ -22431,7 +22492,7 @@
                 ]
             }
         },
-        "version": 2,
+        "version": 4,
         "location": {
             "sortOrder": 6531,
             "globalSortOrder": 1665735396,
@@ -22442,7 +22503,7 @@
         },
         "lock": {
             "locked": false,
-            "lastLockedDate": "2025-12-05T05:38:18.000+0000"
+            "lastLockedDate": "2025-12-08T20:08:50.000+0000"
         },
         "type": "items"
     },
