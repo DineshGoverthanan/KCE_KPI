@@ -9745,6 +9745,13 @@
     },
     {
         "TestRunStatus":"PASSED",
+        "ExecutionDate":"2025-12-09",
+        "Document Key":"KIE601-TSTRN-70806",
+        "Name":"Lubrication oil pressure",
+        "Assigned To":"Mohammed Ibrahim Sultan"
+    },
+    {
+        "TestRunStatus":"PASSED",
         "ExecutionDate":"2025-08-04",
         "Document Key":"KIE601-TSTRN-56805",
         "Name":"Inspection Mode - Operation - Upper Pit",
@@ -17339,6 +17346,20 @@
         "Assigned To":"Dinesh"
     },
     {
+        "TestRunStatus":"INPROGRESS",
+        "ExecutionDate":"2025-12-09",
+        "Document Key":"KCE-TSTRN-4004650",
+        "Name":"FID M - Fire Detection - Machine room - Tests not included into TA",
+        "Assigned To":"Nithya Priya"
+    },
+    {
+        "TestRunStatus":"INPROGRESS",
+        "ExecutionDate":"2025-12-09",
+        "Document Key":"KCE-TSTRN-4006819",
+        "Name":"FID M - Fire Detection - Machine room - Tests not included into TA",
+        "Assigned To":"Nithya Priya"
+    },
+    {
         "TestRunStatus":"PASSED",
         "ExecutionDate":"2025-12-09",
         "Document Key":"KCE-TSTRN-4006830",
@@ -17400,6 +17421,13 @@
         "Document Key":"KCE-TSTRN-4003591",
         "Name":"DG configuration update from Site Manager",
         "Assigned To":"Vivek"
+    },
+    {
+        "TestRunStatus":"INPROGRESS",
+        "ExecutionDate":"2025-12-09",
+        "Document Key":"KCE-TSTRN-4007310",
+        "Name":"DG configuration update from Site Manager",
+        "Assigned To":"Nithya Priya"
     },
     {
         "TestRunStatus":"INPROGRESS",
@@ -18148,6 +18176,13 @@
         "ExecutionDate":"2025-12-08",
         "Document Key":"KCE-TSTRN-4007036",
         "Name":"Door Operation During Ongoing Disability Service",
+        "Assigned To":"Suryanarayanan"
+    },
+    {
+        "TestRunStatus":"INPROGRESS",
+        "ExecutionDate":"2025-12-09",
+        "Document Key":"KCE-TSTRN-4007037",
+        "Name":"COP-Specific Disability Service Management",
         "Assigned To":"Suryanarayanan"
     }
 ]
