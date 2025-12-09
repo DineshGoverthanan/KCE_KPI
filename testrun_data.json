@@ -9878,6 +9878,13 @@
     },
     {
         "TestRunStatus":"PASSED",
+        "ExecutionDate":"2025-12-09",
+        "Document Key":"KIE601-TSTRN-70801",
+        "Name":"Gear box oil level monitor with all modes",
+        "Assigned To":"Mohammed Ibrahim Sultan"
+    },
+    {
+        "TestRunStatus":"PASSED",
         "ExecutionDate":"2025-07-30",
         "Document Key":"KIE601-TSTRN-56799",
         "Name":"Lubrication oil pressure",
@@ -10798,6 +10805,13 @@
         "ExecutionDate":"2025-12-09",
         "Document Key":"KIE601-TSTRN-70543",
         "Name":"Factory Mode Disabled & 2 nos Supervision Enabled  for 1 hour",
+        "Assigned To":"Mohammed Ibrahim Sultan"
+    },
+    {
+        "TestRunStatus":"PASSED",
+        "ExecutionDate":"2025-12-09",
+        "Document Key":"KIE601-TSTRN-70544",
+        "Name":"Factory Mode Disabled & all Supervision Enabled  for 3 hour",
         "Assigned To":"Mohammed Ibrahim Sultan"
     },
     {
@@ -11907,8 +11921,8 @@
         "Assigned To":"Shrividhya"
     },
     {
-        "TestRunStatus":"FAILED",
-        "ExecutionDate":"2025-12-08",
+        "TestRunStatus":"INPROGRESS",
+        "ExecutionDate":"2025-12-09",
         "Document Key":"KCE-TSTRN-4007300",
         "Name":"Group features - PRL and HEL parameters",
         "Assigned To":"Kowsalya"
@@ -16916,6 +16930,13 @@
         "ExecutionDate":"2025-12-09",
         "Document Key":"KCE-TSTRN-4006627",
         "Name":"FID activation with OEO test Group:",
+        "Assigned To":"Vivek"
+    },
+    {
+        "TestRunStatus":"INPROGRESS",
+        "ExecutionDate":"2025-12-09",
+        "Document Key":"KCE-TSTRN-4006628",
+        "Name":"OEO - E Link view ",
         "Assigned To":"Vivek"
     },
     {
