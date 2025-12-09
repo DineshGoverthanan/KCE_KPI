@@ -4530,6 +4530,20 @@
     },
     {
         "TestRunStatus":"PASSED",
+        "ExecutionDate":"2025-12-09",
+        "Document Key":"KCE-TSTRN-4002921",
+        "Name":"Commissioning - 4. Setting of KCECPU IP",
+        "Assigned To":"Veeramanikandan"
+    },
+    {
+        "TestRunStatus":"INPROGRESS",
+        "ExecutionDate":"2025-12-09",
+        "Document Key":"KCE-TSTRN-4002922",
+        "Name":"Commissioning - 5. Real Time Clock",
+        "Assigned To":"Veeramanikandan"
+    },
+    {
+        "TestRunStatus":"PASSED",
         "ExecutionDate":"2025-11-11",
         "Document Key":"KCE-TSTRN-4002176",
         "Name":"EMM (NA) - Emergency stop switch in machine room",
@@ -9814,6 +9828,13 @@
         "Assigned To":"S.P"
     },
     {
+        "TestRunStatus":"INPROGRESS",
+        "ExecutionDate":"2025-12-09",
+        "Document Key":"KIE601-TSTRN-70796",
+        "Name":"AMC features for Escalator",
+        "Assigned To":"VIGNESHWARAR"
+    },
+    {
         "TestRunStatus":"FAILED",
         "ExecutionDate":"2025-12-08",
         "Document Key":"KIE601-TSTRN-70802",
@@ -11578,8 +11599,8 @@
         "Assigned To":"Jagadeesh"
     },
     {
-        "TestRunStatus":"INPROGRESS",
-        "ExecutionDate":"2025-12-05",
+        "TestRunStatus":"PASSED",
+        "ExecutionDate":"2025-12-09",
         "Document Key":"KCE-TSTRN-4007296",
         "Name":"Group features - HEL - Hospital Emergency service at landings - Phase 2",
         "Assigned To":"Jagadeesh"
@@ -17483,6 +17504,34 @@
         "ExecutionDate":"2025-12-05",
         "Document Key":"KCE-TSTRN-4007316",
         "Name":"Code compliant for NA\/Hong Kong\/Singapore in 10 inch xDOP  ",
+        "Assigned To":"Nithya Priya"
+    },
+    {
+        "TestRunStatus":"INPROGRESS",
+        "ExecutionDate":"2025-12-09",
+        "Document Key":"KCE-TSTRN-4007317",
+        "Name":"xDOP indicates status Call is being processed when lifts are busy ",
+        "Assigned To":"Nithya Priya"
+    },
+    {
+        "TestRunStatus":"INPROGRESS",
+        "ExecutionDate":"2025-12-09",
+        "Document Key":"KCE-TSTRN-4007328",
+        "Name":"xDOP Multiple languages support",
+        "Assigned To":"Nithya Priya"
+    },
+    {
+        "TestRunStatus":"INPROGRESS",
+        "ExecutionDate":"2025-12-09",
+        "Document Key":"KCE-TSTRN-4007329",
+        "Name":"xDOP accent color customization",
+        "Assigned To":"Nithya Priya"
+    },
+    {
+        "TestRunStatus":"INPROGRESS",
+        "ExecutionDate":"2025-12-09",
+        "Document Key":"KCE-TSTRN-4007334",
+        "Name":"Technical call from xDOP",
         "Assigned To":"Nithya Priya"
     },
     {
