@@ -9794,6 +9794,13 @@
     },
     {
         "TestRunStatus":"PASSED",
+        "ExecutionDate":"2025-12-09",
+        "Document Key":"KIE601-TSTRN-70805",
+        "Name":"updating latest KIECPU software (TSC and CPU) into Escalator running with TR1.0-t12.12 release configuration",
+        "Assigned To":"Mohammed Ibrahim Sultan"
+    },
+    {
+        "TestRunStatus":"PASSED",
         "ExecutionDate":"2025-08-07",
         "Document Key":"KIE601-TSTRN-56807",
         "Name":"Inspection Mode - Faults",
@@ -9849,7 +9856,7 @@
         "Assigned To":"S.P"
     },
     {
-        "TestRunStatus":"INPROGRESS",
+        "TestRunStatus":"PASSED",
         "ExecutionDate":"2025-12-09",
         "Document Key":"KIE601-TSTRN-70796",
         "Name":"AMC features for Escalator",
@@ -9877,6 +9884,13 @@
         "Assigned To":"Mohammed Ibrahim Sultan"
     },
     {
+        "TestRunStatus":"FAILED",
+        "ExecutionDate":"2025-12-09",
+        "Document Key":"KIE601-TSTRN-70797",
+        "Name":"AMC Escalator Fault Log View",
+        "Assigned To":"VIGNESHWARAR"
+    },
+    {
         "TestRunStatus":"PASSED",
         "ExecutionDate":"2025-07-30",
         "Document Key":"KIE601-TSTRN-56801",
@@ -9888,6 +9902,13 @@
         "ExecutionDate":"2025-12-08",
         "Document Key":"KIE601-TSTRN-70626",
         "Name":"Safety Input Configuration",
+        "Assigned To":"VIGNESHWARAR"
+    },
+    {
+        "TestRunStatus":"PASSED",
+        "ExecutionDate":"2025-12-09",
+        "Document Key":"KIE601-TSTRN-70798",
+        "Name":"AMC Escalator Parameters View",
         "Assigned To":"VIGNESHWARAR"
     },
     {
@@ -10682,8 +10703,8 @@
         "Assigned To":"VIGNESHWARAR"
     },
     {
-        "TestRunStatus":"INPROGRESS",
-        "ExecutionDate":"2025-12-04",
+        "TestRunStatus":"PASSED",
+        "ExecutionDate":"2025-12-09",
         "Document Key":"KIE601-TSTRN-70510",
         "Name":"Missing Step Detection - Upper",
         "Assigned To":"S.P"
@@ -11184,6 +11205,13 @@
         "Document Key":"KCE-TSTRN-3982225",
         "Name":"Group features - PRL H - Priority At landings High - Phase 1",
         "Assigned To":"Harini Sri"
+    },
+    {
+        "TestRunStatus":"INPROGRESS",
+        "ExecutionDate":"2025-12-09",
+        "Document Key":"KCE-TSTRN-4007295",
+        "Name":"Group features - PRL H - Priority At landings High - Phase 1 - Covered by TA",
+        "Assigned To":"Jagadeesh"
     },
     {
         "TestRunStatus":"PASSED",
@@ -11978,7 +12006,7 @@
     },
     {
         "TestRunStatus":"INPROGRESS",
-        "ExecutionDate":"2025-12-04",
+        "ExecutionDate":"2025-12-09",
         "Document Key":"KCE-TSTRN-4007304",
         "Name":"EAQ - Earthquake mode - Special",
         "Assigned To":"Kowsalya"

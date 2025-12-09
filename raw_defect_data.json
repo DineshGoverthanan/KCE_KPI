@@ -4618,6 +4618,170 @@
         "type": "items"
     },
     {
+        "id": 28596158,
+        "documentKey": "KIE601-SWBUG-2814",
+        "globalId": "GID-7577165",
+        "itemType": 154,
+        "project": 417,
+        "createdDate": "2025-12-09T12:20:39.000+0000",
+        "modifiedDate": "2025-12-09T12:20:39.000+0000",
+        "lastActivityDate": "2025-12-09T12:20:39.000+0000",
+        "createdBy": 6117,
+        "modifiedBy": 6117,
+        "fields": {
+            "documentKey": "KIE601-SWBUG-2814",
+            "globalId": "GID-7577165",
+            "name": "IEX - FC 304-1 & FC 304-2 (Gear box oil level input) is not posted when the input is activated in Photocell stop",
+            "description": "<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\"><strong>Detailed Defect Description:</strong></span></span></p>\n\n<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\">IEX - FC 304-1 &amp; FC 304-2 (Gear box oil level input) is not posted when the input is activated in Photocell stop</span></span></p>\n\n<p>&nbsp;</p>\n\n<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\"><strong>Parameters:&nbsp;&nbsp;</strong></span></span></p>\n\n<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\">NA</span></span></p>\n\n<p>&nbsp;</p>\n\n<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\"><strong>Group configuration: </strong></span></span></p>\n\n<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\">NA</span></span></p>\n\n<p>&nbsp;</p>\n\n<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\"><strong>Drive type:</strong></span></span></p>\n\n<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\">NA</span></span></p>\n\n<p>&nbsp;</p>\n\n<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\"><strong>Regression or new finding:</strong></span></span></p>\n\n<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\">New Finding</span></span></p>\n\n<p>&nbsp;</p>\n\n<p>&nbsp;</p>\n\n<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\"><strong>Test case Name / Feature name:</strong></span></span></p>\n\n<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\">Ad hoc</span></span></p>\n\n<p>&nbsp;</p>\n\n<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\"><strong>Test step number:</strong></span></span></p>\n\n<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\">Ad hoc</span></span></p>\n\n<p>&nbsp;</p>\n\n<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\"><strong>Description of the test case (Detailed Scenario)&nbsp;</strong></span></span></p>\n\n<ul>\n\t<li>Escalator is running in KAM mode / KST / K2D</li>\n\t<li>Now Escalator is in photocell stop</li>\n\t<li>Activate Gear box oil level input</li>\n\t<li>FC 304 is not posted in FUI</li>\n\t<li>FUI still shows Photocell stop message</li>\n</ul>\n\n<p>&nbsp;</p>\n\n<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\"><strong>Expected behavior:&nbsp;&nbsp;</strong></span></span></p>\n\n<p><span style=\"font-family:Calibri, sans-serif\"><span style=\"font-size:14.6667px\">FUI must display FC 304-1 / 2</span></span></p>\n\n<p>&nbsp;</p>\n\n<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\"><strong>Actual behavior:</strong></span></span></p>\n\n<p>FUI still shows Photocell stop message</p>\n\n<p>&nbsp;</p>\n\n<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\"><strong>Recovery:&nbsp;</strong></span></span></p>\n\n<p><span style=\"font-family:Calibri, sans-serif\"><span style=\"font-size:14.6667px\">Give key switch, Preset direction gets cleared. Now Display shows FC 304</span></span></p>\n",
+            "status": 1081,
+            "BUG_component$154": 1561,
+            "BUG_subcomponent$154": "IEX",
+            "createdBy": 6117,
+            "release": 2581,
+            "BUG_foundOnDate$154": "2025-12-08",
+            "priority": 2410,
+            "BUG_severity$154": 1110,
+            "BUG_category$154": 1422,
+            "BUG_testLevel$154": 1129,
+            "BUG_howFound$154": 1092,
+            "BUG_whereFound$154": 1137,
+            "BUG_probability_on_field$154": 2396,
+            "root_cause_category$154": 2512,
+            "BUG_testCaseUpdated$154": 1198,
+            "BUG_V1_project$154": 1431
+        },
+        "resources": {
+            "self": {
+                "allowed": [
+                    "GET"
+                ]
+            }
+        },
+        "version": 1,
+        "location": {
+            "sortOrder": 1393,
+            "globalSortOrder": 1311309120,
+            "sequence": "2.8.1394",
+            "parent": {
+                "item": 18771233
+            }
+        },
+        "lock": {
+            "locked": false
+        },
+        "type": "items"
+    },
+    {
+        "id": 28596328,
+        "documentKey": "KIE601-SWBUG-2815",
+        "globalId": "GID-7577179",
+        "itemType": 154,
+        "project": 417,
+        "createdDate": "2025-12-09T13:24:02.000+0000",
+        "modifiedDate": "2025-12-09T13:25:05.000+0000",
+        "lastActivityDate": "2025-12-09T13:25:05.000+0000",
+        "createdBy": 5932,
+        "modifiedBy": 5932,
+        "fields": {
+            "documentKey": "KIE601-SWBUG-2815",
+            "globalId": "GID-7577179",
+            "name": "IEX-When parameter set in FUI, AMC Tool Fails to update Escalator Parameter.",
+            "description": "<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\"><strong>Detailed Defect Description:</strong></span></span></p>\n\n<p>IEX-When parameter set in FUI, AMC Tool Fails to update Escalator Parameter.</p>\n\n<p>&nbsp;</p>\n\n<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\"><strong>Parameters:&nbsp;&nbsp;</strong></span></span></p>\n\n<p>-</p>\n\n<p>&nbsp;</p>\n\n<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\"><strong>Group configuration: </strong></span></span></p>\n\n<p><span style=\"font-family:Calibri,sans-serif\"><span style=\"font-size:14.6667px\">Single escalator setup</span></span></p>\n\n<p>&nbsp;</p>\n\n<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\"><strong>Drive type:</strong></span></span></p>\n\n<p><span style=\"font-family:Calibri,sans-serif\"><span style=\"font-size:14.6667px\">Monarch,Danfoss</span></span></p>\n\n<p>&nbsp;</p>\n\n<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\"><strong>Regression or new finding:</strong></span></span></p>\n\n<p>Adhoc-New finding</p>\n\n<p>&nbsp;</p>\n\n<p>&nbsp;</p>\n\n<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\"><strong>Description of the test case (Detailed Scenario)&nbsp;</strong></span></span></p>\n\n<p>1.The AMC is connected with CPU.</p>\n\n<p>2.Set parameter PC1_1103_4 to PC1_1103_1 in the FUI.</p>\n\n<p>3.In the AMC tool, the escalator parameter for PC1_1103 is checked.</p>\n\n<p>4.The escalator parameter in AMC displays PC1_1103_4 instead of the updated value.</p>\n\n<p>5.After quitting and reopening the AMC tool, the escalator parameter updates correctly to PC1_1103_1.</p>\n\n<p>&nbsp;</p>\n\n<p><strong><span style=\"background-color:#f39c12\">Note: This behavior occurs for all parameters.</span></strong></p>\n\n<p>&nbsp;</p>\n\n<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\"><strong>Expected behavior:&nbsp;&nbsp;</strong></span></span></p>\n\n<p>The AMC escalator parameter should immediately display the updated value PC1_1103_1 after it is set in the FUI.</p>\n\n<p>&nbsp;</p>\n\n<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\"><strong>Actual behavior:</strong></span></span></p>\n\n<p>The AMC escalator parameter initially shows PC1_1103_4.</p>\n\n<p>&nbsp;</p>\n\n<p>Only after quitting and reopening the AMC tool does the escalator parameter update to PC1_1103_1.</p>\n\n<p>&nbsp;</p>\n\n<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\"><strong>Recovery:&nbsp;</strong></span></span></p>\n\n<p><span style=\"font-family:Calibri,sans-serif\"><span style=\"font-size:14.6667px\">Quit and Re-open the application</span></span>.</p>\n\n<p>&nbsp;</p>\n\n<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\"><strong>Value-added information:&nbsp;</strong></span></span></p>\n\n<p>IEX SW-R 2.0.3</p>\n\n<p>AMC SW-4.6.250.7156</p>\n\n<p>Video has been attached.</p>\n\n<p>&nbsp;</p>\n",
+            "status": 1081,
+            "BUG_component$154": 1561,
+            "BUG_subcomponent$154": "AMC-Service tool Miniconsole.",
+            "createdBy": 5932,
+            "release": 2581,
+            "BUG_foundOnDate$154": "2025-12-08",
+            "priority": 2410,
+            "BUG_severity$154": 1110,
+            "BUG_category$154": 1422,
+            "BUG_testLevel$154": 1129,
+            "BUG_howFound$154": 1092,
+            "BUG_whereFound$154": 1137,
+            "BUG_probability_on_field$154": 2397,
+            "root_cause_category$154": 2512,
+            "BUG_testCaseUpdated$154": 1198,
+            "BUG_V1_project$154": 1431
+        },
+        "resources": {
+            "self": {
+                "allowed": [
+                    "GET"
+                ]
+            }
+        },
+        "version": 2,
+        "location": {
+            "sortOrder": 1394,
+            "globalSortOrder": 1311310193,
+            "sequence": "2.8.1395",
+            "parent": {
+                "item": 18771233
+            }
+        },
+        "lock": {
+            "locked": false,
+            "lastLockedDate": "2025-12-09T13:25:06.000+0000"
+        },
+        "type": "items"
+    },
+    {
+        "id": 28596424,
+        "documentKey": "KIE601-SWBUG-2816",
+        "globalId": "GID-7577189",
+        "itemType": 154,
+        "project": 417,
+        "createdDate": "2025-12-09T13:54:32.000+0000",
+        "modifiedDate": "2025-12-09T14:03:12.000+0000",
+        "lastActivityDate": "2025-12-09T14:03:12.000+0000",
+        "createdBy": 2925,
+        "modifiedBy": 2925,
+        "fields": {
+            "documentKey": "KIE601-SWBUG-2816",
+            "globalId": "GID-7577189",
+            "name": "IEX-Stopping the escalator using the key switch,but in AMC tool the mode changes to OSS for approximately 1 second during stopping and then returns to KCM Normal Mode.",
+            "description": "<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\"><strong>Detailed Defect Description:</strong></span></span></p>\n\n<p>IEX-Escalator is Stopped via Key Switch -Mode changes to OOS for 1 second and returns to normal mode (there was no fault triggered at that time)&nbsp;</p>\n\n<p>&nbsp;</p>\n\n<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\"><strong>Parameters:&nbsp;&nbsp;</strong></span></span></p>\n\n<p><span style=\"font-family:Calibri,sans-serif\"><span style=\"font-size:14.6667px\">-</span></span></p>\n\n<p>&nbsp;</p>\n\n<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\"><strong>Group configuration: </strong></span></span></p>\n\n<p><span style=\"font-family:Calibri,sans-serif\"><span style=\"font-size:14.6667px\">Single escalator setup</span></span></p>\n\n<p>&nbsp;</p>\n\n<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\"><strong>Drive type:</strong></span></span></p>\n\n<p><span style=\"font-family:Calibri,sans-serif\"><span style=\"font-size:14.6667px\">Monarch,Danfoss</span></span></p>\n\n<p>&nbsp;</p>\n\n<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\"><strong>Regression or new finding:</strong></span></span></p>\n\n<p><span style=\"font-family:Calibri,sans-serif\"><span style=\"font-size:14.6667px\">Regression</span></span></p>\n\n<p>&nbsp;</p>\n\n<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\"><strong>Test case Name / Feature name:</strong></span></span></p>\n\n<p>AMC feature for IEX</p>\n\n<p>&nbsp;</p>\n\n<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\"><strong>Test step number:</strong></span></span></p>\n\n<p><span style=\"font-family:Calibri,sans-serif\"><span style=\"font-size:14.6667px\">18</span></span></p>\n\n<p>&nbsp;</p>\n\n<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\"><strong>Description of the test case (Detailed Scenario)&nbsp;</strong></span></span></p>\n\n<p>1.Operate the escalator in the UP direction using the key switch in KCM mode.<br />\n2.Escalator starts running in the UP direction.<br />\n3.Stop the escalator using the key switch.<br />\n4.Check the escalator status in both AMC and KFPS.<br />\n5.In the AMC tool and KFPS, No fault is triggered when stopping the escalator using the key switch,but in AMC tool the mode changes to Out of Service for approximately 1 second during stopping and then returns to KCM Normal Mode.<br />\n<br />\n<strong>Note:Same issue occurs in all modes (KAM,KST,K2D,KSB) ,Learning mode</strong><br />\n<strong>Checked with KFPS tool same issue occurs</strong></p>\n\n<p>&nbsp;</p>\n\n<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\"><strong>Expected behavior:&nbsp;&nbsp;</strong></span></span></p>\n\n<p>The mode should remain in its current operating mode(e.g., KCM Normal Mode)</p>\n\n<p>&nbsp;</p>\n\n<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\"><strong>Actual behavior:</strong></span></span></p>\n\n<p>No fault is triggered when stopping the escalator using the key switch.<br />\nHowever, in the AMC tool the mode changes to \u201cOut of Service\u201d for approximately 1 second during the stoppingafter which it returns automatically to the original mode (e.g., KCM Normal Mode).</p>\n\n<p>&nbsp;</p>\n\n<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\"><strong>Recovery:&nbsp;</strong></span></span></p>\n\n<p><span style=\"font-family:Calibri,sans-serif\"><span style=\"font-size:14.6667px\">No</span></span></p>\n\n<p>&nbsp;</p>\n\n<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\"><strong>Value-added information:&nbsp;</strong></span></span></p>\n\n<p>IEX CPU SW-R2.0.3</p>\n\n<p>AMC SW-4.6.250.7156</p>\n\n<p>&nbsp;</p>\n",
+            "status": 1081,
+            "BUG_component$154": 1561,
+            "BUG_subcomponent$154": "Service tool-Miniconsole,KFPS",
+            "createdBy": 2925,
+            "release": 2581,
+            "BUG_foundOnDate$154": "2025-12-05",
+            "priority": 2410,
+            "BUG_severity$154": 1110,
+            "BUG_category$154": 1422,
+            "BUG_testLevel$154": 1129,
+            "BUG_howFound$154": 2407,
+            "BUG_whereFound$154": 1137,
+            "BUG_probability_on_field$154": 2398,
+            "root_cause_category$154": 2512,
+            "BUG_testCaseUpdated$154": 1198,
+            "BUG_V1_project$154": 1431
+        },
+        "resources": {
+            "self": {
+                "allowed": [
+                    "GET"
+                ]
+            }
+        },
+        "version": 3,
+        "location": {
+            "sortOrder": 1395,
+            "globalSortOrder": 1311367552,
+            "sequence": "2.8.1396",
+            "parent": {
+                "item": 18771233
+            }
+        },
+        "lock": {
+            "locked": false,
+            "lastLockedDate": "2025-12-09T14:03:13.000+0000"
+        },
+        "type": "items"
+    },
+    {
         "id": 26912907,
         "documentKey": "DRIVE_HW_SW-SWBUG-1587",
         "globalId": "GID-7250660",
@@ -22057,8 +22221,8 @@
         "itemType": 154,
         "project": 229,
         "createdDate": "2025-11-26T13:27:38.000+0000",
-        "modifiedDate": "2025-12-08T11:39:43.000+0000",
-        "lastActivityDate": "2025-12-08T11:45:41.000+0000",
+        "modifiedDate": "2025-12-09T13:46:43.000+0000",
+        "lastActivityDate": "2025-12-09T13:46:43.000+0000",
         "createdBy": 6096,
         "modifiedBy": 620,
         "fields": {
@@ -22068,9 +22232,9 @@
             "description": "<p><em><strong>Parameter:</strong></em></p>\n\n<ul>\n\t<li>UI - Standard UI</li>\n\t<li>TSCOP - Main</li>\n\t<li>Logic for Side Handling - Selective</li>\n\t<li>Logic for FRD - Selective</li>\n</ul>\n\n<p><br />\n<em><strong>CPU Parameter:</strong></em></p>\n\n<ul>\n\t<li>1096 - 0</li>\n\t<li>UI - Static UI</li>\n</ul>\n\n<p>&nbsp;</p>\n\n<p><em><strong>Description:</strong></em></p>\n\n<ul>\n\t<li>LD : 17.0.0.18</li>\n\t<li>KNSMUL : 0.0.0.49</li>\n\t<li>Drive : KDHN 150</li>\n\t<li>Shaft : 72 Floor TTC setup&nbsp;</li>\n\t<li>WELM : 0.0.0.88</li>\n\t<li>Proto SW : 0.0.0.15</li>\n\t<li>Theme (Newer Mock Theme causing issue with the Application SW, So older Theme used for testing)</li>\n\t<li>1096 - 0</li>\n\t<li>A &amp; B side KNSMUL - Non-Conventional (KCOP)</li>\n</ul>\n\n<p>&nbsp;</p>\n\n<p><em><strong>Scenario:</strong></em></p>\n\n<ul>\n\t<li>When 30+ CAR Call is given, after the 30th floor the registered icon is not stored in the TSCOP</li>\n\t<li>But no indication of registration after 30th CAR Call registration<br />\n\t<img alt=\"\" height=\"737\" src=\"https://konerqm.jamacloud.com/attachment/232732/image-1knq7V13h7.png\" width=\"450\" /></li>\n</ul>\n\n<p>&nbsp;</p>\n\n<ul>\n\t<li>**All the floors have been registered in the CPU, Just in TSCOP UI the Selection Cells are not stayed resgistered&nbsp;</li>\n\t<li><img alt=\"\" height=\"587\" src=\"https://konerqm.jamacloud.com/attachment/232733/image-fCCJYAdwMx.png\" width=\"635\" /></li>\n</ul>\n\n<p><em><strong>NOTE:</strong></em><br />\nFloor markings, Direction Arrow and Next stop indication also not shown</p>\n\n<p>&nbsp;</p>\n\n<p><em><strong>Logs:</strong></em></p>\n\n<ul>\n\t<li>TSCOP Logs</li>\n\t<li>LPA</li>\n\t<li>Event Traffic</li>\n\t<li>Video attached for better understanding</li>\n</ul>\n\n<p><em><strong>Reference:</strong></em></p>\n\n<p><img alt=\"\" height=\"603\" src=\"https://konerqm.jamacloud.com/attachment/232737/image-ZrWPfppBzQ.png\" width=\"480\" /></p>\n",
             "status": 1083,
             "BUG_component$154": 1531,
-            "BUG_subcomponent$154": "KNSMUL",
+            "BUG_subcomponent$154": "Design (RS485UID specs 50302560D04)",
             "createdBy": 6096,
-            "assignedTo": 1926,
+            "assignedTo": 3839,
             "release": 2396,
             "BUG_foundInBuild$154": "KNSMUL 0.0.0.49",
             "BUG_foundOnDate$154": "2025-11-25",
@@ -22087,7 +22251,7 @@
             "BUG_jiraId$154": "KCE-31573",
             "BUG_jira_project$154": 2465,
             "BUG_jira_URL$154": "https://kone.atlassian.net/browse/KCE-31573",
-            "BUG_integration_synced_time$154": "2025-12-08 11:39:42.193115",
+            "BUG_integration_synced_time$154": "2025-12-09 13:46:42.595396",
             "BUG_V1_project$154": 1431
         },
         "resources": {
@@ -22100,7 +22264,7 @@
                 ]
             }
         },
-        "version": 14,
+        "version": 16,
         "location": {
             "sortOrder": 6474,
             "globalSortOrder": 1664619450,
@@ -22111,7 +22275,7 @@
         },
         "lock": {
             "locked": false,
-            "lastLockedDate": "2025-12-08T11:39:12.000+0000"
+            "lastLockedDate": "2025-12-09T13:45:24.000+0000"
         },
         "type": "items"
     },
@@ -23149,6 +23313,118 @@
         "lock": {
             "locked": false,
             "lastLockedDate": "2025-12-08T08:26:43.000+0000"
+        },
+        "type": "items"
+    },
+    {
+        "id": 28596335,
+        "documentKey": "KCE-SWBUG-14062",
+        "globalId": "GID-7577182",
+        "itemType": 154,
+        "project": 229,
+        "createdDate": "2025-12-09T13:26:49.000+0000",
+        "modifiedDate": "2025-12-09T13:26:49.000+0000",
+        "lastActivityDate": "2025-12-09T13:26:49.000+0000",
+        "createdBy": 6096,
+        "modifiedBy": 6096,
+        "fields": {
+            "documentKey": "KCE-SWBUG-14062",
+            "globalId": "GID-7577182",
+            "name": "17.0 - KDH - Fault #6301's Data 1 & 2 Description is missing",
+            "description": "<p><img alt=\"\" height=\"386\" src=\"https://konerqm.jamacloud.com/attachment/234172/image-Fgub1Qx5GW.png\" width=\"965\" /></p>\n\n<p>&nbsp;</p>\n\n<p><em><strong>Note :&nbsp;</strong></em><br />\nLocalizations files are updated</p>\n",
+            "status": 1081,
+            "BUG_component$154": 2499,
+            "createdBy": 6096,
+            "release": 2396,
+            "BUG_foundOnDate$154": "2025-12-08",
+            "priority": 2410,
+            "BUG_severity$154": 1110,
+            "BUG_category$154": 1422,
+            "BUG_testLevel$154": 1129,
+            "BUG_howFound$154": 1092,
+            "BUG_whereFound$154": 1137,
+            "BUG_probability_on_field$154": 2398,
+            "root_cause_category$154": 2512,
+            "BUG_testCaseUpdated$154": 1198,
+            "BUG_V1_project$154": 1431
+        },
+        "resources": {
+            "self": {
+                "allowed": [
+                    "GET",
+                    "PUT",
+                    "PATCH",
+                    "DELETE"
+                ]
+            }
+        },
+        "version": 1,
+        "location": {
+            "sortOrder": 6559,
+            "globalSortOrder": 1665890278,
+            "sequence": "17.6560",
+            "parent": {
+                "item": 83266
+            }
+        },
+        "lock": {
+            "locked": false
+        },
+        "type": "items"
+    },
+    {
+        "id": 28596340,
+        "documentKey": "KCE-SWBUG-14063",
+        "globalId": "GID-7577185",
+        "itemType": 154,
+        "project": 229,
+        "createdDate": "2025-12-09T13:29:57.000+0000",
+        "modifiedDate": "2025-12-09T13:29:57.000+0000",
+        "lastActivityDate": "2025-12-09T13:29:57.000+0000",
+        "createdBy": 6096,
+        "modifiedBy": 6096,
+        "fields": {
+            "documentKey": "KCE-SWBUG-14063",
+            "globalId": "GID-7577185",
+            "name": "17.0 - KDX - Typo in Fault #3020",
+            "description": "<p>\"Weighing\" is written as Weighting</p>\n\n<p><img alt=\"\" height=\"485\" src=\"https://konerqm.jamacloud.com/attachment/234177/2025_12_09_13_27_272.png\" width=\"386\" /></p>\n\n<p>&nbsp;</p>\n\n<p><span style=\"font-size:11.0pt\"><span style=\"font-family:Calibri\">With fault 2008, It is correct</span></span></p>\n\n<p><img alt=\"\" height=\"522\" src=\"https://konerqm.jamacloud.com/attachment/234178/2025_12_09_13_27_273.png\" width=\"396\" /></p>\n\n<p>&nbsp;</p>\n\n<p><em><strong>Note:</strong></em></p>\n\n<p>Localization files are updated</p>\n",
+            "status": 1081,
+            "BUG_component$154": 2160,
+            "createdBy": 6096,
+            "release": 2396,
+            "BUG_foundOnDate$154": "2025-12-08",
+            "priority": 2410,
+            "BUG_severity$154": 1110,
+            "BUG_category$154": 1428,
+            "BUG_testLevel$154": 1129,
+            "BUG_howFound$154": 1092,
+            "BUG_whereFound$154": 1137,
+            "BUG_probability_on_field$154": 2398,
+            "root_cause_category$154": 2512,
+            "BUG_testCaseUpdated$154": 1198,
+            "BUG_V1_project$154": 1431
+        },
+        "resources": {
+            "self": {
+                "allowed": [
+                    "GET",
+                    "PUT",
+                    "PATCH",
+                    "DELETE"
+                ]
+            }
+        },
+        "version": 1,
+        "location": {
+            "sortOrder": 6560,
+            "globalSortOrder": 1665891149,
+            "sequence": "17.6561",
+            "parent": {
+                "item": 83266
+            }
+        },
+        "lock": {
+            "locked": false
         },
         "type": "items"
     }

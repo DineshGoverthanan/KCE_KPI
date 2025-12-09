@@ -80,6 +80,9 @@ KIE601-SWBUG-2797,IEX - Inspection Mode is not displayed in EGD Display,Mohammed
 KIE601-SWBUG-2798,IEX - The UI sheet for R2.0.3 for ACU parameters is not as per FUI working,Mohammed Ibrahim Sultan,,2025-12-05
 KIE601-SWBUG-2811,"IEX- When Fault 37-3,37-2 and 37-1 triggered, AMC displays normal mode",VIGNESHWARAR,,2025-12-06
 KIE601-SWBUG-2812,IEX - Escalator does not stop in Photocell stop when operation mode changed from KSB standby speed to KAM / K2D mode,Mohammed Ibrahim Sultan,,2025-12-07
+KIE601-SWBUG-2814,IEX - FC 304-1 & FC 304-2 (Gear box oil level input) is not posted when the input is activated in Photocell stop,Mohammed Ibrahim Sultan,,2025-12-08
+KIE601-SWBUG-2815,"IEX-When parameter set in FUI, AMC Tool Fails to update Escalator Parameter.",VIGNESHWARAR,,2025-12-08
+KIE601-SWBUG-2816,"IEX-Stopping the escalator using the key switch,but in AMC tool the mode changes to OSS for approximately 1 second during stopping and then returns to KCM Normal Mode.",S.P,,2025-12-05
 DRIVE_HW_SW-SWBUG-1587,GG DCBL 5.51 SW - Fault 124 3064 Not Triggered when Software file is missed from SD Card.,VIGNESHWARAR,,2025-06-01
 KCE-SWBUG-5615,16.4-DCBL GD- Speed is not reduced when the elevator reaches the lower limit during the NTS Buffer Test.,Jagadeesh,KCE16.4.92 (LD 16.4.1.11 and GCD 16.4.65) + DCBL 24.47sw,
 KCE-SWBUG-6553,"KCE NA - When MES activated during car call service, lift is unable to stop at the nearest floor.",Veeramanikandan,KCE 17.0.0.10,2025-09-02
@@ -370,3 +373,5 @@ KCE-SWBUG-7134,17.0 - KCEDCS - No Response message displays in SM when updating 
 KCE-SWBUG-7138,17.0 - KCEDCS - DG Customization button missing on the SM Dashboard,Vivek,"17.0.0.116(LD: 17.0.0.20, GCD: 17.0.1.1 GCH: 17.0.1.1)",2025-12-07
 KCE-SWBUG-7139,17.0 - KDX - Fault #3220 has no Data Description to it,Suryanarayanan,,2025-12-07
 KCE-SWBUG-10017,17.0 - KCEDCS - OEO EN81-76 The DG displays an OSS indication at the L27 gap whenever the inputs are toggled (activated or deactivated),Vivek,"17.0.0.116(LD: 17.0.0.20, GCD: 17.0.1.1 GCH: 17.0.1.1)",2025-12-07
+KCE-SWBUG-14062,17.0 - KDH - Fault #6301's Data 1 & 2 Description is missing,Suryanarayanan,,2025-12-08
+KCE-SWBUG-14063,17.0 - KDX - Typo in Fault #3020,Suryanarayanan,,2025-12-08
