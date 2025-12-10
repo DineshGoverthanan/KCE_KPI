@@ -9828,7 +9828,7 @@
         "Assigned To":"Mohammed Ibrahim Sultan"
     },
     {
-        "TestRunStatus":"INPROGRESS",
+        "TestRunStatus":"PASSED",
         "ExecutionDate":"2025-12-10",
         "Document Key":"KIE601-TSTRN-70800",
         "Name":"AMC Escalator Tools - Parameter Backup View",
@@ -12036,6 +12036,13 @@
         "TestRunStatus":"INPROGRESS",
         "ExecutionDate":"2025-12-10",
         "Document Key":"KCE-TSTRN-4007303",
+        "Name":"Group&Elevator features - HEL-C - Hospital Emergency service at landings & PRC NZ switch - Tests not included into TA",
+        "Assigned To":"Jagadeesh"
+    },
+    {
+        "TestRunStatus":"INPROGRESS",
+        "ExecutionDate":"2025-12-10",
+        "Document Key":"KCE-TSTRN-4008712",
         "Name":"Group&Elevator features - HEL-C - Hospital Emergency service at landings & PRC NZ switch - Tests not included into TA",
         "Assigned To":"Jagadeesh"
     },
@@ -17466,7 +17473,7 @@
     },
     {
         "TestRunStatus":"FAILED",
-        "ExecutionDate":"2025-12-09",
+        "ExecutionDate":"2025-12-10",
         "Document Key":"KCE-TSTRN-4006834",
         "Name":"Remote LD reboot functionality - Rush test scenarios",
         "Assigned To":"Priyavalli"
@@ -18284,7 +18291,7 @@
         "Assigned To":"Suryanarayanan"
     },
     {
-        "TestRunStatus":"INPROGRESS",
+        "TestRunStatus":"PASSED",
         "ExecutionDate":"2025-12-10",
         "Document Key":"KCE-TSTRN-4007038",
         "Name":"Stop disability service on power interruption ",

@@ -21072,8 +21072,8 @@
         "itemType": 154,
         "project": 229,
         "createdDate": "2025-11-11T12:40:31.000+0000",
-        "modifiedDate": "2025-11-13T08:48:37.000+0000",
-        "lastActivityDate": "2025-11-13T08:48:37.000+0000",
+        "modifiedDate": "2025-12-10T06:09:07.000+0000",
+        "lastActivityDate": "2025-12-10T06:09:07.000+0000",
         "createdBy": 6096,
         "modifiedBy": 620,
         "fields": {
@@ -21081,7 +21081,7 @@
             "globalId": "GID-7520842",
             "name": "17.0 - PAD O - Other Floor's UP Landing Call is not Served when PAD Floor's Down Landing Call is Soft Locked ",
             "description": "<p><strong>\u200b\u200b\u200bParameters:&nbsp;&nbsp;</strong></p>\n\n<p><img alt=\"\" height=\"230\" src=\"https://konerqm.jamacloud.com/attachment/230320/image-3Zkjrq3UD9.png\" width=\"223\" /></p>\n\n<p>1006 - 1</p>\n\n<p>1002 - 4th &amp; 8th Floor</p>\n\n<p>&nbsp;</p>\n\n<p><strong>Group configuration:</strong></p>\n\n<p>Single</p>\n\n<p>&nbsp;</p>\n\n<p><strong>Drive type:</strong></p>\n\n<p>KDM 40</p>\n\n<p>&nbsp;</p>\n\n<p><strong>Description of the test case (Detailed Scenario):</strong></p>\n\n<ul>\n\t<li><strong>\u200b12&nbsp;</strong>Floor Setup</li>\n\t<li>KDS COP Signalization used</li>\n\t<li>ADO &amp; ACL Enabled<br />\n\t&nbsp;</li>\n\t<li>Elevator in PAD 4th Floor,&nbsp;&nbsp;Doors Wide Opened (B side Down Landing Call is Soft Locked)</li>\n\t<li>8th Floor's B side Down Landing Call is given which is Soft Locked</li>\n\t<li>Now 8th floor's UP Landing Call is Given</li>\n</ul>\n\n<p><img alt=\"\" height=\"599\" src=\"https://konerqm.jamacloud.com/attachment/231012/image-pISnIncrQS.png\" width=\"608\" /></p>\n\n<ul>\n\t<li>8th Floor's B side Up Landing Call Call is registered but not Served</li>\n</ul>\n\n<p>&nbsp;</p>\n\n<p>&nbsp;</p>\n\n<p><strong>Expected Scenario:</strong></p>\n\n<ul>\n\t<li>8th Floor's UP Landing Call should be registered &amp; served irrespective of Locked PAD Floor</li>\n</ul>\n\n<p>&nbsp;</p>\n\n<p><strong>Note:</strong></p>\n\n<ul>\n\t<li>CAR Call is Accepted &amp; Served Correctly</li>\n\t<li>A side's UP &amp; DOWN Landing Call is registered &amp; Served Correctly</li>\n\t<li>Only B side UP Landing Call creates this issue</li>\n\t<li>This issue Scenario has been discussed with Vasanth Kumar P for clarification</li>\n\t<li>Same issue has been noted in 16.10 LD too&nbsp;</li>\n</ul>\n\n<p>&nbsp;</p>\n\n<p><strong>LOGs:</strong></p>\n\n<p>Event Traffic &amp; LPA</p>\n",
-            "status": 1081,
+            "status": 1085,
             "BUG_component$154": 1291,
             "createdBy": 6096,
             "assignedTo": 1159,
@@ -21101,7 +21101,7 @@
             "BUG_jiraId$154": "KCE-30929",
             "BUG_jira_project$154": 2465,
             "BUG_jira_URL$154": "https://kone.atlassian.net/browse/KCE-30929",
-            "BUG_integration_synced_time$154": "2025-11-13 08:48:36.556736",
+            "BUG_integration_synced_time$154": "2025-12-10 06:09:06.905327",
             "BUG_V1_project$154": 1431
         },
         "resources": {
@@ -21114,7 +21114,7 @@
                 ]
             }
         },
-        "version": 8,
+        "version": 10,
         "location": {
             "sortOrder": 6380,
             "globalSortOrder": 1662779118,
@@ -21125,7 +21125,7 @@
         },
         "lock": {
             "locked": false,
-            "lastLockedDate": "2025-12-10T05:28:22.000+0000"
+            "lastLockedDate": "2025-12-10T06:07:21.000+0000"
         },
         "type": "items"
     },
@@ -22687,7 +22687,7 @@
         "project": 229,
         "createdDate": "2025-12-03T13:32:00.000+0000",
         "modifiedDate": "2025-12-08T21:26:10.000+0000",
-        "lastActivityDate": "2025-12-08T21:26:10.000+0000",
+        "lastActivityDate": "2025-12-10T06:15:00.000+0000",
         "createdBy": 6374,
         "modifiedBy": 620,
         "fields": {
