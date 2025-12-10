@@ -4558,6 +4558,13 @@
     },
     {
         "TestRunStatus":"PASSED",
+        "ExecutionDate":"2025-12-10",
+        "Document Key":"KCE-TSTRN-4002925",
+        "Name":"KSS- Configuration of buttons and switches - F2K configuration Tool",
+        "Assigned To":"Veeramanikandan"
+    },
+    {
+        "TestRunStatus":"PASSED",
         "ExecutionDate":"2025-11-11",
         "Document Key":"KCE-TSTRN-4002176",
         "Name":"EMM (NA) - Emergency stop switch in machine room",
@@ -9766,7 +9773,7 @@
     },
     {
         "TestRunStatus":"INPROGRESS",
-        "ExecutionDate":"2025-12-09",
+        "ExecutionDate":"2025-12-10",
         "Document Key":"KIE601-TSTRN-70808",
         "Name":"IOC Software downloading lower",
         "Assigned To":"VIGNESHWARAR"
@@ -12050,6 +12057,13 @@
         "TestRunStatus":"INPROGRESS",
         "ExecutionDate":"2025-12-09",
         "Document Key":"KCE-TSTRN-4007300",
+        "Name":"Group features - PRL and HEL parameters",
+        "Assigned To":"Kowsalya"
+    },
+    {
+        "TestRunStatus":"FAILED",
+        "ExecutionDate":"2025-12-10",
+        "Document Key":"KCE-TSTRN-4008709",
         "Name":"Group features - PRL and HEL parameters",
         "Assigned To":"Kowsalya"
     },
@@ -17333,7 +17347,7 @@
     },
     {
         "TestRunStatus":"FAILED",
-        "ExecutionDate":"2025-12-01",
+        "ExecutionDate":"2025-12-10",
         "Document Key":"KCE-TSTRN-4006675",
         "Name":"Rescue mode landing indication and 1449=2",
         "Assigned To":"Priyavalli"
@@ -17683,8 +17697,22 @@
     },
     {
         "TestRunStatus":"INPROGRESS",
+        "ExecutionDate":"2025-12-10",
+        "Document Key":"KCE-TSTRN-4008738",
+        "Name":"xDOP Multiple languages support",
+        "Assigned To":"Nithya Priya"
+    },
+    {
+        "TestRunStatus":"INPROGRESS",
         "ExecutionDate":"2025-12-09",
         "Document Key":"KCE-TSTRN-4007329",
+        "Name":"xDOP accent color customization",
+        "Assigned To":"Nithya Priya"
+    },
+    {
+        "TestRunStatus":"INPROGRESS",
+        "ExecutionDate":"2025-12-10",
+        "Document Key":"KCE-TSTRN-4008739",
         "Name":"xDOP accent color customization",
         "Assigned To":"Nithya Priya"
     },
@@ -17696,11 +17724,25 @@
         "Assigned To":"Nithya Priya"
     },
     {
+        "TestRunStatus":"INPROGRESS",
+        "ExecutionDate":"2025-12-10",
+        "Document Key":"KCE-TSTRN-4008745",
+        "Name":"xDOP Demo options",
+        "Assigned To":"Nithya Priya"
+    },
+    {
         "TestRunStatus":"PASSED",
         "ExecutionDate":"2025-11-27",
         "Document Key":"KCE-TSTRN-4005668",
         "Name":"xDOP Call giving",
         "Assigned To":"Vivek"
+    },
+    {
+        "TestRunStatus":"INPROGRESS",
+        "ExecutionDate":"2025-12-10",
+        "Document Key":"KCE-TSTRN-4008754",
+        "Name":"xDOP Fireman-mode ",
+        "Assigned To":"Nithya Priya"
     },
     {
         "TestRunStatus":"PASSED",

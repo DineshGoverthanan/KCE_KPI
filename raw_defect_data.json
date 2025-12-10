@@ -23505,5 +23505,177 @@
             "lastLockedDate": "2025-12-10T08:46:59.000+0000"
         },
         "type": "items"
+    },
+    {
+        "id": 28611320,
+        "documentKey": "KCE-SWBUG-14069",
+        "globalId": "GID-7580172",
+        "itemType": 154,
+        "project": 229,
+        "createdDate": "2025-12-10T10:34:49.000+0000",
+        "modifiedDate": "2025-12-10T10:34:49.000+0000",
+        "lastActivityDate": "2025-12-10T10:34:51.000+0000",
+        "createdBy": 5804,
+        "modifiedBy": 5804,
+        "fields": {
+            "documentKey": "KCE-SWBUG-14069",
+            "globalId": "GID-7580172",
+            "name": "KCE india Rescue mode LCD epsilon color 3 display doesnot show EBD mode",
+            "description": "<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\"><strong>Detailed Defect Description:</strong></span></span></p>\n\n<p><strong>Rescue Mode Display / LCD Epsilon Color 3 Display:</strong><br />\nThe LCD Epsilon Color 3 display does not show <strong>\u201cEBD MODE\u201d</strong> during Rescue Mode activation. Instead, it continues to display only the <strong>floor number</strong>.</p>\n\n<p>&nbsp;</p>\n\n<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\"><strong>Parameters:&nbsp;&nbsp;</strong></span></span></p>\n\n<p><span style=\"font-size:12pt\"><span style=\"font-family:Aptos,sans-serif\"><span style=\"font-size:11.0pt\">Tested &nbsp;with the following setup and configuration</span></span></span></p>\n\n<ul>\n\t<li><span style=\"font-size:12pt\"><span style=\"font-family:Aptos,sans-serif\"><span style=\"font-size:11.0pt\">ERD20 Connected </span></span></span></li>\n\t<li><span style=\"font-size:12pt\"><span style=\"font-family:Aptos,sans-serif\"><span style=\"font-size:11.0pt\">Cpuc <a href=\"https://eur02.safelinks.protection.outlook.com/?url=https%3A%2F%2Fkpackage.jfrog.io%2Fartifactory%2Flift-integration%2Frelease%2F17.0%2F17.0.0.108%2Fkce_lift_release_17.0.0.108.tar.gz&amp;data=05%7C02%7Cprakash.dhanasekaran%40kone.com%7Cada0a74515344d71476208de1adc49e1%7C2bb82c642eb143f78862fdc1d2333b50%7C0%7C0%7C638977730605575004%7CUnknown%7CTWFpbGZsb3d8eyJFbXB0eU1hcGkiOnRydWUsIlYiOiIwLjAuMDAwMCIsIlAiOiJXaW4zMiIsIkFOIjoiTWFpbCIsIldUIjoyfQ%3D%3D%7C0%7C%7C%7C&amp;sdata=AEJSF3HMZFou%2FGnxzspIW9rkGeIvu0sEChohyLVv2Dg%3D&amp;reserved=0\">17.0.0.108</a><u>(LD: 17.0.0.16, GCD: 17.0.0.29)</u></span></span></span></li>\n\t<li><span style=\"font-size:12pt\"><span style=\"font-family:Aptos,sans-serif\"><span style=\"font-size:11.0pt\">Landing display-LCD(Epsilon color 3 )Core SW 3.0.132&amp;configuration sw 2.39</span></span></span></li>\n</ul>\n\n<p><span style=\"font-size:12pt\"><span style=\"font-family:Aptos,sans-serif\"><u><span style=\"font-size:11.0pt\">Parameter:</span></u></span></span></p>\n\n<ul>\n\t<li><span style=\"font-size:12pt\"><span style=\"font-family:Aptos,sans-serif\"><span style=\"font-size:11.0pt\">1449=&nbsp;2 - Enable Landing indication (for EBD Mode)</span></span></span></li>\n\t<li><span style=\"font-size:12pt\"><span style=\"font-family:Aptos,sans-serif\"><span style=\"font-size:11.0pt\">SPI-279= 1 enabled</span></span></span></li>\n</ul>\n\n<p>&nbsp;</p>\n\n<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\"><strong>Group configuration: </strong></span></span></p>\n\n<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\">single elevator setup</span></span></p>\n\n<p>&nbsp;</p>\n\n<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\"><strong>Drive type:</strong></span></span></p>\n\n<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\">kdm40</span></span></p>\n\n<p>&nbsp;</p>\n\n<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\"><strong>Regression or new finding:</strong></span></span><br />\nnew</p>\n\n<p>&nbsp;</p>\n\n<p>&nbsp;</p>\n\n<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\"><strong>Test case Name / Feature name:</strong></span></span></p>\n\n<p><a href=\"https://konerqm.jamacloud.com/perspective.req#/testRuns/28505226?projectId=229\">Rescue mode landing indication and 1449=2 - Test Runs - Jama Software</a></p>\n\n<p>&nbsp;</p>\n\n<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\"><strong>Test step number:</strong></span></span></p>\n\n<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\">1</span></span></p>\n\n<p>&nbsp;</p>\n\n<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\"><strong>Description of the test case (Detailed Scenario)&nbsp;</strong></span></span></p>\n\n<p><strong>Given:</strong></p>\n\n<p>Check the Rescue mode landing indications during&nbsp;elevator in EBD mode.</p>\n\n<p>&nbsp;</p>\n\n<p><strong>When:</strong></p>\n\n<p>Elevator while running make power brake.</p>\n\n<p>&nbsp;</p>\n\n<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\"><strong>Expected behavior:&nbsp;&nbsp;</strong></span></span></p>\n\n<p>&nbsp;</p>\n\n<p>When parameter 1449 is set to '2'.</p>\n\n<p>Landing display shows as \"EBD mode\" until EBD shutdown.&nbsp; &nbsp; &nbsp; &nbsp;i.e&nbsp; \"New mode indication\" supported displays + latest software (NMI ID-18 enabled)&nbsp;</p>\n\n<p>&nbsp;</p>\n\n<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\"><strong>Actual behavior:</strong></span></span></p>\n\n<ul>\n\t<li>\n\t<p>Display does <strong>not</strong> show \u201cEBD MODE.\u201d</p>\n\t</li>\n\t<li>\n\t<p>Display continues to show only the <strong>floor number</strong>.</p>\n\t</li>\n\t<li>\n\t<p>Issue occurs <strong>consistently</strong> whenever Rescue Mode is entered.</p>\n\t</li>\n</ul>\n\n<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\"><strong>Recovery:&nbsp;</strong></span></span></p>\n\n<p><span style=\"font-family:Calibri,sans-serif\"><span style=\"font-size:14.6667px\">no</span></span></p>\n\n<p>&nbsp;</p>\n\n<p>&nbsp;</p>\n",
+            "status": 1081,
+            "BUG_component$154": 1531,
+            "createdBy": 5804,
+            "release": 2396,
+            "BUG_foundOnDate$154": "2025-11-02",
+            "priority": 2410,
+            "BUG_severity$154": 1109,
+            "BUG_category$154": 1422,
+            "BUG_testLevel$154": 1129,
+            "BUG_howFound$154": 2409,
+            "BUG_whereFound$154": 1137,
+            "BUG_probability_on_field$154": 2396,
+            "root_cause_category$154": 2512,
+            "BUG_testCaseUpdated$154": 1198,
+            "BUG_V1_project$154": 1431
+        },
+        "resources": {
+            "self": {
+                "allowed": [
+                    "GET",
+                    "PUT",
+                    "PATCH",
+                    "DELETE"
+                ]
+            }
+        },
+        "version": 1,
+        "location": {
+            "sortOrder": 6565,
+            "globalSortOrder": 1665891992,
+            "sequence": "17.6566",
+            "parent": {
+                "item": 83266
+            }
+        },
+        "lock": {
+            "locked": false
+        },
+        "type": "items"
+    },
+    {
+        "id": 28611423,
+        "documentKey": "KCE-SWBUG-14071",
+        "globalId": "GID-7580205",
+        "itemType": 154,
+        "project": 229,
+        "createdDate": "2025-12-10T11:49:37.000+0000",
+        "modifiedDate": "2025-12-10T11:49:37.000+0000",
+        "lastActivityDate": "2025-12-10T11:49:37.000+0000",
+        "createdBy": 5995,
+        "modifiedBy": 5995,
+        "fields": {
+            "documentKey": "KCE-SWBUG-14071",
+            "globalId": "GID-7580205",
+            "name": "17.0 - KCEDCS - OEO EN 81-76 Indication stuck in Mondrian display when Driver evacuation is deactivated.",
+            "description": "<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\"><strong>Detailed Defect Description:</strong></span></span></p>\n\n<p><span style=\"font-family:Calibri, sans-serif\"><span style=\"font-size:14.6667px\">The indication stuck in a Mondrian display when driver evacuation is deactivated in OPT or FOB G28</span></span></p>\n\n<p>&nbsp;</p>\n\n<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\"><strong>Parameters:&nbsp;&nbsp;</strong></span></span></p>\n\n<p><span style=\"font-family:Calibri, sans-serif\"><span style=\"font-size:14.6667px\">OEO DIP 20</span></span></p>\n\n<p><span style=\"font-family:Calibri, sans-serif\"><span style=\"font-size:14.6667px\">1582 3</span></span></p>\n\n<p><span style=\"font-family:Calibri, sans-serif\"><span style=\"font-size:14.6667px\">1594 1&nbsp;</span></span></p>\n\n<p>&nbsp;</p>\n\n<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\"><strong>Group configuration: </strong></span></span></p>\n\n<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\">Fouplex</span></span></p>\n\n<p>&nbsp;</p>\n\n<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\"><strong>Drive type:</strong></span></span></p>\n\n<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\">KDL</span></span></p>\n\n<p>&nbsp;</p>\n\n<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\"><strong>Regression or new finding:</strong></span></span></p>\n\n<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\">New</span></span></p>\n\n<p>&nbsp;</p>\n\n<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\"><strong>Test case Name / Feature name:</strong></span></span></p>\n\n<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\">ad-hoc defect</span></span></p>\n\n<p>&nbsp;</p>\n\n<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\"><strong>Test step number:</strong></span></span></p>\n\n<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\">\u201cad-hoc scenario\u201d</span></span></p>\n\n<p>&nbsp;</p>\n\n<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\"><strong>Description of the test case (Detailed Scenario)&nbsp;</strong></span></span></p>\n\n<ul>\n\t<li>Lift is in normal mode</li>\n\t<li>Activate GERF input via OPT or FOBG28</li>\n\t<li>Lift drives GERF floor changed to phase 2</li>\n\t<li>Activate Driver input via OPT</li>\n\t<li>Deactivate the Driver input and GERF inputs</li>\n\t<li>DG and Promanager lift indication back to normal</li>\n\t<li>Mondrian display stuck in Driver evacuation indication.</li>\n</ul>\n\n<p><strong>Stuck in below indication:</strong></p>\n\n<p><img alt=\"\" height=\"387\" src=\"https://konerqm.jamacloud.com/attachment/234294/image-P6gi8ao3z0.png\" width=\"237\" /></p>\n\n<p>&nbsp;</p>\n\n<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\"><strong>Expected behavior:&nbsp;&nbsp;</strong></span></span></p>\n\n<p><span style=\"font-family:Calibri, sans-serif\"><span style=\"font-size:14.6667px\">The display should become normal</span></span></p>\n\n<p>&nbsp;</p>\n\n<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\"><strong>Actual behavior:</strong></span></span></p>\n\n<p><span style=\"font-family:Calibri, sans-serif\"><span style=\"font-size:14.6667px\">The Driver evacuation indication stuck for a long time</span></span></p>\n\n<p>&nbsp;</p>\n\n<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\"><strong>Recovery:&nbsp;</strong></span></span></p>\n\n<p><span style=\"font-family:Calibri, sans-serif\"><span style=\"font-size:14.6667px\">Rollcall</span></span></p>\n\n<p>&nbsp;</p>\n\n<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\"><strong>Log attached Information:</strong></span></span></p>\n\n<p><span style=\"font-family:Calibri, sans-serif\"><span style=\"font-size:14.6667px\">Node debug ,Event Traffic ,video file</span></span></p>\n\n<p>&nbsp;</p>\n\n<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\">Note: Once defect is logged, attachments can be done by editing the defect (use compressed zip folder format)</span></span></p>\n\n<p>&nbsp;</p>\n\n<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\"><strong>Value-added information:&nbsp;</strong></span></span></p>\n\n<p><span style=\"font-family:Calibri, sans-serif\"><span style=\"font-size:14.6667px\">Mondrian Display version \u200b</span></span>2.0.0.1</p>\n\n<p>&nbsp;</p>\n\n<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\"><strong>Test Sequence history:&nbsp;</strong></span></span></p>\n\n<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\">1: was failing scenario passing earlier</span></span></p>\n\n<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\">2. what was SW level when this was passing last time</span></span></p>\n\n<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\">3. any changes in test setup or test scenario between passed and failed run</span></span></p>\n\n<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\">4. any changes in tested system configuration between passed and failed run</span></span></p>\n\n<p>&nbsp;</p>\n\n<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\"><strong>Requirement related to the defect:</strong></span></span></p>\n\n<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\">(e.g. URL link to requirement which is related to the defect)</span></span></p>\n",
+            "status": 1081,
+            "BUG_component$154": 1531,
+            "BUG_subcomponent$154": "CPUc",
+            "createdBy": 5995,
+            "release": 2396,
+            "BUG_foundInBuild$154": "17.0.0.116(LD: 17.0.0.20, GCD: 17.0.1.1)",
+            "BUG_foundOnDate$154": "2025-12-09",
+            "priority": 2410,
+            "BUG_severity$154": 1109,
+            "BUG_category$154": 1422,
+            "BUG_testLevel$154": 1129,
+            "BUG_howFound$154": 1092,
+            "BUG_whereFound$154": 1137,
+            "BUG_probability_on_field$154": 2398,
+            "root_cause_category$154": 2512,
+            "BUG_testCaseUpdated$154": 1198,
+            "BUG_V1_project$154": 1431
+        },
+        "resources": {
+            "self": {
+                "allowed": [
+                    "GET",
+                    "PUT",
+                    "PATCH",
+                    "DELETE"
+                ]
+            }
+        },
+        "version": 1,
+        "location": {
+            "sortOrder": 6567,
+            "globalSortOrder": 1665892013,
+            "sequence": "17.6568",
+            "parent": {
+                "item": 83266
+            }
+        },
+        "lock": {
+            "locked": false
+        },
+        "type": "items"
+    },
+    {
+        "id": 28611445,
+        "documentKey": "KCE-SWBUG-14072",
+        "globalId": "GID-7580215",
+        "itemType": 154,
+        "project": 229,
+        "createdDate": "2025-12-10T11:53:17.000+0000",
+        "modifiedDate": "2025-12-10T11:53:17.000+0000",
+        "lastActivityDate": "2025-12-10T11:55:28.000+0000",
+        "createdBy": 6096,
+        "modifiedBy": 6096,
+        "fields": {
+            "documentKey": "KCE-SWBUG-14072",
+            "globalId": "GID-7580215",
+            "name": "17.0 - HAN - When HAN is activated from B side , HAN Sequence performs at A Side",
+            "description": "<p><em><strong>Parameter:</strong></em><br />\n<img alt=\"\" height=\"163\" src=\"https://konerqm.jamacloud.com/attachment/234216/image-qjwWJ6obcO.png\" width=\"411\" /></p>\n\n<p>&nbsp;</p>\n\n<p><br />\n<em><strong>\u200b\u200b\u200b\u200b\u200b\u200bDescription:</strong></em></p>\n\n<ul>\n\t<li>LD : 17.0.0.20</li>\n\t<li>KNSMUL : 0.0.0.50</li>\n\t<li>Drive : PDX</li>\n\t<li>Shaft : 72&nbsp;Floor Staggered, Dummy &amp; TTC setup&nbsp;</li>\n\t<li>1096 - 0 (Selective)</li>\n\t<li>A &amp; B side KNSMUL - Non-Conventional (KCOP)</li>\n</ul>\n\n<p>&nbsp;</p>\n\n<ul>\n\t<li>Elevator in Normal Mode (Vacant State)</li>\n\t<li>COP - TSCOP (Main &amp; AUX)</li>\n</ul>\n\n<p><em><strong>Actual Scenario:</strong></em></p>\n\n<ul>\n\t<li>HAN from B side KNSMUL-KCOP Pressed&nbsp;</li>\n\t<li>Sequence starts &amp; Doors are Opened in A side\u200b\u200b\u200b</li>\n</ul>\n\n<p>&nbsp;</p>\n\n<p><em><strong>Expected Scenario:</strong></em></p>\n\n<ul>\n\t<li>Since HAN Button is pressed from B Side MUL</li>\n\t<li>B side Doors should be Left Opened and should follow HAN Sequence</li>\n</ul>\n\n<p>&nbsp;</p>\n\n<p><em><strong>NOTE:</strong></em></p>\n\n<ul>\n\t<li>When HAN is activated while B side doors are closing, HAN Mode Activates in B side</li>\n\t<li>This issue is discussed with Dhinakaran Vasanth</li>\n\t<li>Logs have been attached</li>\n</ul>\n",
+            "status": 1081,
+            "BUG_component$154": 1291,
+            "createdBy": 6096,
+            "assignedTo": 2040,
+            "release": 2396,
+            "BUG_foundInBuild$154": "KCE 17.0.0.116(LD: 17.0.0.20, GCD: 17.0.1.1), WELM Appl: 0.0.0.92, WELM Prot: 0.0.0.17",
+            "BUG_foundOnDate$154": "2025-12-09",
+            "priority": 2410,
+            "BUG_severity$154": 1109,
+            "BUG_category$154": 1428,
+            "BUG_testLevel$154": 1129,
+            "BUG_howFound$154": 1092,
+            "BUG_whereFound$154": 1137,
+            "BUG_probability_on_field$154": 2396,
+            "root_cause_category$154": 2512,
+            "BUG_testCaseUpdated$154": 1198,
+            "BUG_V1_project$154": 1431
+        },
+        "resources": {
+            "self": {
+                "allowed": [
+                    "GET",
+                    "PUT",
+                    "PATCH",
+                    "DELETE"
+                ]
+            }
+        },
+        "version": 1,
+        "location": {
+            "sortOrder": 6568,
+            "globalSortOrder": 1665892016,
+            "sequence": "17.6569",
+            "parent": {
+                "item": 83266
+            }
+        },
+        "lock": {
+            "locked": false
+        },
+        "type": "items"
     }
 ]

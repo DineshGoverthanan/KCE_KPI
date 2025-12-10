@@ -376,3 +376,6 @@ KCE-SWBUG-7139,17.0 - KDX - Fault #3220 has no Data Description to it,Suryanaray
 KCE-SWBUG-10017,17.0 - KCEDCS - OEO EN81-76 The DG displays an OSS indication at the L27 gap whenever the inputs are toggled (activated or deactivated),Vivek,"17.0.0.116(LD: 17.0.0.20, GCD: 17.0.1.1 GCH: 17.0.1.1)",2025-12-07
 KCE-SWBUG-14062,17.0 - KDH - Fault #6301's Data 1 & 2 Description is missing,Suryanarayanan,,2025-12-08
 KCE-SWBUG-14063,17.0 - KDX - Typo in Fault #3020,Suryanarayanan,,2025-12-08
+KCE-SWBUG-14069,KCE india Rescue mode LCD epsilon color 3 display doesnot show EBD mode,Priyavalli,,2025-11-02
+KCE-SWBUG-14071,17.0 - KCEDCS - OEO EN 81-76 Indication stuck in Mondrian display when Driver evacuation is deactivated.,Vivek,"17.0.0.116(LD: 17.0.0.20, GCD: 17.0.1.1)",2025-12-09
+KCE-SWBUG-14072,"17.0 - HAN - When HAN is activated from B side , HAN Sequence performs at A Side",Suryanarayanan,"KCE 17.0.0.116(LD: 17.0.0.20, GCD: 17.0.1.1), WELM Appl: 0.0.0.92, WELM Prot: 0.0.0.17",2025-12-09
