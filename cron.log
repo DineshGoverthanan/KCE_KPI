@@ -7617,3 +7617,46 @@ Data exported to kp_data.xlsx
  M raw_testrun_data.csv
  M raw_testrun_data.json
  M testrun_data.json
+---- Staged files (cached) ----
+cron.log
+defect_data.csv
+filtered_defect_data.csv
+filtered_defect_data.json
+filtered_testrun_data.csv
+filtered_testrun_data.json
+kp_data.csv
+kp_data.xlsx
+raw_defect_data.csv
+raw_defect_data.json
+raw_testrun_data.csv
+raw_testrun_data.json
+testrun_data.json
+[main fb0fd1f] Auto update on 2025-12-10 07:38:11
+ 13 files changed, 1570 insertions(+), 101 deletions(-)
+ rewrite kp_data.xlsx (95%)
+✅ Commit created.
+To github.com:DineshGoverthanan/KCE_KPI.git
+   f59ad19..fb0fd1f  main -> main
+✅ Changes pushed to origin/main.
+Run completed at: 2025-12-10 07:38:21
+============================================================
+============================================================
+Script started at: 2025-12-10 09:30:01
+On branch: main
+500 Server error. 
+Traceback (most recent call last):
+  File "/home/rellab/KCE_KPI/kpi.py", line 81, in <module>
+    testrun_data = client.get_filter_results(Testrun_filter_id)
+  File "/home/rellab/KCE_KPI/venv/lib/python3.10/site-packages/py_jama_rest_client/client.py", line 162, in get_filter_results
+    filter_results = self.__get_all(resource_path, params=params, allowed_results_per_page=allowed_results_per_page)
+  File "/home/rellab/KCE_KPI/venv/lib/python3.10/site-packages/py_jama_rest_client/client.py", line 1425, in __get_all
+    page_response = self.__get_page(resource, start_index, params=params, **kwargs)
+  File "/home/rellab/KCE_KPI/venv/lib/python3.10/site-packages/py_jama_rest_client/client.py", line 1454, in __get_page
+    JamaClient.__handle_response_status(response)
+  File "/home/rellab/KCE_KPI/venv/lib/python3.10/site-packages/py_jama_rest_client/client.py", line 1515, in __handle_response_status
+    raise APIServerException("{} Server Error.".format(status),
+py_jama_rest_client.client.APIServerException: 500 Server Error.
+❌ Python script failed at: 2025-12-10 09:32:41
+---- git status (before add) ----
+## main...origin/main
+ M cron.log
