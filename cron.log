@@ -7660,3 +7660,40 @@ py_jama_rest_client.client.APIServerException: 500 Server Error.
 ---- git status (before add) ----
 ## main...origin/main
  M cron.log
+---- Staged files (cached) ----
+cron.log
+[main 5486902] Auto update on 2025-12-10 09:32:41
+ 1 file changed, 43 insertions(+)
+✅ Commit created.
+To github.com:DineshGoverthanan/KCE_KPI.git
+   fb0fd1f..5486902  main -> main
+✅ Changes pushed to origin/main.
+Run completed at: 2025-12-10 09:32:44
+============================================================
+============================================================
+Script started at: 2025-12-10 11:30:01
+On branch: main
+Fetched 3059 test run items
+Fetched 384 defect items
+Raw data saved (JSON & CSV)
+Filtered test run data: 2613 items (removed 446 LCE items)
+Filtered defect data: 377 items (removed 7 LCE items)
+Filtered data saved (JSON & CSV)
+Error fetching user info for ID 6395: 'data'
+Data exported to kp_data.csv, defect_data.csv, testrun_data.json
+Data exported to kp_data.xlsx
+✅ Python script finished successfully at: 2025-12-10 11:37:15
+---- git status (before add) ----
+## main...origin/main
+ M cron.log
+ M filtered_defect_data.csv
+ M filtered_defect_data.json
+ M filtered_testrun_data.csv
+ M filtered_testrun_data.json
+ M kp_data.csv
+ M kp_data.xlsx
+ M raw_defect_data.csv
+ M raw_defect_data.json
+ M raw_testrun_data.csv
+ M raw_testrun_data.json
+ M testrun_data.json

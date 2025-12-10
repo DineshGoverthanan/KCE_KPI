@@ -1371,16 +1371,16 @@
         "itemType": 154,
         "project": 417,
         "createdDate": "2025-07-08T12:15:34.000+0000",
-        "modifiedDate": "2025-11-27T04:21:56.000+0000",
-        "lastActivityDate": "2025-11-27T04:21:56.000+0000",
+        "modifiedDate": "2025-12-10T04:32:34.000+0000",
+        "lastActivityDate": "2025-12-10T04:32:34.000+0000",
         "createdBy": 5932,
-        "modifiedBy": 2925,
+        "modifiedBy": 2001,
         "fields": {
             "documentKey": "KIE601-SWBUG-2566",
             "globalId": "GID-7275997",
             "name": "IEX \u2013 During testing, the digital lighting device was powered off after a long period of time",
             "description": "<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\"><strong>Detailed Defect Description:</strong></span></span></p>\n\n<p>IEX \u2013 During testing, the digital lighting device was powered off after a long time.</p>\n\n<p>&nbsp;</p>\n\n<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\"><strong>Parameters:&nbsp;&nbsp;</strong></span></span></p>\n\n<p><strong>PC1-1208_1</strong> (Digital Lighting Optional nodes supervision).</p>\n\n<p>&nbsp;</p>\n\n<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\"><strong>Drive type:</strong></span></span></p>\n\n<p>Monarch &amp; Danfoss</p>\n\n<p>&nbsp;</p>\n\n<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\"><strong>Regression or new finding:</strong></span></span></p>\n\n<p>Adhoc</p>\n\n<p>&nbsp;</p>\n\n<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\"><strong>Description (Detailed Scenario) :&nbsp;</strong></span></span></p>\n\n<ol>\n\t<li>Select parameter <strong>PC1-1208_1</strong> (Digital Lighting Optional nodes supervision).</li>\n\t<li>Connect the digital lighting device to the <strong>LCB/IOC-Lower RS485 network</strong>.</li>\n\t<li>While testing the digital lighting device for long time (4 hours), <strong>Fault code 353</strong> was observed in the FUI.</li>\n\t<li>At that time, the digital lighting device was powered<strong>&nbsp;off</strong>.</li>\n</ol>\n\n<p>&nbsp;</p>\n\n<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\"><strong>Expected behavior:&nbsp;&nbsp;</strong></span></span></p>\n\n<p><span style=\"font-family:Calibri, sans-serif\"><span style=\"font-size:14.6667px\">While testing digital lighting device should not powered off after a long time.</span></span></p>\n\n<p>&nbsp;</p>\n\n<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\"><strong>Actual behavior:</strong></span></span></p>\n\n<p><span style=\"font-family:Calibri,sans-serif\"><span style=\"font-size:14.6667px\">While testing digital lighting device powered off after a long time.</span></span></p>\n\n<p>&nbsp;</p>\n\n<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\"><strong>Recovery:&nbsp;</strong></span></span></p>\n\n<p>After 2-3 Hours, connect the digital lighting device, it get powered on.</p>\n\n<p>&nbsp;</p>\n\n<p>&nbsp;</p>\n\n<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\"><strong>Value-added information:&nbsp;</strong></span></span></p>\n\n<p>SW-TR 1.0-T12.12</p>\n",
-            "status": 1082,
+            "status": 1084,
             "BUG_component$154": 1561,
             "BUG_subcomponent$154": "IEX",
             "createdBy": 5932,
@@ -1396,7 +1396,7 @@
             "BUG_probability_on_field$154": 2398,
             "root_cause_category$154": 2512,
             "BUG_testCaseUpdated$154": 1198,
-            "BUG_RD_comments$154": "<p>[Visu]: 10-Jul-2025</p>\n\n<p>&nbsp;</p>\n\n<p>Fix to be done supplier side, observation shared to supplier via CRD team.&nbsp;</p>\n\n<p>&nbsp;</p>\n\n<p>[Visu]: 17-Jul-2025</p>\n\n<p>Not critical with IEX SW release point of view, pilot can be managed by CRD team.&nbsp;</p>\n\n<p>&nbsp;</p>\n\n<p>[Visu]:&nbsp;10-Nov-2025<br />\nDefect Review meeting<br />\nParticipants: Visu, Banu</p>\n\n<p>&nbsp;</p>\n\n<p>Status to be checked with Vincent</p>\n\n<p>&nbsp;</p>\n\n<p>[Visu]:&nbsp;14-Nov-2025</p>\n\n<p>Observed only in particular Digital lighting setup.&nbsp;</p>\n\n<p>&nbsp;</p>\n\n<p>We can this Reject this defect.&nbsp;</p>\n\n<p>&nbsp;</p>\n\n<p>Latest&nbsp;Digital lighting setup to be received from CRD</p>\n\n<p>&nbsp;</p>\n\n<p>Sev to be changed to 3</p>\n\n<p>&nbsp;</p>\n\n<p>[Visu]: 14-Nov-2025</p>\n\n<p>Digital light HW issue</p>\n\n<p>&nbsp;</p>\n\n<p>[Visu]: 14-Nov-2025</p>\n\n<p>This defect assigned&nbsp; HW team</p>\n\n<p>&nbsp;</p>\n\n<p>[Pramodh] 27-Nov-2025</p>\n\n<p>&nbsp;</p>\n\n<p>Verified the digital lighting functionality with TR1.0t12.6 and R2.0.2 software versions. Continuous run testing was performed for more than a week using the newly received digital lighting hardware.</p>\n\n<p>All functionalities are working fine, and no issues were observed. Hence, the defect can be closed/rejected&nbsp;</p>\n\n<p>&nbsp;</p>\n\n<p>&nbsp;</p>",
+            "BUG_RD_comments$154": "<p>[Visu]: 10-Jul-2025</p>\n\n<p>&nbsp;</p>\n\n<p>Fix to be done supplier side, observation shared to supplier via CRD team.&nbsp;</p>\n\n<p>&nbsp;</p>\n\n<p>[Visu]: 17-Jul-2025</p>\n\n<p>Not critical with IEX SW release point of view, pilot can be managed by CRD team.&nbsp;</p>\n\n<p>&nbsp;</p>\n\n<p>[Visu]:&nbsp;10-Nov-2025<br />\nDefect Review meeting<br />\nParticipants: Visu, Banu</p>\n\n<p>&nbsp;</p>\n\n<p>Status to be checked with Vincent</p>\n\n<p>&nbsp;</p>\n\n<p>[Visu]:&nbsp;14-Nov-2025</p>\n\n<p>Observed only in particular Digital lighting setup.&nbsp;</p>\n\n<p>&nbsp;</p>\n\n<p>We can this Reject this defect.&nbsp;</p>\n\n<p>&nbsp;</p>\n\n<p>Latest&nbsp;Digital lighting setup to be received from CRD</p>\n\n<p>&nbsp;</p>\n\n<p>Sev to be changed to 3</p>\n\n<p>&nbsp;</p>\n\n<p>[Visu]: 14-Nov-2025</p>\n\n<p>Digital light HW issue</p>\n\n<p>&nbsp;</p>\n\n<p>[Visu]: 14-Nov-2025</p>\n\n<p>This defect assigned&nbsp; HW team</p>\n\n<p>&nbsp;</p>\n\n<p>[Pramodh] 27-Nov-2025</p>\n\n<p>&nbsp;</p>\n\n<p>Verified the digital lighting functionality with TR1.0t12.6 and R2.0.2 software versions. Continuous run testing was performed for more than a week using the newly received digital lighting hardware.</p>\n\n<p>All functionalities are working fine, and no issues were observed. Hence, the defect can be closed/rejected&nbsp;</p>\n\n<p>&nbsp;</p>\n\n<p>[Visu]: 10-Dec-2025</p>\n\n<p>Rejected</p>\n\n<p>&nbsp;</p>\n\n<p>&nbsp;</p>",
             "BUG_V1_project$154": 1431
         },
         "resources": {
@@ -1406,7 +1406,7 @@
                 ]
             }
         },
-        "version": 9,
+        "version": 10,
         "location": {
             "sortOrder": 1147,
             "globalSortOrder": 1294588980,
@@ -1417,7 +1417,7 @@
         },
         "lock": {
             "locked": false,
-            "lastLockedDate": "2025-11-27T04:21:57.000+0000"
+            "lastLockedDate": "2025-12-10T04:32:35.000+0000"
         },
         "type": "items"
     },
@@ -3235,16 +3235,16 @@
         "itemType": 154,
         "project": 417,
         "createdDate": "2025-10-15T07:51:34.000+0000",
-        "modifiedDate": "2025-12-03T10:24:18.000+0000",
-        "lastActivityDate": "2025-12-03T10:24:18.000+0000",
+        "modifiedDate": "2025-12-10T04:40:56.000+0000",
+        "lastActivityDate": "2025-12-10T04:40:56.000+0000",
         "createdBy": 6117,
-        "modifiedBy": 2001,
+        "modifiedBy": 6424,
         "fields": {
             "documentKey": "KIE601-SWBUG-2694",
             "globalId": "GID-7459995",
             "name": "IEX - FC 302 is cleared when Factory mode is enabled, Requirement says, FC 302 must not be cleared. Need to change JAMA requirement.",
             "description": "<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\"><strong>Detailed Defect Description:</strong></span></span></p>\n\n<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\">IEX - FC 302 is cleared when Factory mode is enabled, Requirement says, FC 302 must not be cleared. Need to change JAMA requirement.</span></span></p>\n\n<p>&nbsp;</p>\n\n<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\"><strong>Parameters:&nbsp;&nbsp;</strong></span></span></p>\n\n<p><span style=\"font-family:Calibri, sans-serif\"><span style=\"font-size:14.6667px\">PC4_4200_1</span></span></p>\n\n<p><span style=\"font-family:Calibri, sans-serif\"><span style=\"font-size:14.6667px\">PC4_4201_1</span></span></p>\n\n<p>&nbsp;</p>\n\n<p>&nbsp;</p>\n\n<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\"><strong>Drive type:</strong></span></span></p>\n\n<p><span style=\"font-family:Calibri, sans-serif\"><span style=\"font-size:14.6667px\">Monarch</span></span></p>\n\n<p>&nbsp;</p>\n\n<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\"><strong>Regression or new finding:</strong></span></span></p>\n\n<p><span style=\"font-family:Calibri, sans-serif\"><span style=\"font-size:14.6667px\">New finding</span></span></p>\n\n<p>&nbsp;</p>\n\n<p>&nbsp;</p>\n\n<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\"><strong>Test case Name / Feature name:</strong></span></span></p>\n\n<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\">Factory mode</span></span></p>\n\n<p>&nbsp;</p>\n\n<p>&nbsp;</p>\n\n<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\"><strong>Test step number:</strong></span></span></p>\n\n<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\">13</span></span></p>\n\n<p>&nbsp;</p>\n\n<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\"><strong>Description of the test case (Detailed Scenario)</strong></span></span></p>\n\n<ol>\n\t<li><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\">Escalator is stopped with FC 302</span></span></li>\n\t<li><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\">Now enable factory mode</span></span></li>\n\t<li><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\">FC 302 gets cleared</span></span></li>\n\t<li><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\">But the requirement says FC 302 must not be cleared</span></span></li>\n\t<li><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\">need to change the requirement</span></span></li>\n</ol>\n\n<p>&nbsp;</p>\n\n<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\"><strong>Expected behavior:</strong></span></span></p>\n\n<p>NA</p>\n\n<p>&nbsp;</p>\n\n<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\"><strong>Actual behavior:</strong></span></span></p>\n\n<p><span style=\"font-family:Calibri, sans-serif\"><span style=\"font-size:14.6667px\">NA</span></span></p>\n",
-            "status": 1085,
+            "status": 1086,
             "BUG_component$154": 1561,
             "BUG_subcomponent$154": "IEX",
             "createdBy": 6117,
@@ -3253,6 +3253,8 @@
             "BUG_foundOnDate$154": "2025-10-14",
             "BUG_plannedRelease$154": 2274,
             "BUG_fixedInRelease$154": 2550,
+            "BUG_closedInRelease$154": 2502,
+            "BUG_closingDate$154": "2025-12-09",
             "priority": 2410,
             "BUG_severity$154": 1111,
             "BUG_category$154": 1422,
@@ -3263,7 +3265,7 @@
             "root_cause_category$154": 2515,
             "BUG_rootCause$154": "<p>Root cause:</p>\n\n<p>Documentation typo. In Jama wrongly mentioned. It is corrected in Jama now.</p>",
             "BUG_testCaseUpdated$154": 1198,
-            "BUG_RD_comments$154": "<p>[Satish]: 24-Oct-2025</p>\n\n<p>Specification has been updated. No code changes.</p>\n\n<p>&nbsp;</p>\n\n<p>This defect can be checked in R3.0.1.4 / R 3.0.2</p>\n\n<p>&nbsp;</p>\n\n<p>[Visu]: 16-Nov-2025<br />\nThis defect is fixed in HD R 3.0.1.4</p>\n\n<p>&nbsp;</p>\n\n<p>[Augustine]:</p>\n\n<p>This is verified in JAMA and found ok.</p>\n\n<p>&nbsp;</p>",
+            "BUG_RD_comments$154": "<p>[Satish]: 24-Oct-2025</p>\n\n<p>Specification has been updated. No code changes.</p>\n\n<p>&nbsp;</p>\n\n<p>This defect can be checked in R3.0.1.4 / R 3.0.2</p>\n\n<p>&nbsp;</p>\n\n<p>[Visu]: 16-Nov-2025<br />\nThis defect is fixed in HD R 3.0.1.4</p>\n\n<p>&nbsp;</p>\n\n<p>[Augustine]:</p>\n\n<p>This is verified in JAMA and found ok.<br />\n<br />\n&nbsp;</p>\n\n<p>[Shafi]:12Dec-2025<br />\nI Have verified in spec&nbsp;<a href=\"https://konerqm.jamacloud.com/perspective.req?docId=15256362&amp;projectId=417\">KIE601-SPEC-3072</a></p>\n\n<p>This is verified in JAMA and found ok.</p>\n\n<p>&nbsp;</p>",
             "BUG_V1_project$154": 1431
         },
         "resources": {
@@ -3273,7 +3275,7 @@
                 ]
             }
         },
-        "version": 9,
+        "version": 10,
         "location": {
             "sortOrder": 1274,
             "globalSortOrder": 1307869497,
@@ -3284,7 +3286,7 @@
         },
         "lock": {
             "locked": false,
-            "lastLockedDate": "2025-12-03T10:24:19.000+0000"
+            "lastLockedDate": "2025-12-10T04:40:57.000+0000"
         },
         "type": "items"
     },
@@ -4678,19 +4680,20 @@
         "itemType": 154,
         "project": 417,
         "createdDate": "2025-12-09T13:24:02.000+0000",
-        "modifiedDate": "2025-12-09T13:25:05.000+0000",
-        "lastActivityDate": "2025-12-09T13:25:05.000+0000",
+        "modifiedDate": "2025-12-10T03:48:19.000+0000",
+        "lastActivityDate": "2025-12-10T03:48:19.000+0000",
         "createdBy": 5932,
-        "modifiedBy": 5932,
+        "modifiedBy": 2001,
         "fields": {
             "documentKey": "KIE601-SWBUG-2815",
             "globalId": "GID-7577179",
             "name": "IEX-When parameter set in FUI, AMC Tool Fails to update Escalator Parameter.",
             "description": "<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\"><strong>Detailed Defect Description:</strong></span></span></p>\n\n<p>IEX-When parameter set in FUI, AMC Tool Fails to update Escalator Parameter.</p>\n\n<p>&nbsp;</p>\n\n<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\"><strong>Parameters:&nbsp;&nbsp;</strong></span></span></p>\n\n<p>-</p>\n\n<p>&nbsp;</p>\n\n<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\"><strong>Group configuration: </strong></span></span></p>\n\n<p><span style=\"font-family:Calibri,sans-serif\"><span style=\"font-size:14.6667px\">Single escalator setup</span></span></p>\n\n<p>&nbsp;</p>\n\n<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\"><strong>Drive type:</strong></span></span></p>\n\n<p><span style=\"font-family:Calibri,sans-serif\"><span style=\"font-size:14.6667px\">Monarch,Danfoss</span></span></p>\n\n<p>&nbsp;</p>\n\n<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\"><strong>Regression or new finding:</strong></span></span></p>\n\n<p>Adhoc-New finding</p>\n\n<p>&nbsp;</p>\n\n<p>&nbsp;</p>\n\n<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\"><strong>Description of the test case (Detailed Scenario)&nbsp;</strong></span></span></p>\n\n<p>1.The AMC is connected with CPU.</p>\n\n<p>2.Set parameter PC1_1103_4 to PC1_1103_1 in the FUI.</p>\n\n<p>3.In the AMC tool, the escalator parameter for PC1_1103 is checked.</p>\n\n<p>4.The escalator parameter in AMC displays PC1_1103_4 instead of the updated value.</p>\n\n<p>5.After quitting and reopening the AMC tool, the escalator parameter updates correctly to PC1_1103_1.</p>\n\n<p>&nbsp;</p>\n\n<p><strong><span style=\"background-color:#f39c12\">Note: This behavior occurs for all parameters.</span></strong></p>\n\n<p>&nbsp;</p>\n\n<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\"><strong>Expected behavior:&nbsp;&nbsp;</strong></span></span></p>\n\n<p>The AMC escalator parameter should immediately display the updated value PC1_1103_1 after it is set in the FUI.</p>\n\n<p>&nbsp;</p>\n\n<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\"><strong>Actual behavior:</strong></span></span></p>\n\n<p>The AMC escalator parameter initially shows PC1_1103_4.</p>\n\n<p>&nbsp;</p>\n\n<p>Only after quitting and reopening the AMC tool does the escalator parameter update to PC1_1103_1.</p>\n\n<p>&nbsp;</p>\n\n<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\"><strong>Recovery:&nbsp;</strong></span></span></p>\n\n<p><span style=\"font-family:Calibri,sans-serif\"><span style=\"font-size:14.6667px\">Quit and Re-open the application</span></span>.</p>\n\n<p>&nbsp;</p>\n\n<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\"><strong>Value-added information:&nbsp;</strong></span></span></p>\n\n<p>IEX SW-R 2.0.3</p>\n\n<p>AMC SW-4.6.250.7156</p>\n\n<p>Video has been attached.</p>\n\n<p>&nbsp;</p>\n",
-            "status": 1081,
+            "status": 1082,
             "BUG_component$154": 1561,
             "BUG_subcomponent$154": "AMC-Service tool Miniconsole.",
             "createdBy": 5932,
+            "assignedTo": 2454,
             "release": 2581,
             "BUG_foundOnDate$154": "2025-12-08",
             "priority": 2410,
@@ -4711,7 +4714,7 @@
                 ]
             }
         },
-        "version": 2,
+        "version": 3,
         "location": {
             "sortOrder": 1394,
             "globalSortOrder": 1311310193,
@@ -4722,7 +4725,7 @@
         },
         "lock": {
             "locked": false,
-            "lastLockedDate": "2025-12-09T13:25:06.000+0000"
+            "lastLockedDate": "2025-12-10T03:48:20.000+0000"
         },
         "type": "items"
     },
@@ -4788,19 +4791,20 @@
         "itemType": 154,
         "project": 417,
         "createdDate": "2025-12-09T14:30:29.000+0000",
-        "modifiedDate": "2025-12-09T14:30:29.000+0000",
-        "lastActivityDate": "2025-12-09T14:30:29.000+0000",
+        "modifiedDate": "2025-12-10T04:26:22.000+0000",
+        "lastActivityDate": "2025-12-10T04:26:22.000+0000",
         "createdBy": 5932,
-        "modifiedBy": 5932,
+        "modifiedBy": 2001,
         "fields": {
             "documentKey": "KIE601-SWBUG-2817",
             "globalId": "GID-7577198",
             "name": "IEX-Fault F 026-1,F028-1,F028-2 Appears Without Description in AMC fault log view",
             "description": "<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\"><strong>Detailed Defect Description:</strong></span></span></p>\n\n<p>IEX-Fault F 026-1,F028-1,F028-2 Appears Without Description in AMC fault log view</p>\n\n<p>&nbsp;</p>\n\n<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\"><strong>Parameters:&nbsp;&nbsp;</strong></span></span></p>\n\n<p><span style=\"font-family:Calibri, sans-serif\"><span style=\"font-size:14.6667px\">-</span></span></p>\n\n<p>&nbsp;</p>\n\n<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\"><strong>Group configuration: </strong></span></span></p>\n\n<p><span style=\"font-family:Calibri, sans-serif\"><span style=\"font-size:14.6667px\">Single escalator setup</span></span></p>\n\n<p>&nbsp;</p>\n\n<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\"><strong>Drive type:</strong></span></span></p>\n\n<p><span style=\"font-family:Calibri, sans-serif\"><span style=\"font-size:14.6667px\">Monarch,Danfoss</span></span></p>\n\n<p>&nbsp;</p>\n\n<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\"><strong>Regression or new finding:</strong></span></span></p>\n\n<p><span style=\"font-family:Calibri, sans-serif\"><span style=\"font-size:14.6667px\">Regression</span></span></p>\n\n<p>&nbsp;</p>\n\n<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\"><strong>Test case Name / Feature name:</strong></span></span></p>\n\n<p><span style=\"font-family:Calibri, sans-serif\"><span style=\"font-size:14.6667px\">Fault log view</span></span></p>\n\n<p>&nbsp;</p>\n\n<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\"><strong>Description of the test case (Detailed Scenario)&nbsp;</strong></span></span></p>\n\n<p>1.Escalator is running in UP direction.</p>\n\n<p>2.Activate External emergency stop lower in SEC.</p>\n\n<p>3.F 026-1(External emergency stop lower( Additional Stop switch with 15m Cable )) gets triggered and stops immediately.</p>\n\n<p>4.check the fault log status in AMC tool.</p>\n\n<p>5.Fault has came with no description.</p>\n\n<p>&nbsp;</p>\n\n<p><img alt=\"\" height=\"438\" src=\"https://konerqm.jamacloud.com/attachment/234182/Screenshot_20251209_195232_Android_MiniConsole_v4%5B1%5D.jpg\" width=\"202\" /></p>\n\n<p>&nbsp;</p>\n\n<p><strong><span style=\"background-color:#f1c40f\">Note:Same issue has observed in F028-1,F028-2.</span></strong></p>\n\n<p><strong><span style=\"background-color:#f1c40f\">Same issue occurs in KFPS&nbsp;</span></strong></p>\n\n<p>&nbsp;</p>\n\n<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\"><strong>Expected behavior:&nbsp;&nbsp;</strong></span></span></p>\n\n<p>AMC Tool should show with the <strong>correct fault description</strong>, F 026-1&nbsp;<strong>\u201cExternal emergency stop lower activated (Additional Stop Switch\"</strong></p>\n\n<p>&nbsp;</p>\n\n<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\"><strong>Actual behavior:</strong></span></span></p>\n\n<p>Fault has came with no description in AMC tool.</p>\n\n<p>&nbsp;</p>\n\n<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\"><strong>Recovery:&nbsp;</strong></span></span></p>\n\n<p><span style=\"font-family:Calibri, sans-serif\"><span style=\"font-size:14.6667px\">-</span></span></p>\n\n<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\"><strong>Value-added information:&nbsp;</strong></span></span></p>\n\n<p>IEX SW-R2.0.3</p>\n\n<p>AMC SW- 4.6.250.7156</p>\n",
-            "status": 1081,
+            "status": 1082,
             "BUG_component$154": 1561,
             "BUG_subcomponent$154": "Service tool-Android miniconsole,KFPS",
             "createdBy": 5932,
+            "assignedTo": 6390,
             "release": 2581,
             "BUG_foundOnDate$154": "2025-12-08",
             "priority": 2410,
@@ -4821,7 +4825,7 @@
                 ]
             }
         },
-        "version": 1,
+        "version": 2,
         "location": {
             "sortOrder": 1396,
             "globalSortOrder": 1311368088,
@@ -4831,7 +4835,8 @@
             }
         },
         "lock": {
-            "locked": false
+            "locked": false,
+            "lastLockedDate": "2025-12-10T04:26:24.000+0000"
         },
         "type": "items"
     },
@@ -5487,7 +5492,7 @@
         },
         "lock": {
             "locked": false,
-            "lastLockedDate": "2025-11-21T13:34:59.000+0000"
+            "lastLockedDate": "2025-12-10T05:28:23.000+0000"
         },
         "type": "items"
     },
@@ -6772,7 +6777,7 @@
         },
         "lock": {
             "locked": false,
-            "lastLockedDate": "2025-06-17T04:49:56.000+0000"
+            "lastLockedDate": "2025-12-10T05:28:20.000+0000"
         },
         "type": "items"
     },
@@ -7692,8 +7697,8 @@
         "itemType": 154,
         "project": 229,
         "createdDate": "2025-03-20T10:08:41.000+0000",
-        "modifiedDate": "2025-12-01T09:02:27.000+0000",
-        "lastActivityDate": "2025-12-02T06:12:48.000+0000",
+        "modifiedDate": "2025-12-10T05:32:42.000+0000",
+        "lastActivityDate": "2025-12-10T05:32:42.000+0000",
         "createdBy": 5995,
         "modifiedBy": 620,
         "fields": {
@@ -7719,9 +7724,9 @@
             "root_cause_category$154": 2512,
             "BUG_testCaseUpdated$154": 1198,
             "BUG_jiraId$154": "ISWF-1302",
-            "BUG_jira_project$154": 2457,
+            "BUG_jira_project$154": 2465,
             "BUG_jira_URL$154": "https://kone.atlassian.net/browse/ISWF-1302",
-            "BUG_integration_synced_time$154": "2025-12-01 09:02:26.565020",
+            "BUG_integration_synced_time$154": "2025-12-10 05:32:41.527844",
             "BUG_V1_project$154": 1431
         },
         "resources": {
@@ -7734,7 +7739,7 @@
                 ]
             }
         },
-        "version": 22,
+        "version": 24,
         "location": {
             "sortOrder": 5132,
             "globalSortOrder": 1638345774,
@@ -7745,7 +7750,7 @@
         },
         "lock": {
             "locked": false,
-            "lastLockedDate": "2025-12-01T09:01:48.000+0000"
+            "lastLockedDate": "2025-12-10T05:28:20.000+0000"
         },
         "type": "items"
     },
@@ -9806,10 +9811,10 @@
         "itemType": 154,
         "project": 229,
         "createdDate": "2025-06-09T08:31:51.000+0000",
-        "modifiedDate": "2025-08-25T07:01:19.000+0000",
-        "lastActivityDate": "2025-09-24T07:46:32.000+0000",
+        "modifiedDate": "2025-12-10T05:33:14.000+0000",
+        "lastActivityDate": "2025-12-10T05:33:14.000+0000",
         "createdBy": 6096,
-        "modifiedBy": 1953,
+        "modifiedBy": 620,
         "fields": {
             "documentKey": "KCE-SWBUG-5971",
             "globalId": "GID-7206425",
@@ -9832,6 +9837,10 @@
             "BUG_probability_on_field$154": 2398,
             "root_cause_category$154": 2512,
             "BUG_testCaseUpdated$154": 1198,
+            "BUG_jiraId$154": "KCE-31904",
+            "BUG_jira_project$154": 2465,
+            "BUG_jira_URL$154": "https://kone.atlassian.net/browse/KCE-31904",
+            "BUG_integration_synced_time$154": "2025-12-10 05:33:13.783461",
             "BUG_V1_project$154": 1431
         },
         "resources": {
@@ -9844,7 +9853,7 @@
                 ]
             }
         },
-        "version": 7,
+        "version": 9,
         "location": {
             "sortOrder": 5516,
             "globalSortOrder": 1645863726,
@@ -9855,7 +9864,7 @@
         },
         "lock": {
             "locked": false,
-            "lastLockedDate": "2025-07-31T04:18:13.000+0000"
+            "lastLockedDate": "2025-12-10T05:28:21.000+0000"
         },
         "type": "items"
     },
@@ -10458,7 +10467,7 @@
         },
         "lock": {
             "locked": false,
-            "lastLockedDate": "2025-09-17T13:00:34.000+0000"
+            "lastLockedDate": "2025-12-10T05:28:21.000+0000"
         },
         "type": "items"
     },
@@ -12493,10 +12502,10 @@
         "itemType": 154,
         "project": 229,
         "createdDate": "2025-06-26T12:21:07.000+0000",
-        "modifiedDate": "2025-08-25T07:01:19.000+0000",
-        "lastActivityDate": "2025-09-24T07:46:32.000+0000",
+        "modifiedDate": "2025-12-10T05:33:17.000+0000",
+        "lastActivityDate": "2025-12-10T05:33:17.000+0000",
         "createdBy": 6096,
-        "modifiedBy": 1953,
+        "modifiedBy": 620,
         "fields": {
             "documentKey": "KCE-SWBUG-6120",
             "globalId": "GID-7244490",
@@ -12519,6 +12528,10 @@
             "BUG_probability_on_field$154": 2396,
             "root_cause_category$154": 2512,
             "BUG_testCaseUpdated$154": 1198,
+            "BUG_jiraId$154": "KCE-31905",
+            "BUG_jira_project$154": 2465,
+            "BUG_jira_URL$154": "https://kone.atlassian.net/browse/KCE-31905",
+            "BUG_integration_synced_time$154": "2025-12-10 05:33:16.666855",
             "BUG_V1_project$154": 1431
         },
         "resources": {
@@ -12531,7 +12544,7 @@
                 ]
             }
         },
-        "version": 5,
+        "version": 7,
         "location": {
             "sortOrder": 5652,
             "globalSortOrder": 1648526334,
@@ -12542,7 +12555,7 @@
         },
         "lock": {
             "locked": false,
-            "lastLockedDate": "2025-07-31T08:00:14.000+0000"
+            "lastLockedDate": "2025-12-10T05:28:21.000+0000"
         },
         "type": "items"
     },
@@ -13891,8 +13904,8 @@
         "itemType": 154,
         "project": 229,
         "createdDate": "2025-07-17T10:43:20.000+0000",
-        "modifiedDate": "2025-09-17T12:00:35.000+0000",
-        "lastActivityDate": "2025-09-24T07:46:32.000+0000",
+        "modifiedDate": "2025-12-10T05:34:45.000+0000",
+        "lastActivityDate": "2025-12-10T05:34:45.000+0000",
         "createdBy": 5995,
         "modifiedBy": 620,
         "fields": {
@@ -13918,9 +13931,9 @@
             "root_cause_category$154": 2512,
             "BUG_testCaseUpdated$154": 1198,
             "BUG_jiraId$154": "NSLON-191",
-            "BUG_jira_project$154": 2548,
+            "BUG_jira_project$154": 2465,
             "BUG_jira_URL$154": "https://kone.atlassian.net/browse/NSLON-191",
-            "BUG_integration_synced_time$154": "2025-09-17 12:00:35.038140",
+            "BUG_integration_synced_time$154": "2025-12-10 05:34:44.731499",
             "BUG_V1_project$154": 1431
         },
         "resources": {
@@ -13933,7 +13946,7 @@
                 ]
             }
         },
-        "version": 15,
+        "version": 18,
         "location": {
             "sortOrder": 5751,
             "globalSortOrder": 1650464556,
@@ -13944,7 +13957,7 @@
         },
         "lock": {
             "locked": false,
-            "lastLockedDate": "2025-09-17T11:59:41.000+0000"
+            "lastLockedDate": "2025-12-10T05:28:21.000+0000"
         },
         "type": "items"
     },
@@ -14008,7 +14021,7 @@
         },
         "lock": {
             "locked": false,
-            "lastLockedDate": "2025-09-23T03:43:57.000+0000"
+            "lastLockedDate": "2025-12-10T05:28:21.000+0000"
         },
         "type": "items"
     },
@@ -14628,7 +14641,7 @@
         },
         "lock": {
             "locked": false,
-            "lastLockedDate": "2025-09-23T03:44:54.000+0000"
+            "lastLockedDate": "2025-12-10T05:28:21.000+0000"
         },
         "type": "items"
     },
@@ -17652,7 +17665,7 @@
         },
         "lock": {
             "locked": false,
-            "lastLockedDate": "2025-11-24T05:10:19.000+0000"
+            "lastLockedDate": "2025-12-10T05:28:21.000+0000"
         },
         "type": "items"
     },
@@ -19428,10 +19441,10 @@
         "itemType": 154,
         "project": 229,
         "createdDate": "2025-09-26T09:50:01.000+0000",
-        "modifiedDate": "2025-10-15T05:33:33.000+0000",
-        "lastActivityDate": "2025-10-15T05:33:33.000+0000",
+        "modifiedDate": "2025-12-10T05:49:31.000+0000",
+        "lastActivityDate": "2025-12-10T05:49:31.000+0000",
         "createdBy": 6096,
-        "modifiedBy": 1908,
+        "modifiedBy": 620,
         "fields": {
             "documentKey": "KCE-SWBUG-6675",
             "globalId": "GID-7428398",
@@ -19452,6 +19465,10 @@
             "BUG_probability_on_field$154": 2398,
             "root_cause_category$154": 2512,
             "BUG_testCaseUpdated$154": 1198,
+            "BUG_jiraId$154": "KCE-31944",
+            "BUG_jira_project$154": 2465,
+            "BUG_jira_URL$154": "https://kone.atlassian.net/browse/KCE-31944",
+            "BUG_integration_synced_time$154": "2025-12-10 05:49:30.236924",
             "BUG_V1_project$154": 1431
         },
         "resources": {
@@ -19464,7 +19481,7 @@
                 ]
             }
         },
-        "version": 2,
+        "version": 5,
         "location": {
             "sortOrder": 6144,
             "globalSortOrder": 1658158710,
@@ -19475,7 +19492,7 @@
         },
         "lock": {
             "locked": false,
-            "lastLockedDate": "2025-10-15T05:33:34.000+0000"
+            "lastLockedDate": "2025-12-10T05:28:22.000+0000"
         },
         "type": "items"
     },
@@ -21397,7 +21414,7 @@
         },
         "lock": {
             "locked": false,
-            "lastLockedDate": "2025-11-14T08:21:45.000+0000"
+            "lastLockedDate": "2025-12-10T05:28:22.000+0000"
         },
         "type": "items"
     },
@@ -21520,7 +21537,7 @@
         },
         "lock": {
             "locked": false,
-            "lastLockedDate": "2025-11-13T08:48:13.000+0000"
+            "lastLockedDate": "2025-12-10T05:28:22.000+0000"
         },
         "type": "items"
     },
@@ -21646,7 +21663,7 @@
         },
         "lock": {
             "locked": false,
-            "lastLockedDate": "2025-12-05T08:36:25.000+0000"
+            "lastLockedDate": "2025-12-10T05:28:22.000+0000"
         },
         "type": "items"
     },
@@ -21769,7 +21786,7 @@
         },
         "lock": {
             "locked": false,
-            "lastLockedDate": "2025-11-19T10:13:58.000+0000"
+            "lastLockedDate": "2025-12-10T05:28:22.000+0000"
         },
         "type": "items"
     },
@@ -22393,7 +22410,7 @@
         },
         "lock": {
             "locked": false,
-            "lastLockedDate": "2025-12-05T09:00:34.000+0000"
+            "lastLockedDate": "2025-12-10T05:28:23.000+0000"
         },
         "type": "items"
     },
@@ -23133,7 +23150,7 @@
         },
         "lock": {
             "locked": false,
-            "lastLockedDate": "2025-12-08T20:08:50.000+0000"
+            "lastLockedDate": "2025-12-10T05:28:23.000+0000"
         },
         "type": "items"
     },
