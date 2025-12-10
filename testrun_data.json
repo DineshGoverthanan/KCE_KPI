@@ -9758,6 +9758,13 @@
         "Assigned To":"Mohammed Ibrahim Sultan"
     },
     {
+        "TestRunStatus":"INPROGRESS",
+        "ExecutionDate":"2025-12-09",
+        "Document Key":"KIE601-TSTRN-70808",
+        "Name":"IOC Software downloading lower",
+        "Assigned To":"VIGNESHWARAR"
+    },
+    {
         "TestRunStatus":"PASSED",
         "ExecutionDate":"2025-08-04",
         "Document Key":"KIE601-TSTRN-56805",
@@ -9777,6 +9784,13 @@
         "Document Key":"KIE601-TSTRN-70804",
         "Name":"updating latest KIECPU software (TSC and CPU) into Escalator running with TR1.0-t12.7 release configuration",
         "Assigned To":"Mohammed Ibrahim Sultan"
+    },
+    {
+        "TestRunStatus":"INPROGRESS",
+        "ExecutionDate":"2025-12-09",
+        "Document Key":"KIE601-TSTRN-70807",
+        "Name":"IOC Software downloading ",
+        "Assigned To":"VIGNESHWARAR"
     },
     {
         "TestRunStatus":"PASSED",
@@ -9856,7 +9870,7 @@
         "Assigned To":"S.P"
     },
     {
-        "TestRunStatus":"PASSED",
+        "TestRunStatus":"FAILED",
         "ExecutionDate":"2025-12-09",
         "Document Key":"KIE601-TSTRN-70796",
         "Name":"AMC features for Escalator",
@@ -10764,6 +10778,13 @@
         "Document Key":"KIE601-TSTRN-70518",
         "Name":"Operation modes ",
         "Assigned To":"VIGNESHWARAR"
+    },
+    {
+        "TestRunStatus":"FAILED",
+        "ExecutionDate":"2025-12-09",
+        "Document Key":"KIE601-TSTRN-70521",
+        "Name":"Handrail Monitor Pre warning\u00a0",
+        "Assigned To":"Mohammed Ibrahim Sultan"
     },
     {
         "TestRunStatus":"PASSED",

@@ -4769,7 +4769,7 @@
         "version": 3,
         "location": {
             "sortOrder": 1395,
-            "globalSortOrder": 1311367552,
+            "globalSortOrder": 1311311266,
             "sequence": "2.8.1396",
             "parent": {
                 "item": 18771233
@@ -4778,6 +4778,60 @@
         "lock": {
             "locked": false,
             "lastLockedDate": "2025-12-09T14:03:13.000+0000"
+        },
+        "type": "items"
+    },
+    {
+        "id": 28596546,
+        "documentKey": "KIE601-SWBUG-2817",
+        "globalId": "GID-7577198",
+        "itemType": 154,
+        "project": 417,
+        "createdDate": "2025-12-09T14:30:29.000+0000",
+        "modifiedDate": "2025-12-09T14:30:29.000+0000",
+        "lastActivityDate": "2025-12-09T14:30:29.000+0000",
+        "createdBy": 5932,
+        "modifiedBy": 5932,
+        "fields": {
+            "documentKey": "KIE601-SWBUG-2817",
+            "globalId": "GID-7577198",
+            "name": "IEX-Fault F 026-1,F028-1,F028-2 Appears Without Description in AMC fault log view",
+            "description": "<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\"><strong>Detailed Defect Description:</strong></span></span></p>\n\n<p>IEX-Fault F 026-1,F028-1,F028-2 Appears Without Description in AMC fault log view</p>\n\n<p>&nbsp;</p>\n\n<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\"><strong>Parameters:&nbsp;&nbsp;</strong></span></span></p>\n\n<p><span style=\"font-family:Calibri, sans-serif\"><span style=\"font-size:14.6667px\">-</span></span></p>\n\n<p>&nbsp;</p>\n\n<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\"><strong>Group configuration: </strong></span></span></p>\n\n<p><span style=\"font-family:Calibri, sans-serif\"><span style=\"font-size:14.6667px\">Single escalator setup</span></span></p>\n\n<p>&nbsp;</p>\n\n<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\"><strong>Drive type:</strong></span></span></p>\n\n<p><span style=\"font-family:Calibri, sans-serif\"><span style=\"font-size:14.6667px\">Monarch,Danfoss</span></span></p>\n\n<p>&nbsp;</p>\n\n<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\"><strong>Regression or new finding:</strong></span></span></p>\n\n<p><span style=\"font-family:Calibri, sans-serif\"><span style=\"font-size:14.6667px\">Regression</span></span></p>\n\n<p>&nbsp;</p>\n\n<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\"><strong>Test case Name / Feature name:</strong></span></span></p>\n\n<p><span style=\"font-family:Calibri, sans-serif\"><span style=\"font-size:14.6667px\">Fault log view</span></span></p>\n\n<p>&nbsp;</p>\n\n<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\"><strong>Description of the test case (Detailed Scenario)&nbsp;</strong></span></span></p>\n\n<p>1.Escalator is running in UP direction.</p>\n\n<p>2.Activate External emergency stop lower in SEC.</p>\n\n<p>3.F 026-1(External emergency stop lower( Additional Stop switch with 15m Cable )) gets triggered and stops immediately.</p>\n\n<p>4.check the fault log status in AMC tool.</p>\n\n<p>5.Fault has came with no description.</p>\n\n<p>&nbsp;</p>\n\n<p><img alt=\"\" height=\"438\" src=\"https://konerqm.jamacloud.com/attachment/234182/Screenshot_20251209_195232_Android_MiniConsole_v4%5B1%5D.jpg\" width=\"202\" /></p>\n\n<p>&nbsp;</p>\n\n<p><strong><span style=\"background-color:#f1c40f\">Note:Same issue has observed in F028-1,F028-2.</span></strong></p>\n\n<p><strong><span style=\"background-color:#f1c40f\">Same issue occurs in KFPS&nbsp;</span></strong></p>\n\n<p>&nbsp;</p>\n\n<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\"><strong>Expected behavior:&nbsp;&nbsp;</strong></span></span></p>\n\n<p>AMC Tool should show with the <strong>correct fault description</strong>, F 026-1&nbsp;<strong>\u201cExternal emergency stop lower activated (Additional Stop Switch\"</strong></p>\n\n<p>&nbsp;</p>\n\n<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\"><strong>Actual behavior:</strong></span></span></p>\n\n<p>Fault has came with no description in AMC tool.</p>\n\n<p>&nbsp;</p>\n\n<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\"><strong>Recovery:&nbsp;</strong></span></span></p>\n\n<p><span style=\"font-family:Calibri, sans-serif\"><span style=\"font-size:14.6667px\">-</span></span></p>\n\n<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\"><strong>Value-added information:&nbsp;</strong></span></span></p>\n\n<p>IEX SW-R2.0.3</p>\n\n<p>AMC SW- 4.6.250.7156</p>\n",
+            "status": 1081,
+            "BUG_component$154": 1561,
+            "BUG_subcomponent$154": "Service tool-Android miniconsole,KFPS",
+            "createdBy": 5932,
+            "release": 2581,
+            "BUG_foundOnDate$154": "2025-12-08",
+            "priority": 2410,
+            "BUG_severity$154": 1109,
+            "BUG_category$154": 1422,
+            "BUG_testLevel$154": 1129,
+            "BUG_howFound$154": 2407,
+            "BUG_whereFound$154": 1137,
+            "BUG_probability_on_field$154": 2398,
+            "root_cause_category$154": 2512,
+            "BUG_testCaseUpdated$154": 1198,
+            "BUG_V1_project$154": 1431
+        },
+        "resources": {
+            "self": {
+                "allowed": [
+                    "GET"
+                ]
+            }
+        },
+        "version": 1,
+        "location": {
+            "sortOrder": 1396,
+            "globalSortOrder": 1311368088,
+            "sequence": "2.8.1397",
+            "parent": {
+                "item": 18771233
+            }
+        },
+        "lock": {
+            "locked": false
         },
         "type": "items"
     },
@@ -22222,7 +22276,7 @@
         "project": 229,
         "createdDate": "2025-11-26T13:27:38.000+0000",
         "modifiedDate": "2025-12-09T13:46:43.000+0000",
-        "lastActivityDate": "2025-12-09T13:46:43.000+0000",
+        "lastActivityDate": "2025-12-09T14:40:40.000+0000",
         "createdBy": 6096,
         "modifiedBy": 620,
         "fields": {
@@ -23323,18 +23377,19 @@
         "itemType": 154,
         "project": 229,
         "createdDate": "2025-12-09T13:26:49.000+0000",
-        "modifiedDate": "2025-12-09T13:26:49.000+0000",
-        "lastActivityDate": "2025-12-09T13:26:49.000+0000",
+        "modifiedDate": "2025-12-09T19:38:53.000+0000",
+        "lastActivityDate": "2025-12-09T19:38:53.000+0000",
         "createdBy": 6096,
-        "modifiedBy": 6096,
+        "modifiedBy": 967,
         "fields": {
             "documentKey": "KCE-SWBUG-14062",
             "globalId": "GID-7577182",
             "name": "17.0 - KDH - Fault #6301's Data 1 & 2 Description is missing",
             "description": "<p><img alt=\"\" height=\"386\" src=\"https://konerqm.jamacloud.com/attachment/234172/image-Fgub1Qx5GW.png\" width=\"965\" /></p>\n\n<p>&nbsp;</p>\n\n<p><em><strong>Note :&nbsp;</strong></em><br />\nLocalizations files are updated</p>\n",
-            "status": 1081,
+            "status": 1085,
             "BUG_component$154": 2499,
             "createdBy": 6096,
+            "assignedTo": 967,
             "release": 2396,
             "BUG_foundOnDate$154": "2025-12-08",
             "priority": 2410,
@@ -23345,6 +23400,7 @@
             "BUG_whereFound$154": 1137,
             "BUG_probability_on_field$154": 2398,
             "root_cause_category$154": 2512,
+            "BUG_rootCause$154": "<p>Added missing descriptions.</p>",
             "BUG_testCaseUpdated$154": 1198,
             "BUG_V1_project$154": 1431
         },
@@ -23358,7 +23414,7 @@
                 ]
             }
         },
-        "version": 1,
+        "version": 2,
         "location": {
             "sortOrder": 6559,
             "globalSortOrder": 1665890278,
@@ -23368,7 +23424,8 @@
             }
         },
         "lock": {
-            "locked": false
+            "locked": false,
+            "lastLockedDate": "2025-12-09T19:38:54.000+0000"
         },
         "type": "items"
     },
