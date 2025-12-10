@@ -4836,7 +4836,7 @@
         },
         "lock": {
             "locked": false,
-            "lastLockedDate": "2025-12-10T04:26:24.000+0000"
+            "lastLockedDate": "2025-12-10T09:58:52.000+0000"
         },
         "type": "items"
     },
@@ -23098,8 +23098,8 @@
         "itemType": 154,
         "project": 229,
         "createdDate": "2025-12-03T13:32:00.000+0000",
-        "modifiedDate": "2025-12-08T21:26:10.000+0000",
-        "lastActivityDate": "2025-12-10T06:15:00.000+0000",
+        "modifiedDate": "2025-12-10T08:14:46.000+0000",
+        "lastActivityDate": "2025-12-10T08:14:46.000+0000",
         "createdBy": 6374,
         "modifiedBy": 620,
         "fields": {
@@ -23114,6 +23114,7 @@
             "release": 2396,
             "BUG_foundInBuild$154": "KCE17.0.0.111(LD: 17.0.0.18, GCD: 17.0.0.33)",
             "BUG_foundOnDate$154": "2025-12-02",
+            "BUG_plannedRelease$154": 2492,
             "priority": 2410,
             "BUG_severity$154": 1110,
             "BUG_category$154": 1422,
@@ -23126,7 +23127,7 @@
             "BUG_jiraId$154": "KCE-31751",
             "BUG_jira_project$154": 2465,
             "BUG_jira_URL$154": "https://kone.atlassian.net/browse/KCE-31751",
-            "BUG_integration_synced_time$154": "2025-12-08 21:26:09.503468",
+            "BUG_integration_synced_time$154": "2025-12-10 08:14:45.447371",
             "BUG_V1_project$154": 1431
         },
         "resources": {
@@ -23139,7 +23140,7 @@
                 ]
             }
         },
-        "version": 4,
+        "version": 6,
         "location": {
             "sortOrder": 6531,
             "globalSortOrder": 1665735396,
@@ -23150,7 +23151,7 @@
         },
         "lock": {
             "locked": false,
-            "lastLockedDate": "2025-12-10T05:28:23.000+0000"
+            "lastLockedDate": "2025-12-10T08:13:51.000+0000"
         },
         "type": "items"
     },
@@ -23453,10 +23454,10 @@
         "itemType": 154,
         "project": 229,
         "createdDate": "2025-12-09T13:29:57.000+0000",
-        "modifiedDate": "2025-12-09T13:29:57.000+0000",
-        "lastActivityDate": "2025-12-09T13:29:57.000+0000",
+        "modifiedDate": "2025-12-10T08:46:58.000+0000",
+        "lastActivityDate": "2025-12-10T08:46:58.000+0000",
         "createdBy": 6096,
-        "modifiedBy": 6096,
+        "modifiedBy": 1129,
         "fields": {
             "documentKey": "KCE-SWBUG-14063",
             "globalId": "GID-7577185",
@@ -23465,8 +23466,10 @@
             "status": 1081,
             "BUG_component$154": 2160,
             "createdBy": 6096,
+            "assignedTo": 870,
             "release": 2396,
             "BUG_foundOnDate$154": "2025-12-08",
+            "BUG_plannedRelease$154": 2396,
             "priority": 2410,
             "BUG_severity$154": 1110,
             "BUG_category$154": 1428,
@@ -23488,7 +23491,7 @@
                 ]
             }
         },
-        "version": 1,
+        "version": 2,
         "location": {
             "sortOrder": 6560,
             "globalSortOrder": 1665891149,
@@ -23498,7 +23501,8 @@
             }
         },
         "lock": {
-            "locked": false
+            "locked": false,
+            "lastLockedDate": "2025-12-10T08:46:59.000+0000"
         },
         "type": "items"
     }

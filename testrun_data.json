@@ -4543,10 +4543,17 @@
         "Assigned To":"Veeramanikandan"
     },
     {
-        "TestRunStatus":"INPROGRESS",
-        "ExecutionDate":"2025-12-09",
+        "TestRunStatus":"PASSED",
+        "ExecutionDate":"2025-12-10",
         "Document Key":"KCE-TSTRN-4002922",
         "Name":"Commissioning - 5. Real Time Clock",
+        "Assigned To":"Veeramanikandan"
+    },
+    {
+        "TestRunStatus":"PASSED",
+        "ExecutionDate":"2025-12-10",
+        "Document Key":"KCE-TSTRN-4002923",
+        "Name":"KSS - Configuration of buttons and switches - Service Switch",
         "Assigned To":"Veeramanikandan"
     },
     {
@@ -9786,8 +9793,8 @@
         "Assigned To":"Mohammed Ibrahim Sultan"
     },
     {
-        "TestRunStatus":"INPROGRESS",
-        "ExecutionDate":"2025-12-09",
+        "TestRunStatus":"FAILED",
+        "ExecutionDate":"2025-12-10",
         "Document Key":"KIE601-TSTRN-70807",
         "Name":"IOC Software downloading ",
         "Assigned To":"VIGNESHWARAR"
@@ -9861,6 +9868,13 @@
         "Document Key":"KIE601-TSTRN-70628",
         "Name":"Voice annaouncer as Buzzer in  - Start Condition",
         "Assigned To":"S.P"
+    },
+    {
+        "TestRunStatus":"PASSED",
+        "ExecutionDate":"2025-12-10",
+        "Document Key":"KIE601-TSTRN-70799",
+        "Name":"AMC Escalator Tools - Parameter Restore View",
+        "Assigned To":"VIGNESHWARAR"
     },
     {
         "TestRunStatus":"FAILED",
@@ -10788,7 +10802,7 @@
     },
     {
         "TestRunStatus":"FAILED",
-        "ExecutionDate":"2025-12-09",
+        "ExecutionDate":"2025-12-10",
         "Document Key":"KIE601-TSTRN-70521",
         "Name":"Handrail Monitor Pre warning\u00a0",
         "Assigned To":"Mohammed Ibrahim Sultan"
@@ -11705,6 +11719,13 @@
     },
     {
         "TestRunStatus":"PASSED",
+        "ExecutionDate":"2025-12-10",
+        "Document Key":"KCE-TSTRN-4008705",
+        "Name":"Group features - HEL - Hospital Emergency service at landings - Phase 1",
+        "Assigned To":"Jagadeesh"
+    },
+    {
+        "TestRunStatus":"PASSED",
         "ExecutionDate":"2025-08-25",
         "Document Key":"KCE-TSTRN-3982223",
         "Name":"EMC BQ - Emergency Stop Device in Car - Tests not included into TA ",
@@ -12040,7 +12061,7 @@
         "Assigned To":"Jagadeesh"
     },
     {
-        "TestRunStatus":"INPROGRESS",
+        "TestRunStatus":"PASSED",
         "ExecutionDate":"2025-12-10",
         "Document Key":"KCE-TSTRN-4008712",
         "Name":"Group&Elevator features - HEL-C - Hospital Emergency service at landings & PRC NZ switch - Tests not included into TA",
@@ -17312,6 +17333,13 @@
     },
     {
         "TestRunStatus":"FAILED",
+        "ExecutionDate":"2025-12-01",
+        "Document Key":"KCE-TSTRN-4006675",
+        "Name":"Rescue mode landing indication and 1449=2",
+        "Assigned To":"Priyavalli"
+    },
+    {
+        "TestRunStatus":"FAILED",
         "ExecutionDate":"2025-11-11",
         "Document Key":"KCE-TSTRN-4002614",
         "Name":"Rescue mode landing indication and 1449=3",
@@ -18296,5 +18324,19 @@
         "Document Key":"KCE-TSTRN-4007038",
         "Name":"Stop disability service on power interruption ",
         "Assigned To":"Suryanarayanan"
+    },
+    {
+        "TestRunStatus":"INPROGRESS",
+        "ExecutionDate":"2025-12-10",
+        "Document Key":"KCE-TSTRN-4007039",
+        "Name":"Stop disability service on car call service servere fault",
+        "Assigned To":"Suryanarayanan"
+    },
+    {
+        "TestRunStatus":"INPROGRESS",
+        "ExecutionDate":"2025-12-10",
+        "Document Key":"KCE-TSTRN-4008403",
+        "Name":"KDSILCI - integrated FCB + LCI - With riser having only KDSILCIs",
+        "Assigned To":"Harini Sri"
     }
 ]
