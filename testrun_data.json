@@ -4529,8 +4529,8 @@
         "Assigned To":"Shrividhya"
     },
     {
-        "TestRunStatus":"INPROGRESS",
-        "ExecutionDate":"2025-12-09",
+        "TestRunStatus":"PASSED",
+        "ExecutionDate":"2025-12-10",
         "Document Key":"KCE-TSTRN-4002920",
         "Name":"Commissioning - 3. Roll Call",
         "Assigned To":"Veeramanikandan"
@@ -12068,6 +12068,13 @@
         "Assigned To":"Kowsalya"
     },
     {
+        "TestRunStatus":"PASSED",
+        "ExecutionDate":"2025-12-10",
+        "Document Key":"KCE-TSTRN-4008710",
+        "Name":"Group features - PRL H - Priority At landings High - Phase 1-  Tests not included into TA",
+        "Assigned To":"Jagadeesh"
+    },
+    {
         "TestRunStatus":"INPROGRESS",
         "ExecutionDate":"2025-12-10",
         "Document Key":"KCE-TSTRN-4007303",
@@ -12085,6 +12092,13 @@
         "TestRunStatus":"INPROGRESS",
         "ExecutionDate":"2025-12-09",
         "Document Key":"KCE-TSTRN-4007304",
+        "Name":"EAQ - Earthquake mode - Special",
+        "Assigned To":"Kowsalya"
+    },
+    {
+        "TestRunStatus":"INPROGRESS",
+        "ExecutionDate":"2025-12-10",
+        "Document Key":"KCE-TSTRN-4008713",
         "Name":"EAQ - Earthquake mode - Special",
         "Assigned To":"Kowsalya"
     },
@@ -17088,7 +17102,7 @@
     },
     {
         "TestRunStatus":"FAILED",
-        "ExecutionDate":"2025-12-09",
+        "ExecutionDate":"2025-12-10",
         "Document Key":"KCE-TSTRN-4006628",
         "Name":"OEO - E Link view ",
         "Assigned To":"Vivek"
