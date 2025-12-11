@@ -90,6 +90,9 @@ KIE601-SWBUG-2821,IEX-Learning and roll call Parameter values not retained for P
 KIE601-SWBUG-2822,IEX-Difficult to Identifying Correct Binary File During Software Update in AMC service tool.,VIGNESHWARAR,,2025-12-09
 KIE601-SWBUG-2823,IEX-EGD Displays Debugging During On-Site mode operation,VIGNESHWARAR,,2025-12-09
 KIE601-SWBUG-2824,IEX-KFPS Tool Displays wrong SEC node count After Successful Pairing,VIGNESHWARAR,,2025-12-09
+KIE601-SWBUG-2825,IEX-Escalator Parameter editing disabled in KFPS Tool,VIGNESHWARAR,,2025-12-10
+KIE601-SWBUG-2826,IEX - Parameter PC2_2103 cannot be modified during running - UI sheet Update required,Mohammed Ibrahim Sultan,,2025-12-10
+KIE601-SWBUG-2827,IEX-Incorrect Node Pairing Status Displayed in AMC Tool,VIGNESHWARAR,,2025-12-10
 DRIVE_HW_SW-SWBUG-1587,GG DCBL 5.51 SW - Fault 124 3064 Not Triggered when Software file is missed from SD Card.,VIGNESHWARAR,,2025-06-01
 KCE-SWBUG-5615,16.4-DCBL GD- Speed is not reduced when the elevator reaches the lower limit during the NTS Buffer Test.,Jagadeesh,KCE16.4.92 (LD 16.4.1.11 and GCD 16.4.65) + DCBL 24.47sw,
 KCE-SWBUG-6553,"KCE NA - When MES activated during car call service, lift is unable to stop at the nearest floor.",Veeramanikandan,KCE 17.0.0.10,2025-09-02
@@ -386,3 +389,4 @@ KCE-SWBUG-14069,KCE india Rescue mode LCD epsilon color 3 display doesnot show E
 KCE-SWBUG-14071,17.0 - KCEDCS - OEO EN 81-76 Indication stuck in Mondrian display when Driver evacuation is deactivated.,Vivek,"17.0.0.116(LD: 17.0.0.20, GCD: 17.0.1.1)",2025-12-09
 KCE-SWBUG-14072,"17.0 - HAN - When HAN is activated from B side , HAN Sequence performs at A Side",Suryanarayanan,"KCE 17.0.0.116(LD: 17.0.0.20, GCD: 17.0.1.1), WELM Appl: 0.0.0.92, WELM Prot: 0.0.0.17",2025-12-09
 KCE-SWBUG-14078,4.6 - ProManager - All the saved Favorite IPs were vanished after Updating License,Suryanarayanan,ProManager Version used : 4.6.239.7126,2025-12-10
+KCE-SWBUG-14081,"17.0 - KCEDCS - OEO EN81-76 DOP, DG & EG indication stuck when GERF1 & GERF2 inputs deactivated",Vivek,"17.0.0.116(LD: 17.0.0.20, GCD: 17.0.1.1)",2025-12-10

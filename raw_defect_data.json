@@ -5013,20 +5013,20 @@
         "itemType": 154,
         "project": 417,
         "createdDate": "2025-12-10T17:41:51.000+0000",
-        "modifiedDate": "2025-12-10T17:47:19.000+0000",
-        "lastActivityDate": "2025-12-10T17:47:19.000+0000",
+        "modifiedDate": "2025-12-11T06:37:01.000+0000",
+        "lastActivityDate": "2025-12-11T06:37:01.000+0000",
         "createdBy": 5932,
         "modifiedBy": 5932,
         "fields": {
             "documentKey": "KIE601-SWBUG-2822",
             "globalId": "GID-7581399",
             "name": "IEX-Difficult to Identifying Correct Binary File During Software Update in AMC service tool.",
-            "description": "<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\"><strong>Detailed Defect Description:</strong></span></span></p>\n\n<p>IEX-Difficult to Identifying Correct Binary File During Software Update in AMC service tool.</p>\n\n<p>&nbsp;</p>\n\n<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\"><strong>Parameters:&nbsp;&nbsp;</strong></span></span></p>\n\n<p><span style=\"font-family:Calibri,sans-serif\"><span style=\"font-size:14.6667px\">-</span></span></p>\n\n<p>&nbsp;</p>\n\n<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\"><strong>Group configuration: </strong></span></span></p>\n\n<p><span style=\"font-family:Calibri,sans-serif\"><span style=\"font-size:14.6667px\">Single escalator setup</span></span></p>\n\n<p>&nbsp;</p>\n\n<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\"><strong>Drive type:</strong></span></span></p>\n\n<p><span style=\"font-family:Calibri,sans-serif\"><span style=\"font-size:14.6667px\">Monarch, Danfoss</span></span></p>\n\n<p>&nbsp;</p>\n\n<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\"><strong>Regression or new finding:</strong></span></span></p>\n\n<p><span style=\"font-family:Calibri,sans-serif\"><span style=\"font-size:14.6667px\">Adhoc</span></span></p>\n\n<p>&nbsp;</p>\n\n<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\"><strong>Description of the test case (Detailed Scenario)&nbsp;</strong></span></span></p>\n\n<p>1.Attempt to update the software in the AMC tool.</p>\n\n<p>2.Navigate to <strong>Tools \u2192 Escalator Software Update \u2192 Updates in Device Memory</strong>, then select the file to update.</p>\n\n<p>3.When checking the files under <strong>Updates in Device Memory</strong>, it is difficult to identify which binary file should be used for the update, it displays only KCL version.(3 files with same name)</p>\n\n<p>&nbsp;</p>\n\n<p><img alt=\"\" height=\"536\" src=\"https://konerqm.jamacloud.com/attachment/234355/image-AwokZfiawF.png\" width=\"261\" /></p>\n\n<p>&nbsp;</p>\n\n<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\"><strong>Expected behavior:&nbsp;&nbsp;</strong></span></span></p>\n\n<p>The system should display the available binary files in a clear and identifiable manner, allowing the user to easily select the correct file for the software update.</p>\n\n<p>&nbsp;</p>\n\n<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\"><strong>Actual behavior:</strong></span></span></p>\n\n<p>The files listed under <strong>Updates in Device Memory</strong> appear unclear and making it challenging for the user to identify which binary file should be selected for the software update.</p>\n\n<p>&nbsp;</p>\n\n<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\"><strong>Recovery:&nbsp;</strong></span></span></p>\n\n<p><span style=\"font-family:Calibri,sans-serif\"><span style=\"font-size:14.6667px\">-</span></span></p>\n\n<p>&nbsp;</p>\n\n<p>&nbsp;</p>\n\n<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\"><strong>Log attached Information:</strong></span></span></p>\n\n<p>Video attachment.</p>\n\n<p>&nbsp;</p>\n\n<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\"><strong>Value-added information:&nbsp;</strong></span></span></p>\n\n<p>IEX SW-R2.0.3</p>\n\n<p>AMC SW-4.6.250.7156</p>\n",
+            "description": "<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\"><strong>Detailed Defect Description:</strong></span></span></p>\n\n<p>IEX-Difficult to Identifying Correct Binary File During Software Update in AMC service tool.</p>\n\n<p>&nbsp;</p>\n\n<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\"><strong>Parameters:&nbsp;&nbsp;</strong></span></span></p>\n\n<p><span style=\"font-family:Calibri,sans-serif\"><span style=\"font-size:14.6667px\">-</span></span></p>\n\n<p>&nbsp;</p>\n\n<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\"><strong>Group configuration: </strong></span></span></p>\n\n<p><span style=\"font-family:Calibri,sans-serif\"><span style=\"font-size:14.6667px\">Single escalator setup</span></span></p>\n\n<p>&nbsp;</p>\n\n<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\"><strong>Drive type:</strong></span></span></p>\n\n<p><span style=\"font-family:Calibri,sans-serif\"><span style=\"font-size:14.6667px\">Monarch, Danfoss</span></span></p>\n\n<p>&nbsp;</p>\n\n<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\"><strong>Regression or new finding:</strong></span></span></p>\n\n<p><span style=\"font-family:Calibri,sans-serif\"><span style=\"font-size:14.6667px\">Adhoc</span></span></p>\n\n<p>&nbsp;</p>\n\n<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\"><strong>Description of the test case (Detailed Scenario)&nbsp;</strong></span></span></p>\n\n<p>1.Attempt to update the software in the AMC tool.</p>\n\n<p>2.Navigate to <strong>Tools \u2192 Escalator Software Update \u2192 Updates in Device Memory</strong>, then select the file to update.</p>\n\n<p>3.When checking the files under <strong>Updates in Device Memory</strong>, it is difficult to identify which binary file should be used for the update, it displays only KCL version.(3 files with same name)</p>\n\n<p>&nbsp;</p>\n\n<p><img alt=\"\" height=\"536\" src=\"https://konerqm.jamacloud.com/attachment/234355/image-AwokZfiawF.png\" width=\"261\" /></p>\n\n<p>&nbsp;</p>\n\n<p><strong><span style=\"background-color:#f1c40f\">Note: The same issue occurs in the Escalator Controller Backup view. When checking the software details, only the KCL information is displayed; the CPU version information is not available.</span></strong></p>\n\n<p><img alt=\"\" height=\"565\" src=\"https://konerqm.jamacloud.com/attachment/234386/Screenshot_20251211_120013_Android_MiniConsole_v4%5B1%5D.jpg\" width=\"261\" /></p>\n\n<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\"><strong>Expected behavior:&nbsp;&nbsp;</strong></span></span></p>\n\n<p>The system should display the available binary files in a clear and identifiable manner, allowing the user to easily select the correct file for the software update.</p>\n\n<p>&nbsp;</p>\n\n<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\"><strong>Actual behavior:</strong></span></span></p>\n\n<p>The files listed under <strong>Updates in Device Memory</strong> appear unclear and making it challenging for the user to identify which binary file should be selected for the software update.</p>\n\n<p>&nbsp;</p>\n\n<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\"><strong>Recovery:&nbsp;</strong></span></span></p>\n\n<p><span style=\"font-family:Calibri,sans-serif\"><span style=\"font-size:14.6667px\">-</span></span></p>\n\n<p>&nbsp;</p>\n\n<p>&nbsp;</p>\n\n<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\"><strong>Log attached Information:</strong></span></span></p>\n\n<p>Video attachment.</p>\n\n<p>&nbsp;</p>\n\n<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\"><strong>Value-added information:&nbsp;</strong></span></span></p>\n\n<p>IEX SW-R2.0.3</p>\n\n<p>AMC SW-4.6.250.7156</p>\n",
             "status": 1081,
-            "BUG_component$154": 1561,
-            "BUG_subcomponent$154": "Service tool-Android Miniconsole",
+            "BUG_component$154": 2243,
+            "BUG_subcomponent$154": "Escalator KIE",
             "createdBy": 5932,
-            "release": 2581,
+            "release": 2529,
             "BUG_foundOnDate$154": "2025-12-09",
             "priority": 2410,
             "BUG_severity$154": 1110,
@@ -5046,7 +5046,7 @@
                 ]
             }
         },
-        "version": 3,
+        "version": 7,
         "location": {
             "sortOrder": 1401,
             "globalSortOrder": 1311317704,
@@ -5057,7 +5057,7 @@
         },
         "lock": {
             "locked": false,
-            "lastLockedDate": "2025-12-10T17:47:21.000+0000"
+            "lastLockedDate": "2025-12-11T06:37:03.000+0000"
         },
         "type": "items"
     },
@@ -5159,7 +5159,7 @@
         "version": 2,
         "location": {
             "sortOrder": 1403,
-            "globalSortOrder": 1311371844,
+            "globalSortOrder": 1311319850,
             "sequence": "2.8.1404",
             "parent": {
                 "item": 18771233
@@ -5168,6 +5168,170 @@
         "lock": {
             "locked": false,
             "lastLockedDate": "2025-12-11T03:40:38.000+0000"
+        },
+        "type": "items"
+    },
+    {
+        "id": 28618385,
+        "documentKey": "KIE601-SWBUG-2825",
+        "globalId": "GID-7581733",
+        "itemType": 154,
+        "project": 417,
+        "createdDate": "2025-12-11T06:16:02.000+0000",
+        "modifiedDate": "2025-12-11T06:16:02.000+0000",
+        "lastActivityDate": "2025-12-11T06:16:02.000+0000",
+        "createdBy": 5932,
+        "modifiedBy": 5932,
+        "fields": {
+            "documentKey": "KIE601-SWBUG-2825",
+            "globalId": "GID-7581733",
+            "name": "IEX-Escalator Parameter editing disabled in KFPS Tool",
+            "description": "<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\"><strong>Detailed Defect Description:</strong></span></span></p>\n\n<p>IEX-Escalator Parameter editing disabled in KFPS Tool.</p>\n\n<p>&nbsp;</p>\n\n<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\"><strong>Parameters:&nbsp;&nbsp;</strong></span></span></p>\n\n<p><span style=\"font-family:Calibri, sans-serif\"><span style=\"font-size:14.6667px\">-</span></span></p>\n\n<p>&nbsp;</p>\n\n<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\"><strong>Group configuration: </strong></span></span></p>\n\n<p><span style=\"font-family:Calibri, sans-serif\"><span style=\"font-size:14.6667px\">Single escalator setup.</span></span></p>\n\n<p>&nbsp;</p>\n\n<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\"><strong>Drive type:</strong></span></span></p>\n\n<p><span style=\"font-family:Calibri, sans-serif\"><span style=\"font-size:14.6667px\">Monarch, Danfoss</span></span></p>\n\n<p>&nbsp;</p>\n\n<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\"><strong>Regression or new finding:</strong></span></span></p>\n\n<p><span style=\"font-family:Calibri, sans-serif\"><span style=\"font-size:14.6667px\">Adhoc testing</span></span></p>\n\n<p>&nbsp;</p>\n\n<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\"><strong>Description of the test case (Detailed Scenario)&nbsp;</strong></span></span></p>\n\n<p>1.Connect the KFPS tool to the CPU.</p>\n\n<p>2.Navigate to <strong>Operate \u2192 Parameter \u2192 Escalator Parameter</strong>, and enter parameter <strong>1103</strong>.</p>\n\n<p>3 The <strong>1103 Operational Mode</strong> tab opens, but when attempting to change the value, the parameter cannot be edited.</p>\n\n<p>&nbsp;</p>\n\n<p><strong><span style=\"background-color:#f1c40f\">Note:&nbsp;Unable to edit none of the escalator parameters .</span></strong></p>\n\n<p><strong><span style=\"background-color:#f1c40f\">Checked with G11 board.</span></strong></p>\n\n<p><strong><span style=\"background-color:#f1c40f\">KFPS SW-3.4</span></strong></p>\n\n<p>&nbsp;</p>\n\n<p><strong><span style=\"background-color:#ecf0f1\">Attached screenshot:</span></strong></p>\n\n<p><img alt=\"\" height=\"414\" src=\"https://konerqm.jamacloud.com/attachment/234382/Screenshot_20251211_112022%5B1%5D.jpg\" width=\"191\" /></p>\n\n<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\"><strong>Expected behavior:&nbsp;&nbsp;</strong></span></span></p>\n\n<p>The KFPS tool should allow editing of parameter <strong>1103</strong> and all other escalator parameters. After navigating to <em>Operate \u2192 Parameter \u2192 Escalator Parameter</em> and opening parameter <strong>1103</strong>, the Operational Mode tab should allow the user to modify and save the parameter values.</p>\n\n<p>&nbsp;</p>\n\n<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\"><strong>Actual behavior:</strong></span></span></p>\n\n<p>After opening parameter <strong>1103</strong> under <em>Operate \u2192 Parameter \u2192 Escalator Parameter</em>, the Operational Mode tab does not allow any value changes. All escalator parameters cannot be edited.</p>\n\n<p>&nbsp;</p>\n\n<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\"><strong>Recovery:&nbsp;</strong></span></span></p>\n\n<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\">-</span></span></p>\n\n<p>&nbsp;</p>\n\n<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\"><strong>Value-added information:&nbsp;</strong></span></span></p>\n\n<p>IEX SW-R2.0.3</p>\n\n<p>KFPS SW-3.4</p>\n",
+            "status": 1081,
+            "BUG_component$154": 1561,
+            "BUG_subcomponent$154": "KFPS tool",
+            "createdBy": 5932,
+            "release": 2581,
+            "BUG_foundOnDate$154": "2025-12-10",
+            "priority": 2410,
+            "BUG_severity$154": 1109,
+            "BUG_category$154": 1422,
+            "BUG_testLevel$154": 1129,
+            "BUG_howFound$154": 1092,
+            "BUG_whereFound$154": 1137,
+            "BUG_probability_on_field$154": 2396,
+            "root_cause_category$154": 2512,
+            "BUG_testCaseUpdated$154": 1198,
+            "BUG_V1_project$154": 1431
+        },
+        "resources": {
+            "self": {
+                "allowed": [
+                    "GET"
+                ]
+            }
+        },
+        "version": 1,
+        "location": {
+            "sortOrder": 1404,
+            "globalSortOrder": 1311320923,
+            "sequence": "2.8.1405",
+            "parent": {
+                "item": 18771233
+            }
+        },
+        "lock": {
+            "locked": false,
+            "lastLockedDate": "2025-12-11T06:28:17.000+0000"
+        },
+        "type": "items"
+    },
+    {
+        "id": 28619197,
+        "documentKey": "KIE601-SWBUG-2826",
+        "globalId": "GID-7581772",
+        "itemType": 154,
+        "project": 417,
+        "createdDate": "2025-12-11T06:46:02.000+0000",
+        "modifiedDate": "2025-12-11T06:46:02.000+0000",
+        "lastActivityDate": "2025-12-11T06:46:02.000+0000",
+        "createdBy": 6117,
+        "modifiedBy": 6117,
+        "fields": {
+            "documentKey": "KIE601-SWBUG-2826",
+            "globalId": "GID-7581772",
+            "name": "IEX - Parameter PC2_2103 cannot be modified during running - UI sheet Update required",
+            "description": "<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\"><strong>Detailed Defect Description:</strong></span></span></p>\n\n<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\">IEX - Parameter PC2_2103 cannot be modified during running - UI sheet Update required</span></span></p>\n\n<p>&nbsp;</p>\n\n<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\"><strong>Parameters:&nbsp;&nbsp;</strong></span></span></p>\n\n<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\">PC2_2103</span></span></p>\n\n<p>&nbsp;</p>\n\n<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\"><strong>Group configuration: </strong></span></span></p>\n\n<p><span style=\"font-family:Calibri, sans-serif\"><span style=\"font-size:14.6667px\">NA</span></span></p>\n\n<p>&nbsp;</p>\n\n<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\"><strong>Drive type:</strong></span></span></p>\n\n<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\"><strong>NA</strong></span></span></p>\n\n<p>&nbsp;</p>\n\n<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\"><strong>Regression or new finding:</strong></span></span></p>\n\n<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\">New finding</span></span></p>\n\n<p>&nbsp;</p>\n\n<p>&nbsp;</p>\n\n<p>&nbsp;</p>\n\n<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\"><strong>Test case Name / Feature name:</strong></span></span></p>\n\n<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\">Ad hoc</span></span></p>\n\n<p>&nbsp;</p>\n\n<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\"><strong>Test step number:</strong></span></span></p>\n\n<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\">Ad hoc</span></span></p>\n\n<p>&nbsp;</p>\n\n<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\"><strong>Description of the test case (Detailed Scenario)&nbsp;</strong></span></span></p>\n\n<ul>\n\t<li>The UI sheet says that PC2_2103 parameter can be changed during running</li>\n\t<li>Actual behaviour: parameter not accessible while running</li>\n</ul>\n\n<p><img alt=\"\" height=\"180\" src=\"https://konerqm.jamacloud.com/attachment/234389/image-iRhjx3aKwr.png\" width=\"1476\" /></p>\n\n<p>&nbsp;</p>\n",
+            "status": 1081,
+            "BUG_component$154": 1561,
+            "BUG_subcomponent$154": "IEX",
+            "createdBy": 6117,
+            "release": 2581,
+            "BUG_foundOnDate$154": "2025-12-10",
+            "priority": 2410,
+            "BUG_severity$154": 1110,
+            "BUG_category$154": 1422,
+            "BUG_testLevel$154": 1129,
+            "BUG_howFound$154": 1092,
+            "BUG_whereFound$154": 1137,
+            "BUG_probability_on_field$154": 2396,
+            "root_cause_category$154": 2512,
+            "BUG_testCaseUpdated$154": 1198,
+            "BUG_V1_project$154": 1431
+        },
+        "resources": {
+            "self": {
+                "allowed": [
+                    "GET"
+                ]
+            }
+        },
+        "version": 1,
+        "location": {
+            "sortOrder": 1405,
+            "globalSortOrder": 1311321996,
+            "sequence": "2.8.1406",
+            "parent": {
+                "item": 18771233
+            }
+        },
+        "lock": {
+            "locked": false
+        },
+        "type": "items"
+    },
+    {
+        "id": 28620140,
+        "documentKey": "KIE601-SWBUG-2827",
+        "globalId": "GID-7581781",
+        "itemType": 154,
+        "project": 417,
+        "createdDate": "2025-12-11T06:57:42.000+0000",
+        "modifiedDate": "2025-12-11T06:58:43.000+0000",
+        "lastActivityDate": "2025-12-11T06:58:43.000+0000",
+        "createdBy": 5932,
+        "modifiedBy": 5932,
+        "fields": {
+            "documentKey": "KIE601-SWBUG-2827",
+            "globalId": "GID-7581781",
+            "name": "IEX-Incorrect Node Pairing Status Displayed in AMC Tool",
+            "description": "<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\"><strong>Detailed Defect Description:</strong></span></span></p>\n\n<p>IEX-Incorrect Node Pairing Status Displayed in AMC Tool</p>\n\n<p>&nbsp;</p>\n\n<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\"><strong>Parameters:&nbsp;&nbsp;</strong></span></span></p>\n\n<p><span style=\"font-family:Calibri,sans-serif\"><span style=\"font-size:14.6667px\">PC1_1420</span></span></p>\n\n<p>&nbsp;</p>\n\n<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\"><strong>Group configuration: </strong></span></span></p>\n\n<p><span style=\"font-family:Calibri,sans-serif\"><span style=\"font-size:14.6667px\">Single Escalator status</span></span></p>\n\n<p>&nbsp;</p>\n\n<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\"><strong>Drive type:</strong></span></span></p>\n\n<p><span style=\"font-family:Calibri,sans-serif\"><span style=\"font-size:14.6667px\">Monarch,Danfoss</span></span></p>\n\n<p>&nbsp;</p>\n\n<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\"><strong>Regression or new finding:</strong></span></span></p>\n\n<p>Adhoc&nbsp;</p>\n\n<p>&nbsp;</p>\n\n<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\"><strong>Description of the test case (Detailed Scenario)&nbsp;</strong></span></span></p>\n\n<p>1.No paired boards are physically connected in G01 board</p>\n\n<p>2.Node pairing status was checked using the AMC tool.</p>\n\n<p><strong>3.CPU,SEC1, SEC2, MSC, and LSC</strong> nodes are shown as <em>paired</em> in the AMC tool, even though they are not actually paired.</p>\n\n<p><strong>4.IOC1, IOC2, and LCB</strong> nodes are shown as <em>not paired</em>.</p>\n\n<p>&nbsp;</p>\n\n<p><img alt=\"\" height=\"522\" src=\"https://konerqm.jamacloud.com/attachment/234390/Screenshot_20251211_103957_Android_MiniConsole_v4%5B1%5D.jpg\" width=\"241\" /></p>\n\n<p>&nbsp;</p>\n\n<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\"><strong>Expected behavior:&nbsp;&nbsp;</strong></span></span></p>\n\n<p>The AMC tool should accurately reflect the actual pairing status of all nodes. If a node is paired, it should display as <em>paired to the corresponding board</em>. Since <strong>G01 KEN</strong> was not created.</p>\n\n<p>&nbsp;</p>\n\n<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\"><strong>Actual behavior:</strong></span></span></p>\n\n<p><strong>SEC1, SEC2, MSC, and LSC</strong> nodes are incorrectly displayed as paired in the AMC tool, despite not being physically paired.</p>\n\n<p>&nbsp;</p>\n\n<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\"><strong>Recovery:&nbsp;</strong></span></span></p>\n\n<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\">-</span></span></p>\n\n<p>&nbsp;</p>\n\n<p>&nbsp;</p>\n",
+            "status": 1081,
+            "BUG_component$154": 2243,
+            "BUG_subcomponent$154": "Escalator-KIE",
+            "createdBy": 5932,
+            "release": 2529,
+            "BUG_foundOnDate$154": "2025-12-10",
+            "priority": 2410,
+            "BUG_severity$154": 1282,
+            "BUG_category$154": 1422,
+            "BUG_testLevel$154": 1129,
+            "BUG_howFound$154": 1092,
+            "BUG_whereFound$154": 1137,
+            "BUG_probability_on_field$154": 2396,
+            "root_cause_category$154": 2512,
+            "BUG_testCaseUpdated$154": 1198,
+            "BUG_V1_project$154": 1431
+        },
+        "resources": {
+            "self": {
+                "allowed": [
+                    "GET"
+                ]
+            }
+        },
+        "version": 2,
+        "location": {
+            "sortOrder": 1406,
+            "globalSortOrder": 1311323069,
+            "sequence": "2.8.1407",
+            "parent": {
+                "item": 18771233
+            }
+        },
+        "lock": {
+            "locked": false,
+            "lastLockedDate": "2025-12-11T07:00:30.000+0000"
         },
         "type": "items"
     },
@@ -24064,6 +24228,65 @@
         "lock": {
             "locked": false,
             "lastLockedDate": "2025-12-11T05:05:47.000+0000"
+        },
+        "type": "items"
+    },
+    {
+        "id": 28618842,
+        "documentKey": "KCE-SWBUG-14081",
+        "globalId": "GID-7581768",
+        "itemType": 154,
+        "project": 229,
+        "createdDate": "2025-12-11T06:41:36.000+0000",
+        "modifiedDate": "2025-12-11T07:04:58.000+0000",
+        "lastActivityDate": "2025-12-11T07:04:59.000+0000",
+        "createdBy": 5995,
+        "modifiedBy": 5995,
+        "fields": {
+            "documentKey": "KCE-SWBUG-14081",
+            "globalId": "GID-7581768",
+            "name": "17.0 - KCEDCS - OEO EN81-76 DOP, DG & EG indication stuck when GERF1 & GERF2 inputs deactivated",
+            "description": "<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\"><strong>Detailed Defect Description:</strong></span></span></p>\n\n<p><span style=\"font-family:Calibri,sans-serif\"><span style=\"font-size:14.6667px\">The L3 indication stuck for a long time in&nbsp;</span></span><span style=\"font-family:Calibri,sans-serif\"><span style=\"font-size:14.6667px\">DOP, DG, and EG </span></span><span style=\"font-family:Calibri,sans-serif\"><span style=\"font-size:14.6667px\">when GERF1 &amp; GERF2 were deactivated</span></span></p>\n\n<p>&nbsp;</p>\n\n<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\"><strong>Parameters:&nbsp;&nbsp;</strong></span></span></p>\n\n<table cellspacing=\"0\">\n\t<tbody>\n\t\t<tr>\n\t\t\t<td>\n\t\t\t<p><strong>Parameter</strong></p>\n\t\t\t</td>\n\t\t\t<td>\n\t\t\t<p>&nbsp;</p>\n\n\t\t\t<p><strong>Lift 1</strong></p>\n\t\t\t</td>\n\t\t\t<td>\n\t\t\t<p>&nbsp;</p>\n\n\t\t\t<p><strong>Lift 2</strong></p>\n\t\t\t</td>\n\t\t\t<td>\n\t\t\t<p>&nbsp;</p>\n\n\t\t\t<p><strong>Lift 3</strong></p>\n\t\t\t</td>\n\t\t\t<td>\n\t\t\t<p>&nbsp;</p>\n\t\t\t<strong>Lift 4 (Fireman lift)</strong>\n\n\t\t\t<p>&nbsp;</p>\n\t\t\t</td>\n\t\t</tr>\n\t\t<tr>\n\t\t\t<td>1582-Standart type</td>\n\t\t\t<td>3</td>\n\t\t\t<td>3</td>\n\t\t\t<td>3</td>\n\t\t\t<td>0</td>\n\t\t</tr>\n\t\t<tr>\n\t\t\t<td>1594-Evacuation FOB28 signals connected</td>\n\t\t\t<td>1</td>\n\t\t\t<td>1</td>\n\t\t\t<td>1</td>\n\t\t\t<td>0</td>\n\t\t</tr>\n\t\t<tr>\n\t\t\t<td>1584-List of PIO cards</td>\n\t\t\t<td>51</td>\n\t\t\t<td>51</td>\n\t\t\t<td>0,0,0,0</td>\n\t\t\t<td>0,0,0,0</td>\n\t\t</tr>\n\t\t<tr>\n\t\t\t<td>Group : Evacuation strategy</td>\n\t\t\t<td colspan=\"4\">OEO D</td>\n\t\t</tr>\n\t</tbody>\n</table>\n\n<p>&nbsp;</p>\n\n<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\"><strong>Group configuration: </strong></span></span></p>\n\n<p><span style=\"font-family:Calibri,sans-serif\"><span style=\"font-size:14.6667px\">Fourplex</span></span></p>\n\n<p>&nbsp;</p>\n\n<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\"><strong>Drive type:</strong></span></span></p>\n\n<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\">KDL and KDM</span></span></p>\n\n<p>&nbsp;</p>\n\n<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\"><strong>Regression or new finding:</strong></span></span></p>\n\n<p><span style=\"font-family:Calibri,sans-serif\"><span style=\"font-size:14.6667px\">New</span></span></p>\n\n<p>&nbsp;</p>\n\n<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\"><strong>Test case Name / Feature name:</strong></span></span></p>\n\n<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\">ad-hoc defect</span></span></p>\n\n<p>&nbsp;</p>\n\n<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\"><strong>Test step number:</strong></span></span></p>\n\n<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\">\u201cad-hoc scenario\u201d</span></span></p>\n\n<p>&nbsp;</p>\n\n<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\"><strong>Description of the test case (Detailed Scenario)&nbsp;</strong></span></span></p>\n\n<ul>\n\t<li>The 3 lifts in a normal mode and one lift in FRD mode</li>\n\t<li>The GERF1 input activated&nbsp;in lift 1 (via OPT)</li>\n\t<li>Lift reaches&nbsp;GERF1 and doors opened and closed</li>\n\t<li>Then GERF2 input activated (via OPT)</li>\n\t<li>Deactivate GERF2 input&nbsp;(via OPT)</li>\n\t<li>Then deactivate GERF1 input&nbsp;(via OPT)</li>\n\t<li>The DOP,DG &amp; EG <strong>(L3)&nbsp;</strong>indication stuck for long time</li>\n</ul>\n\n<p><strong>Stuck with below modes:</strong></p>\n\n<p><img alt=\"\" height=\"132\" src=\"https://konerqm.jamacloud.com/attachment/234371/image-ju6sUB9K0v.png\" width=\"600\" />\u200b\u200b\u200b\u200b</p>\n\n<p>&nbsp;</p>\n\n<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\"><strong>Expected behavior:&nbsp;&nbsp;</strong></span></span></p>\n\n<p><span style=\"font-family:Calibri,sans-serif\"><span style=\"font-size:14.6667px\">The DOP,DG &amp; EG should revert to normal mode</span></span></p>\n\n<p>&nbsp;</p>\n\n<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\"><strong>Actual behavior:</strong></span></span></p>\n\n<p><span style=\"font-family:Calibri,sans-serif\"><span style=\"font-size:14.6667px\">The </span></span><span style=\"font-family:Calibri,sans-serif\"><span style=\"font-size:14.6667px\">DOP,DG &amp; EG stuck with L3</span></span></p>\n\n<p>&nbsp;</p>\n\n<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\"><strong>Recovery:&nbsp;</strong></span></span></p>\n\n<p><strong><span style=\"font-family:Calibri,sans-serif\"><span style=\"font-size:14.6667px\"><span style=\"background-color:#f1c40f\">GCH restart</span></span></span><span style=\"font-family:Calibri,sans-serif\"><span style=\"font-size:14.6667px\"><span style=\"background-color:#f1c40f\">&nbsp;for xDOP &amp; EG</span></span></span></strong></p>\n\n<p><strong><span style=\"font-family:Calibri,sans-serif\"><span style=\"font-size:14.6667px\"><span style=\"background-color:#f1c40f\">CPUc individual restart wherever DG is connected&nbsp;</span></span></span></strong></p>\n\n<p>&nbsp;</p>\n\n<p>&nbsp;</p>\n\n<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\"><strong>Log attached Information:</strong></span></span></p>\n\n<p><span style=\"font-family:Calibri,sans-serif\"><span style=\"font-size:14.6667px\">Node debug info DG logs Event traffic,LPA and video file</span></span></p>\n\n<p>&nbsp;</p>\n\n<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\">Note: Once defect is logged, attachments can be done by editing the defect (use compressed zip folder format)</span></span></p>\n\n<p>&nbsp;</p>\n\n<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\"><strong>Value-added information:&nbsp;</strong></span></span></p>\n\n<p>DOP_version: 1.7.0.11<br />\nDMA_version: 1.7.0.1</p>\n\n<p>&nbsp;</p>\n\n<p>DG APK 1.7.0.5</p>\n\n<p>DMA DG 1.6.0.0</p>\n\n<p>&nbsp;</p>\n\n<p><strong><span style=\"color:#2ecc71\">Normal Mode indication reflected in \"COP display (Mondrian), Promanager, and E-link,\" when the inputs are deactivated.</span></strong></p>\n\n<p>&nbsp;</p>\n\n<p><strong>After GCH restart, xDOP came to normal function, like the image below and DCS calls are shared even though the DGs are in L3 Indication:</strong></p>\n\n<p>&nbsp;</p>\n\n<p><strong><img alt=\"\" height=\"672\" src=\"https://konerqm.jamacloud.com/attachment/234399/image-f3ovqJj2m9.png\" width=\"417\" /></strong></p>\n\n<p>&nbsp;</p>\n\n<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\"><strong>Test Sequence history:&nbsp;</strong></span></span></p>\n\n<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\">1: was failing scenario passing earlier</span></span></p>\n\n<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\">2. what was SW level when this was passing last time</span></span></p>\n\n<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\">3. any changes in test setup or test scenario between passed and failed run</span></span></p>\n\n<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\">4. any changes in tested system configuration between passed and failed run</span></span></p>\n\n<p>&nbsp;</p>\n\n<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\"><strong>Requirement related to the defect:</strong></span></span></p>\n\n<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\">(e.g. URL link to requirement which is related to the defect)</span></span></p>\n",
+            "status": 1081,
+            "BUG_component$154": 1531,
+            "BUG_subcomponent$154": "KCEGCH",
+            "createdBy": 5995,
+            "release": 2396,
+            "BUG_foundInBuild$154": "17.0.0.116(LD: 17.0.0.20, GCD: 17.0.1.1)",
+            "BUG_foundOnDate$154": "2025-12-10",
+            "priority": 2410,
+            "BUG_severity$154": 1109,
+            "BUG_category$154": 1422,
+            "BUG_testLevel$154": 1129,
+            "BUG_howFound$154": 1092,
+            "BUG_whereFound$154": 1137,
+            "BUG_probability_on_field$154": 2398,
+            "root_cause_category$154": 2512,
+            "BUG_testCaseUpdated$154": 1198,
+            "BUG_V1_project$154": 1431
+        },
+        "resources": {
+            "self": {
+                "allowed": [
+                    "GET",
+                    "PUT",
+                    "PATCH",
+                    "DELETE"
+                ]
+            }
+        },
+        "version": 2,
+        "location": {
+            "sortOrder": 6577,
+            "globalSortOrder": 1665950546,
+            "sequence": "17.6578",
+            "parent": {
+                "item": 83266
+            }
+        },
+        "lock": {
+            "locked": false,
+            "lastLockedDate": "2025-12-11T07:05:01.000+0000"
         },
         "type": "items"
     }
