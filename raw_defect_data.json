@@ -4520,16 +4520,16 @@
         "itemType": 154,
         "project": 417,
         "createdDate": "2025-12-08T13:59:14.000+0000",
-        "modifiedDate": "2025-12-09T09:40:31.000+0000",
-        "lastActivityDate": "2025-12-09T09:40:31.000+0000",
+        "modifiedDate": "2025-12-11T14:04:02.000+0000",
+        "lastActivityDate": "2025-12-11T14:04:02.000+0000",
         "createdBy": 5932,
-        "modifiedBy": 5932,
+        "modifiedBy": 6612,
         "fields": {
             "documentKey": "KIE601-SWBUG-2811",
             "globalId": "GID-7575591",
             "name": "IEX- When Fault 37-3,37-2 and 37-1 triggered, AMC displays normal mode",
             "description": "<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\"><strong>Detailed Defect Description:</strong></span></span></p>\n\n<p>IEX- When Fault 37-3,37-2 and 37-1 triggered, AMC displays normal mode</p>\n\n<p>&nbsp;</p>\n\n<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\"><strong>Parameters:&nbsp;&nbsp;</strong></span></span></p>\n\n<p><span style=\"font-family:Calibri,sans-serif\"><span style=\"font-size:14.6667px\">-</span></span></p>\n\n<p>&nbsp;</p>\n\n<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\"><strong>Group configuration: </strong></span></span></p>\n\n<p><span style=\"font-family:Calibri,sans-serif\"><span style=\"font-size:14.6667px\">Single escalator setup</span></span></p>\n\n<p>&nbsp;</p>\n\n<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\"><strong>Drive type:</strong></span></span></p>\n\n<p><span style=\"font-family:Calibri,sans-serif\"><span style=\"font-size:14.6667px\">Monarch, Danfoss</span></span></p>\n\n<p>&nbsp;</p>\n\n<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\"><strong>Regression or new finding:</strong></span></span></p>\n\n<p>Adhoc</p>\n\n<p>&nbsp;</p>\n\n<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\"><strong>Description of the test case (Detailed Scenario)&nbsp;</strong></span></span></p>\n\n<p>1.Escalator in stopped condition.</p>\n\n<p>2.Remove CPU X12 pin 4 (Start Permit).</p>\n\n<p>3.Fault F37-3 gets triggered.</p>\n\n<p>4.Check in AMC tool.</p>\n\n<p>5.AMC tool displays normal mode.</p>\n\n<p>&nbsp;</p>\n\n<p><strong>Note: Same issue occurs for F 37-2,37-1</strong></p>\n\n<p><strong>Checked with KFPS tool same issue occurs</strong></p>\n\n<p>&nbsp;</p>\n\n<p><strong>For creating Fault 037-1&nbsp;</strong><br />\n<br />\nWhile Escalator running in UP direction-Remove&nbsp;MSC X25 pin 3 (Up Run monitor) - Escalator stops immediately and fault gets triggered F 037-1 in FUI , but AMC displays normal mode.</p>\n\n<p>While Escalator running in Down Direction-Remove&nbsp;MSC X25 pin 4 (Down Run monitor) -Escalator stops immediately and fault gets triggered&nbsp;F 037-1&nbsp;in FUI, but AMC displays normal mode.</p>\n\n<p>&nbsp;</p>\n\n<p><strong>For creating Fault 037-2</strong></p>\n\n<p>Escalator in stop condition,&nbsp;remove the MSC X25 pin 2 (Run Stop monitor) - Fault get triggered 037-2.in FUI , but AMC displays normal mode.</p>\n\n<p>&nbsp;</p>\n\n<p><strong>For creating Fault 037-3</strong></p>\n\n<p>Escalator in stop condition,&nbsp;remove the CPU X12 pin 4 (Start Permit) - Fault get triggered 037-3.in FUI , but AMC displays normal mode.</p>\n\n<p>&nbsp;</p>\n\n<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\"><strong>Expected behavior:&nbsp;&nbsp;</strong></span></span></p>\n\n<p>AMC tool should display out of service</p>\n\n<p>&nbsp;</p>\n\n<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\"><strong>Actual behavior:</strong></span></span></p>\n\n<p>AMC tool display normal service</p>\n\n<p>&nbsp;</p>\n\n<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\"><strong>Recovery:&nbsp;</strong></span></span></p>\n\n<p><span style=\"font-family:Calibri,sans-serif\"><span style=\"font-size:14.6667px\">-</span></span></p>\n\n<p>&nbsp;</p>\n\n<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\"><strong>Value-added information:&nbsp;</strong></span></span></p>\n\n<p>IEX CPU SW-R 2.0.3</p>\n\n<p>AMC SW-4.6.250.7156</p>\n",
-            "status": 1082,
+            "status": 1085,
             "BUG_component$154": 1561,
             "createdBy": 5932,
             "assignedTo": 6612,
@@ -4543,6 +4543,7 @@
             "BUG_whereFound$154": 1137,
             "BUG_probability_on_field$154": 2397,
             "root_cause_category$154": 2512,
+            "BUG_rootCause$154": "<p>Fault was added to a non-OSI variable, so not able to indicate it as out of service</p>",
             "BUG_testCaseUpdated$154": 1198,
             "BUG_V1_project$154": 1431
         },
@@ -4553,7 +4554,7 @@
                 ]
             }
         },
-        "version": 5,
+        "version": 7,
         "location": {
             "sortOrder": 1390,
             "globalSortOrder": 1311305901,
@@ -4564,7 +4565,7 @@
         },
         "lock": {
             "locked": false,
-            "lastLockedDate": "2025-12-09T09:40:32.000+0000"
+            "lastLockedDate": "2025-12-11T14:04:03.000+0000"
         },
         "type": "items"
     },
@@ -5014,15 +5015,15 @@
         "itemType": 154,
         "project": 417,
         "createdDate": "2025-12-10T17:41:51.000+0000",
-        "modifiedDate": "2025-12-11T06:37:01.000+0000",
-        "lastActivityDate": "2025-12-11T06:37:01.000+0000",
+        "modifiedDate": "2025-12-11T12:32:56.000+0000",
+        "lastActivityDate": "2025-12-11T12:32:56.000+0000",
         "createdBy": 5932,
         "modifiedBy": 5932,
         "fields": {
             "documentKey": "KIE601-SWBUG-2822",
             "globalId": "GID-7581399",
             "name": "IEX-Difficult to Identifying Correct Binary File During Software Update in AMC service tool.",
-            "description": "<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\"><strong>Detailed Defect Description:</strong></span></span></p>\n\n<p>IEX-Difficult to Identifying Correct Binary File During Software Update in AMC service tool.</p>\n\n<p>&nbsp;</p>\n\n<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\"><strong>Parameters:&nbsp;&nbsp;</strong></span></span></p>\n\n<p><span style=\"font-family:Calibri,sans-serif\"><span style=\"font-size:14.6667px\">-</span></span></p>\n\n<p>&nbsp;</p>\n\n<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\"><strong>Group configuration: </strong></span></span></p>\n\n<p><span style=\"font-family:Calibri,sans-serif\"><span style=\"font-size:14.6667px\">Single escalator setup</span></span></p>\n\n<p>&nbsp;</p>\n\n<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\"><strong>Drive type:</strong></span></span></p>\n\n<p><span style=\"font-family:Calibri,sans-serif\"><span style=\"font-size:14.6667px\">Monarch, Danfoss</span></span></p>\n\n<p>&nbsp;</p>\n\n<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\"><strong>Regression or new finding:</strong></span></span></p>\n\n<p><span style=\"font-family:Calibri,sans-serif\"><span style=\"font-size:14.6667px\">Adhoc</span></span></p>\n\n<p>&nbsp;</p>\n\n<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\"><strong>Description of the test case (Detailed Scenario)&nbsp;</strong></span></span></p>\n\n<p>1.Attempt to update the software in the AMC tool.</p>\n\n<p>2.Navigate to <strong>Tools \u2192 Escalator Software Update \u2192 Updates in Device Memory</strong>, then select the file to update.</p>\n\n<p>3.When checking the files under <strong>Updates in Device Memory</strong>, it is difficult to identify which binary file should be used for the update, it displays only KCL version.(3 files with same name)</p>\n\n<p>&nbsp;</p>\n\n<p><img alt=\"\" height=\"536\" src=\"https://konerqm.jamacloud.com/attachment/234355/image-AwokZfiawF.png\" width=\"261\" /></p>\n\n<p>&nbsp;</p>\n\n<p><strong><span style=\"background-color:#f1c40f\">Note: The same issue occurs in the Escalator Controller Backup view. When checking the software details, only the KCL information is displayed; the CPU version information is not available.</span></strong></p>\n\n<p><img alt=\"\" height=\"565\" src=\"https://konerqm.jamacloud.com/attachment/234386/Screenshot_20251211_120013_Android_MiniConsole_v4%5B1%5D.jpg\" width=\"261\" /></p>\n\n<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\"><strong>Expected behavior:&nbsp;&nbsp;</strong></span></span></p>\n\n<p>The system should display the available binary files in a clear and identifiable manner, allowing the user to easily select the correct file for the software update.</p>\n\n<p>&nbsp;</p>\n\n<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\"><strong>Actual behavior:</strong></span></span></p>\n\n<p>The files listed under <strong>Updates in Device Memory</strong> appear unclear and making it challenging for the user to identify which binary file should be selected for the software update.</p>\n\n<p>&nbsp;</p>\n\n<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\"><strong>Recovery:&nbsp;</strong></span></span></p>\n\n<p><span style=\"font-family:Calibri,sans-serif\"><span style=\"font-size:14.6667px\">-</span></span></p>\n\n<p>&nbsp;</p>\n\n<p>&nbsp;</p>\n\n<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\"><strong>Log attached Information:</strong></span></span></p>\n\n<p>Video attachment.</p>\n\n<p>&nbsp;</p>\n\n<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\"><strong>Value-added information:&nbsp;</strong></span></span></p>\n\n<p>IEX SW-R2.0.3</p>\n\n<p>AMC SW-4.6.250.7156</p>\n",
+            "description": "<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\"><strong>Detailed Defect Description:</strong></span></span></p>\n\n<p>IEX-Difficult to Identifying Correct Binary File During Software Update in AMC service tool.</p>\n\n<p>&nbsp;</p>\n\n<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\"><strong>Parameters:&nbsp;&nbsp;</strong></span></span></p>\n\n<p><span style=\"font-family:Calibri,sans-serif\"><span style=\"font-size:14.6667px\">-</span></span></p>\n\n<p>&nbsp;</p>\n\n<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\"><strong>Group configuration: </strong></span></span></p>\n\n<p><span style=\"font-family:Calibri,sans-serif\"><span style=\"font-size:14.6667px\">Single escalator setup</span></span></p>\n\n<p>&nbsp;</p>\n\n<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\"><strong>Drive type:</strong></span></span></p>\n\n<p><span style=\"font-family:Calibri,sans-serif\"><span style=\"font-size:14.6667px\">Monarch, Danfoss</span></span></p>\n\n<p>&nbsp;</p>\n\n<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\"><strong>Regression or new finding:</strong></span></span></p>\n\n<p><span style=\"font-family:Calibri,sans-serif\"><span style=\"font-size:14.6667px\">Adhoc</span></span></p>\n\n<p>&nbsp;</p>\n\n<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\"><strong>Description of the test case (Detailed Scenario)&nbsp;</strong></span></span></p>\n\n<p>1.Attempt to update the software in the AMC tool.</p>\n\n<p>2.Navigate to <strong>Tools \u2192 Escalator Software Update \u2192 Updates in Device Memory</strong>, then select the file to update.</p>\n\n<p>3.When checking the files under <strong>Updates in Device Memory</strong>, it is difficult to identify which binary file should be used for the update, it displays only KCL version.(3 files with same name)</p>\n\n<p>&nbsp;</p>\n\n<p><img alt=\"\" height=\"536\" src=\"https://konerqm.jamacloud.com/attachment/234355/image-AwokZfiawF.png\" width=\"261\" /></p>\n\n<p>&nbsp;</p>\n\n<p>&nbsp;</p>\n\n<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\"><strong>Expected behavior:&nbsp;&nbsp;</strong></span></span></p>\n\n<p>The system should display the available binary files in a clear and identifiable manner, allowing the user to easily select the correct file for the software update.</p>\n\n<p>&nbsp;</p>\n\n<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\"><strong>Actual behavior:</strong></span></span></p>\n\n<p>The files listed under <strong>Updates in Device Memory</strong> appear unclear and making it challenging for the user to identify which binary file should be selected for the software update.</p>\n\n<p>&nbsp;</p>\n\n<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\"><strong>Recovery:&nbsp;</strong></span></span></p>\n\n<p><span style=\"font-family:Calibri,sans-serif\"><span style=\"font-size:14.6667px\">-</span></span></p>\n\n<p>&nbsp;</p>\n\n<p>&nbsp;</p>\n\n<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\"><strong>Log attached Information:</strong></span></span></p>\n\n<p>Video attachment.</p>\n\n<p>&nbsp;</p>\n\n<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\"><strong>Value-added information:&nbsp;</strong></span></span></p>\n\n<p>IEX SW-R2.0.3</p>\n\n<p>AMC SW-4.6.250.7156</p>\n",
             "status": 1081,
             "BUG_component$154": 2243,
             "BUG_subcomponent$154": "Escalator KIE",
@@ -5047,7 +5048,7 @@
                 ]
             }
         },
-        "version": 7,
+        "version": 8,
         "location": {
             "sortOrder": 1401,
             "globalSortOrder": 1311317704,
@@ -5058,7 +5059,7 @@
         },
         "lock": {
             "locked": false,
-            "lastLockedDate": "2025-12-11T06:37:03.000+0000"
+            "lastLockedDate": "2025-12-11T12:32:58.000+0000"
         },
         "type": "items"
     },
@@ -5290,15 +5291,15 @@
         "itemType": 154,
         "project": 417,
         "createdDate": "2025-12-11T06:57:42.000+0000",
-        "modifiedDate": "2025-12-11T10:22:51.000+0000",
-        "lastActivityDate": "2025-12-11T10:22:51.000+0000",
+        "modifiedDate": "2025-12-11T13:18:30.000+0000",
+        "lastActivityDate": "2025-12-11T13:18:30.000+0000",
         "createdBy": 5932,
         "modifiedBy": 5932,
         "fields": {
             "documentKey": "KIE601-SWBUG-2827",
             "globalId": "GID-7581781",
             "name": "IEX-Incorrect Node Pairing Status Displayed in AMC Tool",
-            "description": "<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\"><strong>Detailed Defect Description:</strong></span></span></p>\n\n<p>IEX-Incorrect Node Pairing Status Displayed in AMC Tool</p>\n\n<p>&nbsp;</p>\n\n<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\"><strong>Parameters:&nbsp;&nbsp;</strong></span></span></p>\n\n<p><span style=\"font-family:Calibri,sans-serif\"><span style=\"font-size:14.6667px\">PC1_1420</span></span></p>\n\n<p>&nbsp;</p>\n\n<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\"><strong>Group configuration: </strong></span></span></p>\n\n<p><span style=\"font-family:Calibri,sans-serif\"><span style=\"font-size:14.6667px\">Single Escalator status</span></span></p>\n\n<p>&nbsp;</p>\n\n<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\"><strong>Drive type:</strong></span></span></p>\n\n<p><span style=\"font-family:Calibri,sans-serif\"><span style=\"font-size:14.6667px\">Monarch,Danfoss</span></span></p>\n\n<p>&nbsp;</p>\n\n<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\"><strong>Regression or new finding:</strong></span></span></p>\n\n<p>Adhoc&nbsp;</p>\n\n<p>&nbsp;</p>\n\n<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\"><strong>Description of the test case (Detailed Scenario)&nbsp;</strong></span></span></p>\n\n<p>1.No paired boards are physically connected in G01 board</p>\n\n<p>2.Node pairing status was checked using the AMC tool.</p>\n\n<p><strong>3.CPU,SEC1, SEC2, MSC, and LSC</strong> nodes are shown as <em>paired</em> in the AMC tool, even though they are not actually paired.</p>\n\n<p><strong>4.IOC1, IOC2, and LCB</strong> nodes are shown as <em>not paired</em>.</p>\n\n<p>&nbsp;</p>\n\n<p><img alt=\"\" height=\"522\" src=\"https://konerqm.jamacloud.com/attachment/234390/Screenshot_20251211_103957_Android_MiniConsole_v4%5B1%5D.jpg\" width=\"241\" /></p>\n\n<p>Scenario 2:</p>\n\n<p>&nbsp;</p>\n\n<p>&nbsp;</p>\n\n<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\"><strong>Expected behavior:&nbsp;&nbsp;</strong></span></span></p>\n\n<p>The AMC tool should accurately reflect the actual pairing status of all nodes. If a node is paired, it should display as <em>paired to the corresponding board</em>. Since <strong>G01 KEN</strong> was not created.</p>\n\n<p>&nbsp;</p>\n\n<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\"><strong>Actual behavior:</strong></span></span></p>\n\n<p><strong>SEC1, SEC2, MSC, and LSC</strong> nodes are incorrectly displayed as paired in the AMC tool, despite not being physically paired.</p>\n\n<p>&nbsp;</p>\n\n<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\"><strong>Recovery:&nbsp;</strong></span></span></p>\n\n<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\">-</span></span></p>\n\n<p>&nbsp;</p>\n\n<p>&nbsp;</p>\n",
+            "description": "<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\"><strong>Detailed Defect Description:</strong></span></span></p>\n\n<p>IEX-Incorrect Node Pairing Status Displayed in AMC Tool</p>\n\n<p>&nbsp;</p>\n\n<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\"><strong>Parameters:&nbsp;&nbsp;</strong></span></span></p>\n\n<p><span style=\"font-family:Calibri,sans-serif\"><span style=\"font-size:14.6667px\">PC1_1420</span></span></p>\n\n<p>&nbsp;</p>\n\n<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\"><strong>Group configuration: </strong></span></span></p>\n\n<p><span style=\"font-family:Calibri,sans-serif\"><span style=\"font-size:14.6667px\">Single Escalator status</span></span></p>\n\n<p>&nbsp;</p>\n\n<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\"><strong>Drive type:</strong></span></span></p>\n\n<p><span style=\"font-family:Calibri,sans-serif\"><span style=\"font-size:14.6667px\">Monarch,Danfoss</span></span></p>\n\n<p>&nbsp;</p>\n\n<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\"><strong>Regression or new finding:</strong></span></span></p>\n\n<p>Adhoc&nbsp;</p>\n\n<p>&nbsp;</p>\n\n<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\"><strong>Description of the test case (Detailed Scenario)&nbsp;</strong></span></span></p>\n\n<p>&nbsp;</p>\n\n<p>1.The CPU is not registered with the KEN.</p>\n\n<p>2.Navigate to Tools \u2192 Pairing \u2192 Pairing Status; the tool displays 8 paired devices (IOC1, IOC2, SEC1, SEC2, LCB, LSC, CPU).</p>\n\n<p>3.The pairing status should show devices in a not paired condition.</p>\n\n<p>:<img alt=\"\" height=\"481\" src=\"https://konerqm.jamacloud.com/attachment/234451/KEN.jpg\" width=\"222\" /></p>\n\n<p>&nbsp;</p>\n\n<p>Scenario 2:</p>\n\n<ol>\n\t<li>\n\t<p><strong>PC1_1420_10</strong> has been set (SEC node assigned to <strong>10</strong>).</p>\n\t</li>\n\t<li>\n\t<p>Safety push has been done&nbsp;and roll call is done.</p>\n\t</li>\n\t<li>\n\t<p>SEC-related faults were thrown. Upon checking the <strong>AMC Node Pairing Status</strong>, it shows an <strong>incorrect pairing status</strong>.</p>\n\t</li>\n</ol>\n\n<p><strong>Note:</strong> We have only connected <strong>2 SECs</strong>, but the system indicates that <strong>SEC 3</strong> is paired.</p>\n\n<p>&nbsp;</p>\n\n<p><img alt=\"\" height=\"507\" src=\"https://konerqm.jamacloud.com/attachment/234452/SEC.jpg\" width=\"234\" /></p>\n\n<p>&nbsp;</p>\n\n<p>&nbsp;</p>\n\n<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\"><strong>Expected behavior:&nbsp;&nbsp;</strong></span></span></p>\n\n<p>The Pairing Status screen should correctly display the actual pairing condition. Since the CPU is not registered with the KEN, all devices (IOC1, IOC2, SEC1, SEC2, LCB, LSC, CPU) should appear as Not Paired, with no paired devices shown.</p>\n\n<p>&nbsp;</p>\n\n<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\"><strong>Actual behavior:</strong></span></span></p>\n\n<p>The Pairing Status screen incorrectly displays 8 devices (IOC1, IOC2, SEC1, SEC2, LCB, LSC, CPU) as Paired, .</p>\n\n<p>&nbsp;</p>\n\n<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\"><strong>Recovery:&nbsp;</strong></span></span></p>\n\n<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\">-</span></span></p>\n\n<p>&nbsp;</p>\n\n<p>&nbsp;</p>\n",
             "status": 1081,
             "BUG_component$154": 2243,
             "BUG_subcomponent$154": "Escalator-KIE",
@@ -5323,7 +5324,7 @@
                 ]
             }
         },
-        "version": 4,
+        "version": 7,
         "location": {
             "sortOrder": 1406,
             "globalSortOrder": 1311323069,
@@ -5334,7 +5335,61 @@
         },
         "lock": {
             "locked": false,
-            "lastLockedDate": "2025-12-11T11:34:03.000+0000"
+            "lastLockedDate": "2025-12-11T13:18:32.000+0000"
+        },
+        "type": "items"
+    },
+    {
+        "id": 28622287,
+        "documentKey": "KIE601-SWBUG-2829",
+        "globalId": "GID-7582737",
+        "itemType": 154,
+        "project": 417,
+        "createdDate": "2025-12-11T13:12:05.000+0000",
+        "modifiedDate": "2025-12-11T13:12:05.000+0000",
+        "lastActivityDate": "2025-12-11T13:12:05.000+0000",
+        "createdBy": 5932,
+        "modifiedBy": 5932,
+        "fields": {
+            "documentKey": "KIE601-SWBUG-2829",
+            "globalId": "GID-7582737",
+            "name": "IEX-CPU Version not Displayed in AMC Backup/Restore Software Details",
+            "description": "<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\"><strong>Detailed Defect Description:</strong></span></span></p>\n\n<p>IEX-CPU Version not Displayed in AMC Backup/Restore Software Details</p>\n\n<p>&nbsp;</p>\n\n<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\"><strong>Parameters:&nbsp;&nbsp;</strong></span></span></p>\n\n<p><span style=\"font-family:Calibri, sans-serif\"><span style=\"font-size:14.6667px\">-</span></span></p>\n\n<p>&nbsp;</p>\n\n<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\"><strong>Group configuration: </strong></span></span></p>\n\n<p><span style=\"font-family:Calibri, sans-serif\"><span style=\"font-size:14.6667px\">Single escalator setup</span></span></p>\n\n<p>&nbsp;</p>\n\n<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\"><strong>Drive type:</strong></span></span></p>\n\n<p><span style=\"font-family:Calibri, sans-serif\"><span style=\"font-size:14.6667px\">Monarch,Danfoss</span></span></p>\n\n<p>&nbsp;</p>\n\n<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\"><strong>Regression or new finding:</strong></span></span></p>\n\n<p><span style=\"font-family:Calibri, sans-serif\"><span style=\"font-size:14.6667px\">Regression</span></span></p>\n\n<p>&nbsp;</p>\n\n<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\"><strong>Test case Name / Feature name:</strong></span></span></p>\n\n<p><span style=\"font-family:Calibri, sans-serif\"><span style=\"font-size:14.6667px\">Parameter backup view.</span></span></p>\n\n<p>&nbsp;</p>\n\n<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\"><strong>Description of the test case (Detailed Scenario)&nbsp;</strong></span></span></p>\n\n<p>1.Connect the escalator to the AMC.</p>\n\n<p>2.Navigate to <strong>Tools \u2192 Escalator Controller Backup/Restore</strong>.</p>\n\n<p>3.Verify the <strong>last backup details</strong>.</p>\n\n<p>4.When checking the software information, <strong>only the KCL details,Backup date and time are visible</strong>.</p>\n\n<p>5.The <strong>CPU version information is missing</strong> and is not shown in the backup details.</p>\n\n<p>6.If the <strong>CPU version</strong> were displayed, it would make it easier for us to access the required information.</p>\n\n<p>&nbsp;</p>\n\n<p><img alt=\"\" height=\"537\" src=\"https://konerqm.jamacloud.com/attachment/234455/BACKUP.jpg\" width=\"248\" /></p>\n\n<p>&nbsp;</p>\n\n<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\"><strong>Expected behavior:&nbsp;&nbsp;</strong></span></span></p>\n\n<p>Under <strong>Backup Details</strong>,&nbsp;&nbsp;<strong>KCL information</strong> <strong>and</strong> <strong>CPU version information,Backup date and time&nbsp;</strong>should be visible.</p>\n\n<p>&nbsp;</p>\n\n<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\"><strong>Actual behavior:</strong></span></span></p>\n\n<p>When checking the software information, <strong>only the KCL details,Backup date and time are visible</strong>.</p>\n\n<p>&nbsp;</p>\n\n<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\"><strong>Recovery:&nbsp;</strong></span></span></p>\n\n<p><span style=\"font-family:Calibri, sans-serif\"><span style=\"font-size:14.6667px\">-</span></span></p>\n\n<p>&nbsp;</p>\n\n<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\"><strong>Value-added information:&nbsp;</strong></span></span></p>\n\n<p>IEX SW-R 2.0.3</p>\n\n<p>AMC SW-4.6.250.7156</p>\n",
+            "status": 1081,
+            "BUG_component$154": 2243,
+            "BUG_subcomponent$154": "Escalator",
+            "createdBy": 5932,
+            "release": 2529,
+            "BUG_foundOnDate$154": "2025-12-10",
+            "priority": 2410,
+            "BUG_severity$154": 1110,
+            "BUG_category$154": 1422,
+            "BUG_testLevel$154": 1129,
+            "BUG_howFound$154": 2407,
+            "BUG_whereFound$154": 1137,
+            "BUG_probability_on_field$154": 2396,
+            "root_cause_category$154": 2512,
+            "BUG_testCaseUpdated$154": 1198,
+            "BUG_V1_project$154": 1431
+        },
+        "resources": {
+            "self": {
+                "allowed": [
+                    "GET"
+                ]
+            }
+        },
+        "version": 1,
+        "location": {
+            "sortOrder": 1408,
+            "globalSortOrder": 1311374526,
+            "sequence": "2.8.1409",
+            "parent": {
+                "item": 18771233
+            }
+        },
+        "lock": {
+            "locked": false
         },
         "type": "items"
     },
@@ -24125,10 +24180,10 @@
         "itemType": 154,
         "project": 229,
         "createdDate": "2025-12-10T11:53:17.000+0000",
-        "modifiedDate": "2025-12-10T11:53:17.000+0000",
-        "lastActivityDate": "2025-12-10T11:55:28.000+0000",
+        "modifiedDate": "2025-12-11T12:20:54.000+0000",
+        "lastActivityDate": "2025-12-11T12:20:54.000+0000",
         "createdBy": 6096,
-        "modifiedBy": 6096,
+        "modifiedBy": 1546,
         "fields": {
             "documentKey": "KCE-SWBUG-14072",
             "globalId": "GID-7580215",
@@ -24136,8 +24191,9 @@
             "description": "<p><em><strong>Parameter:</strong></em><br />\n<img alt=\"\" height=\"163\" src=\"https://konerqm.jamacloud.com/attachment/234216/image-qjwWJ6obcO.png\" width=\"411\" /></p>\n\n<p>&nbsp;</p>\n\n<p><br />\n<em><strong>\u200b\u200b\u200b\u200b\u200b\u200bDescription:</strong></em></p>\n\n<ul>\n\t<li>LD : 17.0.0.20</li>\n\t<li>KNSMUL : 0.0.0.50</li>\n\t<li>Drive : PDX</li>\n\t<li>Shaft : 72&nbsp;Floor Staggered, Dummy &amp; TTC setup&nbsp;</li>\n\t<li>1096 - 0 (Selective)</li>\n\t<li>A &amp; B side KNSMUL - Non-Conventional (KCOP)</li>\n</ul>\n\n<p>&nbsp;</p>\n\n<ul>\n\t<li>Elevator in Normal Mode (Vacant State)</li>\n\t<li>COP - TSCOP (Main &amp; AUX)</li>\n</ul>\n\n<p><em><strong>Actual Scenario:</strong></em></p>\n\n<ul>\n\t<li>HAN from B side KNSMUL-KCOP Pressed&nbsp;</li>\n\t<li>Sequence starts &amp; Doors are Opened in A side\u200b\u200b\u200b</li>\n</ul>\n\n<p>&nbsp;</p>\n\n<p><em><strong>Expected Scenario:</strong></em></p>\n\n<ul>\n\t<li>Since HAN Button is pressed from B Side MUL</li>\n\t<li>B side Doors should be Left Opened and should follow HAN Sequence</li>\n</ul>\n\n<p>&nbsp;</p>\n\n<p><em><strong>NOTE:</strong></em></p>\n\n<ul>\n\t<li>When HAN is activated while B side doors are closing, HAN Mode Activates in B side</li>\n\t<li>This issue is discussed with Dhinakaran Vasanth</li>\n\t<li>Logs have been attached</li>\n</ul>\n",
             "status": 1081,
             "BUG_component$154": 1291,
+            "BUG_subcomponent$154": "Lack of requirements",
             "createdBy": 6096,
-            "assignedTo": 2040,
+            "assignedTo": 2064,
             "release": 2396,
             "BUG_foundInBuild$154": "KCE 17.0.0.116(LD: 17.0.0.20, GCD: 17.0.1.1), WELM Appl: 0.0.0.92, WELM Prot: 0.0.0.17",
             "BUG_foundOnDate$154": "2025-12-09",
@@ -24162,7 +24218,7 @@
                 ]
             }
         },
-        "version": 1,
+        "version": 2,
         "location": {
             "sortOrder": 6568,
             "globalSortOrder": 1665903949,
@@ -24173,7 +24229,7 @@
         },
         "lock": {
             "locked": false,
-            "lastLockedDate": "2025-12-11T11:42:25.000+0000"
+            "lastLockedDate": "2025-12-11T12:20:55.000+0000"
         },
         "type": "items"
     },

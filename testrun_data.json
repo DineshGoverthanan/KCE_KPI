@@ -9772,7 +9772,7 @@
         "Assigned To":"Mohammed Ibrahim Sultan"
     },
     {
-        "TestRunStatus":"INPROGRESS",
+        "TestRunStatus":"FAILED",
         "ExecutionDate":"2025-12-11",
         "Document Key":"KIE601-TSTRN-70808",
         "Name":"IOC Software downloading lower",
@@ -11725,8 +11725,8 @@
         "Assigned To":"Jagadeesh"
     },
     {
-        "TestRunStatus":"PASSED",
-        "ExecutionDate":"2025-12-10",
+        "TestRunStatus":"FAILED",
+        "ExecutionDate":"2025-12-11",
         "Document Key":"KCE-TSTRN-4008705",
         "Name":"Group features - HEL - Hospital Emergency service at landings - Phase 1",
         "Assigned To":"Jagadeesh"
@@ -12052,6 +12052,13 @@
         "Document Key":"KCE-TSTRN-3995135",
         "Name":"CLS C - Car Light Supervision - Doors closed",
         "Assigned To":"Shrividhya"
+    },
+    {
+        "TestRunStatus":"INPROGRESS",
+        "ExecutionDate":"2025-12-11",
+        "Document Key":"KCE-TSTRN-4008707",
+        "Name":"Group features - PRL L - Priority At landings Low - Phase 1- Tests not included into TA",
+        "Assigned To":"Jagadeesh"
     },
     {
         "TestRunStatus":"INPROGRESS",
