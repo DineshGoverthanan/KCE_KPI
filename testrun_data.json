@@ -9773,7 +9773,7 @@
     },
     {
         "TestRunStatus":"INPROGRESS",
-        "ExecutionDate":"2025-12-10",
+        "ExecutionDate":"2025-12-11",
         "Document Key":"KIE601-TSTRN-70808",
         "Name":"IOC Software downloading lower",
         "Assigned To":"VIGNESHWARAR"
@@ -12075,8 +12075,8 @@
         "Assigned To":"Jagadeesh"
     },
     {
-        "TestRunStatus":"INPROGRESS",
-        "ExecutionDate":"2025-12-10",
+        "TestRunStatus":"PASSED",
+        "ExecutionDate":"2025-12-11",
         "Document Key":"KCE-TSTRN-4008711",
         "Name":"Group features - PRL H - Priority At landings High - Phase 2- Tests not included into TA",
         "Assigned To":"Jagadeesh"
