@@ -84,6 +84,12 @@ KIE601-SWBUG-2814,IEX - FC 304-1 & FC 304-2 (Gear box oil level input) is not po
 KIE601-SWBUG-2815,"IEX-When parameter set in FUI, AMC Tool Fails to update Escalator Parameter.",VIGNESHWARAR,,2025-12-08
 KIE601-SWBUG-2816,"IEX-Stopping the escalator using the key switch,but in AMC tool the mode changes to OSS for approximately 1 second during stopping and then returns to KCM Normal Mode.",S.P,,2025-12-05
 KIE601-SWBUG-2817,"IEX-Fault F 026-1,F028-1,F028-2 Appears Without Description in AMC fault log view",VIGNESHWARAR,,2025-12-08
+KIE601-SWBUG-2819,IEX-FUI got stuck when updating SW downloading to IOC Upper and lower network,VIGNESHWARAR,,2025-12-09
+KIE601-SWBUG-2820,IEX-FUI freeze Issue During IOC Software Download on Upper/Lower Networks,VIGNESHWARAR,,2025-12-09
+KIE601-SWBUG-2821,IEX-Learning and roll call Parameter values not retained for PC4_4000_1 and PC2_2401 in AMC service tool and also unable to set learning\roll call mode again,VIGNESHWARAR,,2025-12-09
+KIE601-SWBUG-2822,IEX-Difficult to Identifying Correct Binary File During Software Update in AMC service tool.,VIGNESHWARAR,,2025-12-09
+KIE601-SWBUG-2823,IEX-EGD Displays Debugging During On-Site mode operation,VIGNESHWARAR,,2025-12-09
+KIE601-SWBUG-2824,IEX-KFPS Tool Displays wrong SEC node count After Successful Pairing,VIGNESHWARAR,,2025-12-09
 DRIVE_HW_SW-SWBUG-1587,GG DCBL 5.51 SW - Fault 124 3064 Not Triggered when Software file is missed from SD Card.,VIGNESHWARAR,,2025-06-01
 KCE-SWBUG-5615,16.4-DCBL GD- Speed is not reduced when the elevator reaches the lower limit during the NTS Buffer Test.,Jagadeesh,KCE16.4.92 (LD 16.4.1.11 and GCD 16.4.65) + DCBL 24.47sw,
 KCE-SWBUG-6553,"KCE NA - When MES activated during car call service, lift is unable to stop at the nearest floor.",Veeramanikandan,KCE 17.0.0.10,2025-09-02
