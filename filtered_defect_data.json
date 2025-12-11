@@ -23596,5 +23596,63 @@
             "locked": false
         },
         "type": "items"
+    },
+    {
+        "id": 28618149,
+        "documentKey": "KCE-SWBUG-14078",
+        "globalId": "GID-7581640",
+        "itemType": 154,
+        "project": 229,
+        "createdDate": "2025-12-11T05:04:40.000+0000",
+        "modifiedDate": "2025-12-11T05:05:45.000+0000",
+        "lastActivityDate": "2025-12-11T05:05:45.000+0000",
+        "createdBy": 6096,
+        "modifiedBy": 6096,
+        "fields": {
+            "documentKey": "KCE-SWBUG-14078",
+            "globalId": "GID-7581640",
+            "name": "4.6 - ProManager - All the saved Favorite IPs were vanished after Updating License",
+            "description": "<p><em><strong>Description:</strong></em></p>\n\n<p>ProManager Version used : 4.6.239.7126<br />\n<br />\n<em><strong>Scenario:</strong></em></p>\n\n<ul>\n\t<li>ProManager License got Expired</li>\n\t<li>Pressed \"Update License\"</li>\n\t<li>Selected \"Europe\" as server and continued</li>\n\t<li>Redirected to the Browser</li>\n\t<li>License Updated</li>\n</ul>\n\n<p><img alt=\"\" height=\"184\" src=\"https://konerqm.jamacloud.com/attachment/234368/image-h2ZBSphDUQ.png\" width=\"252\" /></p>\n\n<p>&nbsp;</p>\n\n<ul>\n\t<li>After Updating, No Saved IPs were shown in the \"Favorites\"</li>\n</ul>\n\n<p><img alt=\"\" height=\"463\" src=\"https://konerqm.jamacloud.com/attachment/234369/2025_12_11_05_02_156.jpg\" width=\"665\" /></p>\n\n<ul>\n\t<li>This causes to Save IPs again from the first</li>\n</ul>\n\n<p>&nbsp;</p>\n\n<p>Note:</p>\n\n<ul>\n\t<li>Newly added IPs are saved</li>\n\t<li>Localization Files are Updated</li>\n</ul>\n",
+            "status": 1081,
+            "BUG_component$154": 2270,
+            "createdBy": 6096,
+            "release": 2188,
+            "BUG_foundInBuild$154": "ProManager Version used : 4.6.239.7126",
+            "BUG_foundOnDate$154": "2025-12-10",
+            "priority": 2410,
+            "BUG_severity$154": 1110,
+            "BUG_category$154": 1428,
+            "BUG_testLevel$154": 1129,
+            "BUG_howFound$154": 1092,
+            "BUG_whereFound$154": 1137,
+            "BUG_probability_on_field$154": 2398,
+            "root_cause_category$154": 2512,
+            "BUG_testCaseUpdated$154": 1198,
+            "BUG_V1_project$154": 1431
+        },
+        "resources": {
+            "self": {
+                "allowed": [
+                    "GET",
+                    "PUT",
+                    "PATCH",
+                    "DELETE"
+                ]
+            }
+        },
+        "version": 2,
+        "location": {
+            "sortOrder": 6574,
+            "globalSortOrder": 1665947327,
+            "sequence": "17.6575",
+            "parent": {
+                "item": 83266
+            }
+        },
+        "lock": {
+            "locked": false,
+            "lastLockedDate": "2025-12-11T05:05:47.000+0000"
+        },
+        "type": "items"
     }
 ]

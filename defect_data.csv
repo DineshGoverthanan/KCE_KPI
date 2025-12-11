@@ -385,3 +385,4 @@ KCE-SWBUG-14063,17.0 - KDX - Typo in Fault #3020,Suryanarayanan,,2025-12-08
 KCE-SWBUG-14069,KCE india Rescue mode LCD epsilon color 3 display doesnot show EBD mode,Priyavalli,,2025-11-02
 KCE-SWBUG-14071,17.0 - KCEDCS - OEO EN 81-76 Indication stuck in Mondrian display when Driver evacuation is deactivated.,Vivek,"17.0.0.116(LD: 17.0.0.20, GCD: 17.0.1.1)",2025-12-09
 KCE-SWBUG-14072,"17.0 - HAN - When HAN is activated from B side , HAN Sequence performs at A Side",Suryanarayanan,"KCE 17.0.0.116(LD: 17.0.0.20, GCD: 17.0.1.1), WELM Appl: 0.0.0.92, WELM Prot: 0.0.0.17",2025-12-09
+KCE-SWBUG-14078,4.6 - ProManager - All the saved Favorite IPs were vanished after Updating License,Suryanarayanan,ProManager Version used : 4.6.239.7126,2025-12-10
