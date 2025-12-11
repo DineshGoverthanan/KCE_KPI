@@ -4302,8 +4302,8 @@
         "itemType": 154,
         "project": 417,
         "createdDate": "2025-12-05T13:31:05.000+0000",
-        "modifiedDate": "2025-12-10T12:44:48.000+0000",
-        "lastActivityDate": "2025-12-10T12:44:48.000+0000",
+        "modifiedDate": "2025-12-11T08:34:51.000+0000",
+        "lastActivityDate": "2025-12-11T08:34:51.000+0000",
         "createdBy": 5932,
         "modifiedBy": 2001,
         "fields": {
@@ -4326,6 +4326,7 @@
             "BUG_probability_on_field$154": 2397,
             "root_cause_category$154": 2512,
             "BUG_testCaseUpdated$154": 1198,
+            "BUG_RD_comments$154": "<p>[Visu]: 11-Dec-2025</p>\n\n<p>Info shared to Vincent for new fault code udpation</p>",
             "BUG_V1_project$154": 1431
         },
         "resources": {
@@ -4335,7 +4336,7 @@
                 ]
             }
         },
-        "version": 4,
+        "version": 5,
         "location": {
             "sortOrder": 1374,
             "globalSortOrder": 1311288733,
@@ -4346,7 +4347,7 @@
         },
         "lock": {
             "locked": false,
-            "lastLockedDate": "2025-12-10T12:44:50.000+0000"
+            "lastLockedDate": "2025-12-11T08:34:54.000+0000"
         },
         "type": "items"
     },
@@ -5178,18 +5179,18 @@
         "itemType": 154,
         "project": 417,
         "createdDate": "2025-12-11T06:16:02.000+0000",
-        "modifiedDate": "2025-12-11T06:16:02.000+0000",
-        "lastActivityDate": "2025-12-11T06:16:02.000+0000",
+        "modifiedDate": "2025-12-11T09:23:42.000+0000",
+        "lastActivityDate": "2025-12-11T09:23:42.000+0000",
         "createdBy": 5932,
         "modifiedBy": 5932,
         "fields": {
             "documentKey": "KIE601-SWBUG-2825",
             "globalId": "GID-7581733",
-            "name": "IEX-Escalator Parameter editing disabled in KFPS Tool",
-            "description": "<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\"><strong>Detailed Defect Description:</strong></span></span></p>\n\n<p>IEX-Escalator Parameter editing disabled in KFPS Tool.</p>\n\n<p>&nbsp;</p>\n\n<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\"><strong>Parameters:&nbsp;&nbsp;</strong></span></span></p>\n\n<p><span style=\"font-family:Calibri, sans-serif\"><span style=\"font-size:14.6667px\">-</span></span></p>\n\n<p>&nbsp;</p>\n\n<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\"><strong>Group configuration: </strong></span></span></p>\n\n<p><span style=\"font-family:Calibri, sans-serif\"><span style=\"font-size:14.6667px\">Single escalator setup.</span></span></p>\n\n<p>&nbsp;</p>\n\n<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\"><strong>Drive type:</strong></span></span></p>\n\n<p><span style=\"font-family:Calibri, sans-serif\"><span style=\"font-size:14.6667px\">Monarch, Danfoss</span></span></p>\n\n<p>&nbsp;</p>\n\n<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\"><strong>Regression or new finding:</strong></span></span></p>\n\n<p><span style=\"font-family:Calibri, sans-serif\"><span style=\"font-size:14.6667px\">Adhoc testing</span></span></p>\n\n<p>&nbsp;</p>\n\n<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\"><strong>Description of the test case (Detailed Scenario)&nbsp;</strong></span></span></p>\n\n<p>1.Connect the KFPS tool to the CPU.</p>\n\n<p>2.Navigate to <strong>Operate \u2192 Parameter \u2192 Escalator Parameter</strong>, and enter parameter <strong>1103</strong>.</p>\n\n<p>3 The <strong>1103 Operational Mode</strong> tab opens, but when attempting to change the value, the parameter cannot be edited.</p>\n\n<p>&nbsp;</p>\n\n<p><strong><span style=\"background-color:#f1c40f\">Note:&nbsp;Unable to edit none of the escalator parameters .</span></strong></p>\n\n<p><strong><span style=\"background-color:#f1c40f\">Checked with G11 board.</span></strong></p>\n\n<p><strong><span style=\"background-color:#f1c40f\">KFPS SW-3.4</span></strong></p>\n\n<p>&nbsp;</p>\n\n<p><strong><span style=\"background-color:#ecf0f1\">Attached screenshot:</span></strong></p>\n\n<p><img alt=\"\" height=\"414\" src=\"https://konerqm.jamacloud.com/attachment/234382/Screenshot_20251211_112022%5B1%5D.jpg\" width=\"191\" /></p>\n\n<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\"><strong>Expected behavior:&nbsp;&nbsp;</strong></span></span></p>\n\n<p>The KFPS tool should allow editing of parameter <strong>1103</strong> and all other escalator parameters. After navigating to <em>Operate \u2192 Parameter \u2192 Escalator Parameter</em> and opening parameter <strong>1103</strong>, the Operational Mode tab should allow the user to modify and save the parameter values.</p>\n\n<p>&nbsp;</p>\n\n<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\"><strong>Actual behavior:</strong></span></span></p>\n\n<p>After opening parameter <strong>1103</strong> under <em>Operate \u2192 Parameter \u2192 Escalator Parameter</em>, the Operational Mode tab does not allow any value changes. All escalator parameters cannot be edited.</p>\n\n<p>&nbsp;</p>\n\n<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\"><strong>Recovery:&nbsp;</strong></span></span></p>\n\n<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\">-</span></span></p>\n\n<p>&nbsp;</p>\n\n<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\"><strong>Value-added information:&nbsp;</strong></span></span></p>\n\n<p>IEX SW-R2.0.3</p>\n\n<p>KFPS SW-3.4</p>\n",
+            "name": "IEX-Escalator Parameter editing disabled in KFPS Tool ",
+            "description": "<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\"><strong>Detailed Defect Description:</strong></span></span></p>\n\n<p>IEX-Escalator Parameter editing disabled in KFPS Tool.</p>\n\n<p>&nbsp;</p>\n\n<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\"><strong>Parameters:&nbsp;&nbsp;</strong></span></span></p>\n\n<p><span style=\"font-family:Calibri,sans-serif\"><span style=\"font-size:14.6667px\">-</span></span></p>\n\n<p>&nbsp;</p>\n\n<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\"><strong>Group configuration: </strong></span></span></p>\n\n<p><span style=\"font-family:Calibri,sans-serif\"><span style=\"font-size:14.6667px\">Single escalator setup.</span></span></p>\n\n<p>&nbsp;</p>\n\n<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\"><strong>Drive type:</strong></span></span></p>\n\n<p><span style=\"font-family:Calibri,sans-serif\"><span style=\"font-size:14.6667px\">Monarch, Danfoss</span></span></p>\n\n<p>&nbsp;</p>\n\n<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\"><strong>Regression or new finding:</strong></span></span></p>\n\n<p><span style=\"font-family:Calibri,sans-serif\"><span style=\"font-size:14.6667px\">Adhoc testing</span></span></p>\n\n<p>&nbsp;</p>\n\n<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\"><strong>Description of the test case (Detailed Scenario)&nbsp;</strong></span></span></p>\n\n<p>1.Connect the KFPS tool to the CPU.</p>\n\n<p>2.Navigate to <strong>Operate \u2192 Parameter \u2192 Escalator Parameter</strong>, and enter parameter <strong>1103</strong>.</p>\n\n<p>3 The <strong>1103 Operational Mode</strong> tab opens, but when attempting to change the value, the parameter cannot be edited.</p>\n\n<p>&nbsp;</p>\n\n<p><strong><span style=\"background-color:#f1c40f\">Note:&nbsp;Unable to edit none of the escalator parameters .</span></strong></p>\n\n<p><strong><span style=\"background-color:#f1c40f\">Checked with G11 board.</span></strong></p>\n\n<p><strong><span style=\"background-color:#f1c40f\">KFPS SW-3.4</span></strong></p>\n\n<p>&nbsp;</p>\n\n<p><strong><span style=\"background-color:#f39c12\">Note: The component part in the defect is mentioned as Service Tool \u2013 Android Miniconsole because the KFPS tool is not available.</span></strong></p>\n\n<p>&nbsp;</p>\n\n<p>&nbsp;</p>\n\n<p><strong><span style=\"background-color:#ecf0f1\">Attached screenshot:</span></strong></p>\n\n<p><img alt=\"\" height=\"414\" src=\"https://konerqm.jamacloud.com/attachment/234382/Screenshot_20251211_112022%5B1%5D.jpg\" width=\"191\" /></p>\n\n<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\"><strong>Expected behavior:&nbsp;&nbsp;</strong></span></span></p>\n\n<p>The KFPS tool should allow editing of parameter <strong>1103</strong> and all other escalator parameters. After navigating to <em>Operate \u2192 Parameter \u2192 Escalator Parameter</em> and opening parameter <strong>1103</strong>, the Operational Mode tab should allow the user to modify and save the parameter values.</p>\n\n<p>&nbsp;</p>\n\n<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\"><strong>Actual behavior:</strong></span></span></p>\n\n<p>After opening parameter <strong>1103</strong> under <em>Operate \u2192 Parameter \u2192 Escalator Parameter</em>, the Operational Mode tab does not allow any value changes. All escalator parameters cannot be edited.</p>\n\n<p>&nbsp;</p>\n\n<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\"><strong>Recovery:&nbsp;</strong></span></span></p>\n\n<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\">-</span></span></p>\n\n<p>&nbsp;</p>\n\n<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\"><strong>Value-added information:&nbsp;</strong></span></span></p>\n\n<p>IEX SW-R2.0.3</p>\n\n<p>KFPS SW-3.4</p>\n\n<p>&nbsp;</p>\n\n<p>&nbsp;</p>\n",
             "status": 1081,
-            "BUG_component$154": 1561,
-            "BUG_subcomponent$154": "KFPS tool",
+            "BUG_component$154": 2243,
+            "BUG_subcomponent$154": "KIE",
             "createdBy": 5932,
             "release": 2581,
             "BUG_foundOnDate$154": "2025-12-10",
@@ -5211,7 +5212,7 @@
                 ]
             }
         },
-        "version": 1,
+        "version": 3,
         "location": {
             "sortOrder": 1404,
             "globalSortOrder": 1311320923,
@@ -5222,7 +5223,7 @@
         },
         "lock": {
             "locked": false,
-            "lastLockedDate": "2025-12-11T06:28:17.000+0000"
+            "lastLockedDate": "2025-12-11T09:23:43.000+0000"
         },
         "type": "items"
     },
@@ -5287,8 +5288,8 @@
         "itemType": 154,
         "project": 417,
         "createdDate": "2025-12-11T06:57:42.000+0000",
-        "modifiedDate": "2025-12-11T06:58:43.000+0000",
-        "lastActivityDate": "2025-12-11T06:58:43.000+0000",
+        "modifiedDate": "2025-12-11T08:25:12.000+0000",
+        "lastActivityDate": "2025-12-11T08:25:12.000+0000",
         "createdBy": 5932,
         "modifiedBy": 5932,
         "fields": {
@@ -5303,7 +5304,7 @@
             "release": 2529,
             "BUG_foundOnDate$154": "2025-12-10",
             "priority": 2410,
-            "BUG_severity$154": 1282,
+            "BUG_severity$154": 1110,
             "BUG_category$154": 1422,
             "BUG_testLevel$154": 1129,
             "BUG_howFound$154": 1092,
@@ -5320,7 +5321,7 @@
                 ]
             }
         },
-        "version": 2,
+        "version": 3,
         "location": {
             "sortOrder": 1406,
             "globalSortOrder": 1311323069,
@@ -5330,8 +5331,9 @@
             }
         },
         "lock": {
-            "locked": false,
-            "lastLockedDate": "2025-12-11T07:00:30.000+0000"
+            "locked": true,
+            "lastLockedDate": "2025-12-11T09:37:35.000+0000",
+            "lockedBy": 5932
         },
         "type": "items"
     },
@@ -23827,7 +23829,7 @@
         "project": 229,
         "createdDate": "2025-12-11T06:41:36.000+0000",
         "modifiedDate": "2025-12-11T07:04:58.000+0000",
-        "lastActivityDate": "2025-12-11T07:04:59.000+0000",
+        "lastActivityDate": "2025-12-11T08:09:11.000+0000",
         "createdBy": 5995,
         "modifiedBy": 5995,
         "fields": {
@@ -23875,6 +23877,63 @@
         "lock": {
             "locked": false,
             "lastLockedDate": "2025-12-11T07:05:01.000+0000"
+        },
+        "type": "items"
+    },
+    {
+        "id": 28620864,
+        "documentKey": "KCE-SWBUG-14085",
+        "globalId": "GID-7582088",
+        "itemType": 154,
+        "project": 229,
+        "createdDate": "2025-12-11T09:13:16.000+0000",
+        "modifiedDate": "2025-12-11T09:13:16.000+0000",
+        "lastActivityDate": "2025-12-11T09:13:16.000+0000",
+        "createdBy": 6215,
+        "modifiedBy": 6215,
+        "fields": {
+            "documentKey": "KCE-SWBUG-14085",
+            "globalId": "GID-7582088",
+            "name": "16.10-HEL_Car call does not cancel when the DOE is pressed in HEL mode.",
+            "description": "<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\"><strong>Detailed Defect Description:</strong></span></span></p>\n\n<p>Car call not cancelled when DOE pressed in HEL Mode.</p>\n\n<p>&nbsp;</p>\n\n<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\"><strong>Parameters:&nbsp;&nbsp;</strong></span></span></p>\n\n<p>KCEGC: HEL - True</p>\n\n<p>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;Service Type- HEL</p>\n\n<p>KCECPUc: 853: index 3 -1</p>\n\n<p>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;550 - 1</p>\n\n<p>&nbsp;</p>\n\n<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\"><strong>Group configuration: </strong></span></span></p>\n\n<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\">Duplex</span></span></p>\n\n<p>&nbsp;</p>\n\n<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\"><strong>Drive type:</strong></span></span></p>\n\n<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\">KDL</span></span></p>\n\n<p>&nbsp;</p>\n\n<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\"><strong>Regression or new finding:</strong></span></span></p>\n\n<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\">Regression</span></span></p>\n\n<p>&nbsp;</p>\n\n<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\"><strong>Test case Name / Feature name:</strong></span></span></p>\n\n<p><a href=\"https://konerqm.jamacloud.com/perspective.req?docId=28609354&amp;projectId=229\">KCE-TSTRN-4008705</a></p>\n\n<p>&nbsp;</p>\n\n<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\"><strong>Test step number:</strong></span></span></p>\n\n<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\">Ad-hoc scenario</span></span></p>\n\n<p>&nbsp;</p>\n\n<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\"><strong>Description of the test case (Detailed Scenario)&nbsp;</strong></span></span></p>\n\n<ul>\n\t<li>Elevator in Normal mode and trigger the HEL mode through FOB G21 (XF11).</li>\n\t<li>Elevator travel to HEL floor and door will open&nbsp;</li>\n\t<li>Register a car call, once car call registered time elapse to 5Sec.</li>\n\t<li>Door starts to close in that time press the DOE.&nbsp;&nbsp;</li>\n</ul>\n\n<p>&nbsp;</p>\n\n<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\"><strong>Expected behavior:&nbsp;&nbsp;</strong></span></span></p>\n\n<ul>\n\t<li>Once DOE pressed door should open and wait as per parameter (551) and <strong>car call should cancelled.</strong></li>\n</ul>\n\n<p>&nbsp;</p>\n\n<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\"><strong>Actual behavior:</strong></span></span></p>\n\n<ul>\n\t<li>The door opened according to the parameter, but the car call was not canceled.</li>\n</ul>\n\n<p>&nbsp;</p>\n\n<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\"><strong>Recovery:&nbsp;</strong></span></span></p>\n\n<p>&nbsp;</p>\n\n<p>&nbsp;</p>\n\n<p>&nbsp;</p>\n\n<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\"><strong>Log attached Information:</strong></span></span></p>\n\n<ul>\n\t<li>LPA Log attached</li>\n</ul>\n\n<p>&nbsp;</p>\n\n<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\"><strong>Value-added information:&nbsp;</strong></span></span></p>\n\n<ul>\n\t<li><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\">Same Scenario happened for both Phase1 and Phase 2</span></span></li>\n</ul>\n\n<p><img alt=\"\" height=\"139\" src=\"https://konerqm.jamacloud.com/attachment/234393/image-TIVMAvGRSJ.png\" width=\"1164\" /></p>\n\n<p>&nbsp;</p>\n\n<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\"><strong>Test Sequence history:&nbsp;</strong></span></span></p>\n\n<p>NA</p>\n\n<p>&nbsp;</p>\n\n<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\"><strong>Requirement related to the defect:</strong></span></span></p>\n\n<p>&nbsp;</p>\n\n<ol>\n\t<li>KCE-FLD-5451</li>\n</ol>\n",
+            "status": 1081,
+            "BUG_component$154": 1291,
+            "createdBy": 6215,
+            "release": 2368,
+            "BUG_foundInBuild$154": "KCE 16.10.4.22(LD: 16.10.2.4, GCD: 16.10.21.12)",
+            "BUG_foundOnDate$154": "2025-12-10",
+            "priority": 2410,
+            "BUG_severity$154": 1110,
+            "BUG_category$154": 1422,
+            "BUG_testLevel$154": 1129,
+            "BUG_howFound$154": 1092,
+            "BUG_whereFound$154": 1137,
+            "BUG_probability_on_field$154": 2398,
+            "root_cause_category$154": 2512,
+            "BUG_testCaseUpdated$154": 1198,
+            "BUG_V1_project$154": 1431
+        },
+        "resources": {
+            "self": {
+                "allowed": [
+                    "GET",
+                    "PUT",
+                    "PATCH",
+                    "DELETE"
+                ]
+            }
+        },
+        "version": 1,
+        "location": {
+            "sortOrder": 6581,
+            "globalSortOrder": 1665967943,
+            "sequence": "17.6582",
+            "parent": {
+                "item": 83266
+            }
+        },
+        "lock": {
+            "locked": false
         },
         "type": "items"
     }
