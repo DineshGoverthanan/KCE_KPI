@@ -4958,16 +4958,16 @@
         "itemType": 154,
         "project": 417,
         "createdDate": "2025-12-10T15:11:35.000+0000",
-        "modifiedDate": "2025-12-10T18:07:01.000+0000",
-        "lastActivityDate": "2025-12-10T18:07:01.000+0000",
+        "modifiedDate": "2025-12-11T03:45:11.000+0000",
+        "lastActivityDate": "2025-12-11T03:45:11.000+0000",
         "createdBy": 5932,
-        "modifiedBy": 5932,
+        "modifiedBy": 2001,
         "fields": {
             "documentKey": "KIE601-SWBUG-2821",
             "globalId": "GID-7580414",
             "name": "IEX-Learning and roll call Parameter values not retained for PC4_4000_1 and PC2_2401 in AMC service tool and also unable to set learning\\roll call mode again",
             "description": "<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\"><strong>Detailed Defect Description:</strong></span></span></p>\n\n<p>IEX-Learning and roll call Parameter values not retained for PC4_4000_1 and PC2_2401 in AMC service tool</p>\n\n<p>&nbsp;</p>\n\n<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\"><strong>Parameters:&nbsp;&nbsp;</strong></span></span></p>\n\n<p>PC4_4000_1 and PC2_2401_1,PC2_2401_2,,PC2_2401_3.</p>\n\n<p>&nbsp;</p>\n\n<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\"><strong>Group configuration: </strong></span></span></p>\n\n<p><span style=\"font-family:Calibri,sans-serif\"><span style=\"font-size:14.6667px\">Single escalator setup</span></span></p>\n\n<p>&nbsp;</p>\n\n<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\"><strong>Drive type:</strong></span></span></p>\n\n<p><span style=\"font-family:Calibri,sans-serif\"><span style=\"font-size:14.6667px\">Monarch,Danfoss</span></span></p>\n\n<p>&nbsp;</p>\n\n<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\"><strong>Regression or new finding:</strong></span></span></p>\n\n<p>Regression</p>\n\n<p>&nbsp;</p>\n\n<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\"><strong>Test case Name / Feature name:</strong></span></span></p>\n\n<p><span style=\"font-family:Calibri,sans-serif\"><span style=\"font-size:14.6667px\">Escalator Parameter view.</span></span></p>\n\n<p>&nbsp;</p>\n\n<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\"><strong>Test step number:</strong></span></span></p>\n\n<p><span style=\"font-family:Calibri,sans-serif\"><span style=\"font-size:14.6667px\">4</span></span></p>\n\n<p>&nbsp;</p>\n\n<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\"><strong>Description of the test case (Detailed Scenario)&nbsp;</strong></span></span></p>\n\n<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\"><strong>Scenario 1:</strong></span></span></p>\n\n<p>1.Connect AMC with CPU.</p>\n\n<p>2.Go the ESCALATOR PARAMETER TAB.</p>\n\n<p>3.Set parameter PC4_4000_1 (learning) using AMC tool</p>\n\n<p>4.FUI displays L E A r and give key switch in UP direction and learning has been completed successfully.</p>\n\n<p>5.Check in AMC-PC4_4000_1 stays as 1.</p>\n\n<p>&nbsp;</p>\n\n<p><strong><span style=\"background-color:#f1c40f\">Note:If we quit and reopen the appliaction</span></strong></p>\n\n<p><strong><span style=\"background-color:#f1c40f\">Same issue occurs for roll call (PC2_2401_1,PC2_2401_2,,PC2_2401_3.</span></strong></p>\n\n<p>&nbsp;</p>\n\n<p><strong>Scenario 2:</strong></p>\n\n<p>Next time if we try to set learning mode, its not possible.</p>\n\n<p>Unable to re-enter learning mode through AMC because PC4_4000_1 remains set to 1. The same issue occurs for roll-call parameters (PC2_2401_1, PC2_2401_2, and PC2_2401_3).</p>\n\n<p>&nbsp;</p>\n\n<p><img alt=\"\" height=\"548\" src=\"https://konerqm.jamacloud.com/attachment/234352/Screenshot_20251210_203932_Android_MiniConsole_v4%5B1%5D.jpg\" width=\"253\" /></p>\n\n<p>&nbsp;</p>\n\n<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\"><strong>Expected behavior:&nbsp;&nbsp;</strong></span></span></p>\n\n<p>After learning, <strong>PC4_4000_1</strong> should retain the updated value in AMC.Roll-call parameters (<strong>PC2_2401</strong>) should also retain the updated state and allow re-learning if the tool is closed and reopened.</p>\n\n<p>&nbsp;</p>\n\n<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\"><strong>Actual behavior:</strong></span></span></p>\n\n<p>Parameter <strong>PC4_4000_1</strong> was set using the AMC tool.</p>\n\n<p>FUI displayed <strong>L E A r</strong>, and turning the key switch to the <strong>UP</strong> position completed the learning process successfully.</p>\n\n<p>However, after checking in AMC, <strong>PC4_4000_1 remains set to 1</strong>.</p>\n\n<p><strong>Note:</strong>&nbsp;the same issue occurs for roll-call parameter <strong>PC2_2401</strong>, preventing proper re-learning.</p>\n\n<p>&nbsp;</p>\n\n<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\"><strong>Recovery:&nbsp;</strong></span></span></p>\n\n<p>Quit and reopen the appliaction</p>\n\n<p>&nbsp;</p>\n\n<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\"><strong>Log attached Information:</strong></span></span></p>\n\n<p><span style=\"font-family:Calibri,sans-serif\"><span style=\"font-size:14.6667px\">Photo attachment</span></span></p>\n\n<p>&nbsp;</p>\n\n<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\"><strong>Value-added information:&nbsp;</strong></span></span></p>\n\n<p>IEX SW-R 2.0.3</p>\n\n<p>AMC SW-4.6.250.7156</p>\n",
-            "status": 1081,
+            "status": 1082,
             "BUG_component$154": 1561,
             "BUG_subcomponent$154": "Service tool-Android miniconsole",
             "createdBy": 5932,
@@ -4991,7 +4991,7 @@
                 ]
             }
         },
-        "version": 3,
+        "version": 4,
         "location": {
             "sortOrder": 1400,
             "globalSortOrder": 1311316631,
@@ -5002,7 +5002,7 @@
         },
         "lock": {
             "locked": false,
-            "lastLockedDate": "2025-12-10T18:07:02.000+0000"
+            "lastLockedDate": "2025-12-11T03:45:28.000+0000"
         },
         "type": "items"
     },
@@ -5111,7 +5111,8 @@
             }
         },
         "lock": {
-            "locked": false
+            "locked": false,
+            "lastLockedDate": "2025-12-11T04:00:35.000+0000"
         },
         "type": "items"
     },
@@ -5122,15 +5123,15 @@
         "itemType": 154,
         "project": 417,
         "createdDate": "2025-12-10T18:26:44.000+0000",
-        "modifiedDate": "2025-12-10T18:26:44.000+0000",
-        "lastActivityDate": "2025-12-10T18:26:44.000+0000",
+        "modifiedDate": "2025-12-11T03:40:21.000+0000",
+        "lastActivityDate": "2025-12-11T03:40:21.000+0000",
         "createdBy": 5932,
         "modifiedBy": 5932,
         "fields": {
             "documentKey": "KIE601-SWBUG-2824",
             "globalId": "GID-7581403",
             "name": "IEX-KFPS Tool Displays wrong SEC node count After Successful Pairing",
-            "description": "<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\"><strong>Detailed Defect Description:</strong></span></span></p>\n\n<p>IEX-KFPS Tool Displays wrong SEC node count After Successful Pairing</p>\n\n<p>&nbsp;</p>\n\n<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\"><strong>Parameters:&nbsp;&nbsp;</strong></span></span></p>\n\n<p><span style=\"font-family:Calibri, sans-serif\"><span style=\"font-size:14.6667px\">PC1_1420</span></span></p>\n\n<p>&nbsp;</p>\n\n<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\"><strong>Group configuration: </strong></span></span></p>\n\n<p><span style=\"font-family:Calibri, sans-serif\"><span style=\"font-size:14.6667px\">Single Escalator setup</span></span></p>\n\n<p>&nbsp;</p>\n\n<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\"><strong>Drive type:</strong></span></span></p>\n\n<p><span style=\"font-family:Calibri, sans-serif\"><span style=\"font-size:14.6667px\">Monarch,Danfoss</span></span></p>\n\n<p>&nbsp;</p>\n\n<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\"><strong>Regression or new finding:</strong></span></span></p>\n\n<p><span style=\"font-family:Calibri, sans-serif\"><span style=\"font-size:14.6667px\">Regression</span></span></p>\n\n<p>&nbsp;</p>\n\n<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\"><strong>Test case Name / Feature name:</strong></span></span></p>\n\n<p><span style=\"font-family:Calibri, sans-serif\"><span style=\"font-size:14.6667px\">KFPS Tool</span></span></p>\n\n<p>&nbsp;</p>\n\n<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\"><strong>Description of the test case (Detailed Scenario)&nbsp;</strong></span></span></p>\n\n<ol>\n\t<li>\n\t<p>Two SEC nodes were connected.</p>\n\t</li>\n\t<li>\n\t<p>The parameter <strong>PC1_1420_2</strong> was set.</p>\n\t</li>\n\t<li>\n\t<p>Safety parameters were pushed, and a roll call was initiated.</p>\n\t</li>\n\t<li>\n\t<p>The roll call completed successfully.</p>\n\t</li>\n\t<li>\n\t<p>The SEC node count was checked in the <strong>KFPS</strong> tool.</p>\n\t</li>\n\t<li>\n\t<p>The KFPS tool displayed only <strong>SEC1</strong>, even though the pairing status showed that <strong>both SEC1 and SEC2</strong> were paired.</p>\n\t</li>\n</ol>\n\n<p><strong>Note:</strong> When checked using the <strong>AMC tool</strong>, both <strong>SEC1</strong> and <strong>SEC2</strong> node counts were updated correctly.</p>\n\n<p>&nbsp;</p>\n\n<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\"><strong>Expected behavior:&nbsp;&nbsp;</strong></span></span></p>\n\n<p>After completing the roll call, the <strong>KFPS tool</strong> should correctly display the node count for <strong>both SEC1 and SEC2</strong>, reflecting the actual paired status.</p>\n\n<p>&nbsp;</p>\n\n<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\"><strong>Actual behavior:</strong></span></span></p>\n\n<p>The <strong>KFPS tool</strong> displays only <strong>SEC1</strong> in the node count, even though the pairing status confirms that <strong>both SEC1 and SEC2</strong> are successfully paired.</p>\n\n<p>&nbsp;</p>\n\n<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\"><strong>Recovery:&nbsp;</strong></span></span></p>\n\n<p><span style=\"font-family:Calibri, sans-serif\"><span style=\"font-size:14.6667px\">-</span></span></p>\n\n<p>&nbsp;</p>\n\n<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\"><strong>Value-added information:&nbsp;</strong></span></span></p>\n\n<p>IEX SW-R 2.0.3</p>\n",
+            "description": "<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\"><strong>Detailed Defect Description:</strong></span></span></p>\n\n<p>IEX-KFPS Tool Displays wrong SEC node count After Successful Pairing</p>\n\n<p>&nbsp;</p>\n\n<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\"><strong>Parameters:&nbsp;&nbsp;</strong></span></span></p>\n\n<p><span style=\"font-family:Calibri,sans-serif\"><span style=\"font-size:14.6667px\">PC1_1420</span></span></p>\n\n<p>&nbsp;</p>\n\n<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\"><strong>Group configuration: </strong></span></span></p>\n\n<p><span style=\"font-family:Calibri,sans-serif\"><span style=\"font-size:14.6667px\">Single Escalator setup</span></span></p>\n\n<p>&nbsp;</p>\n\n<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\"><strong>Drive type:</strong></span></span></p>\n\n<p><span style=\"font-family:Calibri,sans-serif\"><span style=\"font-size:14.6667px\">Monarch,Danfoss</span></span></p>\n\n<p>&nbsp;</p>\n\n<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\"><strong>Regression or new finding:</strong></span></span></p>\n\n<p><span style=\"font-family:Calibri,sans-serif\"><span style=\"font-size:14.6667px\">Regression</span></span></p>\n\n<p>&nbsp;</p>\n\n<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\"><strong>Test case Name / Feature name:</strong></span></span></p>\n\n<p><span style=\"font-family:Calibri,sans-serif\"><span style=\"font-size:14.6667px\">KFPS Tool</span></span></p>\n\n<p>&nbsp;</p>\n\n<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\"><strong>Description of the test case (Detailed Scenario)&nbsp;</strong></span></span></p>\n\n<ol>\n\t<li>\n\t<p>Two SEC nodes were connected.</p>\n\t</li>\n\t<li>\n\t<p>The parameter <strong>PC1_1420_2</strong> was set.</p>\n\t</li>\n\t<li>\n\t<p>Safety parameters were pushed, and a roll call was initiated.</p>\n\t</li>\n\t<li>\n\t<p>The roll call completed successfully.</p>\n\t</li>\n\t<li>\n\t<p>The SEC node count was checked in the <strong>KFPS</strong> tool.</p>\n\t</li>\n\t<li>\n\t<p>The KFPS tool displayed only <strong>SEC1</strong>, even though the pairing status showed that <strong>both SEC1 and SEC2</strong> were paired.</p>\n\t</li>\n</ol>\n\n<p><strong>Note:</strong> When checked using the <strong>AMC tool</strong>, both <strong>SEC1</strong> and <strong>SEC2</strong> node counts were updated correctly.</p>\n\n<p>&nbsp;</p>\n\n<p>KFPS tool:It shows 1 SEC count.</p>\n\n<p><img alt=\"\" height=\"407\" src=\"https://konerqm.jamacloud.com/attachment/234358/Screenshot_20251210_151822%5B1%5D.jpg\" width=\"188\" />&nbsp; &nbsp;</p>\n\n<p>Pairing status in KFPS:</p>\n\n<p><img alt=\"\" height=\"391\" src=\"https://konerqm.jamacloud.com/attachment/234359/Screenshot_20251210_151833%5B1%5D.jpg\" width=\"180\" /></p>\n\n<p>&nbsp;</p>\n\n<p>AMC tool: Shows 2 SEC count.</p>\n\n<p>&nbsp;</p>\n\n<p><img alt=\"\" height=\"398\" src=\"https://konerqm.jamacloud.com/attachment/234360/image-TE93qJOxPY.png\" width=\"184\" /></p>\n\n<p>&nbsp;</p>\n\n<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\"><strong>Expected behavior:&nbsp;&nbsp;</strong></span></span></p>\n\n<p>After completing the roll call, the <strong>KFPS tool</strong> should correctly display the node count for <strong>both SEC1 and SEC2</strong>, reflecting the actual paired status.</p>\n\n<p>&nbsp;</p>\n\n<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\"><strong>Actual behavior:</strong></span></span></p>\n\n<p>The <strong>KFPS tool</strong> displays only <strong>SEC1</strong> in the node count, even though the pairing status confirms that <strong>both SEC1 and SEC2</strong> are successfully paired.</p>\n\n<p>&nbsp;</p>\n\n<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\"><strong>Recovery:&nbsp;</strong></span></span></p>\n\n<p><span style=\"font-family:Calibri,sans-serif\"><span style=\"font-size:14.6667px\">-</span></span></p>\n\n<p>&nbsp;</p>\n\n<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\"><strong>Value-added information:&nbsp;</strong></span></span></p>\n\n<p>IEX SW-R 2.0.3</p>\n",
             "status": 1081,
             "BUG_component$154": 1561,
             "BUG_subcomponent$154": "KFPS Tool",
@@ -5155,7 +5156,7 @@
                 ]
             }
         },
-        "version": 1,
+        "version": 2,
         "location": {
             "sortOrder": 1403,
             "globalSortOrder": 1311371844,
@@ -5165,7 +5166,8 @@
             }
         },
         "lock": {
-            "locked": false
+            "locked": false,
+            "lastLockedDate": "2025-12-11T03:40:38.000+0000"
         },
         "type": "items"
     },
