@@ -23304,22 +23304,23 @@
         "itemType": 154,
         "project": 229,
         "createdDate": "2025-12-05T03:48:56.000+0000",
-        "modifiedDate": "2025-12-05T03:48:56.000+0000",
-        "lastActivityDate": "2025-12-05T03:58:26.000+0000",
+        "modifiedDate": "2025-12-12T07:50:58.000+0000",
+        "lastActivityDate": "2025-12-12T07:50:58.000+0000",
         "createdBy": 5995,
-        "modifiedBy": 5995,
+        "modifiedBy": 1120,
         "fields": {
             "documentKey": "KCE-SWBUG-7134",
             "globalId": "GID-7569612",
             "name": "17.0 - KCEDCS - No Response message displays in SM when updating GCD SW",
             "description": "<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\"><strong>Detailed Defect Description:</strong></span></span></p>\n\n<p><span style=\"font-family:Calibri, sans-serif\"><span style=\"font-size:14.6667px\">When updating the GCD SW, no response message is displayed in the SM&nbsp;</span></span></p>\n\n<p>&nbsp;</p>\n\n<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\"><strong>Parameters:&nbsp;&nbsp;</strong></span></span></p>\n\n<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\">(e.g. Parameter X (Description of the parameter) - parameter value)</span></span></p>\n\n<p>&nbsp;</p>\n\n<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\"><strong>Group configuration: </strong></span></span></p>\n\n<p><span style=\"font-family:Calibri, sans-serif\"><span style=\"font-size:14.6667px\">Fourplex</span></span></p>\n\n<p>&nbsp;</p>\n\n<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\"><strong>Drive type:</strong></span></span></p>\n\n<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\">KDL and KDM</span></span></p>\n\n<p>&nbsp;</p>\n\n<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\"><strong>Regression or new finding:</strong></span></span></p>\n\n<p><span style=\"font-family:Calibri, sans-serif\"><span style=\"font-size:14.6667px\">New</span></span></p>\n\n<p>&nbsp;</p>\n\n<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\"><strong>Test case Name / Feature name:</strong></span></span></p>\n\n<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\">ad-hoc defect</span></span></p>\n\n<p>&nbsp;</p>\n\n<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\"><strong>Test step number:</strong></span></span></p>\n\n<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\">\u201cad-hoc scenario\u201d</span></span></p>\n\n<p>&nbsp;</p>\n\n<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\"><strong>Description of the test case (Detailed Scenario)&nbsp;</strong></span></span></p>\n\n<ul>\n\t<li>Open the SM and update the GCD mass update</li>\n\t<li>During the rebooting stage \"No_Response\" message was displayed</li>\n\t<li>Finally, the GCD update successful and SM puts \"OK\" message.</li>\n</ul>\n\n<p><img alt=\"\" height=\"386\" src=\"https://konerqm.jamacloud.com/attachment/233681/2025_12_05_03_40_531.png\" width=\"562\" /></p>\n\n<p>&nbsp;</p>\n\n<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\"><strong>Expected behavior:&nbsp;</strong></span></span></p>\n\n<p><span style=\"font-family:Calibri, sans-serif\"><span style=\"font-size:14.6667px\">No Response shouldn't occur when rebooting</span></span></p>\n\n<p>&nbsp;</p>\n\n<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\"><strong>Actual behavior:</strong></span></span></p>\n\n<p><span style=\"font-family:Calibri, sans-serif\"><span style=\"font-size:14.6667px\">No response message occurs when rebooting</span></span></p>\n\n<p>&nbsp;</p>\n\n<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\"><strong>Recovery:&nbsp;</strong></span></span></p>\n\n<p><span style=\"font-family:Calibri, sans-serif\"><span style=\"font-size:14.6667px\">No</span></span></p>\n\n<p>&nbsp;</p>\n\n<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\"><strong>Log attached Information:</strong></span></span></p>\n\n<p>SM UI and Node debug</p>\n\n<p>&nbsp;</p>\n\n<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\">Note: Once defect is logged, attachments can be done by editing the defect (use compressed zip folder format)</span></span></p>\n\n<p>&nbsp;</p>\n\n<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\"><strong>Value-added information:&nbsp;</strong></span></span></p>\n\n<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\">(e.g. Other value added info which might be related to the defect:</span></span></p>\n\n<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\">-HW versions</span></span></p>\n\n<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\">-Types of Signalization used KNSMUL</span></span></p>\n\n<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\">-Door module types AMD15</span></span></p>\n\n<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\">-any special boards used etc.</span></span></p>\n\n<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\">-is problem validated in other simulators)</span></span></p>\n\n<p>&nbsp;</p>\n\n<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\">When updating the GCD's the Building Configuration error occurs</span></span></p>\n\n<p>&nbsp;</p>\n\n<p><img alt=\"\" height=\"172\" src=\"https://konerqm.jamacloud.com/attachment/233682/2025_12_05_03_44_472.png\" width=\"248\" /></p>\n\n<p>&nbsp;</p>\n\n<p>&nbsp;</p>\n\n<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\"><strong>Test Sequence history:&nbsp;</strong></span></span></p>\n\n<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\">1: was failing scenario passing earlier</span></span></p>\n\n<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\">2. what was SW level when this was passing last time</span></span></p>\n\n<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\">3. any changes in test setup or test scenario between passed and failed run</span></span></p>\n\n<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\">4. any changes in tested system configuration between passed and failed run</span></span></p>\n\n<p>&nbsp;</p>\n\n<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\"><strong>Requirement related to the defect:</strong></span></span></p>\n\n<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\">(e.g. URL link to requirement which is related to the defect)</span></span></p>\n",
             "status": 1081,
-            "BUG_component$154": 1366,
-            "BUG_subcomponent$154": "Site Manager",
+            "BUG_component$154": 1306,
             "createdBy": 5995,
+            "assignedTo": 2299,
             "release": 2396,
             "BUG_foundInBuild$154": "17.0.0.116(LD: 17.0.0.20, GCD: 17.0.1.1 GCH: 17.0.1.1)",
             "BUG_foundOnDate$154": "2025-12-03",
+            "BUG_plannedRelease$154": 2396,
             "priority": 2410,
             "BUG_severity$154": 1110,
             "BUG_category$154": 1422,
@@ -23341,7 +23342,7 @@
                 ]
             }
         },
-        "version": 1,
+        "version": 3,
         "location": {
             "sortOrder": 6544,
             "globalSortOrder": 1665434917,
@@ -23351,7 +23352,8 @@
             }
         },
         "lock": {
-            "locked": false
+            "locked": false,
+            "lastLockedDate": "2025-12-12T07:50:59.000+0000"
         },
         "type": "items"
     },
@@ -23362,10 +23364,10 @@
         "itemType": 154,
         "project": 229,
         "createdDate": "2025-12-08T05:53:44.000+0000",
-        "modifiedDate": "2025-12-08T05:53:44.000+0000",
-        "lastActivityDate": "2025-12-09T07:50:58.000+0000",
+        "modifiedDate": "2025-12-12T07:47:17.000+0000",
+        "lastActivityDate": "2025-12-12T07:47:22.000+0000",
         "createdBy": 5995,
-        "modifiedBy": 5995,
+        "modifiedBy": 1120,
         "fields": {
             "documentKey": "KCE-SWBUG-7138",
             "globalId": "GID-7574349",
@@ -23375,9 +23377,11 @@
             "BUG_component$154": 2273,
             "BUG_subcomponent$154": "KCEGCH",
             "createdBy": 5995,
+            "assignedTo": 3399,
             "release": 2396,
             "BUG_foundInBuild$154": "17.0.0.116(LD: 17.0.0.20, GCD: 17.0.1.1 GCH: 17.0.1.1)",
             "BUG_foundOnDate$154": "2025-12-07",
+            "BUG_plannedRelease$154": 2396,
             "priority": 2410,
             "BUG_severity$154": 1109,
             "BUG_category$154": 1422,
@@ -23399,7 +23403,7 @@
                 ]
             }
         },
-        "version": 1,
+        "version": 3,
         "location": {
             "sortOrder": 6547,
             "globalSortOrder": 1665493546,
@@ -23409,7 +23413,8 @@
             }
         },
         "lock": {
-            "locked": false
+            "locked": false,
+            "lastLockedDate": "2025-12-12T07:47:18.000+0000"
         },
         "type": "items"
     },
@@ -23478,10 +23483,10 @@
         "itemType": 154,
         "project": 229,
         "createdDate": "2025-12-08T06:59:13.000+0000",
-        "modifiedDate": "2025-12-08T08:26:42.000+0000",
-        "lastActivityDate": "2025-12-08T08:26:42.000+0000",
+        "modifiedDate": "2025-12-12T07:44:57.000+0000",
+        "lastActivityDate": "2025-12-12T07:44:57.000+0000",
         "createdBy": 5995,
-        "modifiedBy": 5995,
+        "modifiedBy": 1120,
         "fields": {
             "documentKey": "KCE-SWBUG-10017",
             "globalId": "GID-7574462",
@@ -23491,9 +23496,11 @@
             "BUG_component$154": 1531,
             "BUG_subcomponent$154": "DG",
             "createdBy": 5995,
+            "assignedTo": 834,
             "release": 2396,
             "BUG_foundInBuild$154": "17.0.0.116(LD: 17.0.0.20, GCD: 17.0.1.1 GCH: 17.0.1.1)",
             "BUG_foundOnDate$154": "2025-12-07",
+            "BUG_plannedRelease$154": 2396,
             "priority": 2410,
             "BUG_severity$154": 1110,
             "BUG_category$154": 1422,
@@ -23515,7 +23522,7 @@
                 ]
             }
         },
-        "version": 2,
+        "version": 4,
         "location": {
             "sortOrder": 6550,
             "globalSortOrder": 1665552175,
@@ -23526,7 +23533,7 @@
         },
         "lock": {
             "locked": false,
-            "lastLockedDate": "2025-12-08T08:26:43.000+0000"
+            "lastLockedDate": "2025-12-12T07:44:58.000+0000"
         },
         "type": "items"
     },
@@ -23711,22 +23718,24 @@
         "itemType": 154,
         "project": 229,
         "createdDate": "2025-12-10T11:49:37.000+0000",
-        "modifiedDate": "2025-12-10T11:49:37.000+0000",
-        "lastActivityDate": "2025-12-10T12:08:05.000+0000",
+        "modifiedDate": "2025-12-12T07:12:51.000+0000",
+        "lastActivityDate": "2025-12-12T07:12:51.000+0000",
         "createdBy": 5995,
-        "modifiedBy": 5995,
+        "modifiedBy": 1120,
         "fields": {
             "documentKey": "KCE-SWBUG-14071",
             "globalId": "GID-7580205",
             "name": "17.0 - KCEDCS - OEO EN 81-76 Indication stuck in Mondrian display when Driver evacuation is deactivated.",
             "description": "<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\"><strong>Detailed Defect Description:</strong></span></span></p>\n\n<p><span style=\"font-family:Calibri, sans-serif\"><span style=\"font-size:14.6667px\">The indication stuck in a Mondrian display when driver evacuation is deactivated in OPT or FOB G28</span></span></p>\n\n<p>&nbsp;</p>\n\n<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\"><strong>Parameters:&nbsp;&nbsp;</strong></span></span></p>\n\n<p><span style=\"font-family:Calibri, sans-serif\"><span style=\"font-size:14.6667px\">OEO DIP 20</span></span></p>\n\n<p><span style=\"font-family:Calibri, sans-serif\"><span style=\"font-size:14.6667px\">1582 3</span></span></p>\n\n<p><span style=\"font-family:Calibri, sans-serif\"><span style=\"font-size:14.6667px\">1594 1&nbsp;</span></span></p>\n\n<p>&nbsp;</p>\n\n<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\"><strong>Group configuration: </strong></span></span></p>\n\n<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\">Fouplex</span></span></p>\n\n<p>&nbsp;</p>\n\n<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\"><strong>Drive type:</strong></span></span></p>\n\n<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\">KDL</span></span></p>\n\n<p>&nbsp;</p>\n\n<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\"><strong>Regression or new finding:</strong></span></span></p>\n\n<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\">New</span></span></p>\n\n<p>&nbsp;</p>\n\n<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\"><strong>Test case Name / Feature name:</strong></span></span></p>\n\n<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\">ad-hoc defect</span></span></p>\n\n<p>&nbsp;</p>\n\n<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\"><strong>Test step number:</strong></span></span></p>\n\n<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\">\u201cad-hoc scenario\u201d</span></span></p>\n\n<p>&nbsp;</p>\n\n<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\"><strong>Description of the test case (Detailed Scenario)&nbsp;</strong></span></span></p>\n\n<ul>\n\t<li>Lift is in normal mode</li>\n\t<li>Activate GERF input via OPT or FOBG28</li>\n\t<li>Lift drives GERF floor changed to phase 2</li>\n\t<li>Activate Driver input via OPT</li>\n\t<li>Deactivate the Driver input and GERF inputs</li>\n\t<li>DG and Promanager lift indication back to normal</li>\n\t<li>Mondrian display stuck in Driver evacuation indication.</li>\n</ul>\n\n<p><strong>Stuck in below indication:</strong></p>\n\n<p><img alt=\"\" height=\"387\" src=\"https://konerqm.jamacloud.com/attachment/234294/image-P6gi8ao3z0.png\" width=\"237\" /></p>\n\n<p>&nbsp;</p>\n\n<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\"><strong>Expected behavior:&nbsp;&nbsp;</strong></span></span></p>\n\n<p><span style=\"font-family:Calibri, sans-serif\"><span style=\"font-size:14.6667px\">The display should become normal</span></span></p>\n\n<p>&nbsp;</p>\n\n<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\"><strong>Actual behavior:</strong></span></span></p>\n\n<p><span style=\"font-family:Calibri, sans-serif\"><span style=\"font-size:14.6667px\">The Driver evacuation indication stuck for a long time</span></span></p>\n\n<p>&nbsp;</p>\n\n<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\"><strong>Recovery:&nbsp;</strong></span></span></p>\n\n<p><span style=\"font-family:Calibri, sans-serif\"><span style=\"font-size:14.6667px\">Rollcall</span></span></p>\n\n<p>&nbsp;</p>\n\n<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\"><strong>Log attached Information:</strong></span></span></p>\n\n<p><span style=\"font-family:Calibri, sans-serif\"><span style=\"font-size:14.6667px\">Node debug ,Event Traffic ,video file</span></span></p>\n\n<p>&nbsp;</p>\n\n<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\">Note: Once defect is logged, attachments can be done by editing the defect (use compressed zip folder format)</span></span></p>\n\n<p>&nbsp;</p>\n\n<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\"><strong>Value-added information:&nbsp;</strong></span></span></p>\n\n<p><span style=\"font-family:Calibri, sans-serif\"><span style=\"font-size:14.6667px\">Mondrian Display version \u200b</span></span>2.0.0.1</p>\n\n<p>&nbsp;</p>\n\n<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\"><strong>Test Sequence history:&nbsp;</strong></span></span></p>\n\n<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\">1: was failing scenario passing earlier</span></span></p>\n\n<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\">2. what was SW level when this was passing last time</span></span></p>\n\n<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\">3. any changes in test setup or test scenario between passed and failed run</span></span></p>\n\n<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\">4. any changes in tested system configuration between passed and failed run</span></span></p>\n\n<p>&nbsp;</p>\n\n<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\"><strong>Requirement related to the defect:</strong></span></span></p>\n\n<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\">(e.g. URL link to requirement which is related to the defect)</span></span></p>\n",
             "status": 1081,
-            "BUG_component$154": 1531,
+            "BUG_component$154": 1291,
             "BUG_subcomponent$154": "CPUc",
             "createdBy": 5995,
+            "assignedTo": 1546,
             "release": 2396,
             "BUG_foundInBuild$154": "17.0.0.116(LD: 17.0.0.20, GCD: 17.0.1.1)",
             "BUG_foundOnDate$154": "2025-12-09",
+            "BUG_plannedRelease$154": 2396,
             "priority": 2410,
             "BUG_severity$154": 1109,
             "BUG_category$154": 1422,
@@ -23748,7 +23757,7 @@
                 ]
             }
         },
-        "version": 1,
+        "version": 3,
         "location": {
             "sortOrder": 6567,
             "globalSortOrder": 1665884406,
@@ -23758,7 +23767,8 @@
             }
         },
         "lock": {
-            "locked": false
+            "locked": false,
+            "lastLockedDate": "2025-12-12T07:12:52.000+0000"
         },
         "type": "items"
     },
@@ -23887,22 +23897,24 @@
         "itemType": 154,
         "project": 229,
         "createdDate": "2025-12-11T06:41:36.000+0000",
-        "modifiedDate": "2025-12-11T07:04:58.000+0000",
-        "lastActivityDate": "2025-12-11T08:09:11.000+0000",
+        "modifiedDate": "2025-12-12T07:07:43.000+0000",
+        "lastActivityDate": "2025-12-12T07:07:43.000+0000",
         "createdBy": 5995,
-        "modifiedBy": 5995,
+        "modifiedBy": 1120,
         "fields": {
             "documentKey": "KCE-SWBUG-14081",
             "globalId": "GID-7581768",
             "name": "17.0 - KCEDCS - OEO EN81-76 DOP, DG & EG indication stuck when GERF1 & GERF2 inputs deactivated",
             "description": "<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\"><strong>Detailed Defect Description:</strong></span></span></p>\n\n<p><span style=\"font-family:Calibri,sans-serif\"><span style=\"font-size:14.6667px\">The L3 indication stuck for a long time in&nbsp;</span></span><span style=\"font-family:Calibri,sans-serif\"><span style=\"font-size:14.6667px\">DOP, DG, and EG </span></span><span style=\"font-family:Calibri,sans-serif\"><span style=\"font-size:14.6667px\">when GERF1 &amp; GERF2 were deactivated</span></span></p>\n\n<p>&nbsp;</p>\n\n<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\"><strong>Parameters:&nbsp;&nbsp;</strong></span></span></p>\n\n<table cellspacing=\"0\">\n\t<tbody>\n\t\t<tr>\n\t\t\t<td>\n\t\t\t<p><strong>Parameter</strong></p>\n\t\t\t</td>\n\t\t\t<td>\n\t\t\t<p>&nbsp;</p>\n\n\t\t\t<p><strong>Lift 1</strong></p>\n\t\t\t</td>\n\t\t\t<td>\n\t\t\t<p>&nbsp;</p>\n\n\t\t\t<p><strong>Lift 2</strong></p>\n\t\t\t</td>\n\t\t\t<td>\n\t\t\t<p>&nbsp;</p>\n\n\t\t\t<p><strong>Lift 3</strong></p>\n\t\t\t</td>\n\t\t\t<td>\n\t\t\t<p>&nbsp;</p>\n\t\t\t<strong>Lift 4 (Fireman lift)</strong>\n\n\t\t\t<p>&nbsp;</p>\n\t\t\t</td>\n\t\t</tr>\n\t\t<tr>\n\t\t\t<td>1582-Standart type</td>\n\t\t\t<td>3</td>\n\t\t\t<td>3</td>\n\t\t\t<td>3</td>\n\t\t\t<td>0</td>\n\t\t</tr>\n\t\t<tr>\n\t\t\t<td>1594-Evacuation FOB28 signals connected</td>\n\t\t\t<td>1</td>\n\t\t\t<td>1</td>\n\t\t\t<td>1</td>\n\t\t\t<td>0</td>\n\t\t</tr>\n\t\t<tr>\n\t\t\t<td>1584-List of PIO cards</td>\n\t\t\t<td>51</td>\n\t\t\t<td>51</td>\n\t\t\t<td>0,0,0,0</td>\n\t\t\t<td>0,0,0,0</td>\n\t\t</tr>\n\t\t<tr>\n\t\t\t<td>Group : Evacuation strategy</td>\n\t\t\t<td colspan=\"4\">OEO D</td>\n\t\t</tr>\n\t</tbody>\n</table>\n\n<p>&nbsp;</p>\n\n<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\"><strong>Group configuration: </strong></span></span></p>\n\n<p><span style=\"font-family:Calibri,sans-serif\"><span style=\"font-size:14.6667px\">Fourplex</span></span></p>\n\n<p>&nbsp;</p>\n\n<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\"><strong>Drive type:</strong></span></span></p>\n\n<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\">KDL and KDM</span></span></p>\n\n<p>&nbsp;</p>\n\n<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\"><strong>Regression or new finding:</strong></span></span></p>\n\n<p><span style=\"font-family:Calibri,sans-serif\"><span style=\"font-size:14.6667px\">New</span></span></p>\n\n<p>&nbsp;</p>\n\n<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\"><strong>Test case Name / Feature name:</strong></span></span></p>\n\n<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\">ad-hoc defect</span></span></p>\n\n<p>&nbsp;</p>\n\n<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\"><strong>Test step number:</strong></span></span></p>\n\n<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\">\u201cad-hoc scenario\u201d</span></span></p>\n\n<p>&nbsp;</p>\n\n<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\"><strong>Description of the test case (Detailed Scenario)&nbsp;</strong></span></span></p>\n\n<ul>\n\t<li>The 3 lifts in a normal mode and one lift in FRD mode</li>\n\t<li>The GERF1 input activated&nbsp;in lift 1 (via OPT)</li>\n\t<li>Lift reaches&nbsp;GERF1 and doors opened and closed</li>\n\t<li>Then GERF2 input activated (via OPT)</li>\n\t<li>Deactivate GERF2 input&nbsp;(via OPT)</li>\n\t<li>Then deactivate GERF1 input&nbsp;(via OPT)</li>\n\t<li>The DOP,DG &amp; EG <strong>(L3)&nbsp;</strong>indication stuck for long time</li>\n</ul>\n\n<p><strong>Stuck with below modes:</strong></p>\n\n<p><img alt=\"\" height=\"132\" src=\"https://konerqm.jamacloud.com/attachment/234371/image-ju6sUB9K0v.png\" width=\"600\" />\u200b\u200b\u200b\u200b</p>\n\n<p>&nbsp;</p>\n\n<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\"><strong>Expected behavior:&nbsp;&nbsp;</strong></span></span></p>\n\n<p><span style=\"font-family:Calibri,sans-serif\"><span style=\"font-size:14.6667px\">The DOP,DG &amp; EG should revert to normal mode</span></span></p>\n\n<p>&nbsp;</p>\n\n<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\"><strong>Actual behavior:</strong></span></span></p>\n\n<p><span style=\"font-family:Calibri,sans-serif\"><span style=\"font-size:14.6667px\">The </span></span><span style=\"font-family:Calibri,sans-serif\"><span style=\"font-size:14.6667px\">DOP,DG &amp; EG stuck with L3</span></span></p>\n\n<p>&nbsp;</p>\n\n<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\"><strong>Recovery:&nbsp;</strong></span></span></p>\n\n<p><strong><span style=\"font-family:Calibri,sans-serif\"><span style=\"font-size:14.6667px\"><span style=\"background-color:#f1c40f\">GCH restart</span></span></span><span style=\"font-family:Calibri,sans-serif\"><span style=\"font-size:14.6667px\"><span style=\"background-color:#f1c40f\">&nbsp;for xDOP &amp; EG</span></span></span></strong></p>\n\n<p><strong><span style=\"font-family:Calibri,sans-serif\"><span style=\"font-size:14.6667px\"><span style=\"background-color:#f1c40f\">CPUc individual restart wherever DG is connected&nbsp;</span></span></span></strong></p>\n\n<p>&nbsp;</p>\n\n<p>&nbsp;</p>\n\n<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\"><strong>Log attached Information:</strong></span></span></p>\n\n<p><span style=\"font-family:Calibri,sans-serif\"><span style=\"font-size:14.6667px\">Node debug info DG logs Event traffic,LPA and video file</span></span></p>\n\n<p>&nbsp;</p>\n\n<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\">Note: Once defect is logged, attachments can be done by editing the defect (use compressed zip folder format)</span></span></p>\n\n<p>&nbsp;</p>\n\n<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\"><strong>Value-added information:&nbsp;</strong></span></span></p>\n\n<p>DOP_version: 1.7.0.11<br />\nDMA_version: 1.7.0.1</p>\n\n<p>&nbsp;</p>\n\n<p>DG APK 1.7.0.5</p>\n\n<p>DMA DG 1.6.0.0</p>\n\n<p>&nbsp;</p>\n\n<p><strong><span style=\"color:#2ecc71\">Normal Mode indication reflected in \"COP display (Mondrian), Promanager, and E-link,\" when the inputs are deactivated.</span></strong></p>\n\n<p>&nbsp;</p>\n\n<p><strong>After GCH restart, xDOP came to normal function, like the image below and DCS calls are shared even though the DGs are in L3 Indication:</strong></p>\n\n<p>&nbsp;</p>\n\n<p><strong><img alt=\"\" height=\"672\" src=\"https://konerqm.jamacloud.com/attachment/234399/image-f3ovqJj2m9.png\" width=\"417\" /></strong></p>\n\n<p>&nbsp;</p>\n\n<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\"><strong>Test Sequence history:&nbsp;</strong></span></span></p>\n\n<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\">1: was failing scenario passing earlier</span></span></p>\n\n<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\">2. what was SW level when this was passing last time</span></span></p>\n\n<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\">3. any changes in test setup or test scenario between passed and failed run</span></span></p>\n\n<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\">4. any changes in tested system configuration between passed and failed run</span></span></p>\n\n<p>&nbsp;</p>\n\n<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\"><strong>Requirement related to the defect:</strong></span></span></p>\n\n<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\">(e.g. URL link to requirement which is related to the defect)</span></span></p>\n",
             "status": 1081,
-            "BUG_component$154": 1531,
+            "BUG_component$154": 1318,
             "BUG_subcomponent$154": "KCEGCH",
             "createdBy": 5995,
+            "assignedTo": 2415,
             "release": 2396,
             "BUG_foundInBuild$154": "17.0.0.116(LD: 17.0.0.20, GCD: 17.0.1.1)",
             "BUG_foundOnDate$154": "2025-12-10",
+            "BUG_plannedRelease$154": 2396,
             "priority": 2410,
             "BUG_severity$154": 1109,
             "BUG_category$154": 1422,
@@ -23924,7 +23936,7 @@
                 ]
             }
         },
-        "version": 2,
+        "version": 4,
         "location": {
             "sortOrder": 6577,
             "globalSortOrder": 1665950546,
@@ -23935,7 +23947,7 @@
         },
         "lock": {
             "locked": false,
-            "lastLockedDate": "2025-12-11T07:05:01.000+0000"
+            "lastLockedDate": "2025-12-12T07:07:44.000+0000"
         },
         "type": "items"
     },
