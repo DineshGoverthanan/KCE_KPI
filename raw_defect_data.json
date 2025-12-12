@@ -5291,19 +5291,20 @@
         "itemType": 154,
         "project": 417,
         "createdDate": "2025-12-11T06:57:42.000+0000",
-        "modifiedDate": "2025-12-11T13:18:30.000+0000",
-        "lastActivityDate": "2025-12-11T13:18:30.000+0000",
+        "modifiedDate": "2025-12-11T14:09:16.000+0000",
+        "lastActivityDate": "2025-12-11T14:09:16.000+0000",
         "createdBy": 5932,
-        "modifiedBy": 5932,
+        "modifiedBy": 2001,
         "fields": {
             "documentKey": "KIE601-SWBUG-2827",
             "globalId": "GID-7581781",
             "name": "IEX-Incorrect Node Pairing Status Displayed in AMC Tool",
             "description": "<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\"><strong>Detailed Defect Description:</strong></span></span></p>\n\n<p>IEX-Incorrect Node Pairing Status Displayed in AMC Tool</p>\n\n<p>&nbsp;</p>\n\n<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\"><strong>Parameters:&nbsp;&nbsp;</strong></span></span></p>\n\n<p><span style=\"font-family:Calibri,sans-serif\"><span style=\"font-size:14.6667px\">PC1_1420</span></span></p>\n\n<p>&nbsp;</p>\n\n<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\"><strong>Group configuration: </strong></span></span></p>\n\n<p><span style=\"font-family:Calibri,sans-serif\"><span style=\"font-size:14.6667px\">Single Escalator status</span></span></p>\n\n<p>&nbsp;</p>\n\n<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\"><strong>Drive type:</strong></span></span></p>\n\n<p><span style=\"font-family:Calibri,sans-serif\"><span style=\"font-size:14.6667px\">Monarch,Danfoss</span></span></p>\n\n<p>&nbsp;</p>\n\n<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\"><strong>Regression or new finding:</strong></span></span></p>\n\n<p>Adhoc&nbsp;</p>\n\n<p>&nbsp;</p>\n\n<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\"><strong>Description of the test case (Detailed Scenario)&nbsp;</strong></span></span></p>\n\n<p>&nbsp;</p>\n\n<p>1.The CPU is not registered with the KEN.</p>\n\n<p>2.Navigate to Tools \u2192 Pairing \u2192 Pairing Status; the tool displays 8 paired devices (IOC1, IOC2, SEC1, SEC2, LCB, LSC, CPU).</p>\n\n<p>3.The pairing status should show devices in a not paired condition.</p>\n\n<p>:<img alt=\"\" height=\"481\" src=\"https://konerqm.jamacloud.com/attachment/234451/KEN.jpg\" width=\"222\" /></p>\n\n<p>&nbsp;</p>\n\n<p>Scenario 2:</p>\n\n<ol>\n\t<li>\n\t<p><strong>PC1_1420_10</strong> has been set (SEC node assigned to <strong>10</strong>).</p>\n\t</li>\n\t<li>\n\t<p>Safety push has been done&nbsp;and roll call is done.</p>\n\t</li>\n\t<li>\n\t<p>SEC-related faults were thrown. Upon checking the <strong>AMC Node Pairing Status</strong>, it shows an <strong>incorrect pairing status</strong>.</p>\n\t</li>\n</ol>\n\n<p><strong>Note:</strong> We have only connected <strong>2 SECs</strong>, but the system indicates that <strong>SEC 3</strong> is paired.</p>\n\n<p>&nbsp;</p>\n\n<p><img alt=\"\" height=\"507\" src=\"https://konerqm.jamacloud.com/attachment/234452/SEC.jpg\" width=\"234\" /></p>\n\n<p>&nbsp;</p>\n\n<p>&nbsp;</p>\n\n<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\"><strong>Expected behavior:&nbsp;&nbsp;</strong></span></span></p>\n\n<p>The Pairing Status screen should correctly display the actual pairing condition. Since the CPU is not registered with the KEN, all devices (IOC1, IOC2, SEC1, SEC2, LCB, LSC, CPU) should appear as Not Paired, with no paired devices shown.</p>\n\n<p>&nbsp;</p>\n\n<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\"><strong>Actual behavior:</strong></span></span></p>\n\n<p>The Pairing Status screen incorrectly displays 8 devices (IOC1, IOC2, SEC1, SEC2, LCB, LSC, CPU) as Paired, .</p>\n\n<p>&nbsp;</p>\n\n<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\"><strong>Recovery:&nbsp;</strong></span></span></p>\n\n<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\">-</span></span></p>\n\n<p>&nbsp;</p>\n\n<p>&nbsp;</p>\n",
-            "status": 1081,
+            "status": 1082,
             "BUG_component$154": 2243,
             "BUG_subcomponent$154": "Escalator-KIE",
             "createdBy": 5932,
+            "assignedTo": 6612,
             "release": 2529,
             "BUG_foundOnDate$154": "2025-12-10",
             "priority": 2410,
@@ -5324,7 +5325,7 @@
                 ]
             }
         },
-        "version": 7,
+        "version": 8,
         "location": {
             "sortOrder": 1406,
             "globalSortOrder": 1311323069,
@@ -5335,7 +5336,7 @@
         },
         "lock": {
             "locked": false,
-            "lastLockedDate": "2025-12-11T13:18:32.000+0000"
+            "lastLockedDate": "2025-12-11T14:09:17.000+0000"
         },
         "type": "items"
     },
