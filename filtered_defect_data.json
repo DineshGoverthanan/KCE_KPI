@@ -23897,10 +23897,10 @@
         "itemType": 154,
         "project": 229,
         "createdDate": "2025-12-11T06:41:36.000+0000",
-        "modifiedDate": "2025-12-12T07:07:43.000+0000",
-        "lastActivityDate": "2025-12-12T07:07:43.000+0000",
+        "modifiedDate": "2025-12-12T09:06:36.000+0000",
+        "lastActivityDate": "2025-12-12T09:06:36.000+0000",
         "createdBy": 5995,
-        "modifiedBy": 1120,
+        "modifiedBy": 593,
         "fields": {
             "documentKey": "KCE-SWBUG-14081",
             "globalId": "GID-7581768",
@@ -23910,7 +23910,7 @@
             "BUG_component$154": 1318,
             "BUG_subcomponent$154": "KCEGCH",
             "createdBy": 5995,
-            "assignedTo": 2415,
+            "assignedTo": 1668,
             "release": 2396,
             "BUG_foundInBuild$154": "17.0.0.116(LD: 17.0.0.20, GCD: 17.0.1.1)",
             "BUG_foundOnDate$154": "2025-12-10",
@@ -23936,7 +23936,7 @@
                 ]
             }
         },
-        "version": 4,
+        "version": 5,
         "location": {
             "sortOrder": 6577,
             "globalSortOrder": 1665950546,
@@ -23947,7 +23947,7 @@
         },
         "lock": {
             "locked": false,
-            "lastLockedDate": "2025-12-12T07:07:44.000+0000"
+            "lastLockedDate": "2025-12-12T09:06:37.000+0000"
         },
         "type": "items"
     },
