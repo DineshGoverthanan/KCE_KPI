@@ -393,3 +393,4 @@ KCE-SWBUG-14078,4.6 - ProManager - All the saved Favorite IPs were vanished afte
 KCE-SWBUG-14081,"17.0 - KCEDCS - OEO EN81-76 DOP, DG & EG indication stuck when GERF1 & GERF2 inputs deactivated",Vivek,"17.0.0.116(LD: 17.0.0.20, GCD: 17.0.1.1)",2025-12-10
 KCE-SWBUG-14085,16.10-HEL_Car call does not cancel when the DOE is pressed in HEL mode.,Jagadeesh,"KCE 16.10.4.22(LD: 16.10.2.4, GCD: 16.10.21.12)",2025-12-10
 KCE-SWBUG-14086,17.0 - FRD EU - Landing OSI not shown when RDF enabled in FRD Phase 2,Suryanarayanan,"KCE 17.0.0.116(LD: 17.0.0.20, GCD: 17.0.1.1)",2025-12-10
+KCE-SWBUG-14094,17.0 - KCEDCS - Mondrian display doesn't show the next stop floor numbers for 'B' side car calls,Vivek,"17.0.0.116(LD: 17.0.0.20, GCD: 17.0.1.1)",2025-12-12

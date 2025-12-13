@@ -24477,5 +24477,63 @@
             "lastLockedDate": "2025-12-11T10:29:13.000+0000"
         },
         "type": "items"
+    },
+    {
+        "id": 28651748,
+        "documentKey": "KCE-SWBUG-14094",
+        "globalId": "GID-7588284",
+        "itemType": 154,
+        "project": 229,
+        "createdDate": "2025-12-13T11:30:46.000+0000",
+        "modifiedDate": "2025-12-13T11:30:46.000+0000",
+        "lastActivityDate": "2025-12-13T11:44:46.000+0000",
+        "createdBy": 5995,
+        "modifiedBy": 5995,
+        "fields": {
+            "documentKey": "KCE-SWBUG-14094",
+            "globalId": "GID-7588284",
+            "name": "17.0 - KCEDCS - Mondrian display doesn't show the next stop floor numbers for 'B' side car calls",
+            "description": "<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\"><strong>Detailed Defect Description:</strong></span></span></p>\n\n<p>The 17.0 KCEDCS \u2013 Mondrian display is currently not showing the next-stop floor numbers for the \u2018B\u2019 side car calls.</p>\n\n<p>&nbsp;</p>\n\n<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\"><strong>Parameters:&nbsp;&nbsp;</strong></span></span></p>\n\n<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\">(e.g. Parameter X (Description of the parameter) - parameter value)</span></span></p>\n\n<p>&nbsp;</p>\n\n<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\"><strong>Group configuration: </strong></span></span></p>\n\n<p><span style=\"font-family:Calibri, sans-serif\"><span style=\"font-size:14.6667px\">Fouplex</span></span></p>\n\n<p>&nbsp;</p>\n\n<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\"><strong>Drive type:</strong></span></span></p>\n\n<p><span style=\"font-family:Calibri, sans-serif\"><span style=\"font-size:14.6667px\">KDM &amp; KDL</span></span></p>\n\n<p>&nbsp;</p>\n\n<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\"><strong>Regression or new finding:</strong></span></span></p>\n\n<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\">New</span></span></p>\n\n<p>&nbsp;</p>\n\n<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\"><strong>Test case Name / Feature name:</strong></span></span></p>\n\n<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\">ad-hoc defect</span></span></p>\n\n<p>&nbsp;</p>\n\n<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\"><strong>Test step number:</strong></span></span></p>\n\n<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\">&nbsp;\u201cad-hoc scenario\u201d</span></span></p>\n\n<p>&nbsp;</p>\n\n<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\"><strong>Description of the test case (Detailed Scenario)&nbsp;</strong></span></span></p>\n\n<ul>\n\t<li>Lift is in normal mode</li>\n\t<li>Give A and B-side call in the Mondrian COP</li>\n\t<li>Only A side floor numbers are visible and B side floor numbers were not visible</li>\n</ul>\n\n<p>&nbsp; &nbsp; &nbsp; &nbsp;SW version : <strong>1.0.0.5&nbsp; </strong>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;SW version <strong>2.0.0.1</strong></p>\n\n<p><img alt=\"\" height=\"448\" src=\"https://konerqm.jamacloud.com/attachment/234541/image-SDAviTrtWI.png\" width=\"427\" /></p>\n\n<p>&nbsp;</p>\n\n<p><img alt=\"\" height=\"320\" src=\"https://konerqm.jamacloud.com/attachment/234542/image-lIKH7VEXIT.png\" width=\"428\" /></p>\n\n<p>&nbsp;</p>\n\n<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\"><strong>Expected behavior:&nbsp;&nbsp;</strong></span></span></p>\n\n<p><span style=\"font-family:Calibri, sans-serif\"><span style=\"font-size:14.6667px\">The floor number should visible in both sides</span></span></p>\n\n<p>&nbsp;</p>\n\n<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\"><strong>Actual behavior:</strong></span></span></p>\n\n<p><span style=\"font-family:Calibri, sans-serif\"><span style=\"font-size:14.6667px\">A side floor numbers visible and B side not visible</span></span></p>\n\n<p>&nbsp;</p>\n\n<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\"><strong>Recovery:&nbsp;</strong></span></span></p>\n\n<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\">No</span></span></p>\n\n<p>&nbsp;</p>\n\n<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\"><strong>Log attached Information:</strong></span></span></p>\n\n<p><span style=\"font-family:Calibri, sans-serif\"><span style=\"font-size:14.6667px\">Event and LPA</span></span></p>\n\n<p>&nbsp;</p>\n\n<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\">Note: Once defect is logged, attachments can be done by editing the defect (use compressed zip folder format)</span></span></p>\n\n<p>&nbsp;</p>\n\n<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\"><strong>Value-added information:&nbsp;</strong></span></span></p>\n\n<p><span style=\"font-family:Calibri, sans-serif\"><span style=\"font-size:14.6667px\">Working fine in Mondrian version 1.0.0.5</span></span></p>\n\n<p>&nbsp;</p>\n\n<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\"><strong>Test Sequence history:&nbsp;</strong></span></span></p>\n\n<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\">1: was failing scenario passing earlier</span></span></p>\n\n<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\">2. what was SW level when this was passing last time</span></span></p>\n\n<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\">3. any changes in test setup or test scenario between passed and failed run</span></span></p>\n\n<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\">4. any changes in tested system configuration between passed and failed run</span></span></p>\n\n<p>&nbsp;</p>\n\n<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\"><strong>Requirement related to the defect:</strong></span></span></p>\n\n<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\">(e.g. URL link to requirement which is related to the defect)</span></span></p>\n",
+            "status": 1081,
+            "BUG_component$154": 1531,
+            "BUG_subcomponent$154": "KCECPUc",
+            "createdBy": 5995,
+            "release": 2396,
+            "BUG_foundInBuild$154": "17.0.0.116(LD: 17.0.0.20, GCD: 17.0.1.1)",
+            "BUG_foundOnDate$154": "2025-12-12",
+            "priority": 2410,
+            "BUG_severity$154": 1109,
+            "BUG_category$154": 1422,
+            "BUG_testLevel$154": 1129,
+            "BUG_howFound$154": 1092,
+            "BUG_whereFound$154": 1137,
+            "BUG_probability_on_field$154": 2398,
+            "root_cause_category$154": 2512,
+            "BUG_testCaseUpdated$154": 1198,
+            "BUG_V1_project$154": 1431
+        },
+        "resources": {
+            "self": {
+                "allowed": [
+                    "GET",
+                    "PUT",
+                    "PATCH",
+                    "DELETE"
+                ]
+            }
+        },
+        "version": 1,
+        "location": {
+            "sortOrder": 6589,
+            "globalSortOrder": 1665972235,
+            "sequence": "17.6590",
+            "parent": {
+                "item": 83266
+            }
+        },
+        "lock": {
+            "locked": false
+        },
+        "type": "items"
     }
 ]

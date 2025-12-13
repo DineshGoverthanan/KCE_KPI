@@ -4620,6 +4620,13 @@
         "Assigned To":"Veeramanikandan"
     },
     {
+        "TestRunStatus":"PASSED",
+        "ExecutionDate":"2025-12-13",
+        "Document Key":"KCE-TSTRN-4008031",
+        "Name":"KCESAFETY - Unintended movement protection - During ADO - ACL  and Bypass jumbers",
+        "Assigned To":"Veeramanikandan"
+    },
+    {
         "TestRunStatus":"FAILED",
         "ExecutionDate":"2025-11-21",
         "Document Key":"KCE-TSTRN-4002199",
@@ -17140,6 +17147,27 @@
         "ExecutionDate":"2025-12-13",
         "Document Key":"KCE-TSTRN-4006633",
         "Name":"OEO - Landing Signalization with DG display",
+        "Assigned To":"Vivek"
+    },
+    {
+        "TestRunStatus":"PASSED",
+        "ExecutionDate":"2025-12-13",
+        "Document Key":"KCE-TSTRN-4006634",
+        "Name":"OEO - Landing Signalization with xDOP",
+        "Assigned To":"Vivek"
+    },
+    {
+        "TestRunStatus":"PASSED",
+        "ExecutionDate":"2025-12-13",
+        "Document Key":"KCE-TSTRN-4006611",
+        "Name":"GERF1 Key switch activation from KCEOPT when lift is in idle",
+        "Assigned To":"Vivek"
+    },
+    {
+        "TestRunStatus":"PASSED",
+        "ExecutionDate":"2025-12-13",
+        "Document Key":"KCE-TSTRN-4006612",
+        "Name":"Multiple (GERF1 & GERF2) singnals at same time activation ",
         "Assigned To":"Vivek"
     },
     {
