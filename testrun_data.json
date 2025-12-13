@@ -4607,6 +4607,20 @@
     },
     {
         "TestRunStatus":"FAILED",
+        "ExecutionDate":"2025-12-13",
+        "Document Key":"KCE-TSTRN-4002183",
+        "Name":"Ascending Car Overspeed Protection Test",
+        "Assigned To":"Veeramanikandan"
+    },
+    {
+        "TestRunStatus":"INPROGRESS",
+        "ExecutionDate":"2025-12-13",
+        "Document Key":"KCE-TSTRN-4008028",
+        "Name":"KCESAFETY - Unintended movement - Special cases",
+        "Assigned To":"Veeramanikandan"
+    },
+    {
+        "TestRunStatus":"FAILED",
         "ExecutionDate":"2025-11-21",
         "Document Key":"KCE-TSTRN-4002199",
         "Name":"KCESAFETY \u2013 NA - DTS (Traction Loss Supervision) - with KCEABS: Basic",
@@ -17116,7 +17130,7 @@
     },
     {
         "TestRunStatus":"FAILED",
-        "ExecutionDate":"2025-12-10",
+        "ExecutionDate":"2025-12-13",
         "Document Key":"KCE-TSTRN-4006628",
         "Name":"OEO - E Link view ",
         "Assigned To":"Vivek"
