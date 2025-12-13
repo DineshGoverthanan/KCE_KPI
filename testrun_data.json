@@ -4613,7 +4613,7 @@
         "Assigned To":"Veeramanikandan"
     },
     {
-        "TestRunStatus":"INPROGRESS",
+        "TestRunStatus":"PASSED",
         "ExecutionDate":"2025-12-13",
         "Document Key":"KCE-TSTRN-4008028",
         "Name":"KCESAFETY - Unintended movement - Special cases",
@@ -17133,6 +17133,13 @@
         "ExecutionDate":"2025-12-13",
         "Document Key":"KCE-TSTRN-4006628",
         "Name":"OEO - E Link view ",
+        "Assigned To":"Vivek"
+    },
+    {
+        "TestRunStatus":"PASSED",
+        "ExecutionDate":"2025-12-13",
+        "Document Key":"KCE-TSTRN-4006633",
+        "Name":"OEO - Landing Signalization with DG display",
         "Assigned To":"Vivek"
     },
     {
