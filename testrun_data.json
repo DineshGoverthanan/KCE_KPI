@@ -4622,6 +4622,20 @@
     {
         "TestRunStatus":"PASSED",
         "ExecutionDate":"2025-12-13",
+        "Document Key":"KCE-TSTRN-4008029",
+        "Name":"KCESAFETY - Unintended movement protection - Automatic landing doors in use - Front side",
+        "Assigned To":"Veeramanikandan"
+    },
+    {
+        "TestRunStatus":"INPROGRESS",
+        "ExecutionDate":"2025-12-13",
+        "Document Key":"KCE-TSTRN-4008030",
+        "Name":"KCESAFETY - Unintended movement protection - Automatic landing doors in use - Rear side",
+        "Assigned To":"Veeramanikandan"
+    },
+    {
+        "TestRunStatus":"PASSED",
+        "ExecutionDate":"2025-12-13",
         "Document Key":"KCE-TSTRN-4008031",
         "Name":"KCESAFETY - Unintended movement protection - During ADO - ACL  and Bypass jumbers",
         "Assigned To":"Veeramanikandan"
@@ -4659,6 +4673,13 @@
         "ExecutionDate":"2025-11-24",
         "Document Key":"KCE-TSTRN-4002204",
         "Name":"KCESAFETY \u2013 NA - Traction Loss Supervision Service Test",
+        "Assigned To":"Veeramanikandan"
+    },
+    {
+        "TestRunStatus":"FAILED",
+        "ExecutionDate":"2025-12-13",
+        "Document Key":"KCE-TSTRN-4002213",
+        "Name":"Speed Limit",
         "Assigned To":"Veeramanikandan"
     },
     {
