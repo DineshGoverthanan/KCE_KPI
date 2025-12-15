@@ -399,3 +399,4 @@ KCE-SWBUG-14096,17.0 - KDH - Fault #6666's Data 1 is missing,Suryanarayanan,,
 KCE-SWBUG-14097,17.0 - CPU- Fault #1094's Data 1 Description missing,Suryanarayanan,,2025-12-14
 KCE-SWBUG-14098,17.0 - KDH - Fault code 6031 Data 2 description is missing.,Badaganti Sai Prasad,,2025-12-14
 KCE-SWBUG-14099,17.0 - PDX - Fault #6050:6171's Data 1 Description not shown,Suryanarayanan,,2025-12-14
+KCE-SWBUG-14100,17.0 - PDX - High Priority Fault #4712's Data 1 Description not shown,Suryanarayanan,,2025-12-14
