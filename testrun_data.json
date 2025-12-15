@@ -11768,7 +11768,7 @@
     },
     {
         "TestRunStatus":"FAILED",
-        "ExecutionDate":"2025-12-11",
+        "ExecutionDate":"2025-12-15",
         "Document Key":"KCE-TSTRN-4008705",
         "Name":"Group features - HEL - Hospital Emergency service at landings - Phase 1",
         "Assigned To":"Jagadeesh"
@@ -12138,8 +12138,8 @@
         "Assigned To":"Jagadeesh"
     },
     {
-        "TestRunStatus":"PASSED",
-        "ExecutionDate":"2025-12-10",
+        "TestRunStatus":"FAILED",
+        "ExecutionDate":"2025-12-15",
         "Document Key":"KCE-TSTRN-4008712",
         "Name":"Group&Elevator features - HEL-C - Hospital Emergency service at landings & PRC NZ switch - Tests not included into TA",
         "Assigned To":"Jagadeesh"

@@ -394,3 +394,8 @@ KCE-SWBUG-14081,"17.0 - KCEDCS - OEO EN81-76 DOP, DG & EG indication stuck when 
 KCE-SWBUG-14085,16.10-HEL_Car call does not cancel when the DOE is pressed in HEL mode.,Jagadeesh,"KCE 16.10.4.22(LD: 16.10.2.4, GCD: 16.10.21.12)",2025-12-10
 KCE-SWBUG-14086,17.0 - FRD EU - Landing OSI not shown when RDF enabled in FRD Phase 2,Suryanarayanan,"KCE 17.0.0.116(LD: 17.0.0.20, GCD: 17.0.1.1)",2025-12-10
 KCE-SWBUG-14094,17.0 - KCEDCS - Mondrian display doesn't show the next stop floor numbers for 'B' side car calls,Vivek,"17.0.0.116(LD: 17.0.0.20, GCD: 17.0.1.1)",2025-12-12
+KCE-SWBUG-14095,"17.0 - KCEDCS - In OEO EN81-76, the FOBG28 outputs (XF10 & XF12) remain continuously active.",Vivek,"17.0.0.116(LD: 17.0.0.20, GCD: 17.0.1.1)",2025-12-14
+KCE-SWBUG-14096,17.0 - KDH - Fault #6666's Data 1 is missing,Suryanarayanan,,
+KCE-SWBUG-14097,17.0 - CPU- Fault #1094's Data 1 Description missing,Suryanarayanan,,2025-12-14
+KCE-SWBUG-14098,17.0 - KDH - Fault code 6031 Data 2 description is missing.,Badaganti Sai Prasad,,2025-12-14
+KCE-SWBUG-14099,17.0 - PDX - Fault #6050:6171's Data 1 Description not shown,Suryanarayanan,,2025-12-14
