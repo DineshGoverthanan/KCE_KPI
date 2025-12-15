@@ -2942,10 +2942,10 @@
         "itemType": 154,
         "project": 417,
         "createdDate": "2025-10-14T04:14:33.000+0000",
-        "modifiedDate": "2025-11-24T08:58:39.000+0000",
-        "lastActivityDate": "2025-11-24T08:58:39.000+0000",
+        "modifiedDate": "2025-12-14T16:47:25.000+0000",
+        "lastActivityDate": "2025-12-14T16:47:37.000+0000",
         "createdBy": 6117,
-        "modifiedBy": 6051,
+        "modifiedBy": 2001,
         "fields": {
             "documentKey": "KIE601-SWBUG-2689",
             "globalId": "GID-7457860",
@@ -2968,6 +2968,7 @@
             "root_cause_category$154": 2512,
             "BUG_rootCause$154": "<p>Digital lightening Latest software not updated in device.</p>\n\n<p>&nbsp;</p>\n\n<p>IN logic 1. changed version selection only one instead of 6.</p>\n\n<p>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;2. While display the version considered 0's so whatever version coming from LCB we are going to display</p>",
             "BUG_testCaseUpdated$154": 1198,
+            "BUG_RD_comments$154": "<p>[Visu]: 14-Dec-2025<br />\nThis defect is fixed in R2.0.3.2 also</p>",
             "BUG_V1_project$154": 1431
         },
         "resources": {
@@ -2977,7 +2978,7 @@
                 ]
             }
         },
-        "version": 3,
+        "version": 4,
         "location": {
             "sortOrder": 1269,
             "globalSortOrder": 1307346642,
@@ -2988,7 +2989,7 @@
         },
         "lock": {
             "locked": false,
-            "lastLockedDate": "2025-11-24T08:58:40.000+0000"
+            "lastLockedDate": "2025-12-14T16:47:26.000+0000"
         },
         "type": "items"
     },
@@ -3969,10 +3970,10 @@
         "itemType": 154,
         "project": 417,
         "createdDate": "2025-12-02T13:29:51.000+0000",
-        "modifiedDate": "2025-12-08T11:18:24.000+0000",
-        "lastActivityDate": "2025-12-08T11:18:24.000+0000",
+        "modifiedDate": "2025-12-14T17:01:09.000+0000",
+        "lastActivityDate": "2025-12-14T17:01:09.000+0000",
         "createdBy": 5932,
-        "modifiedBy": 6329,
+        "modifiedBy": 2001,
         "fields": {
             "documentKey": "KIE601-SWBUG-2778",
             "globalId": "GID-7565405",
@@ -3984,6 +3985,7 @@
             "assignedTo": 6329,
             "release": 2581,
             "BUG_foundOnDate$154": "2025-12-01",
+            "BUG_fixedInRelease$154": 2594,
             "priority": 2410,
             "BUG_severity$154": 1109,
             "BUG_category$154": 1422,
@@ -3994,7 +3996,7 @@
             "root_cause_category$154": 2512,
             "BUG_rootCause$154": "<p>Coding Error<br />\n<br />\nCenter key state change debounce timer updated.</p>",
             "BUG_testCaseUpdated$154": 1198,
-            "BUG_RD_comments$154": "<p>[Visu]: 05-Dec-2025</p>\n\n<p>As discussed in defect review meeting, sev to be changed to Long term.&nbsp;</p>\n\n<p>&nbsp;</p>",
+            "BUG_RD_comments$154": "<p>[Visu]: 05-Dec-2025</p>\n\n<p>As discussed in defect review meeting, sev to be changed to Long term.&nbsp;</p>\n\n<p>&nbsp;</p>\n\n<p>[Visu]: 14-Dec-2025<br />\nThis defect is fixed in R2.0.3.2</p>\n\n<p>&nbsp;</p>",
             "BUG_V1_project$154": 1431
         },
         "resources": {
@@ -4004,7 +4006,7 @@
                 ]
             }
         },
-        "version": 6,
+        "version": 7,
         "location": {
             "sortOrder": 1357,
             "globalSortOrder": 1311270492,
@@ -4015,7 +4017,7 @@
         },
         "lock": {
             "locked": false,
-            "lastLockedDate": "2025-12-08T11:18:26.000+0000"
+            "lastLockedDate": "2025-12-14T17:01:10.000+0000"
         },
         "type": "items"
     },
@@ -4026,10 +4028,10 @@
         "itemType": 154,
         "project": 417,
         "createdDate": "2025-12-04T15:15:17.000+0000",
-        "modifiedDate": "2025-12-05T13:35:33.000+0000",
-        "lastActivityDate": "2025-12-05T13:35:33.000+0000",
+        "modifiedDate": "2025-12-14T16:59:46.000+0000",
+        "lastActivityDate": "2025-12-14T16:59:46.000+0000",
         "createdBy": 2925,
-        "modifiedBy": 6485,
+        "modifiedBy": 2001,
         "fields": {
             "documentKey": "KIE601-SWBUG-2782",
             "globalId": "GID-7569475",
@@ -4041,6 +4043,7 @@
             "assignedTo": 6485,
             "release": 2581,
             "BUG_foundOnDate$154": "2025-12-03",
+            "BUG_fixedInRelease$154": 2594,
             "priority": 2410,
             "BUG_severity$154": 1109,
             "BUG_category$154": 1422,
@@ -4051,7 +4054,7 @@
             "root_cause_category$154": 2515,
             "BUG_rootCause$154": "<p>Requirement was incorrect</p>",
             "BUG_testCaseUpdated$154": 1198,
-            "BUG_RD_comments$154": "<p>Vigneshwarar V [4.12.2025]- Resimulated the same issue in SIM 316 with the fault condition F 355. In inspection mode, the escalator could not run. After disabling the E-link selection parameter PC1_1248_0, the fault get cleared, but the escalator still not able to run in inspection mode(It gets hang), although it run normally in normal mode. We also tried by setting the default parameter with PC2_2908_1, but try to run in inspection mode still did not work. Finally, after reloading the software for the CPU, MSC, LSC, and LCB,the escalator was able to run in inspection mode,it working fine without any issues.</p>\n\n<p><strong>Note:Issue has observed 1 time&nbsp;</strong></p>\n\n<p><br />\n\u200b</p>",
+            "BUG_RD_comments$154": "<p>Vigneshwarar V [4.12.2025]- Resimulated the same issue in SIM 316 with the fault condition F 355. In inspection mode, the escalator could not run. After disabling the E-link selection parameter PC1_1248_0, the fault get cleared, but the escalator still not able to run in inspection mode(It gets hang), although it run normally in normal mode. We also tried by setting the default parameter with PC2_2908_1, but try to run in inspection mode still did not work. Finally, after reloading the software for the CPU, MSC, LSC, and LCB,the escalator was able to run in inspection mode,it working fine without any issues.</p>\n\n<p><strong>Note:Issue has observed 1 time&nbsp;</strong></p>\n\n<p>&nbsp;</p>\n\n<p>&nbsp;</p>\n\n<p>[Visu]: 14-Dec-2025<br />\nThis defect is fixed in R2.0.3.2</p>\n\n<p><br />\n\u200b</p>",
             "BUG_V1_project$154": 1431
         },
         "resources": {
@@ -4061,7 +4064,7 @@
                 ]
             }
         },
-        "version": 6,
+        "version": 8,
         "location": {
             "sortOrder": 1361,
             "globalSortOrder": 1311274784,
@@ -4072,7 +4075,7 @@
         },
         "lock": {
             "locked": false,
-            "lastLockedDate": "2025-12-05T13:35:34.000+0000"
+            "lastLockedDate": "2025-12-14T16:59:47.000+0000"
         },
         "type": "items"
     },
@@ -4520,10 +4523,10 @@
         "itemType": 154,
         "project": 417,
         "createdDate": "2025-12-08T13:59:14.000+0000",
-        "modifiedDate": "2025-12-11T14:04:02.000+0000",
-        "lastActivityDate": "2025-12-11T14:04:02.000+0000",
+        "modifiedDate": "2025-12-14T17:11:27.000+0000",
+        "lastActivityDate": "2025-12-14T17:11:27.000+0000",
         "createdBy": 5932,
-        "modifiedBy": 6612,
+        "modifiedBy": 2001,
         "fields": {
             "documentKey": "KIE601-SWBUG-2811",
             "globalId": "GID-7575591",
@@ -4535,6 +4538,7 @@
             "assignedTo": 6612,
             "release": 2581,
             "BUG_foundOnDate$154": "2025-12-06",
+            "BUG_fixedInRelease$154": 2594,
             "priority": 2410,
             "BUG_severity$154": 1109,
             "BUG_category$154": 1422,
@@ -4545,6 +4549,7 @@
             "root_cause_category$154": 2512,
             "BUG_rootCause$154": "<p>Fault was added to a non-OSI variable, so not able to indicate it as out of service</p>",
             "BUG_testCaseUpdated$154": 1198,
+            "BUG_RD_comments$154": "<p>[Visu]: 14-Dec-2025<br />\nThis defect is fixed in R2.0.3.2</p>\n\n<p>&nbsp;</p>",
             "BUG_V1_project$154": 1431
         },
         "resources": {
@@ -4554,7 +4559,7 @@
                 ]
             }
         },
-        "version": 7,
+        "version": 8,
         "location": {
             "sortOrder": 1390,
             "globalSortOrder": 1311305901,
@@ -4565,7 +4570,7 @@
         },
         "lock": {
             "locked": false,
-            "lastLockedDate": "2025-12-11T14:04:03.000+0000"
+            "lastLockedDate": "2025-12-14T17:11:29.000+0000"
         },
         "type": "items"
     },
@@ -4684,8 +4689,8 @@
         "itemType": 154,
         "project": 417,
         "createdDate": "2025-12-09T13:24:02.000+0000",
-        "modifiedDate": "2025-12-10T03:48:19.000+0000",
-        "lastActivityDate": "2025-12-10T03:48:19.000+0000",
+        "modifiedDate": "2025-12-14T17:17:08.000+0000",
+        "lastActivityDate": "2025-12-14T17:17:08.000+0000",
         "createdBy": 5932,
         "modifiedBy": 2001,
         "fields": {
@@ -4693,13 +4698,14 @@
             "globalId": "GID-7577179",
             "name": "IEX-When parameter set in FUI, AMC Tool Fails to update Escalator Parameter.",
             "description": "<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\"><strong>Detailed Defect Description:</strong></span></span></p>\n\n<p>IEX-When parameter set in FUI, AMC Tool Fails to update Escalator Parameter.</p>\n\n<p>&nbsp;</p>\n\n<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\"><strong>Parameters:&nbsp;&nbsp;</strong></span></span></p>\n\n<p>-</p>\n\n<p>&nbsp;</p>\n\n<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\"><strong>Group configuration: </strong></span></span></p>\n\n<p><span style=\"font-family:Calibri,sans-serif\"><span style=\"font-size:14.6667px\">Single escalator setup</span></span></p>\n\n<p>&nbsp;</p>\n\n<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\"><strong>Drive type:</strong></span></span></p>\n\n<p><span style=\"font-family:Calibri,sans-serif\"><span style=\"font-size:14.6667px\">Monarch,Danfoss</span></span></p>\n\n<p>&nbsp;</p>\n\n<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\"><strong>Regression or new finding:</strong></span></span></p>\n\n<p>Adhoc-New finding</p>\n\n<p>&nbsp;</p>\n\n<p>&nbsp;</p>\n\n<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\"><strong>Description of the test case (Detailed Scenario)&nbsp;</strong></span></span></p>\n\n<p>1.The AMC is connected with CPU.</p>\n\n<p>2.Set parameter PC1_1103_4 to PC1_1103_1 in the FUI.</p>\n\n<p>3.In the AMC tool, the escalator parameter for PC1_1103 is checked.</p>\n\n<p>4.The escalator parameter in AMC displays PC1_1103_4 instead of the updated value.</p>\n\n<p>5.After quitting and reopening the AMC tool, the escalator parameter updates correctly to PC1_1103_1.</p>\n\n<p>&nbsp;</p>\n\n<p><strong><span style=\"background-color:#f39c12\">Note: This behavior occurs for all parameters.</span></strong></p>\n\n<p>&nbsp;</p>\n\n<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\"><strong>Expected behavior:&nbsp;&nbsp;</strong></span></span></p>\n\n<p>The AMC escalator parameter should immediately display the updated value PC1_1103_1 after it is set in the FUI.</p>\n\n<p>&nbsp;</p>\n\n<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\"><strong>Actual behavior:</strong></span></span></p>\n\n<p>The AMC escalator parameter initially shows PC1_1103_4.</p>\n\n<p>&nbsp;</p>\n\n<p>Only after quitting and reopening the AMC tool does the escalator parameter update to PC1_1103_1.</p>\n\n<p>&nbsp;</p>\n\n<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\"><strong>Recovery:&nbsp;</strong></span></span></p>\n\n<p><span style=\"font-family:Calibri,sans-serif\"><span style=\"font-size:14.6667px\">Quit and Re-open the application</span></span>.</p>\n\n<p>&nbsp;</p>\n\n<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\"><strong>Value-added information:&nbsp;</strong></span></span></p>\n\n<p>IEX SW-R 2.0.3</p>\n\n<p>AMC SW-4.6.250.7156</p>\n\n<p>Video has been attached.</p>\n\n<p>&nbsp;</p>\n",
-            "status": 1082,
+            "status": 1085,
             "BUG_component$154": 1561,
             "BUG_subcomponent$154": "AMC-Service tool Miniconsole.",
             "createdBy": 5932,
             "assignedTo": 2454,
             "release": 2581,
             "BUG_foundOnDate$154": "2025-12-08",
+            "BUG_fixedInRelease$154": 2594,
             "priority": 2410,
             "BUG_severity$154": 1110,
             "BUG_category$154": 1422,
@@ -4709,6 +4715,7 @@
             "BUG_probability_on_field$154": 2397,
             "root_cause_category$154": 2512,
             "BUG_testCaseUpdated$154": 1198,
+            "BUG_RD_comments$154": "<p>[Visu]: 14-Dec-2025<br />\nThis defect is fixed in R2.0.3.2</p>\n\n<p>&nbsp;</p>",
             "BUG_V1_project$154": 1431
         },
         "resources": {
@@ -4718,7 +4725,7 @@
                 ]
             }
         },
-        "version": 3,
+        "version": 5,
         "location": {
             "sortOrder": 1394,
             "globalSortOrder": 1311310193,
@@ -4729,7 +4736,7 @@
         },
         "lock": {
             "locked": false,
-            "lastLockedDate": "2025-12-10T03:48:20.000+0000"
+            "lastLockedDate": "2025-12-14T17:17:09.000+0000"
         },
         "type": "items"
     },
@@ -4795,8 +4802,8 @@
         "itemType": 154,
         "project": 417,
         "createdDate": "2025-12-09T14:30:29.000+0000",
-        "modifiedDate": "2025-12-10T04:26:22.000+0000",
-        "lastActivityDate": "2025-12-10T04:26:22.000+0000",
+        "modifiedDate": "2025-12-14T17:20:08.000+0000",
+        "lastActivityDate": "2025-12-14T17:20:08.000+0000",
         "createdBy": 5932,
         "modifiedBy": 2001,
         "fields": {
@@ -4804,13 +4811,14 @@
             "globalId": "GID-7577198",
             "name": "IEX-Fault F 026-1,F028-1,F028-2 Appears Without Description in AMC fault log view",
             "description": "<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\"><strong>Detailed Defect Description:</strong></span></span></p>\n\n<p>IEX-Fault F 026-1,F028-1,F028-2 Appears Without Description in AMC fault log view</p>\n\n<p>&nbsp;</p>\n\n<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\"><strong>Parameters:&nbsp;&nbsp;</strong></span></span></p>\n\n<p><span style=\"font-family:Calibri, sans-serif\"><span style=\"font-size:14.6667px\">-</span></span></p>\n\n<p>&nbsp;</p>\n\n<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\"><strong>Group configuration: </strong></span></span></p>\n\n<p><span style=\"font-family:Calibri, sans-serif\"><span style=\"font-size:14.6667px\">Single escalator setup</span></span></p>\n\n<p>&nbsp;</p>\n\n<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\"><strong>Drive type:</strong></span></span></p>\n\n<p><span style=\"font-family:Calibri, sans-serif\"><span style=\"font-size:14.6667px\">Monarch,Danfoss</span></span></p>\n\n<p>&nbsp;</p>\n\n<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\"><strong>Regression or new finding:</strong></span></span></p>\n\n<p><span style=\"font-family:Calibri, sans-serif\"><span style=\"font-size:14.6667px\">Regression</span></span></p>\n\n<p>&nbsp;</p>\n\n<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\"><strong>Test case Name / Feature name:</strong></span></span></p>\n\n<p><span style=\"font-family:Calibri, sans-serif\"><span style=\"font-size:14.6667px\">Fault log view</span></span></p>\n\n<p>&nbsp;</p>\n\n<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\"><strong>Description of the test case (Detailed Scenario)&nbsp;</strong></span></span></p>\n\n<p>1.Escalator is running in UP direction.</p>\n\n<p>2.Activate External emergency stop lower in SEC.</p>\n\n<p>3.F 026-1(External emergency stop lower( Additional Stop switch with 15m Cable )) gets triggered and stops immediately.</p>\n\n<p>4.check the fault log status in AMC tool.</p>\n\n<p>5.Fault has came with no description.</p>\n\n<p>&nbsp;</p>\n\n<p><img alt=\"\" height=\"438\" src=\"https://konerqm.jamacloud.com/attachment/234182/Screenshot_20251209_195232_Android_MiniConsole_v4%5B1%5D.jpg\" width=\"202\" /></p>\n\n<p>&nbsp;</p>\n\n<p><strong><span style=\"background-color:#f1c40f\">Note:Same issue has observed in F028-1,F028-2.</span></strong></p>\n\n<p><strong><span style=\"background-color:#f1c40f\">Same issue occurs in KFPS&nbsp;</span></strong></p>\n\n<p>&nbsp;</p>\n\n<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\"><strong>Expected behavior:&nbsp;&nbsp;</strong></span></span></p>\n\n<p>AMC Tool should show with the <strong>correct fault description</strong>, F 026-1&nbsp;<strong>\u201cExternal emergency stop lower activated (Additional Stop Switch\"</strong></p>\n\n<p>&nbsp;</p>\n\n<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\"><strong>Actual behavior:</strong></span></span></p>\n\n<p>Fault has came with no description in AMC tool.</p>\n\n<p>&nbsp;</p>\n\n<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\"><strong>Recovery:&nbsp;</strong></span></span></p>\n\n<p><span style=\"font-family:Calibri, sans-serif\"><span style=\"font-size:14.6667px\">-</span></span></p>\n\n<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\"><strong>Value-added information:&nbsp;</strong></span></span></p>\n\n<p>IEX SW-R2.0.3</p>\n\n<p>AMC SW- 4.6.250.7156</p>\n",
-            "status": 1082,
+            "status": 1085,
             "BUG_component$154": 1561,
             "BUG_subcomponent$154": "Service tool-Android miniconsole,KFPS",
             "createdBy": 5932,
             "assignedTo": 6390,
             "release": 2581,
             "BUG_foundOnDate$154": "2025-12-08",
+            "BUG_fixedInRelease$154": 2594,
             "priority": 2410,
             "BUG_severity$154": 1109,
             "BUG_category$154": 1422,
@@ -4820,6 +4828,7 @@
             "BUG_probability_on_field$154": 2398,
             "root_cause_category$154": 2512,
             "BUG_testCaseUpdated$154": 1198,
+            "BUG_RD_comments$154": "<p>[Visu]: 14-Dec-2025<br />\nThis defect is fixed in R2.0.3.2</p>\n\n<p>&nbsp;</p>",
             "BUG_V1_project$154": 1431
         },
         "resources": {
@@ -4829,7 +4838,7 @@
                 ]
             }
         },
-        "version": 2,
+        "version": 3,
         "location": {
             "sortOrder": 1396,
             "globalSortOrder": 1311312339,
@@ -4840,7 +4849,7 @@
         },
         "lock": {
             "locked": false,
-            "lastLockedDate": "2025-12-10T09:58:52.000+0000"
+            "lastLockedDate": "2025-12-14T17:20:09.000+0000"
         },
         "type": "items"
     },
@@ -5291,8 +5300,8 @@
         "itemType": 154,
         "project": 417,
         "createdDate": "2025-12-11T06:57:42.000+0000",
-        "modifiedDate": "2025-12-11T14:09:16.000+0000",
-        "lastActivityDate": "2025-12-11T14:09:16.000+0000",
+        "modifiedDate": "2025-12-14T17:21:38.000+0000",
+        "lastActivityDate": "2025-12-14T17:21:38.000+0000",
         "createdBy": 5932,
         "modifiedBy": 2001,
         "fields": {
@@ -5300,13 +5309,14 @@
             "globalId": "GID-7581781",
             "name": "IEX-Incorrect Node Pairing Status Displayed in AMC Tool",
             "description": "<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\"><strong>Detailed Defect Description:</strong></span></span></p>\n\n<p>IEX-Incorrect Node Pairing Status Displayed in AMC Tool</p>\n\n<p>&nbsp;</p>\n\n<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\"><strong>Parameters:&nbsp;&nbsp;</strong></span></span></p>\n\n<p><span style=\"font-family:Calibri,sans-serif\"><span style=\"font-size:14.6667px\">PC1_1420</span></span></p>\n\n<p>&nbsp;</p>\n\n<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\"><strong>Group configuration: </strong></span></span></p>\n\n<p><span style=\"font-family:Calibri,sans-serif\"><span style=\"font-size:14.6667px\">Single Escalator status</span></span></p>\n\n<p>&nbsp;</p>\n\n<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\"><strong>Drive type:</strong></span></span></p>\n\n<p><span style=\"font-family:Calibri,sans-serif\"><span style=\"font-size:14.6667px\">Monarch,Danfoss</span></span></p>\n\n<p>&nbsp;</p>\n\n<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\"><strong>Regression or new finding:</strong></span></span></p>\n\n<p>Adhoc&nbsp;</p>\n\n<p>&nbsp;</p>\n\n<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\"><strong>Description of the test case (Detailed Scenario)&nbsp;</strong></span></span></p>\n\n<p>&nbsp;</p>\n\n<p>1.The CPU is not registered with the KEN.</p>\n\n<p>2.Navigate to Tools \u2192 Pairing \u2192 Pairing Status; the tool displays 8 paired devices (IOC1, IOC2, SEC1, SEC2, LCB, LSC, CPU).</p>\n\n<p>3.The pairing status should show devices in a not paired condition.</p>\n\n<p>:<img alt=\"\" height=\"481\" src=\"https://konerqm.jamacloud.com/attachment/234451/KEN.jpg\" width=\"222\" /></p>\n\n<p>&nbsp;</p>\n\n<p>Scenario 2:</p>\n\n<ol>\n\t<li>\n\t<p><strong>PC1_1420_10</strong> has been set (SEC node assigned to <strong>10</strong>).</p>\n\t</li>\n\t<li>\n\t<p>Safety push has been done&nbsp;and roll call is done.</p>\n\t</li>\n\t<li>\n\t<p>SEC-related faults were thrown. Upon checking the <strong>AMC Node Pairing Status</strong>, it shows an <strong>incorrect pairing status</strong>.</p>\n\t</li>\n</ol>\n\n<p><strong>Note:</strong> We have only connected <strong>2 SECs</strong>, but the system indicates that <strong>SEC 3</strong> is paired.</p>\n\n<p>&nbsp;</p>\n\n<p><img alt=\"\" height=\"507\" src=\"https://konerqm.jamacloud.com/attachment/234452/SEC.jpg\" width=\"234\" /></p>\n\n<p>&nbsp;</p>\n\n<p>&nbsp;</p>\n\n<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\"><strong>Expected behavior:&nbsp;&nbsp;</strong></span></span></p>\n\n<p>The Pairing Status screen should correctly display the actual pairing condition. Since the CPU is not registered with the KEN, all devices (IOC1, IOC2, SEC1, SEC2, LCB, LSC, CPU) should appear as Not Paired, with no paired devices shown.</p>\n\n<p>&nbsp;</p>\n\n<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\"><strong>Actual behavior:</strong></span></span></p>\n\n<p>The Pairing Status screen incorrectly displays 8 devices (IOC1, IOC2, SEC1, SEC2, LCB, LSC, CPU) as Paired, .</p>\n\n<p>&nbsp;</p>\n\n<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\"><strong>Recovery:&nbsp;</strong></span></span></p>\n\n<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\">-</span></span></p>\n\n<p>&nbsp;</p>\n\n<p>&nbsp;</p>\n",
-            "status": 1082,
+            "status": 1085,
             "BUG_component$154": 2243,
             "BUG_subcomponent$154": "Escalator-KIE",
             "createdBy": 5932,
             "assignedTo": 6612,
             "release": 2529,
             "BUG_foundOnDate$154": "2025-12-10",
+            "BUG_fixedInRelease$154": 2594,
             "priority": 2410,
             "BUG_severity$154": 1110,
             "BUG_category$154": 1422,
@@ -5316,6 +5326,7 @@
             "BUG_probability_on_field$154": 2396,
             "root_cause_category$154": 2512,
             "BUG_testCaseUpdated$154": 1198,
+            "BUG_RD_comments$154": "<p>[Visu]: 14-Dec-2025<br />\nThis defect is fixed in R2.0.3.2</p>",
             "BUG_V1_project$154": 1431
         },
         "resources": {
@@ -5325,7 +5336,7 @@
                 ]
             }
         },
-        "version": 8,
+        "version": 9,
         "location": {
             "sortOrder": 1406,
             "globalSortOrder": 1311323069,
@@ -5336,7 +5347,7 @@
         },
         "lock": {
             "locked": false,
-            "lastLockedDate": "2025-12-11T14:09:17.000+0000"
+            "lastLockedDate": "2025-12-14T17:21:40.000+0000"
         },
         "type": "items"
     },
