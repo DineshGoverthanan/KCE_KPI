@@ -4627,8 +4627,8 @@
         "Assigned To":"Veeramanikandan"
     },
     {
-        "TestRunStatus":"INPROGRESS",
-        "ExecutionDate":"2025-12-13",
+        "TestRunStatus":"PASSED",
+        "ExecutionDate":"2025-12-15",
         "Document Key":"KCE-TSTRN-4008030",
         "Name":"KCESAFETY - Unintended movement protection - Automatic landing doors in use - Rear side",
         "Assigned To":"Veeramanikandan"
@@ -16191,10 +16191,24 @@
         "Assigned To":"Mohammed Ibrahim Sultan"
     },
     {
+        "TestRunStatus":"FAILED",
+        "ExecutionDate":"2025-12-15",
+        "Document Key":"KIE601-TSTRN-73802",
+        "Name":"Factory Mode Disabled & 2 nos Supervision Enabled  for 1 hour",
+        "Assigned To":"Mohammed Ibrahim Sultan"
+    },
+    {
         "TestRunStatus":"PASSED",
         "ExecutionDate":"2025-09-29",
         "Document Key":"KIE601-TSTRN-63360",
         "Name":"Flywheel Cover Monitoring KAM mode",
+        "Assigned To":"Mohammed Ibrahim Sultan"
+    },
+    {
+        "TestRunStatus":"FAILED",
+        "ExecutionDate":"2025-12-15",
+        "Document Key":"KIE601-TSTRN-73803",
+        "Name":"Factory Mode Disabled & all Supervision Enabled  for 3 hour",
         "Assigned To":"Mohammed Ibrahim Sultan"
     },
     {
@@ -16216,6 +16230,27 @@
         "ExecutionDate":"2025-09-29",
         "Document Key":"KIE601-TSTRN-63363",
         "Name":"Flywheel Cover Monitoring Inspection mode",
+        "Assigned To":"Mohammed Ibrahim Sultan"
+    },
+    {
+        "TestRunStatus":"PASSED",
+        "ExecutionDate":"2025-12-15",
+        "Document Key":"KIE601-TSTRN-73753",
+        "Name":"Reverse Direction (Step Reversal) for KCM",
+        "Assigned To":"Mohammed Ibrahim Sultan"
+    },
+    {
+        "TestRunStatus":"PASSED",
+        "ExecutionDate":"2025-12-15",
+        "Document Key":"KIE601-TSTRN-73754",
+        "Name":"Missing Step Detection - Upper",
+        "Assigned To":"Mohammed Ibrahim Sultan"
+    },
+    {
+        "TestRunStatus":"PASSED",
+        "ExecutionDate":"2025-12-15",
+        "Document Key":"KIE601-TSTRN-73755",
+        "Name":"Missing Step Detection - Lower",
         "Assigned To":"Mohammed Ibrahim Sultan"
     },
     {

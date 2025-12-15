@@ -5650,6 +5650,67 @@
         "type": "items"
     },
     {
+        "id": 28661338,
+        "documentKey": "KCE-SWBUG-14108",
+        "globalId": "GID-7590192",
+        "itemType": 154,
+        "project": 229,
+        "createdDate": "2025-12-15T13:44:45.000+0000",
+        "modifiedDate": "2025-12-15T13:45:33.000+0000",
+        "lastActivityDate": "2025-12-15T13:46:19.000+0000",
+        "createdBy": 1300,
+        "modifiedBy": 620,
+        "fields": {
+            "documentKey": "KCE-SWBUG-14108",
+            "globalId": "GID-7590192",
+            "name": "KCE NA_During the setup run, the roll call was not effective in FCB Nodes.",
+            "description": "<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\"><strong>Detailed Defect Description:</strong></span></span></p>\n\n<p><span style=\"font-size:11.0pt\"><span style=\"font-family:Calibri\">During the setup run, the roll call was not effective in FCB Nodes</span></span></p>\n\n<p>&nbsp;</p>\n\n<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\"><strong>Parameters:&nbsp;&nbsp;</strong></span></span></p>\n\n<p>280 =2 or 1</p>\n\n<p>&nbsp;</p>\n\n<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\"><strong>Group configuration: </strong></span></span></p>\n\n<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\">Single elevator setup</span></span></p>\n\n<p>&nbsp;</p>\n\n<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\"><strong>Drive type:</strong></span></span></p>\n\n<p><span style=\"font-family:Calibri, sans-serif\"><span style=\"font-size:14.6667px\">KDX32 Drive&nbsp;</span></span></p>\n\n<p><span style=\"font-family:Calibri, sans-serif\"><span style=\"font-size:14.6667px\">SW version - 25.45</span></span></p>\n\n<p>&nbsp;</p>\n\n<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\"><strong>Regression or new finding:</strong></span></span></p>\n\n<p><span style=\"font-family:Calibri, sans-serif\"><span style=\"font-size:14.6667px\">New finding&nbsp;</span></span></p>\n\n<p>&nbsp;</p>\n\n<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\"><strong>Test case Name / Feature name:</strong></span></span></p>\n\n<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\">ad-hoc defect</span></span></p>\n\n<p>&nbsp;</p>\n\n<p>&nbsp;</p>\n\n<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\"><strong>Description of the test case (Detailed Scenario)&nbsp;</strong></span></span></p>\n\n<p>&nbsp;</p>\n\n<ol style=\"font-family:Calibri; font-size:11.0pt; font-style:normal; font-weight:normal; list-style-type:decimal; unicode-bidi:embed\">\n\t<li style=\"vertical-align:middle\" value=\"1\"><span style=\"font-size:11.0pt\"><span style=\"font-family:Calibri\"><span><span>Create wrong floor FCB&nbsp; to make the roll call failed state. And Now Elevator in roll call failed state.</span></span></span></span></li>\n\t<li style=\"vertical-align:middle\"><span style=\"font-size:11.0pt\"><span style=\"font-family:Calibri\">Replace the incorrect FCB with correct FCB floor</span></span></li>\n\t<li style=\"vertical-align:middle\"><span style=\"font-size:11.0pt\"><span style=\"font-family:Calibri\">Now Perform the Setup Run.</span></span></li>\n\t<li style=\"vertical-align:middle\"><span style=\"font-size:11.0pt\"><span style=\"font-family:Calibri\">During 1st setup run, the </span></span><span style=\"font-size:11.0pt\"><strong style=\"font-weight:bold\"><span style=\"font-family:Calibri\">roll call has failed.</span></strong></span></li>\n\t<li style=\"vertical-align:middle\"><span style=\"font-size:11.0pt\"><span style=\"font-family:Calibri\">Again Perform the </span></span><span style=\"font-size:11.0pt\"><strong style=\"font-weight:bold\"><span style=\"font-family:Calibri\">RDF &gt;&gt; Roll Call</span></strong></span><span style=\"font-size:11.0pt\"><span style=\"font-family:Calibri\"> &gt;&gt; Next roll call is passed (without do any actions roll call passed or Next setup run also roll call is passed )</span></span></li>\n</ol>\n\n<p>&nbsp;</p>\n\n<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\"><strong>Expected behavior:&nbsp;&nbsp;</strong></span></span></p>\n\n<p><span style=\"font-size:11.0pt\"><span style=\"font-family:Calibri\">During 1st setup run, the </span></span><span style=\"font-size:11.0pt\"><strong style=\"font-weight:bold\"><span style=\"font-family:Calibri\">roll call should be in pass state.&nbsp;</span></strong><span style=\"font-family:Calibri\">(if correct FCB placed)</span></span></p>\n\n<p>&nbsp;</p>\n\n<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\"><strong>Actual behavior:</strong></span></span></p>\n\n<p><span style=\"font-size:11.0pt\"><span style=\"font-family:Calibri\">During setup run, roll call has failed.</span></span></p>\n\n<p>&nbsp;</p>\n\n<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\"><strong>Recovery:&nbsp;</strong></span></span></p>\n\n<p><span style=\"font-family:Calibri, sans-serif\"><span style=\"font-size:14.6667px\">Again perform the roll call.</span></span></p>\n\n<p>&nbsp;</p>\n\n<p>&nbsp;</p>\n\n<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\"><strong>Log attached Information:</strong></span></span></p>\n\n<p>LPA and Console log attached here.</p>\n\n<p>&nbsp;</p>\n\n<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\"><strong>Value-added information:&nbsp;</strong></span></span></p>\n\n<p>&nbsp;</p>\n\n<p>Verified with KCE Row software it's also same behaviour. i.e. Setup run roll call failed in above scenario.</p>\n\n<p>&nbsp;</p>\n\n<p><span style=\"font-size:11.0pt\"><span style=\"font-family:Calibri\">SW Details:</span></span></p>\n\n<p><span style=\"font-size:11.0pt\"><span style=\"font-family:Calibri\">LD- 17.0.0.20</span></span></p>\n\n<p><span style=\"font-size:11.0pt\"><span style=\"font-family:Calibri\">GCD - 17.0.1.1</span></span></p>\n\n<p><span style=\"font-size:11.0pt\"><span style=\"font-family:Calibri\">Safety SW - P4.0.0.30</span></span></p>\n\n<p>&nbsp;</p>\n\n<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\"><strong>Requirement related to the defect:</strong></span></span></p>\n\n<p>&nbsp;</p>\n",
+            "status": 1081,
+            "BUG_component$154": 1291,
+            "createdBy": 1300,
+            "release": 2396,
+            "BUG_foundInBuild$154": "LD 17.0.0.20",
+            "BUG_foundOnDate$154": "2025-12-11",
+            "priority": 2410,
+            "BUG_severity$154": 1110,
+            "BUG_category$154": 1422,
+            "BUG_testLevel$154": 1129,
+            "BUG_howFound$154": 1092,
+            "BUG_whereFound$154": 2145,
+            "BUG_probability_on_field$154": 2398,
+            "root_cause_category$154": 2512,
+            "BUG_testCaseUpdated$154": 1198,
+            "BUG_jiraId$154": "KCE-32482",
+            "BUG_jira_project$154": 2465,
+            "BUG_jira_URL$154": "https://kone.atlassian.net/browse/KCE-32482",
+            "BUG_integration_synced_time$154": "2025-12-15 13:45:31.968344",
+            "BUG_V1_project$154": 1431
+        },
+        "resources": {
+            "self": {
+                "allowed": [
+                    "GET",
+                    "PUT",
+                    "PATCH",
+                    "DELETE"
+                ]
+            }
+        },
+        "version": 2,
+        "location": {
+            "sortOrder": 252,
+            "globalSortOrder": 1537292002,
+            "sequence": "17.1.253",
+            "parent": {
+                "item": 14006970
+            }
+        },
+        "lock": {
+            "locked": false
+        },
+        "type": "items"
+    },
+    {
         "id": 25207236,
         "documentKey": "KCE-SWBUG-5081",
         "globalId": "GID-6766081",
@@ -24204,18 +24265,19 @@
         "itemType": 154,
         "project": 229,
         "createdDate": "2025-12-15T05:33:16.000+0000",
-        "modifiedDate": "2025-12-15T05:33:16.000+0000",
-        "lastActivityDate": "2025-12-15T05:33:16.000+0000",
+        "modifiedDate": "2025-12-15T12:18:05.000+0000",
+        "lastActivityDate": "2025-12-15T12:18:05.000+0000",
         "createdBy": 6096,
-        "modifiedBy": 6096,
+        "modifiedBy": 967,
         "fields": {
             "documentKey": "KCE-SWBUG-14096",
             "globalId": "GID-7589828",
             "name": "17.0 - KDH - Fault #6666's Data 1 is missing",
             "description": "<p><img alt=\"\" height=\"264\" src=\"https://konerqm.jamacloud.com/attachment/234571/image-hwa8vHf6IF.png\" width=\"829\" /></p>\n\n<p>&nbsp;</p>\n\n<p><em><strong>Note:</strong></em><br />\nLocalization files are updated</p>\n",
-            "status": 1081,
+            "status": 1085,
             "BUG_component$154": 2499,
             "createdBy": 6096,
+            "assignedTo": 967,
             "release": 2396,
             "priority": 2410,
             "BUG_severity$154": 1110,
@@ -24225,6 +24287,7 @@
             "BUG_whereFound$154": 1137,
             "BUG_probability_on_field$154": 2397,
             "root_cause_category$154": 2512,
+            "BUG_rootCause$154": "<p>Added to database</p>",
             "BUG_testCaseUpdated$154": 1198,
             "BUG_V1_project$154": 1431
         },
@@ -24238,7 +24301,7 @@
                 ]
             }
         },
-        "version": 1,
+        "version": 2,
         "location": {
             "sortOrder": 6591,
             "globalSortOrder": 1665965568,
@@ -24248,7 +24311,8 @@
             }
         },
         "lock": {
-            "locked": false
+            "locked": false,
+            "lastLockedDate": "2025-12-15T12:18:06.000+0000"
         },
         "type": "items"
     },
@@ -24316,18 +24380,19 @@
         "itemType": 154,
         "project": 229,
         "createdDate": "2025-12-15T05:43:50.000+0000",
-        "modifiedDate": "2025-12-15T05:55:21.000+0000",
-        "lastActivityDate": "2025-12-15T05:55:21.000+0000",
+        "modifiedDate": "2025-12-15T12:21:42.000+0000",
+        "lastActivityDate": "2025-12-15T12:21:42.000+0000",
         "createdBy": 5934,
-        "modifiedBy": 5934,
+        "modifiedBy": 967,
         "fields": {
             "documentKey": "KCE-SWBUG-14098",
             "globalId": "GID-7589832",
             "name": "17.0 - KDH - Fault code 6031 Data 2 description is missing.",
             "description": "<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\"><strong>Detailed Defect Description:</strong></span></span></p>\n\n<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\">17.0 - KDH - Fault code 6031 Data 2 description is missing.</span></span></p>\n\n<p>&nbsp;</p>\n\n<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\"><strong>Parameters:&nbsp;&nbsp;</strong></span></span></p>\n\n<p><span style=\"font-family:Calibri,sans-serif\"><span style=\"font-size:14.6667px\">Fault code 6031</span></span></p>\n\n<p>&nbsp;</p>\n\n<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\"><strong>Group configuration: </strong></span></span></p>\n\n<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\">single elevator setup</span></span></p>\n\n<p>&nbsp;</p>\n\n<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\"><strong>Drive type:</strong></span></span></p>\n\n<p><span style=\"font-family:Calibri,sans-serif\"><span style=\"font-size:14.6667px\">KDH</span></span></p>\n\n<p>&nbsp;</p>\n\n<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\"><strong>Regression or new finding:</strong></span></span></p>\n\n<p><span style=\"font-family:Calibri,sans-serif\"><span style=\"font-size:14.6667px\">New finding</span></span></p>\n\n<p>&nbsp;</p>\n\n<p>&nbsp;</p>\n\n<p>&nbsp;</p>\n\n<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\"><strong>Test case Name / Feature name:</strong></span></span></p>\n\n<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\">(e.g. Test case name where the defect observed or the feature name in case of ad-hoc defect)</span></span></p>\n\n<p>&nbsp;</p>\n\n<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\"><strong>Test step number:</strong></span></span></p>\n\n<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\">(e.g. Provide step number if its Test Case defect else mention \u201cad-hoc scenario\u201d)</span></span></p>\n\n<p>&nbsp;</p>\n\n<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\"><strong>Description of the test case (Detailed Scenario)&nbsp;</strong></span></span></p>\n\n<ul>\n\t<li>6031 fault code date 1 description is shown.</li>\n\t<li>Data 2 description is not shown.</li>\n</ul>\n\n<p><img alt=\"\" height=\"543\" src=\"https://konerqm.jamacloud.com/attachment/234573/image-kqEVX5ORLl.png\" width=\"1067\" /></p>\n\n<p>&nbsp;</p>\n\n<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\"><strong>Expected behavior:&nbsp;&nbsp;</strong></span></span></p>\n\n<p>Date 2 description should be shown.</p>\n\n<p>&nbsp;</p>\n\n<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\"><strong>Actual behavior:</strong></span></span></p>\n\n<p><span style=\"font-family:Calibri,sans-serif\"><span style=\"font-size:14.6667px\">Data 2 description is not available.</span></span></p>\n\n<p>&nbsp;</p>\n\n<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\"><strong>Recovery:&nbsp;</strong></span></span></p>\n\n<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\">(e.g. Can issue be recovered by performing some actions like power break / RDF / Parameter changes)</span></span></p>\n\n<p>&nbsp;</p>\n\n<p>&nbsp;</p>\n\n<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\"><strong>Log attached Information:</strong></span></span></p>\n\n<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\">(e.g. Log attached information like KCEGC logs, N test, S test, CPU Logs, E-link play back file &amp; - specific time to seen in log)</span></span></p>\n\n<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\">Detailed instructions for log collection: </span></span><a href=\"https://kone.atlassian.net/wiki/spaces/RQR/pages/54904026/Log+collection+instructions+for+KCECPUc\" target=\"_blank\">https://kone.atlassian.net/wiki/spaces/RQR/pages/54904026/Log+collection+instructions+for+KCECPUc</a></p>\n\n<p>&nbsp;</p>\n\n<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\">Note: Once defect is logged, attachments can be done by editing the defect (use compressed zip folder format)</span></span></p>\n\n<p>&nbsp;</p>\n\n<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\"><strong>Value-added information:&nbsp;</strong></span></span></p>\n\n<ul>\n\t<li>Localization files are updated</li>\n</ul>\n\n<p>&nbsp;</p>\n\n<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\"><strong>Test Sequence history:&nbsp;</strong></span></span></p>\n\n<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\">1: was failing scenario passing earlier</span></span></p>\n\n<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\">2. what was SW level when this was passing last time</span></span></p>\n\n<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\">3. any changes in test setup or test scenario between passed and failed run</span></span></p>\n\n<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\">4. any changes in tested system configuration between passed and failed run</span></span></p>\n\n<p>&nbsp;</p>\n\n<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\"><strong>Requirement related to the defect:</strong></span></span></p>\n\n<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\">(e.g. URL link to requirement which is related to the defect)</span></span></p>\n",
-            "status": 1081,
+            "status": 1085,
             "BUG_component$154": 2499,
             "createdBy": 5934,
+            "assignedTo": 967,
             "release": 2396,
             "BUG_foundOnDate$154": "2025-12-14",
             "priority": 2410,
@@ -24338,6 +24403,7 @@
             "BUG_whereFound$154": 1137,
             "BUG_probability_on_field$154": 2396,
             "root_cause_category$154": 2512,
+            "BUG_rootCause$154": "<p>Added as \"0 or details if available\". Most commissioning tests doesn't have any data so they are 0.</p>",
             "BUG_testCaseUpdated$154": 1198,
             "BUG_V1_project$154": 1431
         },
@@ -24351,7 +24417,7 @@
                 ]
             }
         },
-        "version": 2,
+        "version": 3,
         "location": {
             "sortOrder": 6593,
             "globalSortOrder": 1665967714,
@@ -24362,7 +24428,7 @@
         },
         "lock": {
             "locked": false,
-            "lastLockedDate": "2025-12-15T05:55:22.000+0000"
+            "lastLockedDate": "2025-12-15T12:21:43.000+0000"
         },
         "type": "items"
     },
@@ -24469,6 +24535,121 @@
             "sortOrder": 6595,
             "globalSortOrder": 1665969860,
             "sequence": "17.6596",
+            "parent": {
+                "item": 83266
+            }
+        },
+        "lock": {
+            "locked": false
+        },
+        "type": "items"
+    },
+    {
+        "id": 28661310,
+        "documentKey": "KCE-SWBUG-14106",
+        "globalId": "GID-7590186",
+        "itemType": 154,
+        "project": 229,
+        "createdDate": "2025-12-15T13:23:44.000+0000",
+        "modifiedDate": "2025-12-15T13:23:44.000+0000",
+        "lastActivityDate": "2025-12-15T13:25:12.000+0000",
+        "createdBy": 6215,
+        "modifiedBy": 6215,
+        "fields": {
+            "documentKey": "KCE-SWBUG-14106",
+            "globalId": "GID-7590186",
+            "name": "17.0-RES E: Elevator speed does not return to nominal speed after RES is deactivated while serving a call.",
+            "description": "<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\"><strong>Detailed Defect Description:</strong></span></span></p>\n\n<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\">Elevator speed does not return to nominal speed after RES is deactivated while serving a call.</span></span></p>\n\n<p>&nbsp;</p>\n\n<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\"><strong>Parameters:&nbsp;&nbsp;</strong></span></span></p>\n\n<p>KCECPUc: 1462 - 1 Enable</p>\n\n<p>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;1378 - 0.6m/s</p>\n\n<p>&nbsp;</p>\n\n<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\"><strong>Group configuration: </strong></span></span></p>\n\n<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\">Single</span></span></p>\n\n<p>&nbsp;</p>\n\n<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\"><strong>Drive type:</strong></span></span></p>\n\n<p><span style=\"font-family:Calibri, sans-serif\"><span style=\"font-size:14.6667px\">KDM</span></span></p>\n\n<p><span style=\"font-family:Calibri, sans-serif\"><span style=\"font-size:14.6667px\">SW Version :24.51</span></span></p>\n\n<p>&nbsp;</p>\n\n<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\"><strong>Regression or new finding:</strong></span></span></p>\n\n<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\">Regression</span></span></p>\n\n<p>&nbsp;</p>\n\n<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\"><strong>Test case Name / Feature name:</strong></span></span></p>\n\n<p><a href=\"https://konerqm.jamacloud.com/perspective.req?docId=28609364&amp;projectId=229\">KCE-TSTRN-4008715</a></p>\n\n<p>&nbsp;</p>\n\n<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\"><strong>Test step number:</strong></span></span></p>\n\n<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\">Ad-hoc scenario</span></span></p>\n\n<p>&nbsp;</p>\n\n<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\"><strong>Description of the test case (Detailed Scenario)&nbsp;</strong></span></span></p>\n\n<p>&nbsp;</p>\n\n<ul>\n\t<li>Elevator is standing at a floor level with RES activated via OPT 42 (Input 6).</li>\n\t<li>A car call is registered to a random floor.</li>\n\t<li>The elevator travels at reduced speed, and RES is deactivated while traveling&nbsp;between floors.</li>\n</ul>\n\n<p>&nbsp;</p>\n\n<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\"><strong>Expected behavior:&nbsp;&nbsp;</strong></span></span></p>\n\n<ul>\n\t<li>The Elevators should Return to Nominal Speed.</li>\n</ul>\n\n<p>&nbsp;</p>\n\n<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\"><strong>Actual behavior:</strong></span></span></p>\n\n<ul>\n\t<li>But elevator stay in RES speed until car call completed.</li>\n</ul>\n\n<p>&nbsp;</p>\n\n<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\"><strong>Recovery:&nbsp;</strong></span></span></p>\n\n<p>&nbsp;</p>\n\n<p>&nbsp;</p>\n\n<p>&nbsp;</p>\n\n<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\"><strong>Log attached Information:</strong></span></span></p>\n\n<p>LPA Log and Event Traffic Attached</p>\n\n<p>&nbsp;</p>\n\n<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\"><strong>Value-added information:&nbsp;</strong></span></span></p>\n\n<p>&nbsp;</p>\n\n<p><img alt=\"\" height=\"236\" src=\"https://konerqm.jamacloud.com/attachment/234701/image-AxYZiea8ka.png\" width=\"1185\" /></p>\n\n<p>&nbsp;</p>\n\n<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\"><strong>Test Sequence history:&nbsp;</strong></span></span></p>\n\n<p>NA</p>\n\n<p>&nbsp;</p>\n\n<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\"><strong>Requirement related to the defect:</strong></span></span></p>\n\n<p>KCE-FLD-5495</p>\n",
+            "status": 1081,
+            "BUG_component$154": 1291,
+            "createdBy": 6215,
+            "release": 2396,
+            "BUG_foundInBuild$154": "KCE 17.0.0.116(LD: 17.0.0.20, GCD: 17.0.1.1)",
+            "BUG_foundOnDate$154": "2025-12-14",
+            "priority": 2410,
+            "BUG_severity$154": 1110,
+            "BUG_category$154": 1422,
+            "BUG_testLevel$154": 1129,
+            "BUG_howFound$154": 1092,
+            "BUG_whereFound$154": 1137,
+            "BUG_probability_on_field$154": 2398,
+            "root_cause_category$154": 2512,
+            "BUG_testCaseUpdated$154": 1198,
+            "BUG_V1_project$154": 1431
+        },
+        "resources": {
+            "self": {
+                "allowed": [
+                    "GET",
+                    "PUT",
+                    "PATCH",
+                    "DELETE"
+                ]
+            }
+        },
+        "version": 1,
+        "location": {
+            "sortOrder": 6601,
+            "globalSortOrder": 1665976298,
+            "sequence": "17.6602",
+            "parent": {
+                "item": 83266
+            }
+        },
+        "lock": {
+            "locked": false
+        },
+        "type": "items"
+    },
+    {
+        "id": 28661314,
+        "documentKey": "KCE-SWBUG-14107",
+        "globalId": "GID-7590189",
+        "itemType": 154,
+        "project": 229,
+        "createdDate": "2025-12-15T13:27:49.000+0000",
+        "modifiedDate": "2025-12-15T13:27:49.000+0000",
+        "lastActivityDate": "2025-12-15T13:28:18.000+0000",
+        "createdBy": 6096,
+        "modifiedBy": 6096,
+        "fields": {
+            "documentKey": "KCE-SWBUG-14107",
+            "globalId": "GID-7590189",
+            "name": "0.0.0.96 - TSCOP - PRC Indication shown along with OSI when RDF Enabled",
+            "description": "<p><em><strong>Parameter:</strong></em></p>\n\n<p>1114 - 1</p>\n\n<p>1470 - 1</p>\n\n<p>1096 - 0</p>\n\n<p>989 - 1</p>\n\n<p><br />\n<em><strong>Description:</strong></em></p>\n\n<ul>\n\t<li>LD : 17.0.0.20</li>\n\t<li>KNSMUL : 0.0.0.50</li>\n\t<li>Drive : PDX</li>\n\t<li>TSCOP 15 Floor Setup is used</li>\n\t<li>WELM : 0.0.0.96</li>\n\t<li>Proto SW : 0.0.0.17</li>\n\t<li>1096 - 0 (Selective)</li>\n\t<li>A &amp; B side KNSMUL - Non-Conventional (KCOP)</li>\n</ul>\n\n<p>&nbsp;</p>\n\n<p><em><strong>Scenario:</strong></em></p>\n\n<ul>\n\t<li>PRC K - ON(PRC Indication shown in TSCOP),</li>\n\t<li>RDF ON (Now PRC Indication gone) OSI Shown</li>\n\t<li>PRC KEY form CAR still ON</li>\n\t<li>RDF turned OFF</li>\n\t<li>Again RDF - ON (quickly), Now Both PRC &amp; OSI Both shown in TSCOP Display</li>\n</ul>\n\n<p>&nbsp;</p>\n\n<p><em><strong>Expected Scenario:</strong></em></p>\n\n<ul>\n\t<li>When OSS Triggered, PRC mode indication shouldn't be shown</li>\n\t<li>Just OSI Should be shown<br />\n\t&nbsp;</li>\n</ul>\n\n<p><em><strong>Note:</strong></em></p>\n\n<ul>\n\t<li>Checked this with Attendant service, Issue not occurred</li>\n\t<li>Only OSI shown in TSCOP</li>\n</ul>\n\n<p><br />\n** \"<em>They have a variable \"mPreIndication\" that is missing with PRC to understand that PRC was active and should be removed\" </em>~ Hallart Christophe<br />\n<br />\n<em><strong>LOGs:</strong></em></p>\n\n<ul>\n\t<li>LPA</li>\n\t<li>Event</li>\n\t<li>Elev backup</li>\n</ul>\n",
+            "status": 1081,
+            "BUG_component$154": 1291,
+            "BUG_subcomponent$154": "WELM 0.0.0.96",
+            "createdBy": 6096,
+            "release": 2396,
+            "BUG_foundInBuild$154": "KCE 17.0.0.116(LD: 17.0.0.20, GCD: 17.0.1.1)",
+            "BUG_foundOnDate$154": "2025-12-14",
+            "priority": 2410,
+            "BUG_severity$154": 1110,
+            "BUG_category$154": 1428,
+            "BUG_testLevel$154": 1129,
+            "BUG_howFound$154": 1092,
+            "BUG_whereFound$154": 1137,
+            "BUG_probability_on_field$154": 2400,
+            "root_cause_category$154": 2512,
+            "BUG_testCaseUpdated$154": 1198,
+            "BUG_V1_project$154": 1431
+        },
+        "resources": {
+            "self": {
+                "allowed": [
+                    "GET",
+                    "PUT",
+                    "PATCH",
+                    "DELETE"
+                ]
+            }
+        },
+        "version": 1,
+        "location": {
+            "sortOrder": 6602,
+            "globalSortOrder": 1665979209,
+            "sequence": "17.6603",
             "parent": {
                 "item": 83266
             }
