@@ -12110,8 +12110,8 @@
         "Assigned To":"Kowsalya"
     },
     {
-        "TestRunStatus":"FAILED",
-        "ExecutionDate":"2025-12-10",
+        "TestRunStatus":"INPROGRESS",
+        "ExecutionDate":"2025-12-15",
         "Document Key":"KCE-TSTRN-4008709",
         "Name":"Group features - PRL and HEL parameters",
         "Assigned To":"Kowsalya"
@@ -12157,6 +12157,13 @@
         "Document Key":"KCE-TSTRN-4008713",
         "Name":"EAQ - Earthquake mode - Special",
         "Assigned To":"Kowsalya"
+    },
+    {
+        "TestRunStatus":"INPROGRESS",
+        "ExecutionDate":"2025-12-15",
+        "Document Key":"KCE-TSTRN-4008715",
+        "Name":"RES E - Reduced Speed - Tests not included into TA",
+        "Assigned To":"Jagadeesh"
     },
     {
         "TestRunStatus":"PASSED",
@@ -16157,6 +16164,13 @@
     },
     {
         "TestRunStatus":"PASSED",
+        "ExecutionDate":"2025-12-15",
+        "Document Key":"KIE601-TSTRN-73800",
+        "Name":"Factory Mode Disabled & Input Supervision Enabled ( Permanent) ",
+        "Assigned To":"Mohammed Ibrahim Sultan"
+    },
+    {
+        "TestRunStatus":"PASSED",
         "ExecutionDate":"2025-09-29",
         "Document Key":"KIE601-TSTRN-63358",
         "Name":"Flywheel Cover Monitoring KCM mode",
@@ -18473,8 +18487,15 @@
         "Assigned To":"Suryanarayanan"
     },
     {
+        "TestRunStatus":"INPROGRESS",
+        "ExecutionDate":"2025-12-15",
+        "Document Key":"KCE-TSTRN-4008402",
+        "Name":"KDSILCI - integrated FCB + LCI - With riser having mixed setup with KDSILCIs and FCBs",
+        "Assigned To":"Harini Sri"
+    },
+    {
         "TestRunStatus":"FAILED",
-        "ExecutionDate":"2025-12-11",
+        "ExecutionDate":"2025-12-15",
         "Document Key":"KCE-TSTRN-4008403",
         "Name":"KDSILCI - integrated FCB + LCI - With riser having only KDSILCIs",
         "Assigned To":"Harini Sri"
