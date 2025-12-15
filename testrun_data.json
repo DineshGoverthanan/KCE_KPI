@@ -10949,21 +10949,21 @@
     },
     {
         "TestRunStatus":"FAILED",
-        "ExecutionDate":"2025-12-07",
+        "ExecutionDate":"2025-12-15",
         "Document Key":"KIE601-TSTRN-70542",
         "Name":"Factory Mode Disabled & all Supervision Disabled for 1 hour",
-        "Assigned To":"VIGNESHWARAR"
+        "Assigned To":"Mohammed Ibrahim Sultan"
     },
     {
-        "TestRunStatus":"PASSED",
-        "ExecutionDate":"2025-12-09",
+        "TestRunStatus":"FAILED",
+        "ExecutionDate":"2025-12-15",
         "Document Key":"KIE601-TSTRN-70543",
         "Name":"Factory Mode Disabled & 2 nos Supervision Enabled  for 1 hour",
         "Assigned To":"Mohammed Ibrahim Sultan"
     },
     {
-        "TestRunStatus":"PASSED",
-        "ExecutionDate":"2025-12-09",
+        "TestRunStatus":"FAILED",
+        "ExecutionDate":"2025-12-15",
         "Document Key":"KIE601-TSTRN-70544",
         "Name":"Factory Mode Disabled & all Supervision Enabled  for 3 hour",
         "Assigned To":"Mohammed Ibrahim Sultan"
@@ -16177,6 +16177,13 @@
         "Assigned To":"Mohammed Ibrahim Sultan"
     },
     {
+        "TestRunStatus":"FAILED",
+        "ExecutionDate":"2025-12-15",
+        "Document Key":"KIE601-TSTRN-73801",
+        "Name":"Factory Mode Disabled & all Supervision Disabled for 1 hour",
+        "Assigned To":"Mohammed Ibrahim Sultan"
+    },
+    {
         "TestRunStatus":"PASSED",
         "ExecutionDate":"2025-09-29",
         "Document Key":"KIE601-TSTRN-63359",
@@ -17493,6 +17500,13 @@
         "Assigned To":"Kowsalya"
     },
     {
+        "TestRunStatus":"INPROGRESS",
+        "ExecutionDate":"2025-12-15",
+        "Document Key":"KCE-TSTRN-4006815",
+        "Name":"Commissioning - 3.1 Roll Call",
+        "Assigned To":"Priyavalli"
+    },
+    {
         "TestRunStatus":"FAILED",
         "ExecutionDate":"2025-11-12",
         "Document Key":"KCE-TSTRN-4002061",
@@ -17809,7 +17823,7 @@
     },
     {
         "TestRunStatus":"INPROGRESS",
-        "ExecutionDate":"2025-12-10",
+        "ExecutionDate":"2025-12-15",
         "Document Key":"KCE-TSTRN-4008738",
         "Name":"xDOP Multiple languages support",
         "Assigned To":"Nithya Priya"
@@ -17823,7 +17837,7 @@
     },
     {
         "TestRunStatus":"INPROGRESS",
-        "ExecutionDate":"2025-12-10",
+        "ExecutionDate":"2025-12-15",
         "Document Key":"KCE-TSTRN-4008739",
         "Name":"xDOP accent color customization",
         "Assigned To":"Nithya Priya"
