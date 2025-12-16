@@ -12159,8 +12159,8 @@
         "Assigned To":"Kowsalya"
     },
     {
-        "TestRunStatus":"INPROGRESS",
-        "ExecutionDate":"2025-12-15",
+        "TestRunStatus":"FAILED",
+        "ExecutionDate":"2025-12-16",
         "Document Key":"KCE-TSTRN-4008715",
         "Name":"RES E - Reduced Speed - Tests not included into TA",
         "Assigned To":"Jagadeesh"
@@ -16898,6 +16898,13 @@
         "Assigned To":"Mohammed Ibrahim Sultan"
     },
     {
+        "TestRunStatus":"BLOCKED",
+        "ExecutionDate":"2025-10-14",
+        "Document Key":"KIE601-TSTRN-66574",
+        "Name":"Fire switch monitoring (PC1_1300_4)",
+        "Assigned To":"Mohammed Ibrahim Sultan"
+    },
+    {
         "TestRunStatus":"PASSED",
         "ExecutionDate":"2025-10-16",
         "Document Key":"KIE601-TSTRN-66575",
@@ -18529,10 +18536,17 @@
         "Assigned To":"Suryanarayanan"
     },
     {
-        "TestRunStatus":"INPROGRESS",
-        "ExecutionDate":"2025-12-10",
+        "TestRunStatus":"PASSED",
+        "ExecutionDate":"2025-12-16",
         "Document Key":"KCE-TSTRN-4007039",
         "Name":"Stop disability service on car call service servere fault",
+        "Assigned To":"Suryanarayanan"
+    },
+    {
+        "TestRunStatus":"PASSED",
+        "ExecutionDate":"2025-12-16",
+        "Document Key":"KCE-TSTRN-4007040",
+        "Name":"Stop disability service if TSCOP goes missing",
         "Assigned To":"Suryanarayanan"
     },
     {

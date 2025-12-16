@@ -5394,8 +5394,62 @@
         "version": 1,
         "location": {
             "sortOrder": 1408,
-            "globalSortOrder": 1311374526,
+            "globalSortOrder": 1311325215,
             "sequence": "2.8.1409",
+            "parent": {
+                "item": 18771233
+            }
+        },
+        "lock": {
+            "locked": false
+        },
+        "type": "items"
+    },
+    {
+        "id": 28672488,
+        "documentKey": "KIE601-SWBUG-2830",
+        "globalId": "GID-7590944",
+        "itemType": 154,
+        "project": 417,
+        "createdDate": "2025-12-16T05:39:03.000+0000",
+        "modifiedDate": "2025-12-16T05:39:03.000+0000",
+        "lastActivityDate": "2025-12-16T05:39:03.000+0000",
+        "createdBy": 6117,
+        "modifiedBy": 6117,
+        "fields": {
+            "documentKey": "KIE601-SWBUG-2830",
+            "globalId": "GID-7590944",
+            "name": "IEX - Stop Buzzer does not work for Emergency stop and Normal Stop in ACU",
+            "description": "<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\"><strong>Detailed Defect Description:</strong></span></span></p>\n\n<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\">IEX - Stop Buzzer does not work for Emergency stop and Normal Stop in ACU</span></span></p>\n\n<p>&nbsp;</p>\n\n<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\"><strong>Parameters:&nbsp;&nbsp;</strong></span></span></p>\n\n<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\">PC3_3100 (Stop Buzzer)</span></span></p>\n\n<p>&nbsp;</p>\n\n<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\"><strong>Group configuration:NA</strong></span></span></p>\n\n<p>&nbsp;</p>\n\n<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\"><strong>Drive type:NA</strong></span></span></p>\n\n<p>&nbsp;</p>\n\n<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\"><strong>Regression or new finding:</strong></span></span></p>\n\n<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\">New Finding</span></span></p>\n\n<p>&nbsp;</p>\n\n<p>&nbsp;</p>\n\n<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\"><strong>Test case Name / Feature name:</strong></span></span></p>\n\n<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\">Ad hoc</span></span></p>\n\n<p>&nbsp;</p>\n\n<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\"><strong>Test step number:</strong></span></span></p>\n\n<p><span style=\"font-family:Calibri, sans-serif\"><span style=\"font-size:14.6667px\">Ad hoc</span></span></p>\n\n<p>&nbsp;</p>\n\n<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\"><strong>Description of the test case (Detailed Scenario)&nbsp;</strong></span></span></p>\n\n<ul>\n\t<li>The ACU is enabled in Upper and Lower Nodes</li>\n\t<li>The ACU is acting as Buzzer</li>\n\t<li>Now Set the parameter PC3-3100 to set conditions for buzzer stop</li>\n</ul>\n\n<p></p>\n\n<p>PC3_3001</p>\n\n<p>PC3_3001_1: not working for normal stop</p>\n\n<p>PC3_3001_2: working fine</p>\n\n<p>PC3_3001_3: E stop buzzer not working when activated E switch while running</p>\n\n<p>PC3_3001_4: For normal stop Buzzer not working</p>\n\n<p>PC3_3001_5: E stop buzzer not working when activated E switch while running, For normal stop Buzzer not working</p>\n\n<p>PC3_3001_6: working fine</p>\n\n<p>PC3_3001_7: not working for normal stop</p>\n\n<p>&nbsp;</p>\n\n<p>Note: Emergency stop in Running condition &amp; Normal Stop Buzzer is not working</p>\n\n<p></p>\n\n<p>&nbsp;</p>\n\n<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\"><strong>Expected behavior:&nbsp; </strong></span></span></p>\n\n<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\">Stop Buzzer should work based on PC3_3100</span></span></p>\n\n<p>&nbsp;</p>\n\n<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\"><strong>Actual behavior:</strong></span></span></p>\n\n<p>Emergency stop in Running condition &amp; Normal Stop Buzzer is not working</p>\n\n<p>&nbsp;</p>\n\n<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\"><strong>Recovery:&nbsp;</strong></span></span></p>\n\n<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\">NA</span></span></p>\n",
+            "status": 1081,
+            "BUG_component$154": 1561,
+            "BUG_subcomponent$154": "IEX",
+            "createdBy": 6117,
+            "release": 2595,
+            "BUG_foundOnDate$154": "2025-12-15",
+            "priority": 2410,
+            "BUG_severity$154": 1109,
+            "BUG_category$154": 1422,
+            "BUG_testLevel$154": 1129,
+            "BUG_howFound$154": 1092,
+            "BUG_whereFound$154": 1137,
+            "BUG_probability_on_field$154": 2396,
+            "root_cause_category$154": 2512,
+            "BUG_testCaseUpdated$154": 1198,
+            "BUG_V1_project$154": 1431
+        },
+        "resources": {
+            "self": {
+                "allowed": [
+                    "GET"
+                ]
+            }
+        },
+        "version": 1,
+        "location": {
+            "sortOrder": 1409,
+            "globalSortOrder": 1311375063,
+            "sequence": "2.8.1410",
             "parent": {
                 "item": 18771233
             }
@@ -5657,7 +5711,7 @@
         "project": 229,
         "createdDate": "2025-12-15T13:44:45.000+0000",
         "modifiedDate": "2025-12-15T13:45:33.000+0000",
-        "lastActivityDate": "2025-12-15T13:46:19.000+0000",
+        "lastActivityDate": "2025-12-16T04:23:52.000+0000",
         "createdBy": 1300,
         "modifiedBy": 620,
         "fields": {

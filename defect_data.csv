@@ -94,6 +94,7 @@ KIE601-SWBUG-2825,IEX-Escalator Parameter editing disabled in KFPS Tool ,VIGNESH
 KIE601-SWBUG-2826,IEX - Parameter PC2_2103 cannot be modified during running - UI sheet Update required,Mohammed Ibrahim Sultan,,2025-12-10
 KIE601-SWBUG-2827,IEX-Incorrect Node Pairing Status Displayed in AMC Tool,VIGNESHWARAR,,2025-12-10
 KIE601-SWBUG-2829,IEX-CPU Version not Displayed in AMC Backup/Restore Software Details,VIGNESHWARAR,,2025-12-10
+KIE601-SWBUG-2830,IEX - Stop Buzzer does not work for Emergency stop and Normal Stop in ACU,Mohammed Ibrahim Sultan,,2025-12-15
 DRIVE_HW_SW-SWBUG-1587,GG DCBL 5.51 SW - Fault 124 3064 Not Triggered when Software file is missed from SD Card.,VIGNESHWARAR,,2025-06-01
 KCE-SWBUG-5615,16.4-DCBL GD- Speed is not reduced when the elevator reaches the lower limit during the NTS Buffer Test.,Jagadeesh,KCE16.4.92 (LD 16.4.1.11 and GCD 16.4.65) + DCBL 24.47sw,
 KCE-SWBUG-6553,"KCE NA - When MES activated during car call service, lift is unable to stop at the nearest floor.",Veeramanikandan,KCE 17.0.0.10,2025-09-02
