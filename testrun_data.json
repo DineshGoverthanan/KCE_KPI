@@ -2367,6 +2367,13 @@
     },
     {
         "TestRunStatus":"PASSED",
+        "ExecutionDate":"2025-12-16",
+        "Document Key":"KIE601-TSTRN-73816",
+        "Name":"Software Version",
+        "Assigned To":"VIGNESHWARAR"
+    },
+    {
+        "TestRunStatus":"PASSED",
         "ExecutionDate":"2025-02-17",
         "Document Key":"KCE-TSTRN-3852959",
         "Name":"00 KCEKDL16 SW update",
@@ -11683,6 +11690,13 @@
         "Assigned To":"Badaganti Sai Prasad"
     },
     {
+        "TestRunStatus":"INPROGRESS",
+        "ExecutionDate":"2025-12-16",
+        "Document Key":"KCE-TSTRN-4008703",
+        "Name":"High Wind activation when lift serves the Existing calls - Covered by TA",
+        "Assigned To":"Jagadeesh"
+    },
+    {
         "TestRunStatus":"PASSED",
         "ExecutionDate":"2025-07-24",
         "Document Key":"KCE-TSTRN-3976612",
@@ -12111,7 +12125,7 @@
     },
     {
         "TestRunStatus":"INPROGRESS",
-        "ExecutionDate":"2025-12-15",
+        "ExecutionDate":"2025-12-16",
         "Document Key":"KCE-TSTRN-4008709",
         "Name":"Group features - PRL and HEL parameters",
         "Assigned To":"Kowsalya"
@@ -16247,10 +16261,31 @@
         "Assigned To":"Mohammed Ibrahim Sultan"
     },
     {
+        "TestRunStatus":"PASSED",
+        "ExecutionDate":"2025-12-16",
+        "Document Key":"KIE601-TSTRN-73794",
+        "Name":" Safety fault codes LSC",
+        "Assigned To":"Mohammed Ibrahim Sultan"
+    },
+    {
         "TestRunStatus":"FAILED",
         "ExecutionDate":"2025-12-16",
         "Document Key":"KIE601-TSTRN-73795",
         "Name":" Safety fault codes SEC",
+        "Assigned To":"Mohammed Ibrahim Sultan"
+    },
+    {
+        "TestRunStatus":"PASSED",
+        "ExecutionDate":"2025-12-16",
+        "Document Key":"KIE601-TSTRN-73796",
+        "Name":"Operation modes ",
+        "Assigned To":"Mohammed Ibrahim Sultan"
+    },
+    {
+        "TestRunStatus":"INPROGRESS",
+        "ExecutionDate":"2025-12-16",
+        "Document Key":"KIE601-TSTRN-73789",
+        "Name":"Inspection Mode - Faults",
         "Assigned To":"Mohammed Ibrahim Sultan"
     },
     {

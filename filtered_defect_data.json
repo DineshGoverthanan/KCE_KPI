@@ -2726,19 +2726,20 @@
         "itemType": 154,
         "project": 417,
         "createdDate": "2025-10-09T10:53:51.000+0000",
-        "modifiedDate": "2025-10-09T10:53:51.000+0000",
-        "lastActivityDate": "2025-10-09T10:53:51.000+0000",
+        "modifiedDate": "2025-12-16T08:59:51.000+0000",
+        "lastActivityDate": "2025-12-16T08:59:51.000+0000",
         "createdBy": 5932,
-        "modifiedBy": 5932,
+        "modifiedBy": 2001,
         "fields": {
             "documentKey": "KIE601-SWBUG-2680",
             "globalId": "GID-7449542",
             "name": "IEX-EGD Display Spelling Error for Inverter and Star-Delta Modes",
             "description": "<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\"><strong>Detailed Defect Description:</strong></span></span></p>\n\n<p>IEX-EGD Display Spelling Error for Inverter and Star-Delta Modes</p>\n\n<p>&nbsp;</p>\n\n<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\"><strong>Parameters:&nbsp;&nbsp;</strong></span></span></p>\n\n<p>PC1_1231 (EGD Lower Optional nodes supervision)</p>\n\n<p>PC1_1232 (EGD Upper Optional nodes supervision)</p>\n\n<p>PC1_1233 (EGD Middle 1 Optional nodes supervision)</p>\n\n<p>PC1_1234 (EGD Middle 2 Optional nodes supervision)</p>\n\n<p>PC1_1235 (EGD Middle 3 Optional nodes supervision)</p>\n\n<p>&nbsp;</p>\n\n<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\"><strong>Group configuration: </strong></span></span></p>\n\n<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\">Single Escalator setup</span></span></p>\n\n<p>&nbsp;</p>\n\n<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\"><strong>Drive type:</strong></span></span></p>\n\n<p><span style=\"font-family:Calibri,sans-serif\"><span style=\"font-size:14.6667px\">Monarch, Danfoss</span></span></p>\n\n<p>&nbsp;</p>\n\n<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\"><strong>Regression or new finding:</strong></span></span></p>\n\n<p>Regression</p>\n\n<p>&nbsp;</p>\n\n<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\"><strong>Test case Name / Feature name:</strong></span></span></p>\n\n<p><span style=\"font-family:Calibri,sans-serif\"><span style=\"font-size:14.6667px\">EGD Display</span></span></p>\n\n<p>&nbsp;</p>\n\n<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\"><strong>Test step number:</strong></span></span></p>\n\n<p>29</p>\n\n<p>&nbsp;</p>\n\n<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\"><strong>Description of the test case (Detailed Scenario)&nbsp;<br />\n<u>Inverter mode:</u></strong></span></span></p>\n\n<p>1.Run the Escalator in inverter mode.</p>\n\n<p>2.Check the EGD display.</p>\n\n<p>3.EGD display shows inverted mode (Spelling mistake).</p>\n\n<p><img alt=\"\" height=\"129\" src=\"https://konerqm.jamacloud.com/attachment/227274/2025_10_09_10_51_211.jpg\" width=\"212\" /></p>\n\n<p><u><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\"><strong>Star-delta mode:</strong></span></span></u></p>\n\n<p>1.Run the Escalator in Star-delta mode.</p>\n\n<p>2.Check the EGD display.</p>\n\n<p>3.EGD display shows Star3angle mode (Spelling mistake).</p>\n\n<p><img alt=\"\" height=\"208\" src=\"https://konerqm.jamacloud.com/attachment/227275/2025_10_09_10_52_023.jpg\" width=\"215\" /></p>\n\n<p>&nbsp;</p>\n\n<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\"><strong>Expected behavior:&nbsp;&nbsp;</strong></span></span></p>\n\n<p>EGD display need to show inverter and Star-delta mode.</p>\n\n<p>&nbsp;</p>\n\n<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\"><strong>Actual behavior:</strong></span></span></p>\n\n<p>.EGD display shows inverted mode and&nbsp;Star-delta mode (Spelling mistake).</p>\n\n<p>\u200b\u200b\u200b\u200b</p>\n\n<p>&nbsp;</p>\n\n<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\"><strong>Recovery:&nbsp;</strong></span></span></p>\n\n<p>-</p>\n\n<p>&nbsp;</p>\n\n<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\"><strong>Value-added information:&nbsp;</strong></span></span></p>\n\n<p>SW-TR 1.0-t12.14</p>\n\n<p>EDG SW-1.0.4</p>\n",
-            "status": 1081,
+            "status": 1082,
             "BUG_component$154": 1561,
             "BUG_subcomponent$154": "EGD Display",
             "createdBy": 5932,
+            "assignedTo": 5802,
             "release": 2525,
             "BUG_foundOnDate$154": "2025-10-08",
             "priority": 2410,
@@ -2750,6 +2751,7 @@
             "BUG_probability_on_field$154": 2396,
             "root_cause_category$154": 2512,
             "BUG_testCaseUpdated$154": 1198,
+            "BUG_RD_comments$154": "<p>[Visu]: 16-Dec-2025<br />\nTo be fixed in EGD component</p>",
             "BUG_V1_project$154": 1431
         },
         "resources": {
@@ -2759,7 +2761,7 @@
                 ]
             }
         },
-        "version": 1,
+        "version": 2,
         "location": {
             "sortOrder": 1260,
             "globalSortOrder": 1306405503,
@@ -2769,7 +2771,8 @@
             }
         },
         "lock": {
-            "locked": false
+            "locked": false,
+            "lastLockedDate": "2025-12-16T08:59:53.000+0000"
         },
         "type": "items"
     },
@@ -2780,19 +2783,20 @@
         "itemType": 154,
         "project": 417,
         "createdDate": "2025-10-09T12:14:27.000+0000",
-        "modifiedDate": "2025-10-09T12:14:27.000+0000",
-        "lastActivityDate": "2025-10-09T12:14:27.000+0000",
+        "modifiedDate": "2025-12-16T09:01:44.000+0000",
+        "lastActivityDate": "2025-12-16T09:01:44.000+0000",
         "createdBy": 5932,
-        "modifiedBy": 5932,
+        "modifiedBy": 2001,
         "fields": {
             "documentKey": "KIE601-SWBUG-2681",
             "globalId": "GID-7450207",
             "name": "IEX-Incorrect Mode Display on EGD During Inspection mode and standby-speed.",
             "description": "<p><strong>Detailed Defect Description:</strong></p>\n\n<p>IEX-Incorrect Mode Display on EGD During Inspection mode and standby-speed.</p>\n\n<p>&nbsp;</p>\n\n<p><strong>Parameters:&nbsp;&nbsp;</strong></p>\n\n<p>PC1_1231 (EGD Lower Optional nodes supervision)</p>\n\n<p>PC1_1232 (EGD Upper Optional nodes supervision)</p>\n\n<p>PC1_1233 (EGD Middle 1 Optional nodes supervision)</p>\n\n<p>PC1_1234 (EGD Middle 2 Optional nodes supervision)</p>\n\n<p>PC1_1235 (EGD Middle 3 Optional nodes supervision)</p>\n\n<p>&nbsp;</p>\n\n<p><strong>Group configuration:</strong></p>\n\n<p>Single Escalator setup</p>\n\n<p>&nbsp;</p>\n\n<p><strong>Drive type:</strong></p>\n\n<p>Monarch, Danfoss</p>\n\n<p>&nbsp;</p>\n\n<p><strong>Regression or new finding:</strong></p>\n\n<p>Regression</p>\n\n<p>&nbsp;</p>\n\n<p><strong>Test case Name / Feature name:</strong></p>\n\n<p>EGD Display</p>\n\n<p>&nbsp;</p>\n\n<p><strong>Test step number:</strong></p>\n\n<p>17</p>\n\n<p>&nbsp;</p>\n\n<p><strong>Description of the test case (Detailed Scenario)&nbsp;<br />\nDuring inspection mode</strong></p>\n\n<p>1.Put the escalator in inspection mode.</p>\n\n<p>2.Check the EGD display.</p>\n\n<p>3.The EGD display shows \"Repair\" mode instead of \"Inspection\" mode.</p>\n\n<p><img alt=\"\" height=\"183\" src=\"https://konerqm.jamacloud.com/attachment/227297/2025_10_09_12_11_301.jpg\" width=\"244\" /></p>\n\n<p>&nbsp;</p>\n\n<p><strong>During standby speed mode</strong></p>\n\n<p>1.Put the escalator in standby speed mode.</p>\n\n<p>2.Check the EGD display.</p>\n\n<p>3.The EGD display shows \"Idle running\" mode instead of \"Standby speed\" mode.</p>\n\n<p>&nbsp;</p>\n\n<p><img alt=\"\" height=\"196\" src=\"https://konerqm.jamacloud.com/attachment/227298/2025_10_09_12_12_002.jpg\" width=\"238\" /></p>\n\n<p>&nbsp;</p>\n\n<p><strong>Expected behavior:&nbsp;&nbsp;</strong></p>\n\n<p>The EGD display should show \"Inspection\" mode.</p>\n\n<p>The EGD display should show \"Standby speed\" mode.</p>\n\n<p>&nbsp;</p>\n\n<p><strong>Actual behavior:</strong></p>\n\n<p>The EGD display shows \"Repair\" mode.</p>\n\n<p>The EGD display shows \"Idle running\" mode.</p>\n\n<p>&nbsp;</p>\n\n<p><strong>Recovery:&nbsp;</strong></p>\n\n<p>-</p>\n\n<p>&nbsp;</p>\n\n<p><strong>Value-added information:&nbsp;</strong></p>\n\n<p>SW-TR 1.0-t12.14</p>\n\n<p>EDG SW-1.0.4</p>\n\n<p>&nbsp;</p>\n\n<p>&nbsp;</p>\n\n<p>&nbsp;</p>\n",
-            "status": 1081,
+            "status": 1082,
             "BUG_component$154": 1561,
             "BUG_subcomponent$154": "EGD Display",
             "createdBy": 5932,
+            "assignedTo": 5802,
             "release": 2525,
             "BUG_foundOnDate$154": "2025-10-08",
             "priority": 2410,
@@ -2804,6 +2808,7 @@
             "BUG_probability_on_field$154": 2396,
             "root_cause_category$154": 2512,
             "BUG_testCaseUpdated$154": 1198,
+            "BUG_RD_comments$154": "<p>[Visu]: 16-Dec-2025<br />\nTo be fixed in EGD component</p>\n\n<p>&nbsp;</p>",
             "BUG_V1_project$154": 1431
         },
         "resources": {
@@ -2813,7 +2818,7 @@
                 ]
             }
         },
-        "version": 1,
+        "version": 2,
         "location": {
             "sortOrder": 1261,
             "globalSortOrder": 1306510074,
@@ -2823,7 +2828,8 @@
             }
         },
         "lock": {
-            "locked": false
+            "locked": false,
+            "lastLockedDate": "2025-12-16T09:01:46.000+0000"
         },
         "type": "items"
     },
@@ -2834,16 +2840,16 @@
         "itemType": 154,
         "project": 417,
         "createdDate": "2025-10-09T12:30:23.000+0000",
-        "modifiedDate": "2025-10-09T12:30:23.000+0000",
-        "lastActivityDate": "2025-10-09T12:30:23.000+0000",
+        "modifiedDate": "2025-12-16T09:07:43.000+0000",
+        "lastActivityDate": "2025-12-16T09:07:43.000+0000",
         "createdBy": 5932,
-        "modifiedBy": 5932,
+        "modifiedBy": 2001,
         "fields": {
             "documentKey": "KIE601-SWBUG-2682",
             "globalId": "GID-7450221",
             "name": "IEX-Mismatch Between EGD Time and Promanager/AMC Time",
             "description": "<p><strong>Detailed Defect Description:</strong></p>\n\n<p>IEX-Mismatch Between EGD Time and Promanager/AMC Time</p>\n\n<p>&nbsp;</p>\n\n<p><strong>Parameters:&nbsp;&nbsp;</strong></p>\n\n<p>PC1_1231 (EGD Lower Optional nodes supervision)</p>\n\n<p>PC1_1232 (EGD Upper Optional nodes supervision)</p>\n\n<p>PC1_1233 (EGD Middle 1 Optional nodes supervision)</p>\n\n<p>PC1_1234 (EGD Middle 2 Optional nodes supervision)</p>\n\n<p>PC1_1235 (EGD Middle 3 Optional nodes supervision)</p>\n\n<p>&nbsp;</p>\n\n<p><strong>Group configuration:</strong></p>\n\n<p>Single Escalator setup</p>\n\n<p>&nbsp;</p>\n\n<p><strong>Drive type:</strong></p>\n\n<p>Monarch, Danfoss</p>\n\n<p>&nbsp;</p>\n\n<p><strong>Regression or new finding:</strong></p>\n\n<p>Regression</p>\n\n<p>&nbsp;</p>\n\n<p><strong>Test case Name / Feature name:</strong></p>\n\n<p>EGD Display</p>\n\n<p>&nbsp;</p>\n\n<p><strong>Test step number:</strong></p>\n\n<p>14,15</p>\n\n<p>&nbsp;</p>\n\n<p><strong>Description of the test case (Detailed Scenario)&nbsp;</strong></p>\n\n<p>1.Verify the date and time displayed on the EGD.</p>\n\n<p>2.The date is correct; but the time differs when compared to Promanager and AMC.</p>\n\n<p>&nbsp;</p>\n\n<p><img alt=\"\" height=\"193\" src=\"https://konerqm.jamacloud.com/attachment/227308/2025_10_09_12_27_321.jpg\" width=\"176\" /><img alt=\"\" height=\"193\" src=\"https://konerqm.jamacloud.com/attachment/227309/2025_10_09_12_27_482.jpg\" width=\"254\" /></p>\n\n<p>&nbsp;</p>\n\n<p><strong>Expected behavior:&nbsp;&nbsp;</strong></p>\n\n<p>Both the date and time displayed on the EGD should match exactly with Promanager and AMC.</p>\n\n<p>&nbsp;</p>\n\n<p><strong>Actual behavior:</strong></p>\n\n<p>The date displayed is correct, but the time in EGD differs from the time shown on Promanager and AMC.</p>\n\n<p>&nbsp;</p>\n\n<p><strong>Recovery:&nbsp;</strong></p>\n\n<p>-</p>\n\n<p>&nbsp;</p>\n\n<p><strong>Value-added information:&nbsp;</strong></p>\n\n<p>SW-TR 1.0-t12.14</p>\n\n<p>EDG SW-1.0.4</p>\n",
-            "status": 1081,
+            "status": 1082,
             "BUG_component$154": 1561,
             "BUG_subcomponent$154": "EGD Display",
             "createdBy": 5932,
@@ -2858,6 +2864,7 @@
             "BUG_probability_on_field$154": 2399,
             "root_cause_category$154": 2512,
             "BUG_testCaseUpdated$154": 1198,
+            "BUG_RD_comments$154": "<p>[Visu]: 16-Dec-2025</p>\n\n<p>Display time based on time zone.&nbsp;</p>\n\n<p>Correct operation.&nbsp;</p>\n\n<p>To be tested in CRD time zone</p>",
             "BUG_V1_project$154": 1431
         },
         "resources": {
@@ -2867,7 +2874,7 @@
                 ]
             }
         },
-        "version": 1,
+        "version": 2,
         "location": {
             "sortOrder": 1262,
             "globalSortOrder": 1306614645,
@@ -2877,7 +2884,8 @@
             }
         },
         "lock": {
-            "locked": false
+            "locked": false,
+            "lastLockedDate": "2025-12-16T09:07:46.000+0000"
         },
         "type": "items"
     },
@@ -2888,19 +2896,20 @@
         "itemType": 154,
         "project": 417,
         "createdDate": "2025-10-09T12:56:21.000+0000",
-        "modifiedDate": "2025-10-09T12:56:21.000+0000",
-        "lastActivityDate": "2025-10-09T12:56:21.000+0000",
+        "modifiedDate": "2025-12-16T09:05:42.000+0000",
+        "lastActivityDate": "2025-12-16T09:05:42.000+0000",
         "createdBy": 5932,
-        "modifiedBy": 5932,
+        "modifiedBy": 2001,
         "fields": {
             "documentKey": "KIE601-SWBUG-2683",
             "globalId": "GID-7450228",
             "name": "IEX-Mismatch Between EGD SW Version in CPU (PC5_5510) and EGD Display.",
             "description": "<p><strong>Name:</strong></p>\n\n<p>IEX-Mismatch Between EGD SW Version in CPU (PC5_5510) and EGD Display.</p>\n\n<p>&nbsp;</p>\n\n<p><strong>Parameters:&nbsp;&nbsp;</strong></p>\n\n<p>PC1_1231 (EGD Lower Optional nodes supervision)</p>\n\n<p>PC1_1232 (EGD Upper Optional nodes supervision)</p>\n\n<p>PC1_1233 (EGD Middle 1 Optional nodes supervision)</p>\n\n<p>PC1_1234 (EGD Middle 2 Optional nodes supervision)</p>\n\n<p>PC1_1235 (EGD Middle 3 Optional nodes supervision)</p>\n\n<p>&nbsp;</p>\n\n<p><strong>Group configuration:</strong></p>\n\n<p>Single Escalator setup</p>\n\n<p>&nbsp;</p>\n\n<p><strong>Drive type:</strong></p>\n\n<p>Monarch, Danfoss</p>\n\n<p>&nbsp;</p>\n\n<p><strong>Regression or new finding:</strong></p>\n\n<p>Adhoc-testing</p>\n\n<p>&nbsp;</p>\n\n<p><strong>Description of the test case (Detailed Scenario)&nbsp;</strong></p>\n\n<p>1.Update the EGD software.</p>\n\n<p>2.Check the EGD software version in the CPU UI.</p>\n\n<p>3.Navigate to parameter <strong>PC5_5510</strong>.</p>\n\n<p>4.CPU shows EGD software version as <strong>\"1.0.0\" but&nbsp;</strong>EGD display shows the correct version as <strong>\"1.0.4\"</strong>.</p>\n\n<p>&nbsp;</p>\n\n<p>This indicates a mismatch in software version information between the CPU and the display.</p>\n\n<p>&nbsp;</p>\n\n<p>&nbsp;</p>\n\n<p>&nbsp;</p>\n\n<p><strong>Expected behavior:&nbsp;&nbsp;</strong></p>\n\n<p>EGD software version should be displayed as <strong>\"1.0.4\"</strong> in both the CPU and the EGD display.</p>\n\n<p>&nbsp;</p>\n\n<p><strong>Actual behavior:</strong></p>\n\n<ul>\n\t<li>\n\t<p><strong>CPU (PC5_5510)</strong> shows version <strong>\"1.0.0\"</strong>.</p>\n\t</li>\n\t<li>\n\t<p><strong>EGD Display</strong> shows the correct version <strong>\"1.0.4\"</strong></p>\n\t</li>\n</ul>\n\n<p>&nbsp;</p>\n\n<p><strong>Recovery:&nbsp;</strong></p>\n\n<p>-</p>\n\n<p>&nbsp;</p>\n\n<p><strong>Value-added information:&nbsp;</strong></p>\n\n<p>SW-TR 1.0-t12.14</p>\n\n<p>EDG SW-1.0.4</p>\n",
-            "status": 1081,
+            "status": 1082,
             "BUG_component$154": 1561,
             "BUG_subcomponent$154": "EGD Display",
             "createdBy": 5932,
+            "assignedTo": 5802,
             "release": 2525,
             "BUG_foundOnDate$154": "2025-10-08",
             "priority": 2410,
@@ -2912,6 +2921,7 @@
             "BUG_probability_on_field$154": 2398,
             "root_cause_category$154": 2512,
             "BUG_testCaseUpdated$154": 1198,
+            "BUG_RD_comments$154": "<p>[Visu]: 16-Dec-2025<br />\nTo be fixed in EGD component</p>\n\n<p>&nbsp;</p>",
             "BUG_V1_project$154": 1431
         },
         "resources": {
@@ -2921,7 +2931,7 @@
                 ]
             }
         },
-        "version": 1,
+        "version": 2,
         "location": {
             "sortOrder": 1263,
             "globalSortOrder": 1306719216,
@@ -2931,7 +2941,8 @@
             }
         },
         "lock": {
-            "locked": false
+            "locked": false,
+            "lastLockedDate": "2025-12-16T09:05:43.000+0000"
         },
         "type": "items"
     },
@@ -3584,19 +3595,20 @@
         "itemType": 154,
         "project": 417,
         "createdDate": "2025-10-23T11:38:39.000+0000",
-        "modifiedDate": "2025-10-23T11:39:07.000+0000",
-        "lastActivityDate": "2025-10-23T11:39:07.000+0000",
+        "modifiedDate": "2025-12-16T09:06:38.000+0000",
+        "lastActivityDate": "2025-12-16T09:06:38.000+0000",
         "createdBy": 5932,
-        "modifiedBy": 5932,
+        "modifiedBy": 2001,
         "fields": {
             "documentKey": "KIE601-SWBUG-2709",
             "globalId": "GID-7481672",
             "name": "IEX- The Jama requirement page need to be updated - EGD Display (Shutdown)-( Service person attention required )",
             "description": "<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\"><strong>Detailed Defect Description:</strong></span></span></p>\n\n<p>IEX- The Jama requirement page need to be updated - EGD Display (Shutdown)-( Service person attention required )&nbsp;</p>\n\n<p>&nbsp;</p>\n\n<p><strong>Description:</strong></p>\n\n<p>1.\"Shutdown\" is not showing in EGD display.</p>\n\n<p>&nbsp;</p>\n\n<p><img alt=\"\" height=\"253\" src=\"https://konerqm.jamacloud.com/attachment/228942/image-B0533eKboV.png\" width=\"359\" /></p>\n\n<p>&nbsp;</p>\n\n<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\"><strong>Parameters:&nbsp;&nbsp;</strong></span></span></p>\n\n<p><span style=\"font-family:Calibri, sans-serif\"><span style=\"font-size:14.6667px\">-</span></span></p>\n\n<p>&nbsp;</p>\n\n<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\"><strong>Group configuration: </strong></span></span></p>\n\n<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\">Single escalator Setup</span></span></p>\n\n<p>&nbsp;</p>\n\n<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\"><strong>Drive type:</strong></span></span></p>\n\n<p><span style=\"font-family:Calibri, sans-serif\"><span style=\"font-size:14.6667px\">Monarch,Danfoss</span></span></p>\n\n<p>&nbsp;</p>\n\n<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\"><strong>Regression or new finding:</strong></span></span></p>\n\n<p><span style=\"font-family:Calibri, sans-serif\"><span style=\"font-size:14.6667px\">Ad-hoc</span></span></p>\n\n<p>&nbsp;</p>\n\n<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\"><strong>Description of the test case (Detailed Scenario)&nbsp;</strong></span></span></p>\n\n<p>IEX- The Jama requirement page need to be updated - EGD Display (Shutdown)-( Service person attention required )</p>\n\n<p>&nbsp;</p>\n\n<p>&nbsp;</p>\n",
-            "status": 1081,
+            "status": 1082,
             "BUG_component$154": 1561,
             "BUG_subcomponent$154": "EGD Display",
             "createdBy": 5932,
+            "assignedTo": 2001,
             "release": 2556,
             "BUG_foundOnDate$154": "2025-10-21",
             "priority": 2410,
@@ -3617,7 +3629,7 @@
                 ]
             }
         },
-        "version": 2,
+        "version": 3,
         "location": {
             "sortOrder": 1288,
             "globalSortOrder": 1309333491,
@@ -3628,7 +3640,7 @@
         },
         "lock": {
             "locked": false,
-            "lastLockedDate": "2025-10-23T11:39:08.000+0000"
+            "lastLockedDate": "2025-12-16T09:06:39.000+0000"
         },
         "type": "items"
     },
@@ -4415,19 +4427,20 @@
         "itemType": 154,
         "project": 417,
         "createdDate": "2025-12-06T01:48:11.000+0000",
-        "modifiedDate": "2025-12-06T01:48:11.000+0000",
-        "lastActivityDate": "2025-12-06T01:48:11.000+0000",
+        "modifiedDate": "2025-12-16T09:08:55.000+0000",
+        "lastActivityDate": "2025-12-16T09:08:55.000+0000",
         "createdBy": 6117,
-        "modifiedBy": 6117,
+        "modifiedBy": 2001,
         "fields": {
             "documentKey": "KIE601-SWBUG-2797",
             "globalId": "GID-7572605",
             "name": "IEX - Inspection Mode is not displayed in EGD Display",
             "description": "<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\"><strong>Detailed Defect Description:</strong></span></span></p>\n\n<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\">IEX - Inspection Mode is not displayed in EGD Display</span></span></p>\n\n<p>&nbsp;</p>\n\n<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\"><strong>Parameters:&nbsp;&nbsp;</strong></span></span></p>\n\n<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\">NA</span></span></p>\n\n<p>&nbsp;</p>\n\n<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\"><strong>Group configuration: </strong></span></span></p>\n\n<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\">NA</span></span></p>\n\n<p>&nbsp;</p>\n\n<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\"><strong>Drive type:</strong></span></span></p>\n\n<p><span style=\"font-family:Calibri, sans-serif\"><span style=\"font-size:14.6667px\">NA</span></span></p>\n\n<p>&nbsp;</p>\n\n<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\"><strong>Regression or new finding:</strong></span></span></p>\n\n<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\">New Finding</span></span></p>\n\n<p>&nbsp;</p>\n\n<p>&nbsp;</p>\n\n<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\"><strong>Test case Name / Feature name:</strong></span></span></p>\n\n<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\">EGD&nbsp;</span></span></p>\n\n<p>&nbsp;</p>\n\n<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\"><strong>Test step number:</strong></span></span></p>\n\n<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\">18</span></span></p>\n\n<p>&nbsp;</p>\n\n<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\"><strong>Description of the test case (Detailed Scenario)&nbsp;</strong></span></span></p>\n\n<ul>\n\t<li>EGD is connected in both Upper and Lower</li>\n\t<li>Now Press the enter button and give password</li>\n\t<li>The Screen displays operational mode</li>\n\t<li>Now, remove upper / Lower Blind plug</li>\n\t<li>The Operational&nbsp;mode section is blank (No data shown)</li>\n</ul>\n\n<p>&nbsp;</p>\n\n<p><img alt=\"\" height=\"171\" src=\"https://konerqm.jamacloud.com/attachment/233842/2025_12_06_01_46_021.jpg\" width=\"228\" />&nbsp;</p>\n\n<p>&nbsp;</p>\n\n<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\"><strong>Expected behavior:&nbsp;&nbsp;</strong></span></span></p>\n\n<p><span style=\"font-family:Calibri, sans-serif\"><span style=\"font-size:14.6667px\">Inspection mode must be displayed</span></span></p>\n\n<p>&nbsp;</p>\n\n<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\"><strong>Actual behavior:</strong></span></span></p>\n\n<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\">No data displayed in operational mode</span></span></p>\n\n<p>&nbsp;</p>\n\n<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\"><strong>Recovery:&nbsp;</strong></span></span></p>\n\n<p><span style=\"font-family:Calibri, sans-serif\"><span style=\"font-size:14.6667px\">NA</span></span></p>\n",
-            "status": 1081,
+            "status": 1082,
             "BUG_component$154": 1561,
             "BUG_subcomponent$154": "IEX",
             "createdBy": 6117,
+            "assignedTo": 5802,
             "release": 2581,
             "BUG_foundOnDate$154": "2025-12-05",
             "priority": 2410,
@@ -4439,6 +4452,7 @@
             "BUG_probability_on_field$154": 2396,
             "root_cause_category$154": 2512,
             "BUG_testCaseUpdated$154": 1198,
+            "BUG_RD_comments$154": "<p>[Visu]: 16-Dec-2025<br />\nTo be fixed in EGD component</p>\n\n<p>&nbsp;</p>",
             "BUG_V1_project$154": 1431
         },
         "resources": {
@@ -4448,7 +4462,7 @@
                 ]
             }
         },
-        "version": 1,
+        "version": 2,
         "location": {
             "sortOrder": 1376,
             "globalSortOrder": 1311290879,
@@ -4458,7 +4472,8 @@
             }
         },
         "lock": {
-            "locked": false
+            "locked": false,
+            "lastLockedDate": "2025-12-16T09:08:57.000+0000"
         },
         "type": "items"
     },
@@ -5079,19 +5094,20 @@
         "itemType": 154,
         "project": 417,
         "createdDate": "2025-12-10T17:57:58.000+0000",
-        "modifiedDate": "2025-12-10T17:57:58.000+0000",
-        "lastActivityDate": "2025-12-10T17:57:58.000+0000",
+        "modifiedDate": "2025-12-16T08:56:08.000+0000",
+        "lastActivityDate": "2025-12-16T08:56:08.000+0000",
         "createdBy": 5932,
-        "modifiedBy": 5932,
+        "modifiedBy": 2001,
         "fields": {
             "documentKey": "KIE601-SWBUG-2823",
             "globalId": "GID-7581402",
             "name": "IEX-EGD Displays Debugging During On-Site mode operation",
             "description": "<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\"><strong>Detailed Defect Description:</strong></span></span></p>\n\n<p>IEX-EGD Displays Debugging During On-Site mode operation</p>\n\n<p>&nbsp;</p>\n\n<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\"><strong>Parameters:&nbsp;&nbsp;</strong></span></span></p>\n\n<p><span style=\"font-family:Calibri, sans-serif\"><span style=\"font-size:14.6667px\">PC4_4300</span></span></p>\n\n<p>&nbsp;</p>\n\n<p>PC1_1231 (EGD Lower Optional nodes supervision)</p>\n\n<p>PC1_1232 (EGD Upper Optional nodes supervision)</p>\n\n<p>&nbsp;</p>\n\n<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\"><strong>Group configuration: </strong></span></span></p>\n\n<p><span style=\"font-family:Calibri, sans-serif\"><span style=\"font-size:14.6667px\">Single Escalator setup</span></span></p>\n\n<p>&nbsp;</p>\n\n<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\"><strong>Drive type:</strong></span></span></p>\n\n<p><span style=\"font-family:Calibri, sans-serif\"><span style=\"font-size:14.6667px\">Monarch,Danfoss</span></span></p>\n\n<p>&nbsp;</p>\n\n<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\"><strong>Regression or new finding:</strong></span></span></p>\n\n<p><span style=\"font-family:Calibri, sans-serif\"><span style=\"font-size:14.6667px\">Adhoc testing</span></span></p>\n\n<p>&nbsp;</p>\n\n<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\"><strong>Description of the test case (Detailed Scenario)&nbsp;</strong></span></span></p>\n\n<p>1.Put the escalator in on-site mode.</p>\n\n<p>2.Check the EGD display.</p>\n\n<p>3.The EGD display shows \"Debugging\" mode instead of \"On-site\" mode.</p>\n\n<p>&nbsp;</p>\n\n<p><img alt=\"\" height=\"209\" src=\"https://konerqm.jamacloud.com/attachment/233837/2025_12_05_16_55_161.jpg\" width=\"279\" /></p>\n\n<p>&nbsp;</p>\n\n<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\"><strong>Expected behavior:&nbsp;&nbsp;</strong></span></span></p>\n\n<p>&nbsp;</p>\n\n<p>The EGD display should show \"On-site\" mode.</p>\n\n<p>&nbsp;</p>\n\n<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\"><strong>Actual behavior:</strong></span></span></p>\n\n<p>The EGD display shows \"Debugging\" mode.</p>\n\n<p>&nbsp;</p>\n\n<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\"><strong>Recovery:&nbsp;</strong></span></span></p>\n\n<p><span style=\"font-family:Calibri, sans-serif\"><span style=\"font-size:14.6667px\">-</span></span></p>\n\n<p>&nbsp;</p>\n\n<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\"><strong>Value-added information:&nbsp;</strong></span></span></p>\n\n<p>IEX SW-R 2.0.3</p>\n\n<p>EGD SW-1.0.4</p>\n\n<p>&nbsp;</p>\n\n<p>&nbsp;</p>\n",
-            "status": 1081,
+            "status": 1082,
             "BUG_component$154": 1561,
             "BUG_subcomponent$154": "EGD Display",
             "createdBy": 5932,
+            "assignedTo": 5802,
             "release": 2581,
             "BUG_foundOnDate$154": "2025-12-09",
             "priority": 2410,
@@ -5103,6 +5119,7 @@
             "BUG_probability_on_field$154": 2396,
             "root_cause_category$154": 2512,
             "BUG_testCaseUpdated$154": 1198,
+            "BUG_RD_comments$154": "<p>[Visu]: 16-Dec-2025</p>\n\n<p>To be fixed in EGD component</p>",
             "BUG_V1_project$154": 1431
         },
         "resources": {
@@ -5112,7 +5129,7 @@
                 ]
             }
         },
-        "version": 1,
+        "version": 2,
         "location": {
             "sortOrder": 1402,
             "globalSortOrder": 1311318777,
@@ -5123,7 +5140,7 @@
         },
         "lock": {
             "locked": false,
-            "lastLockedDate": "2025-12-11T04:00:35.000+0000"
+            "lastLockedDate": "2025-12-16T08:56:10.000+0000"
         },
         "type": "items"
     },
@@ -7120,7 +7137,7 @@
         "project": 229,
         "createdDate": "2025-02-26T07:39:27.000+0000",
         "modifiedDate": "2025-03-24T10:01:38.000+0000",
-        "lastActivityDate": "2025-09-24T07:46:32.000+0000",
+        "lastActivityDate": "2025-12-16T09:19:10.000+0000",
         "createdBy": 5804,
         "modifiedBy": 5804,
         "fields": {
@@ -23850,20 +23867,20 @@
         "itemType": 154,
         "project": 229,
         "createdDate": "2025-12-10T11:49:37.000+0000",
-        "modifiedDate": "2025-12-12T07:12:51.000+0000",
-        "lastActivityDate": "2025-12-12T07:12:51.000+0000",
+        "modifiedDate": "2025-12-16T08:21:31.000+0000",
+        "lastActivityDate": "2025-12-16T08:22:23.000+0000",
         "createdBy": 5995,
-        "modifiedBy": 1120,
+        "modifiedBy": 1546,
         "fields": {
             "documentKey": "KCE-SWBUG-14071",
             "globalId": "GID-7580205",
             "name": "17.0 - KCEDCS - OEO EN 81-76 Indication stuck in Mondrian display when Driver evacuation is deactivated.",
             "description": "<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\"><strong>Detailed Defect Description:</strong></span></span></p>\n\n<p><span style=\"font-family:Calibri, sans-serif\"><span style=\"font-size:14.6667px\">The indication stuck in a Mondrian display when driver evacuation is deactivated in OPT or FOB G28</span></span></p>\n\n<p>&nbsp;</p>\n\n<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\"><strong>Parameters:&nbsp;&nbsp;</strong></span></span></p>\n\n<p><span style=\"font-family:Calibri, sans-serif\"><span style=\"font-size:14.6667px\">OEO DIP 20</span></span></p>\n\n<p><span style=\"font-family:Calibri, sans-serif\"><span style=\"font-size:14.6667px\">1582 3</span></span></p>\n\n<p><span style=\"font-family:Calibri, sans-serif\"><span style=\"font-size:14.6667px\">1594 1&nbsp;</span></span></p>\n\n<p>&nbsp;</p>\n\n<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\"><strong>Group configuration: </strong></span></span></p>\n\n<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\">Fouplex</span></span></p>\n\n<p>&nbsp;</p>\n\n<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\"><strong>Drive type:</strong></span></span></p>\n\n<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\">KDL</span></span></p>\n\n<p>&nbsp;</p>\n\n<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\"><strong>Regression or new finding:</strong></span></span></p>\n\n<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\">New</span></span></p>\n\n<p>&nbsp;</p>\n\n<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\"><strong>Test case Name / Feature name:</strong></span></span></p>\n\n<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\">ad-hoc defect</span></span></p>\n\n<p>&nbsp;</p>\n\n<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\"><strong>Test step number:</strong></span></span></p>\n\n<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\">\u201cad-hoc scenario\u201d</span></span></p>\n\n<p>&nbsp;</p>\n\n<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\"><strong>Description of the test case (Detailed Scenario)&nbsp;</strong></span></span></p>\n\n<ul>\n\t<li>Lift is in normal mode</li>\n\t<li>Activate GERF input via OPT or FOBG28</li>\n\t<li>Lift drives GERF floor changed to phase 2</li>\n\t<li>Activate Driver input via OPT</li>\n\t<li>Deactivate the Driver input and GERF inputs</li>\n\t<li>DG and Promanager lift indication back to normal</li>\n\t<li>Mondrian display stuck in Driver evacuation indication.</li>\n</ul>\n\n<p><strong>Stuck in below indication:</strong></p>\n\n<p><img alt=\"\" height=\"387\" src=\"https://konerqm.jamacloud.com/attachment/234294/image-P6gi8ao3z0.png\" width=\"237\" /></p>\n\n<p>&nbsp;</p>\n\n<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\"><strong>Expected behavior:&nbsp;&nbsp;</strong></span></span></p>\n\n<p><span style=\"font-family:Calibri, sans-serif\"><span style=\"font-size:14.6667px\">The display should become normal</span></span></p>\n\n<p>&nbsp;</p>\n\n<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\"><strong>Actual behavior:</strong></span></span></p>\n\n<p><span style=\"font-family:Calibri, sans-serif\"><span style=\"font-size:14.6667px\">The Driver evacuation indication stuck for a long time</span></span></p>\n\n<p>&nbsp;</p>\n\n<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\"><strong>Recovery:&nbsp;</strong></span></span></p>\n\n<p><span style=\"font-family:Calibri, sans-serif\"><span style=\"font-size:14.6667px\">Rollcall</span></span></p>\n\n<p>&nbsp;</p>\n\n<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\"><strong>Log attached Information:</strong></span></span></p>\n\n<p><span style=\"font-family:Calibri, sans-serif\"><span style=\"font-size:14.6667px\">Node debug ,Event Traffic ,video file</span></span></p>\n\n<p>&nbsp;</p>\n\n<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\">Note: Once defect is logged, attachments can be done by editing the defect (use compressed zip folder format)</span></span></p>\n\n<p>&nbsp;</p>\n\n<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\"><strong>Value-added information:&nbsp;</strong></span></span></p>\n\n<p><span style=\"font-family:Calibri, sans-serif\"><span style=\"font-size:14.6667px\">Mondrian Display version \u200b</span></span>2.0.0.1</p>\n\n<p>&nbsp;</p>\n\n<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\"><strong>Test Sequence history:&nbsp;</strong></span></span></p>\n\n<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\">1: was failing scenario passing earlier</span></span></p>\n\n<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\">2. what was SW level when this was passing last time</span></span></p>\n\n<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\">3. any changes in test setup or test scenario between passed and failed run</span></span></p>\n\n<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\">4. any changes in tested system configuration between passed and failed run</span></span></p>\n\n<p>&nbsp;</p>\n\n<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\"><strong>Requirement related to the defect:</strong></span></span></p>\n\n<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\">(e.g. URL link to requirement which is related to the defect)</span></span></p>\n",
             "status": 1081,
-            "BUG_component$154": 1291,
-            "BUG_subcomponent$154": "CPUc",
+            "BUG_component$154": 1531,
+            "BUG_subcomponent$154": "KNSMUL",
             "createdBy": 5995,
-            "assignedTo": 1546,
+            "assignedTo": 6040,
             "release": 2396,
             "BUG_foundInBuild$154": "17.0.0.116(LD: 17.0.0.20, GCD: 17.0.1.1)",
             "BUG_foundOnDate$154": "2025-12-09",
@@ -23889,7 +23906,7 @@
                 ]
             }
         },
-        "version": 3,
+        "version": 4,
         "location": {
             "sortOrder": 6567,
             "globalSortOrder": 1665884406,
@@ -23900,7 +23917,7 @@
         },
         "lock": {
             "locked": false,
-            "lastLockedDate": "2025-12-12T07:12:52.000+0000"
+            "lastLockedDate": "2025-12-16T08:21:32.000+0000"
         },
         "type": "items"
     },
