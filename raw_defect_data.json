@@ -5412,19 +5412,20 @@
         "itemType": 154,
         "project": 417,
         "createdDate": "2025-12-16T05:39:03.000+0000",
-        "modifiedDate": "2025-12-16T05:39:03.000+0000",
-        "lastActivityDate": "2025-12-16T05:39:03.000+0000",
+        "modifiedDate": "2025-12-16T06:44:13.000+0000",
+        "lastActivityDate": "2025-12-16T06:44:13.000+0000",
         "createdBy": 6117,
-        "modifiedBy": 6117,
+        "modifiedBy": 2001,
         "fields": {
             "documentKey": "KIE601-SWBUG-2830",
             "globalId": "GID-7590944",
             "name": "IEX - Stop Buzzer does not work for Emergency stop and Normal Stop in ACU",
             "description": "<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\"><strong>Detailed Defect Description:</strong></span></span></p>\n\n<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\">IEX - Stop Buzzer does not work for Emergency stop and Normal Stop in ACU</span></span></p>\n\n<p>&nbsp;</p>\n\n<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\"><strong>Parameters:&nbsp;&nbsp;</strong></span></span></p>\n\n<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\">PC3_3100 (Stop Buzzer)</span></span></p>\n\n<p>&nbsp;</p>\n\n<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\"><strong>Group configuration:NA</strong></span></span></p>\n\n<p>&nbsp;</p>\n\n<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\"><strong>Drive type:NA</strong></span></span></p>\n\n<p>&nbsp;</p>\n\n<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\"><strong>Regression or new finding:</strong></span></span></p>\n\n<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\">New Finding</span></span></p>\n\n<p>&nbsp;</p>\n\n<p>&nbsp;</p>\n\n<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\"><strong>Test case Name / Feature name:</strong></span></span></p>\n\n<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\">Ad hoc</span></span></p>\n\n<p>&nbsp;</p>\n\n<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\"><strong>Test step number:</strong></span></span></p>\n\n<p><span style=\"font-family:Calibri, sans-serif\"><span style=\"font-size:14.6667px\">Ad hoc</span></span></p>\n\n<p>&nbsp;</p>\n\n<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\"><strong>Description of the test case (Detailed Scenario)&nbsp;</strong></span></span></p>\n\n<ul>\n\t<li>The ACU is enabled in Upper and Lower Nodes</li>\n\t<li>The ACU is acting as Buzzer</li>\n\t<li>Now Set the parameter PC3-3100 to set conditions for buzzer stop</li>\n</ul>\n\n<p></p>\n\n<p>PC3_3001</p>\n\n<p>PC3_3001_1: not working for normal stop</p>\n\n<p>PC3_3001_2: working fine</p>\n\n<p>PC3_3001_3: E stop buzzer not working when activated E switch while running</p>\n\n<p>PC3_3001_4: For normal stop Buzzer not working</p>\n\n<p>PC3_3001_5: E stop buzzer not working when activated E switch while running, For normal stop Buzzer not working</p>\n\n<p>PC3_3001_6: working fine</p>\n\n<p>PC3_3001_7: not working for normal stop</p>\n\n<p>&nbsp;</p>\n\n<p>Note: Emergency stop in Running condition &amp; Normal Stop Buzzer is not working</p>\n\n<p></p>\n\n<p>&nbsp;</p>\n\n<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\"><strong>Expected behavior:&nbsp; </strong></span></span></p>\n\n<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\">Stop Buzzer should work based on PC3_3100</span></span></p>\n\n<p>&nbsp;</p>\n\n<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\"><strong>Actual behavior:</strong></span></span></p>\n\n<p>Emergency stop in Running condition &amp; Normal Stop Buzzer is not working</p>\n\n<p>&nbsp;</p>\n\n<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\"><strong>Recovery:&nbsp;</strong></span></span></p>\n\n<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\">NA</span></span></p>\n",
-            "status": 1081,
+            "status": 1082,
             "BUG_component$154": 1561,
             "BUG_subcomponent$154": "IEX",
             "createdBy": 6117,
+            "assignedTo": 5917,
             "release": 2595,
             "BUG_foundOnDate$154": "2025-12-15",
             "priority": 2410,
@@ -5445,17 +5446,18 @@
                 ]
             }
         },
-        "version": 1,
+        "version": 2,
         "location": {
             "sortOrder": 1409,
-            "globalSortOrder": 1311375063,
+            "globalSortOrder": 1311326288,
             "sequence": "2.8.1410",
             "parent": {
                 "item": 18771233
             }
         },
         "lock": {
-            "locked": false
+            "locked": false,
+            "lastLockedDate": "2025-12-16T06:44:14.000+0000"
         },
         "type": "items"
     },
@@ -25074,19 +25076,20 @@
         "itemType": 154,
         "project": 229,
         "createdDate": "2025-12-15T13:27:49.000+0000",
-        "modifiedDate": "2025-12-15T13:27:49.000+0000",
-        "lastActivityDate": "2025-12-15T13:28:18.000+0000",
+        "modifiedDate": "2025-12-16T07:39:23.000+0000",
+        "lastActivityDate": "2025-12-16T07:39:23.000+0000",
         "createdBy": 6096,
-        "modifiedBy": 6096,
+        "modifiedBy": 6056,
         "fields": {
             "documentKey": "KCE-SWBUG-14107",
             "globalId": "GID-7590189",
             "name": "0.0.0.96 - TSCOP - PRC Indication shown along with OSI when RDF Enabled",
             "description": "<p><em><strong>Parameter:</strong></em></p>\n\n<p>1114 - 1</p>\n\n<p>1470 - 1</p>\n\n<p>1096 - 0</p>\n\n<p>989 - 1</p>\n\n<p><br />\n<em><strong>Description:</strong></em></p>\n\n<ul>\n\t<li>LD : 17.0.0.20</li>\n\t<li>KNSMUL : 0.0.0.50</li>\n\t<li>Drive : PDX</li>\n\t<li>TSCOP 15 Floor Setup is used</li>\n\t<li>WELM : 0.0.0.96</li>\n\t<li>Proto SW : 0.0.0.17</li>\n\t<li>1096 - 0 (Selective)</li>\n\t<li>A &amp; B side KNSMUL - Non-Conventional (KCOP)</li>\n</ul>\n\n<p>&nbsp;</p>\n\n<p><em><strong>Scenario:</strong></em></p>\n\n<ul>\n\t<li>PRC K - ON(PRC Indication shown in TSCOP),</li>\n\t<li>RDF ON (Now PRC Indication gone) OSI Shown</li>\n\t<li>PRC KEY form CAR still ON</li>\n\t<li>RDF turned OFF</li>\n\t<li>Again RDF - ON (quickly), Now Both PRC &amp; OSI Both shown in TSCOP Display</li>\n</ul>\n\n<p>&nbsp;</p>\n\n<p><em><strong>Expected Scenario:</strong></em></p>\n\n<ul>\n\t<li>When OSS Triggered, PRC mode indication shouldn't be shown</li>\n\t<li>Just OSI Should be shown<br />\n\t&nbsp;</li>\n</ul>\n\n<p><em><strong>Note:</strong></em></p>\n\n<ul>\n\t<li>Checked this with Attendant service, Issue not occurred</li>\n\t<li>Only OSI shown in TSCOP</li>\n</ul>\n\n<p><br />\n** \"<em>They have a variable \"mPreIndication\" that is missing with PRC to understand that PRC was active and should be removed\" </em>~ Hallart Christophe<br />\n<br />\n<em><strong>LOGs:</strong></em></p>\n\n<ul>\n\t<li>LPA</li>\n\t<li>Event</li>\n\t<li>Elev backup</li>\n</ul>\n",
             "status": 1081,
-            "BUG_component$154": 1291,
+            "BUG_component$154": 1531,
             "BUG_subcomponent$154": "WELM 0.0.0.96",
             "createdBy": 6096,
+            "assignedTo": 2439,
             "release": 2396,
             "BUG_foundInBuild$154": "KCE 17.0.0.116(LD: 17.0.0.20, GCD: 17.0.1.1)",
             "BUG_foundOnDate$154": "2025-12-14",
@@ -25111,7 +25114,7 @@
                 ]
             }
         },
-        "version": 1,
+        "version": 2,
         "location": {
             "sortOrder": 6602,
             "globalSortOrder": 1665977371,
@@ -25121,7 +25124,8 @@
             }
         },
         "lock": {
-            "locked": false
+            "locked": false,
+            "lastLockedDate": "2025-12-16T07:39:24.000+0000"
         },
         "type": "items"
     }

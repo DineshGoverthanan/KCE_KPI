@@ -16178,7 +16178,7 @@
     },
     {
         "TestRunStatus":"FAILED",
-        "ExecutionDate":"2025-12-15",
+        "ExecutionDate":"2025-12-16",
         "Document Key":"KIE601-TSTRN-73801",
         "Name":"Factory Mode Disabled & all Supervision Disabled for 1 hour",
         "Assigned To":"Mohammed Ibrahim Sultan"
@@ -16230,6 +16230,27 @@
         "ExecutionDate":"2025-09-29",
         "Document Key":"KIE601-TSTRN-63363",
         "Name":"Flywheel Cover Monitoring Inspection mode",
+        "Assigned To":"Mohammed Ibrahim Sultan"
+    },
+    {
+        "TestRunStatus":"PASSED",
+        "ExecutionDate":"2025-12-16",
+        "Document Key":"KIE601-TSTRN-73792",
+        "Name":" Safety fault codes MSC (1)",
+        "Assigned To":"Mohammed Ibrahim Sultan"
+    },
+    {
+        "TestRunStatus":"PASSED",
+        "ExecutionDate":"2025-12-16",
+        "Document Key":"KIE601-TSTRN-73793",
+        "Name":" Safety fault codes MSC (2)",
+        "Assigned To":"Mohammed Ibrahim Sultan"
+    },
+    {
+        "TestRunStatus":"FAILED",
+        "ExecutionDate":"2025-12-16",
+        "Document Key":"KIE601-TSTRN-73795",
+        "Name":" Safety fault codes SEC",
         "Assigned To":"Mohammed Ibrahim Sultan"
     },
     {
@@ -16888,13 +16909,6 @@
         "ExecutionDate":"2025-10-14",
         "Document Key":"KIE601-TSTRN-66573",
         "Name":"Fire switch monitoring (PC1_1300_3)",
-        "Assigned To":"Mohammed Ibrahim Sultan"
-    },
-    {
-        "TestRunStatus":"BLOCKED",
-        "ExecutionDate":"2025-10-14",
-        "Document Key":"KIE601-TSTRN-66574",
-        "Name":"Fire switch monitoring (PC1_1300_4)",
         "Assigned To":"Mohammed Ibrahim Sultan"
     },
     {
