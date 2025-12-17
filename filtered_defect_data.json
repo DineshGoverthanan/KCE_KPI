@@ -5487,19 +5487,20 @@
         "itemType": 154,
         "project": 417,
         "createdDate": "2025-12-17T08:32:51.000+0000",
-        "modifiedDate": "2025-12-17T08:44:33.000+0000",
-        "lastActivityDate": "2025-12-17T08:44:33.000+0000",
+        "modifiedDate": "2025-12-17T11:38:31.000+0000",
+        "lastActivityDate": "2025-12-17T11:38:31.000+0000",
         "createdBy": 5932,
-        "modifiedBy": 5932,
+        "modifiedBy": 2001,
         "fields": {
             "documentKey": "KIE601-SWBUG-2832",
             "globalId": "GID-7592010",
             "name": "IEX-KFPS Tool Fails to Detect Software Stored in NFM for CPU Update",
             "description": "<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\"><strong>Detailed Defect Description:</strong></span></span></p>\n\n<p>IEX-KFPS Tool Fails to Detect Software Stored in NFM for CPU Update</p>\n\n<p>&nbsp;</p>\n\n<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\"><strong>Parameters:&nbsp;&nbsp;</strong></span></span></p>\n\n<p><span style=\"font-family:Calibri,sans-serif\"><span style=\"font-size:14.6667px\">-</span></span></p>\n\n<p>&nbsp;</p>\n\n<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\"><strong>Group configuration: </strong></span></span></p>\n\n<p><span style=\"font-family:Calibri,sans-serif\"><span style=\"font-size:14.6667px\">Single escalator setup</span></span></p>\n\n<p>&nbsp;</p>\n\n<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\"><strong>Drive type:</strong></span></span></p>\n\n<p><span style=\"font-family:Calibri,sans-serif\"><span style=\"font-size:14.6667px\">Monarch,Danfoss</span></span></p>\n\n<p>&nbsp;</p>\n\n<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\"><strong>Regression or new finding:</strong></span></span></p>\n\n<p>Adhoc-testing</p>\n\n<p>&nbsp;</p>\n\n<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\"><strong>Description of the test case (Detailed Scenario)&nbsp;</strong></span></span></p>\n\n<p>1.Connect the KFPS tool to the CPU.</p>\n\n<p>2.Navigate to Upgrade \u2192 Update Software.</p>\n\n<p>3.The software update cannot be performed; although the software is stored in NFM/escalator/software, no software is displayed in the KFPS tool for update.</p>\n\n<p>&nbsp;</p>\n\n<p><strong>Screenshot: SW is stored in folder below</strong></p>\n\n<p>&nbsp;</p>\n\n<p>&nbsp;<img alt=\"\" height=\"450\" src=\"https://konerqm.jamacloud.com/attachment/234950/Screenshot_20251217_133154_My_Files%5B1%5D.jpg\" width=\"208\" /></p>\n\n<p>&nbsp;</p>\n\n<p>Check in KFPS tool:no software is displayed in the KFPS tool for update.</p>\n\n<p><img alt=\"\" height=\"461\" src=\"https://konerqm.jamacloud.com/attachment/234949/Screenshot_20251217_133135%5B1%5D.jpg\" width=\"213\" /></p>\n\n<p>&nbsp;</p>\n\n<p>Note:KFPS tool is not listed in component so component is updated as Service Tool - Andriod Miniconsole.</p>\n\n<p>&nbsp;</p>\n\n<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\"><strong>Expected behavior:&nbsp;&nbsp;</strong></span></span></p>\n\n<p>The software stored in NFM/escalator/software should be detected and listed in the KFPS tool, allowing the user to select and update the CPU software successfully.</p>\n\n<p>&nbsp;</p>\n\n<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\"><strong>Actual behavior:</strong></span></span></p>\n\n<p>The software stored in NFM/escalator/software is not detected or listed in the KFPS tool, preventing the software update.</p>\n\n<p>&nbsp;</p>\n\n<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\"><strong>Recovery:&nbsp;</strong></span></span></p>\n\n<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\">-</span></span></p>\n\n<p>&nbsp;</p>\n\n<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\"><strong>Log attached Information:</strong></span></span></p>\n\n<p>Attached screenshot</p>\n\n<p>&nbsp;</p>\n\n<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\"><strong>Value-added information:&nbsp;</strong></span></span></p>\n\n<p>IEX SW-TR 1.0-t12.17</p>\n\n<p>KFPS SW-3.4.0</p>\n\n<p>Checked with&nbsp;TR 1.0-t12.17 and R 2.0.3 SW-same issue occurs.</p>\n",
-            "status": 1081,
+            "status": 1082,
             "BUG_component$154": 2243,
             "BUG_subcomponent$154": "Escalator-KIE",
             "createdBy": 5932,
+            "assignedTo": 6210,
             "release": 2595,
             "BUG_foundOnDate$154": "2025-12-14",
             "priority": 2410,
@@ -5520,7 +5521,7 @@
                 ]
             }
         },
-        "version": 3,
+        "version": 4,
         "location": {
             "sortOrder": 1411,
             "globalSortOrder": 1311328434,
@@ -5531,7 +5532,7 @@
         },
         "lock": {
             "locked": false,
-            "lastLockedDate": "2025-12-17T08:44:35.000+0000"
+            "lastLockedDate": "2025-12-17T11:38:33.000+0000"
         },
         "type": "items"
     },
@@ -5651,19 +5652,20 @@
         "itemType": 154,
         "project": 417,
         "createdDate": "2025-12-17T10:13:20.000+0000",
-        "modifiedDate": "2025-12-17T10:13:20.000+0000",
-        "lastActivityDate": "2025-12-17T10:13:22.000+0000",
+        "modifiedDate": "2025-12-17T11:31:25.000+0000",
+        "lastActivityDate": "2025-12-17T11:31:25.000+0000",
         "createdBy": 2925,
-        "modifiedBy": 2925,
+        "modifiedBy": 2001,
         "fields": {
             "documentKey": "KIE601-SWBUG-2835",
             "globalId": "GID-7593624",
             "name": "Elink- In the Traffic view, shows a faulty condition even Escalator is in normal condition without any fault\u00a0",
             "description": "<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\"><strong>Detailed Defect Description:</strong></span></span></p>\n\n<p>&nbsp;</p>\n\n<p>Elink- In the Traffic view, shows a faulty condition even Escalator is in normal condition without any fault&nbsp;</p>\n\n<p>&nbsp;</p>\n\n<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\"><strong>Parameters:&nbsp;&nbsp;</strong></span></span></p>\n\n<p>&nbsp;</p>\n\n<p>PC1_1248_1</p>\n\n<p>&nbsp;</p>\n\n<p>&nbsp;</p>\n\n<p>&nbsp;</p>\n\n<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\"><strong>Description of the test case (Detailed Scenario)&nbsp;</strong></span></span></p>\n\n<p>&nbsp;</p>\n\n<p>1. Escalator is in normal mode with a stopped condition.</p>\n\n<p>2. Check in traffic view.</p>\n\n<p>3. In traffic view, FLT is showing.</p>\n\n<p>4. Running the escalator in the UP direction, the mode is updating UpA with FLT, but in CPU has no fault.</p>\n\n<p>&nbsp;</p>\n\n<p><img alt=\"\" height=\"132\" src=\"https://konerqm.jamacloud.com/attachment/234994/2025_12_17_10_12_172.png\" width=\"283\" /></p>\n\n<p>&nbsp;</p>\n\n<p>&nbsp;</p>\n",
-            "status": 1081,
+            "status": 1082,
             "BUG_component$154": 1561,
             "BUG_subcomponent$154": "E-Link",
             "createdBy": 2925,
+            "assignedTo": 6485,
             "release": 2581,
             "BUG_foundOnDate$154": "2025-12-04",
             "priority": 2410,
@@ -5684,7 +5686,7 @@
                 ]
             }
         },
-        "version": 1,
+        "version": 2,
         "location": {
             "sortOrder": 1414,
             "globalSortOrder": 1311377745,
@@ -5694,7 +5696,8 @@
             }
         },
         "lock": {
-            "locked": false
+            "locked": false,
+            "lastLockedDate": "2025-12-17T11:31:26.000+0000"
         },
         "type": "items"
     },
@@ -8270,8 +8273,8 @@
         "itemType": 154,
         "project": 229,
         "createdDate": "2025-03-20T10:08:41.000+0000",
-        "modifiedDate": "2025-12-10T05:32:42.000+0000",
-        "lastActivityDate": "2025-12-10T05:32:42.000+0000",
+        "modifiedDate": "2025-12-17T11:08:43.000+0000",
+        "lastActivityDate": "2025-12-17T11:08:43.000+0000",
         "createdBy": 5995,
         "modifiedBy": 620,
         "fields": {
@@ -8299,7 +8302,7 @@
             "BUG_jiraId$154": "ISWF-1302",
             "BUG_jira_project$154": 2465,
             "BUG_jira_URL$154": "https://kone.atlassian.net/browse/ISWF-1302",
-            "BUG_integration_synced_time$154": "2025-12-10 05:32:41.527844",
+            "BUG_integration_synced_time$154": "2025-12-17 11:08:42.767567",
             "BUG_V1_project$154": 1431
         },
         "resources": {
@@ -8312,7 +8315,7 @@
                 ]
             }
         },
-        "version": 24,
+        "version": 25,
         "location": {
             "sortOrder": 5132,
             "globalSortOrder": 1636946010,
@@ -18185,8 +18188,8 @@
         "itemType": 154,
         "project": 229,
         "createdDate": "2025-08-26T09:47:02.000+0000",
-        "modifiedDate": "2025-11-24T05:10:26.000+0000",
-        "lastActivityDate": "2025-12-16T11:35:24.000+0000",
+        "modifiedDate": "2025-12-17T11:09:40.000+0000",
+        "lastActivityDate": "2025-12-17T11:09:40.000+0000",
         "createdBy": 4464,
         "modifiedBy": 620,
         "fields": {
@@ -18214,7 +18217,7 @@
             "BUG_jiraId$154": "KCE-31300",
             "BUG_jira_project$154": 2465,
             "BUG_jira_URL$154": "https://kone.atlassian.net/browse/KCE-31300",
-            "BUG_integration_synced_time$154": "2025-11-24 05:10:25.378863",
+            "BUG_integration_synced_time$154": "2025-12-17 11:09:39.807158",
             "BUG_V1_project$154": 1431
         },
         "resources": {
@@ -18227,7 +18230,7 @@
                 ]
             }
         },
-        "version": 7,
+        "version": 8,
         "location": {
             "sortOrder": 5968,
             "globalSortOrder": 1653273090,
@@ -21933,8 +21936,8 @@
         "itemType": 154,
         "project": 229,
         "createdDate": "2025-11-10T10:15:47.000+0000",
-        "modifiedDate": "2025-11-13T08:46:44.000+0000",
-        "lastActivityDate": "2025-12-01T13:13:12.000+0000",
+        "modifiedDate": "2025-12-17T11:53:21.000+0000",
+        "lastActivityDate": "2025-12-17T11:53:21.000+0000",
         "createdBy": 6176,
         "modifiedBy": 620,
         "fields": {
@@ -21963,7 +21966,7 @@
             "BUG_jiraId$154": "KCE-30925",
             "BUG_jira_project$154": 2465,
             "BUG_jira_URL$154": "https://kone.atlassian.net/browse/KCE-30925",
-            "BUG_integration_synced_time$154": "2025-11-13 08:46:43.578315",
+            "BUG_integration_synced_time$154": "2025-12-17 11:53:20.233113",
             "BUG_V1_project$154": 1431
         },
         "resources": {
@@ -21976,7 +21979,7 @@
                 ]
             }
         },
-        "version": 7,
+        "version": 8,
         "location": {
             "sortOrder": 6372,
             "globalSortOrder": 1661163210,
@@ -22184,10 +22187,10 @@
         "itemType": 154,
         "project": 229,
         "createdDate": "2025-11-12T12:19:49.000+0000",
-        "modifiedDate": "2025-12-16T14:37:29.000+0000",
-        "lastActivityDate": "2025-12-16T14:37:29.000+0000",
+        "modifiedDate": "2025-12-17T11:07:09.000+0000",
+        "lastActivityDate": "2025-12-17T11:07:09.000+0000",
         "createdBy": 6096,
-        "modifiedBy": 620,
+        "modifiedBy": 1953,
         "fields": {
             "documentKey": "KCE-SWBUG-6952",
             "globalId": "GID-7522811",
@@ -24461,8 +24464,8 @@
         "itemType": 154,
         "project": 229,
         "createdDate": "2025-12-11T10:25:40.000+0000",
-        "modifiedDate": "2025-12-17T08:26:34.000+0000",
-        "lastActivityDate": "2025-12-17T08:26:34.000+0000",
+        "modifiedDate": "2025-12-17T11:49:02.000+0000",
+        "lastActivityDate": "2025-12-17T11:49:02.000+0000",
         "createdBy": 6096,
         "modifiedBy": 1129,
         "fields": {
@@ -24486,6 +24489,7 @@
             "BUG_probability_on_field$154": 2397,
             "root_cause_category$154": 2512,
             "BUG_testCaseUpdated$154": 1198,
+            "BUG_jira_project$154": 2465,
             "BUG_V1_project$154": 1431
         },
         "resources": {
@@ -24498,7 +24502,7 @@
                 ]
             }
         },
-        "version": 2,
+        "version": 3,
         "location": {
             "sortOrder": 6582,
             "globalSortOrder": 1665264510,
@@ -24509,7 +24513,7 @@
         },
         "lock": {
             "locked": false,
-            "lastLockedDate": "2025-12-17T08:26:35.000+0000"
+            "lastLockedDate": "2025-12-17T11:49:06.000+0000"
         },
         "type": "items"
     },
@@ -24931,8 +24935,8 @@
         "itemType": 154,
         "project": 229,
         "createdDate": "2025-12-15T13:23:44.000+0000",
-        "modifiedDate": "2025-12-17T08:45:50.000+0000",
-        "lastActivityDate": "2025-12-17T08:45:50.000+0000",
+        "modifiedDate": "2025-12-17T11:57:29.000+0000",
+        "lastActivityDate": "2025-12-17T11:57:29.000+0000",
         "createdBy": 6215,
         "modifiedBy": 1129,
         "fields": {
@@ -24956,6 +24960,7 @@
             "BUG_probability_on_field$154": 2398,
             "root_cause_category$154": 2512,
             "BUG_testCaseUpdated$154": 1198,
+            "BUG_jira_project$154": 2465,
             "BUG_V1_project$154": 1431
         },
         "resources": {
@@ -24968,7 +24973,7 @@
                 ]
             }
         },
-        "version": 3,
+        "version": 4,
         "location": {
             "sortOrder": 6601,
             "globalSortOrder": 1665635580,
@@ -24979,7 +24984,7 @@
         },
         "lock": {
             "locked": false,
-            "lastLockedDate": "2025-12-17T08:45:51.000+0000"
+            "lastLockedDate": "2025-12-17T11:57:30.000+0000"
         },
         "type": "items"
     },
@@ -25040,7 +25045,7 @@
         },
         "lock": {
             "locked": false,
-            "lastLockedDate": "2025-12-17T08:48:28.000+0000"
+            "lastLockedDate": "2025-12-17T12:00:28.000+0000"
         },
         "type": "items"
     },

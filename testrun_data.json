@@ -4711,6 +4711,13 @@
         "Assigned To":"Veeramanikandan"
     },
     {
+        "TestRunStatus":"INPROGRESS",
+        "ExecutionDate":"2025-12-17",
+        "Document Key":"KCE-TSTRN-4002207",
+        "Name":"TWS - NA with PRC, Tension Weight Switch - North America with PRC",
+        "Assigned To":"Veeramanikandan"
+    },
+    {
         "TestRunStatus":"FAILED",
         "ExecutionDate":"2025-12-13",
         "Document Key":"KCE-TSTRN-4002213",
@@ -16398,6 +16405,13 @@
         "ExecutionDate":"2025-12-17",
         "Document Key":"KIE601-TSTRN-73757",
         "Name":"Brake Lift & Close Monitoring. ( Motor Selection 2)",
+        "Assigned To":"Mohammed Ibrahim Sultan"
+    },
+    {
+        "TestRunStatus":"FAILED",
+        "ExecutionDate":"2025-12-17",
+        "Document Key":"KIE601-TSTRN-73758",
+        "Name":"Handrail underspeed",
         "Assigned To":"Mohammed Ibrahim Sultan"
     },
     {
