@@ -2395,6 +2395,13 @@
     },
     {
         "TestRunStatus":"PASSED",
+        "ExecutionDate":"2025-12-17",
+        "Document Key":"KIE601-TSTRN-73818",
+        "Name":"Voice annaouncer as Buzzer in  - Start Condition",
+        "Assigned To":"VIGNESHWARAR"
+    },
+    {
+        "TestRunStatus":"PASSED",
         "ExecutionDate":"2025-02-17",
         "Document Key":"KCE-TSTRN-3852959",
         "Name":"00 KCEKDL16 SW update",
@@ -4704,8 +4711,8 @@
         "Assigned To":"Veeramanikandan"
     },
     {
-        "TestRunStatus":"INPROGRESS",
-        "ExecutionDate":"2025-12-16",
+        "TestRunStatus":"PASSED",
+        "ExecutionDate":"2025-12-17",
         "Document Key":"KCE-TSTRN-4002206",
         "Name":"TWS - NA, Tension Weight Switch - North America",
         "Assigned To":"Veeramanikandan"
@@ -11746,6 +11753,13 @@
         "Assigned To":"Badaganti Sai Prasad"
     },
     {
+        "TestRunStatus":"INPROGRESS",
+        "ExecutionDate":"2025-12-17",
+        "Document Key":"KCE-TSTRN-4008704",
+        "Name":"Strom input activation when lift serves the Existing calls - Covered by TA",
+        "Assigned To":"Jagadeesh"
+    },
+    {
         "TestRunStatus":"PASSED",
         "ExecutionDate":"2025-07-21",
         "Document Key":"KCE-TSTRN-3976614",
@@ -12208,7 +12222,7 @@
         "Assigned To":"Kowsalya"
     },
     {
-        "TestRunStatus":"PASSED",
+        "TestRunStatus":"FAILED",
         "ExecutionDate":"2025-12-17",
         "Document Key":"KCE-TSTRN-4008713",
         "Name":"EAQ - Earthquake mode - Special",
@@ -16289,6 +16303,13 @@
         "Assigned To":"Mohammed Ibrahim Sultan"
     },
     {
+        "TestRunStatus":"INPROGRESS",
+        "ExecutionDate":"2025-12-17",
+        "Document Key":"KIE601-TSTRN-73798",
+        "Name":"Auxiliary break ",
+        "Assigned To":"Mohammed Ibrahim Sultan"
+    },
+    {
         "TestRunStatus":"PASSED",
         "ExecutionDate":"2025-09-29",
         "Document Key":"KIE601-TSTRN-63363",
@@ -16412,6 +16433,13 @@
         "ExecutionDate":"2025-12-17",
         "Document Key":"KIE601-TSTRN-73758",
         "Name":"Handrail underspeed",
+        "Assigned To":"Mohammed Ibrahim Sultan"
+    },
+    {
+        "TestRunStatus":"FAILED",
+        "ExecutionDate":"2025-12-17",
+        "Document Key":"KIE601-TSTRN-73759",
+        "Name":"Handrail Overspeed",
         "Assigned To":"Mohammed Ibrahim Sultan"
     },
     {
@@ -17531,6 +17559,13 @@
         "TestRunStatus":"FAILED",
         "ExecutionDate":"2025-11-21",
         "Document Key":"KCE-TSTRN-4004660",
+        "Name":"SPP - Parallel run prevention - Normal_Conventional ",
+        "Assigned To":"Badaganti Sai Prasad"
+    },
+    {
+        "TestRunStatus":"FAILED",
+        "ExecutionDate":"2025-12-17",
+        "Document Key":"KCE-TSTRN-4009375",
         "Name":"SPP - Parallel run prevention - Normal_Conventional ",
         "Assigned To":"Badaganti Sai Prasad"
     },
@@ -18747,7 +18782,7 @@
     },
     {
         "TestRunStatus":"FAILED",
-        "ExecutionDate":"2025-12-16",
+        "ExecutionDate":"2025-12-17",
         "Document Key":"KCE-TSTRN-4008403",
         "Name":"KDSILCI - integrated FCB + LCI - With riser having only KDSILCIs",
         "Assigned To":"Harini Sri"

@@ -5487,8 +5487,8 @@
         "itemType": 154,
         "project": 417,
         "createdDate": "2025-12-17T08:32:51.000+0000",
-        "modifiedDate": "2025-12-17T11:38:31.000+0000",
-        "lastActivityDate": "2025-12-17T11:38:31.000+0000",
+        "modifiedDate": "2025-12-17T12:14:10.000+0000",
+        "lastActivityDate": "2025-12-17T12:14:10.000+0000",
         "createdBy": 5932,
         "modifiedBy": 2001,
         "fields": {
@@ -5512,6 +5512,7 @@
             "BUG_probability_on_field$154": 2396,
             "root_cause_category$154": 2512,
             "BUG_testCaseUpdated$154": 1198,
+            "BUG_RD_comments$154": "<p>[Visu]: 17-Dec-2025</p>\n\n<p>This is defect assigned to KFPS team</p>",
             "BUG_V1_project$154": 1431
         },
         "resources": {
@@ -5521,7 +5522,7 @@
                 ]
             }
         },
-        "version": 4,
+        "version": 5,
         "location": {
             "sortOrder": 1411,
             "globalSortOrder": 1311328434,
@@ -5532,7 +5533,7 @@
         },
         "lock": {
             "locked": false,
-            "lastLockedDate": "2025-12-17T11:38:33.000+0000"
+            "lastLockedDate": "2025-12-17T12:14:12.000+0000"
         },
         "type": "items"
     },
@@ -22187,10 +22188,10 @@
         "itemType": 154,
         "project": 229,
         "createdDate": "2025-11-12T12:19:49.000+0000",
-        "modifiedDate": "2025-12-17T11:07:09.000+0000",
-        "lastActivityDate": "2025-12-17T11:07:09.000+0000",
+        "modifiedDate": "2025-12-17T13:53:23.000+0000",
+        "lastActivityDate": "2025-12-17T13:53:23.000+0000",
         "createdBy": 6096,
-        "modifiedBy": 1953,
+        "modifiedBy": 620,
         "fields": {
             "documentKey": "KCE-SWBUG-6952",
             "globalId": "GID-7522811",
@@ -22216,7 +22217,7 @@
             "BUG_jiraId$154": "KCE-31165",
             "BUG_jira_project$154": 2465,
             "BUG_jira_URL$154": "https://kone.atlassian.net/browse/KCE-31165",
-            "BUG_integration_synced_time$154": "2025-12-16 14:37:28.770877",
+            "BUG_integration_synced_time$154": "2025-12-17 13:53:22.567299",
             "BUG_V1_project$154": 1431
         },
         "resources": {
@@ -22229,7 +22230,7 @@
                 ]
             }
         },
-        "version": 8,
+        "version": 9,
         "location": {
             "sortOrder": 6388,
             "globalSortOrder": 1661475690,
@@ -24102,10 +24103,10 @@
         "itemType": 154,
         "project": 229,
         "createdDate": "2025-12-10T10:34:49.000+0000",
-        "modifiedDate": "2025-12-17T08:04:56.000+0000",
-        "lastActivityDate": "2025-12-17T09:54:38.000+0000",
+        "modifiedDate": "2025-12-17T12:24:05.000+0000",
+        "lastActivityDate": "2025-12-17T12:24:05.000+0000",
         "createdBy": 5804,
-        "modifiedBy": 1129,
+        "modifiedBy": 1953,
         "fields": {
             "documentKey": "KCE-SWBUG-14069",
             "globalId": "GID-7580172",
@@ -24114,6 +24115,7 @@
             "status": 1081,
             "BUG_component$154": 1291,
             "createdBy": 5804,
+            "assignedTo": 6010,
             "release": 2396,
             "BUG_foundOnDate$154": "2025-11-02",
             "BUG_plannedRelease$154": 2396,
@@ -24138,7 +24140,7 @@
                 ]
             }
         },
-        "version": 2,
+        "version": 3,
         "location": {
             "sortOrder": 6565,
             "globalSortOrder": 1664932500,
@@ -24149,7 +24151,7 @@
         },
         "lock": {
             "locked": false,
-            "lastLockedDate": "2025-12-17T08:04:57.000+0000"
+            "lastLockedDate": "2025-12-17T12:24:06.000+0000"
         },
         "type": "items"
     },
@@ -24464,10 +24466,10 @@
         "itemType": 154,
         "project": 229,
         "createdDate": "2025-12-11T10:25:40.000+0000",
-        "modifiedDate": "2025-12-17T11:49:02.000+0000",
-        "lastActivityDate": "2025-12-17T11:49:02.000+0000",
+        "modifiedDate": "2025-12-17T14:04:25.000+0000",
+        "lastActivityDate": "2025-12-17T14:04:25.000+0000",
         "createdBy": 6096,
-        "modifiedBy": 1129,
+        "modifiedBy": 1546,
         "fields": {
             "documentKey": "KCE-SWBUG-14086",
             "globalId": "GID-7582197",
@@ -24476,6 +24478,7 @@
             "status": 1081,
             "BUG_component$154": 1291,
             "createdBy": 6096,
+            "assignedTo": 1546,
             "release": 2396,
             "BUG_foundInBuild$154": "KCE 17.0.0.116(LD: 17.0.0.20, GCD: 17.0.1.1)",
             "BUG_foundOnDate$154": "2025-12-10",
@@ -24502,7 +24505,7 @@
                 ]
             }
         },
-        "version": 3,
+        "version": 5,
         "location": {
             "sortOrder": 6582,
             "globalSortOrder": 1665264510,
@@ -24513,7 +24516,7 @@
         },
         "lock": {
             "locked": false,
-            "lastLockedDate": "2025-12-17T11:49:06.000+0000"
+            "lastLockedDate": "2025-12-17T14:04:25.000+0000"
         },
         "type": "items"
     },
@@ -24935,10 +24938,10 @@
         "itemType": 154,
         "project": 229,
         "createdDate": "2025-12-15T13:23:44.000+0000",
-        "modifiedDate": "2025-12-17T11:57:29.000+0000",
-        "lastActivityDate": "2025-12-17T11:57:29.000+0000",
+        "modifiedDate": "2025-12-17T13:30:18.000+0000",
+        "lastActivityDate": "2025-12-17T13:30:18.000+0000",
         "createdBy": 6215,
-        "modifiedBy": 1129,
+        "modifiedBy": 1953,
         "fields": {
             "documentKey": "KCE-SWBUG-14106",
             "globalId": "GID-7590186",
@@ -24947,6 +24950,7 @@
             "status": 1081,
             "BUG_component$154": 1291,
             "createdBy": 6215,
+            "assignedTo": 6014,
             "release": 2396,
             "BUG_foundInBuild$154": "KCE 17.0.0.116(LD: 17.0.0.20, GCD: 17.0.1.1)",
             "BUG_foundOnDate$154": "2025-12-14",
@@ -24973,7 +24977,7 @@
                 ]
             }
         },
-        "version": 4,
+        "version": 5,
         "location": {
             "sortOrder": 6601,
             "globalSortOrder": 1665635580,
@@ -24984,7 +24988,7 @@
         },
         "lock": {
             "locked": false,
-            "lastLockedDate": "2025-12-17T11:57:30.000+0000"
+            "lastLockedDate": "2025-12-17T13:30:20.000+0000"
         },
         "type": "items"
     },
@@ -25104,6 +25108,65 @@
         },
         "lock": {
             "locked": false
+        },
+        "type": "items"
+    },
+    {
+        "id": 28684458,
+        "documentKey": "KCE-SWBUG-14128",
+        "globalId": "GID-7594447",
+        "itemType": 154,
+        "project": 229,
+        "createdDate": "2025-12-17T12:46:25.000+0000",
+        "modifiedDate": "2025-12-17T13:09:52.000+0000",
+        "lastActivityDate": "2025-12-17T13:10:45.000+0000",
+        "createdBy": 6096,
+        "modifiedBy": 6096,
+        "fields": {
+            "documentKey": "KCE-SWBUG-14128",
+            "globalId": "GID-7594447",
+            "name": "0.0.0.96 - TSCOP - App Crashes when \"Confirmation Button\" is pressed in Keypad Mode",
+            "description": "<p><em><strong>Parameter:</strong></em></p>\n\n<p>UI - Keypad</p>\n\n<p>Marine - NO<br />\n<br />\n<em><strong>Description:</strong></em></p>\n\n<ul>\n\t<li>LD : 17.0.0.20</li>\n\t<li>KNSMUL : 0.0.0.50</li>\n\t<li>Drive : PDX</li>\n\t<li>In TSCOP 15&nbsp;&nbsp;floor setup is used</li>\n\t<li>WELM : 0.0.0.96</li>\n\t<li>Proto SW : 0.0.0.17</li>\n\t<li>1096 - 0</li>\n\t<li>A &amp; B side KNSMUL - Non-Conventional (KCOP)</li>\n</ul>\n\n<p>&nbsp;</p>\n\n<p><em><strong>Actual Scenario:</strong></em></p>\n\n<p>Elevator in Normal Mode</p>\n\n<p>Green Star Button pressed</p>\n\n<p><img alt=\"\" height=\"324\" src=\"https://konerqm.jamacloud.com/attachment/235052/image-d8C5ibfD7J.png\" width=\"233\" /></p>\n\n<p>After Pressing, Total App crashes<br />\n<br />\n\u200b\u200b\u200b\u200b<em><strong>Note:</strong></em><br />\nThis odd scenario happens only when the Special Parameter -&gt; \"Marine\" is selected as \"NO\"<br />\n<br />\n<em><strong>Logs:</strong></em><br />\nLPA<br />\nEvent<br />\nTSCOP<br />\nMP4</p>\n",
+            "status": 1081,
+            "BUG_component$154": 1291,
+            "BUG_subcomponent$154": "WELM 0.0.0.96",
+            "createdBy": 6096,
+            "release": 2396,
+            "BUG_foundInBuild$154": "KCE 17.0.0.121(LD: 17.0.0.21, GCD: 17.0.1.5), WELM Appl: 0.0.0.96, WELM Prot: 0.0.0.17",
+            "BUG_foundOnDate$154": "2025-12-16",
+            "priority": 2410,
+            "BUG_severity$154": 1109,
+            "BUG_category$154": 1428,
+            "BUG_testLevel$154": 1129,
+            "BUG_howFound$154": 1092,
+            "BUG_whereFound$154": 1137,
+            "BUG_probability_on_field$154": 2397,
+            "root_cause_category$154": 2512,
+            "BUG_testCaseUpdated$154": 1198,
+            "BUG_V1_project$154": 1431
+        },
+        "resources": {
+            "self": {
+                "allowed": [
+                    "GET",
+                    "PUT",
+                    "PATCH",
+                    "DELETE"
+                ]
+            }
+        },
+        "version": 2,
+        "location": {
+            "sortOrder": 6621,
+            "globalSortOrder": 1665915438,
+            "sequence": "17.6622",
+            "parent": {
+                "item": 83266
+            }
+        },
+        "lock": {
+            "locked": false,
+            "lastLockedDate": "2025-12-17T13:09:53.000+0000"
         },
         "type": "items"
     }
