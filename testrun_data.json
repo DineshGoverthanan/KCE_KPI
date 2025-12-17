@@ -2338,6 +2338,13 @@
         "Assigned To":"VIGNESHWARAR"
     },
     {
+        "TestRunStatus":"PASSED",
+        "ExecutionDate":"2025-12-17",
+        "Document Key":"KIE601-TSTRN-73815",
+        "Name":"AMC - Common - New License Fetching",
+        "Assigned To":"VIGNESHWARAR"
+    },
+    {
         "TestRunStatus":"FAILED",
         "ExecutionDate":"2025-09-05",
         "Document Key":"KIE601-TSTRN-61643",
@@ -2370,6 +2377,20 @@
         "ExecutionDate":"2025-12-16",
         "Document Key":"KIE601-TSTRN-73816",
         "Name":"Software Version",
+        "Assigned To":"VIGNESHWARAR"
+    },
+    {
+        "TestRunStatus":"PASSED",
+        "ExecutionDate":"2025-12-17",
+        "Document Key":"KIE601-TSTRN-73822",
+        "Name":"Continous Mode - KCM - Operation by Inverter - Upper Key Switch",
+        "Assigned To":"VIGNESHWARAR"
+    },
+    {
+        "TestRunStatus":"PASSED",
+        "ExecutionDate":"2025-12-17",
+        "Document Key":"KIE601-TSTRN-73817",
+        "Name":"Voice announcer",
         "Assigned To":"VIGNESHWARAR"
     },
     {
@@ -4558,7 +4579,7 @@
     },
     {
         "TestRunStatus":"PASSED",
-        "ExecutionDate":"2025-12-10",
+        "ExecutionDate":"2025-12-16",
         "Document Key":"KCE-TSTRN-4002923",
         "Name":"KSS - Configuration of buttons and switches - Service Switch",
         "Assigned To":"Veeramanikandan"
@@ -4680,6 +4701,13 @@
         "ExecutionDate":"2025-11-24",
         "Document Key":"KCE-TSTRN-4002204",
         "Name":"KCESAFETY \u2013 NA - Traction Loss Supervision Service Test",
+        "Assigned To":"Veeramanikandan"
+    },
+    {
+        "TestRunStatus":"INPROGRESS",
+        "ExecutionDate":"2025-12-16",
+        "Document Key":"KCE-TSTRN-4002206",
+        "Name":"TWS - NA, Tension Weight Switch - North America",
         "Assigned To":"Veeramanikandan"
     },
     {
@@ -10410,7 +10438,7 @@
     },
     {
         "TestRunStatus":"FAILED",
-        "ExecutionDate":"2025-12-05",
+        "ExecutionDate":"2025-12-17",
         "Document Key":"KIE601-TSTRN-70594",
         "Name":"Escalator modes, monitoring, E-Link",
         "Assigned To":"S.P"
@@ -11690,8 +11718,8 @@
         "Assigned To":"Badaganti Sai Prasad"
     },
     {
-        "TestRunStatus":"INPROGRESS",
-        "ExecutionDate":"2025-12-16",
+        "TestRunStatus":"FAILED",
+        "ExecutionDate":"2025-12-17",
         "Document Key":"KCE-TSTRN-4008703",
         "Name":"High Wind activation when lift serves the Existing calls - Covered by TA",
         "Assigned To":"Jagadeesh"
@@ -12075,6 +12103,13 @@
         "Assigned To":"Kowsalya"
     },
     {
+        "TestRunStatus":"INPROGRESS",
+        "ExecutionDate":"2025-12-17",
+        "Document Key":"KCE-TSTRN-4008706",
+        "Name":"Elevator features - PVS - Penthouse Visitor Feature - PVS feature in group elevators",
+        "Assigned To":"Kowsalya"
+    },
+    {
         "TestRunStatus":"PASSED",
         "ExecutionDate":"2025-09-09",
         "Document Key":"KCE-TSTRN-3987618",
@@ -12125,7 +12160,7 @@
     },
     {
         "TestRunStatus":"INPROGRESS",
-        "ExecutionDate":"2025-12-16",
+        "ExecutionDate":"2025-12-17",
         "Document Key":"KCE-TSTRN-4008709",
         "Name":"Group features - PRL and HEL parameters",
         "Assigned To":"Kowsalya"
@@ -12166,8 +12201,8 @@
         "Assigned To":"Kowsalya"
     },
     {
-        "TestRunStatus":"INPROGRESS",
-        "ExecutionDate":"2025-12-10",
+        "TestRunStatus":"PASSED",
+        "ExecutionDate":"2025-12-17",
         "Document Key":"KCE-TSTRN-4008713",
         "Name":"EAQ - Earthquake mode - Special",
         "Assigned To":"Kowsalya"
@@ -16233,6 +16268,13 @@
         "Assigned To":"Mohammed Ibrahim Sultan"
     },
     {
+        "TestRunStatus":"FAILED",
+        "ExecutionDate":"2025-12-17",
+        "Document Key":"KIE601-TSTRN-73799",
+        "Name":"Acceleration Rate Supervision Fault 64",
+        "Assigned To":"Mohammed Ibrahim Sultan"
+    },
+    {
         "TestRunStatus":"PASSED",
         "ExecutionDate":"2025-09-29",
         "Document Key":"KIE601-TSTRN-63362",
@@ -16244,6 +16286,13 @@
         "ExecutionDate":"2025-09-29",
         "Document Key":"KIE601-TSTRN-63363",
         "Name":"Flywheel Cover Monitoring Inspection mode",
+        "Assigned To":"Mohammed Ibrahim Sultan"
+    },
+    {
+        "TestRunStatus":"PASSED",
+        "ExecutionDate":"2025-12-17",
+        "Document Key":"KIE601-TSTRN-73797",
+        "Name":"Braking Sequence timeout",
         "Assigned To":"Mohammed Ibrahim Sultan"
     },
     {
@@ -16282,10 +16331,38 @@
         "Assigned To":"Mohammed Ibrahim Sultan"
     },
     {
+        "TestRunStatus":"PASSED",
+        "ExecutionDate":"2025-12-16",
+        "Document Key":"KIE601-TSTRN-73787",
+        "Name":"Inspection Mode - Operation - Upper Pit",
+        "Assigned To":"Mohammed Ibrahim Sultan"
+    },
+    {
+        "TestRunStatus":"PASSED",
+        "ExecutionDate":"2025-12-16",
+        "Document Key":"KIE601-TSTRN-73788",
+        "Name":"Inspection Mode - Operation - Lower Pit",
+        "Assigned To":"Mohammed Ibrahim Sultan"
+    },
+    {
         "TestRunStatus":"INPROGRESS",
         "ExecutionDate":"2025-12-16",
         "Document Key":"KIE601-TSTRN-73789",
         "Name":"Inspection Mode - Faults",
+        "Assigned To":"Mohammed Ibrahim Sultan"
+    },
+    {
+        "TestRunStatus":"PASSED",
+        "ExecutionDate":"2025-12-16",
+        "Document Key":"KIE601-TSTRN-73790",
+        "Name":"Inspection mode with Fault 106",
+        "Assigned To":"Mohammed Ibrahim Sultan"
+    },
+    {
+        "TestRunStatus":"FAILED",
+        "ExecutionDate":"2025-12-16",
+        "Document Key":"KIE601-TSTRN-73791",
+        "Name":"Inspection Modes Parameters",
         "Assigned To":"Mohammed Ibrahim Sultan"
     },
     {
@@ -16307,6 +16384,48 @@
         "ExecutionDate":"2025-12-15",
         "Document Key":"KIE601-TSTRN-73755",
         "Name":"Missing Step Detection - Lower",
+        "Assigned To":"Mohammed Ibrahim Sultan"
+    },
+    {
+        "TestRunStatus":"PASSED",
+        "ExecutionDate":"2025-12-17",
+        "Document Key":"KIE601-TSTRN-73756",
+        "Name":"Brake Lift & Close Monitoring. ( Motor Selection 1)",
+        "Assigned To":"Mohammed Ibrahim Sultan"
+    },
+    {
+        "TestRunStatus":"PASSED",
+        "ExecutionDate":"2025-12-17",
+        "Document Key":"KIE601-TSTRN-73757",
+        "Name":"Brake Lift & Close Monitoring. ( Motor Selection 2)",
+        "Assigned To":"Mohammed Ibrahim Sultan"
+    },
+    {
+        "TestRunStatus":"PASSED",
+        "ExecutionDate":"2025-12-17",
+        "Document Key":"KIE601-TSTRN-73770",
+        "Name":"Deceleration ramp fault 314",
+        "Assigned To":"Mohammed Ibrahim Sultan"
+    },
+    {
+        "TestRunStatus":"PASSED",
+        "ExecutionDate":"2025-12-17",
+        "Document Key":"KIE601-TSTRN-73771",
+        "Name":" Acceleration Rate Supervision - One Sensor Interface - P1 Only",
+        "Assigned To":"Mohammed Ibrahim Sultan"
+    },
+    {
+        "TestRunStatus":"PASSED",
+        "ExecutionDate":"2025-12-17",
+        "Document Key":"KIE601-TSTRN-73772",
+        "Name":" Acceleration Rate Supervision - One Sensor Interface - P2 Only",
+        "Assigned To":"Mohammed Ibrahim Sultan"
+    },
+    {
+        "TestRunStatus":"PASSED",
+        "ExecutionDate":"2025-12-17",
+        "Document Key":"KIE601-TSTRN-73773",
+        "Name":" Acceleration Rate Supervision - Two Sensor Interface",
         "Assigned To":"Mohammed Ibrahim Sultan"
     },
     {
@@ -17591,7 +17710,7 @@
         "Assigned To":"Kowsalya"
     },
     {
-        "TestRunStatus":"INPROGRESS",
+        "TestRunStatus":"FAILED",
         "ExecutionDate":"2025-12-16",
         "Document Key":"KCE-TSTRN-4006815",
         "Name":"Commissioning - 3.1 Roll Call",
@@ -17718,10 +17837,10 @@
     },
     {
         "TestRunStatus":"INPROGRESS",
-        "ExecutionDate":"2025-12-09",
+        "ExecutionDate":"2025-12-17",
         "Document Key":"KCE-TSTRN-4006821",
         "Name":"CRB C - Call Registered Buzzer - Car call + DOB + DCB + DOE",
-        "Assigned To":"Nithya Priya"
+        "Assigned To":"Priyavalli"
     },
     {
         "TestRunStatus":"FAILED",
@@ -17913,8 +18032,8 @@
         "Assigned To":"Nithya Priya"
     },
     {
-        "TestRunStatus":"INPROGRESS",
-        "ExecutionDate":"2025-12-15",
+        "TestRunStatus":"PASSED",
+        "ExecutionDate":"2025-12-17",
         "Document Key":"KCE-TSTRN-4008738",
         "Name":"xDOP Multiple languages support",
         "Assigned To":"Nithya Priya"
@@ -17928,7 +18047,7 @@
     },
     {
         "TestRunStatus":"INPROGRESS",
-        "ExecutionDate":"2025-12-15",
+        "ExecutionDate":"2025-12-17",
         "Document Key":"KCE-TSTRN-4008739",
         "Name":"xDOP accent color customization",
         "Assigned To":"Nithya Priya"
@@ -18571,8 +18690,8 @@
         "Assigned To":"Suryanarayanan"
     },
     {
-        "TestRunStatus":"INPROGRESS",
-        "ExecutionDate":"2025-12-09",
+        "TestRunStatus":"PASSED",
+        "ExecutionDate":"2025-12-17",
         "Document Key":"KCE-TSTRN-4007037",
         "Name":"COP-Specific Disability Service Management",
         "Assigned To":"Suryanarayanan"
@@ -18600,14 +18719,21 @@
     },
     {
         "TestRunStatus":"INPROGRESS",
-        "ExecutionDate":"2025-12-15",
+        "ExecutionDate":"2025-12-17",
+        "Document Key":"KCE-TSTRN-4007042",
+        "Name":"TSCOP basic rush test case",
+        "Assigned To":"Suryanarayanan"
+    },
+    {
+        "TestRunStatus":"FAILED",
+        "ExecutionDate":"2025-12-17",
         "Document Key":"KCE-TSTRN-4008402",
         "Name":"KDSILCI - integrated FCB + LCI - With riser having mixed setup with KDSILCIs and FCBs",
         "Assigned To":"Harini Sri"
     },
     {
         "TestRunStatus":"FAILED",
-        "ExecutionDate":"2025-12-15",
+        "ExecutionDate":"2025-12-16",
         "Document Key":"KCE-TSTRN-4008403",
         "Name":"KDSILCI - integrated FCB + LCI - With riser having only KDSILCIs",
         "Assigned To":"Harini Sri"
