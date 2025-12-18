@@ -2324,6 +2324,13 @@
         "Assigned To":"VIGNESHWARAR"
     },
     {
+        "TestRunStatus":"INPROGRESS",
+        "ExecutionDate":"2025-12-17",
+        "Document Key":"KIE601-TSTRN-73812",
+        "Name":"KFPS tool ",
+        "Assigned To":"VIGNESHWARAR"
+    },
+    {
         "TestRunStatus":"FAILED",
         "ExecutionDate":"2025-09-05",
         "Document Key":"KIE601-TSTRN-61642",
@@ -2360,6 +2367,13 @@
     },
     {
         "TestRunStatus":"FAILED",
+        "ExecutionDate":"2025-12-17",
+        "Document Key":"KIE601-TSTRN-73814",
+        "Name":"AMC - Common - License activation",
+        "Assigned To":"VIGNESHWARAR"
+    },
+    {
+        "TestRunStatus":"FAILED",
         "ExecutionDate":"2025-10-22",
         "Document Key":"KIE601-TSTRN-66627",
         "Name":"AMC Escalator Controller Menu - Escalator Status View",
@@ -2369,6 +2383,13 @@
         "TestRunStatus":"FAILED",
         "ExecutionDate":"2025-11-04",
         "Document Key":"KIE601-TSTRN-68204",
+        "Name":"AMC Escalator Controller Menu - Escalator Status View",
+        "Assigned To":"VIGNESHWARAR"
+    },
+    {
+        "TestRunStatus":"FAILED",
+        "ExecutionDate":"2025-12-17",
+        "Document Key":"KIE601-TSTRN-73813",
         "Name":"AMC Escalator Controller Menu - Escalator Status View",
         "Assigned To":"VIGNESHWARAR"
     },
@@ -2398,6 +2419,20 @@
         "ExecutionDate":"2025-12-17",
         "Document Key":"KIE601-TSTRN-73818",
         "Name":"Voice annaouncer as Buzzer in  - Start Condition",
+        "Assigned To":"VIGNESHWARAR"
+    },
+    {
+        "TestRunStatus":"FAILED",
+        "ExecutionDate":"2025-12-17",
+        "Document Key":"KIE601-TSTRN-73819",
+        "Name":"Voice announcer as Buzzer in  - Stop Condition",
+        "Assigned To":"VIGNESHWARAR"
+    },
+    {
+        "TestRunStatus":"INPROGRESS",
+        "ExecutionDate":"2025-12-17",
+        "Document Key":"KIE601-TSTRN-73820",
+        "Name":"Voice announcer in nodes supervision",
         "Assigned To":"VIGNESHWARAR"
     },
     {
@@ -4718,7 +4753,7 @@
         "Assigned To":"Veeramanikandan"
     },
     {
-        "TestRunStatus":"INPROGRESS",
+        "TestRunStatus":"FAILED",
         "ExecutionDate":"2025-12-17",
         "Document Key":"KCE-TSTRN-4002207",
         "Name":"TWS - NA with PRC, Tension Weight Switch - North America with PRC",

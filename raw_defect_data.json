@@ -6365,8 +6365,8 @@
         "itemType": 154,
         "project": 229,
         "createdDate": "2025-12-15T13:44:45.000+0000",
-        "modifiedDate": "2025-12-17T09:03:30.000+0000",
-        "lastActivityDate": "2025-12-17T09:03:30.000+0000",
+        "modifiedDate": "2025-12-17T14:42:38.000+0000",
+        "lastActivityDate": "2025-12-17T14:42:38.000+0000",
         "createdBy": 1300,
         "modifiedBy": 620,
         "fields": {
@@ -6376,8 +6376,9 @@
             "description": "<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\"><strong>Detailed Defect Description:</strong></span></span></p>\n\n<p><span style=\"font-size:11.0pt\"><span style=\"font-family:Calibri\">During the setup run, the roll call was not effective in FCB Nodes</span></span></p>\n\n<p>&nbsp;</p>\n\n<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\"><strong>Parameters:&nbsp;&nbsp;</strong></span></span></p>\n\n<p>280 =2 or 1</p>\n\n<p>&nbsp;</p>\n\n<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\"><strong>Group configuration: </strong></span></span></p>\n\n<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\">Single elevator setup</span></span></p>\n\n<p>&nbsp;</p>\n\n<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\"><strong>Drive type:</strong></span></span></p>\n\n<p><span style=\"font-family:Calibri, sans-serif\"><span style=\"font-size:14.6667px\">KDX32 Drive&nbsp;</span></span></p>\n\n<p><span style=\"font-family:Calibri, sans-serif\"><span style=\"font-size:14.6667px\">SW version - 25.45</span></span></p>\n\n<p>&nbsp;</p>\n\n<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\"><strong>Regression or new finding:</strong></span></span></p>\n\n<p><span style=\"font-family:Calibri, sans-serif\"><span style=\"font-size:14.6667px\">New finding&nbsp;</span></span></p>\n\n<p>&nbsp;</p>\n\n<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\"><strong>Test case Name / Feature name:</strong></span></span></p>\n\n<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\">ad-hoc defect</span></span></p>\n\n<p>&nbsp;</p>\n\n<p>&nbsp;</p>\n\n<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\"><strong>Description of the test case (Detailed Scenario)&nbsp;</strong></span></span></p>\n\n<p>&nbsp;</p>\n\n<ol style=\"font-family:Calibri; font-size:11.0pt; font-style:normal; font-weight:normal; list-style-type:decimal; unicode-bidi:embed\">\n\t<li style=\"vertical-align:middle\" value=\"1\"><span style=\"font-size:11.0pt\"><span style=\"font-family:Calibri\"><span><span>Create wrong floor FCB&nbsp; to make the roll call failed state. And Now Elevator in roll call failed state.</span></span></span></span></li>\n\t<li style=\"vertical-align:middle\"><span style=\"font-size:11.0pt\"><span style=\"font-family:Calibri\">Replace the incorrect FCB with correct FCB floor</span></span></li>\n\t<li style=\"vertical-align:middle\"><span style=\"font-size:11.0pt\"><span style=\"font-family:Calibri\">Now Perform the Setup Run.</span></span></li>\n\t<li style=\"vertical-align:middle\"><span style=\"font-size:11.0pt\"><span style=\"font-family:Calibri\">During 1st setup run, the </span></span><span style=\"font-size:11.0pt\"><strong style=\"font-weight:bold\"><span style=\"font-family:Calibri\">roll call has failed.</span></strong></span></li>\n\t<li style=\"vertical-align:middle\"><span style=\"font-size:11.0pt\"><span style=\"font-family:Calibri\">Again Perform the </span></span><span style=\"font-size:11.0pt\"><strong style=\"font-weight:bold\"><span style=\"font-family:Calibri\">RDF &gt;&gt; Roll Call</span></strong></span><span style=\"font-size:11.0pt\"><span style=\"font-family:Calibri\"> &gt;&gt; Next roll call is passed (without do any actions roll call passed or Next setup run also roll call is passed )</span></span></li>\n</ol>\n\n<p>&nbsp;</p>\n\n<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\"><strong>Expected behavior:&nbsp;&nbsp;</strong></span></span></p>\n\n<p><span style=\"font-size:11.0pt\"><span style=\"font-family:Calibri\">During 1st setup run, the </span></span><span style=\"font-size:11.0pt\"><strong style=\"font-weight:bold\"><span style=\"font-family:Calibri\">roll call should be in pass state.&nbsp;</span></strong><span style=\"font-family:Calibri\">(if correct FCB placed)</span></span></p>\n\n<p>&nbsp;</p>\n\n<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\"><strong>Actual behavior:</strong></span></span></p>\n\n<p><span style=\"font-size:11.0pt\"><span style=\"font-family:Calibri\">During setup run, roll call has failed.</span></span></p>\n\n<p>&nbsp;</p>\n\n<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\"><strong>Recovery:&nbsp;</strong></span></span></p>\n\n<p><span style=\"font-family:Calibri, sans-serif\"><span style=\"font-size:14.6667px\">Again perform the roll call.</span></span></p>\n\n<p>&nbsp;</p>\n\n<p>&nbsp;</p>\n\n<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\"><strong>Log attached Information:</strong></span></span></p>\n\n<p>LPA and Console log attached here.</p>\n\n<p>&nbsp;</p>\n\n<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\"><strong>Value-added information:&nbsp;</strong></span></span></p>\n\n<p>&nbsp;</p>\n\n<p>Verified with KCE Row software it's also same behaviour. i.e. Setup run roll call failed in above scenario.</p>\n\n<p>&nbsp;</p>\n\n<p><span style=\"font-size:11.0pt\"><span style=\"font-family:Calibri\">SW Details:</span></span></p>\n\n<p><span style=\"font-size:11.0pt\"><span style=\"font-family:Calibri\">LD- 17.0.0.20</span></span></p>\n\n<p><span style=\"font-size:11.0pt\"><span style=\"font-family:Calibri\">GCD - 17.0.1.1</span></span></p>\n\n<p><span style=\"font-size:11.0pt\"><span style=\"font-family:Calibri\">Safety SW - P4.0.0.30</span></span></p>\n\n<p>&nbsp;</p>\n\n<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\"><strong>Requirement related to the defect:</strong></span></span></p>\n\n<p>&nbsp;</p>\n",
             "status": 1081,
             "BUG_component$154": 1291,
+            "BUG_subcomponent$154": "Shaft Interface",
             "createdBy": 1300,
-            "assignedTo": 1546,
+            "assignedTo": 1150,
             "release": 2396,
             "BUG_foundInBuild$154": "LD 17.0.0.20",
             "BUG_foundOnDate$154": "2025-12-11",
@@ -6394,7 +6395,7 @@
             "BUG_jiraId$154": "KCE-32482",
             "BUG_jira_project$154": 2465,
             "BUG_jira_URL$154": "https://kone.atlassian.net/browse/KCE-32482",
-            "BUG_integration_synced_time$154": "2025-12-17 09:03:29.799843",
+            "BUG_integration_synced_time$154": "2025-12-17 14:42:37.167310",
             "BUG_V1_project$154": 1431
         },
         "resources": {
@@ -6407,7 +6408,7 @@
                 ]
             }
         },
-        "version": 6,
+        "version": 9,
         "location": {
             "sortOrder": 252,
             "globalSortOrder": 1536444630,
@@ -6418,7 +6419,7 @@
         },
         "lock": {
             "locked": false,
-            "lastLockedDate": "2025-12-17T09:02:57.000+0000"
+            "lastLockedDate": "2025-12-17T14:40:18.000+0000"
         },
         "type": "items"
     },
@@ -24878,10 +24879,10 @@
         "itemType": 154,
         "project": 229,
         "createdDate": "2025-12-11T10:25:40.000+0000",
-        "modifiedDate": "2025-12-17T14:04:25.000+0000",
-        "lastActivityDate": "2025-12-17T14:04:25.000+0000",
+        "modifiedDate": "2025-12-18T00:00:41.000+0000",
+        "lastActivityDate": "2025-12-18T00:00:41.000+0000",
         "createdBy": 6096,
-        "modifiedBy": 1546,
+        "modifiedBy": 620,
         "fields": {
             "documentKey": "KCE-SWBUG-14086",
             "globalId": "GID-7582197",
@@ -24904,7 +24905,10 @@
             "BUG_probability_on_field$154": 2397,
             "root_cause_category$154": 2512,
             "BUG_testCaseUpdated$154": 1198,
+            "BUG_jiraId$154": "KCE-32631",
             "BUG_jira_project$154": 2465,
+            "BUG_jira_URL$154": "https://kone.atlassian.net/browse/KCE-32631",
+            "BUG_integration_synced_time$154": "2025-12-18 00:00:38.611865",
             "BUG_V1_project$154": 1431
         },
         "resources": {
@@ -24917,7 +24921,7 @@
                 ]
             }
         },
-        "version": 5,
+        "version": 7,
         "location": {
             "sortOrder": 6582,
             "globalSortOrder": 1665264510,
@@ -25350,10 +25354,10 @@
         "itemType": 154,
         "project": 229,
         "createdDate": "2025-12-15T13:23:44.000+0000",
-        "modifiedDate": "2025-12-17T13:30:18.000+0000",
-        "lastActivityDate": "2025-12-17T13:30:18.000+0000",
+        "modifiedDate": "2025-12-18T00:09:16.000+0000",
+        "lastActivityDate": "2025-12-18T00:09:16.000+0000",
         "createdBy": 6215,
-        "modifiedBy": 1953,
+        "modifiedBy": 620,
         "fields": {
             "documentKey": "KCE-SWBUG-14106",
             "globalId": "GID-7590186",
@@ -25376,7 +25380,10 @@
             "BUG_probability_on_field$154": 2398,
             "root_cause_category$154": 2512,
             "BUG_testCaseUpdated$154": 1198,
+            "BUG_jiraId$154": "KCE-32655",
             "BUG_jira_project$154": 2465,
+            "BUG_jira_URL$154": "https://kone.atlassian.net/browse/KCE-32655",
+            "BUG_integration_synced_time$154": "2025-12-18 00:09:14.156211",
             "BUG_V1_project$154": 1431
         },
         "resources": {
@@ -25389,7 +25396,7 @@
                 ]
             }
         },
-        "version": 5,
+        "version": 6,
         "location": {
             "sortOrder": 6601,
             "globalSortOrder": 1665635580,
