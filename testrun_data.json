@@ -16534,10 +16534,17 @@
         "Assigned To":"Mohammed Ibrahim Sultan"
     },
     {
-        "TestRunStatus":"INPROGRESS",
+        "TestRunStatus":"PASSED",
         "ExecutionDate":"2025-12-18",
         "Document Key":"KIE601-TSTRN-73779",
         "Name":"Contactor feedback ",
+        "Assigned To":"VIGNESHWARAR"
+    },
+    {
+        "TestRunStatus":"INPROGRESS",
+        "ExecutionDate":"2025-12-18",
+        "Document Key":"KIE601-TSTRN-73780",
+        "Name":"Contactor feedback inspection",
         "Assigned To":"VIGNESHWARAR"
     },
     {

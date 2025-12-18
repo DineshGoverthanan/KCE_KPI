@@ -4041,10 +4041,10 @@
         "itemType": 154,
         "project": 417,
         "createdDate": "2025-12-04T15:15:17.000+0000",
-        "modifiedDate": "2025-12-14T16:59:46.000+0000",
-        "lastActivityDate": "2025-12-14T16:59:46.000+0000",
+        "modifiedDate": "2025-12-18T10:52:59.000+0000",
+        "lastActivityDate": "2025-12-18T10:52:59.000+0000",
         "createdBy": 2925,
-        "modifiedBy": 2001,
+        "modifiedBy": 6254,
         "fields": {
             "documentKey": "KIE601-SWBUG-2782",
             "globalId": "GID-7569475",
@@ -4067,7 +4067,7 @@
             "root_cause_category$154": 2515,
             "BUG_rootCause$154": "<p>Requirement was incorrect</p>",
             "BUG_testCaseUpdated$154": 1198,
-            "BUG_RD_comments$154": "<p>Vigneshwarar V [4.12.2025]- Resimulated the same issue in SIM 316 with the fault condition F 355. In inspection mode, the escalator could not run. After disabling the E-link selection parameter PC1_1248_0, the fault get cleared, but the escalator still not able to run in inspection mode(It gets hang), although it run normally in normal mode. We also tried by setting the default parameter with PC2_2908_1, but try to run in inspection mode still did not work. Finally, after reloading the software for the CPU, MSC, LSC, and LCB,the escalator was able to run in inspection mode,it working fine without any issues.</p>\n\n<p><strong>Note:Issue has observed 1 time&nbsp;</strong></p>\n\n<p>&nbsp;</p>\n\n<p>&nbsp;</p>\n\n<p>[Visu]: 14-Dec-2025<br />\nThis defect is fixed in R2.0.3.2</p>\n\n<p><br />\n\u200b</p>",
+            "BUG_RD_comments$154": "<p>Vigneshwarar V [4.12.2025]- Resimulated the same issue in SIM 316 with the fault condition F 355. In inspection mode, the escalator could not run. After disabling the E-link selection parameter PC1_1248_0, the fault get cleared, but the escalator still not able to run in inspection mode(It gets hang), although it run normally in normal mode. We also tried by setting the default parameter with PC2_2908_1, but try to run in inspection mode still did not work. Finally, after reloading the software for the CPU, MSC, LSC, and LCB,the escalator was able to run in inspection mode,it working fine without any issues.</p>\n\n<p><strong>Note:Issue has observed 1 time&nbsp;</strong></p>\n\n<p>&nbsp;</p>\n\n<p>&nbsp;</p>\n\n<p>[Visu]: 14-Dec-2025<br />\nThis defect is fixed in R2.0.3.2</p>\n\n<p>[Bhavya]:</p>\n\n<p>This dfecet is verified in R2.0.3.2 and it seems ok.</p>\n\n<p><br />\n\u200b</p>",
             "BUG_V1_project$154": 1431
         },
         "resources": {
@@ -4077,7 +4077,7 @@
                 ]
             }
         },
-        "version": 8,
+        "version": 9,
         "location": {
             "sortOrder": 1361,
             "globalSortOrder": 1311274784,
@@ -4088,7 +4088,7 @@
         },
         "lock": {
             "locked": false,
-            "lastLockedDate": "2025-12-14T16:59:47.000+0000"
+            "lastLockedDate": "2025-12-18T10:53:00.000+0000"
         },
         "type": "items"
     },
@@ -5691,7 +5691,7 @@
         "version": 2,
         "location": {
             "sortOrder": 1414,
-            "globalSortOrder": 1311377745,
+            "globalSortOrder": 1311331653,
             "sequence": "2.8.1415",
             "parent": {
                 "item": 18771233
@@ -5700,6 +5700,61 @@
         "lock": {
             "locked": false,
             "lastLockedDate": "2025-12-17T11:31:26.000+0000"
+        },
+        "type": "items"
+    },
+    {
+        "id": 28701756,
+        "documentKey": "KIE601-SWBUG-2836",
+        "globalId": "GID-7597906",
+        "itemType": 154,
+        "project": 417,
+        "createdDate": "2025-12-18T10:58:27.000+0000",
+        "modifiedDate": "2025-12-18T11:05:03.000+0000",
+        "lastActivityDate": "2025-12-18T11:05:03.000+0000",
+        "createdBy": 5932,
+        "modifiedBy": 2001,
+        "fields": {
+            "documentKey": "KIE601-SWBUG-2836",
+            "globalId": "GID-7597906",
+            "name": "IEX-When the escalator is in K2D mode and started by using the key switch, the opposite entry buzzer keeps sounding continuously.",
+            "description": "<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\"><strong>Detailed Defect Description:</strong></span></span></p>\n\n<p>IEX-When the escalator is in K2D mode and started by using the key switch, the opposite entry buzzer keeps sounding continuously.</p>\n\n<p>&nbsp;</p>\n\n<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\"><strong>Parameters:&nbsp;&nbsp;</strong></span></span></p>\n\n<p><strong>PC3-3021</strong> \u2013 Opposite Entry Announcement (Buzzer)</p>\n\n<p>&nbsp;</p>\n\n<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\"><strong>Group configuration: </strong></span></span></p>\n\n<p><span style=\"font-family:Calibri, sans-serif\"><span style=\"font-size:14.6667px\">Single Escalator setup</span></span></p>\n\n<p>&nbsp;</p>\n\n<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\"><strong>Drive type:</strong></span></span></p>\n\n<p><span style=\"font-family:Calibri, sans-serif\"><span style=\"font-size:14.6667px\">Monarch,Danfoss</span></span></p>\n\n<p>&nbsp;</p>\n\n<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\"><strong>Regression or new finding:</strong></span></span></p>\n\n<p><span style=\"font-family:Calibri, sans-serif\"><span style=\"font-size:14.6667px\">Adhoc</span></span></p>\n\n<p>&nbsp;</p>\n\n<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\"><strong>Description of the test case:</strong></span></span></p>\n\n<ul>\n\t<li>\n\t<p>Set the escalator to <strong>K2D mode</strong></p>\n\n\t<ul>\n\t\t<li>\n\t\t<p>Parameter: <strong>PC1-1103-4</strong></p>\n\t\t</li>\n\t</ul>\n\t</li>\n\t<li>\n\t<p>Enable <strong>Opposite Entry Buzzer Announcement</strong></p>\n\n\t<ul>\n\t\t<li>\n\t\t<p>Parameter: <strong>PC3-3021_1</strong></p>\n\t\t</li>\n\t</ul>\n\t</li>\n\t<li>\n\t<p>Run the escalator in UP<strong>&nbsp;direction</strong>\u200b\u200b\u200b\u200b\u200b\u200b</p>\n\n\t<ul>\n\t\t<li>\n\t\t<p>Escalator runs in UP<strong>&nbsp;direction</strong>&nbsp;and opposite<strong>&nbsp;ACU buzzer</strong> sounds continuously</p>\n\t\t</li>\n\t</ul>\n\t</li>\n</ul>\n\n<p>Note:</p>\n\n<ul>\n\t<li>\n\t<p>Issue occurs in <strong>both UP and DOWN directions</strong></p>\n\t</li>\n\t<li>\n\t<p>Same behavior observed with <strong>photocell start</strong> as well as <strong>normal key start</strong></p>\n\t</li>\n</ul>\n\n<p>&nbsp;</p>\n\n<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\"><strong>Expected behavior:&nbsp;&nbsp;</strong></span></span></p>\n\n<ul>\n\t<li>\n\t<p>The <strong>opposite entry buzzer</strong> should <strong>not remain ON continuously</strong></p>\n\t</li>\n\t<li>\n\t<p>Buzzer should activate <strong>only when an opposite entry condition is detected</strong></p>\n\t</li>\n</ul>\n\n<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\"><strong>Actual behavior:</strong></span></span></p>\n\n<p>The opposite entry buzzer&nbsp;remains ON continuously</p>\n\n<p>&nbsp;</p>\n\n<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\"><strong>Recovery:&nbsp;</strong></span></span></p>\n\n<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\">-</span></span></p>\n\n<p>&nbsp;</p>\n\n<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\"><strong>Value-added information:&nbsp;</strong></span></span></p>\n\n<p>IEX SW-TR 1.0-t12.17</p>\n",
+            "status": 1082,
+            "BUG_component$154": 1561,
+            "createdBy": 5932,
+            "assignedTo": 5917,
+            "release": 2595,
+            "BUG_foundOnDate$154": "2025-12-16",
+            "priority": 2410,
+            "BUG_severity$154": 1110,
+            "BUG_category$154": 1422,
+            "BUG_testLevel$154": 1129,
+            "BUG_howFound$154": 1092,
+            "BUG_whereFound$154": 1137,
+            "BUG_probability_on_field$154": 2396,
+            "root_cause_category$154": 2512,
+            "BUG_testCaseUpdated$154": 1198,
+            "BUG_V1_project$154": 1431
+        },
+        "resources": {
+            "self": {
+                "allowed": [
+                    "GET"
+                ]
+            }
+        },
+        "version": 2,
+        "location": {
+            "sortOrder": 1415,
+            "globalSortOrder": 1311332726,
+            "sequence": "2.8.1416",
+            "parent": {
+                "item": 18771233
+            }
+        },
+        "lock": {
+            "locked": false,
+            "lastLockedDate": "2025-12-18T11:05:04.000+0000"
         },
         "type": "items"
     },
@@ -13212,8 +13267,8 @@
         "itemType": 154,
         "project": 229,
         "createdDate": "2025-06-27T07:11:36.000+0000",
-        "modifiedDate": "2025-07-28T12:48:33.000+0000",
-        "lastActivityDate": "2025-09-24T07:46:32.000+0000",
+        "modifiedDate": "2025-12-18T11:54:31.000+0000",
+        "lastActivityDate": "2025-12-18T11:54:31.000+0000",
         "createdBy": 6096,
         "modifiedBy": 620,
         "fields": {
@@ -13230,7 +13285,7 @@
             "BUG_foundOnDate$154": "2025-06-26",
             "BUG_plannedRelease$154": 2368,
             "priority": 2412,
-            "BUG_severity$154": 1111,
+            "BUG_severity$154": 1110,
             "BUG_category$154": 1422,
             "BUG_testLevel$154": 1129,
             "BUG_howFound$154": 1092,
@@ -13241,7 +13296,7 @@
             "BUG_jiraId$154": "NSLON-213",
             "BUG_jira_project$154": 2548,
             "BUG_jira_URL$154": "https://kone.atlassian.net/browse/NSLON-213",
-            "BUG_integration_synced_time$154": "2025-07-28 12:48:32.383930",
+            "BUG_integration_synced_time$154": "2025-12-18 11:54:30.673533",
             "BUG_V1_project$154": 1431
         },
         "resources": {
@@ -13254,7 +13309,7 @@
                 ]
             }
         },
-        "version": 8,
+        "version": 10,
         "location": {
             "sortOrder": 5657,
             "globalSortOrder": 1647199260,
@@ -13265,7 +13320,7 @@
         },
         "lock": {
             "locked": false,
-            "lastLockedDate": "2025-07-28T12:47:51.000+0000"
+            "lastLockedDate": "2025-12-18T11:54:05.000+0000"
         },
         "type": "items"
     },
@@ -13591,8 +13646,8 @@
         "itemType": 154,
         "project": 229,
         "createdDate": "2025-07-07T12:25:51.000+0000",
-        "modifiedDate": "2025-07-08T12:15:25.000+0000",
-        "lastActivityDate": "2025-09-24T07:46:32.000+0000",
+        "modifiedDate": "2025-12-18T11:54:36.000+0000",
+        "lastActivityDate": "2025-12-18T11:54:36.000+0000",
         "createdBy": 6096,
         "modifiedBy": 6096,
         "fields": {
@@ -13613,7 +13668,7 @@
             "BUG_closedInBuild$154": "Localization Updated",
             "BUG_closingDate$154": "2025-07-07",
             "priority": 2410,
-            "BUG_severity$154": 1111,
+            "BUG_severity$154": 1110,
             "BUG_category$154": 1422,
             "BUG_testLevel$154": 1129,
             "BUG_howFound$154": 1092,
@@ -13633,7 +13688,7 @@
                 ]
             }
         },
-        "version": 6,
+        "version": 7,
         "location": {
             "sortOrder": 5707,
             "globalSortOrder": 1648175760,
@@ -13644,7 +13699,7 @@
         },
         "lock": {
             "locked": false,
-            "lastLockedDate": "2025-07-24T10:21:10.000+0000"
+            "lastLockedDate": "2025-12-18T11:54:37.000+0000"
         },
         "type": "items"
     },
@@ -17391,10 +17446,10 @@
         "itemType": 154,
         "project": 229,
         "createdDate": "2025-08-20T05:11:33.000+0000",
-        "modifiedDate": "2025-08-27T07:20:28.000+0000",
-        "lastActivityDate": "2025-09-24T07:46:33.000+0000",
+        "modifiedDate": "2025-12-18T11:49:24.000+0000",
+        "lastActivityDate": "2025-12-18T11:49:24.000+0000",
         "createdBy": 6096,
-        "modifiedBy": 3783,
+        "modifiedBy": 6096,
         "fields": {
             "documentKey": "KCE-SWBUG-6425",
             "globalId": "GID-7353473",
@@ -17408,7 +17463,7 @@
             "release": 2368,
             "BUG_foundInBuild$154": "KCE 16.10.20.16(LD: 16.10.1.7, GCD: 16.10.20.10)",
             "priority": 2410,
-            "BUG_severity$154": 1110,
+            "BUG_severity$154": 1109,
             "BUG_category$154": 1422,
             "BUG_testLevel$154": 1129,
             "BUG_howFound$154": 1092,
@@ -17428,7 +17483,7 @@
                 ]
             }
         },
-        "version": 4,
+        "version": 5,
         "location": {
             "sortOrder": 5929,
             "globalSortOrder": 1652511420,
@@ -17439,7 +17494,7 @@
         },
         "lock": {
             "locked": false,
-            "lastLockedDate": "2025-08-27T07:20:29.000+0000"
+            "lastLockedDate": "2025-12-18T11:49:26.000+0000"
         },
         "type": "items"
     },
@@ -18069,8 +18124,8 @@
         "itemType": 154,
         "project": 229,
         "createdDate": "2025-08-25T13:09:04.000+0000",
-        "modifiedDate": "2025-10-16T08:11:30.000+0000",
-        "lastActivityDate": "2025-10-16T08:11:54.000+0000",
+        "modifiedDate": "2025-12-18T11:50:03.000+0000",
+        "lastActivityDate": "2025-12-18T11:50:03.000+0000",
         "createdBy": 6096,
         "modifiedBy": 6096,
         "fields": {
@@ -18086,7 +18141,7 @@
             "BUG_foundInBuild$154": "16.10.1.8",
             "BUG_foundOnDate$154": "2025-08-24",
             "priority": 2411,
-            "BUG_severity$154": 1110,
+            "BUG_severity$154": 1109,
             "BUG_category$154": 1428,
             "BUG_testLevel$154": 1129,
             "BUG_howFound$154": 1092,
@@ -18106,7 +18161,7 @@
                 ]
             }
         },
-        "version": 6,
+        "version": 7,
         "location": {
             "sortOrder": 5961,
             "globalSortOrder": 1653136380,
@@ -18117,7 +18172,7 @@
         },
         "lock": {
             "locked": false,
-            "lastLockedDate": "2025-10-16T08:11:32.000+0000"
+            "lastLockedDate": "2025-12-18T11:50:05.000+0000"
         },
         "type": "items"
     },
@@ -19710,8 +19765,8 @@
         "itemType": 154,
         "project": 229,
         "createdDate": "2025-09-23T10:34:35.000+0000",
-        "modifiedDate": "2025-09-23T10:34:35.000+0000",
-        "lastActivityDate": "2025-09-24T07:46:33.000+0000",
+        "modifiedDate": "2025-12-18T11:50:30.000+0000",
+        "lastActivityDate": "2025-12-18T11:50:30.000+0000",
         "createdBy": 6096,
         "modifiedBy": 6096,
         "fields": {
@@ -19726,7 +19781,7 @@
             "BUG_foundInBuild$154": "E-Link 5.1, Version 4.5.9",
             "BUG_foundOnDate$154": "2025-09-22",
             "priority": 2411,
-            "BUG_severity$154": 1110,
+            "BUG_severity$154": 1109,
             "BUG_category$154": 1422,
             "BUG_testLevel$154": 1129,
             "BUG_howFound$154": 1092,
@@ -19746,7 +19801,7 @@
                 ]
             }
         },
-        "version": 1,
+        "version": 2,
         "location": {
             "sortOrder": 6123,
             "globalSortOrder": 1656300240,
@@ -19756,7 +19811,8 @@
             }
         },
         "lock": {
-            "locked": false
+            "locked": false,
+            "lastLockedDate": "2025-12-18T11:50:31.000+0000"
         },
         "type": "items"
     },
@@ -22064,8 +22120,8 @@
         "itemType": 154,
         "project": 229,
         "createdDate": "2025-11-11T12:40:31.000+0000",
-        "modifiedDate": "2025-12-10T06:09:07.000+0000",
-        "lastActivityDate": "2025-12-10T06:09:07.000+0000",
+        "modifiedDate": "2025-12-18T11:53:32.000+0000",
+        "lastActivityDate": "2025-12-18T11:53:32.000+0000",
         "createdBy": 6096,
         "modifiedBy": 620,
         "fields": {
@@ -22082,7 +22138,7 @@
             "BUG_foundOnDate$154": "2025-11-10",
             "BUG_plannedRelease$154": 2396,
             "priority": 2410,
-            "BUG_severity$154": 1110,
+            "BUG_severity$154": 1109,
             "BUG_category$154": 1428,
             "BUG_testLevel$154": 1129,
             "BUG_howFound$154": 1092,
@@ -22093,7 +22149,7 @@
             "BUG_jiraId$154": "KCE-30929",
             "BUG_jira_project$154": 2465,
             "BUG_jira_URL$154": "https://kone.atlassian.net/browse/KCE-30929",
-            "BUG_integration_synced_time$154": "2025-12-10 06:09:06.905327",
+            "BUG_integration_synced_time$154": "2025-12-18 11:53:31.787493",
             "BUG_V1_project$154": 1431
         },
         "resources": {
@@ -22106,7 +22162,7 @@
                 ]
             }
         },
-        "version": 10,
+        "version": 12,
         "location": {
             "sortOrder": 6380,
             "globalSortOrder": 1661319450,
@@ -22117,7 +22173,7 @@
         },
         "lock": {
             "locked": false,
-            "lastLockedDate": "2025-12-17T04:28:28.000+0000"
+            "lastLockedDate": "2025-12-18T11:53:05.000+0000"
         },
         "type": "items"
     },
@@ -25175,7 +25231,66 @@
         },
         "lock": {
             "locked": false,
-            "lastLockedDate": "2025-12-17T13:09:53.000+0000"
+            "lastLockedDate": "2025-12-18T11:24:47.000+0000"
+        },
+        "type": "items"
+    },
+    {
+        "id": 28701817,
+        "documentKey": "KCE-SWBUG-14143",
+        "globalId": "GID-7597919",
+        "itemType": 154,
+        "project": 229,
+        "createdDate": "2025-12-18T11:25:26.000+0000",
+        "modifiedDate": "2025-12-18T11:25:52.000+0000",
+        "lastActivityDate": "2025-12-18T11:27:12.000+0000",
+        "createdBy": 6096,
+        "modifiedBy": 6096,
+        "fields": {
+            "documentKey": "KCE-SWBUG-14143",
+            "globalId": "GID-7597919",
+            "name": "0.0.0.96 - TSCOP - Menu's PIN Code can't be accessed in AUX COP in Special Modes",
+            "description": "<p><em><strong>Description:</strong></em></p>\n\n<ul>\n\t<li>LD : 17.0.0.20</li>\n\t<li>KNSMUL : 0.0.0.50</li>\n\t<li>Drive : PDX</li>\n\t<li>In TSCOP 15&nbsp;&nbsp;floor setup is used, since higher floors cause issue with indications (issue raised as defect)</li>\n\t<li>WELM : 0.0.0.96</li>\n\t<li>Proto SW : 0.0.0.17</li>\n\t<li>Theme (Newer Mock Theme causing issue with the Application SW, So older Theme used for testing)</li>\n\t<li>1096 - 0</li>\n\t<li>A &amp; B side KNSMUL - Non-Conventional (KCOP)</li>\n</ul>\n\n<p><em><strong>Actual Scenario:</strong></em></p>\n\n<ul>\n\t<li>When in FRD Mode,&nbsp;</li>\n\t<li>AUX FRD COP is set to \"Close\"</li>\n\t<li>With AUX COP Closed, Menu is tried to entered</li>\n\t<li>The PIN CODE Page is not shown</li>\n\t<li>Menu could never be accessed in this scenario</li>\n</ul>\n\n<p><img alt=\"\" height=\"339\" src=\"https://konerqm.jamacloud.com/attachment/235160/image-Y8Et48k5JS.png\" width=\"304\" /></p>\n\n<p><br />\n<em><strong>Expected Scenario:</strong></em></p>\n\n<ul>\n\t<li>Even when in AUX FRD TSCOP is set to CLOSE, the PIN Code UI should override it in-order to access the menu inside</li>\n</ul>\n\n<p>&nbsp;</p>\n\n<p>LOGs:</p>\n\n<ul>\n\t<li>LPA&nbsp;</li>\n\t<li>TSCOP</li>\n\t<li>MP4</li>\n</ul>\n",
+            "status": 1081,
+            "BUG_component$154": 1291,
+            "BUG_subcomponent$154": "TSCOP",
+            "createdBy": 6096,
+            "release": 2396,
+            "BUG_foundInBuild$154": "KCE 17.0.0.121(LD: 17.0.0.21, GCD: 17.0.1.5), WELM Appl: 0.0.0.96, WELM Prot: 0.0.0.17",
+            "BUG_foundOnDate$154": "2025-12-17",
+            "priority": 2410,
+            "BUG_severity$154": 1109,
+            "BUG_category$154": 1428,
+            "BUG_testLevel$154": 1129,
+            "BUG_howFound$154": 1092,
+            "BUG_whereFound$154": 1137,
+            "BUG_probability_on_field$154": 2398,
+            "root_cause_category$154": 2512,
+            "BUG_testCaseUpdated$154": 1198,
+            "BUG_V1_project$154": 1431
+        },
+        "resources": {
+            "self": {
+                "allowed": [
+                    "GET",
+                    "PUT",
+                    "PATCH",
+                    "DELETE"
+                ]
+            }
+        },
+        "version": 2,
+        "location": {
+            "sortOrder": 6635,
+            "globalSortOrder": 1665938723,
+            "sequence": "17.6636",
+            "parent": {
+                "item": 83266
+            }
+        },
+        "lock": {
+            "locked": false,
+            "lastLockedDate": "2025-12-18T11:25:53.000+0000"
         },
         "type": "items"
     }
