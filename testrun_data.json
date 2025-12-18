@@ -12224,6 +12224,13 @@
     {
         "TestRunStatus":"INPROGRESS",
         "ExecutionDate":"2025-12-18",
+        "Document Key":"KCE-TSTRN-4009072",
+        "Name":"CLS C - Car Light Supervision - Doors closed",
+        "Assigned To":"Kowsalya"
+    },
+    {
+        "TestRunStatus":"INPROGRESS",
+        "ExecutionDate":"2025-12-18",
         "Document Key":"KCE-TSTRN-4008707",
         "Name":"Group features - PRL L - Priority At landings Low - Phase 1- Tests not included into TA",
         "Assigned To":"Jagadeesh"
