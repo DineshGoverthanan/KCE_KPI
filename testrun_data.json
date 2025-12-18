@@ -2409,6 +2409,13 @@
     },
     {
         "TestRunStatus":"PASSED",
+        "ExecutionDate":"2025-12-18",
+        "Document Key":"KIE601-TSTRN-73821",
+        "Name":"Continous Mode - KCM - Operation by Inverter - Upper Key Switch",
+        "Assigned To":"VIGNESHWARAR"
+    },
+    {
+        "TestRunStatus":"PASSED",
         "ExecutionDate":"2025-12-17",
         "Document Key":"KIE601-TSTRN-73817",
         "Name":"Voice announcer",
@@ -2429,8 +2436,8 @@
         "Assigned To":"VIGNESHWARAR"
     },
     {
-        "TestRunStatus":"INPROGRESS",
-        "ExecutionDate":"2025-12-17",
+        "TestRunStatus":"PASSED",
+        "ExecutionDate":"2025-12-18",
         "Document Key":"KIE601-TSTRN-73820",
         "Name":"Voice announcer in nodes supervision",
         "Assigned To":"VIGNESHWARAR"
@@ -17921,7 +17928,7 @@
     },
     {
         "TestRunStatus":"INPROGRESS",
-        "ExecutionDate":"2025-12-17",
+        "ExecutionDate":"2025-12-18",
         "Document Key":"KCE-TSTRN-4006821",
         "Name":"CRB C - Call Registered Buzzer - Car call + DOB + DCB + DOE",
         "Assigned To":"Priyavalli"
