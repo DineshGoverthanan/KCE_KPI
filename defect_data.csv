@@ -413,3 +413,5 @@ KCE-SWBUG-14107,0.0.0.96 - TSCOP - PRC Indication shown along with OSI when RDF 
 KCE-SWBUG-14121,16.10: BSW-The HWO indication disappeared in E-Link when the RDF was turned on and off.,Jagadeesh,E-link 4.5.9,2025-12-16
 KCE-SWBUG-14128,"0.0.0.96 - TSCOP - App Crashes when ""Confirmation Button"" is pressed in Keypad Mode",Suryanarayanan,"KCE 17.0.0.121(LD: 17.0.0.21, GCD: 17.0.1.5), WELM Appl: 0.0.0.96, WELM Prot: 0.0.0.17",2025-12-16
 KCE-SWBUG-14143,0.0.0.96 - TSCOP - Menu's PIN Code can't be accessed in AUX COP in Special Modes,Suryanarayanan,"KCE 17.0.0.121(LD: 17.0.0.21, GCD: 17.0.1.5), WELM Appl: 0.0.0.96, WELM Prot: 0.0.0.17",2025-12-17
+KCE-SWBUG-14144,0.0.0.96 - TSCOP - OverLoad Indication shown along with OSI,Suryanarayanan,"KCE 17.0.0.121(LD: 17.0.0.21, GCD: 17.0.1.5), WELM Appl: 0.0.0.96, WELM Prot: 0.0.0.17",2025-12-17
+KCE-SWBUG-14145,BSW- PRL L indication override HWO indication in E-link,Jagadeesh,4.5.9,2025-12-17

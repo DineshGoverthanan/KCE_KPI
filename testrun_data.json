@@ -11809,8 +11809,8 @@
         "Assigned To":"Badaganti Sai Prasad"
     },
     {
-        "TestRunStatus":"INPROGRESS",
-        "ExecutionDate":"2025-12-17",
+        "TestRunStatus":"PASSED",
+        "ExecutionDate":"2025-12-18",
         "Document Key":"KCE-TSTRN-4008704",
         "Name":"Strom input activation when lift serves the Existing calls - Covered by TA",
         "Assigned To":"Jagadeesh"
@@ -12243,8 +12243,8 @@
         "Assigned To":"Kowsalya"
     },
     {
-        "TestRunStatus":"INPROGRESS",
-        "ExecutionDate":"2025-12-17",
+        "TestRunStatus":"PASSED",
+        "ExecutionDate":"2025-12-18",
         "Document Key":"KCE-TSTRN-4008709",
         "Name":"Group features - PRL and HEL parameters",
         "Assigned To":"Kowsalya"

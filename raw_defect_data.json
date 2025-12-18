@@ -4540,10 +4540,10 @@
         "itemType": 154,
         "project": 417,
         "createdDate": "2025-12-08T13:59:14.000+0000",
-        "modifiedDate": "2025-12-14T17:11:27.000+0000",
-        "lastActivityDate": "2025-12-14T17:11:27.000+0000",
+        "modifiedDate": "2025-12-18T13:46:26.000+0000",
+        "lastActivityDate": "2025-12-18T13:46:26.000+0000",
         "createdBy": 5932,
-        "modifiedBy": 2001,
+        "modifiedBy": 6204,
         "fields": {
             "documentKey": "KIE601-SWBUG-2811",
             "globalId": "GID-7575591",
@@ -4566,7 +4566,7 @@
             "root_cause_category$154": 2512,
             "BUG_rootCause$154": "<p>Fault was added to a non-OSI variable, so not able to indicate it as out of service</p>",
             "BUG_testCaseUpdated$154": 1198,
-            "BUG_RD_comments$154": "<p>[Visu]: 14-Dec-2025<br />\nThis defect is fixed in R2.0.3.2</p>\n\n<p>&nbsp;</p>",
+            "BUG_RD_comments$154": "<p>[Visu]: 14-Dec-2025<br />\nThis defect is fixed in R2.0.3.2</p>\n\n<p>&nbsp;</p>\n\n<p>[Krishna]: 18-Dec-2025</p>\n\n<p>This defect gas been tested in R2.0.3.1 Release and it seem okay&nbsp;</p>\n\n<p>The fault status has been updated in AMC and KFPS while creating the fault</p>\n\n<p>&nbsp;</p>",
             "BUG_V1_project$154": 1431
         },
         "resources": {
@@ -4576,7 +4576,7 @@
                 ]
             }
         },
-        "version": 8,
+        "version": 9,
         "location": {
             "sortOrder": 1390,
             "globalSortOrder": 1311305901,
@@ -4586,9 +4586,8 @@
             }
         },
         "lock": {
-            "locked": true,
-            "lastLockedDate": "2025-12-18T09:34:33.000+0000",
-            "lockedBy": 6204
+            "locked": false,
+            "lastLockedDate": "2025-12-18T13:46:27.000+0000"
         },
         "type": "items"
     },
@@ -4707,10 +4706,10 @@
         "itemType": 154,
         "project": 417,
         "createdDate": "2025-12-09T13:24:02.000+0000",
-        "modifiedDate": "2025-12-14T17:17:08.000+0000",
-        "lastActivityDate": "2025-12-14T17:17:08.000+0000",
+        "modifiedDate": "2025-12-18T12:19:21.000+0000",
+        "lastActivityDate": "2025-12-18T12:19:21.000+0000",
         "createdBy": 5932,
-        "modifiedBy": 2001,
+        "modifiedBy": 6204,
         "fields": {
             "documentKey": "KIE601-SWBUG-2815",
             "globalId": "GID-7577179",
@@ -4733,7 +4732,7 @@
             "BUG_probability_on_field$154": 2397,
             "root_cause_category$154": 2512,
             "BUG_testCaseUpdated$154": 1198,
-            "BUG_RD_comments$154": "<p>[Visu]: 14-Dec-2025<br />\nThis defect is fixed in R2.0.3.2</p>\n\n<p>&nbsp;</p>",
+            "BUG_RD_comments$154": "<p>[Visu]: 14-Dec-2025<br />\nThis defect is fixed in R2.0.3.2</p>\n\n<p>&nbsp;</p>\n\n<p>[Krishna]: 18-Dec-2025</p>\n\n<p>This defect has been tested in R2.0.3.2 and seems okay&nbsp;</p>\n\n<p>Note: Randomly parameter has been checked&nbsp;</p>\n\n<p>Example: '</p>\n\n<p>PC1-1101(Photocell selection)</p>\n\n<p>PC1-1103(Mode selection)</p>\n\n<p>PC1-1004(Dynamic braking)</p>\n\n<p>PC4-4200(Factory mode) With inspection open&nbsp;</p>\n\n<p>PC2-2199(Enhanced Safety parameter push) with inspection open&nbsp;</p>\n\n<p>PC2-2400(Safety roll call)</p>\n\n<p>PC2-2401(non-safety roll call)</p>\n\n<p>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;</p>\n\n<p>&nbsp;</p>",
             "BUG_V1_project$154": 1431
         },
         "resources": {
@@ -4743,7 +4742,7 @@
                 ]
             }
         },
-        "version": 5,
+        "version": 6,
         "location": {
             "sortOrder": 1394,
             "globalSortOrder": 1311310193,
@@ -4754,7 +4753,7 @@
         },
         "lock": {
             "locked": false,
-            "lastLockedDate": "2025-12-14T17:17:09.000+0000"
+            "lastLockedDate": "2025-12-18T12:19:23.000+0000"
         },
         "type": "items"
     },
@@ -24937,8 +24936,8 @@
         "itemType": 154,
         "project": 229,
         "createdDate": "2025-12-11T10:25:40.000+0000",
-        "modifiedDate": "2025-12-18T00:00:41.000+0000",
-        "lastActivityDate": "2025-12-18T00:00:41.000+0000",
+        "modifiedDate": "2025-12-18T12:12:36.000+0000",
+        "lastActivityDate": "2025-12-18T12:12:36.000+0000",
         "createdBy": 6096,
         "modifiedBy": 620,
         "fields": {
@@ -24949,7 +24948,7 @@
             "status": 1081,
             "BUG_component$154": 1291,
             "createdBy": 6096,
-            "assignedTo": 1546,
+            "assignedTo": 1150,
             "release": 2396,
             "BUG_foundInBuild$154": "KCE 17.0.0.116(LD: 17.0.0.20, GCD: 17.0.1.1)",
             "BUG_foundOnDate$154": "2025-12-10",
@@ -24966,7 +24965,72 @@
             "BUG_jiraId$154": "KCE-32631",
             "BUG_jira_project$154": 2465,
             "BUG_jira_URL$154": "https://kone.atlassian.net/browse/KCE-32631",
-            "BUG_integration_synced_time$154": "2025-12-18 00:00:38.611865",
+            "BUG_integration_synced_time$154": "2025-12-18 12:12:35.671375",
+            "BUG_V1_project$154": 1431
+        },
+        "resources": {
+            "self": {
+                "allowed": [
+                    "GET",
+                    "PUT",
+                    "PATCH",
+                    "DELETE"
+                ]
+            }
+        },
+        "version": 9,
+        "location": {
+            "sortOrder": 6582,
+            "globalSortOrder": 1665264510,
+            "sequence": "17.6583",
+            "parent": {
+                "item": 83266
+            }
+        },
+        "lock": {
+            "locked": false,
+            "lastLockedDate": "2025-12-18T12:11:51.000+0000"
+        },
+        "type": "items"
+    },
+    {
+        "id": 28651748,
+        "documentKey": "KCE-SWBUG-14094",
+        "globalId": "GID-7588284",
+        "itemType": 154,
+        "project": 229,
+        "createdDate": "2025-12-13T11:30:46.000+0000",
+        "modifiedDate": "2025-12-18T12:41:22.000+0000",
+        "lastActivityDate": "2025-12-18T12:41:22.000+0000",
+        "createdBy": 5995,
+        "modifiedBy": 620,
+        "fields": {
+            "documentKey": "KCE-SWBUG-14094",
+            "globalId": "GID-7588284",
+            "name": "17.0 - KCEDCS - Mondrian display doesn't show the next stop floor numbers for 'B' side car calls",
+            "description": "<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\"><strong>Detailed Defect Description:</strong></span></span></p>\n\n<p>The 17.0 KCEDCS \u2013 Mondrian display is currently not showing the next-stop floor numbers for the \u2018B\u2019 side car calls.</p>\n\n<p>&nbsp;</p>\n\n<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\"><strong>Parameters:&nbsp;&nbsp;</strong></span></span></p>\n\n<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\">(e.g. Parameter X (Description of the parameter) - parameter value)</span></span></p>\n\n<p>&nbsp;</p>\n\n<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\"><strong>Group configuration: </strong></span></span></p>\n\n<p><span style=\"font-family:Calibri,sans-serif\"><span style=\"font-size:14.6667px\">Fouplex</span></span></p>\n\n<p>&nbsp;</p>\n\n<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\"><strong>Drive type:</strong></span></span></p>\n\n<p><span style=\"font-family:Calibri,sans-serif\"><span style=\"font-size:14.6667px\">KDM &amp; KDL</span></span></p>\n\n<p>&nbsp;</p>\n\n<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\"><strong>Regression or new finding:</strong></span></span></p>\n\n<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\">New</span></span></p>\n\n<p>&nbsp;</p>\n\n<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\"><strong>Test case Name / Feature name:</strong></span></span></p>\n\n<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\">ad-hoc defect</span></span></p>\n\n<p>&nbsp;</p>\n\n<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\"><strong>Test step number:</strong></span></span></p>\n\n<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\">&nbsp;\u201cad-hoc scenario\u201d</span></span></p>\n\n<p>&nbsp;</p>\n\n<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\"><strong>Description of the test case (Detailed Scenario)&nbsp;</strong></span></span></p>\n\n<ul>\n\t<li>Lift is in normal mode</li>\n\t<li>Give A and B-side call in the Mondrian COP</li>\n\t<li>Only A side floor numbers are visible and B side floor numbers were not visible</li>\n</ul>\n\n<p>&nbsp; &nbsp; &nbsp; &nbsp;SW version : <strong>1.0.0.5&nbsp; </strong>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;SW version <strong>2.0.0.1</strong></p>\n\n<p><img alt=\"\" height=\"448\" src=\"https://konerqm.jamacloud.com/attachment/234541/image-SDAviTrtWI.png\" width=\"427\" /></p>\n\n<p>&nbsp;</p>\n\n<p><img alt=\"\" height=\"320\" src=\"https://konerqm.jamacloud.com/attachment/234542/image-lIKH7VEXIT.png\" width=\"428\" /></p>\n\n<p>&nbsp;</p>\n\n<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\"><strong>Expected behavior:&nbsp;&nbsp;</strong></span></span></p>\n\n<p><span style=\"font-family:Calibri,sans-serif\"><span style=\"font-size:14.6667px\">The floor number should visible in both sides</span></span></p>\n\n<p>&nbsp;</p>\n\n<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\"><strong>Actual behavior:</strong></span></span></p>\n\n<p><span style=\"font-family:Calibri,sans-serif\"><span style=\"font-size:14.6667px\">A side floor numbers visible and B side not visible</span></span></p>\n\n<p>&nbsp;</p>\n\n<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\"><strong>Recovery:&nbsp;</strong></span></span></p>\n\n<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\">No</span></span></p>\n\n<p>&nbsp;</p>\n\n<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\"><strong>Log attached Information:</strong></span></span></p>\n\n<p><span style=\"font-family:Calibri,sans-serif\"><span style=\"font-size:14.6667px\">Event,LPA and Mondrian Diagnostic Log</span></span></p>\n\n<p>&nbsp;</p>\n\n<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\">Note: Once defect is logged, attachments can be done by editing the defect (use compressed zip folder format)</span></span></p>\n\n<p>&nbsp;</p>\n\n<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\"><strong>Value-added information:&nbsp;</strong></span></span></p>\n\n<p><span style=\"font-family:Calibri,sans-serif\"><span style=\"font-size:14.6667px\">Working fine in Mondrian version 1.0.0.5</span></span></p>\n\n<p>&nbsp;</p>\n\n<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\"><strong>Test Sequence history:&nbsp;</strong></span></span></p>\n\n<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\">1: was failing scenario passing earlier</span></span></p>\n\n<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\">2. what was SW level when this was passing last time</span></span></p>\n\n<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\">3. any changes in test setup or test scenario between passed and failed run</span></span></p>\n\n<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\">4. any changes in tested system configuration between passed and failed run</span></span></p>\n\n<p>&nbsp;</p>\n\n<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\"><strong>Requirement related to the defect:</strong></span></span></p>\n\n<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\">(e.g. URL link to requirement which is related to the defect)</span></span></p>\n",
+            "status": 1081,
+            "BUG_component$154": 1531,
+            "BUG_subcomponent$154": "mCOP",
+            "createdBy": 5995,
+            "assignedTo": 3839,
+            "release": 2396,
+            "BUG_foundInBuild$154": "17.0.0.116(LD: 17.0.0.20, GCD: 17.0.1.1)",
+            "BUG_foundOnDate$154": "2025-12-12",
+            "BUG_plannedRelease$154": 2396,
+            "priority": 2410,
+            "BUG_severity$154": 1109,
+            "BUG_category$154": 1422,
+            "BUG_testLevel$154": 1129,
+            "BUG_howFound$154": 1092,
+            "BUG_whereFound$154": 1137,
+            "BUG_probability_on_field$154": 2398,
+            "root_cause_category$154": 2512,
+            "BUG_testCaseUpdated$154": 1198,
+            "BUG_jiraId$154": "ISA-4224",
+            "BUG_jira_project$154": 2456,
+            "BUG_jira_URL$154": "https://kone.atlassian.net/browse/ISA-4224",
+            "BUG_integration_synced_time$154": "2025-12-18 12:41:20.979056",
             "BUG_V1_project$154": 1431
         },
         "resources": {
@@ -24981,65 +25045,6 @@
         },
         "version": 7,
         "location": {
-            "sortOrder": 6582,
-            "globalSortOrder": 1665264510,
-            "sequence": "17.6583",
-            "parent": {
-                "item": 83266
-            }
-        },
-        "lock": {
-            "locked": false,
-            "lastLockedDate": "2025-12-17T14:04:25.000+0000"
-        },
-        "type": "items"
-    },
-    {
-        "id": 28651748,
-        "documentKey": "KCE-SWBUG-14094",
-        "globalId": "GID-7588284",
-        "itemType": 154,
-        "project": 229,
-        "createdDate": "2025-12-13T11:30:46.000+0000",
-        "modifiedDate": "2025-12-15T06:09:17.000+0000",
-        "lastActivityDate": "2025-12-15T06:10:30.000+0000",
-        "createdBy": 5995,
-        "modifiedBy": 5995,
-        "fields": {
-            "documentKey": "KCE-SWBUG-14094",
-            "globalId": "GID-7588284",
-            "name": "17.0 - KCEDCS - Mondrian display doesn't show the next stop floor numbers for 'B' side car calls",
-            "description": "<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\"><strong>Detailed Defect Description:</strong></span></span></p>\n\n<p>The 17.0 KCEDCS \u2013 Mondrian display is currently not showing the next-stop floor numbers for the \u2018B\u2019 side car calls.</p>\n\n<p>&nbsp;</p>\n\n<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\"><strong>Parameters:&nbsp;&nbsp;</strong></span></span></p>\n\n<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\">(e.g. Parameter X (Description of the parameter) - parameter value)</span></span></p>\n\n<p>&nbsp;</p>\n\n<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\"><strong>Group configuration: </strong></span></span></p>\n\n<p><span style=\"font-family:Calibri,sans-serif\"><span style=\"font-size:14.6667px\">Fouplex</span></span></p>\n\n<p>&nbsp;</p>\n\n<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\"><strong>Drive type:</strong></span></span></p>\n\n<p><span style=\"font-family:Calibri,sans-serif\"><span style=\"font-size:14.6667px\">KDM &amp; KDL</span></span></p>\n\n<p>&nbsp;</p>\n\n<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\"><strong>Regression or new finding:</strong></span></span></p>\n\n<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\">New</span></span></p>\n\n<p>&nbsp;</p>\n\n<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\"><strong>Test case Name / Feature name:</strong></span></span></p>\n\n<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\">ad-hoc defect</span></span></p>\n\n<p>&nbsp;</p>\n\n<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\"><strong>Test step number:</strong></span></span></p>\n\n<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\">&nbsp;\u201cad-hoc scenario\u201d</span></span></p>\n\n<p>&nbsp;</p>\n\n<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\"><strong>Description of the test case (Detailed Scenario)&nbsp;</strong></span></span></p>\n\n<ul>\n\t<li>Lift is in normal mode</li>\n\t<li>Give A and B-side call in the Mondrian COP</li>\n\t<li>Only A side floor numbers are visible and B side floor numbers were not visible</li>\n</ul>\n\n<p>&nbsp; &nbsp; &nbsp; &nbsp;SW version : <strong>1.0.0.5&nbsp; </strong>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;SW version <strong>2.0.0.1</strong></p>\n\n<p><img alt=\"\" height=\"448\" src=\"https://konerqm.jamacloud.com/attachment/234541/image-SDAviTrtWI.png\" width=\"427\" /></p>\n\n<p>&nbsp;</p>\n\n<p><img alt=\"\" height=\"320\" src=\"https://konerqm.jamacloud.com/attachment/234542/image-lIKH7VEXIT.png\" width=\"428\" /></p>\n\n<p>&nbsp;</p>\n\n<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\"><strong>Expected behavior:&nbsp;&nbsp;</strong></span></span></p>\n\n<p><span style=\"font-family:Calibri,sans-serif\"><span style=\"font-size:14.6667px\">The floor number should visible in both sides</span></span></p>\n\n<p>&nbsp;</p>\n\n<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\"><strong>Actual behavior:</strong></span></span></p>\n\n<p><span style=\"font-family:Calibri,sans-serif\"><span style=\"font-size:14.6667px\">A side floor numbers visible and B side not visible</span></span></p>\n\n<p>&nbsp;</p>\n\n<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\"><strong>Recovery:&nbsp;</strong></span></span></p>\n\n<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\">No</span></span></p>\n\n<p>&nbsp;</p>\n\n<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\"><strong>Log attached Information:</strong></span></span></p>\n\n<p><span style=\"font-family:Calibri,sans-serif\"><span style=\"font-size:14.6667px\">Event,LPA and Mondrian Diagnostic Log</span></span></p>\n\n<p>&nbsp;</p>\n\n<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\">Note: Once defect is logged, attachments can be done by editing the defect (use compressed zip folder format)</span></span></p>\n\n<p>&nbsp;</p>\n\n<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\"><strong>Value-added information:&nbsp;</strong></span></span></p>\n\n<p><span style=\"font-family:Calibri,sans-serif\"><span style=\"font-size:14.6667px\">Working fine in Mondrian version 1.0.0.5</span></span></p>\n\n<p>&nbsp;</p>\n\n<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\"><strong>Test Sequence history:&nbsp;</strong></span></span></p>\n\n<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\">1: was failing scenario passing earlier</span></span></p>\n\n<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\">2. what was SW level when this was passing last time</span></span></p>\n\n<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\">3. any changes in test setup or test scenario between passed and failed run</span></span></p>\n\n<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\">4. any changes in tested system configuration between passed and failed run</span></span></p>\n\n<p>&nbsp;</p>\n\n<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\"><strong>Requirement related to the defect:</strong></span></span></p>\n\n<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\">(e.g. URL link to requirement which is related to the defect)</span></span></p>\n",
-            "status": 1081,
-            "BUG_component$154": 1531,
-            "BUG_subcomponent$154": "KCECPUc",
-            "createdBy": 5995,
-            "release": 2396,
-            "BUG_foundInBuild$154": "17.0.0.116(LD: 17.0.0.20, GCD: 17.0.1.1)",
-            "BUG_foundOnDate$154": "2025-12-12",
-            "priority": 2410,
-            "BUG_severity$154": 1109,
-            "BUG_category$154": 1422,
-            "BUG_testLevel$154": 1129,
-            "BUG_howFound$154": 1092,
-            "BUG_whereFound$154": 1137,
-            "BUG_probability_on_field$154": 2398,
-            "root_cause_category$154": 2512,
-            "BUG_testCaseUpdated$154": 1198,
-            "BUG_V1_project$154": 1431
-        },
-        "resources": {
-            "self": {
-                "allowed": [
-                    "GET",
-                    "PUT",
-                    "PATCH",
-                    "DELETE"
-                ]
-            }
-        },
-        "version": 2,
-        "location": {
             "sortOrder": 6589,
             "globalSortOrder": 1665401220,
             "sequence": "17.6590",
@@ -25049,7 +25054,7 @@
         },
         "lock": {
             "locked": false,
-            "lastLockedDate": "2025-12-15T06:09:18.000+0000"
+            "lastLockedDate": "2025-12-18T12:37:25.000+0000"
         },
         "type": "items"
     },
@@ -25060,10 +25065,10 @@
         "itemType": 154,
         "project": 229,
         "createdDate": "2025-12-15T05:32:52.000+0000",
-        "modifiedDate": "2025-12-15T05:32:52.000+0000",
-        "lastActivityDate": "2025-12-15T05:54:24.000+0000",
+        "modifiedDate": "2025-12-18T12:35:40.000+0000",
+        "lastActivityDate": "2025-12-18T12:35:40.000+0000",
         "createdBy": 5995,
-        "modifiedBy": 5995,
+        "modifiedBy": 1120,
         "fields": {
             "documentKey": "KCE-SWBUG-14095",
             "globalId": "GID-7589827",
@@ -25071,11 +25076,12 @@
             "description": "<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\"><strong>Detailed Defect Description:</strong></span></span></p>\n\n<p>In OEO EN81-76, the FOB28 outputs (XF10 &amp; XF12) remain continuously active in the evacuation kit box when GERF1 and GERF2 are activated together</p>\n\n<p>&nbsp;</p>\n\n<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\"><strong>Parameters:&nbsp;&nbsp;</strong></span></span></p>\n\n<p>&nbsp;</p>\n\n<table cellspacing=\"0\">\n\t<tbody>\n\t\t<tr>\n\t\t\t<td>1582-Standart type</td>\n\t\t\t<td>3</td>\n\t\t\t<td>3</td>\n\t\t\t<td>3</td>\n\t\t\t<td>0</td>\n\t\t</tr>\n\t\t<tr>\n\t\t\t<td>1594-Evacuation FOB28 signals connected</td>\n\t\t\t<td>1</td>\n\t\t\t<td>1</td>\n\t\t\t<td>1</td>\n\t\t\t<td>0</td>\n\t\t</tr>\n\t\t<tr>\n\t\t\t<td>1584-List of PIO cards</td>\n\t\t\t<td>51</td>\n\t\t\t<td>51</td>\n\t\t\t<td>0,0,0,0</td>\n\t\t\t<td>0,0,0,0</td>\n\t\t</tr>\n\t\t<tr>\n\t\t\t<td>Group : Evacuation strategy</td>\n\t\t\t<td colspan=\"4\">OEO D</td>\n\t\t</tr>\n\t</tbody>\n</table>\n\n<p>1582 - 3</p>\n\n<p>1594 - 2 or 1</p>\n\n<p>&nbsp;</p>\n\n<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\"><strong>Group configuration: </strong></span></span></p>\n\n<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\">Fourplex</span></span></p>\n\n<p>&nbsp;</p>\n\n<p><strong><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\">FOBG28 Configuration:</span></span></strong></p>\n\n<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\">FOBG28 connected in 2nd Floor (GERF1) FOB XF9 and another&nbsp;FOBG28 connected&nbsp;in 7th floor (GERF2) FOB XF9</span></span></p>\n\n<p>&nbsp;</p>\n\n<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\"><strong>Drive type:</strong></span></span></p>\n\n<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\">KDM &amp; KDL16</span></span></p>\n\n<p>&nbsp;</p>\n\n<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\"><strong>Regression or new finding:</strong></span></span></p>\n\n<p><span style=\"font-family:Calibri, sans-serif\"><span style=\"font-size:14.6667px\">New</span></span></p>\n\n<p>&nbsp;</p>\n\n<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\"><strong>Test case Name / Feature name:</strong></span></span></p>\n\n<p>Multiple (GERF1 &amp; GERF2) signals at the same time of activation</p>\n\n<p>&nbsp;</p>\n\n<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\"><strong>Test step number:</strong></span></span></p>\n\n<p>&nbsp;</p>\n\n<p><strong>When:</strong></p>\n\n<p>Multiple floor evacuation recall signals are activated with a 3-second delay.&nbsp;&nbsp;</p>\n\n<p>&nbsp;</p>\n\n<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\"><strong>Description of the test case (Detailed Scenario)&nbsp;</strong></span></span></p>\n\n<ul>\n\t<li>The 3 lifts in normal mode and one lift in FRD</li>\n\t<li>The GERF1 &amp; GERF2 inputs activated (via OPT) one by one with 3 sec gaps</li>\n\t<li>The XF10 output activated</li>\n\t<li>Deactivating GERF1 &amp; GERF2 inputs one by one</li>\n\t<li>The lifts changed to normal mode</li>\n\t<li>But the XF10 output still in activated state.</li>\n</ul>\n\n<p>&nbsp;</p>\n\n<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\"><strong>Expected behavior:&nbsp;&nbsp;</strong></span></span></p>\n\n<p><span style=\"font-family:Calibri, sans-serif\"><span style=\"font-size:14.6667px\">The XF10 output should deactivate when the input is in OFF state</span></span></p>\n\n<p>&nbsp;</p>\n\n<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\"><strong>Actual behavior:</strong></span></span></p>\n\n<p><span style=\"font-family:Calibri, sans-serif\"><span style=\"font-size:14.6667px\">The XF10 outputs in the activated state even though the input is OFF</span></span></p>\n\n<p>&nbsp;</p>\n\n<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\"><strong>Recovery:&nbsp;</strong></span></span></p>\n\n<p><span style=\"font-family:Calibri, sans-serif\"><span style=\"font-size:14.6667px\">RollCall or KCECPUc Restart</span></span></p>\n\n<p>&nbsp;</p>\n\n<p>&nbsp;</p>\n\n<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\"><strong>Log attached Information:</strong></span></span></p>\n\n<p><span style=\"font-family:Calibri, sans-serif\"><span style=\"font-size:14.6667px\">LPA,Event Traffic and Node debug</span></span></p>\n\n<p>&nbsp;</p>\n\n<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\">Note: Once defect is logged, attachments can be done by editing the defect (use compressed zip folder format)</span></span></p>\n\n<p>&nbsp;</p>\n\n<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\"><strong>Value-added information:&nbsp;</strong></span></span></p>\n\n<p>It is reproduced in both OPT and FOBG28 input activation</p>\n\n<p>&nbsp;</p>\n\n<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\"><strong>Test Sequence history:&nbsp;</strong></span></span></p>\n\n<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\">1: was failing scenario passing earlier</span></span></p>\n\n<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\">2. what was SW level when this was passing last time</span></span></p>\n\n<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\">3. any changes in test setup or test scenario between passed and failed run</span></span></p>\n\n<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\">4. any changes in tested system configuration between passed and failed run</span></span></p>\n\n<p>&nbsp;</p>\n\n<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\"><strong>Requirement related to the defect:</strong></span></span></p>\n\n<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\">(e.g. URL link to requirement which is related to the defect)</span></span></p>\n",
             "status": 1081,
             "BUG_component$154": 1291,
-            "BUG_subcomponent$154": "KCEFCBx",
             "createdBy": 5995,
+            "assignedTo": 1144,
             "release": 2396,
             "BUG_foundInBuild$154": "17.0.0.116(LD: 17.0.0.20, GCD: 17.0.1.1)",
             "BUG_foundOnDate$154": "2025-12-14",
+            "BUG_plannedRelease$154": 2396,
             "priority": 2410,
             "BUG_severity$154": 1109,
             "BUG_category$154": 1422,
@@ -25097,7 +25103,7 @@
                 ]
             }
         },
-        "version": 1,
+        "version": 3,
         "location": {
             "sortOrder": 6590,
             "globalSortOrder": 1665420750,
@@ -25107,7 +25113,8 @@
             }
         },
         "lock": {
-            "locked": false
+            "locked": false,
+            "lastLockedDate": "2025-12-18T12:35:41.000+0000"
         },
         "type": "items"
     },
@@ -25476,16 +25483,16 @@
         "itemType": 154,
         "project": 229,
         "createdDate": "2025-12-15T13:27:49.000+0000",
-        "modifiedDate": "2025-12-17T08:48:16.000+0000",
-        "lastActivityDate": "2025-12-17T09:31:46.000+0000",
+        "modifiedDate": "2025-12-18T12:41:36.000+0000",
+        "lastActivityDate": "2025-12-18T12:41:36.000+0000",
         "createdBy": 6096,
-        "modifiedBy": 1129,
+        "modifiedBy": 6056,
         "fields": {
             "documentKey": "KCE-SWBUG-14107",
             "globalId": "GID-7590189",
             "name": "0.0.0.96 - TSCOP - PRC Indication shown along with OSI when RDF Enabled",
             "description": "<p><em><strong>Parameter:</strong></em></p>\n\n<p>1114 - 1</p>\n\n<p>1470 - 1</p>\n\n<p>1096 - 0</p>\n\n<p>989 - 1</p>\n\n<p><br />\n<em><strong>Description:</strong></em></p>\n\n<ul>\n\t<li>LD : 17.0.0.20</li>\n\t<li>KNSMUL : 0.0.0.50</li>\n\t<li>Drive : PDX</li>\n\t<li>TSCOP 15 Floor Setup is used</li>\n\t<li>WELM : 0.0.0.96</li>\n\t<li>Proto SW : 0.0.0.17</li>\n\t<li>1096 - 0 (Selective)</li>\n\t<li>A &amp; B side KNSMUL - Non-Conventional (KCOP)</li>\n</ul>\n\n<p>&nbsp;</p>\n\n<p><em><strong>Scenario:</strong></em></p>\n\n<ul>\n\t<li>PRC K - ON(PRC Indication shown in TSCOP),</li>\n\t<li>RDF ON (Now PRC Indication gone) OSI Shown</li>\n\t<li>PRC KEY form CAR still ON</li>\n\t<li>RDF turned OFF</li>\n\t<li>Again RDF - ON (quickly), Now Both PRC &amp; OSI Both shown in TSCOP Display</li>\n</ul>\n\n<p>&nbsp;</p>\n\n<p><em><strong>Expected Scenario:</strong></em></p>\n\n<ul>\n\t<li>When OSS Triggered, PRC mode indication shouldn't be shown</li>\n\t<li>Just OSI Should be shown<br />\n\t&nbsp;</li>\n</ul>\n\n<p><em><strong>Note:</strong></em></p>\n\n<ul>\n\t<li>Checked this with Attendant service, Issue not occurred</li>\n\t<li>Only OSI shown in TSCOP</li>\n</ul>\n\n<p><br />\n** \"<em>They have a variable \"mPreIndication\" that is missing with PRC to understand that PRC was active and should be removed\" </em>~ Hallart Christophe<br />\n<br />\n<em><strong>LOGs:</strong></em></p>\n\n<ul>\n\t<li>LPA</li>\n\t<li>Event</li>\n\t<li>Elev backup</li>\n</ul>\n",
-            "status": 1081,
+            "status": 1082,
             "BUG_component$154": 1531,
             "BUG_subcomponent$154": "WELM 0.0.0.96",
             "createdBy": 6096,
@@ -25515,7 +25522,7 @@
                 ]
             }
         },
-        "version": 3,
+        "version": 4,
         "location": {
             "sortOrder": 6602,
             "globalSortOrder": 1665655110,
@@ -25526,7 +25533,7 @@
         },
         "lock": {
             "locked": false,
-            "lastLockedDate": "2025-12-17T12:00:28.000+0000"
+            "lastLockedDate": "2025-12-18T12:41:37.000+0000"
         },
         "type": "items"
     },
@@ -25537,10 +25544,10 @@
         "itemType": 154,
         "project": 229,
         "createdDate": "2025-12-17T09:07:57.000+0000",
-        "modifiedDate": "2025-12-17T09:07:57.000+0000",
-        "lastActivityDate": "2025-12-17T09:07:57.000+0000",
+        "modifiedDate": "2025-12-18T13:07:08.000+0000",
+        "lastActivityDate": "2025-12-18T13:07:08.000+0000",
         "createdBy": 6215,
-        "modifiedBy": 6215,
+        "modifiedBy": 1953,
         "fields": {
             "documentKey": "KCE-SWBUG-14121",
             "globalId": "GID-7592284",
@@ -25550,6 +25557,7 @@
             "BUG_component$154": 1291,
             "BUG_subcomponent$154": "E-Link 4.5.9",
             "createdBy": 6215,
+            "assignedTo": 6014,
             "release": 2144,
             "BUG_foundInBuild$154": "E-link 4.5.9",
             "BUG_foundOnDate$154": "2025-12-16",
@@ -25574,7 +25582,7 @@
                 ]
             }
         },
-        "version": 1,
+        "version": 2,
         "location": {
             "sortOrder": 6614,
             "globalSortOrder": 1665889470,
@@ -25584,7 +25592,8 @@
             }
         },
         "lock": {
-            "locked": false
+            "locked": false,
+            "lastLockedDate": "2025-12-18T13:07:10.000+0000"
         },
         "type": "items"
     },
@@ -25595,22 +25604,24 @@
         "itemType": 154,
         "project": 229,
         "createdDate": "2025-12-17T12:46:25.000+0000",
-        "modifiedDate": "2025-12-17T13:09:52.000+0000",
-        "lastActivityDate": "2025-12-17T13:10:45.000+0000",
+        "modifiedDate": "2025-12-18T12:40:54.000+0000",
+        "lastActivityDate": "2025-12-18T12:40:54.000+0000",
         "createdBy": 6096,
-        "modifiedBy": 6096,
+        "modifiedBy": 6056,
         "fields": {
             "documentKey": "KCE-SWBUG-14128",
             "globalId": "GID-7594447",
             "name": "0.0.0.96 - TSCOP - App Crashes when \"Confirmation Button\" is pressed in Keypad Mode",
             "description": "<p><em><strong>Parameter:</strong></em></p>\n\n<p>UI - Keypad</p>\n\n<p>Marine - NO<br />\n<br />\n<em><strong>Description:</strong></em></p>\n\n<ul>\n\t<li>LD : 17.0.0.20</li>\n\t<li>KNSMUL : 0.0.0.50</li>\n\t<li>Drive : PDX</li>\n\t<li>In TSCOP 15&nbsp;&nbsp;floor setup is used</li>\n\t<li>WELM : 0.0.0.96</li>\n\t<li>Proto SW : 0.0.0.17</li>\n\t<li>1096 - 0</li>\n\t<li>A &amp; B side KNSMUL - Non-Conventional (KCOP)</li>\n</ul>\n\n<p>&nbsp;</p>\n\n<p><em><strong>Actual Scenario:</strong></em></p>\n\n<p>Elevator in Normal Mode</p>\n\n<p>Green Star Button pressed</p>\n\n<p><img alt=\"\" height=\"324\" src=\"https://konerqm.jamacloud.com/attachment/235052/image-d8C5ibfD7J.png\" width=\"233\" /></p>\n\n<p>After Pressing, Total App crashes<br />\n<br />\n\u200b\u200b\u200b\u200b<em><strong>Note:</strong></em><br />\nThis odd scenario happens only when the Special Parameter -&gt; \"Marine\" is selected as \"NO\"<br />\n<br />\n<em><strong>Logs:</strong></em><br />\nLPA<br />\nEvent<br />\nTSCOP<br />\nMP4</p>\n",
-            "status": 1081,
-            "BUG_component$154": 1291,
+            "status": 1085,
+            "BUG_component$154": 1531,
             "BUG_subcomponent$154": "WELM 0.0.0.96",
             "createdBy": 6096,
+            "assignedTo": 2439,
             "release": 2396,
             "BUG_foundInBuild$154": "KCE 17.0.0.121(LD: 17.0.0.21, GCD: 17.0.1.5), WELM Appl: 0.0.0.96, WELM Prot: 0.0.0.17",
             "BUG_foundOnDate$154": "2025-12-16",
+            "BUG_fixedInBuild$154": "WELM 0.0.0.97",
             "priority": 2410,
             "BUG_severity$154": 1109,
             "BUG_category$154": 1428,
@@ -25632,7 +25643,7 @@
                 ]
             }
         },
-        "version": 2,
+        "version": 3,
         "location": {
             "sortOrder": 6621,
             "globalSortOrder": 1665915438,
@@ -25643,7 +25654,7 @@
         },
         "lock": {
             "locked": false,
-            "lastLockedDate": "2025-12-18T11:24:47.000+0000"
+            "lastLockedDate": "2025-12-18T12:40:56.000+0000"
         },
         "type": "items"
     },
@@ -25654,19 +25665,20 @@
         "itemType": 154,
         "project": 229,
         "createdDate": "2025-12-18T11:25:26.000+0000",
-        "modifiedDate": "2025-12-18T11:25:52.000+0000",
-        "lastActivityDate": "2025-12-18T11:27:12.000+0000",
+        "modifiedDate": "2025-12-18T12:47:56.000+0000",
+        "lastActivityDate": "2025-12-18T12:47:56.000+0000",
         "createdBy": 6096,
-        "modifiedBy": 6096,
+        "modifiedBy": 6056,
         "fields": {
             "documentKey": "KCE-SWBUG-14143",
             "globalId": "GID-7597919",
             "name": "0.0.0.96 - TSCOP - Menu's PIN Code can't be accessed in AUX COP in Special Modes",
             "description": "<p><em><strong>Description:</strong></em></p>\n\n<ul>\n\t<li>LD : 17.0.0.20</li>\n\t<li>KNSMUL : 0.0.0.50</li>\n\t<li>Drive : PDX</li>\n\t<li>In TSCOP 15&nbsp;&nbsp;floor setup is used, since higher floors cause issue with indications (issue raised as defect)</li>\n\t<li>WELM : 0.0.0.96</li>\n\t<li>Proto SW : 0.0.0.17</li>\n\t<li>Theme (Newer Mock Theme causing issue with the Application SW, So older Theme used for testing)</li>\n\t<li>1096 - 0</li>\n\t<li>A &amp; B side KNSMUL - Non-Conventional (KCOP)</li>\n</ul>\n\n<p><em><strong>Actual Scenario:</strong></em></p>\n\n<ul>\n\t<li>When in FRD Mode,&nbsp;</li>\n\t<li>AUX FRD COP is set to \"Close\"</li>\n\t<li>With AUX COP Closed, Menu is tried to entered</li>\n\t<li>The PIN CODE Page is not shown</li>\n\t<li>Menu could never be accessed in this scenario</li>\n</ul>\n\n<p><img alt=\"\" height=\"339\" src=\"https://konerqm.jamacloud.com/attachment/235160/image-Y8Et48k5JS.png\" width=\"304\" /></p>\n\n<p><br />\n<em><strong>Expected Scenario:</strong></em></p>\n\n<ul>\n\t<li>Even when in AUX FRD TSCOP is set to CLOSE, the PIN Code UI should override it in-order to access the menu inside</li>\n</ul>\n\n<p>&nbsp;</p>\n\n<p>LOGs:</p>\n\n<ul>\n\t<li>LPA&nbsp;</li>\n\t<li>TSCOP</li>\n\t<li>MP4</li>\n</ul>\n",
             "status": 1081,
-            "BUG_component$154": 1291,
-            "BUG_subcomponent$154": "TSCOP",
+            "BUG_component$154": 1531,
+            "BUG_subcomponent$154": "TSCOP - WELM",
             "createdBy": 6096,
+            "assignedTo": 2439,
             "release": 2396,
             "BUG_foundInBuild$154": "KCE 17.0.0.121(LD: 17.0.0.21, GCD: 17.0.1.5), WELM Appl: 0.0.0.96, WELM Prot: 0.0.0.17",
             "BUG_foundOnDate$154": "2025-12-17",
@@ -25691,10 +25703,10 @@
                 ]
             }
         },
-        "version": 2,
+        "version": 3,
         "location": {
             "sortOrder": 6635,
-            "globalSortOrder": 1665938723,
+            "globalSortOrder": 1665930460,
             "sequence": "17.6636",
             "parent": {
                 "item": 83266
@@ -25702,7 +25714,127 @@
         },
         "lock": {
             "locked": false,
-            "lastLockedDate": "2025-12-18T11:25:53.000+0000"
+            "lastLockedDate": "2025-12-18T12:47:58.000+0000"
+        },
+        "type": "items"
+    },
+    {
+        "id": 28702049,
+        "documentKey": "KCE-SWBUG-14144",
+        "globalId": "GID-7597971",
+        "itemType": 154,
+        "project": 229,
+        "createdDate": "2025-12-18T12:40:12.000+0000",
+        "modifiedDate": "2025-12-18T12:48:36.000+0000",
+        "lastActivityDate": "2025-12-18T12:54:18.000+0000",
+        "createdBy": 6096,
+        "modifiedBy": 6056,
+        "fields": {
+            "documentKey": "KCE-SWBUG-14144",
+            "globalId": "GID-7597971",
+            "name": "0.0.0.96 - TSCOP - OverLoad Indication shown along with OSI",
+            "description": "<p><em><strong>Description:</strong></em></p>\n\n<p>&nbsp;</p>\n\n<p>&nbsp;</p>\n\n<ul>\n\t<li>LD : 17.0.0.20</li>\n\t<li>KNSMUL : 0.0.0.50</li>\n\t<li>Drive : PDX</li>\n\t<li>In TSCOP 15&nbsp;&nbsp;floor setup is used, since higher floors cause issue with indications (issue raised as defect)</li>\n\t<li>WELM : 0.0.0.96</li>\n\t<li>Proto SW : 0.0.0.17</li>\n\t<li>Theme (Newer Mock Theme causing issue with the Application SW, So older Theme used for testing)</li>\n\t<li>1096 - 0</li>\n\t<li>A &amp; B side KNSMUL - Non-Conventional (KCOP)</li>\n</ul>\n\n<p>&nbsp;</p>\n\n<p>&nbsp;</p>\n\n<p><em><strong>Actual Scenario:</strong></em></p>\n\n<ul>\n\t<li>Elevator in Normal Mode</li>\n\t<li>Doors are opened</li>\n\t<li>OLF Made from LWD</li>\n\t<li>OSS C also triggered&nbsp;</li>\n\t<li>BLF Deactivated (OSS C still in ON)</li>\n\t<li>After OLF is turned OFF, OLF Indication is shown along with OSI</li>\n</ul>\n\n<p><img alt=\"\" height=\"561\" src=\"https://konerqm.jamacloud.com/attachment/235183/image-j3o8SJAt3Y.png\" width=\"228\" /></p>\n\n<p>&nbsp;</p>\n\n<p>&nbsp;</p>\n\n<p><em><strong>Additional Info:</strong></em></p>\n\n<ul>\n\t<li>When the Dynamic Info Area is pressed once, The BLF Indication clears</li>\n</ul>\n\n<p>&nbsp;</p>\n\n<p><em><strong>Expected Scenario:</strong></em></p>\n\n<ul>\n\t<li>OLF indication should be turned OFF Once it is turned back to Normal Mode</li>\n\t<li>When OSS C is turned ON, Only OSI should be shown</li>\n</ul>\n\n<p><img alt=\"\" height=\"480\" src=\"https://konerqm.jamacloud.com/attachment/235184/image-bITXeav10D.png\" width=\"320\" /></p>\n\n<p>&nbsp;</p>\n\n<p>LOGs:<br />\nLPA<br />\nEvent</p>\n\n<p>TSCOP</p>\n\n<p>&nbsp;</p>\n\n<p>&nbsp;</p>\n",
+            "status": 1081,
+            "BUG_component$154": 1531,
+            "BUG_subcomponent$154": "TSCOP - WELM",
+            "createdBy": 6096,
+            "assignedTo": 2439,
+            "release": 2396,
+            "BUG_foundInBuild$154": "KCE 17.0.0.121(LD: 17.0.0.21, GCD: 17.0.1.5), WELM Appl: 0.0.0.96, WELM Prot: 0.0.0.17",
+            "BUG_foundOnDate$154": "2025-12-17",
+            "priority": 2410,
+            "BUG_severity$154": 1110,
+            "BUG_category$154": 1425,
+            "BUG_testLevel$154": 1129,
+            "BUG_howFound$154": 1092,
+            "BUG_whereFound$154": 1137,
+            "BUG_probability_on_field$154": 2397,
+            "root_cause_category$154": 2512,
+            "BUG_testCaseUpdated$154": 1198,
+            "BUG_V1_project$154": 1431
+        },
+        "resources": {
+            "self": {
+                "allowed": [
+                    "GET",
+                    "PUT",
+                    "PATCH",
+                    "DELETE"
+                ]
+            }
+        },
+        "version": 2,
+        "location": {
+            "sortOrder": 6636,
+            "globalSortOrder": 1665931533,
+            "sequence": "17.6637",
+            "parent": {
+                "item": 83266
+            }
+        },
+        "lock": {
+            "locked": false,
+            "lastLockedDate": "2025-12-18T12:48:38.000+0000"
+        },
+        "type": "items"
+    },
+    {
+        "id": 28702086,
+        "documentKey": "KCE-SWBUG-14145",
+        "globalId": "GID-7597975",
+        "itemType": 154,
+        "project": 229,
+        "createdDate": "2025-12-18T12:54:11.000+0000",
+        "modifiedDate": "2025-12-18T13:08:46.000+0000",
+        "lastActivityDate": "2025-12-18T13:08:46.000+0000",
+        "createdBy": 6215,
+        "modifiedBy": 1953,
+        "fields": {
+            "documentKey": "KCE-SWBUG-14145",
+            "globalId": "GID-7597975",
+            "name": "BSW- PRL L indication override HWO indication in E-link",
+            "description": "<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\"><strong>Detailed Defect Description:</strong></span></span></p>\n\n<p>PRL L indication override HWO indication in E-link</p>\n\n<p>&nbsp;</p>\n\n<p>&nbsp;</p>\n\n<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\"><strong>Regression or new finding:</strong></span></span></p>\n\n<p><span style=\"font-family:Calibri, sans-serif\"><span style=\"font-size:14.6667px\">New</span></span></p>\n\n<p>&nbsp;</p>\n\n<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\"><strong>Test step number:</strong></span></span></p>\n\n<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\">Ad-hoc scenario</span></span></p>\n\n<p>&nbsp;</p>\n\n<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\"><strong>Description of the test case (Detailed Scenario)&nbsp;</strong></span></span></p>\n\n<ul>\n\t<li>Elevator Standing on the floor level, Now trigger the HWO via OPT Dip 91 input .</li>\n\t<li>Then register the PRL L call via FOB G21</li>\n</ul>\n\n<p>&nbsp;</p>\n\n<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\"><strong>Expected behavior:&nbsp;&nbsp;</strong></span></span></p>\n\n<ul>\n\t<li>Elink should stay in HWO indication at any special mode.</li>\n</ul>\n\n<p>&nbsp;</p>\n\n<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\"><strong>Actual behavior:</strong></span></span></p>\n\n<ul>\n\t<li>But Elink shows PRL L instead of HWO indication.&nbsp;PRL L indication override HWO indication.</li>\n</ul>\n\n<p>&nbsp;</p>\n\n<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\"><strong>Recovery:&nbsp;</strong></span></span></p>\n\n<p><span style=\"font-family:Calibri, sans-serif\"><span style=\"font-size:14.6667px\">Again, turn OFF and ON the OPT input 1 then it goes to HWO.</span></span></p>\n\n<p>&nbsp;</p>\n\n<p>&nbsp;</p>\n\n<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\"><strong>Log attached Information:</strong></span></span></p>\n\n<p><img alt=\"\" height=\"106\" src=\"https://konerqm.jamacloud.com/attachment/235187/image-gVmMbAOcmC.png\" width=\"921\" /></p>\n\n<p>&nbsp;</p>\n\n<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\"><strong>Value-added information:&nbsp;</strong></span></span></p>\n\n<ul>\n\t<li>Storm indication working fine</li>\n</ul>\n\n<p>&nbsp;</p>\n",
+            "status": 1081,
+            "BUG_component$154": 1291,
+            "BUG_subcomponent$154": "E-link",
+            "createdBy": 6215,
+            "assignedTo": 6014,
+            "release": 2144,
+            "BUG_foundInBuild$154": "4.5.9",
+            "BUG_foundOnDate$154": "2025-12-17",
+            "priority": 2410,
+            "BUG_severity$154": 1110,
+            "BUG_category$154": 1422,
+            "BUG_testLevel$154": 1129,
+            "BUG_howFound$154": 1092,
+            "BUG_whereFound$154": 1137,
+            "BUG_probability_on_field$154": 2398,
+            "root_cause_category$154": 2512,
+            "BUG_testCaseUpdated$154": 1198,
+            "BUG_V1_project$154": 1431
+        },
+        "resources": {
+            "self": {
+                "allowed": [
+                    "GET",
+                    "PUT",
+                    "PATCH",
+                    "DELETE"
+                ]
+            }
+        },
+        "version": 2,
+        "location": {
+            "sortOrder": 6637,
+            "globalSortOrder": 1665932606,
+            "sequence": "17.6638",
+            "parent": {
+                "item": 83266
+            }
+        },
+        "lock": {
+            "locked": false,
+            "lastLockedDate": "2025-12-18T13:08:47.000+0000"
         },
         "type": "items"
     }
