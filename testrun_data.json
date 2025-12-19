@@ -2465,6 +2465,34 @@
     },
     {
         "TestRunStatus":"PASSED",
+        "ExecutionDate":"2025-12-19",
+        "Document Key":"KIE601-TSTRN-73829",
+        "Name":"Stop After Standby - KST - Inverter - Down direction - Operation After Stopping",
+        "Assigned To":"Mohammed Ibrahim Sultan"
+    },
+    {
+        "TestRunStatus":"PASSED",
+        "ExecutionDate":"2025-12-19",
+        "Document Key":"KIE601-TSTRN-73831",
+        "Name":"Stop After Standby - KST - Inverter - Opposite Running",
+        "Assigned To":"Mohammed Ibrahim Sultan"
+    },
+    {
+        "TestRunStatus":"PASSED",
+        "ExecutionDate":"2025-12-19",
+        "Document Key":"KIE601-TSTRN-73832",
+        "Name":"Change of Modes -  KST to Different Modes",
+        "Assigned To":"Mohammed Ibrahim Sultan"
+    },
+    {
+        "TestRunStatus":"FAILED",
+        "ExecutionDate":"2025-12-19",
+        "Document Key":"KIE601-TSTRN-73833",
+        "Name":"Stop After Stanby - KST - Faults",
+        "Assigned To":"Mohammed Ibrahim Sultan"
+    },
+    {
+        "TestRunStatus":"PASSED",
         "ExecutionDate":"2025-12-17",
         "Document Key":"KIE601-TSTRN-73817",
         "Name":"Voice announcer",
@@ -12278,7 +12306,7 @@
         "Assigned To":"Shrividhya"
     },
     {
-        "TestRunStatus":"INPROGRESS",
+        "TestRunStatus":"PASSED",
         "ExecutionDate":"2025-12-19",
         "Document Key":"KCE-TSTRN-4009072",
         "Name":"CLS C - Car Light Supervision - Doors closed",
@@ -12352,6 +12380,13 @@
         "ExecutionDate":"2025-12-16",
         "Document Key":"KCE-TSTRN-4008715",
         "Name":"RES E - Reduced Speed - Tests not included into TA",
+        "Assigned To":"Jagadeesh"
+    },
+    {
+        "TestRunStatus":"INPROGRESS",
+        "ExecutionDate":"2025-12-19",
+        "Document Key":"KCE-TSTRN-4008717",
+        "Name":"SNF - Silent Night Feature",
         "Assigned To":"Jagadeesh"
     },
     {
@@ -17703,6 +17738,13 @@
         "Assigned To":"Badaganti Sai Prasad"
     },
     {
+        "TestRunStatus":"INPROGRESS",
+        "ExecutionDate":"2025-12-19",
+        "Document Key":"KCE-TSTRN-4009377",
+        "Name":"SPP - Parallel run prevention - Normal_DCS ",
+        "Assigned To":"Badaganti Sai Prasad"
+    },
+    {
         "TestRunStatus":"PASSED",
         "ExecutionDate":"2025-11-24",
         "Document Key":"KCE-TSTRN-4004663",
@@ -18775,8 +18817,22 @@
     },
     {
         "TestRunStatus":"FAILED",
+        "ExecutionDate":"2025-12-19",
+        "Document Key":"KCE-TSTRN-4007030",
+        "Name":"TSCOP+ Mixed COP functions ",
+        "Assigned To":"Suryanarayanan"
+    },
+    {
+        "TestRunStatus":"FAILED",
         "ExecutionDate":"2025-11-27",
         "Document Key":"KCE-TSTRN-4004412",
+        "Name":"TSCOP with Fireman COP functions",
+        "Assigned To":"Suryanarayanan"
+    },
+    {
+        "TestRunStatus":"PASSED",
+        "ExecutionDate":"2025-12-19",
+        "Document Key":"KCE-TSTRN-4007031",
         "Name":"TSCOP with Fireman COP functions",
         "Assigned To":"Suryanarayanan"
     },

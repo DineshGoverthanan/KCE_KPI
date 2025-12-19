@@ -103,6 +103,8 @@ KIE601-SWBUG-2836,"IEX-When the escalator is in K2D mode and started by using th
 KIE601-SWBUG-2838,IEX-Learning Mode Failure Due to F 329-4 Enhanced Safety Parameter Push Fault,VIGNESHWARAR,,2025-12-18
 KIE601-SWBUG-2839,IEX - Factory Mode parameters PC4_4201 to PC4_4208 is accessible without turning on Factory mode feature PC4_4200_1,Mohammed Ibrahim Sultan,,2025-12-18
 KIE601-SWBUG-2840,IEX - Escalator stops when KRD safety switch is activated,Mohammed Ibrahim Sultan,,2025-12-18
+KIE601-SWBUG-2841,IEX - FC 64 Acceleration rate high is not posted when KAM mode is changed from KSB while running.,Mohammed Ibrahim Sultan,,2025-12-18
+KIE601-SWBUG-2842,IEX - FC 104-2 (Safety bus Communication fault - MSC Supervision) is posted in random scenarios,Mohammed Ibrahim Sultan,,2025-12-18
 DRIVE_HW_SW-SWBUG-1587,GG DCBL 5.51 SW - Fault 124 3064 Not Triggered when Software file is missed from SD Card.,VIGNESHWARAR,,2025-06-01
 KCE-SWBUG-5615,16.4-DCBL GD- Speed is not reduced when the elevator reaches the lower limit during the NTS Buffer Test.,Jagadeesh,KCE16.4.92 (LD 16.4.1.11 and GCD 16.4.65) + DCBL 24.47sw,
 KCE-SWBUG-6553,"KCE NA - When MES activated during car call service, lift is unable to stop at the nearest floor.",Veeramanikandan,KCE 17.0.0.10,2025-09-02
