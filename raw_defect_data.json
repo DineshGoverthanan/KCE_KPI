@@ -4099,16 +4099,16 @@
         "itemType": 154,
         "project": 417,
         "createdDate": "2025-12-05T01:52:05.000+0000",
-        "modifiedDate": "2025-12-05T11:29:28.000+0000",
-        "lastActivityDate": "2025-12-05T11:29:28.000+0000",
+        "modifiedDate": "2025-12-19T06:09:20.000+0000",
+        "lastActivityDate": "2025-12-19T06:09:20.000+0000",
         "createdBy": 6117,
-        "modifiedBy": 2001,
+        "modifiedBy": 6453,
         "fields": {
             "documentKey": "KIE601-SWBUG-2783",
             "globalId": "GID-7569567",
             "name": "IEX - Lower FUI gets hanged when parameter PC5_5300 is accessed when escalator is running - Lower FUI must not display No access.",
             "description": "<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\"><strong>Detailed Defect Description:</strong></span></span></p>\n\n<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\">IEX - Lower FUI gets hanged when parameter PC5_5300 is accessed when escalator is running - Lower FUI must not display No access.</span></span></p>\n\n<p>&nbsp;</p>\n\n<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\"><strong>Parameters:&nbsp;&nbsp;</strong></span></span></p>\n\n<p><span style=\"font-family:Calibri, sans-serif\"><span style=\"font-size:14.6667px\">PC5_5300 (Node SW Download)</span></span></p>\n\n<p>&nbsp;</p>\n\n<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\"><strong>Group configuration: </strong></span></span></p>\n\n<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\">NA</span></span></p>\n\n<p>&nbsp;</p>\n\n<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\"><strong>Drive type:</strong></span></span></p>\n\n<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\">NA</span></span></p>\n\n<p>&nbsp;</p>\n\n<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\"><strong>Regression or new finding:</strong></span></span></p>\n\n<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\">New Finding</span></span></p>\n\n<p>&nbsp;</p>\n\n<p>&nbsp;</p>\n\n<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\"><strong>Test case Name / Feature name:</strong></span></span></p>\n\n<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\">Ad hoc</span></span></p>\n\n<p>&nbsp;</p>\n\n<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\"><strong>Test step number:</strong></span></span></p>\n\n<p><span style=\"font-family:Calibri, sans-serif\"><span style=\"font-size:14.6667px\">Ad hoc</span></span></p>\n\n<p>&nbsp;</p>\n\n<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\"><strong>Description of the test case (Detailed Scenario)&nbsp;</strong></span></span></p>\n\n<ul>\n\t<li>The Escalator is running in Operational Mode / Inspection mode</li>\n\t<li>Try to access the parameter PC5_5300</li>\n\t<li>Lower FUI and Upper FUI shows \"No access\"</li>\n\t<li>Upper FUI comes back to normal screen, but lower FUI does not refresh.</li>\n\t<li>Tried to create safety fault codes - Lower FUI is still hanged in \"no access\" screen.</li>\n</ul>\n\n<p>&nbsp;</p>\n\n<p>Note:</p>\n\n<p>Recovery: Press any button in FUI screen</p>\n\n<p>Frequency: 1 out of 10 times</p>\n\n<p>&nbsp;</p>\n\n<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\"><strong>Expected behavior:&nbsp;&nbsp;</strong></span></span></p>\n\n<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\">Lower FUI must not display \"No access\"</span></span></p>\n\n<p>&nbsp;</p>\n\n<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\"><strong>Actual behavior:</strong></span></span></p>\n\n<p>Upper FUI comes back to normal screen, but lower FUI does not refresh.</p>\n",
-            "status": 1082,
+            "status": 1085,
             "BUG_component$154": 1561,
             "BUG_subcomponent$154": "IEX",
             "createdBy": 6117,
@@ -4123,6 +4123,7 @@
             "BUG_whereFound$154": 1137,
             "BUG_probability_on_field$154": 2396,
             "root_cause_category$154": 2512,
+            "BUG_rootCause$154": "<p>Code error</p>",
             "BUG_testCaseUpdated$154": 1198,
             "BUG_V1_project$154": 1431
         },
@@ -4133,7 +4134,7 @@
                 ]
             }
         },
-        "version": 2,
+        "version": 3,
         "location": {
             "sortOrder": 1362,
             "globalSortOrder": 1311275857,
@@ -4144,7 +4145,7 @@
         },
         "lock": {
             "locked": false,
-            "lastLockedDate": "2025-12-05T11:29:29.000+0000"
+            "lastLockedDate": "2025-12-19T06:09:21.000+0000"
         },
         "type": "items"
     },
@@ -25484,8 +25485,8 @@
         "itemType": 154,
         "project": 229,
         "createdDate": "2025-12-15T13:27:49.000+0000",
-        "modifiedDate": "2025-12-18T12:41:36.000+0000",
-        "lastActivityDate": "2025-12-18T12:41:36.000+0000",
+        "modifiedDate": "2025-12-19T06:36:42.000+0000",
+        "lastActivityDate": "2025-12-19T06:36:42.000+0000",
         "createdBy": 6096,
         "modifiedBy": 6056,
         "fields": {
@@ -25493,7 +25494,7 @@
             "globalId": "GID-7590189",
             "name": "0.0.0.96 - TSCOP - PRC Indication shown along with OSI when RDF Enabled",
             "description": "<p><em><strong>Parameter:</strong></em></p>\n\n<p>1114 - 1</p>\n\n<p>1470 - 1</p>\n\n<p>1096 - 0</p>\n\n<p>989 - 1</p>\n\n<p><br />\n<em><strong>Description:</strong></em></p>\n\n<ul>\n\t<li>LD : 17.0.0.20</li>\n\t<li>KNSMUL : 0.0.0.50</li>\n\t<li>Drive : PDX</li>\n\t<li>TSCOP 15 Floor Setup is used</li>\n\t<li>WELM : 0.0.0.96</li>\n\t<li>Proto SW : 0.0.0.17</li>\n\t<li>1096 - 0 (Selective)</li>\n\t<li>A &amp; B side KNSMUL - Non-Conventional (KCOP)</li>\n</ul>\n\n<p>&nbsp;</p>\n\n<p><em><strong>Scenario:</strong></em></p>\n\n<ul>\n\t<li>PRC K - ON(PRC Indication shown in TSCOP),</li>\n\t<li>RDF ON (Now PRC Indication gone) OSI Shown</li>\n\t<li>PRC KEY form CAR still ON</li>\n\t<li>RDF turned OFF</li>\n\t<li>Again RDF - ON (quickly), Now Both PRC &amp; OSI Both shown in TSCOP Display</li>\n</ul>\n\n<p>&nbsp;</p>\n\n<p><em><strong>Expected Scenario:</strong></em></p>\n\n<ul>\n\t<li>When OSS Triggered, PRC mode indication shouldn't be shown</li>\n\t<li>Just OSI Should be shown<br />\n\t&nbsp;</li>\n</ul>\n\n<p><em><strong>Note:</strong></em></p>\n\n<ul>\n\t<li>Checked this with Attendant service, Issue not occurred</li>\n\t<li>Only OSI shown in TSCOP</li>\n</ul>\n\n<p><br />\n** \"<em>They have a variable \"mPreIndication\" that is missing with PRC to understand that PRC was active and should be removed\" </em>~ Hallart Christophe<br />\n<br />\n<em><strong>LOGs:</strong></em></p>\n\n<ul>\n\t<li>LPA</li>\n\t<li>Event</li>\n\t<li>Elev backup</li>\n</ul>\n",
-            "status": 1082,
+            "status": 1085,
             "BUG_component$154": 1531,
             "BUG_subcomponent$154": "WELM 0.0.0.96",
             "createdBy": 6096,
@@ -25502,6 +25503,7 @@
             "BUG_foundInBuild$154": "KCE 17.0.0.116(LD: 17.0.0.20, GCD: 17.0.1.1)",
             "BUG_foundOnDate$154": "2025-12-14",
             "BUG_plannedRelease$154": 2396,
+            "BUG_fixedInBuild$154": "WELM 0.0.0.99",
             "priority": 2410,
             "BUG_severity$154": 1110,
             "BUG_category$154": 1428,
@@ -25523,7 +25525,7 @@
                 ]
             }
         },
-        "version": 4,
+        "version": 5,
         "location": {
             "sortOrder": 6602,
             "globalSortOrder": 1665655110,
@@ -25534,7 +25536,7 @@
         },
         "lock": {
             "locked": false,
-            "lastLockedDate": "2025-12-18T12:41:37.000+0000"
+            "lastLockedDate": "2025-12-19T06:36:43.000+0000"
         },
         "type": "items"
     },
@@ -25666,8 +25668,8 @@
         "itemType": 154,
         "project": 229,
         "createdDate": "2025-12-18T11:25:26.000+0000",
-        "modifiedDate": "2025-12-18T12:47:56.000+0000",
-        "lastActivityDate": "2025-12-18T12:47:56.000+0000",
+        "modifiedDate": "2025-12-19T07:15:37.000+0000",
+        "lastActivityDate": "2025-12-19T07:16:44.000+0000",
         "createdBy": 6096,
         "modifiedBy": 6056,
         "fields": {
@@ -25675,7 +25677,7 @@
             "globalId": "GID-7597919",
             "name": "0.0.0.96 - TSCOP - Menu's PIN Code can't be accessed in AUX COP in Special Modes",
             "description": "<p><em><strong>Description:</strong></em></p>\n\n<ul>\n\t<li>LD : 17.0.0.20</li>\n\t<li>KNSMUL : 0.0.0.50</li>\n\t<li>Drive : PDX</li>\n\t<li>In TSCOP 15&nbsp;&nbsp;floor setup is used, since higher floors cause issue with indications (issue raised as defect)</li>\n\t<li>WELM : 0.0.0.96</li>\n\t<li>Proto SW : 0.0.0.17</li>\n\t<li>Theme (Newer Mock Theme causing issue with the Application SW, So older Theme used for testing)</li>\n\t<li>1096 - 0</li>\n\t<li>A &amp; B side KNSMUL - Non-Conventional (KCOP)</li>\n</ul>\n\n<p><em><strong>Actual Scenario:</strong></em></p>\n\n<ul>\n\t<li>When in FRD Mode,&nbsp;</li>\n\t<li>AUX FRD COP is set to \"Close\"</li>\n\t<li>With AUX COP Closed, Menu is tried to entered</li>\n\t<li>The PIN CODE Page is not shown</li>\n\t<li>Menu could never be accessed in this scenario</li>\n</ul>\n\n<p><img alt=\"\" height=\"339\" src=\"https://konerqm.jamacloud.com/attachment/235160/image-Y8Et48k5JS.png\" width=\"304\" /></p>\n\n<p><br />\n<em><strong>Expected Scenario:</strong></em></p>\n\n<ul>\n\t<li>Even when in AUX FRD TSCOP is set to CLOSE, the PIN Code UI should override it in-order to access the menu inside</li>\n</ul>\n\n<p>&nbsp;</p>\n\n<p>LOGs:</p>\n\n<ul>\n\t<li>LPA&nbsp;</li>\n\t<li>TSCOP</li>\n\t<li>MP4</li>\n</ul>\n",
-            "status": 1081,
+            "status": 1083,
             "BUG_component$154": 1531,
             "BUG_subcomponent$154": "TSCOP - WELM",
             "createdBy": 6096,
@@ -25704,7 +25706,7 @@
                 ]
             }
         },
-        "version": 3,
+        "version": 4,
         "location": {
             "sortOrder": 6635,
             "globalSortOrder": 1665930460,
@@ -25715,7 +25717,7 @@
         },
         "lock": {
             "locked": false,
-            "lastLockedDate": "2025-12-18T12:47:58.000+0000"
+            "lastLockedDate": "2025-12-19T07:15:38.000+0000"
         },
         "type": "items"
     },
@@ -25726,8 +25728,8 @@
         "itemType": 154,
         "project": 229,
         "createdDate": "2025-12-18T12:40:12.000+0000",
-        "modifiedDate": "2025-12-18T12:48:36.000+0000",
-        "lastActivityDate": "2025-12-18T12:54:18.000+0000",
+        "modifiedDate": "2025-12-19T06:36:18.000+0000",
+        "lastActivityDate": "2025-12-19T06:36:18.000+0000",
         "createdBy": 6096,
         "modifiedBy": 6056,
         "fields": {
@@ -25735,7 +25737,7 @@
             "globalId": "GID-7597971",
             "name": "0.0.0.96 - TSCOP - OverLoad Indication shown along with OSI",
             "description": "<p><em><strong>Description:</strong></em></p>\n\n<p>&nbsp;</p>\n\n<p>&nbsp;</p>\n\n<ul>\n\t<li>LD : 17.0.0.20</li>\n\t<li>KNSMUL : 0.0.0.50</li>\n\t<li>Drive : PDX</li>\n\t<li>In TSCOP 15&nbsp;&nbsp;floor setup is used, since higher floors cause issue with indications (issue raised as defect)</li>\n\t<li>WELM : 0.0.0.96</li>\n\t<li>Proto SW : 0.0.0.17</li>\n\t<li>Theme (Newer Mock Theme causing issue with the Application SW, So older Theme used for testing)</li>\n\t<li>1096 - 0</li>\n\t<li>A &amp; B side KNSMUL - Non-Conventional (KCOP)</li>\n</ul>\n\n<p>&nbsp;</p>\n\n<p>&nbsp;</p>\n\n<p><em><strong>Actual Scenario:</strong></em></p>\n\n<ul>\n\t<li>Elevator in Normal Mode</li>\n\t<li>Doors are opened</li>\n\t<li>OLF Made from LWD</li>\n\t<li>OSS C also triggered&nbsp;</li>\n\t<li>BLF Deactivated (OSS C still in ON)</li>\n\t<li>After OLF is turned OFF, OLF Indication is shown along with OSI</li>\n</ul>\n\n<p><img alt=\"\" height=\"561\" src=\"https://konerqm.jamacloud.com/attachment/235183/image-j3o8SJAt3Y.png\" width=\"228\" /></p>\n\n<p>&nbsp;</p>\n\n<p>&nbsp;</p>\n\n<p><em><strong>Additional Info:</strong></em></p>\n\n<ul>\n\t<li>When the Dynamic Info Area is pressed once, The BLF Indication clears</li>\n</ul>\n\n<p>&nbsp;</p>\n\n<p><em><strong>Expected Scenario:</strong></em></p>\n\n<ul>\n\t<li>OLF indication should be turned OFF Once it is turned back to Normal Mode</li>\n\t<li>When OSS C is turned ON, Only OSI should be shown</li>\n</ul>\n\n<p><img alt=\"\" height=\"480\" src=\"https://konerqm.jamacloud.com/attachment/235184/image-bITXeav10D.png\" width=\"320\" /></p>\n\n<p>&nbsp;</p>\n\n<p>LOGs:<br />\nLPA<br />\nEvent</p>\n\n<p>TSCOP</p>\n\n<p>&nbsp;</p>\n\n<p>&nbsp;</p>\n",
-            "status": 1081,
+            "status": 1085,
             "BUG_component$154": 1531,
             "BUG_subcomponent$154": "TSCOP - WELM",
             "createdBy": 6096,
@@ -25743,6 +25745,7 @@
             "release": 2396,
             "BUG_foundInBuild$154": "KCE 17.0.0.121(LD: 17.0.0.21, GCD: 17.0.1.5), WELM Appl: 0.0.0.96, WELM Prot: 0.0.0.17",
             "BUG_foundOnDate$154": "2025-12-17",
+            "BUG_fixedInBuild$154": "WELM 0.0.0.99",
             "priority": 2410,
             "BUG_severity$154": 1110,
             "BUG_category$154": 1425,
@@ -25764,7 +25767,7 @@
                 ]
             }
         },
-        "version": 2,
+        "version": 3,
         "location": {
             "sortOrder": 6636,
             "globalSortOrder": 1665931533,
@@ -25775,7 +25778,7 @@
         },
         "lock": {
             "locked": false,
-            "lastLockedDate": "2025-12-18T12:48:38.000+0000"
+            "lastLockedDate": "2025-12-19T06:36:19.000+0000"
         },
         "type": "items"
     },

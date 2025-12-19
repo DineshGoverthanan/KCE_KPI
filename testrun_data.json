@@ -2430,6 +2430,20 @@
     },
     {
         "TestRunStatus":"PASSED",
+        "ExecutionDate":"2025-12-19",
+        "Document Key":"KIE601-TSTRN-73824",
+        "Name":"Automatic Mode - KAM - Inverter - Opposite Running",
+        "Assigned To":"Mohammed Ibrahim Sultan"
+    },
+    {
+        "TestRunStatus":"PASSED",
+        "ExecutionDate":"2025-12-19",
+        "Document Key":"KIE601-TSTRN-73827",
+        "Name":"KSB Mode - Change of Different operation modes",
+        "Assigned To":"Mohammed Ibrahim Sultan"
+    },
+    {
+        "TestRunStatus":"PASSED",
         "ExecutionDate":"2025-12-17",
         "Document Key":"KIE601-TSTRN-73817",
         "Name":"Voice announcer",
@@ -4778,6 +4792,13 @@
         "ExecutionDate":"2025-12-17",
         "Document Key":"KCE-TSTRN-4002207",
         "Name":"TWS - NA with PRC, Tension Weight Switch - North America with PRC",
+        "Assigned To":"Veeramanikandan"
+    },
+    {
+        "TestRunStatus":"FAILED",
+        "ExecutionDate":"2025-12-19",
+        "Document Key":"KCE-TSTRN-4002208",
+        "Name":"TWS - NA with MES, Tension Weight Switch - North America with MES",
         "Assigned To":"Veeramanikandan"
     },
     {
@@ -11366,6 +11387,13 @@
         "Document Key":"KCE-TSTRN-3995107",
         "Name":"SNF I - Silent Night Feature",
         "Assigned To":"Harini Sri"
+    },
+    {
+        "TestRunStatus":"INPROGRESS",
+        "ExecutionDate":"2025-12-19",
+        "Document Key":"KCE-TSTRN-4008700",
+        "Name":"SNF I - Silent Night Feature",
+        "Assigned To":"Jagadeesh"
     },
     {
         "TestRunStatus":"PASSED",
@@ -17973,6 +18001,20 @@
         "ExecutionDate":"2025-12-18",
         "Document Key":"KCE-TSTRN-4009621",
         "Name":"CRB C - Call Registered Buzzer - Car call + DOB + DCB + DOE",
+        "Assigned To":"Priyavalli"
+    },
+    {
+        "TestRunStatus":"INPROGRESS",
+        "ExecutionDate":"2025-12-19",
+        "Document Key":"KCE-TSTRN-4009622",
+        "Name":"CRB L - Call Registered Buzzer - Landing call - Buttons with buzzer",
+        "Assigned To":"Priyavalli"
+    },
+    {
+        "TestRunStatus":"INPROGRESS",
+        "ExecutionDate":"2025-12-19",
+        "Document Key":"KCE-TSTRN-4009623",
+        "Name":"CRB L - Call Registered Buzzer - Landing call - Buttons without buzzer",
         "Assigned To":"Priyavalli"
     },
     {
