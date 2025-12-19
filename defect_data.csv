@@ -100,6 +100,9 @@ KIE601-SWBUG-2833,"In E -Link when the  Emergency stop is pressed in Traffic vi
 KIE601-SWBUG-2834,E-Link - Escalator mode is in NOR-mode and has no running direction. Abbreviation contains not show: - Nd,S.P,,2025-12-04
 KIE601-SWBUG-2835,"Elink- In the Traffic view, shows a faulty condition even Escalator is in normal condition without any fault ",S.P,,2025-12-04
 KIE601-SWBUG-2836,"IEX-When the escalator is in K2D mode and started by using the key switch, the opposite entry buzzer keeps sounding continuously.",VIGNESHWARAR,,2025-12-16
+KIE601-SWBUG-2838,IEX-Learning Mode Failure Due to F 329-4 Enhanced Safety Parameter Push Fault,VIGNESHWARAR,,2025-12-18
+KIE601-SWBUG-2839,IEX - Factory Mode parameters PC4_4201 to PC4_4208 is accessible without turning on Factory mode feature PC4_4200_1,Mohammed Ibrahim Sultan,,2025-12-18
+KIE601-SWBUG-2840,IEX - Escalator stops when KRD safety switch is activated,Mohammed Ibrahim Sultan,,2025-12-18
 DRIVE_HW_SW-SWBUG-1587,GG DCBL 5.51 SW - Fault 124 3064 Not Triggered when Software file is missed from SD Card.,VIGNESHWARAR,,2025-06-01
 KCE-SWBUG-5615,16.4-DCBL GD- Speed is not reduced when the elevator reaches the lower limit during the NTS Buffer Test.,Jagadeesh,KCE16.4.92 (LD 16.4.1.11 and GCD 16.4.65) + DCBL 24.47sw,
 KCE-SWBUG-6553,"KCE NA - When MES activated during car call service, lift is unable to stop at the nearest floor.",Veeramanikandan,KCE 17.0.0.10,2025-09-02
@@ -415,3 +418,4 @@ KCE-SWBUG-14128,"0.0.0.96 - TSCOP - App Crashes when ""Confirmation Button"" is 
 KCE-SWBUG-14143,0.0.0.96 - TSCOP - Menu's PIN Code can't be accessed in AUX COP in Special Modes,Suryanarayanan,"KCE 17.0.0.121(LD: 17.0.0.21, GCD: 17.0.1.5), WELM Appl: 0.0.0.96, WELM Prot: 0.0.0.17",2025-12-17
 KCE-SWBUG-14144,0.0.0.96 - TSCOP - OverLoad Indication shown along with OSI,Suryanarayanan,"KCE 17.0.0.121(LD: 17.0.0.21, GCD: 17.0.1.5), WELM Appl: 0.0.0.96, WELM Prot: 0.0.0.17",2025-12-17
 KCE-SWBUG-14145,BSW- PRL L indication override HWO indication in E-link,Jagadeesh,"16.10.4.22(LD: 16.10.2.4, GCD: 16.10.21.12)",2025-12-17
+KCE-SWBUG-14152,0.0.0.99 - TSCOP - Main Floor Icon is inconsistent,Suryanarayanan,"KCE 17.0.0.121(LD: 17.0.0.21, GCD: 17.0.1.5), WELM Appl: 0.0.0.99, WELM Prot: 0.0.0.17",2025-12-18

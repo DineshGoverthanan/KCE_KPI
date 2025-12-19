@@ -5210,7 +5210,7 @@
         "project": 417,
         "createdDate": "2025-12-11T06:16:02.000+0000",
         "modifiedDate": "2025-12-11T11:53:12.000+0000",
-        "lastActivityDate": "2025-12-19T05:11:19.000+0000",
+        "lastActivityDate": "2025-12-19T10:26:13.000+0000",
         "createdBy": 5932,
         "modifiedBy": 2001,
         "fields": {
@@ -5489,8 +5489,8 @@
         "itemType": 154,
         "project": 417,
         "createdDate": "2025-12-17T08:32:51.000+0000",
-        "modifiedDate": "2025-12-17T12:14:10.000+0000",
-        "lastActivityDate": "2025-12-19T05:10:39.000+0000",
+        "modifiedDate": "2025-12-19T11:00:11.000+0000",
+        "lastActivityDate": "2025-12-19T11:00:11.000+0000",
         "createdBy": 5932,
         "modifiedBy": 2001,
         "fields": {
@@ -5514,7 +5514,7 @@
             "BUG_probability_on_field$154": 2396,
             "root_cause_category$154": 2512,
             "BUG_testCaseUpdated$154": 1198,
-            "BUG_RD_comments$154": "<p>[Visu]: 17-Dec-2025</p>\n\n<p>This is defect assigned to KFPS team</p>",
+            "BUG_RD_comments$154": "<p>[Visu]: 17-Dec-2025</p>\n\n<p>This is defect assigned to KFPS team</p>\n\n<p>&nbsp;</p>\n\n<p>[Visu]: 19-Dec-2025</p>\n\n<p>KFPS for China only, so try with G99 or G11 and give feedback.&nbsp;</p>\n\n<p>&nbsp;</p>\n\n<p>&nbsp;</p>",
             "BUG_V1_project$154": 1431
         },
         "resources": {
@@ -5524,7 +5524,7 @@
                 ]
             }
         },
-        "version": 5,
+        "version": 6,
         "location": {
             "sortOrder": 1411,
             "globalSortOrder": 1311328434,
@@ -5535,7 +5535,7 @@
         },
         "lock": {
             "locked": false,
-            "lastLockedDate": "2025-12-17T12:14:12.000+0000"
+            "lastLockedDate": "2025-12-19T11:00:14.000+0000"
         },
         "type": "items"
     },
@@ -5757,6 +5757,168 @@
         "lock": {
             "locked": false,
             "lastLockedDate": "2025-12-18T11:05:04.000+0000"
+        },
+        "type": "items"
+    },
+    {
+        "id": 28708598,
+        "documentKey": "KIE601-SWBUG-2838",
+        "globalId": "GID-7599051",
+        "itemType": 154,
+        "project": 417,
+        "createdDate": "2025-12-19T10:18:29.000+0000",
+        "modifiedDate": "2025-12-19T10:20:33.000+0000",
+        "lastActivityDate": "2025-12-19T10:20:33.000+0000",
+        "createdBy": 5932,
+        "modifiedBy": 5932,
+        "fields": {
+            "documentKey": "KIE601-SWBUG-2838",
+            "globalId": "GID-7599051",
+            "name": "IEX-Learning Mode Failure Due to F 329-4 Enhanced Safety Parameter Push Fault",
+            "description": "<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\"><strong>Detailed Defect Description:</strong></span></span></p>\n\n<p>IEX-Learning Mode Failure Due to F 329-4 Enhanced Safety Parameter Push Fault</p>\n\n<p>&nbsp;</p>\n\n<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\"><strong>Parameters:&nbsp;&nbsp;</strong></span></span></p>\n\n<p>PC4_4000_1</p>\n\n<p>&nbsp;</p>\n\n<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\"><strong>Group configuration: </strong></span></span></p>\n\n<p><span style=\"font-family:Calibri,sans-serif\"><span style=\"font-size:14.6667px\">Single escalator setup</span></span></p>\n\n<p>&nbsp;</p>\n\n<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\"><strong>Drive type:</strong></span></span></p>\n\n<p><span style=\"font-family:Calibri,sans-serif\"><span style=\"font-size:14.6667px\">Monarch,Danfoss</span></span></p>\n\n<p>&nbsp;</p>\n\n<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\"><strong>Regression or new finding:</strong></span></span></p>\n\n<p><span style=\"font-family:Calibri,sans-serif\"><span style=\"font-size:14.6667px\">Regression</span></span>\u200b\u200b\u200b\u200b\u200b\u200b</p>\n\n<p>&nbsp;</p>\n\n<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\"><strong>Test case Name / Feature name:</strong></span></span></p>\n\n<p><span style=\"font-family:Calibri,sans-serif\"><span style=\"font-size:14.6667px\">Learning mode</span></span></p>\n\n<p>&nbsp;</p>\n\n<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\"><strong>Description of the test case (Detailed Scenario)&nbsp;</strong></span></span></p>\n\n<p>1.Initiated learning mode for <strong>PC4_4000_1</strong>.</p>\n\n<p>2.Fault <strong>F 329-4 (MSC 2 Enhanced Safety Parameter Push Pending) and F 302</strong> is triggered.</p>\n\n<p>3.After clearing the <strong>Enhanced Safety Parameter Push</strong> fault and re-initiating learning, the <strong>same issue reoccurs</strong>.</p>\n\n<p>4.Due to this fault, the system is <strong>unable to enter learning mode</strong>.</p>\n\n<p>&nbsp;</p>\n\n<p>Note: After clearing the <strong>Enhanced Safety Parameter Push</strong> fault and re-initiating learning for 10 times, the <strong>same issue reoccurs</strong>.</p>\n\n<p>&nbsp;</p>\n\n<p>&nbsp;</p>\n\n<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\"><strong>Expected behavior:&nbsp;&nbsp;</strong></span></span></p>\n\n<p>Learning need to done successful without fault.</p>\n\n<p>&nbsp;</p>\n\n<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\"><strong>Actual behavior:</strong></span></span></p>\n\n<p>Fault F 329-4 (MSC 2 Enhanced Safety Parameter Push Pending) is triggered.<br />\nDue to this fault, the system is unable to enter learning</p>\n\n<p>&nbsp;</p>\n\n<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\"><strong>Recovery:&nbsp;</strong></span></span></p>\n\n<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\">-</span></span></p>\n\n<p>&nbsp;</p>\n\n<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\"><strong>Value-added information:&nbsp;</strong></span></span></p>\n\n<p>IEX SW-R3.0.2</p>\n\n<p>&nbsp;</p>\n",
+            "status": 1081,
+            "BUG_component$154": 1561,
+            "createdBy": 5932,
+            "release": 2550,
+            "BUG_foundOnDate$154": "2025-12-18",
+            "priority": 2410,
+            "BUG_severity$154": 1109,
+            "BUG_category$154": 1422,
+            "BUG_testLevel$154": 1129,
+            "BUG_howFound$154": 2407,
+            "BUG_whereFound$154": 1137,
+            "BUG_probability_on_field$154": 2399,
+            "root_cause_category$154": 2512,
+            "BUG_testCaseUpdated$154": 1198,
+            "BUG_V1_project$154": 1431
+        },
+        "resources": {
+            "self": {
+                "allowed": [
+                    "GET"
+                ]
+            }
+        },
+        "version": 2,
+        "location": {
+            "sortOrder": 1417,
+            "globalSortOrder": 1311334872,
+            "sequence": "2.8.1418",
+            "parent": {
+                "item": 18771233
+            }
+        },
+        "lock": {
+            "locked": false,
+            "lastLockedDate": "2025-12-19T10:20:34.000+0000"
+        },
+        "type": "items"
+    },
+    {
+        "id": 28708670,
+        "documentKey": "KIE601-SWBUG-2839",
+        "globalId": "GID-7599063",
+        "itemType": 154,
+        "project": 417,
+        "createdDate": "2025-12-19T10:42:45.000+0000",
+        "modifiedDate": "2025-12-19T10:42:45.000+0000",
+        "lastActivityDate": "2025-12-19T10:42:45.000+0000",
+        "createdBy": 6117,
+        "modifiedBy": 6117,
+        "fields": {
+            "documentKey": "KIE601-SWBUG-2839",
+            "globalId": "GID-7599063",
+            "name": "IEX - Factory Mode parameters PC4_4201 to PC4_4208 is accessible without turning on Factory mode feature PC4_4200_1",
+            "description": "<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\"><strong>Detailed Defect Description:</strong></span></span></p>\n\n<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\">IEX - Factory Mode parameters PC4_4201 to PC4_4208 is accessible without turning on Factory mode feature PC4_4200_1</span></span></p>\n\n<p>&nbsp;</p>\n\n<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\"><strong>Parameters:&nbsp;&nbsp;</strong></span></span></p>\n\n<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\">PC4_4200 (Factory mode enable/disable)</span></span></p>\n\n<p>PC4_4201 - PC4_4208: Factory mode related parameters</p>\n\n<p>&nbsp;</p>\n\n<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\"><strong>Group configuration: </strong></span></span></p>\n\n<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\">NA</span></span></p>\n\n<p>&nbsp;</p>\n\n<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\"><strong>Drive type:</strong></span></span></p>\n\n<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\">NA</span></span></p>\n\n<p>&nbsp;</p>\n\n<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\"><strong>Regression or new finding:</strong></span></span></p>\n\n<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\">New Finding</span></span></p>\n\n<p>&nbsp;</p>\n\n<p>&nbsp;</p>\n\n<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\"><strong>Test case Name / Feature name:</strong></span></span></p>\n\n<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\">Ad hoc</span></span></p>\n\n<p>&nbsp;</p>\n\n<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\"><strong>Test step number:</strong></span></span></p>\n\n<p><span style=\"font-family:Calibri, sans-serif\"><span style=\"font-size:14.6667px\">Ad hoc</span></span></p>\n\n<p>&nbsp;</p>\n\n<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\"><strong>Description of the test case (Detailed Scenario)&nbsp;</strong></span></span></p>\n\n<ul>\n\t<li>Factory mode is disabled PC4_4200_0</li>\n\t<li>Now try to access the Other Factory mode parameters PC4_4201 - 4208</li>\n\t<li>The parameters are accessible and also able to change the values.</li>\n</ul>\n\n<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\"><strong>Expected behavior:&nbsp;&nbsp;</strong></span></span></p>\n\n<p><span style=\"font-family:Calibri, sans-serif\"><span style=\"font-size:14.6667px\">The Parameters PC4_4201 to 4208 must not be accessible if PC4_4200 is set as 0</span></span></p>\n\n<p>&nbsp;</p>\n\n<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\"><strong>Actual behavior:</strong></span></span></p>\n\n<p>The parameters are accessible and also able to change the values.</p>\n",
+            "status": 1081,
+            "BUG_component$154": 1561,
+            "BUG_subcomponent$154": "IEX",
+            "createdBy": 6117,
+            "release": 2550,
+            "BUG_foundOnDate$154": "2025-12-18",
+            "priority": 2410,
+            "BUG_severity$154": 1109,
+            "BUG_category$154": 1422,
+            "BUG_testLevel$154": 1129,
+            "BUG_howFound$154": 1092,
+            "BUG_whereFound$154": 1137,
+            "BUG_probability_on_field$154": 2396,
+            "root_cause_category$154": 2512,
+            "BUG_testCaseUpdated$154": 1198,
+            "BUG_V1_project$154": 1431
+        },
+        "resources": {
+            "self": {
+                "allowed": [
+                    "GET"
+                ]
+            }
+        },
+        "version": 1,
+        "location": {
+            "sortOrder": 1418,
+            "globalSortOrder": 1311335945,
+            "sequence": "2.8.1419",
+            "parent": {
+                "item": 18771233
+            }
+        },
+        "lock": {
+            "locked": false
+        },
+        "type": "items"
+    },
+    {
+        "id": 28708707,
+        "documentKey": "KIE601-SWBUG-2840",
+        "globalId": "GID-7599066",
+        "itemType": 154,
+        "project": 417,
+        "createdDate": "2025-12-19T11:12:14.000+0000",
+        "modifiedDate": "2025-12-19T11:12:14.000+0000",
+        "lastActivityDate": "2025-12-19T11:12:14.000+0000",
+        "createdBy": 6117,
+        "modifiedBy": 6117,
+        "fields": {
+            "documentKey": "KIE601-SWBUG-2840",
+            "globalId": "GID-7599066",
+            "name": "IEX - Escalator stops when KRD safety switch is activated",
+            "description": "<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\"><strong>Detailed Defect Description:</strong></span></span></p>\n\n<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\">IEX - Escalator stops when KRD safety switch is activated</span></span></p>\n\n<p>&nbsp;</p>\n\n<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\"><strong>Parameters:&nbsp;&nbsp;</strong></span></span></p>\n\n<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\">NA</span></span></p>\n\n<p>&nbsp;</p>\n\n<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\"><strong>Group configuration: </strong></span></span></p>\n\n<p><span style=\"font-family:Calibri, sans-serif\"><span style=\"font-size:14.6667px\">NA</span></span></p>\n\n<p>&nbsp;</p>\n\n<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\"><strong>Drive type:</strong></span></span></p>\n\n<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\">NA</span></span></p>\n\n<p>&nbsp;</p>\n\n<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\"><strong>Regression or new finding:</strong></span></span></p>\n\n<p><span style=\"font-family:Calibri, sans-serif\"><span style=\"font-size:14.6667px\">New finding</span></span></p>\n\n<p>&nbsp;</p>\n\n<p>&nbsp;</p>\n\n<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\"><strong>Test case Name / Feature name:</strong></span></span></p>\n\n<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\">AD hoc</span></span></p>\n\n<p>&nbsp;</p>\n\n<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\"><strong>Test step number:</strong></span></span></p>\n\n<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\">Ad hoc</span></span></p>\n\n<p>&nbsp;</p>\n\n<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\"><strong>Description of the test case (Detailed Scenario)&nbsp;</strong></span></span></p>\n\n<ul>\n\t<li>When Escalator is running activate the following switches in SEC</li>\n\t<li>X1 Pin 5 SEC-1, X2 Pin 5 SEC-1, X1 Pin 5 SEC-2, X2&nbsp;Pin 5 SEC -2</li>\n\t<li>Switch Description: KRD1,2,3,4 Safety</li>\n\t<li>FC: 29-1/2/3/4</li>\n\t<li>Escalator stops when the switches are activated&nbsp;</li>\n</ul>\n\n<p>&nbsp;</p>\n\n<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\"><strong>Expected behavior:&nbsp;&nbsp;</strong></span></span></p>\n\n<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\">Escalator must not stop as the fault type is 0</span></span></p>\n\n<p>&nbsp;</p>\n\n<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\"><strong>Actual behavior:</strong></span></span></p>\n\n<p>Escalator stops when the switches are activated&nbsp;</p>\n",
+            "status": 1081,
+            "BUG_component$154": 1561,
+            "BUG_subcomponent$154": "IEX",
+            "createdBy": 6117,
+            "release": 2550,
+            "BUG_foundOnDate$154": "2025-12-18",
+            "priority": 2410,
+            "BUG_severity$154": 1109,
+            "BUG_category$154": 1422,
+            "BUG_testLevel$154": 1129,
+            "BUG_howFound$154": 1092,
+            "BUG_whereFound$154": 1137,
+            "BUG_probability_on_field$154": 2396,
+            "root_cause_category$154": 2512,
+            "BUG_testCaseUpdated$154": 1198,
+            "BUG_V1_project$154": 1431
+        },
+        "resources": {
+            "self": {
+                "allowed": [
+                    "GET"
+                ]
+            }
+        },
+        "version": 1,
+        "location": {
+            "sortOrder": 1419,
+            "globalSortOrder": 1311380428,
+            "sequence": "2.8.1420",
+            "parent": {
+                "item": 18771233
+            }
+        },
+        "lock": {
+            "locked": false
         },
         "type": "items"
     },
@@ -17065,8 +17227,8 @@
         "itemType": 154,
         "project": 229,
         "createdDate": "2025-08-14T06:33:12.000+0000",
-        "modifiedDate": "2025-08-22T06:23:34.000+0000",
-        "lastActivityDate": "2025-09-24T07:46:33.000+0000",
+        "modifiedDate": "2025-12-19T11:00:32.000+0000",
+        "lastActivityDate": "2025-12-19T11:00:32.000+0000",
         "createdBy": 6096,
         "modifiedBy": 620,
         "fields": {
@@ -17083,7 +17245,7 @@
             "BUG_fixedInRelease$154": 2521,
             "BUG_fixedInBuild$154": "0.0.36",
             "priority": 2410,
-            "BUG_severity$154": 1111,
+            "BUG_severity$154": 1110,
             "BUG_category$154": 1422,
             "BUG_testLevel$154": 1129,
             "BUG_howFound$154": 1092,
@@ -17094,7 +17256,7 @@
             "BUG_jiraId$154": "FEL-3761",
             "BUG_jira_project$154": 2453,
             "BUG_jira_URL$154": "https://kone.atlassian.net/browse/FEL-3761",
-            "BUG_integration_synced_time$154": "2025-08-22 06:23:34.013466",
+            "BUG_integration_synced_time$154": "2025-12-19 11:00:31.972154",
             "BUG_V1_project$154": 1431
         },
         "resources": {
@@ -17107,7 +17269,7 @@
                 ]
             }
         },
-        "version": 8,
+        "version": 10,
         "location": {
             "sortOrder": 5903,
             "globalSortOrder": 1652003640,
@@ -17118,7 +17280,7 @@
         },
         "lock": {
             "locked": false,
-            "lastLockedDate": "2025-08-21T07:02:13.000+0000"
+            "lastLockedDate": "2025-12-19T10:59:58.000+0000"
         },
         "type": "items"
     },
@@ -17192,8 +17354,8 @@
         "itemType": 154,
         "project": 229,
         "createdDate": "2025-08-14T06:59:06.000+0000",
-        "modifiedDate": "2025-08-14T07:01:26.000+0000",
-        "lastActivityDate": "2025-09-24T07:46:33.000+0000",
+        "modifiedDate": "2025-12-19T11:01:32.000+0000",
+        "lastActivityDate": "2025-12-19T11:01:32.000+0000",
         "createdBy": 6096,
         "modifiedBy": 620,
         "fields": {
@@ -17207,7 +17369,7 @@
             "release": 2513,
             "BUG_foundOnDate$154": "2025-08-13",
             "priority": 2410,
-            "BUG_severity$154": 1111,
+            "BUG_severity$154": 1110,
             "BUG_category$154": 1422,
             "BUG_testLevel$154": 1129,
             "BUG_howFound$154": 1092,
@@ -17218,7 +17380,7 @@
             "BUG_jiraId$154": "FEL-3762",
             "BUG_jira_project$154": 2453,
             "BUG_jira_URL$154": "https://kone.atlassian.net/browse/FEL-3762",
-            "BUG_integration_synced_time$154": "2025-08-14 07:01:25.326960",
+            "BUG_integration_synced_time$154": "2025-12-19 11:01:31.913621",
             "BUG_V1_project$154": 1431
         },
         "resources": {
@@ -17231,7 +17393,7 @@
                 ]
             }
         },
-        "version": 4,
+        "version": 6,
         "location": {
             "sortOrder": 5906,
             "globalSortOrder": 1652062230,
@@ -17242,7 +17404,7 @@
         },
         "lock": {
             "locked": false,
-            "lastLockedDate": "2025-08-14T07:00:22.000+0000"
+            "lastLockedDate": "2025-12-19T11:00:24.000+0000"
         },
         "type": "items"
     },
@@ -18992,8 +19154,9 @@
             }
         },
         "lock": {
-            "locked": false,
-            "lastLockedDate": "2025-09-15T06:39:00.000+0000"
+            "locked": true,
+            "lastLockedDate": "2025-12-19T11:00:45.000+0000",
+            "lockedBy": 6096
         },
         "type": "items"
     },
@@ -25074,16 +25237,16 @@
         "itemType": 154,
         "project": 229,
         "createdDate": "2025-12-15T13:27:49.000+0000",
-        "modifiedDate": "2025-12-19T06:36:42.000+0000",
-        "lastActivityDate": "2025-12-19T06:36:42.000+0000",
+        "modifiedDate": "2025-12-19T10:55:13.000+0000",
+        "lastActivityDate": "2025-12-19T10:55:13.000+0000",
         "createdBy": 6096,
-        "modifiedBy": 6056,
+        "modifiedBy": 6096,
         "fields": {
             "documentKey": "KCE-SWBUG-14107",
             "globalId": "GID-7590189",
             "name": "0.0.0.96 - TSCOP - PRC Indication shown along with OSI when RDF Enabled",
             "description": "<p><em><strong>Parameter:</strong></em></p>\n\n<p>1114 - 1</p>\n\n<p>1470 - 1</p>\n\n<p>1096 - 0</p>\n\n<p>989 - 1</p>\n\n<p><br />\n<em><strong>Description:</strong></em></p>\n\n<ul>\n\t<li>LD : 17.0.0.20</li>\n\t<li>KNSMUL : 0.0.0.50</li>\n\t<li>Drive : PDX</li>\n\t<li>TSCOP 15 Floor Setup is used</li>\n\t<li>WELM : 0.0.0.96</li>\n\t<li>Proto SW : 0.0.0.17</li>\n\t<li>1096 - 0 (Selective)</li>\n\t<li>A &amp; B side KNSMUL - Non-Conventional (KCOP)</li>\n</ul>\n\n<p>&nbsp;</p>\n\n<p><em><strong>Scenario:</strong></em></p>\n\n<ul>\n\t<li>PRC K - ON(PRC Indication shown in TSCOP),</li>\n\t<li>RDF ON (Now PRC Indication gone) OSI Shown</li>\n\t<li>PRC KEY form CAR still ON</li>\n\t<li>RDF turned OFF</li>\n\t<li>Again RDF - ON (quickly), Now Both PRC &amp; OSI Both shown in TSCOP Display</li>\n</ul>\n\n<p>&nbsp;</p>\n\n<p><em><strong>Expected Scenario:</strong></em></p>\n\n<ul>\n\t<li>When OSS Triggered, PRC mode indication shouldn't be shown</li>\n\t<li>Just OSI Should be shown<br />\n\t&nbsp;</li>\n</ul>\n\n<p><em><strong>Note:</strong></em></p>\n\n<ul>\n\t<li>Checked this with Attendant service, Issue not occurred</li>\n\t<li>Only OSI shown in TSCOP</li>\n</ul>\n\n<p><br />\n** \"<em>They have a variable \"mPreIndication\" that is missing with PRC to understand that PRC was active and should be removed\" </em>~ Hallart Christophe<br />\n<br />\n<em><strong>LOGs:</strong></em></p>\n\n<ul>\n\t<li>LPA</li>\n\t<li>Event</li>\n\t<li>Elev backup</li>\n</ul>\n",
-            "status": 1085,
+            "status": 1086,
             "BUG_component$154": 1531,
             "BUG_subcomponent$154": "WELM 0.0.0.96",
             "createdBy": 6096,
@@ -25094,7 +25257,7 @@
             "BUG_plannedRelease$154": 2396,
             "BUG_fixedInBuild$154": "WELM 0.0.0.99",
             "priority": 2410,
-            "BUG_severity$154": 1110,
+            "BUG_severity$154": 1109,
             "BUG_category$154": 1428,
             "BUG_testLevel$154": 1129,
             "BUG_howFound$154": 1092,
@@ -25114,7 +25277,7 @@
                 ]
             }
         },
-        "version": 5,
+        "version": 6,
         "location": {
             "sortOrder": 6602,
             "globalSortOrder": 1665655110,
@@ -25125,7 +25288,7 @@
         },
         "lock": {
             "locked": false,
-            "lastLockedDate": "2025-12-19T06:36:43.000+0000"
+            "lastLockedDate": "2025-12-19T10:55:14.000+0000"
         },
         "type": "items"
     },
@@ -25196,16 +25359,16 @@
         "itemType": 154,
         "project": 229,
         "createdDate": "2025-12-17T12:46:25.000+0000",
-        "modifiedDate": "2025-12-18T12:40:54.000+0000",
-        "lastActivityDate": "2025-12-18T12:40:54.000+0000",
+        "modifiedDate": "2025-12-19T10:48:41.000+0000",
+        "lastActivityDate": "2025-12-19T10:48:41.000+0000",
         "createdBy": 6096,
-        "modifiedBy": 6056,
+        "modifiedBy": 6096,
         "fields": {
             "documentKey": "KCE-SWBUG-14128",
             "globalId": "GID-7594447",
             "name": "0.0.0.96 - TSCOP - App Crashes when \"Confirmation Button\" is pressed in Keypad Mode",
             "description": "<p><em><strong>Parameter:</strong></em></p>\n\n<p>UI - Keypad</p>\n\n<p>Marine - NO<br />\n<br />\n<em><strong>Description:</strong></em></p>\n\n<ul>\n\t<li>LD : 17.0.0.20</li>\n\t<li>KNSMUL : 0.0.0.50</li>\n\t<li>Drive : PDX</li>\n\t<li>In TSCOP 15&nbsp;&nbsp;floor setup is used</li>\n\t<li>WELM : 0.0.0.96</li>\n\t<li>Proto SW : 0.0.0.17</li>\n\t<li>1096 - 0</li>\n\t<li>A &amp; B side KNSMUL - Non-Conventional (KCOP)</li>\n</ul>\n\n<p>&nbsp;</p>\n\n<p><em><strong>Actual Scenario:</strong></em></p>\n\n<p>Elevator in Normal Mode</p>\n\n<p>Green Star Button pressed</p>\n\n<p><img alt=\"\" height=\"324\" src=\"https://konerqm.jamacloud.com/attachment/235052/image-d8C5ibfD7J.png\" width=\"233\" /></p>\n\n<p>After Pressing, Total App crashes<br />\n<br />\n\u200b\u200b\u200b\u200b<em><strong>Note:</strong></em><br />\nThis odd scenario happens only when the Special Parameter -&gt; \"Marine\" is selected as \"NO\"<br />\n<br />\n<em><strong>Logs:</strong></em><br />\nLPA<br />\nEvent<br />\nTSCOP<br />\nMP4</p>\n",
-            "status": 1085,
+            "status": 1086,
             "BUG_component$154": 1531,
             "BUG_subcomponent$154": "WELM 0.0.0.96",
             "createdBy": 6096,
@@ -25235,7 +25398,7 @@
                 ]
             }
         },
-        "version": 3,
+        "version": 4,
         "location": {
             "sortOrder": 6621,
             "globalSortOrder": 1665915438,
@@ -25246,7 +25409,7 @@
         },
         "lock": {
             "locked": false,
-            "lastLockedDate": "2025-12-18T12:40:56.000+0000"
+            "lastLockedDate": "2025-12-19T10:48:43.000+0000"
         },
         "type": "items"
     },
@@ -25317,16 +25480,16 @@
         "itemType": 154,
         "project": 229,
         "createdDate": "2025-12-18T12:40:12.000+0000",
-        "modifiedDate": "2025-12-19T06:36:18.000+0000",
-        "lastActivityDate": "2025-12-19T06:36:18.000+0000",
+        "modifiedDate": "2025-12-19T10:56:04.000+0000",
+        "lastActivityDate": "2025-12-19T10:56:04.000+0000",
         "createdBy": 6096,
-        "modifiedBy": 6056,
+        "modifiedBy": 6096,
         "fields": {
             "documentKey": "KCE-SWBUG-14144",
             "globalId": "GID-7597971",
             "name": "0.0.0.96 - TSCOP - OverLoad Indication shown along with OSI",
             "description": "<p><em><strong>Description:</strong></em></p>\n\n<p>&nbsp;</p>\n\n<p>&nbsp;</p>\n\n<ul>\n\t<li>LD : 17.0.0.20</li>\n\t<li>KNSMUL : 0.0.0.50</li>\n\t<li>Drive : PDX</li>\n\t<li>In TSCOP 15&nbsp;&nbsp;floor setup is used, since higher floors cause issue with indications (issue raised as defect)</li>\n\t<li>WELM : 0.0.0.96</li>\n\t<li>Proto SW : 0.0.0.17</li>\n\t<li>Theme (Newer Mock Theme causing issue with the Application SW, So older Theme used for testing)</li>\n\t<li>1096 - 0</li>\n\t<li>A &amp; B side KNSMUL - Non-Conventional (KCOP)</li>\n</ul>\n\n<p>&nbsp;</p>\n\n<p>&nbsp;</p>\n\n<p><em><strong>Actual Scenario:</strong></em></p>\n\n<ul>\n\t<li>Elevator in Normal Mode</li>\n\t<li>Doors are opened</li>\n\t<li>OLF Made from LWD</li>\n\t<li>OSS C also triggered&nbsp;</li>\n\t<li>BLF Deactivated (OSS C still in ON)</li>\n\t<li>After OLF is turned OFF, OLF Indication is shown along with OSI</li>\n</ul>\n\n<p><img alt=\"\" height=\"561\" src=\"https://konerqm.jamacloud.com/attachment/235183/image-j3o8SJAt3Y.png\" width=\"228\" /></p>\n\n<p>&nbsp;</p>\n\n<p>&nbsp;</p>\n\n<p><em><strong>Additional Info:</strong></em></p>\n\n<ul>\n\t<li>When the Dynamic Info Area is pressed once, The BLF Indication clears</li>\n</ul>\n\n<p>&nbsp;</p>\n\n<p><em><strong>Expected Scenario:</strong></em></p>\n\n<ul>\n\t<li>OLF indication should be turned OFF Once it is turned back to Normal Mode</li>\n\t<li>When OSS C is turned ON, Only OSI should be shown</li>\n</ul>\n\n<p><img alt=\"\" height=\"480\" src=\"https://konerqm.jamacloud.com/attachment/235184/image-bITXeav10D.png\" width=\"320\" /></p>\n\n<p>&nbsp;</p>\n\n<p>LOGs:<br />\nLPA<br />\nEvent</p>\n\n<p>TSCOP</p>\n\n<p>&nbsp;</p>\n\n<p>&nbsp;</p>\n",
-            "status": 1085,
+            "status": 1086,
             "BUG_component$154": 1531,
             "BUG_subcomponent$154": "TSCOP - WELM",
             "createdBy": 6096,
@@ -25336,7 +25499,7 @@
             "BUG_foundOnDate$154": "2025-12-17",
             "BUG_fixedInBuild$154": "WELM 0.0.0.99",
             "priority": 2410,
-            "BUG_severity$154": 1110,
+            "BUG_severity$154": 1109,
             "BUG_category$154": 1425,
             "BUG_testLevel$154": 1129,
             "BUG_howFound$154": 1092,
@@ -25356,7 +25519,7 @@
                 ]
             }
         },
-        "version": 3,
+        "version": 5,
         "location": {
             "sortOrder": 6636,
             "globalSortOrder": 1665931533,
@@ -25367,7 +25530,7 @@
         },
         "lock": {
             "locked": false,
-            "lastLockedDate": "2025-12-19T06:36:19.000+0000"
+            "lastLockedDate": "2025-12-19T10:56:05.000+0000"
         },
         "type": "items"
     },
@@ -25428,6 +25591,65 @@
         "lock": {
             "locked": false,
             "lastLockedDate": "2025-12-19T05:39:35.000+0000"
+        },
+        "type": "items"
+    },
+    {
+        "id": 28708585,
+        "documentKey": "KCE-SWBUG-14152",
+        "globalId": "GID-7599048",
+        "itemType": 154,
+        "project": 229,
+        "createdDate": "2025-12-19T10:09:11.000+0000",
+        "modifiedDate": "2025-12-19T10:22:19.000+0000",
+        "lastActivityDate": "2025-12-19T11:27:34.000+0000",
+        "createdBy": 6096,
+        "modifiedBy": 6096,
+        "fields": {
+            "documentKey": "KCE-SWBUG-14152",
+            "globalId": "GID-7599048",
+            "name": "0.0.0.99 - TSCOP - Main Floor Icon is inconsistent",
+            "description": "<p>Description:</p>\n\n<ul>\n\t<li>LD : 17.0.0.21</li>\n\t<li>KNSMUL : 0.0.0.51</li>\n\t<li>Drive : PDX</li>\n\t<li>In TSCOP 29\"</li>\n\t<li>15&nbsp;&nbsp;floor setup is used, since higher floors cause issue with indications (issue raised as defect)</li>\n\t<li>WELM : 0.0.0.99</li>\n\t<li>Proto SW : 0.0.0.17</li>\n\t<li>Theme (Newer Mock Theme causing issue with the Application SW, So older Theme used for testing)</li>\n\t<li>1096 - 0</li>\n\t<li>A &amp; B side KNSMUL - Non-Conventional (KCOP)</li>\n</ul>\n\n<p>Scenario</p>\n\n<ul>\n\t<li>WELM 0.0.0.99 Updated</li>\n\t<li>1st Floor is set as Main Floor</li>\n</ul>\n\n<p><img alt=\"\" height=\"446\" src=\"https://konerqm.jamacloud.com/attachment/235259/image-KWC3Ku0KZw.png\" width=\"269\" /></p>\n\n<p>&nbsp;</p>\n\n<ul>\n\t<li>HAN Mode Activated</li>\n</ul>\n\n<p><img alt=\"\" height=\"485\" src=\"https://konerqm.jamacloud.com/attachment/235260/image-COoLyiaQOV.png\" width=\"272\" /></p>\n\n<p>&nbsp;</p>\n\n<ul>\n\t<li>HAN Mode Exited,</li>\n</ul>\n\n<p>\u200b\u200b\u200b\u200b\u200b\u200b<img alt=\"\" height=\"465\" src=\"https://konerqm.jamacloud.com/attachment/235261/image-0a9xk8KDuh.png\" width=\"279\" /></p>\n\n<p>&nbsp;</p>\n\n<p>Now Main Floor icon indication is visible<br />\n<br />\n<em><strong>Note:</strong></em></p>\n\n<ul>\n\t<li>This Indication is not consistent</li>\n\t<li>After every TSCOP Restarts, It resets to Normal Icon Cell</li>\n\t<li>Entering into HAN Mode brings back the icon</li>\n\t<li>This issue is found in 0.0.0.98 &amp; 0.0.0.99</li>\n</ul>\n\n<p>&nbsp;</p>\n\n<p>LOGs:</p>\n\n<ul>\n\t<li>TSCOP</li>\n</ul>\n",
+            "status": 1081,
+            "BUG_component$154": 1291,
+            "BUG_subcomponent$154": "TSCOP",
+            "createdBy": 6096,
+            "release": 2396,
+            "BUG_foundInBuild$154": "KCE 17.0.0.121(LD: 17.0.0.21, GCD: 17.0.1.5), WELM Appl: 0.0.0.99, WELM Prot: 0.0.0.17",
+            "BUG_foundOnDate$154": "2025-12-18",
+            "priority": 2410,
+            "BUG_severity$154": 1109,
+            "BUG_category$154": 1428,
+            "BUG_testLevel$154": 1129,
+            "BUG_howFound$154": 1092,
+            "BUG_whereFound$154": 1137,
+            "BUG_probability_on_field$154": 2398,
+            "root_cause_category$154": 2512,
+            "BUG_testCaseUpdated$154": 1198,
+            "BUG_V1_project$154": 1431
+        },
+        "resources": {
+            "self": {
+                "allowed": [
+                    "GET",
+                    "PUT",
+                    "PATCH",
+                    "DELETE"
+                ]
+            }
+        },
+        "version": 2,
+        "location": {
+            "sortOrder": 6644,
+            "globalSortOrder": 1665940117,
+            "sequence": "17.6645",
+            "parent": {
+                "item": 83266
+            }
+        },
+        "lock": {
+            "locked": false,
+            "lastLockedDate": "2025-12-19T10:22:20.000+0000"
         },
         "type": "items"
     }

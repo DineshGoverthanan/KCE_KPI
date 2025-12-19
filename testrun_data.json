@@ -2438,8 +2438,29 @@
     {
         "TestRunStatus":"PASSED",
         "ExecutionDate":"2025-12-19",
+        "Document Key":"KIE601-TSTRN-73826",
+        "Name":"Standby Mode - KSB - Operation by Inverter - Up direction",
+        "Assigned To":"Mohammed Ibrahim Sultan"
+    },
+    {
+        "TestRunStatus":"PASSED",
+        "ExecutionDate":"2025-12-19",
         "Document Key":"KIE601-TSTRN-73827",
         "Name":"KSB Mode - Change of Different operation modes",
+        "Assigned To":"Mohammed Ibrahim Sultan"
+    },
+    {
+        "TestRunStatus":"PASSED",
+        "ExecutionDate":"2025-12-19",
+        "Document Key":"KIE601-TSTRN-73828",
+        "Name":"Standby Mode- KSB - Inverter - Opposite Running",
+        "Assigned To":"Mohammed Ibrahim Sultan"
+    },
+    {
+        "TestRunStatus":"PASSED",
+        "ExecutionDate":"2025-12-19",
+        "Document Key":"KIE601-TSTRN-73830",
+        "Name":"Stop After Standby - KST - Inverter - Up direction",
         "Assigned To":"Mohammed Ibrahim Sultan"
     },
     {
@@ -4799,6 +4820,13 @@
         "ExecutionDate":"2025-12-19",
         "Document Key":"KCE-TSTRN-4002208",
         "Name":"TWS - NA with MES, Tension Weight Switch - North America with MES",
+        "Assigned To":"Veeramanikandan"
+    },
+    {
+        "TestRunStatus":"INPROGRESS",
+        "ExecutionDate":"2025-12-19",
+        "Document Key":"KCE-TSTRN-4002210",
+        "Name":"TWS - NA with FRD, Tension Weight Switch - North America with  FRD",
         "Assigned To":"Veeramanikandan"
     },
     {
