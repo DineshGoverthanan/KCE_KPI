@@ -4987,7 +4987,7 @@
         "project": 417,
         "createdDate": "2025-12-10T15:11:35.000+0000",
         "modifiedDate": "2025-12-11T03:45:11.000+0000",
-        "lastActivityDate": "2025-12-11T03:45:11.000+0000",
+        "lastActivityDate": "2025-12-19T05:13:07.000+0000",
         "createdBy": 5932,
         "modifiedBy": 2001,
         "fields": {
@@ -5209,7 +5209,7 @@
         "project": 417,
         "createdDate": "2025-12-11T06:16:02.000+0000",
         "modifiedDate": "2025-12-11T11:53:12.000+0000",
-        "lastActivityDate": "2025-12-11T11:53:33.000+0000",
+        "lastActivityDate": "2025-12-19T05:11:19.000+0000",
         "createdBy": 5932,
         "modifiedBy": 2001,
         "fields": {
@@ -5319,16 +5319,16 @@
         "itemType": 154,
         "project": 417,
         "createdDate": "2025-12-11T06:57:42.000+0000",
-        "modifiedDate": "2025-12-14T17:21:38.000+0000",
-        "lastActivityDate": "2025-12-14T17:21:38.000+0000",
+        "modifiedDate": "2025-12-19T04:45:23.000+0000",
+        "lastActivityDate": "2025-12-19T04:45:23.000+0000",
         "createdBy": 5932,
-        "modifiedBy": 2001,
+        "modifiedBy": 6204,
         "fields": {
             "documentKey": "KIE601-SWBUG-2827",
             "globalId": "GID-7581781",
             "name": "IEX-Incorrect Node Pairing Status Displayed in AMC Tool",
             "description": "<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\"><strong>Detailed Defect Description:</strong></span></span></p>\n\n<p>IEX-Incorrect Node Pairing Status Displayed in AMC Tool</p>\n\n<p>&nbsp;</p>\n\n<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\"><strong>Parameters:&nbsp;&nbsp;</strong></span></span></p>\n\n<p><span style=\"font-family:Calibri,sans-serif\"><span style=\"font-size:14.6667px\">PC1_1420</span></span></p>\n\n<p>&nbsp;</p>\n\n<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\"><strong>Group configuration: </strong></span></span></p>\n\n<p><span style=\"font-family:Calibri,sans-serif\"><span style=\"font-size:14.6667px\">Single Escalator status</span></span></p>\n\n<p>&nbsp;</p>\n\n<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\"><strong>Drive type:</strong></span></span></p>\n\n<p><span style=\"font-family:Calibri,sans-serif\"><span style=\"font-size:14.6667px\">Monarch,Danfoss</span></span></p>\n\n<p>&nbsp;</p>\n\n<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\"><strong>Regression or new finding:</strong></span></span></p>\n\n<p>Adhoc&nbsp;</p>\n\n<p>&nbsp;</p>\n\n<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\"><strong>Description of the test case (Detailed Scenario)&nbsp;</strong></span></span></p>\n\n<p>&nbsp;</p>\n\n<p>1.The CPU is not registered with the KEN.</p>\n\n<p>2.Navigate to Tools \u2192 Pairing \u2192 Pairing Status; the tool displays 8 paired devices (IOC1, IOC2, SEC1, SEC2, LCB, LSC, CPU).</p>\n\n<p>3.The pairing status should show devices in a not paired condition.</p>\n\n<p>:<img alt=\"\" height=\"481\" src=\"https://konerqm.jamacloud.com/attachment/234451/KEN.jpg\" width=\"222\" /></p>\n\n<p>&nbsp;</p>\n\n<p>Scenario 2:</p>\n\n<ol>\n\t<li>\n\t<p><strong>PC1_1420_10</strong> has been set (SEC node assigned to <strong>10</strong>).</p>\n\t</li>\n\t<li>\n\t<p>Safety push has been done&nbsp;and roll call is done.</p>\n\t</li>\n\t<li>\n\t<p>SEC-related faults were thrown. Upon checking the <strong>AMC Node Pairing Status</strong>, it shows an <strong>incorrect pairing status</strong>.</p>\n\t</li>\n</ol>\n\n<p><strong>Note:</strong> We have only connected <strong>2 SECs</strong>, but the system indicates that <strong>SEC 3</strong> is paired.</p>\n\n<p>&nbsp;</p>\n\n<p><img alt=\"\" height=\"507\" src=\"https://konerqm.jamacloud.com/attachment/234452/SEC.jpg\" width=\"234\" /></p>\n\n<p>&nbsp;</p>\n\n<p>&nbsp;</p>\n\n<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\"><strong>Expected behavior:&nbsp;&nbsp;</strong></span></span></p>\n\n<p>The Pairing Status screen should correctly display the actual pairing condition. Since the CPU is not registered with the KEN, all devices (IOC1, IOC2, SEC1, SEC2, LCB, LSC, CPU) should appear as Not Paired, with no paired devices shown.</p>\n\n<p>&nbsp;</p>\n\n<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\"><strong>Actual behavior:</strong></span></span></p>\n\n<p>The Pairing Status screen incorrectly displays 8 devices (IOC1, IOC2, SEC1, SEC2, LCB, LSC, CPU) as Paired, .</p>\n\n<p>&nbsp;</p>\n\n<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\"><strong>Recovery:&nbsp;</strong></span></span></p>\n\n<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\">-</span></span></p>\n\n<p>&nbsp;</p>\n\n<p>&nbsp;</p>\n",
-            "status": 1085,
+            "status": 1087,
             "BUG_component$154": 2243,
             "BUG_subcomponent$154": "Escalator-KIE",
             "createdBy": 5932,
@@ -5345,7 +5345,7 @@
             "BUG_probability_on_field$154": 2396,
             "root_cause_category$154": 2512,
             "BUG_testCaseUpdated$154": 1198,
-            "BUG_RD_comments$154": "<p>[Visu]: 14-Dec-2025<br />\nThis defect is fixed in R2.0.3.2</p>",
+            "BUG_RD_comments$154": "<p>-[Visu]: 14-Dec-2025<br />\nThis defect is fixed in R2.0.3.2</p>\n\n<p>&nbsp;</p>\n\n<p>[Krishna]: 19-Dec-2025</p>\n\n<p>This defect is tested in R2.0.3.2 and the issue is re-produced, Hence it moved to re-opened state&nbsp;</p>",
             "BUG_V1_project$154": 1431
         },
         "resources": {
@@ -5355,7 +5355,7 @@
                 ]
             }
         },
-        "version": 9,
+        "version": 10,
         "location": {
             "sortOrder": 1406,
             "globalSortOrder": 1311323069,
@@ -5366,7 +5366,7 @@
         },
         "lock": {
             "locked": false,
-            "lastLockedDate": "2025-12-18T09:41:35.000+0000"
+            "lastLockedDate": "2025-12-19T04:45:25.000+0000"
         },
         "type": "items"
     },
@@ -5431,16 +5431,16 @@
         "itemType": 154,
         "project": 417,
         "createdDate": "2025-12-16T05:39:03.000+0000",
-        "modifiedDate": "2025-12-16T06:44:13.000+0000",
-        "lastActivityDate": "2025-12-16T06:44:13.000+0000",
+        "modifiedDate": "2025-12-19T04:08:43.000+0000",
+        "lastActivityDate": "2025-12-19T04:08:43.000+0000",
         "createdBy": 6117,
-        "modifiedBy": 2001,
+        "modifiedBy": 5917,
         "fields": {
             "documentKey": "KIE601-SWBUG-2830",
             "globalId": "GID-7590944",
             "name": "IEX - Stop Buzzer does not work for Emergency stop and Normal Stop in ACU",
             "description": "<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\"><strong>Detailed Defect Description:</strong></span></span></p>\n\n<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\">IEX - Stop Buzzer does not work for Emergency stop and Normal Stop in ACU</span></span></p>\n\n<p>&nbsp;</p>\n\n<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\"><strong>Parameters:&nbsp;&nbsp;</strong></span></span></p>\n\n<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\">PC3_3100 (Stop Buzzer)</span></span></p>\n\n<p>&nbsp;</p>\n\n<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\"><strong>Group configuration:NA</strong></span></span></p>\n\n<p>&nbsp;</p>\n\n<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\"><strong>Drive type:NA</strong></span></span></p>\n\n<p>&nbsp;</p>\n\n<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\"><strong>Regression or new finding:</strong></span></span></p>\n\n<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\">New Finding</span></span></p>\n\n<p>&nbsp;</p>\n\n<p>&nbsp;</p>\n\n<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\"><strong>Test case Name / Feature name:</strong></span></span></p>\n\n<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\">Ad hoc</span></span></p>\n\n<p>&nbsp;</p>\n\n<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\"><strong>Test step number:</strong></span></span></p>\n\n<p><span style=\"font-family:Calibri, sans-serif\"><span style=\"font-size:14.6667px\">Ad hoc</span></span></p>\n\n<p>&nbsp;</p>\n\n<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\"><strong>Description of the test case (Detailed Scenario)&nbsp;</strong></span></span></p>\n\n<ul>\n\t<li>The ACU is enabled in Upper and Lower Nodes</li>\n\t<li>The ACU is acting as Buzzer</li>\n\t<li>Now Set the parameter PC3-3100 to set conditions for buzzer stop</li>\n</ul>\n\n<p></p>\n\n<p>PC3_3001</p>\n\n<p>PC3_3001_1: not working for normal stop</p>\n\n<p>PC3_3001_2: working fine</p>\n\n<p>PC3_3001_3: E stop buzzer not working when activated E switch while running</p>\n\n<p>PC3_3001_4: For normal stop Buzzer not working</p>\n\n<p>PC3_3001_5: E stop buzzer not working when activated E switch while running, For normal stop Buzzer not working</p>\n\n<p>PC3_3001_6: working fine</p>\n\n<p>PC3_3001_7: not working for normal stop</p>\n\n<p>&nbsp;</p>\n\n<p>Note: Emergency stop in Running condition &amp; Normal Stop Buzzer is not working</p>\n\n<p></p>\n\n<p>&nbsp;</p>\n\n<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\"><strong>Expected behavior:&nbsp; </strong></span></span></p>\n\n<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\">Stop Buzzer should work based on PC3_3100</span></span></p>\n\n<p>&nbsp;</p>\n\n<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\"><strong>Actual behavior:</strong></span></span></p>\n\n<p>Emergency stop in Running condition &amp; Normal Stop Buzzer is not working</p>\n\n<p>&nbsp;</p>\n\n<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\"><strong>Recovery:&nbsp;</strong></span></span></p>\n\n<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\">NA</span></span></p>\n",
-            "status": 1082,
+            "status": 1085,
             "BUG_component$154": 1561,
             "BUG_subcomponent$154": "IEX",
             "createdBy": 6117,
@@ -5456,6 +5456,7 @@
             "BUG_probability_on_field$154": 2396,
             "root_cause_category$154": 2512,
             "BUG_testCaseUpdated$154": 1198,
+            "BUG_RD_comments$154": "<p>&nbsp;</p>\n\n<p>[Karthikeyan K]:18-12-2025 : Fixed and merged in CFB.&nbsp; will be release in TR 1.0 t12.17.1</p>",
             "BUG_V1_project$154": 1431
         },
         "resources": {
@@ -5465,7 +5466,7 @@
                 ]
             }
         },
-        "version": 2,
+        "version": 3,
         "location": {
             "sortOrder": 1409,
             "globalSortOrder": 1311326288,
@@ -5476,7 +5477,7 @@
         },
         "lock": {
             "locked": false,
-            "lastLockedDate": "2025-12-16T06:44:14.000+0000"
+            "lastLockedDate": "2025-12-19T04:08:44.000+0000"
         },
         "type": "items"
     },
@@ -5488,7 +5489,7 @@
         "project": 417,
         "createdDate": "2025-12-17T08:32:51.000+0000",
         "modifiedDate": "2025-12-17T12:14:10.000+0000",
-        "lastActivityDate": "2025-12-17T12:14:10.000+0000",
+        "lastActivityDate": "2025-12-19T05:10:39.000+0000",
         "createdBy": 5932,
         "modifiedBy": 2001,
         "fields": {
@@ -21995,8 +21996,8 @@
         "itemType": 154,
         "project": 229,
         "createdDate": "2025-11-10T10:15:47.000+0000",
-        "modifiedDate": "2025-12-17T11:53:21.000+0000",
-        "lastActivityDate": "2025-12-17T11:53:21.000+0000",
+        "modifiedDate": "2025-12-19T05:44:25.000+0000",
+        "lastActivityDate": "2025-12-19T05:44:25.000+0000",
         "createdBy": 6176,
         "modifiedBy": 620,
         "fields": {
@@ -22009,7 +22010,7 @@
             "BUG_subcomponent$154": "shaftInterface",
             "createdBy": 6176,
             "assignedTo": 1150,
-            "release": 2396,
+            "release": 2588,
             "BUG_foundInBuild$154": "KCE 17.0.0.108(LD: 17.0.0.16, GCD: 17.0.0.29)",
             "BUG_foundOnDate$154": "2025-11-09",
             "BUG_plannedRelease$154": 2396,
@@ -22025,7 +22026,7 @@
             "BUG_jiraId$154": "KCE-30925",
             "BUG_jira_project$154": 2465,
             "BUG_jira_URL$154": "https://kone.atlassian.net/browse/KCE-30925",
-            "BUG_integration_synced_time$154": "2025-12-17 11:53:20.233113",
+            "BUG_integration_synced_time$154": "2025-12-19 05:44:24.003464",
             "BUG_V1_project$154": 1431
         },
         "resources": {
@@ -22038,7 +22039,7 @@
                 ]
             }
         },
-        "version": 8,
+        "version": 10,
         "location": {
             "sortOrder": 6372,
             "globalSortOrder": 1661163210,
@@ -22049,7 +22050,7 @@
         },
         "lock": {
             "locked": false,
-            "lastLockedDate": "2025-12-10T05:28:22.000+0000"
+            "lastLockedDate": "2025-12-19T05:43:51.000+0000"
         },
         "type": "items"
     },
@@ -25132,10 +25133,10 @@
         "itemType": 154,
         "project": 229,
         "createdDate": "2025-12-17T09:07:57.000+0000",
-        "modifiedDate": "2025-12-18T13:07:08.000+0000",
-        "lastActivityDate": "2025-12-18T18:56:53.000+0000",
+        "modifiedDate": "2025-12-19T05:22:58.000+0000",
+        "lastActivityDate": "2025-12-19T05:22:58.000+0000",
         "createdBy": 6215,
-        "modifiedBy": 1953,
+        "modifiedBy": 6215,
         "fields": {
             "documentKey": "KCE-SWBUG-14121",
             "globalId": "GID-7592284",
@@ -25146,8 +25147,8 @@
             "BUG_subcomponent$154": "E-Link 4.5.9",
             "createdBy": 6215,
             "assignedTo": 6014,
-            "release": 2144,
-            "BUG_foundInBuild$154": "E-link 4.5.9",
+            "release": 2368,
+            "BUG_foundInBuild$154": "16.10.4.22(LD: 16.10.2.4, GCD: 16.10.21.12)",
             "BUG_foundOnDate$154": "2025-12-16",
             "priority": 2410,
             "BUG_severity$154": 1110,
@@ -25170,7 +25171,7 @@
                 ]
             }
         },
-        "version": 2,
+        "version": 3,
         "location": {
             "sortOrder": 6614,
             "globalSortOrder": 1665889470,
@@ -25181,7 +25182,7 @@
         },
         "lock": {
             "locked": false,
-            "lastLockedDate": "2025-12-18T13:07:10.000+0000"
+            "lastLockedDate": "2025-12-19T05:23:00.000+0000"
         },
         "type": "items"
     },
@@ -25373,10 +25374,10 @@
         "itemType": 154,
         "project": 229,
         "createdDate": "2025-12-18T12:54:11.000+0000",
-        "modifiedDate": "2025-12-18T13:08:46.000+0000",
-        "lastActivityDate": "2025-12-18T13:08:46.000+0000",
+        "modifiedDate": "2025-12-19T05:39:34.000+0000",
+        "lastActivityDate": "2025-12-19T05:39:34.000+0000",
         "createdBy": 6215,
-        "modifiedBy": 1953,
+        "modifiedBy": 6215,
         "fields": {
             "documentKey": "KCE-SWBUG-14145",
             "globalId": "GID-7597975",
@@ -25384,11 +25385,11 @@
             "description": "<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\"><strong>Detailed Defect Description:</strong></span></span></p>\n\n<p>PRL L indication override HWO indication in E-link</p>\n\n<p>&nbsp;</p>\n\n<p>&nbsp;</p>\n\n<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\"><strong>Regression or new finding:</strong></span></span></p>\n\n<p><span style=\"font-family:Calibri, sans-serif\"><span style=\"font-size:14.6667px\">New</span></span></p>\n\n<p>&nbsp;</p>\n\n<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\"><strong>Test step number:</strong></span></span></p>\n\n<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\">Ad-hoc scenario</span></span></p>\n\n<p>&nbsp;</p>\n\n<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\"><strong>Description of the test case (Detailed Scenario)&nbsp;</strong></span></span></p>\n\n<ul>\n\t<li>Elevator Standing on the floor level, Now trigger the HWO via OPT Dip 91 input .</li>\n\t<li>Then register the PRL L call via FOB G21</li>\n</ul>\n\n<p>&nbsp;</p>\n\n<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\"><strong>Expected behavior:&nbsp;&nbsp;</strong></span></span></p>\n\n<ul>\n\t<li>Elink should stay in HWO indication at any special mode.</li>\n</ul>\n\n<p>&nbsp;</p>\n\n<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\"><strong>Actual behavior:</strong></span></span></p>\n\n<ul>\n\t<li>But Elink shows PRL L instead of HWO indication.&nbsp;PRL L indication override HWO indication.</li>\n</ul>\n\n<p>&nbsp;</p>\n\n<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\"><strong>Recovery:&nbsp;</strong></span></span></p>\n\n<p><span style=\"font-family:Calibri, sans-serif\"><span style=\"font-size:14.6667px\">Again, turn OFF and ON the OPT input 1 then it goes to HWO.</span></span></p>\n\n<p>&nbsp;</p>\n\n<p>&nbsp;</p>\n\n<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\"><strong>Log attached Information:</strong></span></span></p>\n\n<p><img alt=\"\" height=\"106\" src=\"https://konerqm.jamacloud.com/attachment/235187/image-gVmMbAOcmC.png\" width=\"921\" /></p>\n\n<p>&nbsp;</p>\n\n<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\"><strong>Value-added information:&nbsp;</strong></span></span></p>\n\n<ul>\n\t<li>Storm indication working fine</li>\n</ul>\n\n<p>&nbsp;</p>\n",
             "status": 1081,
             "BUG_component$154": 1291,
-            "BUG_subcomponent$154": "E-link",
+            "BUG_subcomponent$154": "E-link 4.5.9",
             "createdBy": 6215,
             "assignedTo": 6014,
-            "release": 2144,
-            "BUG_foundInBuild$154": "4.5.9",
+            "release": 2368,
+            "BUG_foundInBuild$154": "16.10.4.22(LD: 16.10.2.4, GCD: 16.10.21.12)",
             "BUG_foundOnDate$154": "2025-12-17",
             "priority": 2410,
             "BUG_severity$154": 1110,
@@ -25411,7 +25412,7 @@
                 ]
             }
         },
-        "version": 2,
+        "version": 3,
         "location": {
             "sortOrder": 6637,
             "globalSortOrder": 1665932606,
@@ -25422,7 +25423,7 @@
         },
         "lock": {
             "locked": false,
-            "lastLockedDate": "2025-12-18T13:08:47.000+0000"
+            "lastLockedDate": "2025-12-19T05:39:35.000+0000"
         },
         "type": "items"
     }
