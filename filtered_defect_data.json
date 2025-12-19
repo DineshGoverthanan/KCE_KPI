@@ -5655,16 +5655,16 @@
         "itemType": 154,
         "project": 417,
         "createdDate": "2025-12-17T10:13:20.000+0000",
-        "modifiedDate": "2025-12-17T11:31:25.000+0000",
-        "lastActivityDate": "2025-12-17T11:31:25.000+0000",
+        "modifiedDate": "2025-12-19T08:49:27.000+0000",
+        "lastActivityDate": "2025-12-19T08:49:27.000+0000",
         "createdBy": 2925,
-        "modifiedBy": 2001,
+        "modifiedBy": 6485,
         "fields": {
             "documentKey": "KIE601-SWBUG-2835",
             "globalId": "GID-7593624",
             "name": "Elink- In the Traffic view, shows a faulty condition even Escalator is in normal condition without any fault\u00a0",
             "description": "<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\"><strong>Detailed Defect Description:</strong></span></span></p>\n\n<p>&nbsp;</p>\n\n<p>Elink- In the Traffic view, shows a faulty condition even Escalator is in normal condition without any fault&nbsp;</p>\n\n<p>&nbsp;</p>\n\n<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\"><strong>Parameters:&nbsp;&nbsp;</strong></span></span></p>\n\n<p>&nbsp;</p>\n\n<p>PC1_1248_1</p>\n\n<p>&nbsp;</p>\n\n<p>&nbsp;</p>\n\n<p>&nbsp;</p>\n\n<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\"><strong>Description of the test case (Detailed Scenario)&nbsp;</strong></span></span></p>\n\n<p>&nbsp;</p>\n\n<p>1. Escalator is in normal mode with a stopped condition.</p>\n\n<p>2. Check in traffic view.</p>\n\n<p>3. In traffic view, FLT is showing.</p>\n\n<p>4. Running the escalator in the UP direction, the mode is updating UpA with FLT, but in CPU has no fault.</p>\n\n<p>&nbsp;</p>\n\n<p><img alt=\"\" height=\"132\" src=\"https://konerqm.jamacloud.com/attachment/234994/2025_12_17_10_12_172.png\" width=\"283\" /></p>\n\n<p>&nbsp;</p>\n\n<p>&nbsp;</p>\n",
-            "status": 1082,
+            "status": 1085,
             "BUG_component$154": 1561,
             "BUG_subcomponent$154": "E-Link",
             "createdBy": 2925,
@@ -5678,7 +5678,8 @@
             "BUG_howFound$154": 1092,
             "BUG_whereFound$154": 1137,
             "BUG_probability_on_field$154": 2397,
-            "root_cause_category$154": 2512,
+            "root_cause_category$154": 2519,
+            "BUG_rootCause$154": "<p>350-2 fault implementation in E-Link code needed correction.</p>",
             "BUG_testCaseUpdated$154": 1198,
             "BUG_V1_project$154": 1431
         },
@@ -5689,7 +5690,7 @@
                 ]
             }
         },
-        "version": 2,
+        "version": 3,
         "location": {
             "sortOrder": 1414,
             "globalSortOrder": 1311331653,
@@ -5700,7 +5701,7 @@
         },
         "lock": {
             "locked": false,
-            "lastLockedDate": "2025-12-17T11:31:26.000+0000"
+            "lastLockedDate": "2025-12-19T08:49:29.000+0000"
         },
         "type": "items"
     },
@@ -24591,7 +24592,7 @@
         "project": 229,
         "createdDate": "2025-12-13T11:30:46.000+0000",
         "modifiedDate": "2025-12-18T12:41:22.000+0000",
-        "lastActivityDate": "2025-12-18T12:41:22.000+0000",
+        "lastActivityDate": "2025-12-19T09:42:22.000+0000",
         "createdBy": 5995,
         "modifiedBy": 620,
         "fields": {
