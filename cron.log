@@ -10305,3 +10305,40 @@ py_jama_rest_client.client.APIException: Unable to fetch token: 405 Client Error
 ---- git status (before add) ----
 ## main...origin/main
  M cron.log
+---- Staged files (cached) ----
+cron.log
+[main fbcf367] Auto update on 2025-12-20 07:30:10
+ 1 file changed, 57 insertions(+)
+✅ Commit created.
+To github.com:DineshGoverthanan/KCE_KPI.git
+   bbce635..fbcf367  main -> main
+✅ Changes pushed to origin/main.
+Run completed at: 2025-12-20 07:30:13
+============================================================
+============================================================
+Script started at: 2025-12-20 09:30:01
+On branch: main
+Fetched 3161 test run items
+Fetched 429 defect items
+Raw data saved (JSON & CSV)
+Filtered test run data: 2715 items (removed 446 LCE items)
+Filtered defect data: 422 items (removed 7 LCE items)
+Filtered data saved (JSON & CSV)
+Error fetching user info for ID 6395: 'data'
+Data exported to kp_data.csv, defect_data.csv, testrun_data.json
+Data exported to kp_data.xlsx
+✅ Python script finished successfully at: 2025-12-20 09:36:14
+---- git status (before add) ----
+## main...origin/main
+ M cron.log
+ M filtered_defect_data.csv
+ M filtered_defect_data.json
+ M filtered_testrun_data.csv
+ M filtered_testrun_data.json
+ M kp_data.csv
+ M kp_data.xlsx
+ M raw_defect_data.csv
+ M raw_defect_data.json
+ M raw_testrun_data.csv
+ M raw_testrun_data.json
+ M testrun_data.json

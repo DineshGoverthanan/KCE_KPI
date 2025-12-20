@@ -974,16 +974,16 @@
         "itemType": 154,
         "project": 417,
         "createdDate": "2025-05-22T11:03:42.000+0000",
-        "modifiedDate": "2025-07-25T04:47:20.000+0000",
-        "lastActivityDate": "2025-07-25T04:47:20.000+0000",
+        "modifiedDate": "2025-12-19T15:00:02.000+0000",
+        "lastActivityDate": "2025-12-19T15:00:02.000+0000",
         "createdBy": 6117,
-        "modifiedBy": 2001,
+        "modifiedBy": 1941,
         "fields": {
             "documentKey": "KIE601-SWBUG-2529",
             "globalId": "GID-7151109",
             "name": "IEX - FC 66-2 (LSC Reciprocal communication fault) is posted when we initiate Safety network roll call",
             "description": "<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\"><strong>Detailed Defect Description:</strong></span></span></p>\n\n<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\">IEX - FC 66-2 (LSC Reciprocal communication fault) is posted when we initiate Safety network roll call</span></span></p>\n\n<p>&nbsp;</p>\n\n<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\"><strong>Parameters:&nbsp;&nbsp;</strong></span></span></p>\n\n<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\">PC1_1420 (SEC Nodes supervision)</span></span></p>\n\n<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\">PC2_2400 (Roll call - Safety Network)</span></span></p>\n\n<p>&nbsp;</p>\n\n<p>&nbsp;</p>\n\n<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\"><strong>Drive type:</strong></span></span></p>\n\n<p><span style=\"font-family:Calibri,sans-serif\"><span style=\"font-size:14.6667px\">NA</span></span></p>\n\n<p>&nbsp;</p>\n\n<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\"><strong>Regression or new finding:</strong></span></span></p>\n\n<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\">New Finding</span></span></p>\n\n<p>&nbsp;</p>\n\n<p>&nbsp;</p>\n\n<p>&nbsp;</p>\n\n<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\"><strong>Test case Name / Feature name:</strong></span></span></p>\n\n<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\">Ad-hoc</span></span></p>\n\n<p>&nbsp;</p>\n\n<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\"><strong>Test step number:</strong></span></span></p>\n\n<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\">Ad-hoc</span></span></p>\n\n<p>&nbsp;</p>\n\n<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\"><strong>Description of the test case (Detailed Scenario)&nbsp;</strong></span></span></p>\n\n<p>1. SEC nodes count set to 0 (PC1_1420_0)<br />\n2. 2 SEC nodes are physically connected to controller<br />\n3. Roll call initiated: PC2_2400_1<br />\n4. FC 318-2 was posted<br />\n5. Again, SEC nodes set as 2 and roll call initiated<br />\n6. FC 66-2 (LSC Reciprocal communication fault) was posted</p>\n\n<p>&nbsp;</p>\n\n<p><strong>Note: Scenario observed only once (tried 5 times)</strong></p>\n\n<p>&nbsp;</p>\n\n<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\"><strong>Expected behavior:&nbsp;&nbsp;</strong></span></span></p>\n\n<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\">FC 66-2 must not be posted unnecessarily</span></span></p>\n\n<p>&nbsp;</p>\n\n<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\"><strong>Actual behavior:</strong></span></span></p>\n\n<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\">FC 66-2 must be posted unnecessarily</span></span></p>\n\n<p>&nbsp;</p>\n\n<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\"><strong>Recovery:&nbsp;</strong></span></span></p>\n\n<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\">Manual reset</span></span></p>\n",
-            "status": 1082,
+            "status": 1085,
             "BUG_component$154": 1561,
             "BUG_subcomponent$154": "IEX",
             "createdBy": 6117,
@@ -998,8 +998,9 @@
             "BUG_howFound$154": 1092,
             "BUG_whereFound$154": 1137,
             "BUG_probability_on_field$154": 2400,
-            "root_cause_category$154": 2512,
+            "root_cause_category$154": 2517,
             "BUG_testCaseUpdated$154": 1198,
+            "BUG_RD_comments$154": "<p>[Satish]: 19-Dec-2025</p>\n\n<p>Fixed in HD (PES2.0). Single MCU in MSC. Modification reference:&nbsp;<a href=\"https://konerqm.jamacloud.com/perspective.req?docId=27747288&amp;projectId=417\">KIE601-SR-602</a></p>",
             "BUG_V1_project$154": 1431
         },
         "resources": {
@@ -1009,7 +1010,7 @@
                 ]
             }
         },
-        "version": 2,
+        "version": 3,
         "location": {
             "sortOrder": 1110,
             "globalSortOrder": 1290719853,
@@ -1020,7 +1021,7 @@
         },
         "lock": {
             "locked": false,
-            "lastLockedDate": "2025-07-25T04:47:21.000+0000"
+            "lastLockedDate": "2025-12-19T15:00:03.000+0000"
         },
         "type": "items"
     },
@@ -5490,16 +5491,16 @@
         "itemType": 154,
         "project": 417,
         "createdDate": "2025-12-17T08:32:51.000+0000",
-        "modifiedDate": "2025-12-19T12:42:54.000+0000",
-        "lastActivityDate": "2025-12-19T12:42:54.000+0000",
+        "modifiedDate": "2025-12-19T14:36:01.000+0000",
+        "lastActivityDate": "2025-12-19T14:36:58.000+0000",
         "createdBy": 5932,
-        "modifiedBy": 5932,
+        "modifiedBy": 2001,
         "fields": {
             "documentKey": "KIE601-SWBUG-2832",
             "globalId": "GID-7592010",
             "name": "IEX-KFPS Tool Fails to Detect Software Stored in NFM for CPU Update",
             "description": "<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\"><strong>Detailed Defect Description:</strong></span></span></p>\n\n<p>IEX-KFPS Tool Fails to Detect Software Stored in NFM for CPU Update</p>\n\n<p>&nbsp;</p>\n\n<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\"><strong>Parameters:&nbsp;&nbsp;</strong></span></span></p>\n\n<p><span style=\"font-family:Calibri,sans-serif\"><span style=\"font-size:14.6667px\">-</span></span></p>\n\n<p>&nbsp;</p>\n\n<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\"><strong>Group configuration: </strong></span></span></p>\n\n<p><span style=\"font-family:Calibri,sans-serif\"><span style=\"font-size:14.6667px\">Single escalator setup</span></span></p>\n\n<p>&nbsp;</p>\n\n<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\"><strong>Drive type:</strong></span></span></p>\n\n<p><span style=\"font-family:Calibri,sans-serif\"><span style=\"font-size:14.6667px\">Monarch,Danfoss</span></span></p>\n\n<p>&nbsp;</p>\n\n<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\"><strong>Regression or new finding:</strong></span></span></p>\n\n<p>Adhoc-testing</p>\n\n<p>&nbsp;</p>\n\n<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\"><strong>Description of the test case (Detailed Scenario)&nbsp;</strong></span></span></p>\n\n<p>1.Connect the KFPS tool to the CPU.</p>\n\n<p>2.Navigate to Upgrade \u2192 Update Software.</p>\n\n<p>3.The software update cannot be performed; although the software is stored in NFM/escalator/software, no software is displayed in the KFPS tool for update.</p>\n\n<p>&nbsp;</p>\n\n<p><strong>Screenshot: SW is stored in folder below</strong></p>\n\n<p>&nbsp;</p>\n\n<p>&nbsp;<img alt=\"\" height=\"450\" src=\"https://konerqm.jamacloud.com/attachment/234950/Screenshot_20251217_133154_My_Files%5B1%5D.jpg\" width=\"208\" /></p>\n\n<p>&nbsp;</p>\n\n<p>Check in KFPS tool:no software is displayed in the KFPS tool for update.</p>\n\n<p><img alt=\"\" height=\"461\" src=\"https://konerqm.jamacloud.com/attachment/234949/Screenshot_20251217_133135%5B1%5D.jpg\" width=\"213\" /></p>\n\n<p>&nbsp;</p>\n\n<p>Note:KFPS tool is not listed in component so component is updated as Service Tool - Andriod Miniconsole.</p>\n\n<p>&nbsp;</p>\n\n<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\"><strong>Expected behavior:&nbsp;&nbsp;</strong></span></span></p>\n\n<p>The software stored in NFM/escalator/software should be detected and listed in the KFPS tool, allowing the user to select and update the CPU software successfully.</p>\n\n<p>&nbsp;</p>\n\n<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\"><strong>Actual behavior:</strong></span></span></p>\n\n<p>The software stored in NFM/escalator/software is not detected or listed in the KFPS tool, preventing the software update.</p>\n\n<p>&nbsp;</p>\n\n<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\"><strong>Recovery:&nbsp;</strong></span></span></p>\n\n<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\">-</span></span></p>\n\n<p>&nbsp;</p>\n\n<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\"><strong>Log attached Information:</strong></span></span></p>\n\n<p>Attached screenshot</p>\n\n<p>&nbsp;</p>\n\n<p><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\"><strong>Value-added information:&nbsp;</strong></span></span></p>\n\n<p>IEX SW-TR 1.0-t12.17</p>\n\n<p>KFPS SW-3.4.0</p>\n\n<p>Checked with&nbsp;TR 1.0-t12.17 and R 2.0.3 SW-same issue occurs.</p>\n",
-            "status": 1082,
+            "status": 1084,
             "BUG_component$154": 2243,
             "BUG_subcomponent$154": "Escalator-KIE",
             "createdBy": 5932,
@@ -5515,7 +5516,7 @@
             "BUG_probability_on_field$154": 2396,
             "root_cause_category$154": 2512,
             "BUG_testCaseUpdated$154": 1198,
-            "BUG_RD_comments$154": "<p>[Visu]: 17-Dec-2025</p>\n\n<p>This is defect assigned to KFPS team</p>\n\n<p>&nbsp;</p>\n\n<p>[Visu]: 19-Dec-2025</p>\n\n<p>KFPS for China only, so try with G99 or G11 and give feedback.&nbsp;</p>\n\n<p>&nbsp;</p>\n\n<p>Vigneshwarar V:19-Dec-2025</p>\n\n<p>&nbsp;</p>\n\n<p>Checked with G11 Board variant-Folder had shown and i have stored 4 SW in NFM\\escalator\\software-only 2 SW is visible&nbsp;</p>\n\n<p>&nbsp;</p>\n\n<p><img alt=\"\" height=\"401\" src=\"https://konerqm.jamacloud.com/attachment/235284/Screenshot_20251219_181028_My_Files%5B1%5D.jpg\" width=\"185\" /></p>\n\n<p><img alt=\"\" height=\"403\" src=\"https://konerqm.jamacloud.com/attachment/235280/Screenshot_20251219_174007%5B1%5D.jpg\" width=\"186\" /></p>\n\n<p>&nbsp;</p>\n\n<p>&nbsp;</p>",
+            "BUG_RD_comments$154": "<p>[Visu]: 17-Dec-2025</p>\n\n<p>This is defect assigned to KFPS team</p>\n\n<p>&nbsp;</p>\n\n<p>[Visu]: 19-Dec-2025</p>\n\n<p>KFPS for China only, so try with G99 or G11 and give feedback.&nbsp;</p>\n\n<p>&nbsp;</p>\n\n<p>Vigneshwarar V:19-Dec-2025</p>\n\n<p>&nbsp;</p>\n\n<p>Checked with G11 Board variant-Folder had shown and i have stored 4 SW in NFM\\escalator\\software-only 2 SW is visible&nbsp;</p>\n\n<p>&nbsp;</p>\n\n<p>[Visu]: 19-Dec-2025</p>\n\n<p>This defect rejected, G99 &amp; G11 SW downloading working fine</p>\n\n<p>&nbsp;</p>\n\n<p>&nbsp;</p>\n\n<p><img alt=\"\" height=\"401\" src=\"https://konerqm.jamacloud.com/attachment/235284/Screenshot_20251219_181028_My_Files%5B1%5D.jpg\" width=\"185\" /></p>\n\n<p><img alt=\"\" height=\"403\" src=\"https://konerqm.jamacloud.com/attachment/235280/Screenshot_20251219_174007%5B1%5D.jpg\" width=\"186\" /></p>\n\n<p>&nbsp;</p>\n\n<p>&nbsp;</p>",
             "BUG_V1_project$154": 1431
         },
         "resources": {
@@ -5525,7 +5526,7 @@
                 ]
             }
         },
-        "version": 9,
+        "version": 10,
         "location": {
             "sortOrder": 1411,
             "globalSortOrder": 1311328434,
@@ -5536,7 +5537,7 @@
         },
         "lock": {
             "locked": false,
-            "lastLockedDate": "2025-12-19T12:42:56.000+0000"
+            "lastLockedDate": "2025-12-19T14:36:07.000+0000"
         },
         "type": "items"
     },

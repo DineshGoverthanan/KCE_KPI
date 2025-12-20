@@ -2324,8 +2324,8 @@
         "Assigned To":"VIGNESHWARAR"
     },
     {
-        "TestRunStatus":"INPROGRESS",
-        "ExecutionDate":"2025-12-17",
+        "TestRunStatus":"FAILED",
+        "ExecutionDate":"2025-12-19",
         "Document Key":"KIE601-TSTRN-73812",
         "Name":"KFPS tool ",
         "Assigned To":"VIGNESHWARAR"
