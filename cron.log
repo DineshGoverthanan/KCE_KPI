@@ -10248,3 +10248,60 @@ Data exported to kp_data.xlsx
  M raw_testrun_data.csv
  M raw_testrun_data.json
  M testrun_data.json
+---- Staged files (cached) ----
+cron.log
+defect_data.csv
+filtered_defect_data.csv
+filtered_defect_data.json
+filtered_testrun_data.csv
+filtered_testrun_data.json
+kp_data.csv
+kp_data.xlsx
+raw_defect_data.csv
+raw_defect_data.json
+raw_testrun_data.csv
+raw_testrun_data.json
+testrun_data.json
+[main bbce635] Auto update on 2025-12-19 19:36:46
+ 13 files changed, 2764 insertions(+), 305 deletions(-)
+ rewrite kp_data.xlsx (95%)
+✅ Commit created.
+To github.com:DineshGoverthanan/KCE_KPI.git
+   681a6e3..bbce635  main -> main
+✅ Changes pushed to origin/main.
+Run completed at: 2025-12-19 19:36:53
+============================================================
+============================================================
+Script started at: 2025-12-20 07:30:01
+On branch: main
+Unable to fetch token: 405 Client Error: Not Allowed for url: https://konerqm.jamacloud.com/rest/oauth/token
+Traceback (most recent call last):
+  File "/home/rellab/KCE_KPI/venv/lib/python3.10/site-packages/py_jama_rest_client/core.py", line 130, in __get_fresh_token
+    response.raise_for_status()
+  File "/home/rellab/KCE_KPI/venv/lib/python3.10/site-packages/requests/models.py", line 1026, in raise_for_status
+    raise HTTPError(http_error_msg, response=self)
+requests.exceptions.HTTPError: 405 Client Error: Not Allowed for url: https://konerqm.jamacloud.com/rest/oauth/token
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/rellab/KCE_KPI/venv/lib/python3.10/site-packages/py_jama_rest_client/client.py", line 69, in __init__
+    self.__core = Core(host_domain, credentials, api_version=api_version, oauth=oauth, verify=verify)
+  File "/home/rellab/KCE_KPI/venv/lib/python3.10/site-packages/py_jama_rest_client/core.py", line 44, in __init__
+    self.__get_fresh_token()
+  File "/home/rellab/KCE_KPI/venv/lib/python3.10/site-packages/py_jama_rest_client/core.py", line 133, in __get_fresh_token
+    raise UnauthorizedTokenException(message + str(err), response.status_code)
+py_jama_rest_client.core.UnauthorizedTokenException: Unable to fetch token: 405 Client Error: Not Allowed for url: https://konerqm.jamacloud.com/rest/oauth/token
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/rellab/KCE_KPI/kpi.py", line 72, in <module>
+    client = JamaClient(
+  File "/home/rellab/KCE_KPI/venv/lib/python3.10/site-packages/py_jama_rest_client/client.py", line 72, in __init__
+    raise APIException(str(err))
+py_jama_rest_client.client.APIException: Unable to fetch token: 405 Client Error: Not Allowed for url: https://konerqm.jamacloud.com/rest/oauth/token
+❌ Python script failed at: 2025-12-20 07:30:10
+---- git status (before add) ----
+## main...origin/main
+ M cron.log
