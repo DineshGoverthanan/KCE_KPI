@@ -1,1 +1,6 @@
+*
+!kp_data.csv
+!kp_data.xlsx
+!.gitignore
 .env
+
