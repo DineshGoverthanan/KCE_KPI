@@ -1,6 +1,12 @@
+# Ignore everything
 *
-!jama_exports/kp_data.csv
-!jama_exports/kp_data.xlsx
-!.gitignore
-.env
 
+# Allow .gitignore file itself
+!.gitignore
+
+# Allow kp_data.xlsx
+!jama_exports/
+!jama_exports/kp_data.xlsx
+
+# Ignore environment variables file
+.env
