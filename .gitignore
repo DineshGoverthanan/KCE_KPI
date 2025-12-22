@@ -6,7 +6,7 @@
 
 # Allow kp_data.xlsx
 !jama_exports/
-!jama_exports/kp_data.xlsx
+!jama_exports/kp_data.csv
 
 # Ignore environment variables file
 .env
